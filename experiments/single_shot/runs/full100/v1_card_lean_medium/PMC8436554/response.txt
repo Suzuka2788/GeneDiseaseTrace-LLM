@@ -1,0 +1,82 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text incl. tables; supplementary files unread
+E|G1|gene|NEFH|NEFH;pNEFH;neurofilament heavy polypeptide|r||human||
+E|G2|gene|NEFM|NEFM;neurofilament medium polypeptide|r||human||
+E|G3|gene|NEFL|NEFL;neurofilament light polypeptide|r||human||
+E|G4|gene|NEFL (mouse)|NEFL|p|species_unresolved|non-human||
+E|G5|gene|C9orf72|C9orf72|r||human||
+E|G6|gene|SOD1|SOD1|r||human||
+E|G7|gene|FUS|FUS|r||human||
+E|G8|gene|TARDBP|TARDBP|r||human||
+E|D1|disease|amyotrophic lateral sclerosis|amyotrophic lateral sclerosis;Amyotrophic lateral sclerosis;ALS|r|||D2|
+E|D2|disease|neurodegenerative disease|neurodegenerative disease;neurodegenerative diseases|r||||
+E|D3|disease|sporadic amyotrophic lateral sclerosis|sporadic amyotrophic lateral sclerosis;sALS|r|||D1|
+E|D4|disease|Charcot-Marie-Tooth disease|Charcot-Marie-Tooth disease|r||||
+E|D5|disease|Parkinson's disease|Parkinson's disease|r||||
+E|D6|disease|congenital myopathy|congenital myopathy|r||||
+E|D7|disease|motor neuron disease|motor neuron disease;motor neuron diseases|r||||
+E|D8|disease|frontotemporal dementia|frontotemporal dementia;Frontotemporal dementia;FTD|r||||
+E|D9|disease|ALS-like diseases|ALS-like diseases|r||||
+E|D10|disease|degenerative diseases|degenerative diseases|r||||
+E|D11|disease|degenerative neurological disorders|degenerative neurological disorders|r||||
+E|D12|disease|malignancy|malignancy|r||||
+E|S1|symptom|muscle atrophy|muscle atrophy|r||||
+E|S2|symptom|swallowing disorders|swallowing disorders|r||||
+E|S3|phenotype|motor function impairment|motor function impairment|r||||
+X|Neurofilaments (NFs)|b0014|complex of NEFL/NEFM/NEFH, not single gene
+X|rs568759161|b0007|variant ID
+X|KSP|b0087|protein domain
+X|ALSod|b0082|database
+EV|V1|b0003.s2+b0013.s8|bg|bgr|aff|ebr
+EV|V2|b0013.s7|bg|bgr|aff|ebr
+EV|V3|b0003.s3+b0013.s9|bg|bgr|aff|ebr
+EV|V4|b0014.s10|bg|bgr|aff|ebr
+EV|V5|b0014.s11+b0085.s2+b0085.s3|bg|bgr|q|unc
+EV|V6|b0085.s1|bg|bgr|aff|ebr
+EV|V7|b0007.s2+b0069.s5+b0073.s1+b0075.s1+b0076.s1|ts|res|aff|rr,cmp
+EV|V8|b0009.s1+b0083.s1+b0085.s4+b0085.s5+b0087.s1|ts|res|aff|rr,cmp
+EV|V9|b0007.s3+b0069.s1+b0082.s9|ts|res|aff|rr,cmp
+EV|V10|b0009.s1+b0015.s3+b0082.s7|ts|neg|neg|rr,cmp
+EV|V11|b0082.s9|ts|neg|neg|rr,cmp
+EV|V12|b0014.s13|bg|bgr|q|ebr,unc
+EV|V13|b0014.s8|bg|bgr|aff|ebr
+EV|V14|b0014.s9|bg|bgr|aff|ebr
+EV|V15|b0082.s5|bg|bgr|aff|ebr
+EV|V16|b0082.s6|bg|bgr|aff|ebr
+EV|V17|b0036.s9+b0036.s10+b0063.s1+b0069.s2|ts|res|aff|rr,cmp
+EV|V18|b0069.s4|ts|res|aff|rr,cmp
+EV|V19|b0067.s3|ts|neg|neg|rr
+EV|V20|b0080.s4|ts|neg|neg|rr
+EV|V21|b0078.s1|ts|res|na|rr
+EV|V22|b0082.s8|ts|res|na|rr
+EV|V23|b0084.s4+b0084.s5|ts|hyp|hyp|ho
+P|G1|D3|sup|a|both|sup:a:bg:V4;sup:a:ts:V7+V8+V17+V18|||S787R variant case-control association, replicated
+P|G1|D1|sup|a|both|sup:a:bg:V4;sup:a:bg:V6;sup:a:bg:V14;unc:-:bg:V5;sup:a:ts:V9|||Susceptibility gene background; study association
+P|G2|D3|neg|-|ts|neg:-:ts:V10|||No association of NEFM variants with sALS
+P|G2|D1|neg|-|ts|neg:-:ts:V11;neg:-:bg:V12|scope|V12|Genetic null; upregulation in ALS or ALS-like unclear
+P|G3|D3|neg|-|ts|neg:-:ts:V10|||No association of NEFL variants with sALS
+P|G3|D1|sup|a|bg|sup:a:bg:V13;sup:a:bg:V14;neg:-:bg:V12;neg:-:ts:V11|||Expression/biomarker link; genetic null separate question
+P|G3|D4|sup|c|bg|sup:c:bg:V15|||NEFL mutation cause of CMT
+P|G3|D6|sup|c|bg|sup:c:bg:V15|||NEFL mutation cause of congenital myopathy
+P|G4|D7|sup|c|bg|sup:c:bg:V15|||NEFL mutation causes motor neuron disease in mice
+P|G2|D5|sup|a|bg|sup:a:bg:V16|||NEFM linked to Parkinson's disease
+P|G5|D1|sup|c|bg|sup:c:bg:V1|||Listed causative ALS gene
+P|G6|D1|sup|c|bg|sup:c:bg:V1+V2|||First ALS-causing gene
+P|G7|D1|sup|c|bg|sup:c:bg:V1|||Listed causative ALS gene
+P|G8|D1|sup|c|bg|sup:c:bg:V1|||Listed causative ALS gene
+P|G5|D3|sup|a|bg|sup:a:bg:V3|||Mutations explain ~10% sALS
+P|G6|D3|sup|a|bg|sup:a:bg:V3|||Mutations explain ~10% sALS
+P|G7|D3|sup|a|bg|sup:a:bg:V3|||Mutations explain ~10% sALS
+P|G8|D3|sup|a|bg|sup:a:bg:V3|||Mutations explain ~10% sALS
+F|F1|association|NEFH Ser787Arg carrier vs sALS|Phase I 371 cases, 711 controls|mixed|positive|available|V17|nominal only; fails Bonferroni
+F|F2|association|NEFH Ser787Arg carrier vs sALS|Phase II 300 cases, 1076 controls|significant|positive|available|V18|
+F|F3|association|NEFH Ser787Arg carrier vs sALS|Combined 671 cases, 1787 controls|significant|positive|available|V7|wide CI; few carriers
+F|F4|group_comparison|rare variant burden per gene|sALS vs controls, SKAT-O|not_significant|null|unread|V19|Table S3 unread
+F|F5|group_comparison|common/low-frequency variant allele frequencies|sALS vs controls|not_significant|null|unread|V20|Table S5 unread
+F|F6|group_comparison|AAO in Ser787Arg carriers vs others|sALS cases|not_significant|null|partial|V21|
+F|F7|group_comparison|clinical features by variant carrier status|sALS cases|not_significant|null|not_reported|V22|
+F|F8|hypothesis|S787R alters NEFH phosphorylation|none|not_applicable|unknown|not_applicable|V23|untested
+C|C1|NEFH-ALS background evidence contradictory|b0014.s10+b0014.s11+b0085.s2|noncritical|resolved|this study supplies own support
+C|C2|NEFH rare variant carrier count in cases|b0036.s3+b0082.s4+b0036.s4|noncritical|unresolved|20 carriers vs 17/371 nonsynonymous
+U|Additional files 1-6|b0021.s3;b0036.s9;b0067.s3;b0078.s2;b0080.s2|not provided
+R|scope of ALS vs sALS|b0007.s3;b0069.s1;b0082.s9|study population sALS but results stated for ALS|Recorded ts claim for ALS as written, plus sALS pair

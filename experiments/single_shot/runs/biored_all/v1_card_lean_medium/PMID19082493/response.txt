@@ -1,0 +1,27 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|thymidylate synthase|thymidylate synthase;TS|r|||human||
+E|D1|disease|colorectal cancer|colorectal cancer;CRC|r|||||
+E|D2|disease|rectal cancer|rectal cancers|p|other||D1|
+E|CE1|clinical_event|progression-free survival|progression-free survival;PFS|r|||||
+E|CE2|clinical_event|overall survival|survival|p|other||||
+E|PH1|phenotype|Dukes stage|Dukes stages|r|||||
+X|left-sided tumours|b0002|anatomical tumour-site subgroup of CRC, not separate disease
+X|right-sided tumours|b0002|anatomical tumour-site subgroup of CRC, not separate disease
+X|2R/2R|b0002|genotype label, not gene
+X|G_6+/6+|b0002|combined genotype label, not gene
+EV|V1|b0002.s11+b0002.s13|ts|res|aff|rr,cmp
+EV|V2|b0002.s10|ts|neg|neg|rr
+EV|V3|b0002.s7+b0002.s8|ts|res|aff|rr
+EV|V4|b0002.s9+b0002.s12|ts|res|aff|rr
+EV|V5|b0002.s1|ts|aim|q|none
+P|G1|CE1|sup|a|ts|sup:a:ts:V1;neg:-:ts:V2|||Combined TS genotypes differ in PFS; single SNPs not
+P|G1|CE2|neg|-|ts|neg:-:ts:V2|||No single TS polymorphism affected overall survival
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V3|scope|V5|Only within-CRC prognosis and site distribution tested
+P|G1|D2|nf|-||||V3|Site-wise genotype frequency within CRC only
+F|F1|group_comparison|TS VNTR, ins/del genotypes vs tumour site|113 advanced CRC patients|significant|mixed|partial|V3|pooled multi-site comparison
+F|F2|group_comparison|6+/6- genotype vs Dukes stage|113 advanced CRC patients|significant|positive|partial|V4|P=0.05 borderline
+F|F3|association|single TS polymorphisms vs OS, PFS|5FU-treated CRC patients|not_significant|null|not_reported|V2|
+F|F4|group_comparison|C_6+/6+ vs G_6+/6+ combined genotype PFS|5FU-treated CRC patients|significant|negative|partial|V1|abstract only; G_6+/6+ worse PFS
+F|F5|descriptive|Dukes B rate in G_6+/6+|5FU-treated CRC patients|unknown|not_applicable|not_reported|V4|
+R|verbatim surface form|b0002.s2,b0002.s10|"overall survival" never written contiguously; only "overall ... survival"|Used surface "survival" for overall survival; marked provisional

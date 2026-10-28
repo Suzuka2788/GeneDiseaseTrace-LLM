@@ -1,0 +1,52 @@
+META|Claude Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full case-report text, Figure 1 caption; pedigree image unread
+E|G1|gene|PSEN1|PSEN1;presenilin 1|r||human||
+E|G2|gene|PSEN2|PSEN2;presenilin 2|r||human||
+E|G3|gene|PRNP|PRNP;prion protein|r||human||
+E|D1|disease|Alzheimer's disease|Alzheimer's disease;AD|r||||
+E|D2|disease|autosomal dominant Alzheimer's disease|autosomal dominant Alzheimer's disease|r|||D1|
+E|D3|disease|familial AD|familial AD|r|||D1|
+E|D4|disease|sporadic AD|sporadic AD|r|||D1|
+E|D5|disease|complex neurodegenerative movement and neuropsychiatric disorder (family disease)|Complex Neurodegenerative Movement and Neuropsychiatric Disorder;neurodegenerative disease|p|other||||
+E|D6|disease|transmissible spongiform encephalopathy|transmissible spongiform encephalopathy|r||||
+E|D7|disease|prion disease|prion disease|r||||
+E|D8|disease|spinocerebellar ataxia types 1, 2, 3, 6, and 7|spinocerebellar ataxia|r||||
+E|D9|disease|Huntington's disease|Huntington's disease|r||||
+E|D10|disease|Friedreich's ataxia|Friedreich's ataxia|r||||
+E|D11|disease|dentato-rubral pallidoluysian atrophy|dentato-rubral pallidoluysian atrophy|r||||
+E|D12|disease|human immunodeficiency virus infection|human immunodeficiency virus|p|other|||
+E|D13|disease|syphilis|syphilis|r||||
+E|D14|disease|hepatitis B|hepatitis B|r||||
+E|D15|disease|hepatitis C|hepatitis C|r||||
+E|D16|disease|substance abuse|substance abuse|r||||
+E|D17|disease|alcohol abuse|alcohol abuse|r||||
+E|D18|disease|complex neurological disorders|complex neurological disorders|r||||
+E|S1|symptom|ataxia|ataxia|r||||
+E|S2|symptom|Parkinsonism|Parkinsonism|r||||
+E|S3|symptom|seizures|seizures|r||||
+E|S4|phenotype|dementia|dementia|r||||
+E|S5|phenotype|Lewy body formation|Lewy body formation|r||||
+X|Canadian CJD Surveillance System|b0016|surveillance programme name, not disease mention
+X|NM_000311|b0008|transcript identifier
+X|ClinVar|b0009|database
+EV|V1|b0002.s1+b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0011.s2|bg|bgr|aff|ebr
+EV|V3|b0012.s3|bg|bgr|aff|ebr
+EV|V4|b0009.s9+b0017.s2+b0017.s6|ts|res|aff|rr,cs
+EV|V5|b0012.s6|ts|int|aff|eda,cs
+EV|V6|b0008.s4+b0008.s5|ts|neg|neg|cs,rr
+EV|V7|b0012.s7+b0012.s8|ts|int|q|unc
+EV|V8|b0008.s1|bg|co|na|do
+EV|V9|b0008.s2|ts|hyp|hyp|ho
+P|G1|D2|sup|c|bg|sup:c:bg:V1||| most common cause stated
+P|G1|D1|sup|c|bg|sup:c:bg:V2|||AD due to PSEN1 mutations stated
+P|G1|D3|sup|a|bg|sup:a:bg:V3|||Met233 substitutions associated with familial AD
+P|G1|D5|sup|c|ts|sup:c:ts:V5;sup:a:ts:V4|||co-segregation; stated necessary and sufficient
+P|G3|D5|neg|-|ts|neg:-:ts:V6;unc:-:ts:V7|hedged_claim||no segregation; modifier role left unclear
+P|G2|D5|unc|-|ts|unc:-:ts:V4+V7|hedged_claim|V4|did not segregate; contribution unclear
+P|G3|D6|unc|-|ts|unc:-:ts:V9;neg:-:ts:V6|hedged_claim||suggestive only, later deemed unlikely pathogenic
+P|G3|D4|nf|-|bg|||V8|variant seen in single subject only
+F|F1|descriptive|PSEN1 p.Met233Val segregation with disease|family members|not_applicable|positive|not_applicable|V4|pedigree image unread
+F|F2|descriptive|PRNP/PSEN2 variant segregation|family members|not_applicable|null|not_applicable|V6+V4|pedigree image unread
+C|C1|PRNP variant protein change Asn vs Asp|b0008.s1;b0009.s8;b0012.s7|noncritical|unresolved|c.290G>A same; transcript differs
+U|Figure 1 pedigree image|b0009.s9;b0012.s6|only caption text available

@@ -1,0 +1,11 @@
+﻿candidate_id,surface,block_id,context,candidate_type,excluded_reason,reason
+X1,granulocyte colony-stimulating factor,b0069,granulocyte colony-stimulating factor to improve neutropenia [15],therapeutic_protein,drug_treatment_not_gene_mention,Used only as a symptomatic treatment agent; no gene named and no gene-level claim. Not mapped to an encoding gene from external knowledge (R1/R8).
+X2,autosomal recessive hereditary disease,b0009,Cohen syndrome (OMIM No. # 216550) is a rare autosomal recessive hereditary disease [1].,inheritance_mode_descriptor,inheritance_mode_not_disease_category,"'rare autosomal recessive disorder/hereditary disease' (b0003, b0009) describes the inheritance mode of Cohen syndrome rather than naming a disease family; recorded as qualifier of D1. See rule_feedback."
+X3,genetic diseases,b0071,great attention should be paid to the possibility of genetic diseases,generic_disease_term,generic_non_specific_term,"Generic clinical-advice phrase, not used as disease category in any relation or analysis."
+X4,Autistic Behavior Checklist (ABC),b0014,The Autistic Behavior Checklist (ABC) score was 61.,assessment_instrument,assessment_tool,Screening instrument name; no autism diagnosis is stated.
+X5,modified Checklist for Autism in Toddlers (M-chat),b0019,The modified Checklist for Autism in Toddlers (M-chat) score was 28.,assessment_instrument,assessment_tool,Screening instrument name; no autism diagnosis is stated.
+X6,ophthalmologic or cardiologic abnormality,b0068,our patient did not present any ophthalmologic or cardiologic abnormality [17],generic_abnormality_negated,negated_generic_finding,Negated generic finding in the patients; not a named disease.
+X7,NM_017890.4,b0005,NM_017890.4 Intron38 c.6940+1G > T,reference_sequence,reference_sequence_not_entity,Recorded under G1.reference_sequences_from_text.
+X8,ACMG / PVS1 / PM2 / PM3 / PS3,b0052,Table 2 ACMG evidence codes,guideline_codes,guideline_code_not_entity,Guideline and evidence codes are not entities.
+X9,gnomAD,b0061,has not yet been collected in gnomAD database,database,database_not_entity,Database name.
+X10,Golgi complex,b0067,helps to maintain the structure and function of the Golgi complex,cellular_component,cellular_component_not_gene,"Organelle, not a gene or protein complex of named genes."

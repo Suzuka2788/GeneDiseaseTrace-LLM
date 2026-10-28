@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|FRMD7|FRMD7|r||human||
+E|G2|gene|androgen receptor|androgen receptor|r||human||
+E|D1|disease|X linked nystagmus|X linked nystagmus;NYS;X linked NYS|r||||
+E|S1|phenotype|skewed X inactivation|Skewed X inactivation|r||||
+X|Xp11|b0002.s2|locus identifier, not a gene
+X|Xq26|b0002.s2|locus identifier, not a gene
+X|p.R229G|b0002.s7|variant ID
+EV|V1|b0002.s7+b0002.s8+b0002.s11|ts|res|aff|rr,eda
+EV|V2|b0001.s1|ts|res|aff|eda
+EV|V3|b0002.s4|ts|co|na|do
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2||||Novel FRMD7 mutation explicitly stated to cause NYS
+P|G2|D1|nf|-|||||V3|AR CAG repeat used only as assay marker
+F|F1|association|Xq26 linkage with NYS|Turkish NYS family, 162 members|unknown|positive|not_reported||LOD scores not given
+F|F2|descriptive|p.R229G in controls|120 control individuals|not_applicable|not_applicable|not_applicable|V1|
+F|F3|group_comparison|homozygous vs heterozygous female clinical findings|affected females in the family|unknown|null|not_reported||single homozygous female
+F|F4|descriptive|skewed X inactivation in affected females|affected females in the family|unknown|unknown|not_reported||no statistics reported

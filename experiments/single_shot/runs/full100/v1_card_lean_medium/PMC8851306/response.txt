@@ -1,0 +1,155 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full main text, tables 1-4; supplement not provided
+E|G1|gene|SPINK1|SPINK1|r||human||
+E|G2|gene|CFTR|CFTR|r||human||
+E|G3|gene|CPA1|CPA1|r||human||
+E|G4|gene|CPB1|CPB1|r||human||
+E|G5|gene|BRCA2|BRCA2;BRCA1/2|r||human||
+E|G6|gene|BRCA1|BRCA1;BRCA1/2|r||human||
+E|G7|gene|PALB2|PALB2|r||human||
+E|G8|gene|ATM|ATM|r||human||
+E|G9|gene|BRIP1|BRIP1|r||human||
+E|G10|gene|FANCA|FANCA|r||human||
+E|G11|gene|FANCC|FANCC|r||human||
+E|G12|gene|RAD51D|RAD51D|r||human||
+E|G13|gene|XRCC2|XRCC2|r||human||
+E|G14|gene|TP53|TP53|r||human||
+E|G15|gene|ARID1A|ARID1A|r||human||
+E|G16|gene|ERCC4|ERCC4|r||human||
+E|G17|gene|FANCG|FANCG|r||human||
+E|G18|gene|FANCL|FANCL|r||human||
+E|G19|gene|FANCJ|FANCJ|r||human||
+E|G20|gene|RAD51C|RAD51C|r||human||
+E|G21|gene|RECQL4|RECQL4|r||human||
+E|G22|gene|XRCC3|XRCC3|r||human||
+E|G23|gene|CHEK2|CHEK2|r||human||
+E|G24|gene|CDKN2A|CDKN2A|r||human||
+E|G25|gene|MLH1|MLH1|r||human||
+E|G26|gene|MSH2|MSH2|r||human||
+E|G27|gene|PRSS1|PRSS1|r||human||
+E|G28|gene|STK11|STK11|r||human||
+E|G29|gene|TERT|TERT|r||human||
+E|G30|gene|BAP1|BAP1|r||human||
+E|G31|gene|BUB1|BUB1|r||human||
+E|G32|gene|BUB3|BUB3|r||human||
+E|G33|gene|RNF43|RNF43|r||human||
+E|G34|ambiguous_gene|PRSS|PRSS|u|undefined_abbreviation,ambiguous_mapping|human||
+E|D1|disease|pancreatic ductal adenocarcinoma|pancreatic ductal adenocarcinoma;PDAC;pancreatic ductal adenocarcinomas;Pancreatic Ductal Adenocarcinoma|r||||
+E|D2|disease|pancreatic cancer|pancreatic cancer;Pancreatic Cancer;Pancreatic cancer|r||||
+E|D3|disease|sporadic pancreatic cancer|sporadic pancreatic cancer;sporadic pancreatic cancers|r|||D2|
+E|D4|disease|sporadic PDAC|sporadic PDAC;sporadic PDACs|r|||D1|
+E|D5|disease|familial pancreatic cancer|familial pancreatic cancer|r|||D2|
+E|D6|disease|metastatic pancreatic cancer|metastatic pancreatic cancer|r|||D2|
+E|D7|disease|acute pancreatitis|acute pancreatitis;Acute pancreatitis;AP|r|||D10|
+E|D8|disease|chronic pancreatitis|chronic pancreatitis;Chronic pancreatitis;CP|r|||D10|
+E|D9|disease|idiopathic chronic pancreatitis|idiopathic chronic pancreatitis|r|||D8|
+E|D10|disease|pancreatitis|pancreatitis|r||||
+E|D11|disease|hereditary pancreatitis|Hereditary pancreatitis|r|||D10|
+E|D12|disease|recurrent pancreatitis|recurrent pancreatitis|r|||D10|
+E|D13|disease|pancreatic cystic tumors|pancreatic cystic tumors|r||||
+E|D14|disease|intraductal papillary mucinous neoplasm|intraductal papillary mucinous neoplasms;intraductal papillary mucinous neoplasm;Intraductal papillary mucinous neoplasm;IPMNs;IPMN|r|||D13|
+E|D15|disease|invasive IPMN|invasive IPMN;invasive carcinoma|p|other|||
+E|D16|disease|mucinous cystic neoplasm|mucinous cystic neoplasms;Mucinous cystic neoplasm|r||||
+E|D17|disease|serous cystic neoplasm|serous cystic neoplasms;Serous cystic neoplasm;SCN|r|||D13|
+E|D18|disease|solid pseudopapillary tumor|solid pseudopapillary tumors;Solid pseudopapillary tumor;SPT|r|||D13|
+E|D19|disease|pancreatic neuroendocrine tumor|pancreatic neuroendocrine tumors;pancreatic neuroendocrine tumor;Pancreatic neuroendocrine tumor;PNET|r||||
+E|D20|disease|gastrointestinal stromal tumor|gastrointestinal stromal tumors;Gastrointestinal stromal tumor|r||||
+E|D21|disease|ampullary carcinoma|ampullary carcinoma;Ampullary carcinoma|r||||
+E|D22|disease|cholangiocarcinoma|cholangiocarcinoma;Cholangiocarcinoma|r||||
+E|D23|disease|duodenal adenocarcinoma|duodenal adenocarcinoma;Duodenal adenocarcinoma|r||||
+E|D24|disease|breast cancer|Breast cancer|r||||
+E|D25|disease|lymphoma|lymphoma|r||||
+E|D26|disease|lung cancer|Lung cancer;lung cancer|r||||
+E|D27|disease|ovarian cancer|Ovarian cancer|r||||
+E|D28|disease|colon polyps|Colon polyps|r||||
+E|D29|disease|esophageal cancer|Esophageal cancer|r||||
+E|D30|disease|gastric cancer|Gastric cancer;gastric cancer|r||||
+E|D31|disease|lymphosarcoma|Lymphosarcoma|r||||
+E|D32|disease|colorectal cancer|Colorectal cancer;colorectal cancer|r||||
+E|D33|disease|rectal cancer|Rectal cancer|r||||
+E|D34|disease|liver cancer|liver cancer|r||||
+E|D35|disease|colon cancer|colon cancer|r||||
+X|non-PDAC diseases|b0041|table_grouping_label
+X|noncancer pancreatic diseases|b0213|disease grouping label, not single disease
+X|HR-DDR|b0031|pathway gene set, not single gene
+X|Hereditary cancer genes|b0138|gene set row label
+X|BRCA|b0023|gene family label covering BRCA1/2
+EV|V1|b0157.s2|ts|res|aff|rr,cmp
+EV|V2|b0018.s3+b0143.s1+b0147.s1|ts|res|aff|rr,cmp
+EV|V3|b0018.s6+b0150.s1|ts|res|aff|rr,cmp
+EV|V4|b0151.s1|ts|res|aff|rr,cmp
+EV|V5|b0217.s6|ts|res|aff|cmp
+EV|V6|b0006.s1|ts|res|aff|rr
+EV|V7|b0214.s7|bg|neg|neg|ebr
+EV|V8|b0214.s6|ts|res|aff|rr,cmp
+EV|V9|b0214.s6|bg|bgr|aff|ebr
+EV|V10|b0214.s1|bg|bgr|aff|ebr
+EV|V11|b0214.s3|bg|neg|neg|ebr
+EV|V12|b0214.s7|bg|bgr|aff|ebr
+EV|V13|b0018.s7+b0157.s6|ts|co|na|do
+EV|V14|b0141.s1|ts|neg|neg|cmp
+EV|V15|b0142.s1|ts|neg|neg|cmp
+EV|V16|b0144.s1|ts|neg|neg|cmp
+EV|V17|b0145.s1|ts|neg|neg|cmp
+EV|V18|b0146.s1|ts|neg|neg|cmp
+EV|V19|b0148.s1|ts|neg|neg|cmp
+EV|V20|b0149.s1|ts|neg|neg|cmp
+EV|V21|b0152.s1|ts|neg|neg|cmp
+EV|V22|b0217.s1|bg|bgr|aff|ebr
+EV|V23|b0217.s2|bg|bgr|aff|ebr
+EV|V24|b0217.s5|bg|bgr|pre|unc
+EV|V25|b0217.s7|ts|int|hyp|ho
+EV|V26|b0217.s3|bg|bgr|aff|unc
+EV|V27|b0216.s3|bg|bgr|aff|ebr
+EV|V28|b0159.s1|ts|co|na|do
+EV|V29|b0157.s3+b0138.s1+b0139.s1+b0140.s1|ts|res|aff|cmp
+EV|V30|b0157.s4+b0157.s5|ts|res|neg|cmp
+EV|V31|b0154.s5|ts|res|neg|cmp
+EV|V32|b0213.s3|ts|res|aff|cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V3+V5+V6|||Significant OR vs ExAC and ChinaMap
+P|G2|D1|sup|a|ts|sup:a:ts:V1+V4+V6|||Significant OR vs ExAC, Bonferroni-robust
+P|G5|D1|sup|a|ts|sup:a:ts:V1+V2|||Significant OR vs ExAC
+P|G7|D1|sup|a|ts|sup:a:ts:V1+V2|||Significant OR vs ExAC
+P|G6|D1|neg|-|ts|neg:-:ts:V15|||Non-significant OR vs ExAC (P=.28)
+P|G8|D1|neg|-|ts|neg:-:ts:V14|||Non-significant OR vs ExAC (P=.57)
+P|G9|D1|neg|-|ts|neg:-:ts:V16|||Non-significant OR vs ExAC (P=.56)
+P|G10|D1|neg|-|ts|neg:-:ts:V17|||Non-significant OR vs ExAC (P=.79)
+P|G11|D1|neg|-|ts|neg:-:ts:V18|||Non-significant OR vs ExAC (P=.08)
+P|G12|D1|neg|-|ts|neg:-:ts:V19|||Non-significant OR vs ExAC (P=.81)
+P|G13|D1|neg|-|ts|neg:-:ts:V20|||Non-significant OR vs ExAC (P=.19)
+P|G14|D1|neg|-|ts|neg:-:ts:V21|||Non-significant OR vs ExAC (P=.42)
+P|G3|D1|nf|-||||V13|Not detected; no association test
+P|G4|D1|nf|-||||V13|Not detected; no association test
+P|G5|D2|sup|a|both|sup:a:ts:V8;sup:a:bg:V9+V10;neg:-:bg:V11|||Nanjing and JHH results; Chinese null cited
+P|G7|D2|sup|a|ts|sup:a:ts:V8|||Nanjing cohort risk association
+P|G6|D2|sup|a|bg|sup:a:bg:V10|||Background BRCA1/2 risk statement
+P|G8|D2|sup|a|bg|sup:a:bg:V9|||JHH cohort US risk association
+P|G3|D2|sup|a|bg|sup:a:bg:V12|||Cited JHH study association
+P|G4|D2|sup|a|bg|sup:a:bg:V12|||Cited JHH study association
+P|G1|D2|neg|-|bg|neg:-:bg:V7;unc:-:bg:V24;unc:-:ts:V25|hedged_claim,presupposed_only||German study no association; authors hedge
+P|G2|D2|neg|-|bg|neg:-:bg:V7|||German study no association
+P|G1|D11|sup|a|bg|sup:a:bg:V22|||Background germline variation accompaniment
+P|G2|D11|sup|a|bg|sup:a:bg:V22|||Background germline variation accompaniment
+P|G34|D11|unc|-||unc:-:bg:V22|identity|||PRSS identity unresolved
+P|G1|D9|sup|a|bg|sup:a:bg:V23|||Cited variant prevalence in patients
+P|G1|D8|unc|-||unc:-:bg:V24;unc:-:ts:V25|presupposed_only,hedged_claim|V28|Association only presupposed or hedged
+P|G1|D12|unc|-||unc:-:bg:V26|coreference|||Variation antecedent unclear
+P|G8|D14|sup|a|bg|sup:a:bg:V27|scope||Cited variants in IPMN with invasive cancer
+P|G5|D14|sup|a|bg|sup:a:bg:V27|scope||Cited variants in IPMN with invasive cancer
+P|G7|D14|sup|a|bg|sup:a:bg:V27|scope||Cited variants in IPMN with invasive cancer
+F|F1|group_comparison|HR-DDR, susceptibility, hereditary cancer gene groups|Nanjing PDAC vs ExAC|significant|positive|available|V29|
+F|F2|group_comparison|PALB2 and most genes, cohort|Nanjing PDAC vs JHH PDAC|not_significant|positive|partial|V30|eTable 6 unread
+F|F3|association|stage, location, age, sex vs germline variation|Nanjing PDAC|not_significant|null|unread|V31|eTable 5 unread
+F|F4|group_comparison|overall deleterious variation rate|PDAC vs ExAC and ChinaMAP|significant|positive|partial|V32|
+F|F5|descriptive|SPINK1 c.194+2T>C prevalence|chronic pancreatitis patients|not_applicable|not_applicable|not_applicable|V28|no comparator
+C|C1|BRIP1 listed variation-free yet detected|b0155.s2+b0144.s1+b0065.s9|noncritical|unresolved|4 PDAC carriers reported
+C|C2|ExAC hereditary cancer gene percentage|b0138.s1|noncritical|unresolved|94 of 4154 is not 9.3%
+C|C3|Chronic pancreatitis carrier count|b0159.s1+b0202.s1|noncritical|unresolved|Table 4 adds PALB2 CP case
+C|C4|SPT carrier count|b0159.s10+b0210.s1|noncritical|unresolved|Table 4 adds SPINK1 SPT case
+U|eTable 3|b0065.s14|supplement not provided
+U|eTable 5|b0154.s5|supplement not provided
+U|eTable 6|b0157.s4|supplement not provided
+U|eTable 7|b0159.s1|supplement not provided
+U|eFigure|b0154.s2|supplement not provided
+R|merging|b0214.s6|PDAC and pancreatic cancer used interchangeably, not defined as synonyms|Kept separate entities; pairs assigned by wording used
+R|gene sets|b0216.s3|Example members (eg ATM, BRCA2, PALB2) named for gene group|Assigned to each named member, flagged scope

@@ -1,0 +1,33 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full letter text and supplementary captions; figure images unread
+E|G1|gene|POLR1C|POLR1C;polr1c|r||human||
+E|G2|gene|LAMP1|LAMP1|p|species_unresolved|||
+E|G3|gene|mouse POLR1C|POLR1C|p|other|non-human||
+E|G4|gene|rat POLR1C|POLR1C|p|other|non-human||
+E|G5|gene|yeast POLR1C|POLR1C|r||non-human||
+E|D1|disease|Hypomyelinating leukodystrophies|Hypomyelinating leukodystrophis;HLDs;HLD|p|suspected_typo|||
+E|D2|disease|Pelizaeus-Merzbacher disease|Pelizaeus-Merzbacher disease;PMD;HLD1|r||||
+E|D3|disease|HLD11|HLD11|p|undefined_abbreviation|||
+E|D4|disease|Treacher-Collins syndrome 3|Treacher-Collins syndrome 3|r||||
+E|D5|disease|congenital central nervous system neuropathies|congenital central nervous system (CNS) neuropathies|r||||
+E|S1|phenotype|demyelination|demyelination|r||||
+X|Neomycin-resistant gene|b0012|selection marker, not an endpoint gene
+X|N32I|b0003|variant ID
+X|N74S|b0003|variant ID
+X|OMIN No. 616494|b0003|database identifier
+EV|V1|b0003.s3|bg|bgr|aff|ebr
+EV|V2|b0013.s3+b0014.s3|bg|bgr|aff|ebr
+EV|V3|b0013.s4+b0014.s4+b0007.s2|bg|bgr|aff|ebr
+EV|V4|b0001.s1|unk|bgr|aff|unc
+EV|V5|b0005.s3+b0005.s4+b0004.s7+b0010.s1|ts|res|na|rr,cmp
+EV|V6|b0005.s6+b0012.s1+b0012.s5|ts|res|na|rr,cmp
+EV|V7|b0005.s5+b0011.s1|ts|res|na|do
+P|G1|D3|sup|a|bg|sup:a:bg:V1+V2|||N32I/N74S missense mutations reported associated with HLD11
+P|G1|D4|sup|a|bg|sup:a:bg:V3|||Captions state POLR1C missense mutations associated with TCS3
+P|G1|D1|unc|-|unk|unc:-:unk:V4|scope||Title HLD-associated; generic family vs HLD11 unclear
+P|G1|D2|nf|-||||||Only co-mentioned as HLD prototype
+F|F1|group_comparison|POLR1C N32I vs wild type; punctate localization|FBD-102b cells, transfected|significant|positive|partial|V5|n=3 fields; cell phenotype only
+F|F2|group_comparison|POLR1C N32I/N74S mutants; morphological differentiation|FBD-102b stable cells|significant|negative|partial|V6|cell phenotype; no disease link
+F|F3|descriptive|POLR1C mutants; LAMP1 lysosome colocalization|FBD-102b cells|not_applicable|not_applicable|not_applicable|V7|partial colocalization
+C|C1|mutant localization: extracellular vs extranuclear|b0004.s1+b0010.s1+b0005.s3|noncritical|unresolved|captions say extracellular, text says extranuclear
+U|Supplementary data (Figs. S1-S5 images)|b0015.s1|online images not provided; only captions read

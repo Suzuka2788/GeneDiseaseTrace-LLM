@@ -1,0 +1,36 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or figures
+E|G1|gene|KCa3.1 (human)|KCa3.1;intermediate-conductance Ca2+-activated K+ channel|r|||||
+E|G2|gene|KCa3.1 (mouse)|KCa3.1|r||non-human||
+E|G3|gene|Orai1|Orai1|p|species_unresolved|||
+E|G4|gene|AKT|AKT;protein kinase B|p|ambiguous_mapping,species_unresolved|||
+E|G5|gene|mTOR|mTOR;mechanistic target of rapamycin|p|species_unresolved|||
+E|G6|gene|78-kDa glucose-regulated protein|78-kDa glucose-regulated protein|r||non-human||
+E|G7|gene|CCAAT/enhancer-binding protein homologous protein|CCAAT/enhancer-binding protein homologous protein|r||non-human||
+E|G8|gene|glial fibrillary acidic protein|glial fibrillary acidic protein|r||non-human||
+E|G9|gene|APP|APP|p|species_unresolved|||
+E|G10|gene|PS1|PS1|p|undefined_abbreviation,species_unresolved|||
+E|D1|disease|Alzheimer's disease|Alzheimer's disease;AD|r||||
+E|S1|phenotype|reactive astrogliosis|reactive astrogliosis|r||||
+E|S2|phenotype|endoplasmic reticulum stress|endoplasmic reticulum stress|r||||
+E|S3|symptom|memory deficits|memory deficits|r||||
+E|S4|phenotype|neuronal loss|neuronal loss|r||||
+E|S5|phenotype|neuroinflammation|neuroinflammation|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6|ts|res|aff|rr
+EV|V3|b0002.s10|ts|res|aff|rr,cmp
+EV|V4|b0002.s11+b0002.s12+b0002.s13|ts|res|aff|rr,mi,cmp
+EV|V5|b0002.s14|ts|int|hyp|ho
+EV|V6|b0002.s7+b0002.s8+b0002.s9|ts|res|aff|rr,mi
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||V2|Background: KCa3.1 controls astrogliosis switch in AD
+P|G2|D1|sup|a|ts|sup:a:ts:V4;unc:-:ts:V5|||V5|Knockout rescues AD-model deficits in APP/PS1 mice
+P|G6|D1|sup|a|ts|sup:a:ts:V3||||Increased in APP/PS1 AD mouse model
+P|G7|D1|sup|a|ts|sup:a:ts:V3||||Increased in APP/PS1 AD mouse model
+P|G8|D1|sup|a|ts|sup:a:ts:V3||||Increased in APP/PS1 AD mouse model
+P|G9|D1|unc|-|ts|unc:-:ts:V3|scope|||APP/PS1 joint transgene model; not assignable individually
+P|G10|D1|unc|-|ts|unc:-:ts:V3|scope|||APP/PS1 joint transgene model; not assignable individually
+F|F1|association|KCa3.1 expression vs ER stress/UPR|astrocytes, AD patients, APP/PS1 mice|unknown|positive|not_reported|V2|abstract only; within-disease
+F|F2|group_comparison|KCa3.1 deletion vs memory, neuron loss|KCa3.1-/-/APP/PS1 vs APP/PS1 mice|unknown|negative|not_reported|V4|abstract only
+F|F3|group_comparison|GRP78, CHOP, GFAP expression|APP/PS1 AD mice|unknown|positive|not_reported|V3|comparator implicit
+F|F4|mechanism|KCa3.1-Orai1 SOCE, AKT/mTOR signaling|primary astrocytes and mice|unknown|not_applicable|not_reported|V6|
+R|species|b0002.s1|Background KCa3.1-AD statement does not specify species|Assigned to human KCa3.1 node by default

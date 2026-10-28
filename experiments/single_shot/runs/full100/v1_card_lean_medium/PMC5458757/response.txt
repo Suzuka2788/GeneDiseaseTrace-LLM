@@ -1,0 +1,48 @@
+META|Claude Opus 5.5|seen: no
+SCOPE|Full text read; supplemental figures and tables unread
+E|G1|gene|SIAH1|SIAH1;SIHA1|p|suspected_typo|human||
+E|G2|gene|SIAH2|SIAH2|r||human||
+E|G3|gene|Siah1a|Siah1a|r||non-human||
+E|G4|gene|Siah1b|Siah1b|r||non-human||
+E|G5|gene|Siah2 (mouse)|Siah2|r||non-human||
+E|G6|gene|AXIN1|AXIN1;Axin1|p|ambiguous_mapping|human||
+E|G7|gene|AXIN2|AXIN2|r||human||
+E|G8|gene|Axin|Axin|p|ambiguous_mapping|||
+E|G9|gene|GSK3|GSK3|p|ambiguous_mapping|||
+E|G10|gene|GSK3β|GSK3β|r||human||
+E|G11|gene|GSK3α|GSK3α|r||human||
+E|G12|gene|APC|APC|r||human||
+E|G13|gene|LRP6|LRP6|r||human||
+E|G14|gene|β-catenin|β-catenin;β-Catenin|r||human||
+E|G15|gene|RNF146|RNF146|r||human||
+E|G16|gene|tankyrase|Tankyrase;tankyrase;tankyase;Tanyrase;TNKS|p|suspected_typo,ambiguous_mapping|human||
+E|G17|gene|ZNRF3|ZNRF3|r||human||
+E|G18|gene|RNF43|RNF43|r||human||
+E|G19|gene|NOTUM|NOTUM|r||human||
+E|G20|gene|GUSB|GUSB|r||human||
+E|G21|gene|CK1|CK1|p|undefined_abbreviation|||
+E|G22|gene|PP1|PP1|p|undefined_abbreviation|||
+E|G23|gene|Wnt3a|Wnt3a|r||||
+E|G24|gene|Drosophila Axin|Axin|p|ambiguous_mapping|non-human||
+E|D1|disease|cancer|cancer|r||||
+E|D2|disease|tumors|tumors;tumor|p|ambiguous_mapping|||
+E|S1|phenotype|low bone volume|low bone volume|r||||
+X|Super TopFlash (STF)|b0010|reporter construct, not gene
+X|YAPC|b0010|cell line name
+X|5WZZ|b0063|PDB accession identifier
+X|TNKS656|b0017|small-molecule inhibitor name
+X|BIO|b0028|GSK3 inhibitor compound
+X|Cas9|b0010|genome-editing tool
+X|tumorigenesis|b0041|process, not a named disease
+EV|V1|b0041.s1+b0041.s2|bg|bgr|aff|ebr
+EV|V2|b0041.s3|bg|bgr|pre|unc
+EV|V3|b0041.s4|ts|hyp|hyp|ho
+EV|V4|b0040.s9|bg|bgr|aff|ebr
+P|G1|D2|unc|-||||scope|V3|SIAH family-level only; no per-member claim
+P|G2|D2|unc|-||||scope|V3|SIAH family-level only; no per-member claim
+P|G1|D1|unc|-||||scope,presupposed_only||SIAH inhibitors for cancer; family-level
+P|G2|D1|unc|-||||scope,presupposed_only||SIAH inhibitors for cancer; family-level
+F|F1|other|Siah1a knockout; bone volume|Siah1a knockout mice|unknown|negative|not_reported|V4|phenotype only, not disease
+C|C1|SIAH1 role in Wnt signaling|b0039.s1+b0039.s6|noncritical|unresolved|prior studies report repression; this study activation
+U|Supplemental Figures S1-S5, Table S1|b0010.s3; b0024.s2|not provided
+R|gene sets|b0041.s2|"SIAH proteins" overexpressed in tumors; members not individually named|left member pairs uncertain with reason scope

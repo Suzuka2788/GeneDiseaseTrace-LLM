@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|SYT14|SYT14;synaptotagmin|r||human||
+E|D1|disease|neurodevelopmental abnormalities|neurodevelopmental abnormalities;abnormal development|p|other|||
+E|S1|phenotype|cerebral atrophy|cerebral atrophy|r||||
+E|S2|phenotype|macrocephaly|macrocephaly|r||||
+E|S3|symptom|seizures|seizures|r||||
+E|S4|phenotype|developmental delay|developmental delay|r||||
+X|DGAP128|b0002|patient identifier, not a gene
+X|synaptotagmin family|b0002|gene family, not a single-gene endpoint
+X|t(1;3)(q32.1;q25.1)|b0002|cytogenetic rearrangement, not a gene
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s1+b0002.s2|ts|res|na|do
+EV|V3|b0002.s4|ts|int|hyp|ho
+EV|V4|b0002.s3|ts|res|na|do
+EV|V5|b0002.s5|ts|aim|q|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V3|hedged_claim|V2+V4+V5|Title attributes the association; the abstract frames SYT14 as a candidate.
+F|F1|descriptive|SYT14 disruption at 1q32 breakpoint|DGAP128 single patient|not_applicable|not_applicable|not_applicable|V2|single case, FISH/Southern
+F|F2|descriptive|SYT14 expression in human brain|human brain tissue|not_applicable|not_applicable|not_applicable|V4|Northern analysis only
+R|symptom vs disease|b0002.s1|Patient features (atrophy, seizures, delay) could be read as diseases.|Kept as auxiliary phenotypes; pairs not generated.
+R|co-reference|b0002.s4|"abnormal development" vs title neurodevelopmental abnormalities.|Merged by paragraph topic; provisional identity.

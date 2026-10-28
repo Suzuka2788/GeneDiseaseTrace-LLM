@@ -1,0 +1,26 @@
+{
+  "paper_id": "PMC10014009",
+  "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+  "annotation_sha256": "1fd43cc9a9c984dd632f4232c4bb92136035296cb3bf84d1d73e89c9f29b9b18",
+  "genes": 8,
+  "diseases": 39,
+  "pairs": 312,
+  "status_counts": {
+    "supported": 11,
+    "uncertain": 7,
+    "not_found": 291,
+    "explicit_negative": 3
+  },
+  "unlisted_symbol_candidates": [
+    "Arg179",
+    "Arg19",
+    "Arg35",
+    "Arg95",
+    "IVS8",
+    "NetGene2",
+    "PM2",
+    "PP1",
+    "PP4",
+    "Val314"
+  ]
+}

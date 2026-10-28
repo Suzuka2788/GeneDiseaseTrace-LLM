@@ -1,0 +1,277 @@
+[
+  {
+    "finding_id": "F01",
+    "variables": [
+      "CCM genotype group",
+      "earlier first CASH"
+    ],
+    "population_or_group": "cohort2 n=25",
+    "status": "explicit_negative",
+    "source_scope": "本研究结果",
+    "evidence_ids": [
+      "EV015",
+      "EV016"
+    ],
+    "conditions": {},
+    "limits": "组间结论；不拆成每基因阴性。S3具体参照组、HR、CI和p值缺失。",
+    "evidence": [
+      {
+        "evidence_id": "EV015",
+        "paper_id": "PMC10014009",
+        "quote": "Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models.",
+        "location": "b0021",
+        "section": "Body / Methods / Statistical analysis",
+        "start": 754,
+        "end": 948,
+        "source_scope": "本研究结果",
+        "assertion_kind": "aim",
+        "supports": "首次CASH时间的基因型比较问题及调整变量；目的不是结果。",
+        "conditions": {}
+      },
+      {
+        "evidence_id": "EV016",
+        "paper_id": "PMC10014009",
+        "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+        "location": "b0094",
+        "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients",
+        "start": 620,
+        "end": 713,
+        "source_scope": "本研究结果",
+        "assertion_kind": "negative_result",
+        "supports": "基因型组间首次CASH时点未见显著差异；不能拆成单基因阴性。",
+        "conditions": {
+          "cohort": 2,
+          "n": 25,
+          "endpoint": "earlier first CASH",
+          "adjustment": [
+            "gender",
+            "first CCM diagnosis age"
+          ],
+          "per_gene_contrasts": "S3 unavailable"
+        }
+      }
+    ]
+  },
+  {
+    "finding_id": "F02",
+    "variables": [
+      "age",
+      "number of large CCM lesions"
+    ],
+    "population_or_group": "KRIT1 / Mutation not detected / CCM2 groups",
+    "status": "reported_correlation",
+    "source_scope": "本研究结果",
+    "evidence_ids": [
+      "EV026",
+      "EV028"
+    ],
+    "conditions": {},
+    "limits": "相关系数不等于基因—疾病相关；不能仅凭两组r或斜率不同宣称组间差异经过正式检验。",
+    "evidence": [
+      {
+        "evidence_id": "EV026",
+        "paper_id": "PMC10014009",
+        "quote": "The correlation coefficients of the KRIT1, Mutation not detected, and CCM2 groups were 0.75 (P < 0.001), 0.53 (P = 0.004), and - 0.84 (p = 0.019), respectively.",
+        "location": "b0094",
+        "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients",
+        "start": 1321,
+        "end": 1481,
+        "source_scope": "本研究结果",
+        "assertion_kind": "reported_result",
+        "supports": "三个分组内的年龄—大病灶数量相关。",
+        "conditions": {}
+      },
+      {
+        "evidence_id": "EV028",
+        "paper_id": "PMC10014009",
+        "quote": "Change in large cerebral cavernous malformation lesion (at least 5 mm) counts according to age and the genes (Mutation not detected, KRIT1, CCM2, and PDCD10). (A) Correlation between age and the number of lesions larger than or equal to 5 mm in all patients, including gene-confirmed FCCM (proband), clinical FCCM (Mutation not detected), and family members with the same variants as the proband. Black circles indicate the lesion number at the age of the image time. A line indicates the least squares regression line. The gray zone indicates the 95% confidence band. R is the correlation coefficient, and the p-value is described. The graph showed a statistically significant positive correlation in which the large lesion number increased as age increased. (B) Correlation between age and the number of large lesions grouped by the gene test result. Gray and rectangle (Mutation not detected), yellow and triangle (KRIT1), blue and circle (CCM2), and red and cross (PDCD10). The graph of the KRIT1 and Mutation not detected groups demonstrated a statistically significant positive correlation, but the slope of the KRIT1 group was steeper than that of the Mutation not detected group. The graph of PDCD10 group showed no correlation. However, there was a trend that the younger patients had more large lesions.",
+        "location": "b0095",
+        "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients / Figure 3",
+        "start": 0,
+        "end": 1313,
+        "source_scope": "本研究结果",
+        "assertion_kind": "reported_result",
+        "supports": "图3图注的分组趋势及不显著描述。",
+        "conditions": {}
+      }
+    ]
+  },
+  {
+    "finding_id": "F03",
+    "variables": [
+      "age",
+      "number of large CCM lesions"
+    ],
+    "population_or_group": "PDCD10 group",
+    "status": "explicit_negative",
+    "source_scope": "本研究结果",
+    "evidence_ids": [
+      "EV027",
+      "EV028"
+    ],
+    "conditions": {},
+    "limits": "限本队列该统计问题；图注趋势不是显著相关。",
+    "evidence": [
+      {
+        "evidence_id": "EV027",
+        "paper_id": "PMC10014009",
+        "quote": "However, the correlation between age and the number of large CCMs was not statistically significant in the PDCD10 group.",
+        "location": "b0094",
+        "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients",
+        "start": 1482,
+        "end": 1602,
+        "source_scope": "本研究结果",
+        "assertion_kind": "negative_result",
+        "supports": "仅PDCD10组内年龄—病灶数无显著相关，不否定PDCD10—FCCM/CCM。",
+        "conditions": {}
+      },
+      {
+        "evidence_id": "EV028",
+        "paper_id": "PMC10014009",
+        "quote": "Change in large cerebral cavernous malformation lesion (at least 5 mm) counts according to age and the genes (Mutation not detected, KRIT1, CCM2, and PDCD10). (A) Correlation between age and the number of lesions larger than or equal to 5 mm in all patients, including gene-confirmed FCCM (proband), clinical FCCM (Mutation not detected), and family members with the same variants as the proband. Black circles indicate the lesion number at the age of the image time. A line indicates the least squares regression line. The gray zone indicates the 95% confidence band. R is the correlation coefficient, and the p-value is described. The graph showed a statistically significant positive correlation in which the large lesion number increased as age increased. (B) Correlation between age and the number of large lesions grouped by the gene test result. Gray and rectangle (Mutation not detected), yellow and triangle (KRIT1), blue and circle (CCM2), and red and cross (PDCD10). The graph of the KRIT1 and Mutation not detected groups demonstrated a statistically significant positive correlation, but the slope of the KRIT1 group was steeper than that of the Mutation not detected group. The graph of PDCD10 group showed no correlation. However, there was a trend that the younger patients had more large lesions.",
+        "location": "b0095",
+        "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients / Figure 3",
+        "start": 0,
+        "end": 1313,
+        "source_scope": "本研究结果",
+        "assertion_kind": "reported_result",
+        "supports": "图3图注的分组趋势及不显著描述。",
+        "conditions": {}
+      }
+    ]
+  },
+  {
+    "finding_id": "F04",
+    "variables": [
+      "panel mutation detected vs not detected",
+      "clinical characteristics"
+    ],
+    "population_or_group": "cohort1 n=21",
+    "status": "explicit_negative",
+    "source_scope": "本研究结果",
+    "evidence_ids": [
+      "EV029",
+      "EV030"
+    ],
+    "conditions": {},
+    "limits": "表1频数与合并组结论不能分配为逐基因—逐症状的阴性。",
+    "evidence": [
+      {
+        "evidence_id": "EV029",
+        "paper_id": "PMC10014009",
+        "quote": "P-values were obtained from the comparison between Mutation detected group and Mutation not detected group.",
+        "location": "b0064",
+        "section": "Body / Result / Study population / Table 1",
+        "start": 0,
+        "end": 107,
+        "source_scope": "本研究结果",
+        "assertion_kind": "reported_result",
+        "supports": "表1p值比较的是合并检出/未检出组，不是各单基因。",
+        "conditions": {}
+      },
+      {
+        "evidence_id": "EV030",
+        "paper_id": "PMC10014009",
+        "quote": "Even though there was no statistical significance in the clinical characteristics, some conditions were relatively disproportionate. While the gender ratio of Mutation detected was neutral, Mutation not detected demonstrated a female predominance. In the Mutation detected group, the prevalence of seizures was relatively higher (46.2%), and the age of seizure onset was younger (29.0 years old, SD 19.7) than in the Mutation not detected group (25.0%; 51.0 years old, SD 2.8). The Mutation not detected group had a lower frequency of family history. However, as mentioned above, the difference could result from the detection bias.",
+        "location": "b0066",
+        "section": "Body / Result / Comparison of the Mutation detected and Mutation not detected groups",
+        "start": 0,
+        "end": 632,
+        "source_scope": "本研究结果",
+        "assertion_kind": "negative_result",
+        "supports": "临床特征合并分组无显著差异及描述性趋势。",
+        "conditions": {}
+      }
+    ]
+  },
+  {
+    "finding_id": "F05",
+    "variables": [
+      "lesion location",
+      "mutation detection"
+    ],
+    "population_or_group": "pooled panel",
+    "status": "reported_association",
+    "source_scope": "本研究结果",
+    "evidence_ids": [
+      "EV031"
+    ],
+    "conditions": {},
+    "limits": "brainstem是病灶位置，不额外建脑干疾病；不能作每单基因的位置关联。",
+    "evidence": [
+      {
+        "evidence_id": "EV031",
+        "paper_id": "PMC10014009",
+        "quote": "Comparison of two receiver operating curves predicting the detection of CCM gene mutation. The prediction model for the detection of CCM gene mutations was derived from the presence of lesions at specific anatomical sites (brainstem, lateral temporal, and parietal lobe), which were associated with mutation detection. The three new models were generated to investigate the site most relevant to mutation detection by removing each predicting factor (brainstem, lateral temporal lobe, or parietal lobe) from the original models. Subtracting the presence of brainstem lesions significantly reduced the area under the curve. B: brainstem, LT: lateral temporal lobe, P: parietal lobe, AUC: area under the curve, CCM: cerebral cavernous malformation.",
+        "location": "b0068",
+        "section": "Body / Result / Comparison of the Mutation detected and Mutation not detected groups / Figure 2",
+        "start": 0,
+        "end": 746,
+        "source_scope": "本研究结果",
+        "assertion_kind": "reported_result",
+        "supports": "解剖位置预测面板变异检出的ROC模型。",
+        "conditions": {}
+      }
+    ]
+  },
+  {
+    "finding_id": "F06",
+    "variables": [
+      "large CCM lesion counts",
+      "early-onset seizure"
+    ],
+    "population_or_group": "cited prior study",
+    "status": "background_association",
+    "source_scope": "背景引用",
+    "evidence_ids": [
+      "EV032"
+    ],
+    "conditions": {},
+    "limits": "不是本研究结果，也不能借此连基因—癫痫边。",
+    "evidence": [
+      {
+        "evidence_id": "EV032",
+        "paper_id": "PMC10014009",
+        "quote": "However, Christine K. Fox et al. revealed that large CCM lesion (a least 5 mm) counts are more associated with early-onset seizure than total lesion counts. 11",
+        "location": "b0102",
+        "section": "Body / Discussion",
+        "start": 491,
+        "end": 650,
+        "source_scope": "背景引用",
+        "assertion_kind": "background_relation_statement",
+        "supports": "大病灶计数—早发发作关系；没有指定基因。",
+        "conditions": {}
+      }
+    ]
+  },
+  {
+    "finding_id": "F07",
+    "variables": [
+      "variant carriers",
+      "spinal/cutaneous CM and tumors"
+    ],
+    "population_or_group": "individual cases",
+    "status": "descriptive_cooccurrence",
+    "source_scope": "本研究结果",
+    "evidence_ids": [
+      "EV033"
+    ],
+    "conditions": {},
+    "limits": "病理诊断确认胶质瘤，不证明KRIT1导致胶质瘤。",
+    "evidence": [
+      {
+        "evidence_id": "EV033",
+        "paper_id": "PMC10014009",
+        "quote": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV.",
+        "location": "b0070",
+        "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients",
+        "start": 0,
+        "end": 1693,
+        "source_scope": "本研究结果",
+        "assertion_kind": "descriptive_cooccurrence",
+        "supports": "病例与变异类型、共病及病理诊断描述。",
+        "conditions": {}
+      }
+    ]
+  }
+]

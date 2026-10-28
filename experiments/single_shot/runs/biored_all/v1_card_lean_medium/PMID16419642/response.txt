@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|mineralocorticoid receptor|mineralocorticoid receptor;MR;NR3C2|r||human||
+E|D1|disease|early-onset hypertension|early-onset hypertension|r|||D2|
+E|D2|disease|hypertension|hypertension|r||||
+E|D3|disease|essential hypertension|essential hypertension|r|||D2|
+X|F826Y|b0002.s5|variant identifier, not a gene
+X|S810L|b0002.s1|variant identifier, not a gene
+X|L809L|b0002.s5|variant identifier, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0002.s3+b0002.s4|ts|neg|neg|rr
+EV|V3|b0002.s7+b0002.s9|ts|neg|neg|cmp
+EV|V4|b0002.s6+b0002.s10|ts|hyp|hyp|ho
+EV|V5|b0002.s2|ts|aim|na|none
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||S810L gain-of-function stated responsible for early-onset hypertension
+P|G1|D3|neg|-|ts|neg:-:ts:V2|||S810L absent; no major role in Japanese
+P|G1|D2|neg|-|ts|neg:-:ts:V3||V4+V5|F826Y frequency not different by hypertension status
+F|F1|group_comparison|F826Y carrier frequency vs hypertension status|Japanese hypertensives and general population|not_significant|null|partial|V3|no test statistic or p-value shown
+F|F2|descriptive|S810L mutation screening|942 Japanese hypertensive patients|not_applicable|not_applicable|not_applicable|V2|exon 6 only
+F|F3|descriptive|F826Y allele frequency|Japanese general population n=3655|not_applicable|not_applicable|available|V3|

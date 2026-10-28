@@ -1,0 +1,32 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|NOD2|NOD2;CARD15|r||human||
+E|G2|gene|NOD1|NOD1;CARD4|r||human||
+E|G3|gene|CARD8|CARD8;TUCAN;CARDINAL|r||human||
+E|G4|gene|TLR4|TLR4|r||human||
+E|G5|gene|TLR2|TLR2|r||human||
+E|G6|gene|TLR1|TLR1|r||human||
+E|G7|gene|TLR6|TLR6|r||human||
+E|D1|disease|Crohn's disease|Crohn's disease|r||||
+E|D2|disease|inflammatory bowel disease|inflammatory bowel disease;IBD|r||||
+E|D3|disease|ulcerative colitis|ulcerative colitis|r||||
+E|D4|disease|indeterminate colitis|indeterminate colitis|r||||
+X|gASCA|b0002|antibody marker, not gene
+X|ALCA|b0002|antibody marker, not gene
+X|ACCA|b0002|antibody marker, not gene
+X|AMCA|b0002|antibody marker, not gene
+X|Omp|b0002|microbial antigen, not human gene
+EV|V1|b0002.s6+b0002.s7|ts|res|na|rr,cmp
+EV|V2|b0002.s8|ts|res|na|rr,cmp
+EV|V3|b0002.s9|ts|res|na|rr,cmp
+EV|V4|b0002.s3|ts|hyp|hyp|ho
+P|G1|D1|nf|-|||||V1|Within-CD antibody comparison, not disease association
+P|G2|D1|nf|-|||||V2|Within-CD antibody comparison only
+P|G4|D1|nf|-|||||V3|Within-CD antibody comparison only
+P|G5|D1|nf|-|||||V3|Within-CD antibody comparison only
+P|G1|D2|nf|-|||||V4|Seroreactivity modulation only, no IBD risk
+F|F1|group_comparison|CARD15 variants vs gASCA, ALCA positivity, titers|Crohn's disease patients|significant|positive|available|V1|independent of ileal involvement
+F|F2|association|CARD15 variant dosage vs gASCA/ALCA|Crohn's disease patients|unknown|positive|not_reported|V1|no dosage statistic reported
+F|F3|group_comparison|NOD1/CARD4 indel vs gASCA positivity|Crohn's disease patients|significant|positive|available|V2|gene dosage stats not reported
+F|F4|group_comparison|TLR4 D299G vs ACCA positivity|Crohn's disease patients presumed|significant|negative|available|V3|population not explicitly stated
+F|F5|group_comparison|TLR2 P631H vs Omp positivity|Crohn's disease patients presumed|significant|negative|available|V3|population not explicitly stated

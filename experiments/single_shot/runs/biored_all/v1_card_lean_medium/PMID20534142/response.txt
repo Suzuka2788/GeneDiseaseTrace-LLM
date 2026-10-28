@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or methods detail
+E|G1|gene|PCSK1|PCSK1;Prohormone convertase 1|r||human||
+E|G2|gene|insulin|insulin;proinsulin|p|other|human||
+E|D1|disease|obesity|obesity|r||||
+E|D2|disease|childhood obesity|childhood obesity|r|||D1|
+E|D3|disease|insulin resistance|insulin resistance|r||||
+E|D4|disease|glucose intolerance|glucose intolerance|r||||
+E|S1|phenotype|beta-cell dysfunction|beta-cell dysfunction|r||||
+E|S2|phenotype|abnormal glucose homeostasis|abnormal glucose homeostasis|r||||
+X|rs6232|b0002|variant identifier
+X|rs6235|b0002|variant identifier
+X|N221D|b0002|amino acid change, not a gene
+X|HOMAIR|b0002|index, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s9|ts|neg|neg|rr,cmp
+EV|V4|b0002.s12+b0002.s15|ts|res|aff|rr,cmp
+EV|V5|b0002.s10+b0002.s14|ts|res|aff|rr
+EV|V6|b0002.s11+b0002.s13|ts|neg|neg|rr
+P|G1|D2|sup|c|bg|sup:c:bg:V1||V3|Rare PCSK1 mutations stated to cause childhood obesity
+P|G1|D1|sup|a|bg|sup:a:bg:V2||V3|Background SNP-obesity association; own null is BMI only
+P|G1|D3|sup|a|ts|sup:a:ts:V4|||rs6232 linked to higher insulin sensitivity, lower HOMAIR
+P|G1|D4|sup|a|ts|sup:a:ts:V4||V6|rs6232 linked to lower 120-min glucose
+F|F1|association|PCSK1 SNPs vs BMI, weight traits|1498 German subjects|not_significant|null|partial|V3|
+F|F2|association|PCSK1 minor alleles vs proinsulin conversion|1498 German subjects|significant|positive|partial|V5|
+F|F3|association|PCSK1 SNPs vs insulin secretion|1498 German subjects|not_significant|null|partial|V6|
+F|F4|association|rs6232 vs insulin sensitivity, glucose|1498; clamp subgroup 512|significant|positive|partial|V4|
+F|F5|association|rs6235 vs glucose metabolism|1498 German subjects|not_significant|null|not_reported|V6|
+R|insulin as gene|b0002.s6|Insulin and proinsulin appear only as measured analytes|Kept as provisional gene; no pairs created

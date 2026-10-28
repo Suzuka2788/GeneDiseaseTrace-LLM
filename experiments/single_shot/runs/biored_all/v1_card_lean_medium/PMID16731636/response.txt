@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|angiotensinogen|angiotensinogen|p|species_unresolved||||
+E|G2|gene|beta-AR kinase-1|beta-AR kinase-1|p|species_unresolved||||
+E|G3|ambiguous_gene|beta-adrenoceptor|beta-adrenoceptor;beta-AR|u|ambiguous_mapping,species_unresolved||||
+E|D1|disease|cardiac hypertrophy|cardiac hypertrophy;hypertrophy|r|||||
+E|D2|disease|LV hypertrophy|LV hypertrophy|r|||||
+X|renin-angiotensin system|b0002.s1|pathway/system, not single gene
+X|RAS|b0002.s1|abbreviation of pathway system, not gene
+X|TGR|b0002.s3|rat strain name, not gene
+EV|V1|b0001.s1+b0002.s3+b0002.s5|ts|res|aff|rr,cmp,mi
+EV|V2|b0002.s8|ts|int|aff|rr,cmp
+EV|V3|b0002.s6|ts|res|aff|cmp,unc
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||Low brain angiotensinogen rats show greater Iso-induced LV hypertrophy
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||Title and conclusion: enhanced Iso-induced hypertrophy in TGR
+P|G2|D2|unc|-||unc:-:ts:V3|scope,support_basis_unresolved||Strain-level co-occurrence of mRNA upregulation with hypertrophy
+P|G3|D2|unc|-||unc:-:ts:V3|identity,scope,support_basis_unresolved||Receptor family downregulation co-occurring between strains
+F|F1|group_comparison|LV weight/body weight after Iso|TGR vs SD rats|significant|positive|partial|V1|abstract only; non-human model
+F|F2|group_comparison|beta-AR, beta-AR kinase-1 mRNA levels|TGR vs SD rats, Iso-treated|unknown|mixed|not_reported|V3|no statistics in abstract
+R|animal model|b0002.s5|Gene deficiency enhances drug-induced disease rather than inducing it|Treated as comparative association, not causal; marked non-human model

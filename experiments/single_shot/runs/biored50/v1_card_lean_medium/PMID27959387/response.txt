@@ -1,0 +1,33 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|D1|disease|breast cancer|breast cancer|r||||
+E|G1|gene|Oct4|Oct4|r||human||
+E|G2|gene|Nanog|Nanog|r||human||
+E|G3|gene|Ceacam6|Ceacam6|r||human||
+E|G4|gene|MT1X|MT1X|r||human||
+E|G5|gene|STEAP4|STEAP4|r||human||
+E|G6|gene|SERPINA3|SERPINA3|r||human||
+E|G7|gene|SAMD9|SAMD9|r||human||
+E|G8|gene|GDF15|GDF15|r||human||
+E|G9|gene|KRT15|KRT15|r||human||
+E|G10|gene|ITGB6|ITGB6|r||human||
+E|G11|gene|TP63|TP63|r||human||
+E|G12|gene|PGR|PGR|r||human||
+E|S1|phenotype|epithelial mesenchymal transition|EMT|r||||
+E|S2|phenotype|anchorage-independent growth|anchorage-independent growth|r||||
+X|CEACAM|b0002.s8|gene family, not a single-gene endpoint
+X|HLA|b0002.s8|gene family, not a single-gene endpoint
+X|metallothionein genes|b0002.s7|gene family, not a single-gene endpoint
+X|interferon related|b0002.s8|gene group label, not a single gene
+X|malignant progression|b0002.s4|disease process, not a distinct disease entity
+X|oncogenic transformation|b0002.s3|cell phenotype, not a disease
+EV|V1|b0002.s5+b0002.s6|ts|res|na|rr,do
+EV|V2|b0002.s7+b0002.s8|ts|res|na|rr,do
+EV|V3|b0002.s13|ts|int|hyp|ho
+P|G3|D1|nf|-|||||V1|Ethanol-induced upregulation in cell line, not disease link
+P|G1|D1|nf|-|||||V1|Expression changed by ethanol, not by disease status
+P|G2|D1|nf|-|||||V1|Expression changed by ethanol, not by disease status
+P|G12|D1|nf|-|||||V2|Generic malignancy-related gene, ethanol-induced expression only
+F|F1|group_comparison|ethanol dose/duration vs Oct4, Nanog, Ceacam6|MCF-7 breast cancer cells|unknown|mixed|not_reported|V1|abstract only; dose-dependent direction
+F|F2|group_comparison|ethanol exposure vs MT1X, malignancy genes|MCF-7 breast cancer cells|unknown|positive|not_reported|V2|microarray, partial RT-PCR validation
+F|F3|group_comparison|25 mM ethanol vs anchorage-independent growth|MCF-7 breast cancer cells|unknown|positive|not_reported|V3|no gene involved directly

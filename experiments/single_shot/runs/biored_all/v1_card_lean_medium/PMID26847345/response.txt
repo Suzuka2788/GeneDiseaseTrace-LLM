@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|transgelin|Transgelin;transgelin|r||human||
+E|G2|gene|HOOK1|HOOK1|r||human||
+E|G3|gene|SDCCAG8|SDCCAG8|r||human||
+E|G4|gene|ENAH|ENAH;Mena|r||human||
+E|G5|gene|TNS1|TNS1|r||human||
+E|G6|gene|EMB|EMB|r||human||
+E|G7|gene|BCL11B|BCL11B|r||human||
+E|G8|gene|PTPRD|PTPRD|r||human||
+E|D1|disease|cancer|cancer|r||||
+E|D2|disease|colorectal cancer|colorectal cancer;CRC|r|||D1|
+E|D3|disease|metastasis|metastasis;metastases|r||||
+E|D4|disease|lung metastases|lung metastases|r|||D3|
+E|S1|phenotype|invasiveness|invasiveness|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s7|ts|res|aff|rr,mi
+EV|V3|b0002.s8|ts|res|aff|rr,mi
+EV|V4|b0002.s11|ts|int|aff|rr,mi
+EV|V5|b0001.s1+b0002.s6|ts|res|aff|rr,mi
+EV|V6|b0002.s9+b0002.s10+b0002.s12|ts|res|na|rr
+P|G1|D1|sup|r|bg|sup:r:bg:V1||b0002.s2|Prior studies: elevated levels correlate with poor prognosis
+P|G1|D2|sup|a|ts|sup:a:ts:V5+V2+V3||b0002.s3|Manipulation in CRC cells alters metastatic potential
+P|G1|D3|sup|c|ts|sup:c:ts:V3+V4||V5|Overexpression increases, knockdown decreases metastases in vivo
+P|G1|D4|sup|c|ts|sup:c:ts:V2||V3|Overexpression increased lung metastasis number and size
+F|F1|mechanism|transgelin overexpression; invasiveness, soft agar growth|RKO CRC cells|unknown|positive|not_reported|V5|abstract only
+F|F2|group_comparison|transgelin level; lung metastasis number/size|mouse tail vein, RKO/HCT116|unknown|positive|not_reported|V2+V3|abstract only
+F|F3|descriptive|transgelin overexpression; ~250 transcript levels|RKO cells|unknown|mixed|not_reported|V6|no per-gene disease link
+R|gene sets|b0002.s12|Altered genes labelled metastasis-related collectively, not individually|Not assigned to G2-G8; their metastasis pairs left nf

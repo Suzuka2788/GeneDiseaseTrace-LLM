@@ -1,0 +1,11 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PABPN1|PABPN1;polyadenylate binding-protein nuclear 1|r||human||
+E|D1|disease|oculopharyngeal muscular dystrophy|oculopharyngeal muscular dystrophy;Oculopharyngeal muscular dystrophy;OPMD|r||||
+X|(GCG)4GCA|b0002|variant notation, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s6+b0002.s7+b0002.s8|ts|res|aff|rr,eda
+EV|V3|b0002.s9|ts|int|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2|||Background causal statement; family mutation finding
+F|F1|descriptive|PABPN1 insertion carrier status|Taiwanese OPMD family, 10 subjects|not_applicable|not_applicable|not_applicable|V2|abstract only; includes 4 asymptomatic
+F|F2|mechanism|unequal cross-over of PABPN1 alleles|Taiwanese OPMD subjects|not_applicable|not_applicable|not_applicable|V3|hedged interpretation

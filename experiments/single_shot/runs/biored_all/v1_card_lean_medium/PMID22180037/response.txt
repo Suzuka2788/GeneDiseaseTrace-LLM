@@ -1,0 +1,12 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no tables or full text
+E|G1|gene|GSTP1|glutathione-S-transferase P1;GSTP1;Glutathione-S-transferase P1|r||human||
+E|D1|disease|prostate cancer|prostate cancer|r||||
+E|D2|disease|benign prostate hyperplasia|benign prostate hyperplasia|r||||
+EV|V1|b0002.s3+b0002.s4|ts|co|na|do
+EV|V2|b0002.s6|ts|res|aff|eda
+EV|V3|b0002.s5|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V2|||Authors conclude Ile/Val polymorphism involved in risk
+P|G1|D2|nf|-||||V1|Genotype frequencies only; no attribution
+F|F1|descriptive|GSTP1 Ile105Val genotype frequencies|PCa, BPH cases, controls|unknown|unknown|not_reported|V1|No significance test reported
+F|F2|association|GSTP1 Ile/Val genotype vs advanced age|cases|significant|positive|not_reported|V3|Within-case analysis; not disease outcome

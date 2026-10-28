@@ -1,0 +1,13 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|BMPR1A|BMPR1A|r||human||
+E|D1|disease|juvenile polyposis|juvenile polyposis|r||||
+E|D2|disease|colon cancer|colon cancer|r||||
+X|human disease|b0002|generic disease term, not a specific disease
+EV|V1|b0001.s1|ts|res|aff|eda,cs
+EV|V2|b0002.s1+b0002.s2+b0002.s3|ts|res|aff|rr,cs,eda
+EV|V3|b0002.s1|ts|co|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||| Family germline mutation attributed to juvenile polyposis
+P|G1|D2|nf|-||||V3|Colon cancer only co-occurs in the family
+F|F1|descriptive|BMPR1A Y245X/G246X; protein truncation|family with juvenile polyposis|not_applicable|not_applicable|not_reported|V2|abstract only; single family
+R|causal vs case-report attribution|b0001.s1|Title says "causing," but this is a family case-report attribution|Coded as association per the case-report attribution rule

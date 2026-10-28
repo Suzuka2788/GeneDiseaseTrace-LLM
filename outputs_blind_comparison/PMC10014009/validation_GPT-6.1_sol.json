@@ -1,0 +1,101 @@
+{
+  "label": "GPT-6.1_sol",
+  "run_dir": "C:\\Users\\tongz\\blind_PMC10014009_GPT-6.1_sol\\outputs_unknown_model_blind\\PMC10014009\\rules-1.2.0\\20261027T223038Z-6b593930",
+  "passed": true,
+  "genes": 8,
+  "targets": 19,
+  "pairs": 152,
+  "status_counts": {
+    "not_found": 141,
+    "explicit_negative": 0,
+    "uncertain": 2,
+    "supported": 9
+  },
+  "checks": [
+    {
+      "check": "manifest_source_sha256",
+      "passed": true,
+      "detail": "manifest=fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e"
+    },
+    {
+      "check": "manifest_rule_hashes",
+      "passed": true,
+      "detail": "{\"SKILL.md\": \"8286c118fd11a24c69e6009493cb616b75d5630bf9b019755396b4bfc6803b9f\", \"decision-rules.md\": \"0204643864c423ec066b9720a583c83443aff88dd87ceab8cb07fbe13f80d506\", \"data-contract.md\": \"22c98879ce145de87ebe8e6dde6d2c38e2ac434541e2f2c0c3fcb5a9ca262455\"}"
+    },
+    {
+      "check": "entity_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "auxiliary_not_in_primary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mention_offsets",
+      "passed": true,
+      "detail": "399 mentions; failures=[]"
+    },
+    {
+      "check": "evidence_quotes_in_cited_block",
+      "passed": true,
+      "detail": "76 quotes; missing=[]"
+    },
+    {
+      "check": "evidence_offsets",
+      "passed": true,
+      "detail": "offset mismatches=[]"
+    },
+    {
+      "check": "evidence_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matrix_is_full_product",
+      "passed": true,
+      "detail": "8 genes x 19 targets = 152; rows=152; missing=0; extra=0; duplicates=0"
+    },
+    {
+      "check": "pair_enumerations",
+      "passed": true,
+      "detail": "bad rows=[]"
+    },
+    {
+      "check": "pair_status_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pair_evidence_ids_exist",
+      "passed": true,
+      "detail": "dangling=[]"
+    },
+    {
+      "check": "edges_csv_equals_supported",
+      "passed": true,
+      "detail": "edges=9 supported=9"
+    },
+    {
+      "check": "graph_nodes_equal_primary_entities",
+      "passed": true,
+      "detail": "nodes=27 primary=27; extra=[]; missing=[]"
+    },
+    {
+      "check": "graph_edges_equal_supported",
+      "passed": true,
+      "detail": "graph_edges=9 supported=9"
+    },
+    {
+      "check": "manifest_status_counts",
+      "passed": true,
+      "detail": "manifest={'supported': 9, 'explicit_negative': 0, 'uncertain': 2, 'not_found': 141} actual={'not_found': 141, 'explicit_negative': 0, 'uncertain': 2, 'supported': 9}"
+    }
+  ],
+  "not_checked": [
+    "whether any judgment is biologically or textually correct",
+    "entities missed by the model",
+    "content of result.json beyond what the CSVs and GraphML carry"
+  ]
+}

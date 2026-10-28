@@ -1,0 +1,21 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|dopamine D4 receptor|DRD4;dopamine D4 receptor|r||human||
+E|D1|disease|schizophrenia|schizophrenia|r||||
+E|D2|disease|paranoid schizophrenia|paranoid schizophrenia|r|||D1|
+E|D3|disease|depression|depression|r||||
+E|D4|disease|heroin addiction|heroin addiction;heroin dependence|p|other|||
+X|-1240 L/S|b0002|variant ID; not among the listed genotyped polymorphisms
+EV|V1|b0002.s5+b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s6+b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s5|ts|res|aff|unc
+EV|V4|b0002.s1+b0002.s2|ts|aim|na|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1||| -120 bp duplication allele frequency associated, p=0.008
+P|G1|D4|sup|a|ts|sup:a:ts:V2|||-521 C/T allele frequency associated, p=0.0002
+P|G1|D2|unc|-|ts|unc:-:ts:V3|scope,other||Unclear wording; the -1240 L/S variant is not listed
+P|G1|D3|nf|-|||V4|Depression was studied but no result is reported
+F|F1|association|-120 bp duplication allele frequency|schizophrenia vs controls|significant|unknown|partial|V1|only a p value is given
+F|F2|association|-521 C/T allele frequency|heroin dependence vs controls|significant|unknown|partial|V2|only a p value is given
+F|F3|association|-1240 L/S|paranoid schizophrenia|significant|unknown|partial|V3|variant identity unclear
+C|C1|-1240 L/S not among genotyped polymorphisms|b0002.s3+b0002.s5|undetermined|unresolved|Variant reported in results but not in methods
+R|Merging heroin dependence with heroin addiction|b0002.s6-s7|s7 restates the s6 result using the name heroin addiction|Merged as provisional co-reference

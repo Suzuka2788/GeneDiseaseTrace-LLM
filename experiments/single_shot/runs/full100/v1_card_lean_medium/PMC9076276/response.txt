@@ -1,0 +1,13 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; supplementary figures unread; no diseases present
+E|G1|gene|acetylcholinesterase|acetylcholinesterase;AchE|p|other||||
+E|G2|gene|butyrylcholinesterase|butyrylcholinesterase;BchE|p|other||||
+E|G3|gene|human serum albumin|human serum albumin;HSA|r||human||
+E|G4|gene|bovine serum albumin|bovine serum albumin;BSA|r||non-human||
+X|carboxylesterase|b0005|enzyme family (gene set), not single-gene endpoint; analyte only
+X|HeLa|b0012|cell line, not disease
+X|IR-783|b0002|chemical dye identifier, not gene
+X|AEBSF|b0012|chemical inhibitor, not gene
+F|F1|descriptive|probe 1 fluorescence vs AEBSF carboxylesterase inhibition|HeLa cells|unknown|negative|partial||Fig. S8 unread; enzyme family, no disease
+U|ESI Fig. S1-S8|b0007.s6;b0029.s2;b0036.s2;b0037.s9|supplementary material not provided
+R|gene set|b0005.s1|Carboxylesterase is an enzyme family and analyte, not a single gene|Excluded as gene set; no disease targets, so no pairs

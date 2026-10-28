@@ -1,0 +1,48 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or figures
+E|G1|gene|desmin|desmin|r|||human||
+E|G2|gene|VDAC1|Voltage-Dependent Anion Channel 1;Voltage-dependent anion channel 1;VDAC1|r||human||
+E|G3|gene|bax|bax|r||human||
+E|G4|gene|ATF2|ATF2|r||human||
+E|G5|gene|bcl-2|bcl-2|r||human||
+E|G6|gene|bcl-xl|bcl-xl|r||human||
+E|G7|gene|HK2|HK2|r||human||
+E|G8|gene|desmin (rat)|desmin|p|species_unresolved|non-human||
+E|G9|gene|VDAC1 (rat)|VDAC1|p|species_unresolved|non-human||
+E|G10|gene|bax (rat)|bax|p|species_unresolved|non-human||
+E|G11|gene|ATF2 (rat)|ATF2|p|species_unresolved|non-human||
+E|G12|gene|bcl-2 (rat)|bcl-2|p|species_unresolved|non-human||
+E|G13|gene|bcl-xl (rat)|bcl-xl|p|species_unresolved|non-human||
+E|G14|gene|HK2 (rat)|HK2|p|species_unresolved|non-human||
+E|D1|disease|desminopathy|Desminopathies;desminopathies;desminopathy;deminopathies|p|suspected_typo||D2|
+E|D2|disease|protein aggregation myopathies|protein aggregation myopathies|r||||
+E|D3|disease|desmin related myopathy|desmin related myopathy|r||||
+E|S1|phenotype|mitochondrial dysfunction|Mitochondrial dysfunction|r||||
+E|S2|phenotype|apoptosis|apoptosis|r||||
+X|SDH|b0002.s6|staining method, not gene
+X|MOMP|b0002.s4|process abbreviation, not disease
+X|NADH-TR|b0002.s6|staining method
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8+b0002.s9|ts|res|aff|rr
+EV|V4|b0002.s8+b0002.s9|ts|neg|neg|rr
+EV|V5|b0002.s5|bg|bgr|q|unc
+EV|V6|b0002.s8+b0002.s10|ts|res|aff|rr
+EV|V7|b0001.s1|ts|int|aff|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||Desmin mutations cause desminopathies
+P|G2|D1|sup|a|ts|sup:a:ts:V2;unc:-:ts:V7||V5|VDAC1 accumulated in patient fibers vs normal
+P|G3|D1|sup|a|ts|sup:a:ts:V3|||bax involved in desminopathy patients
+P|G4|D1|sup|a|ts|sup:a:ts:V3|||ATF2 involved in desminopathy patients
+P|G5|D1|neg|-||neg:a:ts:V4|||bcl-2 not involved in patients
+P|G6|D1|neg|-||neg:a:ts:V4|||bcl-xl not involved in patients
+P|G7|D1|neg|-||neg:a:ts:V4|||HK2 not involved in patients
+P|G9|D1|unc|-||unc:a:ts:V2|scope||Expression in rat model only
+P|G10|D1|unc|-||unc:a:ts:V3|scope||Involvement in rat model only
+P|G11|D1|unc|-||unc:a:ts:V3|scope||Involvement in rat model only
+P|G12|D1|neg|-||neg:a:ts:V4|||Not involved in rat model
+P|G13|D1|neg|-||neg:a:ts:V4|||Not involved in rat model
+P|G14|D1|neg|-||neg:a:ts:V4|||Not involved in rat model
+F|F1|group_comparison|VDAC1 accumulation in desmin-stained areas|desminopathy patients/rats vs normal|unknown|positive|not_reported|V2|abstract only, method unclear
+F|F2|correlation|VDAC1 and desmin protein levels|desminopathy patient and rat tissue|unknown|positive|not_reported|V6|no statistics given
+F|F3|descriptive|bax, ATF2 vs bcl-2, bcl-xl, HK2 involvement|desminopathy patients and rat model|unknown|mixed|not_reported|V3+V4|"involved" undefined
+R|rat model genes|b0002.s7|The rat model construction method is not stated; species context is implicit.|Created rat gene nodes; marked rat positive pairs uncertain by scope.

@@ -1,0 +1,41 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat obesity model with doxorubicin
+E|G1|gene|uncoupling protein 2|uncoupling proteins 2 and 3|p|other|non-human||
+E|G2|gene|uncoupling protein 3|uncoupling proteins 2 and 3|p|other|non-human||
+E|G3|gene|peroxisome proliferator activated receptor-alpha|peroxisome proliferators activated receptor-alpha|r||non-human||
+E|G4|gene|adiponectin|adiponectin|r||non-human||
+E|G5|gene|AMP-activated protein kinase alpha2|AMP-alpha2 protein kinase|p|ambiguous_mapping|non-human||
+E|G6|gene|erythropoietin|erythropoietin|r||non-human||
+E|G7|gene|SOCS3|SOCS3|r||non-human||
+E|G8|gene|STAT3|STAT3|r||non-human||
+E|D1|disease|doxorubicin-induced cardiotoxicity|doxorubicin-induced cardiotoxicity;cardiotoxicity|r||||
+E|D2|disease|obesity|obesity;obese;OB|r||||
+E|D3|disease|cardiac dysfunction|cardiac dysfunction|r||||
+E|D4|disease|hepatic toxicity|hepatic toxicity|r||||
+E|D5|clinical_event|mortality|mortality|r||||
+E|S1|phenotype|oxidative stress|oxidative stress|r||||
+E|S2|phenotype|lipid peroxidation|lipid peroxidation|r||||
+X|JAK|b0002|gene family within JAK/STAT3 pathway, not single gene
+X|JAK/STAT3 pathway|b0002|pathway, not a single-gene endpoint
+EV|V1|b0002.s7|ts|int|hyp|rr,unc
+EV|V2|b0002.s8|ts|int|hyp|rr,unc
+EV|V3|b0002.s3+b0002.s9|both|int|na|unc
+P|G1|D1|unc|-|unk|unc:-:ts:V1|support_basis_unresolved,hedged_claim|||Upregulation offered as mechanistic sensitization explanation
+P|G2|D1|unc|-|unk|unc:-:ts:V1|support_basis_unresolved,hedged_claim|||Upregulation offered as mechanistic sensitization explanation
+P|G3|D1|unc|-|unk|unc:-:ts:V1|support_basis_unresolved,hedged_claim|||Downregulation offered as mechanistic explanation
+P|G4|D1|unc|-|unk|unc:-:ts:V1|support_basis_unresolved,hedged_claim|||Decreased plasma level offered as mechanism
+P|G5|D1|unc|-|unk|unc:-:ts:V1|support_basis_unresolved,hedged_claim|||Decrease offered as mechanistic explanation
+P|G6|D1|unc|-|unk|unc:-:ts:V2|support_basis_unresolved,hedged_claim|||Decrease linked via pathway inference only
+P|G7|D1|unc|-|unk|unc:-:ts:V2|support_basis_unresolved,hedged_claim|||Increase linked via pathway inference only
+P|G1|D2|unc|-|unk|unc:-:ts:V1|scope|||OB vs ND change measured under doxorubicin
+P|G2|D2|unc|-|unk|unc:-:ts:V1|scope|||OB vs ND change measured under doxorubicin
+P|G3|D2|unc|-|unk|unc:-:ts:V1|scope|||OB vs ND change measured under doxorubicin
+P|G4|D2|unc|-|unk|unc:-:ts:V1|scope|||OB vs ND change measured under doxorubicin
+P|G5|D2|unc|-|unk|unc:-:ts:V1|scope|||OB vs ND change measured under doxorubicin
+P|G6|D2|unc|-|unk|unc:-:ts:V2|scope|||OB vs ND change measured under doxorubicin
+P|G7|D2|unc|-|unk|unc:-:ts:V2|scope|||OB vs ND change measured under doxorubicin
+P|G8|D1|nf|-|||||V3|Only pathway-level cardioprotection, not STAT3 individually
+F|F1|group_comparison|UCP2/3, PPARa, adiponectin, AMPKa2 levels|OB vs ND rats with doxorubicin|unknown|mixed|not_reported|V1|abstract only; direction per gene
+F|F2|group_comparison|erythropoietin, SOCS3 cardiac levels|OB vs ND rats with doxorubicin|unknown|mixed|not_reported|V2|abstract only
+R|verbatim surface|b0002.s7|UCP2 and UCP3 only written jointly as "uncoupling proteins 2 and 3"|used joint phrase as surface for both, flagged other
+R|verbatim surface|b0002.s5|renal toxicity only written as "renal or hepatic toxicity"|not created as entity; no gene relation affected

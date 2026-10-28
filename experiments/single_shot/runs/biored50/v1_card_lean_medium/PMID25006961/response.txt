@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|PKC-alpha|PKC-alpha;PKCa|r||non-human||
+E|G2|gene|UT-A1|UT-A1|p|species_unresolved|||
+E|G3|gene|AQP2|AQP2|p|species_unresolved|||
+E|D1|disease|nephrogenic diabetes insipidus|nephrogenic diabetes insipidus;NDI|r||||
+E|D2|disease|lithium-induced nephrogenic diabetes insipidus|lithium-induced nephrogenic diabetes insipidus;lithium-induced NDI|r|||D1|
+E|S1|symptom|polyuria|polyuria|r||||
+X|PKC|b0002.s3|kinase family/signaling pathway, not a single gene
+EV|V1|b0002.s4+b0002.s5+b0002.s9+b0002.s12|ts|res|aff|mi,cmp
+EV|V2|b0002.s2|bg|int|hyp|ho
+EV|V3|b0002.s6+b0002.s10+b0002.s12|ts|res|aff|rr,cmp
+EV|V4|b0002.s7+b0002.s10+b0002.s12|ts|res|aff|rr,cmp
+EV|V5|b0002.s11|ts|res|aff|rr,cmp
+P|G1|D2|sup|c|ts|sup:c:ts:V1|||PKCa knockout attenuates lithium-induced NDI in mice
+P|G3|D2|sup|a|ts|sup:a:ts:V3;unc:-:bg:V2|hedged_claim||AQP2 reduced in lithium-induced NDI mice
+P|G2|D2|sup|a|ts|sup:a:ts:V4;unc:-:bg:V2|hedged_claim||UT-A1 reduced in lithium-induced NDI mice
+F|F1|group_comparison|urine output, osmolality; PKCa KO vs WT|lithium-treated mice, 3d-6wk|unknown|negative|not_reported|V1|abstract only; KO attenuates polyuria
+F|F2|group_comparison|AQP2 protein expression|lithium-treated WT vs PKCa KO mice|unknown|negative|not_reported|V3|abstract only
+F|F3|group_comparison|UT-A1 protein expression|lithium-treated WT vs PKCa KO mice|unknown|negative|not_reported|V4|abstract only
+F|F4|group_comparison|urinary sodium, potassium, calcium|lithium-fed WT vs PKCa KO mice|unknown|positive|not_reported|V5|elevated in WT only
+R|model-intervention causality via knockout protection|b0002.s12|Card covers alteration inducing disease, not knockout preventing it|Treated KO attenuation of induced model as model-intervention causal, non-human

@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|D1|disease|glioblastoma|glioblastomas;glioblastoma|r||||
+E|D2|disease|primary glioblastoma|primary glioblastomas;primary (de novo) glioblastomas|r|||D1|
+E|G1|gene|TP53|TP53|r||human||
+E|G2|gene|PTEN|PTEN|r||human||
+E|G3|gene|EGFR|EGFR|r||human||
+E|G4|gene|p16|p16|r||human||
+X|LOH 10q|b0002|chromosomal region, not single gene
+EV|V1|b0002.s2+b0002.s3|ts|res|aff|rr
+EV|V2|b0002.s2+b0002.s4|ts|res|aff|rr
+EV|V3|b0002.s2+b0002.s9|ts|res|aff|rr
+EV|V4|b0002.s6|bg|bgr|aff|ebr
+EV|V5|b0002.s7|ts|res|aff|rr,cmp
+EV|V6|b0002.s10|ts|res|aff|cmp
+EV|V7|b0002.s8|ts|res|aff|rr
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||TP53 mutations found in 22% of the primary GBM cohort
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||PTEN mutations found in 21% of the cohort
+P|G3|D2|sup|a|ts|sup:a:ts:V2+V3|||EGFR amplification and kinase-domain mutations found in cohort
+P|G4|D2|sup|a|ts|sup:a:ts:V2|||p16 homozygous deletion found in 42%
+F|F1|association|EGFR amplification vs p16 deletion|Japanese primary glioblastomas|significant|positive|partial|V5|p value only
+F|F2|association|TP53 mutation vs p16 deletion|Japanese primary glioblastomas|significant|negative|partial|V5|p value only
+F|F3|group_comparison|EGFR codon 787 allele frequencies|glioblastomas Japan vs Switzerland|significant|unknown|available|V6|no non-tumor comparator
+F|F4|descriptive|EGFR kinase-domain mutation frequency|glioblastomas Japan vs Switzerland|not_applicable|not_applicable|available|V3|
+F|F5|association|radiotherapy vs survival|glioblastoma patients|significant|positive|partial|V7|
+R|within-cohort mutation frequencies|b0002.s3-s4|Somatic alteration frequencies in disease cohort without comparator|Treated as supported association with this study as the source, not causal

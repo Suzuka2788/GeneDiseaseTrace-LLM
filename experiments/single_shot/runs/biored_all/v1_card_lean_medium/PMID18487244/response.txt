@@ -1,0 +1,24 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or methods
+E|G1|gene|POLG1|POLG1|r||human||
+E|D1|disease|Alpers syndrome|Alpers syndrome|r||||
+E|D2|disease|hepatoencephalopathy|hepatoencephalopathy|r||||
+E|D3|disease|Epilepsy|Epilepsy|r||||
+E|D4|disease|movement disorder|movement disorder|r||||
+E|S1|phenotype|mtDNA depletion|mtDNA depletion|r||||
+EV|V1|b0002.s1+b0002.s2|both|res|aff|rr,eda,ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s8|ts|co|na|do
+EV|V4|b0002.s3+b0002.s4+b0002.s6+b0002.s7|ts|res|aff|rr,cmp
+EV|V5|b0002.s5+b0002.s6|ts|res|aff|rr
+EV|V6|b0002.s10|ts|hyp|hyp|ho
+EV|V7|b0002.s11+b0002.s12|ts|int|hyp|ho
+EV|V8|b0001.s1|ts|int|aff|rr
+P|G1|D1|sup|a|both|sup:a:both:V1;sup:a:bg:V2|||Alpers is POLG1 phenotype; cohort genetically diagnosed
+P|G1|D2|nf|-||||V2|Component of Alpers phenotype; no direct link
+P|G1|D3|nf|-||||V3|Feature in POLG1 cohort; co-occurrence only
+P|G1|D4|nf|-||||V3|Feature in POLG1 cohort; co-occurrence only
+F|F1|association|POLG1 mutation domain vs tissue mtDNA content|24 children with POLG1 mutations|unknown|positive|not_reported|V4+V8|abstract only; no statistics
+F|F2|descriptive|mosaic mtDNA depletion in fibroblasts|12 patients cultured fibroblasts|not_applicable|not_applicable|not_applicable|V5|4 of 12; both alleles catalytic
+F|F3|hypothesis|mosaic depletion as replication stalling|cultured fibroblasts|not_applicable|not_applicable|not_applicable|V6|speculative
+F|F4|hypothesis|polymerase and exonuclease activity same molecule|one compound heterozygote|not_applicable|not_applicable|not_applicable|V7|single case inference

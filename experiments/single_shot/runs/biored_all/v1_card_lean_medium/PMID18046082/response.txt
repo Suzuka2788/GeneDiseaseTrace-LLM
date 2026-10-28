@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|apoE|apolipoprotein E;apoE|r||human||
+E|D1|disease|lipoprotein glomerulopathy|Lipoprotein glomerulopathy;lipoprotein glomerulopathy;LPG|r||||
+E|S1|symptom|proteinuria|proteinuria|r||||
+X|apoE Guangzhou|b0002|variant name, not separate gene
+X|arginine 150 proline|b0001|variant designation
+X|pMD 18-T|b0002|cloning vector, not gene
+EV|V1|b0002.s2|bg|bgr|hyp|ho
+EV|V2|b0002.s1|ts|res|aff|eda
+EV|V3|b0002.s4+b0002.s6+b0002.s7+b0002.s9+b0002.s10|ts|res|aff|cs,rr
+EV|V4|b0002.s11|ts|int|aff|eda
+EV|V5|b0002.s12|ts|hyp|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3+V4;unc:-:ts:V4+V5;unc:-:bg:V1|hedged_claim|V5|Variant co-segregates with LPG; causality only suggested
+F|F1|descriptive|apoE R150P carrier status vs LPG|Chinese family, 4 LPG patients|not_applicable|positive|not_applicable|V3|One asymptomatic carrier; single family
+F|F2|mechanism|apoE Guangzhou conformation, lipid binding|apoE Guangzhou carriers|unknown|unknown|not_reported|V5|Speculative; no experimental data in abstract

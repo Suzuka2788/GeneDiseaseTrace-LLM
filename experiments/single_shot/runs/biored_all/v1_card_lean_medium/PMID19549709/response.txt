@@ -1,0 +1,21 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|mTOR|mammalian target of rapamycin;mTOR|r||human||
+E|G2|gene|EGFR|epidermal growth factor receptor;EGFR|r||human||
+E|G3|gene|AKT|AKT;pAKT|p|ambiguous_mapping|human||
+E|D1|disease|non-small-cell lung cancer|non-small-cell lung cancer;NSCLC|r||||
+E|D2|disease|pneumonitis|Pneumonitis|r||||
+E|D3|disease|anemia|anemia|r||||
+E|D4|disease|thrombocytopenia|thrombocytopenia|r||||
+E|D5|disease|stomatitis|stomatitis|r||||
+E|S1|symptom|fatigue|fatigue|r||||
+E|S2|symptom|dyspnea|dyspnea|r||||
+X|mTOR pathway|b0002|pathway, not a single gene endpoint
+EV|V1|b0002.s12|ts|res|aff|rr,cmp
+EV|V2|b0002.s2|bg|bgr|na|do
+EV|V3|b0002.s1+b0002.s3|ts|co|na|do
+P|G3|D1|sup|r|ts|sup:r:ts:V1||| pAKT score predicts worse PFS in NSCLC
+P|G1|D1|nf|-||||V2|drug target efficacy only, no gene-disease link
+P|G2|D1|nf|-||||V3|EGFR inhibitor treatment history only
+F|F1|correlation|pAKT IHC score vs PFS|RAD001-treated pretreated NSCLC subgroup|significant|negative|not_reported|V1|abstract only; other markers unnamed
+R|AKT isoform identity|b0002.s12|pAKT is a phospho-protein; AKT1/2/3 isoform not specified|kept as single provisional AKT entity, ambiguous_mapping

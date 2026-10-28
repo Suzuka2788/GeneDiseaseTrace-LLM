@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|NOTCH1|NOTCH1;N1ICD|r|||||
+E|G2|gene|SOX10|SOX10|r|||||
+E|G3|gene|CD133|CD133|r|||||
+E|G4|gene|JAG1|JAG1|r|||||
+E|G5|gene|NR2F1|NR2F1|r|||||
+E|G6|gene|NR2F2|NR2F2|r|||||
+E|G7|gene|p27Kip1|p27Kip1|r|||||
+E|G8|gene|FABP7|FABP7|r|||||
+E|G9|gene|SKP2|SKP2|r|||||
+E|G10|gene|ROCK|ROCK|p|undefined_abbreviation||||
+E|D1|disease|adenoid cystic carcinoma|adenoid cystic carcinoma;ACC|r|||||
+X|g-secretase|b0002|complex/enzyme family, not single gene
+X|Notch|b0002|pathway, not single gene
+X|cancer stem cells|b0002|cell population, not disease
+X|DAPT|b0002|inhibitor compound, not gene
+EV|V1|b0001.s1+b0002.s6+b0002.s10|ts|res|aff|rr,mi
+EV|V2|b0002.s4|ts|co|na|do
+EV|V3|b0002.s9|ts|res|aff|mi
+EV|V4|b0002.s8+b0002.s11|ts|int|hyp|ho
+P|G1|D1|unc|-|ts|unc:c:ts:V1+V3|scope|V2|Knockdown effects only cell-level; DAPT not gene-specific
+P|G2|D1|unc|-|ts|unc:c:ts:V1|scope|V2|CSC knockdown phenotype only, no disease-level link
+P|G8|D1|unc|-|ts|unc:c:ts:V1|scope||CSC knockdown phenotype only, no disease-level link
+P|G9|D1|unc|-|ts|unc:a:ts:V4+V3|hedged_claim,scope||SKP2 dependence framed as therapy opportunity
+P|G3|D1|nf|-|||||V2|CD133 marker expression descriptive only
+F|F1|mechanism|NOTCH1, SOX10, FABP7 knockdown; spheroids, death|ACC CD133+ cells|unknown|negative|not_reported|V1|abstract only
+F|F2|group_comparison|DAPT; N1ICD, SKP2, p27Kip1, growth|ACC cells and xenografts|unknown|negative|not_reported|V3|abstract only
+F|F3|descriptive|CD133+ cells expressing NOTCH1, SOX10|ACC|not_applicable|not_applicable|not_applicable|V2|

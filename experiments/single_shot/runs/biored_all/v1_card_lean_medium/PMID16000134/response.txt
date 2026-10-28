@@ -1,0 +1,14 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|antithrombin|antithrombin|r||human||
+E|D1|disease|superior mesenteric vein thrombosis|superior mesenteric vein thrombosis;superior mesenteric vein (SMV) thrombosis;SMV thrombosis|r||||
+E|D2|disease|congenital antithrombin deficiency|congenital antithrombin deficiency|r||||
+E|D3|disease|type I congenital antithrombin deficiency|type I congenital antithrombin deficiency|r|||D2|
+EV|V1|b0002.s4+b0002.s5|ts|res|aff|rr,eda
+EV|V2|b0001.s1+b0002.s5|ts|res|aff|rr
+EV|V3|b0002.s2|ts|co|na|do
+P|G1|D3|sup|a|ts|sup:a:ts:V1||V2|Type I deficiency diagnosed; novel antithrombin mutation identified
+P|G1|D2|sup|a|ts|sup:a:ts:V2||V1|Patient's congenital deficiency carries novel gene mutation
+P|G1|D1|nf|-|||||V3|Only decreased plasma activity; no gene link
+F|F1|descriptive|antithrombin heterozygous truncating mutation|single patient and family|not_applicable|not_applicable|not_applicable|V1|single case; abstract only
+R|gene-protein name overlap|b0002.s2|Antithrombin activity is protein-level, not gene status|Treated as lab finding; not gene evidence

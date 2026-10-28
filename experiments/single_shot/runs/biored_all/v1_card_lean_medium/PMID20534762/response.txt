@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TSH-beta subunit gene|TSH-beta subunit gene;TSH-beta subunit|r|||human||
+E|D1|disease|congenital central hypothyroidism|congenital central hypothyroidism|r|||D3|
+E|D2|disease|congenital hypothyroidism|congenital hypothyroidism|r||||
+E|D3|disease|central hypothyroidism|central hypothyroidism|r||||
+E|D4|disease|anemia|anemia;infant anemia|p|other|||
+E|D5|disease|isolated TSH deficiency|isolated TSH deficiency|r||||
+E|D6|disease|isolated pituitary deficiency|isolated pituitary deficiency|r||||
+X|C88Y|b0002|variant identifier
+X|313delT (C105Vfs114X)|b0002|variant identifier
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s2+b0002.s3+b0002.s7|ts|res|aff|rr,eda
+EV|V3|b0002.s1|bg|bgr|pre|unc
+EV|V4|b0002.s2+b0002.s12|ts|co|na|do
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2||||Title attributes CCH to novel TSHB mutations
+P|G1|D2|unc|-||unc:-:bg:V3|presupposed_only|||Patient group defined jointly; relation only presupposed
+P|G1|D4|nf|-|||||V4|Anemia co-occurs in patients; no gene attribution
+F|F1|mechanism|splice-site mutation; exon 2 splicing|Patient 1 minigene assay|not_applicable|not_applicable|not_reported|V2|in vitro only
+F|F2|other|C88Y predicted damaging|Patient 2 in silico|not_applicable|not_applicable|not_applicable|V2|PolyPhen/SIFT prediction only
+R|parent hierarchy|b0001.s1|Infant anemia surface may be distinct entity from treatment-resistant anemia|Merged as one provisional anemia entity

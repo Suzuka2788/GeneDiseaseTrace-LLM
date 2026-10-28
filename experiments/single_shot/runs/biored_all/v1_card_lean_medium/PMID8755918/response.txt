@@ -1,0 +1,12 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ATM|ATM|r||human||
+E|D1|disease|ataxia-telangiectasia|ataxia-telangiectasia;A-T|r||||
+E|S1|symptom|cerebellar ataxia|cerebellar ataxia|r||||
+EV|V1|b0002.s1+b0002.s7|ts|res|aff|rr,eda
+EV|V2|b0002.s2+b0002.s3+b0002.s4|ts|res|aff|rr,eda
+EV|V3|b0002.s8+b0002.s9|ts|hyp|hyp|ho
+P|G1|D1|sup|c|ts|sup:a:ts:V1;sup:c:ts:V2|||ATM mutations in A-T families; splicing causes milder phenotype
+F|F1|descriptive|137-bp insertion product level vs ataxia onset|two later-onset A-T patients|unknown|negative|not_reported|V2|abstract only, no statistics
+F|F2|descriptive|missense ATM mutations|two of four non-insertion families|not_applicable|not_applicable|not_applicable|V1|abstract only
+F|F3|hypothesis|compound heterozygous ATM mutations frequency|general population|not_applicable|unknown|not_applicable|V3|speculative

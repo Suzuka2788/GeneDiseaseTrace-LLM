@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GATA4|GATA4|r||human||
+E|D1|disease|congenital heart disease|congenital heart disease;CHD|r||||
+E|D2|disease|ventricular septal defect|ventricular septal defect;VSD|r||||
+E|D3|disease|Tetralogy of Fallot|Tetralogy of Fallot|r||||
+E|D4|disease|endocardial cushion defect|endocardial cushion defect|r||||
+X|46delS|b0002|variant identifier
+X|c.1146+25insA|b0002|variant identifier
+X|E359K|b0002|variant identifier
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s4|ts|co|na|do
+EV|V3|b0002.s5|ts|res|aff|cs
+EV|V4|b0002.s6|ts|res|aff|cmp
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||V2|Background reports GATA4 germline mutations in CHD
+P|G1|D2|sup|a|ts|sup:a:ts:V3+V4|||V2|Familial E359K; insertion absent in controls
+P|G1|D3|nf|-||||V2|Mutation detected only, no attribution
+P|G1|D4|nf|-||||V2|Mutation detected only, no attribution
+F|F1|descriptive|GATA4 mutation carriers|486 Chinese CHD patients|not_applicable|not_applicable|partial|V2|12 of 486; no comparator
+F|F2|group_comparison|c.1146+25insA carrier frequency|VSD patients vs 486 healthy controls|unknown|positive|partial|V4|5 cases vs 0 controls; no test
+R|co-segregation strength|b0002.s5|Two carriers across two generations; affected status of each not stated|Treated as co-segregation evidence for association with VSD

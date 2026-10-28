@@ -1,0 +1,27 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|THRA|THRA;thyroid hormone receptor a1;TRa1|r||human||
+E|G2|gene|Thra1|Thra1;Thyroid hormone receptor a|p|species_unresolved||
+E|D1|disease|skeletal dysplasia|skeletal dysplasia|r||||
+E|D2|disease|hypothyroidism|hypothyroidism|r||||
+E|S1|phenotype|intellectual deficit|intellectual deficit|r||||
+E|S2|symptom|constipation|constipation|r||||
+E|S3|phenotype|developmental delay|developmental delay|r||||
+E|S4|phenotype|short stature|short stature|r||||
+E|S5|phenotype|tissue resistance to thyroid hormone|resistance to thyroid hormone|r||||
+X|TSH|b0002|hormone secretion measure, not a gene endpoint
+X|genetic disorder|b0002|unnamed disorder, no disease name
+EV|V1|b0002.s1+b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|co|pre|unc
+EV|V3|b0001.s1+b0002.s6|ts|res|aff|rr,mi
+EV|V4|b0002.s4|ts|int|aff|unc
+EV|V5|b0002.s7|ts|res|aff|rr
+EV|V6|b0002.s8|ts|res|aff|rr
+EV|V7|b0002.s9|ts|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V7||V4|Affected THRA-mutation children show skeletal dysplasia
+P|G1|D2|unc|-|bg|unc:-:bg:V2|presupposed_only||Hypothyroid symptoms presupposed in treated patients only
+P|G2|D1|sup|c|ts|sup:c:ts:V3||V4+V5|Mouse Thra1 mutation causes skeletal dysplasia, non-human
+F|F1|group_comparison|T4 treatment vs skeletal maturation, growth, mineralization|female Thra1(PV/+) mice|not_significant|null|not_reported|V5|abstract only
+F|F2|group_comparison|T4 treatment vs bone stiffness, strength|female Thra1(PV/+) mice|unknown|positive|not_reported|V6|abstract only
+F|F3|descriptive|stature, bone morphology, mass, strength|adult female Thra1(PV/+) mice|not_applicable|not_applicable|not_reported|V3|
+R|species|b0001.s1|Title gene name lacks species; context is female mice|Assigned title form to mouse Thra1 entity

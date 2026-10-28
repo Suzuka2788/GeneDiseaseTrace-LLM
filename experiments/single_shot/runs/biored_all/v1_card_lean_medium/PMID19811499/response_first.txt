@@ -1,0 +1,30 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|tumor necrosis factor-alpha|tumor necrosis factor-alpha;TNF-alpha|r|||human||
+E|G2|gene|p65|p65|p|ambiguous_mapping|human||
+E|G3|gene|Akt|Akt;protein kinase B|p|ambiguous_mapping|||
+E|G4|gene|bone morphogenetic protein-2|bone morphogenetic protein-2;BMP-2;BMP2|r||||
+E|G5|gene|BMP-4|BMP-4|r||||
+E|G6|gene|osteopontin|osteopontin|r||||
+E|G7|gene|osteocalcin|osteocalcin|r||||
+E|G8|gene|collagen IA1|collagen IA1|r||||
+E|G9|gene|Noggin|Noggin|r||||
+E|G10|gene|receptor activator of NF-kappaB ligand|receptor activator of NF-kappaB ligand|r||||
+E|D1|disease|prostate cancer|prostate cancer;PC|r||||
+E|D2|disease|bone metastatic prostate cancer|bone metastatic prostate cancer|r|||D1|
+X|nuclear factor-kappaB|b0001|transcription factor complex, not single gene; NF-kappaB forms also
+X|phosphoinositide 3-kinase|b0002|kinase family, not single gene (PI3K)
+X|Smad|b0002|gene family, not single gene
+EV|V1|b0002.s2|bg|res|na|do
+EV|V2|b0002.s3+b0002.s4|ts|res|na|rr,do
+EV|V3|b0002.s5+b0002.s7|ts|res|na|rr,do
+EV|V4|b0002.s10|ts|hyp|hyp|ho
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V5|hedged_claim,scope|V2|Cell-line invasion only; metastasis role hedged
+P|G4|D1|unc|-|ts|unc:-:ts:V3+V4|hedged_claim,scope|V3|Cell-line invasion only; metastasis role hedged
+P|G2|D1|nf|-|ts||||V2|p65 effect only on cell invasion
+P|G6|D1|nf|-|ts||||V2|Cell-level upregulation; osteomimicry suggested only
+P|G4|D2|nf|-|bg||||V1|Signaling mechanism in cells, no disease link
+F|F1|mechanism|TNF-alpha/p65 NF-kappaB; adhesion, invasion|PC-3, C4-2B, LNCaP cells|unknown|positive|not_reported|V2|in vitro; not in LNCaP
+F|F2|mechanism|BMP-2 vs BMP-4; invasion|C4-2B, LNCaP cells|unknown|positive|not_reported|V3|in vitro; Noggin abolished effect
+F|F3|mechanism|TNF-alpha CM; BMP-2, Smad, RANKL transcripts|RAW 264.7, MC3T3-E1 cells|unknown|mixed|not_reported|V4|in vitro; abstract only
+R|species|b0002.s8|RAW 264.7/MC3T3-E1 species not stated in text|Kept single gene nodes; did not infer species

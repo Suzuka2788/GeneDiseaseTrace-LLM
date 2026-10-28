@@ -1,0 +1,38 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GSTP1|GSTP1|r||human||
+E|G2|gene|COX2|COX2|r||human||
+E|G3|gene|IL10|IL10|r||human||
+E|G4|gene|EGFR|EGFR|r||human||
+E|G5|gene|EGF|EGF|r||human||
+E|G6|gene|FGFR4|FGFR4|r||human||
+E|G7|ambiguous_gene|CCDN1|CCDN1|u|ambiguous_mapping|human||
+E|G8|gene|VEGFR2|VEGFR2|r||human||
+E|G9|gene|VEGF|VEGF|r||human||
+E|G10|gene|CXCR2|CXCR2|r||human||
+E|G11|gene|IL8|IL8|r||human||
+E|G12|gene|MMP3|MMP3|r||human||
+E|G13|gene|ICAM1|ICAM1|r||human||
+E|G14|gene|ERCC1|ERCC1|r||human||
+E|G15|gene|RAD51|RAD51|r||human||
+E|G16|gene|XRCC3|XRCC3|r||human||
+E|D1|disease|rectal cancer|Rectal Cancer;rectal cancers;rectal cancer|r||||
+E|D2|clinical_event|toxicity|Toxicity;toxicity;toxicities|r||||
+E|D3|clinical_event|PUGIT mucositis|PUGIT mucositis|r||||
+X|rs1695|b0002.s5|variant ID, not a gene
+X|rs4073|b0002.s7|variant ID, not a gene
+X|rs1870377|b0002.s8|variant ID, not a gene
+X|INT0144|b0002.s1|trial identifier, not a gene
+EV|V1|b0002.s5+b0002.s6|ts|res|aff|rr,cmp
+EV|V2|b0002.s10|ts|int|hyp|ho
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+EV|V5|b0002.s1|ts|aim|q|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||rs1695 significantly associated with DFS/OS in rectal cancer
+P|G11|D2|sup|a|ts|sup:a:ts:V3||V2|rs4073 A/A lower toxicity risk, arm 2 only
+P|G8|D3|sup|a|ts|sup:a:ts:V4||V2|rs1870377 Q/Q associated, direction differs by arm
+P|G8|D2|nf|-||||V4|Only mucositis reported; no propagation to toxicity
+F|F1|association|GSTP1 rs1695 genotype vs DFS, OS|rectal cancer patients, all arms|significant|mixed|partial|V1|P values not given; non-monotonic genotype pattern
+F|F2|association|IL8 rs4073 A/A vs toxicity|arm 2 patients|significant|negative|partial|V3|single arm subgroup
+F|F3|association|VEGFR2 rs1870377 Q/Q vs PUGIT mucositis|arm 2 vs arm 1|significant|mixed|partial|V4|opposite directions by 5-FU schedule
+F|F4|other|other 13 genes' polymorphisms vs outcomes|all trial patients|unknown|unknown|not_reported|V5|results not reported in abstract

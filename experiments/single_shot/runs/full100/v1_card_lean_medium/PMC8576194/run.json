@@ -1,0 +1,162 @@
+{
+  "paper_id": "PMC8576194",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 60857,
+  "calls": [
+    {
+      "seconds": 30.4,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 51595,
+        "cache_read_input_tokens": 7808,
+        "output_tokens": 2231,
+        "output_tokens_details": {
+          "thinking_tokens": 72
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 25764,
+          "ephemeral_5m_input_tokens": 25831
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 2159,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 25831,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 25831,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.55566535,
+      "turns": 2,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 4,
+          "outputTokens": 72,
+          "cacheReadInputTokens": 7808,
+          "cacheCreationInputTokens": 51595,
+          "webSearchRequests": 0,
+          "costUSD": 0.3382846,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 72,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        },
+        "claude-opus-5": {
+          "inputTokens": 2,
+          "outputTokens": 2159,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 25831,
+          "webSearchRequests": 0,
+          "costUSD": 0.21738075,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 64000,
+          "thinkingTokens": 0,
+          "canonicalModel": "claude-opus-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 29.4,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 4,
+        "cache_creation_input_tokens": 56171,
+        "cache_read_input_tokens": 7808,
+        "output_tokens": 2227,
+        "output_tokens_details": {
+          "thinking_tokens": 157
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 28052,
+          "ephemeral_5m_input_tokens": 28119
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 2227,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 28119,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 28119,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.5999693500000001,
+      "turns": 2,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 4,
+          "outputTokens": 0,
+          "cacheReadInputTokens": 7808,
+          "cacheCreationInputTokens": 56171,
+          "webSearchRequests": 0,
+          "costUSD": 0.36658860000000004,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 0,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        },
+        "claude-opus-5": {
+          "inputTokens": 2,
+          "outputTokens": 2227,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 28119,
+          "webSearchRequests": 0,
+          "costUSD": 0.23338075,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 64000,
+          "thinkingTokens": 157,
+          "canonicalModel": "claude-opus-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "E d5: none of [\"familial Parkinson's disease\"] found verbatim in its unit",
+    "P g1-d1: main type/scope should be causal/背景引用 (R3)",
+    "P g1-d4: main type/scope should be causal/本研究结果 (R3)"
+  ]
+}

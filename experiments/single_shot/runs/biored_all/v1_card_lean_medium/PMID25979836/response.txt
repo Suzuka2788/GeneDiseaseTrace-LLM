@@ -1,0 +1,25 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PAK2|PAK2|r||non-human||
+E|G2|gene|PAK1|PAK1|p|ambiguous_mapping|||
+E|G3|gene|PAK4|PAK4|p|ambiguous_mapping|||
+E|G4|gene|EGF|EGF|r||non-human||
+E|G5|gene|PDGF|PDGF|p|ambiguous_mapping|non-human||
+E|G6|gene|bFGF|bFGF|r||non-human||
+E|G7|gene|CCK|CCK|r||non-human||
+E|G8|gene|CCK1 receptor|CCK1-receptor|p|other|non-human||
+E|G9|gene|ERK1/2|ERK1/2|p|ambiguous_mapping|non-human||
+E|G10|gene|CDC42|CDC42|r||non-human||
+E|G11|gene|Rac1|Rac1|r||non-human||
+E|G12|gene|Src|Src|p|ambiguous_mapping|non-human||
+E|D1|disease|pancreatic disorders|pancreatic disorders|r||||
+E|D2|disease|pancreatitis|pancreatitis|r|||D1|
+X|PAKs|b0002.s1|gene family, not single gene
+X|PKC|b0002.s5|kinase family, not single gene
+X|PI3K|b0002.s7|kinase family, not single gene
+X|SFK|b0002.s10|Src family kinases, gene set
+X|PLC|b0002.s5|enzyme family, not single gene
+EV|V1|b0002.s12|ts|int|hyp|ho
+P|G1|D2|unc|-|ts|unc:-:ts:V1|hedged_claim||Therapeutic target only speculated
+P|G1|D1|unc|-|ts|unc:-:ts:V1|hedged_claim||Hedged target statement for disorder family
+F|F1|mechanism|PAK2 activation by CCK, EGF, PDGF, bFGF|rat pancreatic acini|unknown|positive|not_reported|V1|abstract only, no disease outcome

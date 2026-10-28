@@ -1,0 +1,27 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GHR|GH receptor;GHR|r||human||
+E|G2|gene|GH|GH|p|other|human||
+E|G3|gene|GHBP|GH-binding protein;GHBP|p|ambiguous_mapping|human||
+E|G4|gene|IGF-I|IGF-I;insulin-like growth factor-I|r||human||
+E|G5|gene|IGFBP-3|IGFBP-3|r||human||
+E|D1|disease|GH insensitivity syndrome|Atypical GH insensitivity syndrome;GH insensitivity syndrome;GH insensitivity|r||||
+E|D2|disease|insulin-like growth factor-I deficiency|insulin-like growth factor-I deficiency|r||||
+E|D3|disease|IGF deficiency|IGF deficiency|p|other|||
+E|D4|disease|GH resistance|GH resistance|p|other|||
+E|S1|symptom|growth failure|growth failure|r||||
+X|R211H|b0002|variant identifier
+X|899dupC|b0002|variant identifier
+EV|V1|b0001.s1|ts|res|aff|rr,eda
+EV|V2|b0002.s1|bg|bgr|hyp|ho
+EV|V3|b0002.s4+b0002.s5|ts|res|aff|rr,do
+EV|V4|b0002.s7|ts|int|aff|eda
+EV|V5|b0002.s8|ts|int|hyp|ho
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V3;sup:c:ts:V4;unc:-:bg:V2|||Compound heterozygous GHR mutations attributed as cause
+P|G1|D2|sup|c|ts|sup:c:ts:V1+V3|||Title attributes IGF-I deficiency to GHR mutations
+P|G1|D3|sup|c|ts|sup:c:ts:V4;unc:-:bg:V2|||Conclusion attributes IGF deficiency to GHR mutations
+P|G1|D4|unc|-||unc:-:ts:V5|hedged_claim||Only suggests considering GHR aberrations
+F|F1|descriptive|GHR compound heterozygous mutations|proband with GH insensitivity|not_applicable|not_applicable|not_applicable|V3|single case
+F|F2|descriptive|serum GH, IGF-I, IGFBP-3, GHBP levels|proband|unknown|mixed|partial|V3|single case; no reference ranges given
+R|merging|D1, D4|GH resistance not stated to be a synonym of GH insensitivity|Kept as separate entities, each provisional
+R|merging|D2, D3|IGF deficiency versus IGF-I deficiency not explicitly co-referenced|Kept as separate entities

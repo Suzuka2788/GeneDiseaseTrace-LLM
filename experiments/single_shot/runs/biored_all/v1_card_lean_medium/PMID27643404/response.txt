@@ -1,0 +1,23 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|ALDH1A2|ALDH1A2|r||human||
+E|E2|gene|ALDH1B1|ALDH1B1|r||human||
+E|E3|disease|prostate cancer|Prostate cancer;prostate cancer|r||||
+E|E4|disease|low-grade prostate cancer|low-grade prostate cancer|r|||E3|
+E|E5|disease|cancer|cancer|r||||
+E|E6|clinical_event|prostate cancer-specific mortality|prostate cancer-specific mortality;prostate cancer mortality|r||||
+X|Alcohol Dehydrogenases (ADHs)|b0002|gene family set, not single-gene endpoint
+X|Aldehyde Dehydrogenases (ALDHs)|b0002|gene family set, not single-gene endpoint
+X|rs1441817;rs12910509;rs8041922;rs10973794|b0002|variant IDs
+EV|V1|b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+EV|V2|b0002.s11|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|neg|neg|rr
+EV|V4|b0002.s12|ts|int|hyp|ho
+P|E1|E6|sup|a|ts|sup:a:ts:V1|||ALDH1A2 SNPs associated with lower PCa mortality
+P|E2|E6|sup|a|ts|sup:a:ts:V2|||rs10973794 associated with mortality in low-grade men
+P|E2|E4|unc|-|ts|unc:-:ts:V2|scope||low-grade disease is subgroup, outcome is mortality
+P|E1|E3|nf|-||||V3+V4|pooled null diagnosis result, not gene-specific
+P|E2|E3|nf|-||||V3+V4|pooled null diagnosis result, not gene-specific
+F|F1|association|alcohol-metabolising gene variants vs diagnosis|23,868 cases, 23,051 controls|not_significant|null|not_reported|V3|pooled across 68 SNPs, 8 genes
+F|F2|association|ALDH1A2 SNPs vs PCa mortality|prostate cancer cases|significant|negative|available|V1|SNPs in linkage disequilibrium
+F|F3|association|ALDH1B1 rs10973794 vs PCa mortality|low-grade prostate cancer men|significant|positive|available|V2|subgroup analysis

@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|CRYBA3/A1|CRYBA3/A1|r||human||
+E|E2|disease|autosomal dominant congenital nuclear cataract|congenital nuclear cataract;suture-sparing autosomal dominant congenital nuclear cataract;congenital nuclear lactescent cataract;autosomal dominant congenital nuclear lactescent cataract|p|other|||
+E|E3|disease|zonular cataract with sutural opacities|zonular cataract|r||||
+E|E4|phenotype|normal cortical lens fiber morphology|cortical lens fiber morphology|r||||
+X|D17S1857|b0002|DNA marker, not a gene
+X|279delGAG|b0002|variant ID
+X|DeltaG91|b0002|variant ID
+X|IVS3+1G/A|b0002|variant ID
+EV|V1|b0002.s9+b0002.s10|ts|res|aff|rr,cs,cmp
+EV|V2|b0002.s12+b0001.s1|ts|res|aff|eda
+EV|V3|b0002.s13|bg|bgr|aff|ebr
+EV|V4|b0002.s8|ts|res|aff|rr
+P|E1|E2|sup|a|ts|sup:a:ts:V1+V2|||Deletion cosegregates; authors state association
+P|E1|E3|sup|a|bg|sup:a:bg:V3|||Reported splice mutation in zonular cataract
+F|F1|association|chr17 linkage marker D17S1857 vs cataract|five-generation Swiss family|significant|positive|partial|V4|lod 3.44 only; no full data
+F|F2|association|279delGAG cosegregation; absent in controls|family; 250 ethnic-matched controls|not_applicable|positive|partial|V1|abstract only
+F|F3|descriptive|cortical lens fiber morphology|one extracted cataract lens|not_applicable|not_applicable|not_applicable|b0002.s11|single lens
+R|merging|b0001.s1;b0002.s7;b0002.s12|Family phenotype named with varying qualifiers (lactescent, suture-sparing)|Merged as explicit co-reference to family disease; provisional

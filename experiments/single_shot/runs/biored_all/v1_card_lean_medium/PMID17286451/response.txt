@@ -1,0 +1,14 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|RB1|RB1|r||human||
+E|D1|disease|retinoblastoma|Retinoblastoma;retinoblastoma;RB|r||||
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s8+b0002.s11|ts|res|aff|rr,do
+EV|V3|b0002.s9+b0002.s11|ts|res|aff|cs
+EV|V4|b0002.s10|ts|int|hyp|ho
+EV|V5|b0002.s2|ts|aim|na|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2;sup:a:ts:V3;unc:-:ts:V4|||V5|RB1 LOH, deletions, co-segregating haplotype in RB
+F|F1|association|RB1 LOH in tumors|54 RB patients|significant|positive|partial|V1|frequency test comparator unclear
+F|F2|association|RB1 LOH vs other clinical parameters|RB patients|not_significant|null|not_reported|V1|parameters unspecified
+F|F3|group_comparison|parental origin of lost allele|7 germline deletion carriers|significant|positive|partial|V2|maternal allele lost more often
+F|F4|descriptive|RB1-linked haplotype co-segregation|two autosomal dominant families|not_applicable|not_applicable|not_applicable|V3|

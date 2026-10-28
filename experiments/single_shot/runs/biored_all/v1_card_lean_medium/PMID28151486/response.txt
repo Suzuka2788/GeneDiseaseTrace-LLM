@@ -1,0 +1,25 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|Star-PAP|Star-PAP|r||human||
+E|G2|gene|BIK|BIK;BCL2-interacting killer|r||human||
+E|D1|disease|breast cancer|breast cancer|r|||D2|
+E|D2|disease|cancer|cancer|r||||
+E|S1|phenotype|epithelial-mesenchymal transition|epithelial-mesenchymal transition|r||||
+X|tumor suppressor|b0001|functional role term, not a disease entity
+X|BCL2|b0002|appears only inside the BIK full name
+EV|V1|b0002.s3|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr
+EV|V3|b0001.s1+b0002.s7|ts|res|aff|mi,rr
+EV|V4|b0002.s2|bg|int|pre|unc
+EV|V5|b0002.s10|ts|int|hyp|ho
+EV|V6|b0002.s6|ts|res|na|rr
+EV|V7|b0002.s9|ts|res|na|rr
+P|G1|D1|sup|c|ts|sup:a:ts:V1;sup:r:ts:V2;sup:c:ts:V3||V6|xenograft overexpression inhibits growth; prognosis correlation
+P|G1|D2|unc|-|ts|unc:-:bg:V4;unc:-:ts:V5|presupposed_only,hedged_claim||role unknown in background; conclusion only suggested
+P|G2|D1|nf|-||||V6|BIK mediates apoptosis in cells only
+F|F1|group_comparison|Star-PAP expression|breast cancer lines and tissues|unknown|negative|not_reported|V1|comparator not specified in abstract
+F|F2|correlation|Star-PAP level vs prognosis|breast cancer patients|unknown|positive|not_reported|V2|
+F|F3|mechanism|Star-PAP overexpression, xenograft growth|NOD/SCID breast cancer xenografts|unknown|negative|not_reported|V3|
+F|F4|mechanism|Star-PAP, BIK, apoptosis|breast cancer cells|unknown|positive|not_reported|V6|
+F|F5|mechanism|Star-PAP knockdown, EMT|mammary epithelial cells|unknown|positive|not_reported|V7|
+R|non-human host|b0002.s7|human cells xenografted in mice; species of the intervention|treated as a human gene; xenograft counts as model intervention

@@ -1,0 +1,59 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text and captions; supplementary tables and figures unread
+E|G1|gene|TP53|TP53;p53;P53|r|||||
+E|G2|gene|PTEN|PTEN|r||human||
+E|G3|gene|PIK3CA|PIK3CA|r||human||
+E|G4|gene|NOTCH1|NOTCH1|r||human||
+E|G5|gene|AGTR1|AGTR1|r||human||
+E|G6|ambiguous_gene|RSRC1|RSRC1|u|ambiguous_mapping|human||
+E|G7|ambiguous_gene|RSRC2|RSRC2|u|ambiguous_mapping|human||
+E|G8|gene|GAP43|GAP43|r||human||
+E|G9|gene|NGF|NGF|r||human||
+E|G10|gene|Ngf|Ngf|p|species_unresolved|non-human||
+E|G11|gene|Pik3ca|Pik3ca|p|species_unresolved|non-human||
+E|G12|gene|Trp53|Trp53|p|species_unresolved|non-human||
+E|G13|gene|BDNF|BDNF|r||||
+E|G14|gene|GDNF|GDNF|r||||
+E|G15|gene|Ephrin B1|Ephrin B1|r||||
+E|G16|gene|EGFR|EGFR|r||||
+E|G17|gene|TOP1|TOP1|r||||
+E|G18|gene|TOP2A|TOP2A|r||||
+E|G19|gene|TOP2B|TOP2B|r||||
+E|G20|gene|MYC|MYC|r||||
+E|G21|gene|MTOR|MTOR|r||||
+E|G22|gene|PD-L1|PD-L1|r||||
+E|G23|gene|miR-34a|miR-34a;MiR-34a|r||||
+E|D1|disease|head and neck squamous cell carcinoma|Head and neck squamous cell carcinoma;HNSCC;HNSCCs|r||||
+E|D2|disease|HPV16-positive OPSCC|HPV16-positive OPSCC;HPV16-associated OPSCC|p|undefined_abbreviation|||
+E|D3|disease|oral cancer|oral cancer|r||||
+E|D4|disease|OSCC|OSCC|p|undefined_abbreviation|||
+E|D5|disease|nasopharyngeal carcinoma|nasopharyngeal carcinoma|r||||
+E|D6|disease|pancreatic ductal adenocarcinoma|pancreatic ductal adenocarcinomas|r||||
+E|D7|disease|melanoma|melanoma|r||||
+E|D8|disease|colon cancer|colon cancer|r||||
+E|D9|disease|head and neck cancer|head and neck cancer;head and neck cancers|r||||
+E|D10|disease|prostate cancer|prostate|p|other|||
+E|D11|disease|tongue tumors|tongue tumors|r||||
+E|S1|phenotype|perineural invasion|perineural invasion|r||||
+E|S2|symptom|cancer pain|cancer pain|r||||
+X|LUSC|b0010|TCGA cohort code, not separate disease entity
+X|PI3K|b0001|pathway/gene family, not single gene
+X|TGF-β|b0002|signaling family, not single gene
+X|MEK|b0046|kinase family, not single gene
+X|E2F|b0039|target gene set label
+EV|V1|b0049.s4|bg|bgr|aff|ebr
+EV|V2|b0049.s3|bg|bgr|aff|ebr
+EV|V3|b0049.s8|bg|bgr|aff|ebr
+EV|V4|b0051.s3|bg|bgr|aff|ebr,unc
+EV|V5|b0050.s4|bg|bgr|aff|ebr
+EV|V6|b0037.s5+b0037.s6+b0037.s7|ts|res|na|rr
+EV|V7|b0043.s1+b0043.s2|ts|res|na|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V2;sup:a:bg:V1|||p53 loss promotes HNSCC development per cited study
+P|G23|D5|sup|a|bg|sup:a:bg:V3|||miR-34a inhibits EMT/metastasis in NPC
+P|G22|D4|unc|-||unc:-:bg:V4|scope||PD-L1 change due to nerves, not gene-disease
+P|G3|D2|nf|-||||V5|PI3K hub alterations only as gene group
+P|G2|D1|nf|-||||V6|mutation frequency within HNSCC by SC group
+F|F1|group_comparison|TP53,NOTCH1,AGTR1,RSRC1,PTEN mutation vs SC score|TCGA-HNSC|significant|mixed|partial|V6|within-disease, Table S8 unread
+F|F2|group_comparison|SC score by Trp53/Pik3ca genotype|4NQO mouse tongue tumors|significant|positive|unread|V7|
+C|C1|RSRC1 vs RSRC2 MutSig gene|b0037.s7+b0065.s5|noncritical|unresolved|text and caption name differ
+U|Table S8|b0037.s4|supplement not provided

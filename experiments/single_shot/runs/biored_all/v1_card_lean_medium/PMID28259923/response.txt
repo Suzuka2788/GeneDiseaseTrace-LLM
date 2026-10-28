@@ -1,0 +1,25 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|PLAGL2|pleomorphic adenoma gene like-2;Pleomorphic adenoma gene like-2;PLAGL2|r||human||
+E|G2|gene|N-cadherin|N-cadherin|r||human||
+E|G3|gene|vimentin|vimentin|r||human||
+E|G4|gene|E-cadherin|E-cadherin|r||human||
+E|G5|gene|b-catenin|b-catenin|r||human||
+E|D1|disease|colorectal adenocarcinoma|colorectal adenocarcinoma;Colorectal adenocarcinoma;CRC|r||||
+E|D2|disease|cancer|cancer|r||||
+E|S1|phenotype|metastasis|metastasis|r||||
+X|Pleomorphic adenoma|b0001|part of gene name, not a disease mention
+X|tumor|b0002|generic tumor/tumor cells mention, not a distinct disease
+X|Wnt/b-catenin signaling pathway|b0001|pathway, not a single gene
+X|SW480|b0002|cell line identifier
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s4|ts|res|aff|rr
+EV|V3|b0002.s5|ts|res|aff|rr,cmp
+EV|V4|b0002.s8|ts|res|aff|mi
+EV|V5|b0002.s6+b0002.s7|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V2;sup:a:ts:V3||V4+V5|Upregulated in CRC tissue; prognostic role confirmed
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background: poor prognosis predictor in cancer
+F|F1|group_comparison|PLAGL2 expression|CRC vs borderline/benign tissues|unknown|positive|not_reported|V3|abstract only
+F|F2|mechanism|PLAGL2 overexpression; EMT markers, migration|SW480 cells|significant|mixed|not_reported|V5|cell phenotype only
+F|F3|group_comparison|PLAGL2 level; lung metastasis|rat tail-vein SW480 xenograft|unknown|positive|not_reported|V4|no statistics reported
+F|F4|mechanism|PLAGL2; nuclear b-catenin|SW480 cells|unknown|positive|not_reported|V5|

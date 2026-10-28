@@ -1,0 +1,19 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PPARG|PPARG;peroxisomal proliferator-activated receptor-gamma;Peroxisomal proliferator activated receptor-gamma;PPAR-gamma|r||human||
+E|D1|disease|familial partial lipodystrophy type 3|familial partial lipodystrophy type 3;FPLD3|r||||
+E|D2|disease|diabetes|diabetes|r||||
+E|D3|disease|hypertriglyceridemia|hypertriglyceridemia|r||||
+E|D4|disease|pancreatitis|pancreatitis|r||||
+E|S1|phenotype|insulin resistance|insulin resistance|r||||
+E|S2|phenotype|loss of fat on arms and legs|loss of fat|r||||
+X|Y355X|b0002.s5|variant identifier, not a gene
+X|MIM 604367|b0002.s1|database identifier
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s7|ts|int|hyp|ho
+EV|V4|b0002.s4|ts|co|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2;unc:-:ts:V3|hedged_claim||FPLD3 stated to result from PPARG mutations
+P|G1|D4|nf|-|||||V4|Comorbidity in carrier only; no attribution
+F|F1|mechanism|Y355X protein activity; dominant-negative effect|in vitro expression|unknown|null|not_reported|V2|abstract only; no statistics
+F|F2|descriptive|PPARG Y355X heterozygosity|FPLD3 mother and daughter|not_applicable|not_applicable|not_applicable|V2|single kindred

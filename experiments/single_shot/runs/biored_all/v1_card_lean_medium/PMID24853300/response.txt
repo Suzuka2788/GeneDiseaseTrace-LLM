@@ -1,0 +1,36 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|calbindin-D28k (mouse)|calbindin-D28k;Calbindin-D28k;CB|r||non-human||
+E|G2|gene|calbindin-D28k (human)|calbindin-D28k;Calbindin-D28k;CB|p|other|human||
+E|G3|gene|amyloid precursor protein|amyloid precursor protein|p|species_unresolved|||
+E|G4|ambiguous_gene|presenilin|presenilin|u|ambiguous_mapping,species_unresolved|||
+E|G5|gene|mitogen-activated protein kinase (extracellular signal-regulated kinase) 1/2|mitogen-activated protein kinase (extracellular signal-regulated kinase) 1/2|p|ambiguous_mapping|non-human||
+E|G6|gene|cAMP response element-binding protein|cAMP response element-binding protein|r||non-human||
+E|G7|gene|NMDA receptor 1|N-methyl-D-aspartate receptor 1;NMDA receptor 1|r||non-human||
+E|G8|gene|NMDA receptor 2A|NMDA receptor 2A|r||non-human||
+E|G9|gene|PSD-95|PSD-95|r||non-human||
+E|G10|gene|synaptophysin|synaptophysin|r||non-human||
+E|D1|disease|Alzheimer's disease|Alzheimer's disease;Alzheimer disease;AD|r||||
+E|D2|disease|familial AD|familial AD|r|||D1|
+E|S1|phenotype|neuronal loss|neuronal loss|r||||
+E|S2|phenotype|amyloid b-peptide plaques|Ab|r||||
+E|S3|phenotype|mitochondrial dysfunction|mitochondrial dysfunction|r||||
+E|S4|phenotype|neuronal death|neuronal death|r||||
+X|5XFAD|b0002.s3|mouse strain name, not a gene
+X|CBKO|b0002.s3|knockout line label, not a gene
+X|CBKOTg|b0002.s3|mouse line label, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s7|ts|res|aff|rr,mi,cmp
+EV|V3|b0002.s7|ts|int|hyp|ho
+EV|V4|b0002.s3+b0002.s7|ts|co|pre|unc
+EV|V5|b0002.s6|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2;unc:-:ts:V3|||CB reduced in AD mice; knockout aggravates pathology
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||CB reductions in human AD brains
+P|G3|D1|unc|-|ts|unc:-:ts:V4|presupposed_only,coreference||Transgene used as AD model; no explicit attribution
+P|G3|D2|unc|-|ts|unc:-:ts:V4|presupposed_only,coreference||Familial AD mutations not tied to named gene
+P|G4|D1|unc|-|ts|unc:-:ts:V4|identity,presupposed_only||Presenilin unresolved; model use only
+P|G5|D1|nf|-||||V5|CBKOTg vs Tg comparison; not disease outcome
+F|F1|group_comparison|neuronal loss, apoptosis, mitochondrial dysfunction|CBKOTg vs Tg mice|significant|positive|not_reported|V2|abstract only
+F|F2|group_comparison|Ab plaque number|CBKOTg vs Tg mice|not_significant|null|not_reported|V2|abstract only
+F|F3|group_comparison|pERK1/2, pCREB, NMDA receptors, PSD-95, synaptophysin|CBKOTg vs Tg subiculum|unknown|negative|not_reported|V5|significance not stated
+R|species split|b0002.s2|One CB statement covers both mice and humans with AD|Created separate mouse and human CB nodes, each with bg support

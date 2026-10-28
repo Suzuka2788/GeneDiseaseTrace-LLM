@@ -1,0 +1,78 @@
+{
+  "run_id": "20261027T203552Z-a7e989a3",
+  "rule_version": "1.1.0",
+  "skill": "biomed-gene-disease-evidence",
+  "model": "claude-opus-5-5",
+  "paper_id": "PMC10014009",
+  "pmid": "36629374",
+  "title": "Clinicoradiologic data of familial cerebral cavernous malformation with age-related disease burden",
+  "article_type": "research-article",
+  "order_basis": "outputs/inventory.csv order (first row); also first by file-name order",
+  "source_file": ".Input/100papers/PMC10014009.xml",
+  "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+  "parsed_blocks": "cache/articles/PMC10014009.json (117 blocks; references excluded)",
+  "annotation_file": "manual/pmc10014009.py",
+  "annotation_hash": "a7e989a3a75abb805ffcfcd19a9720254bd67590355fc6c2d36757ae64af776a",
+  "text_normalisation": "U+2010/U+2011 hyphens and U+2212 minus -> '-', thin/no-break spaces and whitespace collapsed; spelling, numbers and negations unchanged",
+  "unread_attachments": [
+    {
+      "name": "Table S1",
+      "referenced_in": [
+        "b0070",
+        "b0114"
+      ]
+    },
+    {
+      "name": "Table S2",
+      "referenced_in": [
+        "b0094",
+        "b0115"
+      ]
+    },
+    {
+      "name": "Table S3",
+      "referenced_in": [
+        "b0094",
+        "b0116"
+      ]
+    },
+    {
+      "name": "Figure 1-3 image pixels",
+      "referenced_in": [
+        "b0027",
+        "b0068",
+        "b0095"
+      ]
+    }
+  ],
+  "scope_overrides": [],
+  "genes": 8,
+  "primary_diseases": 21,
+  "auxiliary_entities": 18,
+  "pairs": 168,
+  "status_counts": {
+    "supported": 11,
+    "explicit_negative": 0,
+    "uncertain": 7,
+    "not_found": 150
+  },
+  "study_findings": 8,
+  "evidence_items": 48,
+  "ambiguous_entities": 1,
+  "output_files": [
+    "auxiliary_entities.csv",
+    "edges.csv",
+    "entities.csv",
+    "evidence.csv",
+    "excluded_candidates.csv",
+    "graph.graphml",
+    "graph.svg",
+    "mentions.csv",
+    "pairs.csv",
+    "result.json",
+    "study_findings.csv",
+    "validation.json",
+    "manifest.json",
+    "index.html"
+  ]
+}

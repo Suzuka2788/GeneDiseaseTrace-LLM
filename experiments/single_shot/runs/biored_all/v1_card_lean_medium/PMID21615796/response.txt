@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IL-17F|Interleukin-17F;IL-17F|r||human||
+E|D1|disease|chronic immune thrombocytopenia|chronic immune thrombocytopenia;chronic ITP|p|undefined_abbreviation||||
+E|D2|disease|autoimmune diseases|autoimmune diseases|r|||||
+E|S1|phenotype|severe thrombocytopenic state|severe thrombocytopenic state|r|||||
+X|rs763780|b0002|variant identifier
+X|7488T/C|b0002|variant designation
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|int|aff|rr
+EV|V4|b0002.s7|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3||V4|7488C genotype and allele lower in patients versus controls
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background: IL-17F has a role in autoimmune diseases
+F|F1|association|IL-17F 7488CC genotype and C allele|102 chronic ITP vs 188 controls|significant|negative|available|V2|PCR-RFLP; single SNP
+F|F2|group_comparison|IL-17F 7488TT vs TC; severe platelet count|chronic ITP patients|significant|positive|partial|V4|within-disease comparison
+R|undefined abbreviation merge|b0002.s2|ITP is never defined, but it co-refers with the title's disease|Merged chronic ITP into D1 as provisional with undefined_abbreviation

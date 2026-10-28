@@ -1,0 +1,73 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PAR1|PAR1;PAR-1|p|species_unresolved||||
+E|G2|gene|PAR2|PAR2|p|species_unresolved||||
+E|G3|gene|b2m|b2m|p|species_unresolved||||
+E|G4|gene|ccl7|ccl7|p|species_unresolved||||
+E|G5|gene|cd200|cd200|p|species_unresolved||||
+E|G6|gene|cd63|cd63|p|species_unresolved||||
+E|G7|gene|cdbpd|cdbpd|p|species_unresolved,other||||
+E|G8|gene|cfl1|cfl1|p|species_unresolved||||
+E|G9|gene|dusp1|dusp1|p|species_unresolved||||
+E|G10|gene|fkbp1a|fkbp1a|p|species_unresolved||||
+E|G11|gene|fth1|fth1|p|species_unresolved||||
+E|G12|gene|hspb1|hspb1|p|species_unresolved||||
+E|G13|gene|marcksl1|marcksl1|p|species_unresolved||||
+E|G14|gene|mmp2|mmp2|p|species_unresolved||||
+E|G15|gene|myo5a|myo5a|p|species_unresolved||||
+E|G16|gene|nfkbia|nfkbia|p|species_unresolved||||
+E|G17|gene|pax1|pax1|p|species_unresolved||||
+E|G18|gene|plaur|plaur|p|species_unresolved||||
+E|G19|gene|ppia|ppia|p|species_unresolved||||
+E|G20|gene|ptpn1|ptpn1|p|species_unresolved||||
+E|G21|gene|ptprcap|ptprcap|p|species_unresolved||||
+E|G22|gene|s100a10|s100a10|p|species_unresolved||||
+E|G23|gene|sim2|sim2|p|species_unresolved||||
+E|G24|gene|tnfaip2|tnfaip2|p|species_unresolved||||
+E|G25|gene|arf6|arf6|p|species_unresolved||||
+E|G26|gene|dcnt1|dcnt1|p|species_unresolved,other||||
+E|G27|gene|p38 MAPK|p38 MAPK|p|species_unresolved,ambiguous_mapping||||
+E|D1|disease|inflammation|inflammation|r|||||
+E|D2|disease|bladder inflammation|bladder inflammation|r|||||
+E|D3|disease|cystitis|cystitis|r|||||
+E|S1|symptom|edema|edema|r|||||
+E|S2|phenotype|granulocyte infiltration|granulocyte infiltration|r|||||
+X|Protease-activated receptors (PAR)|b0002|receptor family, not a single gene
+X|substance P (SP)|b0002|peptide stimulus, not analysed as gene
+X|E. coli lipopolysaccharide (LPS)|b0002|bacterial stimulus, not gene
+EV|V1|b0002.s4+b0002.s5|bg|res|aff|mi,rr
+EV|V2|b0002.s14|ts|res|aff|rr
+EV|V3|b0002.s10|bg|bgr|aff|ebr
+EV|V4|b0002.s12|ts|int|hyp|ho
+EV|V5|b0002.s13|ts|int|hyp|ho
+EV|V6|b0002.s15|ts|aim|q|none
+EV|V7|b0002.s6+b0002.s7+b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2||V7|PAR1 deficiency attenuates bladder inflammation in mice
+P|G2|D2|sup|c|bg|sup:c:bg:V1|||PAR2 deficiency attenuates response, lesser extent
+P|G1|D3|nf|-|||||V6|Only open question about PAR1 blockade
+P|G3|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G4|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G5|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G6|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G7|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G8|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G9|D1|sup|a|bg|sup:a:bg:V3;unc:-:ts:V4|||Implicated; counter-balancing role hedged
+P|G10|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G11|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G12|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G13|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G14|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G15|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G16|D1|sup|a|bg|sup:a:bg:V3;unc:-:ts:V4|||Implicated; counter-balancing role hedged
+P|G17|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G18|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G19|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G20|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G21|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G22|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G23|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G24|D1|sup|a|bg|sup:a:bg:V3|||Listed as implicated in inflammatory process
+P|G25|D1|unc|-||unc:-:ts:V5|hedged_claim||Would tend to perpetuate inflammation; speculative
+P|G26|D1|unc|-||unc:-:ts:V5|hedged_claim||Would tend to perpetuate inflammation; speculative
+F|F1|group_comparison|stimulus-induced gene expression; PAR1 genotype|wild type vs PAR1-/- mouse bladder|unknown|not_applicable|not_reported|V7|abstract only; 75 transcripts PAR1-dependent
+R|gene list implicated in inflammatory process|b0002.s10|Process-level term vs disease entity inflammation unclear|Treated inflammation as disease; assigned per listed member

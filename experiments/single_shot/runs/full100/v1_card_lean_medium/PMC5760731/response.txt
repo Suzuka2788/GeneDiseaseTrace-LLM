@@ -1,0 +1,32 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; supplementary figures and material unread
+E|G1|gene|syntaxin|syntaxin;Syntaxin;syntaxins;Syx;syx|p|species_unresolved,ambiguous_mapping|||
+E|G2|gene|syntaxin1A|Syntaxin1A;syntaxin1A|p|species_unresolved|||
+E|G3|gene|syntaxin1B|syntaxin1B;Syntaxin1B|p|species_unresolved|||
+E|G4|gene|munc18|munc18|p|species_unresolved,ambiguous_mapping|||
+E|G5|gene|munc18-1|munc18-1|p|species_unresolved|non-human||
+E|G6|gene|synaptobrevin 2|synaptobrevin 2;Synaptobrevin 2;syb2;Syb2;synaptobrevin;Synaptobrevin|p|species_unresolved,ambiguous_mapping|||
+E|G7|gene|SNAP-25|SNAP-25|p|species_unresolved|||
+E|G8|gene|synaptotagmin|synaptotagmin|p|species_unresolved|||
+E|G9|gene|munc13|munc13|p|species_unresolved|||
+E|G10|gene|complexin|complexin|p|species_unresolved|||
+E|G11|gene|neuropeptide Y|Neuropeptide Y;NPY|p|species_unresolved|||
+E|D1|disease|neurological disorders|neurological disorders|r||||
+E|D2|disease|Parkinson's disease|Parkinson's disease|r|||D1|
+X|DKD7|b0047|cell line identifier (munc18 double knockdown)
+X|vSyx|b0018|engineered syntaxin construct, not a separate gene
+X|syxCD|b0012|syntaxin cytoplasmic-domain construct
+X|I233A|b0012|variant/mutation label
+X|V-ATPase|b0025|complex, not a single gene
+X|PC-12|b0010|cell line
+EV|V1|b0044.s3|ts|int|hyp|ho
+P|G1|D2|unc|-|unk|unc:-:ts:V1|hedged_claim|V1|Speculative therapeutic implication of the docking pathway
+P|G4|D2|unc|-|unk|unc:-:ts:V1|hedged_claim|V1|Speculative therapeutic implication of the docking pathway
+P|G1|D1|unc|-|unk|unc:-:ts:V1|hedged_claim|V1|Speculative therapeutic implication of the docking pathway
+P|G4|D1|unc|-|unk|unc:-:ts:V1|hedged_claim|V1|Speculative therapeutic implication of the docking pathway
+F|F1|group_comparison|vSyx vs control syx-GFP clustering|PC-12 cells|significant|positive|available||Cell assay, no disease
+F|F2|group_comparison|vSyx vs control, granules within 10 nm|PC-12 cells, EM|significant|positive|available||Cell assay, no disease
+F|F3|mechanism|munc18 knockdown abolishes vSyx enhancement|munc18 double-knockdown PC-12|unknown|negative|partial||No test statistic given in text
+F|F4|group_comparison|syb2/syb2CD overexpression vs syntaxin clustering|PC-12 cells|not_significant|null|unread||Values only in figure
+U|Supplementary Figures 1-3 and Supplementary Material|b0010.s7;b0015.s5;b0025.s7|not provided
+R|species|whole paper|Rat cell line; construct species unstated; nematode and Drosophila syntaxin mentioned only in background|Kept single nodes, species empty, provisional

@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|STAT3|signal transducer and activator of transcription 3;STAT3|r||non-human||
+E|G2|gene|Bcl-2|Bcl-2|r||non-human||
+E|G3|gene|Bax|Bax|r||non-human||
+E|D1|disease|acute myocardial injury|acute myocardial injury|r||||
+E|D2|disease|acute myocardial ischemia|acute myocardial ischemia|r||||
+E|D3|disease|acute myocardial ischemic injury|Acute myocardial ischemic injury|p|other|||
+E|D4|disease|myocardial damage|myocardial damage|p|other|||
+E|S1|phenotype|left ventricular remodeling|left ventricular remodeling|r||||
+EV|V1|b0002.s6|ts|res|aff|rr,do
+EV|V2|b0002.s9+b0001.s1|ts|int|aff|unc
+EV|V3|b0002.s7|ts|res|aff|rr,do
+P|G1|D2|unc|-|ts|unc:-:ts:V1+V2|support_basis_unresolved,scope|V1|Drug-mechanism inference; STAT3 phosphorylation observed only
+P|G1|D1|unc|-|ts|unc:-:ts:V2|support_basis_unresolved,scope|V1|Title mechanism claim concerns betaine, not gene
+P|G2|D2|nf|-|||||V3|Expression change by drug; no disease attribution
+P|G3|D2|nf|-|||||V3|Expression change by drug; no disease attribution
+F|F1|mechanism|STAT3 phosphorylation; isoproterenol; betaine|rat myocardium|unknown|positive|not_reported|V1|abstract only
+F|F2|group_comparison|Bcl-2/Bax ratio; betaine dose|isoproterenol-treated rats|significant|positive|not_reported|V3|abstract only
+R|pathway attribution|b0002.s9|Gene named as drug-mechanism mediator, not disease cause|Marked uncertain with scope and support basis unresolved

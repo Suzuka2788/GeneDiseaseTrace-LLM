@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|MLH1|MLH1|r||human||
+E|G2|gene|MSH2|MSH2|r||human||
+E|D1|disease|Lynch syndrome|Lynch syndrome;Lynch Syndrome;HNPCC|r||||
+X|Alu|b0001|repetitive DNA element, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0002.s4+b0002.s5|ts|res|na|do
+EV|V3|b0001.s1|ts|int|pre|unc
+EV|V4|b0002.s8|ts|hyp|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V2+V3|Reported germline rearrangements in Lynch patients
+P|G2|D1|sup|a|bg|sup:a:bg:V1||V2+V3|Reported germline rearrangements in Lynch patients
+F|F1|group_comparison|deletion mechanism by gene (Alu vs non-homologous)|11 germline deletions, MLH1 vs MSH2|significant|not_applicable|partial|V2|P value only; small sample
+F|F2|group_comparison|Alu-mediated deletion proportion by gene|previously characterized deletions (34 MSH2, 21 MLH1)|significant|not_applicable|partial|V2|abstract only
+F|F3|descriptive|intronic breakpoint density vs Alu density|MLH1 and MSH2 introns|unknown|positive|not_reported|V4|no statistic given
+F|F4|hypothesis|Alu promoting recombination in MLH1/MSH2|MLH1 and MSH2|not_applicable|not_applicable|not_applicable|V4|author suggestion

@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|glycine transporter-1|glycine transporter-1;GlyT1|r||human||
+E|G2|gene|Nr1|Nr1|p|species_unresolved|non-human||
+E|G3|gene|dopamine transporter|dopamine transporter;DAT|p|species_unresolved|non-human||
+E|D1|disease|Schizophrenia|Schizophrenia|r||||
+E|S1|symptom|schizophrenic-like symptoms|schizophrenic-like symptoms|r||||
+E|S2|phenotype|hyperactivity|hyperactivity|r||||
+E|S3|phenotype|catalepsy|catalepsy|r||||
+X|NMDA receptor|b0002|receptor complex, not a single-gene endpoint
+X|SSR103800|b0002|compound identifier, not a gene
+X|MK-801|b0002|drug identifier, not a gene
+EV|V1|b0002.s4+b0002.s5|ts|aim|na|ho
+EV|V2|b0002.s1+b0002.s2|bg|bgr|na|do
+P|G1|D1|nf|-|||||GlyT1 inhibitor drug target only; no disease link
+P|G2|D1|nf|-||||V1|mouse hyperactivity model; no disease attribution
+P|G3|D1|nf|-||||V2|knockout hyperactivity model; dopamine link is not gene-specific
+F|F1|group_comparison|SSR103800 vs hyperactivity|NMDA Nr1(neo-/-) mice|unknown|negative|not_reported|V1|partial reversal; abstract only
+F|F2|group_comparison|SSR103800 vs hyperactivity|DAT(-/-) knockout mice|unknown|null|not_reported|V1|abstract only

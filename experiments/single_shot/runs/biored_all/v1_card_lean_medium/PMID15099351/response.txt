@@ -1,0 +1,22 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PCSK9|Proprotein convertase subtilisin/kexin type 9;PCSK9|r||human||
+E|G2|gene|LDL receptor|low-density lipoprotein receptor|r||human||
+E|G3|gene|apolipoprotein B-100|apolipoprotein B-100|r||human||
+E|D1|disease|hypercholesterolemia|hypercholesterolemia|r||||
+E|D2|disease|autosomal dominant hypercholesterolemia|autosomal dominant hypercholesterolemia|r|||D1|
+E|D3|disease|familial hypercholesterolemia|familial hypercholesterolemia|r|||D1|
+X|cholesterol biosynthesis|b0002|biological process, not disease
+X|D374Y;N157K;R3500Q|b0002|variant identifiers
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr,cs
+EV|V3|b0002.s6|ts|res|aff|rr,cs
+EV|V4|b0002.s7|both|int|aff|eda
+EV|V5|b0002.s3+b0002.s4+b0002.s5|ts|co|na|do
+P|G1|D2|sup|c|both|sup:a:bg:V1;sup:c:both:V4||V3|Authors conclude PCSK9 mutations cause ADH
+P|G1|D1|sup|a|both|sup:a:bg:V2;sup:a:ts:V3||V5|Background and own co-segregation with hypercholesterolemia
+P|G1|D3|unc|-||unc:-:ts:V5|scope|V4|Variants found in FH cohort; no FH attribution
+P|G2|D3|nf|-||||V5|Exclusion criterion only
+P|G3|D3|nf|-||||V5|R3500Q exclusion criterion only
+F|F1|descriptive|PCSK9 missense mutations|51 Norwegian clinical FH subjects|not_applicable|not_applicable|not_applicable|V5|
+F|F2|association|D374Y co-segregation with hypercholesterolemia|two families|unknown|positive|not_reported|V3|abstract only; family size unknown

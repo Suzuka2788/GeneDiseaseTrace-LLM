@@ -1,0 +1,66 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables 1-6, captions; no genes analysed
+E|D1|disease|chronic kidney disease|chronic kidney disease;Chronic kidney disease;CKD|r|||||
+E|D2|disease|end stage renal disease|end stage renal disease;end-stage renal disease;End Stage Renal Disease;ESRD;end stage kidney disease|r||||
+E|D3|clinical_event|major adverse cardiovascular and cerebrovascular events|major adverse cardiovascular/cerebrovascular events;major adverse cardiovascular and cerebrovascular events;MACCEs;MACCE|r||||
+E|D4|clinical_event|cerebrovascular events|cerebrovascular events;cerebrovascular event;Cerebrovascular events|r||||
+E|D5|disease|cerebrovascular disease|cerebrovascular disease;Cerebrovascular disease|r||||
+E|D6|disease|cardiovascular disease|cardiovascular disease;Cardiovascular disease;CV disease|r||||
+E|D7|disease|atherosclerosis|atherosclerosis|r||||
+E|D8|disease|diabetes mellitus|diabetes mellitus;diabetes;Diabetes|r||||
+E|D9|disease|hypertension|hypertension;Hypertension|r||||
+E|D10|disease|dyslipidemia|dyslipidemia;Dyslipidemia|r||||
+E|D11|disease|acute kidney injury|acute kidney injury|r||||
+E|D12|disease|heart failure|heart failure;Heart failure|r||||
+E|D13|disease|psychiatric disturbances|psychiatric disturbances|r||||
+E|D14|disease|acute coronary syndrome|acute coronary syndrome;Acute coronary syndrome;ACS|r||||
+E|D15|disease|ST-segment elevation myocardial infarction|ST-segment elevation myocardial infarction;STEMI|r|||D14|
+E|D16|disease|non-STEMI|non-STEMI|r|||D14|
+E|D17|disease|unstable angina pectoris|unstable angina pectoris|r|||D14|
+E|D18|disease|stroke|stroke;Stroke|r||||
+E|D19|disease|ischemic stroke|ischemic stroke|r|||D18|
+E|D20|disease|acute myocardial infarction|acute myocardial infarction;Acute myocardial infarction|r||||
+E|D21|disease|mesenteric ischemia|mesenteric ischemia|r||||
+E|D22|disease|arrhythmia|arrhythmia|r||||
+E|D23|clinical_event|sudden death|sudden death|r||||
+E|D24|disease|diabetic nephropathy|diabetic nephropathy|r||||
+E|D25|disease|coronary artery disease|coronary artery disease|r||||
+E|D26|disease|renal interstitial fibrosis|renal interstitial fibrosis|r||||
+E|D27|disease|hyperhomocysteinaemia|hyperhomocysteinaemia|r||||
+E|D28|disease|renal failure|renal failure|r||||
+E|D29|disease|thrombosis|thrombosis|r||||
+E|D30|disease|infections|infections|r||||
+E|D31|clinical_event|CKD progression|CKD progression|r||||
+E|D32|clinical_event|composite cardiovascular outcome|composite cardiovascular outcome|r||||
+E|D33|clinical_event|cardiovascular death|Cardiovascular death|r||||
+E|D34|clinical_event|all-cause mortality|all-cause mortality|r||||
+E|S1|phenotype|endothelial dysfunction|Endothelial dysfunction|r||||
+E|S2|phenotype|arterial stiffness|arterial stiffness|r||||
+E|S3|phenotype|insulin resistance|insulin resistance|r||||
+E|S4|phenotype|proteinuria|proteinuria|r||||
+X|vWF|b0031|serum protein marker listed as disturbance; no gene-level claim
+X|sVCAM-1|b0031|soluble protein marker; no gene-level claim
+X|sE-selectin|b0031|soluble protein marker; no gene-level claim
+X|BNP|b0014|serum lab analyte
+X|parathormone|b0014|serum lab analyte (iPTH)
+X|C reactive protein|b0014|serum lab analyte (CRP)
+X|ADMA|b0031|metabolite, not a gene
+X|CKD RELATED PARAMETERS|b0060|table_grouping_label
+X|CARDIOVASCULAR RELATED PARAMETERS|b0067|table_grouping_label
+EV|V1|b0028.s8+b0192.s1+b0193.s1|ts|res|aff|rr,cmp
+EV|V2|b0028.s7+b0188.s1+b0189.s1|ts|neg|neg|rr,cmp
+EV|V3|b0028.s7+b0196.s1+b0198.s1|ts|neg|neg|rr,cmp
+EV|V4|b0025.s11+b0113.s1+b0114.s1+b0159.s1|ts|res|aff|rr,cmp
+EV|V5|b0025.s8+b0088.s1+b0128.s1+b0162.s1|ts|res|aff|rr
+EV|V6|b0025.s7+b0066.s1|ts|res|aff|rr,cmp
+EV|V7|b0025.s11+b0105.s1+b0107.s1+b0109.s1+b0156.s1|ts|res|aff|rr,cmp
+F|F1|group_comparison|baseline RHI vs incident cerebrovascular events|pre-dialysis CKD, n=120|significant|negative|available|V1|4 events; unadjusted t test
+F|F2|group_comparison|baseline RHI vs MACCEs|pre-dialysis CKD, n=120|not_significant|null|available|V2|8 events
+F|F3|group_comparison|baseline RHI vs CKD progression, ESRD|pre-dialysis CKD, n=120|not_significant|null|available|V3|
+F|F4|group_comparison|RHI by cerebrovascular disease comorbidity|pre-dialysis CKD, n=120|mixed|negative|available|V4|lost after adjustment
+F|F5|correlation|RHI vs eGFR|pre-dialysis CKD, n=120|mixed|positive|available|V5|age-adjusted not significant
+F|F6|group_comparison|RHI by CKD stage 4/5 vs 1|pre-dialysis CKD stages|significant|negative|available|V6|unadjusted for age
+F|F7|group_comparison|RHI by hypertension, diabetes, dyslipidemia|pre-dialysis CKD, n=120|mixed|negative|available|V7|only hypertension survives model 12
+C|C1|RHI-eGFR correlation coefficient|b0025.s8+b0002.s9+b0088.s1|noncritical|unresolved|0.332 text vs 0.348 table
+C|C2|correlation signs for proteinuria, triglycerides, PTH|b0025.s10+b0089.s1+b0093.s1+b0095.s1|noncritical|unresolved|text positive r, called negative; table negative
+R|gene boundary|b0014.s5;b0031.s2|protein biomarkers (vWF, BNP, CRP, PTH) named only as lab analytes|excluded as analytes; no gene pairs; all pairs nf

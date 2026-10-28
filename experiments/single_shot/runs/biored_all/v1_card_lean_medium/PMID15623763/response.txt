@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|TGFBI|TGFBI|r||human||
+E|D1|disease|lattice corneal dystrophy|lattice corneal dystrophy;LCD;lattice|r||||
+E|D2|disease|granular corneal dystrophy|granular corneal dystrophy;GCD;granular corneal dystrophies|r||||
+E|D3|disease|GCD type I|GCD type I|r|||D2|
+E|D4|disease|GCD type III|GCD type III;Reis-Bucklers dystrophy|r|||D2|
+E|S1|phenotype|atypical clinical features|Atypical clinical features|r||||
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s6+b0002.s7+b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s13|ts|int|hyp|eda
+EV|V4|b0002.s6+b0002.s7|ts|res|aff|rr,cmp
+EV|V5|b0002.s11|ts|res|aff|rr
+EV|V6|b0002.s10+b0002.s14|ts|res|aff|rr
+EV|V7|b0002.s12|ts|res|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2;unc:-:ts:V3|hedged_claim||TGFBI mutations identified in LCD patients, absent in controls
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V4;unc:-:ts:V3|hedged_claim||TGFBI mutations identified in all GCD patients
+P|G1|D3|sup|a|ts|sup:a:ts:V5+V4|||Arg555Trp found in all GCD type I patients
+P|G1|D4|sup|a|ts|sup:a:ts:V5+V4|||Arg124Leu found in single GCD type III patient
+F|F1|association|TGFBI novel mutations vs clinical phenotype|LCD patients|unknown|not_applicable|not_reported|V6|small numbers; descriptive only
+F|F2|descriptive|Leu269Phe SNP with Arg555Trp|GCD type I patients|not_applicable|not_applicable|partial|V7|12 of 18; no test
+F|F3|descriptive|TGFBI mutation detection rate|18 LCD, 19 GCD patients|not_applicable|not_applicable|partial|V4|abstract only

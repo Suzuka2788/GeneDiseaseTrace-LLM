@@ -1,0 +1,65 @@
+META|claude-opus-5-5|seen: no
+SCOPE|full review text; figures/tables not images
+E|e1|gene|SLC22A6|OAT1;Oat1;rOat1;hOAT1;OAT1-mediated|r||human|
+E|e2|gene|SLC22A7|OAT2;Oat2;rOat2|r||human|
+E|e3|gene|SLC22A8|OAT3;Oat3;rOat3;hOAT3|r||human|
+E|e4|gene|SLC22A11|OAT4;hOAT4|r||human|
+E|e5|gene|Oat5|Oat5;rOat5|p|species_unresolved|non-human|
+E|e6|gene|Oat8|Oat8|p|species_unresolved|non-human|
+E|e7|gene|Oat9|Oat9;Oat9S|r||non-human|
+E|e8|gene|OAT10|OAT10;hORCTL3;OCTL1|r||human|
+E|e9|gene|SLCO4C1|OATP4C1;Oatp4c1|r||human|
+E|e10|gene|Oatp1a1|oatp1;Oatp1a1|p|species_unresolved|non-human|
+E|e11|gene|Oatp1a3v1|Oatp1a3v1;Oat-k1|r||non-human|
+E|e12|gene|Oatp1a3v2|Oatp1a3v2;Oat-k2|r||non-human|
+E|e13|gene|Oatp1a5|Oatp1a5;oatp3|r||non-human|
+E|e14|gene|Oatp1a6|Oatp1a6;oatp5|r||non-human|
+E|e15|gene|Oatp1a4|Oatp1a4;Slco1a4|r||non-human|
+E|e16|gene|SLC17A1|NPT1|r||human|
+E|e17|gene|SLC17A3|NPT4;hNPT4|r||human|
+E|e18|gene|SLC15A1|PEPT1;Pept1|r||human|
+E|e19|gene|SLC15A2|PEPT2;Pept2|r||human|
+E|e20|gene|ABCB1|P-gp;P-glycoprotein|r||human|
+E|e21|gene|ABCC1|MRP1|r||human|
+E|e22|gene|ABCC2|MRP2;ABCC2|r||human|
+E|e23|gene|ABCC4|MRP4|r||human|
+E|e24|gene|ABCG2|BCRP;ABCG2|r||human|
+E|e25|disease|Balkan endemic nephropathy|Balkan endemic nephropathy;BEN|r|||
+E|e26|disease|chronic interstitial nephritis|chronic interstitial nephritis|r|||
+E|e27|disease|karyomegalic interstitial nephritis|karyomegalic interstitial nephritis|r|||
+E|e28|disease|nephrotoxicity|nephrotoxicity;OTA-induced nephrotoxicity|r|||
+E|e29|disease|gout|gout|r|||
+E|e30|disease|hyperuricemia|cyclosporine A-induced hyperuricemia|r|||
+E|e31|disease|cancer|cancer cells|p|ambiguous_mapping||
+E|e32|disease|multidrug resistance|multidrug resistance|r|||
+E|e33|symptom|glucosuria|glucosuria|r|||
+E|e34|symptom|enzymuria|enzymuria|r|||
+X|SLC22|b0030|gene family label
+X|SLC17|b0041|gene family label
+X|SLC15|b0044|gene family label
+X|SLC21/SLCO|b0039|gene family label
+X|MDCK-C7|b0021|cell line
+X|CRC 220|b0069|compound identifier
+X|Q141K|b0049|variant designation
+EV|V1|b0038.s3|bg|int|aff|unc
+EV|V2|b0049.s2|bg|bgr|aff|ebr
+EV|V3|b0052.s8|bg|res|aff|rr,cmp
+EV|V4|b0052.s6+b0052.s7|bg|res|aff|cmp
+EV|V5|b0053.s6|bg|int|hyp|ho
+EV|V6|b0056.s6|bg|res|aff|cmp
+EV|V7|b0074.s6|bg|int|hyp|ho
+EV|V8|b0002.s5|bg|bgr|aff|ebr
+EV|V9|b0004.s6|bg|bgr|aff|ebr
+EV|V10|b0047.s4|bg|bgr|aff|ebr
+P|e1|e28|sup|a|bg|sup:a:bg:V3+V4|||OAT1 accumulation primary event in nephrotoxicity
+P|e3|e28|unc|-|unk||hedged_claim|V5|only "may be related" hedge
+P|e4|e28|unc|-|unk||hedged_claim|V6|slight viability decrease, no attribution
+P|e8|e30|unc|-|unk||hedged_claim|V1|authors suggest responsibility
+P|e24|e29|sup|a|bg|sup:a:bg:V2|||Q141K polymorphism associated with gout
+P|e20|e32|sup|a|bg|sup:a:bg:V10|||P-gp confers multidrug resistance on cells
+P|e1|e25|nf|-|||scope||OTA-BEN link only, not gene
+F|F1|group_comparison|rOat expression vs OTA dose|male rats gavaged with OTA|significant|mixed|partial|V7|dual dose-dependent effect
+F|F2|group_comparison|OTA uptake, Oatp1a4 knockout vs wild-type|mice|significant|negative|not_reported||blood-to-brain transport lower
+F|F3|descriptive|OTA transport by cloned OATs|transfected cell lines|not_applicable|positive|partial||Km values only
+F|F4|group_comparison|cell proliferation, rOat1 vs PAH rescue|S3 rOat1 cells|unknown|negative|not_reported|V4|no statistics given
+C|C1|OAT1/OAT3 share of OTA uptake|b0054.s4|noncritical|resolved|approximate 50% each

@@ -1,0 +1,18 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SRY|SRY;SRY gene;sex determining region on Y chromosome|r||human||
+E|G2|ambiguous_gene|TDF|TDF|u|undefined_abbreviation|||
+E|D1|disease|46,XY sex reversal|XY sex reversal;46,XY sex reversal;46,XY female sex reversal;sex reversal|r|||||
+X|HMG-box|b0002|protein motif, not a gene
+X|XES-2|b0002|primer identifier
+X|XES-7|b0002|primer identifier
+X|pUCm-T|b0002|cloning vector identifier
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s9+b0002.s10+b0002.s11|ts|co|na|do
+EV|V3|b0002.s14|ts|int|hyp|ho
+EV|V4|b0002.s2+b0002.s1|bg|bgr|na|none
+P|G1|D1|sup|c|bg|sup:c:bg:V1;unc:-:ts:V3|hedged_claim|V2|Background states SRY mutations cause XY sex reversal
+P|G2|D1|nf|-|||||V4|TDF linked only to male sex determination
+F|F1|descriptive|SRY ORF mutations|10 patients with 46,XY sex reversal|not_applicable|not_applicable|not_applicable|V2|two de novo novel mutations found
+F|F2|hypothesis|SRY substitutions; sex reversal|two mutation carriers|not_applicable|positive|not_applicable|V3|authors hedge: may be responsible
+R|typo handling|b0001.s1|Title "form" likely means "from"; does not assert causation clearly|Treated title as non-evidential; relied on V1 and V3

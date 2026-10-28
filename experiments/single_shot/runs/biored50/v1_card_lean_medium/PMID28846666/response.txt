@@ -1,0 +1,60 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IL-6|Interleukin 6;IL-6;IL-65|p|suspected_typo|human||
+E|G2|gene|TNF-alpha|Tumor Necrosis Factor alpha;TNF-alpha|r||human||
+E|G3|gene|IL-8|IL-8|r||human||
+E|G4|gene|IL-10|IL-10|r||human||
+E|G5|gene|hs-CRP|hs-CRP|r||human||
+E|G6|gene|IL-1b|IL-1b|r||human||
+E|G7|gene|IRS-1|IRS-1|r||human||
+E|G8|gene|IRS-2|IRS-2|r||human||
+E|G9|gene|leptin|leptin|r||human||
+E|G10|gene|adiponectin|adiponectin|r||human||
+E|G11|gene|visfatin|visfatin|r||human||
+E|G12|gene|RBP-4|RBP-4|r||human||
+E|G13|gene|chemerin|chemerin|r||human||
+E|G14|gene|nesfatin-1|nesfatin-1|r||human||
+E|G15|gene|FATP-4|FATP-4|r||human||
+E|G16|ambiguous_gene|EL|EL|u|undefined_abbreviation|||
+E|G17|gene|LPL|LPL|r||human||
+E|G18|gene|FABP-1|FABP-1|r||human||
+E|G19|gene|FABP-3|FABP-3|r||human||
+E|G20|gene|FABP-4|FABP-4|r||human||
+E|G21|gene|FABP-5|FABP-5|r||human||
+E|D1|disease|Gestational diabetes mellitus|Gestational Diabetes Mellitus;Gestational diabetes mellitus;GDM|r||||
+E|D2|disease|T2DM|T2DM|p|undefined_abbreviation|||
+X|NF-kappaB|b0002.s10|complex, not single gene
+X|IL-6/IL-10 ratio|b0002.s10|composite ratio, not single gene
+X|HOMA-IR|b0002.s11|index, not gene
+EV|V1|b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s12|ts|res|aff|rr
+EV|V3|b0002.s10|ts|res|aff|rr,cmp
+EV|V4|b0002.s11|ts|res|aff|rr,cmp
+EV|V5|b0002.s3+b0002.s4|unk|aim|na|none
+P|G2|D1|sup|a|ts|sup:a:ts:V1+V2;sup:a:ts:V3|||-857CT frequency and placental level differ
+P|G1|D1|sup|a|ts|sup:a:ts:V3+V2||V5|Serum/placental IL-6 differs; SNP result unreported
+P|G3|D1|sup|a|ts|sup:a:ts:V3+V2|||IL-8 levels differ between groups
+P|G5|D1|sup|a|ts|sup:a:ts:V3+V2|||hs-CRP serum level differs
+P|G6|D1|sup|a|ts|sup:a:ts:V3|||Placental IL-1b differs
+P|G4|D1|unc|-|ts||scope||Only IL-6/IL-10 ratio reported
+P|G7|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G8|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G9|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G10|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G11|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G12|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G13|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G14|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G15|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G16|D1|unc|-|ts||identity||Undefined abbreviation EL
+P|G17|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G18|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G19|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G20|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+P|G21|D1|sup|a|ts|sup:a:ts:V4|||Placental level differs
+F|F1|association|TNF-alpha -857CT genotype vs GDM|140 GDM vs 140 controls|significant|positive|available|V1|
+F|F2|group_comparison|serum and placental inflammatory markers|GDM vs healthy pregnancies|significant|unknown|partial|V3|direction not stated
+F|F3|group_comparison|placental metabolic/adipokine markers|GDM vs healthy pregnancies|unknown|unknown|not_reported|V4|no p-values or direction
+F|F4|descriptive|IL-6 -572C/G SNP vs GDM|GDM vs controls|unknown|unknown|not_reported|V5|result absent from abstract
+R|typo|b0002.s3|IL-65-72C/G likely IL-6 -572C/G misprint|Added IL-65 to IL-6 as suspected_typo
+R|protein levels|b0002.s11|Differences listed without significance or direction|Treated as association, significance unknown

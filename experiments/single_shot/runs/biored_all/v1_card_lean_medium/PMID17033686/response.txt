@@ -1,0 +1,42 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|PQBP1|PQBP1|r|||human||
+E|G2|gene|BCOR|BCOR|r|||human||
+E|D1|disease|X-linked mental retardation|X-linked mental retardation|r|||||
+E|D2|disease|syndromic X-linked mental retardation|S-XLMR|r|||D1|
+E|D3|disease|non-syndromic X-linked mental retardation|NS-XLMR|r|||D1|
+E|D4|disease|mental retardation|mental retardation;MR|r|||||
+E|D5|disease|microphthalmia|microphthalmia|r|||||
+E|D6|disease|microcephaly|microcephaly|r|||||
+E|D7|disease|choroid coloboma|choroid coloboma|r|||||
+E|D8|disease|renal hypoplasia|renal hypoplasia|r|||||
+E|D9|disease|spastic paraplegia|spastic paraplegia|r|||||
+E|D10|disease|Lenz microphthalmia syndrome|Lenz microphthalmia syndrome|r|||||
+E|D11|disease|Hamel cerebropalatocardiac syndrome|Hamel cerebropalatocardiac syndrome|r|||||
+X|c.461_462delAG|b0002|variant identifier
+X|Xp11.23|b0002|chromosomal locus, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s6|ts|res|aff|rr,cs,eda
+EV|V3|b0002.s9|ts|res|aff|rr,eda
+EV|V4|b0002.s7|bg|bgr|aff|ebr
+EV|V5|b0002.s4|bg|bgr|aff|ebr
+EV|V6|b0002.s5|ts|neg|neg|rr
+EV|V7|b0002.s2+b0002.s6|ts|res|aff|cs
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V3||| PQBP1 mutations cause S-XLMR; own study confirms
+P|G1|D3|sup|c|bg|sup:c:bg:V1|||Background: PQBP1 mutations cause NS-XLMR
+P|G1|D4|sup|a|ts|sup:a:ts:V2|||Deletion cosegregates; title association with MR
+P|G1|D5|sup|a|ts|sup:a:ts:V2+V3|||Title and summary attribute microphthalmia
+P|G1|D6|sup|a|ts|sup:a:ts:V2|||Title association with microcephaly
+P|G1|D7|unc|-||unc:-:ts:V7|scope||Cosegregation with composite phenotype only
+P|G1|D8|unc|-||unc:-:ts:V7|scope||Cosegregation with composite phenotype only
+P|G1|D9|unc|-||unc:-:ts:V7|scope||Cosegregation with composite phenotype only
+P|G1|D11|sup|a|bg|sup:a:bg:V4|||Same deletion associated with Hamel syndrome
+P|G2|D10|sup|a|bg|sup:a:bg:V5|||BCOR missense mutation in Lenz family
+P|G2|D4|neg|-|ts|neg:a:ts:V6|||No BCOR mutation in affected cousins
+P|G2|D5|neg|-|ts|neg:a:ts:V6|||No BCOR mutation in affected cousins
+P|G2|D6|neg|-|ts|neg:a:ts:V6|||No BCOR mutation in affected cousins
+F|F1|association|disease locus; X-chromosome markers|two affected maternal cousins|unknown|not_applicable|not_reported|V7|linkage interval only, no LOD shown
+F|F2|association|PQBP1 c.461_462delAG; disease status|family of two cousins|not_applicable|positive|not_applicable|V2|cosegregation, small family
+F|F3|descriptive|BCOR mutation screening|two affected cousins|not_applicable|null|not_applicable|V6|
+F|F4|descriptive|PQBP1 deletion haplotype; germline mosaicism|maternal grandmother|not_applicable|not_applicable|not_applicable|V7|suggested only
+R|parent-child disease|b0002.s1|S-XLMR/NS-XLMR children of XLMR; gene cause stated for children only|No propagation to XLMR; D1 pairs left nf

@@ -1,0 +1,35 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|HRH1|HRH1|r||human||
+E|G2|gene|HRH2|HRH2|r||human||
+E|G3|gene|HRH3|HRH3;H3 histamine receptor|r||human||
+E|G4|gene|HRH4|HRH4|r||human||
+E|G5|gene|protein kinase C|protein kinase C;PKC|p|ambiguous_mapping|human||
+E|G6|gene|PKCalpha|PKCalpha;protein kinase Calpha|r||human||
+E|G7|gene|mitogen-activated protein kinase|mitogen-activated protein kinase|p|ambiguous_mapping|||
+E|G8|gene|ERK1/2|ERK1/2;extracellular signal-regulated kinase|p|other|human||
+E|G9|gene|VEGF|vascular endothelial growth factor;VEGF|p|ambiguous_mapping|||
+E|G10|gene|VEGF-A|vascular endothelial growth factor (VEGF)-A|r||||
+E|G11|gene|VEGF-C|VEGF-C|r||||
+E|G12|gene|VEGF receptor 2|VEGF receptor 2|r||||
+E|G13|gene|VEGF receptor 3|VEGF receptor 3|r||||
+E|D1|disease|cholangiocarcinoma|cholangiocarcinoma|r||||
+X|Mz-ChA-1|b0002|cell line name, not a gene
+X|RAMH|b0002|drug abbreviation, not a gene
+EV|V1|b0001.s1|ts|res|aff|rr
+EV|V2|b0002.s12+b0002.s17|ts|res|aff|rr,mi
+EV|V3|b0002.s15+b0002.s16|ts|res|aff|rr,mi
+EV|V4|b0002.s18|ts|int|hyp|ho
+EV|V5|b0002.s2|bg|bgr|aff|ebr
+EV|V6|b0002.s11|ts|co|na|do
+EV|V7|b0002.s16|ts|res|na|do
+P|G3|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V4|||HRH3 activation inhibits cholangiocarcinoma growth
+P|G6|D1|sup|a|ts|sup:a:ts:V1+V2+V3;unc:-:ts:V4|||PKCalpha-dependent growth inhibition, knockdown abolishes
+P|G8|D1|unc|-|ts|unc:-:ts:V2+V3|scope||Paired kinases ERK1/2, mechanistic growth link
+P|G5|D1|nf|-|bg||scope|V5|Pathway-level statement only, not single gene
+P|G9|D1|nf|-|ts|||V7|Expression change under drug, no disease link
+F|F1|group_comparison|RAMH vs control; cell growth|Mz-ChA-1 cholangiocarcinoma cells|unknown|negative|not_reported|V2|abstract only
+F|F2|mechanism|PKCalpha knockdown; RAMH growth effect|Mz-ChA-1 cells|unknown|null|not_reported|V3|abstract only
+F|F3|group_comparison|RAMH vs saline; tumor volume, VEGF, PKCalpha|BALB/c nude mice tumors|unknown|mixed|not_reported|V3+V7|abstract only
+F|F4|descriptive|HRH3 expression|cell lines, cholangiocytes, tissue arrays|not_applicable|not_applicable|not_applicable|V6|
+R|HRH3 link via agonist|b0001.s1;b0002.s5|Text never states RAMH is an HRH3 agonist|Linked HRH3 only through the title's explicit attribution

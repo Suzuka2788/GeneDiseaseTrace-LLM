@@ -1,0 +1,15 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PAH|phenylalanine hydroxylase;PAH|r||human||
+E|D1|disease|phenylketonuria|phenylketonuria;PKU|r||||
+E|D2|disease|Classical phenylketonuria|Classical phenylketonuria|r|||D1|
+E|D3|disease|PAH deficiency|PAH deficiencies|p|other|||
+X|BamHI|b0001|restriction enzyme site, not a gene
+X|RFLP haplotype 7|b0002|haplotype label, not a gene or disease
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s2|ts|res|aff|rr,eda
+EV|V3|b0002.s4|both|int|aff|ebr,rr
+P|G1|D2|sup|c|bg|sup:c:bg:V1|||Background states disease caused by PAH deficiency
+P|G1|D1|sup|a|ts|sup:a:ts:V2;sup:a:both:V3|||New PAH mutations identified in phenylketonuria
+P|G1|D3|sup|a|both|sup:a:both:V3|||Mutant PAH genotypes associated with PAH deficiencies
+F|F1|descriptive|PAH codon 272/273 mutations|PKU, NE France/Belgium|not_applicable|not_applicable|not_reported|V2|no frequencies reported in abstract

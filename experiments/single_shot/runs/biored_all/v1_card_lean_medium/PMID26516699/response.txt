@@ -1,0 +1,81 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|Kras|KrasG12D|p|species_unresolved||||
+E|G2|gene|Pdx1|Pdx1|p|species_unresolved||||
+E|G3|gene|miR-150|miR-150|p|species_unresolved||||
+E|G4|gene|miR-494|miR-494|p|species_unresolved||||
+E|G5|gene|miR-138|miR-138|p|species_unresolved||||
+E|G6|gene|miR-148a|miR-148a|p|species_unresolved||||
+E|G7|gene|miR-216a|miR-216a|p|species_unresolved||||
+E|G8|gene|miR-217|miR-217|p|species_unresolved||||
+E|G9|gene|miR-146b|miR-146b|p|species_unresolved||||
+E|G10|gene|miR-205|miR-205|p|species_unresolved||||
+E|G11|gene|miR-31|miR-31|p|species_unresolved||||
+E|G12|gene|miR-192|miR-192|p|species_unresolved||||
+E|G13|gene|miR-21|miR-21|p|species_unresolved||||
+E|G14|gene|Dicer|Dicer|p|species_unresolved||||
+E|G15|gene|Exportin-5|Exportin-5|p|species_unresolved||||
+E|G16|ambiguous_gene|TRKRA|TRKRA|u|undefined_abbreviation,species_unresolved||||
+E|G17|gene|TARBP2|TARBP2|p|species_unresolved||||
+E|G18|gene|DGCR8|DGCR8|p|species_unresolved||||
+E|G19|gene|Ago2|Ago2|p|species_unresolved||||
+E|G20|gene|miR-216|miR-216|p|species_unresolved||||
+E|G21|gene|miR-100|miR-100|p|species_unresolved||||
+E|G22|gene|miR-345|miR-345|p|species_unresolved||||
+E|G23|gene|miR-141|miR-141|p|species_unresolved||||
+E|G24|gene|miR-483-3p|miR-483-3p|p|species_unresolved||||
+E|G25|gene|miR-26b|miR-26b|p|species_unresolved||||
+E|G26|gene|miR-195|miR-195|p|species_unresolved||||
+E|G27|gene|Let-7b (mouse)|Let-7b|p|species_unresolved||||
+E|G28|ambiguous_gene|Let-96|Let-96|u|ambiguous_mapping,species_unresolved||||
+E|G29|gene|miR-34c|miR-34c|p|species_unresolved||||
+E|G30|gene|miR-1273|miR-1273|p|species_unresolved||||
+E|G31|gene|miR-223|miR-223|p|species_unresolved||||
+E|G32|gene|Let-7b (human)|Let-7b|r||human||
+E|G33|gene|KRAS|KRAS|r||human||
+E|G34|ambiguous_gene|MSST1|MSST1|u|ambiguous_mapping|human||
+E|D1|disease|pancreatic cancer|pancreatic cancer;PC|r||||
+E|D2|disease|cancers|cancers|r||||
+EV|V1|b0002.s4|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s6|ts|res|aff|rr,cmp
+EV|V4|b0002.s7|ts|res|na|rr
+EV|V5|b0001.s1+b0002.s3|ts|co|pre|unc
+EV|V6|b0002.s1|bg|bgr|aff|ebr
+P|G1|D1|unc|-|unk||presupposed_only||KC model of PC presupposed, not stated
+P|G3|D1|sup|a|ts|sup:a:ts:V1+V3|||Downregulated in KC mice vs controls
+P|G4|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in KC mice vs controls
+P|G5|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in KC mice vs controls
+P|G6|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in KC mice vs controls
+P|G7|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in KC mice vs controls
+P|G8|D1|sup|a|ts|sup:a:ts:V1+V3|||Downregulated in KC mice vs controls
+P|G9|D1|sup|a|ts|sup:a:ts:V1+V3|||Upregulated in KC mice vs controls
+P|G10|D1|sup|a|ts|sup:a:ts:V1+V3|||Upregulated in KC mice vs controls
+P|G11|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in KC mice vs controls
+P|G12|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in KC mice vs controls
+P|G13|D1|sup|a|ts|sup:a:ts:V1+V3|||Upregulated in KC mice vs controls
+P|G14|D1|sup|a|ts|sup:a:ts:V2|||Downregulated in KC mice
+P|G15|D1|sup|a|ts|sup:a:ts:V2|||Downregulated in KC mice
+P|G16|D1|unc|-|ts||identity||Undefined name, possible typo
+P|G17|D1|sup|a|ts|sup:a:ts:V2|||Downregulated in KC mice
+P|G18|D1|sup|a|ts|sup:a:ts:V2|||Upregulated in KC mice
+P|G19|D1|sup|a|ts|sup:a:ts:V2|||Upregulated in KC mice
+P|G20|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G21|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G22|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G23|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G24|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G25|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G26|D1|unc|-|ts||conflict||Listed as both down- and upregulated
+P|G27|D1|sup|a|ts|sup:a:ts:V3|||Downregulated in KC mice vs controls
+P|G28|D1|unc|-|ts||identity||Unrecognised name, possible typo
+P|G29|D1|sup|a|ts|sup:a:ts:V3|||Upregulated in KC mice vs controls
+P|G30|D1|sup|a|ts|sup:a:ts:V3|||Upregulated in KC mice vs controls
+P|G31|D1|sup|a|ts|sup:a:ts:V3|||Upregulated in KC mice vs controls
+P|G32|D1|nf|-|ts|||V4|Cell-line effect only, no disease link
+F|F1|group_comparison|miRNA expression KC vs control, 25 weeks|KC mice|significant|mixed|unread|V1|
+F|F2|group_comparison|miRNA machinery expression|KC mice|unknown|mixed|not_reported|V2|
+F|F3|group_comparison|stage-specific miRNA expression 10-50 weeks|KC mice|unknown|mixed|not_reported|V3|
+F|F4|mechanism|Let-7b ectopic expression; KRAS, MSST1 levels|CD18/HPAF, Capan1 cells|unknown|negative|not_reported|V4|
+C|C1|miR-195 direction in KC mice|b0002.s6|status_critical|unresolved|Listed in both down and up lists
+R|species split|b0002.s6;b0002.s7|Same Let-7b name in mouse and human contexts|Separate mouse and human nodes

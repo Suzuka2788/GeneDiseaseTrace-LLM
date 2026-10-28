@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|VEGF|VEGF|r||||
+E|G2|gene|GLUT1|GLUT1|p|species_unresolved|non-human||
+E|G3|gene|MCT4|MCT4|p|species_unresolved|non-human||
+E|G4|gene|HIF1a|HIF1a|p|species_unresolved|non-human||
+E|G5|gene|MCT1|MCT1|p|species_unresolved|non-human||
+E|G6|gene|S6|p-S6|p|species_unresolved|non-human||
+E|G7|gene|mTOR|mTOR|p|species_unresolved|non-human||
+E|G8|gene|GLUT2|GLUT2|p|species_unresolved|non-human||
+E|D1|disease|cancer|cancer;tumors;tumor|p|ambiguous_mapping|||
+E|S1|phenotype|hypoxic|hypoxic|r||||
+EV|V1|b0002.s1|bg|co|pre|unc
+EV|V2|b0001.s1+b0002.s6|ts|res|aff|rr,mi
+EV|V3|b0002.s3|ts|res|aff|rr
+EV|V4|b0002.s5|ts|res|aff|rr
+P|G1|D1|unc|-|bg||presupposed_only||VEGF inhibitor therapy implies role; no explicit link
+P|G7|D1|unc|-|ts||scope|V2|mTOR drives therapy resistance mechanism, not disease itself
+F|F1|mechanism|GLUT1, MCT4 induction; HIF1a|hypoxic tumor cells, mouse model|unknown|positive|not_reported|V3|abstract only
+F|F2|mechanism|lactate catabolism; mTOR signaling|normoxic cancer cells, mouse model|unknown|positive|not_reported|V4|abstract only
+F|F3|mechanism|mTOR inhibition; GLUT2 upregulation|mouse tumor model|unknown|positive|not_reported|V2|abstract only

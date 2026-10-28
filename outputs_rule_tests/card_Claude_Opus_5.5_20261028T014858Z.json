@@ -1,0 +1,1181 @@
+{
+  "model": "Claude_Opus_5.5",
+  "rules": "card",
+  "case_set_version": "1.3.0",
+  "request_chars": 18010,
+  "seconds": 26.3,
+  "cost_usd": 0.13517200000000001,
+  "tokens": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10213,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 2673
+  },
+  "fields": 112,
+  "fields_exact": 109,
+  "fields_covered": 110,
+  "cases": 35,
+  "cases_all_exact": 32,
+  "rows": [
+    {
+      "case_id": "BC01",
+      "field": "status",
+      "expected": "supported",
+      "answer": "supported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC01",
+      "field": "relation_type",
+      "expected": "causal",
+      "answer": "causal",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC01",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC01",
+      "field": "distribute_to_members",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC02",
+      "field": "status",
+      "expected": "supported",
+      "answer": "supported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC02",
+      "field": "relation_type",
+      "expected": "association",
+      "answer": "association",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC02",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC03",
+      "field": "status",
+      "expected": "not_found",
+      "answer": "not_found",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC03",
+      "field": "relation_type",
+      "expected": "none",
+      "answer": "none",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC03",
+      "field": "relation_asserted",
+      "expected": "not_asserted",
+      "answer": "not_asserted",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC04",
+      "field": "status",
+      "expected": "explicit_negative",
+      "answer": "explicit_negative",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC04",
+      "field": "relation_type",
+      "expected": "none",
+      "answer": "none",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC04",
+      "field": "tested_relation_type",
+      "expected": "association",
+      "answer": "association",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC04",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC05",
+      "field": "status",
+      "expected": "uncertain",
+      "answer": "uncertain",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC05",
+      "field": "relation_type",
+      "expected": "none",
+      "answer": "none",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC05",
+      "field": "unresolved_reason",
+      "expected": [
+        "support_basis_unresolved"
+      ],
+      "answer": [
+        "hedged_claim",
+        "support_basis_unresolved"
+      ],
+      "exact": false,
+      "covered": true
+    },
+    {
+      "case_id": "BC06",
+      "field": "status",
+      "expected": "not_found",
+      "answer": "not_found",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC06",
+      "field": "identity_status",
+      "expected": "unresolved",
+      "answer": "unresolved",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC06",
+      "field": "identity_issues",
+      "expected": [
+        "undefined_abbreviation"
+      ],
+      "answer": [
+        "undefined_abbreviation"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC06",
+      "field": "retain_candidate",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC07",
+      "field": "status",
+      "expected": "uncertain",
+      "answer": "uncertain",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC07",
+      "field": "relation_type",
+      "expected": "none",
+      "answer": "none",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC07",
+      "field": "identity_status",
+      "expected": "unresolved",
+      "answer": "unresolved",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC07",
+      "field": "unresolved_reason",
+      "expected": [
+        "identity"
+      ],
+      "answer": [
+        "identity"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC08",
+      "field": "status",
+      "expected": "supported",
+      "answer": "supported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC08",
+      "field": "relation_type",
+      "expected": "causal",
+      "answer": "causal",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC08",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC08",
+      "field": "own_detection_as_association",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC09",
+      "field": "status",
+      "expected": "uncertain",
+      "answer": "uncertain",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC09",
+      "field": "unresolved_reason",
+      "expected": [
+        "conflict"
+      ],
+      "answer": [
+        "conflict"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC09",
+      "field": "impact",
+      "expected": "status_critical",
+      "answer": "status_critical",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC10",
+      "field": "status",
+      "expected": "supported",
+      "answer": "supported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC10",
+      "field": "relation_type",
+      "expected": "causal",
+      "answer": "causal",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC10",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC10",
+      "field": "same_question_conflict",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC11",
+      "field": "status",
+      "expected": "not_found",
+      "answer": "not_found",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC11",
+      "field": "distribute_to_members",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC12",
+      "field": "status",
+      "expected": "not_found",
+      "answer": "not_found",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC12",
+      "field": "distribute_to_members",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC12",
+      "field": "retain_joint_finding",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC13",
+      "field": "direct_subtype_edge",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC13",
+      "field": "propagate_to_subtype",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC13",
+      "field": "require_scope_assessment",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC14",
+      "field": "status",
+      "expected": "not_found",
+      "answer": "not_found",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC14",
+      "field": "per_gene_negative",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC14",
+      "field": "retain_group_finding",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC15",
+      "field": "finding_type",
+      "expected": "correlation",
+      "answer": "correlation",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC15",
+      "field": "reported_significance",
+      "expected": "significant",
+      "answer": "significant",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC15",
+      "field": "effect_direction",
+      "expected": "negative",
+      "answer": "negative",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC15",
+      "field": "statistics_availability",
+      "expected": "available",
+      "answer": "available",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC15",
+      "field": "gene_disease_correlation_from_this_fragment",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC16",
+      "field": "reported_significance",
+      "expected": "unknown",
+      "answer": "unknown",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC16",
+      "field": "statistics_availability",
+      "expected": "not_reported",
+      "answer": "not_reported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC16",
+      "field": "confirmed_dependency_on_S3",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC17",
+      "field": "finding_type",
+      "expected": "group_comparison",
+      "answer": "group_comparison",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC17",
+      "field": "reported_significance",
+      "expected": "not_significant",
+      "answer": "not_significant",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC17",
+      "field": "statistics_availability",
+      "expected": "unread",
+      "answer": "unread",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC17",
+      "field": "depends_on_unread",
+      "expected": [
+        "Table S3"
+      ],
+      "answer": [
+        "Table S3"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC18",
+      "field": "gene_species",
+      "expected": "human",
+      "answer": "human",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC18",
+      "field": "host_species",
+      "expected": "hamster",
+      "answer": "hamster",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC18",
+      "field": "human_disease_causal_edge",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC19",
+      "field": "merge",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC20",
+      "field": "merge_to",
+      "expected": "KRIT1",
+      "answer": "KRIT1",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC20",
+      "field": "identity_status",
+      "expected": "provisional",
+      "answer": "provisional",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC20",
+      "field": "identity_issues",
+      "expected": [
+        "suspected_typo"
+      ],
+      "answer": [
+        "suspected_typo"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC21",
+      "field": "pair_generated",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC21",
+      "field": "scope_exclusion",
+      "expected": "different_study_unit",
+      "answer": true,
+      "exact": false,
+      "covered": false
+    },
+    {
+      "case_id": "BC22",
+      "field": "status",
+      "expected": "supported",
+      "answer": "supported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC22",
+      "field": "relation_type",
+      "expected": "association",
+      "answer": "association",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC22",
+      "field": "preserve_both_values",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC22",
+      "field": "impact",
+      "expected": "noncritical",
+      "answer": "noncritical",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC23",
+      "field": "status",
+      "expected": "uncertain",
+      "answer": "uncertain",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC23",
+      "field": "unresolved_reason",
+      "expected": [
+        "identity",
+        "conflict"
+      ],
+      "answer": [
+        "identity",
+        "conflict"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC23",
+      "field": "impact",
+      "expected": "status_critical",
+      "answer": "status_critical",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC24",
+      "field": "coreference_resolved",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC24",
+      "field": "require_link_path",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC25",
+      "field": "entity_type",
+      "expected": "clinical_event",
+      "answer": "clinical_event",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC25",
+      "field": "in_primary_matrix",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC26",
+      "field": "in_primary_matrix",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC26",
+      "field": "retain_candidate_record",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC27",
+      "field": "merge",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC27",
+      "field": "propagate_relationship",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC28",
+      "field": "retain_original_quote",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC28",
+      "field": "translation_separate",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC28",
+      "field": "invent_numeric_statistics",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC29",
+      "field": "status",
+      "expected": "not_found",
+      "answer": "not_found",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC29",
+      "field": "relation_type",
+      "expected": "none",
+      "answer": "none",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC29",
+      "field": "assertion_kind",
+      "expected": "aim",
+      "answer": "aim",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC30",
+      "field": "status",
+      "expected": "uncertain",
+      "answer": "uncertain",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC30",
+      "field": "unresolved_reason",
+      "expected": [
+        "identity",
+        "missing_material"
+      ],
+      "answer": [
+        "identity",
+        "missing_material"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC30",
+      "field": "depends_on_unread",
+      "expected": [
+        "Table S1"
+      ],
+      "answer": [
+        "Supplementary Table S1"
+      ],
+      "exact": false,
+      "covered": false
+    },
+    {
+      "case_id": "BC31",
+      "field": "status",
+      "expected": "supported",
+      "answer": "supported",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC31",
+      "field": "relation_type",
+      "expected": "association",
+      "answer": "association",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC31",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC31",
+      "field": "support_basis",
+      "expected": [
+        "explicit_background_report"
+      ],
+      "answer": [
+        "explicit_background_report"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC31",
+      "field": "propagate_to_parent",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC31",
+      "field": "propagate_to_other_subtype",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC32",
+      "field": "status",
+      "expected": "uncertain",
+      "answer": "uncertain",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC32",
+      "field": "relation_type",
+      "expected": "none",
+      "answer": "none",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC32",
+      "field": "relation_asserted",
+      "expected": "presupposed",
+      "answer": "presupposed",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC32",
+      "field": "unresolved_reason",
+      "expected": [
+        "presupposed_only"
+      ],
+      "answer": [
+        "presupposed_only"
+      ],
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC32",
+      "field": "require_link_path",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC33",
+      "field": "entity_type",
+      "expected": "disease",
+      "answer": "disease",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC33",
+      "field": "in_primary_matrix",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC33",
+      "field": "merge_with_intracranial_vascular_malformation",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC34",
+      "field": "source_scope",
+      "expected": "背景引用",
+      "answer": "背景引用",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC34",
+      "field": "assertion_kind",
+      "expected": "background_relation_statement",
+      "answer": "background_relation_statement",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC34",
+      "field": "conditions",
+      "expected": {
+        "citation_absent": true
+      },
+      "answer": {
+        "citation_absent": true
+      },
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC35",
+      "field": "in_primary_matrix",
+      "expected": false,
+      "answer": false,
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC35",
+      "field": "excluded_reason",
+      "expected": "table_grouping_label",
+      "answer": "table_grouping_label",
+      "exact": true,
+      "covered": true
+    },
+    {
+      "case_id": "BC35",
+      "field": "retain_spinal_and_cutaneous_entities",
+      "expected": true,
+      "answer": true,
+      "exact": true,
+      "covered": true
+    }
+  ],
+  "answers": {
+    "BC01": {
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "distribute_to_members": true
+    },
+    "BC02": {
+      "status": "supported",
+      "relation_type": "association",
+      "source_scope": "背景引用"
+    },
+    "BC03": {
+      "status": "not_found",
+      "relation_type": "none",
+      "relation_asserted": "not_asserted"
+    },
+    "BC04": {
+      "status": "explicit_negative",
+      "relation_type": "none",
+      "tested_relation_type": "association",
+      "source_scope": "背景引用"
+    },
+    "BC05": {
+      "status": "uncertain",
+      "relation_type": "none",
+      "unresolved_reason": [
+        "hedged_claim",
+        "support_basis_unresolved"
+      ]
+    },
+    "BC06": {
+      "status": "not_found",
+      "identity_status": "unresolved",
+      "identity_issues": [
+        "undefined_abbreviation"
+      ],
+      "retain_candidate": true
+    },
+    "BC07": {
+      "status": "uncertain",
+      "relation_type": "none",
+      "identity_status": "unresolved",
+      "unresolved_reason": [
+        "identity"
+      ]
+    },
+    "BC08": {
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "own_detection_as_association": false
+    },
+    "BC09": {
+      "status": "uncertain",
+      "unresolved_reason": [
+        "conflict"
+      ],
+      "impact": "status_critical"
+    },
+    "BC10": {
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "same_question_conflict": false
+    },
+    "BC11": {
+      "status": "not_found",
+      "distribute_to_members": false
+    },
+    "BC12": {
+      "status": "not_found",
+      "distribute_to_members": false,
+      "retain_joint_finding": true
+    },
+    "BC13": {
+      "direct_subtype_edge": false,
+      "propagate_to_subtype": false,
+      "require_scope_assessment": true
+    },
+    "BC14": {
+      "status": "not_found",
+      "per_gene_negative": false,
+      "retain_group_finding": true
+    },
+    "BC15": {
+      "finding_type": "correlation",
+      "reported_significance": "significant",
+      "effect_direction": "negative",
+      "statistics_availability": "available",
+      "gene_disease_correlation_from_this_fragment": false
+    },
+    "BC16": {
+      "reported_significance": "unknown",
+      "statistics_availability": "not_reported",
+      "confirmed_dependency_on_S3": false
+    },
+    "BC17": {
+      "finding_type": "group_comparison",
+      "reported_significance": "not_significant",
+      "statistics_availability": "unread",
+      "depends_on_unread": [
+        "Table S3"
+      ]
+    },
+    "BC18": {
+      "gene_species": "human",
+      "host_species": "hamster",
+      "human_disease_causal_edge": false
+    },
+    "BC19": {
+      "merge": false
+    },
+    "BC20": {
+      "merge_to": "KRIT1",
+      "identity_status": "provisional",
+      "identity_issues": [
+        "suspected_typo"
+      ]
+    },
+    "BC21": {
+      "pair_generated": false,
+      "scope_exclusion": true
+    },
+    "BC22": {
+      "status": "supported",
+      "relation_type": "association",
+      "preserve_both_values": true,
+      "impact": "noncritical"
+    },
+    "BC23": {
+      "status": "uncertain",
+      "unresolved_reason": [
+        "identity",
+        "conflict"
+      ],
+      "impact": "status_critical"
+    },
+    "BC24": {
+      "coreference_resolved": true,
+      "require_link_path": true
+    },
+    "BC25": {
+      "entity_type": "clinical_event",
+      "in_primary_matrix": true
+    },
+    "BC26": {
+      "in_primary_matrix": false,
+      "retain_candidate_record": true
+    },
+    "BC27": {
+      "merge": false,
+      "propagate_relationship": false
+    },
+    "BC28": {
+      "retain_original_quote": true,
+      "translation_separate": true,
+      "invent_numeric_statistics": false
+    },
+    "BC29": {
+      "status": "not_found",
+      "relation_type": "none",
+      "assertion_kind": "aim"
+    },
+    "BC30": {
+      "status": "uncertain",
+      "unresolved_reason": [
+        "identity",
+        "missing_material"
+      ],
+      "depends_on_unread": [
+        "Supplementary Table S1"
+      ]
+    },
+    "BC31": {
+      "status": "supported",
+      "relation_type": "association",
+      "source_scope": "背景引用",
+      "support_basis": [
+        "explicit_background_report"
+      ],
+      "propagate_to_parent": false,
+      "propagate_to_other_subtype": false
+    },
+    "BC32": {
+      "status": "uncertain",
+      "relation_type": "none",
+      "relation_asserted": "presupposed",
+      "unresolved_reason": [
+        "presupposed_only"
+      ],
+      "require_link_path": true
+    },
+    "BC33": {
+      "entity_type": "disease",
+      "in_primary_matrix": true,
+      "merge_with_intracranial_vascular_malformation": false
+    },
+    "BC34": {
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "conditions": {
+        "citation_absent": true
+      }
+    },
+    "BC35": {
+      "in_primary_matrix": false,
+      "excluded_reason": "table_grouping_label",
+      "retain_spinal_and_cutaneous_entities": true
+    }
+  }
+}

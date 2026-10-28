@@ -1,0 +1,15 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|ALG6|hALG-6;ALG6|r||human||
+E|D1|disease|congenital disorder of glycosylation Ic|Congenital disorder of glycosylation Ic;congenital disorder of glycosylation-Ic;CDG-Ic|r|||D2|
+E|D2|disease|congenital disorder of glycosylation|CDG|r|||||
+X|338G>A|b0002|variant identifier
+X|del(1)(p31.2p32.3)|b0002|karyotype/variant identifier
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s1+b0002.s2|ts|res|aff|rr,eda
+EV|V3|b0002.s5|ts|res|aff|eda
+EV|V4|b0002.s3+b0002.s4|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2+V3||V4|Case-report attribution of CDG-Ic to ALG6 mutation/deletion
+P|G1|D2|nf|-||||V3|Deletion causes CDG; no ALG6-specific link to parent
+F|F1|descriptive|ALG6 338G>A apparent homozygosity|single CDG-Ic patient|not_applicable|not_applicable|not_applicable|V2|single case
+F|F2|descriptive|paternal haplotype loss near ALG6; deletion|patient and father|not_applicable|not_applicable|not_applicable|V4|de novo inferred, not proven

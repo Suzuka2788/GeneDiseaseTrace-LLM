@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|CYP4V2|CYP4V2|r||human||
+E|D1|disease|Bietti crystalline dystrophy|Bietti crystalline dystrophy;BCD|r||||
+X|cytochrome P450 genes|b0002|gene family, not a single-gene endpoint
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6+b0002.s7|ts|res|aff|rr
+EV|V3|b0002.s12|ts|res|aff|rr,eda
+EV|V4|b0002.s10|ts|int|hyp|cmp
+EV|V5|b0002.s8|ts|res|na|rr
+EV|V6|b0002.s13|ts|hyp|hyp|ho
+P|G1|D1|sup|c|ts|sup:c:ts:V3+V2;sup:a:bg:V1||V4+V5+V6|Authors conclude CYP4V2 mutations cause BCD
+F|F1|group_comparison|deletion genotype vs disease severity|BCD patients with CYP4V2 deletion|unknown|positive|not_reported|V4|hedged; small sample
+F|F2|association|exon 7 deletion haplotype founder effect|BCD patients and controls|unknown|not_applicable|not_reported|V5|
+F|F3|correlation|clinical stage vs ERG changes|nine BCD patients|unknown|positive|not_reported|b0002.s11|no statistics in abstract
+F|F4|correlation|age vs disease severity|nine BCD patients|not_significant|null|not_reported|b0002.s11+b0002.s14|no statistics in abstract
+F|F5|hypothesis|15-bp deletion carrier frequency|Singapore population|not_applicable|not_applicable|not_applicable|V6|speculative

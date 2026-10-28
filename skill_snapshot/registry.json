@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "skill_name": "biomed-gene-disease-evidence",
+  "source": "biomed-gene-disease-evidence",
+  "installed_path": "C:\\Users\\tongz\\.codex\\skills\\biomed-gene-disease-evidence",
+  "archive_root": "../.Resource/skill-archive/biomed-gene-disease-evidence/releases",
+  "installed_baseline_version": "1.3.0",
+  "installed_baseline_sha256": "27375211f8c13107e7fdb846ff45d8727a6b750cdfa8da657a16ca6282729399",
+  "semantic_review": "1.3.0 approved proposal incorporated; structure, original-source and tool checks passed; no new model behavior or pilot runs in this release.",
+  "historical_versions": [
+    {
+      "version": "1.0.0",
+      "tag": "biomed-gene-disease-evidence/v1.0.0",
+      "sha256": "73ad9eaa9501316890c5529a6d00b40e27212b57ed4292352a25acbb639a22a3",
+      "snapshot": "C:\\Users\\tongz\\OneDrive\\Desktop\\26.10 NJITLab\\.Resource\\skill-archive\\biomed-gene-disease-evidence\\releases\\1.0.0\\73ad9eaa9501316890c5529a6d00b40e27212b57ed4292352a25acbb639a22a3.zip"
+    },
+    {
+      "version": "1.1.0",
+      "tag": "biomed-gene-disease-evidence/v1.1.0",
+      "sha256": "019b851809f0d5efe179a9b4d9c4e4839bb97e69b568304902e973206527dc8d",
+      "snapshot": "C:\\Users\\tongz\\OneDrive\\Desktop\\26.10 NJITLab\\.Resource\\skill-archive\\biomed-gene-disease-evidence\\releases\\1.1.0\\019b851809f0d5efe179a9b4d9c4e4839bb97e69b568304902e973206527dc8d.zip"
+    },
+    {
+      "version": "1.2.0",
+      "tag": "biomed-gene-disease-evidence/v1.2.0",
+      "sha256": "8286aac6f3f7a4cd7fa6ca8e351374dfe9be6ff3b635b68c87c9228b5b904e86",
+      "snapshot": "C:\\Users\\tongz\\OneDrive\\Desktop\\26.10 NJITLab\\.Resource\\skill-archive\\biomed-gene-disease-evidence\\releases\\1.2.0\\8286aac6f3f7a4cd7fa6ca8e351374dfe9be6ff3b635b68c87c9228b5b904e86.zip"
+    },
+    {
+      "version": "1.3.0",
+      "tag": "biomed-gene-disease-evidence/v1.3.0",
+      "sha256": "27375211f8c13107e7fdb846ff45d8727a6b750cdfa8da657a16ca6282729399",
+      "snapshot": "C:\\Users\\tongz\\OneDrive\\Desktop\\26.10 NJITLab\\.Resource\\skill-archive\\biomed-gene-disease-evidence\\releases\\1.3.0\\27375211f8c13107e7fdb846ff45d8727a6b750cdfa8da657a16ca6282729399.zip"
+    }
+  ],
+  "validation_record": {
+    "rule_version": "1.3.0",
+    "official_skill_structure": "passed",
+    "regression_cases": 35,
+    "source_fragments_and_locations_checked": 24,
+    "management_and_validation_tests_passed": 14,
+    "original_30_cases_preserved_except_impact_field_rename": true,
+    "model_behavior_tested": false,
+    "cross_model_pilot_tested_by_this_release": false,
+    "proposal_path": "proposals/skill_1.3.0_revision_proposal.md",
+    "proposal_sha256": "d8840f52d2efe1ae1a57a84a660b8798cb2d0a9c4169fbe7ed7be8db9edb4c8c",
+    "installed_readable_from_sandbox": true
+  }
+}

@@ -1,0 +1,9 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or methods
+E|G1|gene|HGD|HGD|r||human||
+E|D1|disease|alkaptonuria|alkaptonuria;Alkaptonuria|r||||
+E|S1|symptom|joint pain|joint pain|r||||
+EV|V1|b0001.s1+b0002.s8+b0002.s11|ts|res|aff|rr,eda
+EV|V2|b0002.s13|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V2|R58fs found in alkaptonuria family; genetic diagnosis
+F|F1|descriptive|alkaptonuria allele prevalence|UAE schoolchildren|not_applicable|not_applicable|partial|V1|single positive case; wide CI

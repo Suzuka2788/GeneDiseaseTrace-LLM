@@ -1,0 +1,52 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text and captions; references removed; figure images unread
+E|G1|gene|GCDH|GCDH;glutaryl-CoA-dehydrogenase|r||human||
+E|G2|gene|NaC3|NaC3;sodium-dependent dicarboxylate cotransporter 3|p|species_unresolved|||
+E|G3|gene|OAT1|OAT1|p|species_unresolved|||
+E|G4|gene|OAT4|OAT|p|species_unresolved,ambiguous_mapping|||
+E|D1|disease|Glutaric Aciduria type I|Glutaric Aciduria type I;GA-I|r|||D2|
+E|D2|disease|organic acidemia|organic acidemia|r||||
+E|D3|disease|inborn error of metabolism|inborn error of metabolism|r||||
+E|D4|disease|acute renal failure|acute renal failure|r||||
+E|D5|disease|renal failure|renal failure|r||||
+E|D6|disease|acute tubular necrosis|acute tubular necrosis|r|||D7|
+E|D7|disease|tubular necrosis|tubular necrosis|r||||
+E|D8|disease|rhabdomyolysis|rhabdomyolysis|r||||
+E|D9|disease|status dystonicus|status dystonicus|r||||
+E|D10|disease|nephrotic syndrome|nephrotic syndrome|r||||
+E|D11|disease|renal insufficiency|renal insufficiency|r||||
+E|D12|disease|hemolytic uremic syndrome|hemolytic uremic syndrome;HUS;hemolytic-uremic syndrome|r||||
+E|D13|disease|acute kidney injury|acute kidney injury|r||||
+E|D14|disease|renal disease|renal disease|r||||
+E|D15|disease|renal proximal tubulopathy|renal proximal tubulopathy|r||||
+E|D16|disease|tubulopathy|tubulopathy|r||||
+E|D17|disease|metabolic acidosis|metabolic acidosis|r||||
+E|D18|disease|microangiopathy|microangiopathy|r||||
+E|D19|disease|renal hypoxic injury|renal hypoxic injury|r||||
+E|D20|disease|renal impairment|renal impairment|r||||
+E|D21|disease|diarrheal illness|diarrheal illness|r||||
+E|CE1|clinical_event|cardiopulmonary arrest|cardiopulmonary arrest|r||||
+E|CE2|clinical_event|encephalopathic crises|encephalopathic crises|r||||
+E|S1|phenotype|brain atrophy|brain atrophy|r||||
+E|S2|symptom|thrombocytopenia|thrombocytopenia|r||||
+E|S3|symptom|anemia|anemia|r||||
+E|S4|phenotype|vascular dysfunction|vascular dysfunction|r||||
+X|p.E64D|b0002|variant identifier
+X|c.192G > T|b0015|variant identifier
+X|CCDS 12286|b0015|transcript identifier
+X|GA|b0019|metabolite abbreviation (glutaric acid)
+X|3OHGA|b0019|metabolite abbreviation
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0004.s1+b0004.s2|bg|bgr|aff|ebr
+EV|V3|b0015.s1+b0015.s2+b0024.s2|ts|res|aff|rr,eda
+EV|V4|b0021.s1|ts|hyp|hyp|ho
+EV|V5|b0019.s2+b0019.s3+b0019.s4|bg|res|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V3|||Background causal; genetic diagnosis in patient
+P|G1|D5|unc|-|ts|unc:-:ts:V4|hedged_claim||Authors speculate, deem less likely
+P|G1|D4|unc|-|ts|unc:-:ts:V4|hedged_claim,coreference||Speculation refers to patient's renal failure
+P|G3|D1|nf|-|bg||||V5|Transport and mislocalization in model, no disease link
+P|G2|D1|nf|-|bg||||V5|Transporter function only in GA-I model
+F|F1|descriptive|GCDH p.E64D genotype|single GA-I patient|not_applicable|not_applicable|not_applicable|V3|single case
+F|F2|other|p.E64D PolyPhen score|in silico|not_applicable|not_applicable|available|V3|prediction only
+F|F3|mechanism|OAT1 mislocalization, tubulopathy|GA-I mouse model crises|unknown|unknown|not_reported|V5|cited, non-human
+R|surface form|b0019.s2|OAT4 only written as "(OAT) 1 and 4"|Used surface "OAT", marked ambiguous_mapping

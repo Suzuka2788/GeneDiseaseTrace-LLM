@@ -1,0 +1,24 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|OCT4A|OCT4A|r||human||
+E|G2|gene|p21Cip1|p21Cip1|r||human||
+E|G3|gene|p53|p53|r||human||
+E|G4|gene|SOX2|SOX2|r||human||
+E|G5|gene|NANOG|NANOG|r||human||
+E|G6|gene|p16ink4a|p16ink4a|r||human||
+E|D1|disease|embryonal carcinoma|embryonal carcinoma|r||||
+E|D2|disease|tumor|Tumor;tumors|r||||
+E|S1|phenotype|cellular senescence|cellular senescence|r||||
+E|S2|phenotype|dis-adaptation catastrophe|dis-adaptation catastrophe|r||||
+X|AMPK|b0002|protein complex, not a single-gene endpoint
+X|PA-1|b0002|cell line identifier
+EV|V1|b0001.s1+b0002.s2+b0002.s5|ts|res|na|rr,do
+EV|V2|b0002.s5|ts|res|na|rr
+EV|V3|b0002.s6|ts|neg|na|rr
+EV|V4|b0002.s7+b0002.s8|ts|res|na|rr
+EV|V5|b0002.s2|ts|res|na|rr
+P|G1|D1|nf|-|||||V1|Cell-line phenotype only, no disease link
+F|F1|mechanism|OCT4A silencing; p21Cip1, senescence|PA-1 cells, ETO-treated|unknown|negative|not_reported|V2|cell line only
+F|F2|descriptive|SOX2, NANOG expression after ETO|PA-1 cells|unknown|null|not_reported|V3|abstract only
+F|F3|mechanism|autophagy failure; p16ink4a accumulation|PA-1 cells, ETO-treated|unknown|positive|not_reported|V4|cell line only
+F|F4|mechanism|p53-dependent OCT4A, p21Cip1 upregulation|PA-1 cells, ETO-treated|unknown|positive|not_reported|V5|prior work restated

@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|NEK2|NEK2;Never in mitosis gene A (NIMA)-related kinase 2|r||human||
+E|G2|gene|AKT|AKT;phospho-AKT|r||human||
+E|G3|gene|MMP-2|MMP-2|r||human||
+E|D1|disease|hepatocellular carcinoma|hepatocellular carcinoma;HCC|r||||
+E|D2|disease|malignancies|malignancies|r||||
+E|D3|clinical_event|recurrence|recurrence|r||||
+X|SMMC-7721|b0002|cell line identifier
+X|HL-7702|b0002|cell line identifier
+X|diolame complete|b0002|clinicopathological parameter, not disease
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s10|ts|res|aff|rr,cmp
+EV|V3|b0002.s5+b0002.s10|ts|res|aff|rr,cmp
+EV|V4|b0002.s11|ts|res|aff|rr
+EV|V5|b0002.s13|ts|int|aff|rr
+EV|V6|b0002.s14|ts|hyp|hyp|ho
+EV|V7|b0002.s12|ts|res|aff|rr
+EV|V8|b0002.s9|ts|res|aff|rr,cmp
+P|G1|D1|sup|r|ts|sup:a:ts:V2+V8;sup:r:ts:V3+V5;unc:c:ts:V6|||Overexpressed in HCC; expression linked to survival
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background overexpression in various malignancies
+P|G1|D3|sup|r|ts|sup:r:ts:V4|||NEK2 overexpression correlated with recurrence
+P|G2|D1|unc|-|ts|unc:c:ts:V6|hedged_claim|V7|Only speculative AKT signaling mechanism in HCC
+P|G3|D1|unc|-|ts|unc:c:ts:V6|hedged_claim|V7|Only speculative MMP-2 role in HCC
+F|F1|group_comparison|NEK2 expression|HCC vs normal cells/tissues|significant|positive|partial|V2|small tissue sample (n=5)
+F|F2|association|NEK2 expression; survival|359 TCGA HCC patients|significant|negative|partial|V3|
+F|F3|association|NEK2; capsule, nodule number, recurrence|63 HCC cases|significant|positive|partial|V4|
+F|F4|correlation|NEK2 vs phospho-AKT, MMP-2|63 HCC cases|significant|positive|available|V7|
+F|F5|descriptive|610 DEGs; NEK2 top DEG|SMMC-7721 vs HL-7702|unknown|mixed|not_reported|V8|

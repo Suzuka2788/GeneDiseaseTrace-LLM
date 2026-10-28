@@ -1,0 +1,46 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text b0001-b0123; supplementary files unread; fungal biology paper
+E|G1|gene|SREBP1|SREBP1|r||human||
+E|G2|gene|TYE7|TYE7;Tye7p;Tye7;CaTye7p;CaTye7;ORF19.4941;C1_13140C_A|r||non-human||
+E|G3|gene|CPH2|CPH2;Cph2p;Cph2;CaCph2p;CaCph2;ORF19.1187;C6_00280W_A|r||non-human||
+E|G4|gene|HMS1|HMS1;Hms1p;Hms1;CaHms1p;CaHms1;ORF19.921;C5_00670C_A|r||non-human||
+E|G5|gene|C. parapsilosis Hms1|CpHms1;CPAR2_303750|r||non-human||
+E|G6|gene|SrbA|SrbA;SrbAp;AfSrbA;AfSrbAp;Afu2g01260|r||non-human||
+E|G7|gene|EFG1|EFG1;Efg1p;Efg1|r||non-human||
+E|G8|gene|UPC2|Upc2p|r||non-human||
+E|G9|gene|PHO4|Pho4|r||non-human||
+E|G10|gene|GAL4|Gal4;Gal4p|r||non-human||
+E|G11|gene|YlSre1|YlSre1|r||non-human||
+E|G12|gene|NFY|NFY|p|other|human||
+E|G13|gene|SP1|SP1|r||human||
+E|G14|gene|ACE2|ACE2|r||non-human||
+E|G15|gene|BRG1|BRG1|r||non-human||
+E|G16|gene|CZF1|CZF1|r||non-human||
+E|G17|gene|FGR17|FGR17|r||non-human||
+E|G18|gene|GRF10|GRF10|r||non-human||
+E|G19|gene|PET9|PET9|r||non-human||
+E|G20|gene|TAF10|TAF10|r||non-human||
+E|G21|gene|S. cerevisiae YOR032C|YOR032C|r||non-human||
+E|G22|gene|S. cerevisiae YOR344C|YOR344C|r||non-human||
+E|S1|phenotype|filamentation|filamentation|r||||
+X|SREBPs|b0002|gene family, not single-gene endpoint
+X|disease|b0003|generic term, no named disease
+X|Candida colonization|b0037|colonization trait, not a disease
+X|pathogenesis|b0040|GO term, not a disease
+X|Anc5|b0033|reconstructed ancestral protein, not a gene
+X|Anc4|b0033|reconstructed ancestral protein, not a gene
+X|MYC|b0017|epitope tag, not studied gene
+EV|V1|b0040.s1+b0040.s2|ts|res|aff|rr,cmp
+EV|V2|b0040.s3+b0039.s10+b0040.s4|ts|res|aff|rr
+EV|V3|b0041.s2+b0039.s11|ts|res|aff|rr,cmp
+EV|V4|b0021.s5+b0022.s9|ts|res|aff|rr,cmp
+EV|V5|b0021.s3|ts|res|aff|rr
+EV|V6|b0041.s4|ts|int|hyp|ho
+F|F1|group_comparison|CPH2 vs HMS1 regulated target overlap|C. albicans anaerobic 37°C RNA-seq|significant|positive|available|V1|
+F|F2|association|HMS1 expression dependence on CPH2|cph2 deletion mutant vs wild-type|unknown|positive|not_reported|V2|
+F|F3|descriptive|filamentation in hms1/cph2 mutants|C. albicans anaerobic culture|not_applicable|not_applicable|not_applicable|V3|qualitative microscopy only
+F|F4|group_comparison|target transcripts in cph2/efg1 mutants|C. albicans anaerobic qPCR|significant|unknown|partial|V4|direction not stated in text
+F|F5|association|Cph2p site occupancy by Efg1p|Cph2 ChIP binding regions|significant|positive|available|V5|
+F|F6|hypothesis|HMS1/CPH2 gut colonization via filament prevention|murine gut colonization|not_applicable|not_applicable|not_applicable|V6|speculative; colonization data cited
+U|S1-S7 Tables, S1-S8 Figs|b0011, b0017, b0040, b0054|supplementary files not provided
+R|no disease endpoints|whole paper|Fungal gene regulation paper names no disease; no gene-disease pairs exist|No P lines output; all pairs not_found

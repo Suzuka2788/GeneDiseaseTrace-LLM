@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|PTPN22|PTPN22|r||human||
+E|D1|disease|type 1 diabetes|type 1 diabetes;T1D|r||||
+E|D2|disease|juvenile idiopathic arthritis|juvenile idiopathic arthritis;JIA|r||||
+E|D3|disease|autoimmune diseases|autoimmune diseases;autoimmune conditions;autoimmunity|p|other|||
+X|rs2488457|b0002.s5|variant identifier
+X|rs2476601|b0002.s5|variant identifier
+X|rs1217412|b0002.s5|variant identifier
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8+b0002.s9|ts|neg|neg|rr,cmp
+EV|V4|b0002.s9|ts|int|aff|rr
+EV|V5|b0002.s3|bg|hyp|hyp|ho
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2;neg:-:ts:V3|||R620W haplotype associated; -1123/+2740 not independent
+P|G1|D2|sup|a|both|sup:a:bg:V1;sup:a:ts:V2;neg:-:ts:V3|||R620W haplotype associated; -1123/+2740 not independent
+P|G1|D3|sup|a|both|sup:a:bg:V1;sup:a:ts:V4;neg:-:ts:V3||V5|Codon 620 minor allele contributes to autoimmunity risk
+F|F1|association|W-allele haplotype vs T1D|Czech and Azeri cases vs controls|significant|positive|available|V2|
+F|F2|association|W-allele haplotype vs JIA|Czech JIA vs controls|significant|positive|available|V2|
+F|F3|association|R-allele haplotypes with -1123/+2740 minor alleles|Czech and Azeri|not_significant|null|not_reported|V3|abstract only
+F|F4|descriptive|LD among three PTPN22 SNPs|Czech and Azeri|not_applicable|not_applicable|partial||no EV recorded; b0002.s6
+R|merging autoimmunity with autoimmune diseases|b0002.s9|Autoimmunity is a state, not a named disease; co-reference unclear|Merged as provisional surface form of D3

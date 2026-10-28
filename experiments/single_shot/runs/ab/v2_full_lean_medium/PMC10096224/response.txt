@@ -1,0 +1,40 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text, captions, Table 1, abbreviations; supplementary files unread
+E|g1|gene|D2HGDH|D2HGDH|r||human||
+E|g2|gene|dhgd-1|dhgd-1;Dhgd-1;DHGD-1;F54D5.12|r||non-human||
+E|g3|gene|hphd-1|hphd-1;HPHD-1;hpdh-1|p|suspected_typo|non-human||
+E|g4|gene|ADHFE1|ADHFE1|r||human||
+E|g5|gene|PHGDH|PHGDH|r||human||
+E|g6|gene|IDH1|IDH1|r||human||
+E|g7|gene|IDH2|IDH2|r||human||
+E|g8|gene|immt-1|IMMT-1|r||non-human||
+E|g9|gene|aass-1|aass-1|r||non-human||
+E|g10|gene|mccc-1|mccc-1|r||non-human||
+E|g11|gene|acdh-1|acdh-1|r||non-human||
+E|g12|gene|nhr-68|nhr-68|r||non-human||
+E|g13|gene|emb-27|emb-27|r||non-human||
+E|d1|disease|D-2-hydroxyglutaric aciduria|L- and D-2-hydroxyglutaric aciduria|r|||d3|
+E|d2|disease|L-2-hydroxyglutaric aciduria|L- and D-2-hydroxyglutaric aciduria|r|||d3|
+E|d3|disease|inborn errors of human metabolism|inborn errors of human metabolism|r||||
+E|d4|disease|2HG-associated diseases|2HG-associated diseases|r||||
+E|d5|disease|propionic acidemia|propionic acidemia|r||||
+E|d6|disease|diabetes|diabetic|p|other|||
+E|s1|symptom|delayed development|delayed development|r||||
+E|s2|symptom|seizures|seizures|r||||
+E|s3|symptom|ataxia|ataxia|r||||
+E|s4|phenotype|embryonic lethality|embryonic lethality|r||||
+E|s5|phenotype|mitochondrial defects|mitochondrial defects|r||||
+X|propionyl-CoA carboxylase subunits|b0008|unnamed genes for propionic acidemia; no gene identity
+X|mitochondrial citrate transporter|b0007|unnamed gene; no symbol given
+X|this disorder|b0007|unnamed citrate-transporter disorder; no disease name
+X|BCAT|b0036|enzyme family; member genes and species unspecified
+X|Pmyo-3::GFPmito|b0073|reporter construct used as a tool
+X|tm6671|b0014|allele identifier of dhgd-1, not a separate gene
+EV|V1|b0007.s1+b0007.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s1+b0003.s1|bg|bgr|aff|ebr
+EV|V3|b0002.s4+b0003.s2+b0016.s1|ts|res|aff|rr,mi
+P|g1|d1|sup|c|bg|sup:c:bg:V1|||D-2HG dehydrogenase mutations result in D-2HGA (respectively)
+P|g1|d3|nf|-||||V1|Category apposition only; no upward propagation
+P|g2|d1|nf|-||||V2;V3|Worm lethality is not presented as D-2HGA model
+U|S1–S9 Figs (PDF)|b0014.s2, b0016.s2, b0018.s4, others|files not provided
+U|S1–S4 Tables, S1 Data (XLSX)|b0014.s2, b0019.s4, b0026.s2, captions|files not provided

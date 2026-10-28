@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|BRAF|BRAF|r||human||
+E|D1|disease|melanoma|melanoma|r||||
+E|D2|disease|nevus|nevus;nevi|r||||
+E|D3|disease|familial melanoma|familial melanoma|r|||D1|
+E|D4|disease|sporadic melanoma|sporadic melanoma|r|||D1|
+X|rs1639679|b0002|variant identifier, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|neg|neg|ebr
+EV|V3|b0002.s3|bg|bgr|hyp|unc
+EV|V4|b0002.s7|bg|bgr|aff|ebr
+EV|V5|b0002.s8+b0002.s9+b0002.s10|ts|neg|neg|cmp
+EV|V6|b0002.s11|ts|neg|neg|cmp
+EV|V7|b0001.s1|ts|neg|neg|cmp
+EV|V8|b0002.s4+b0002.s5|ts|hyp|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1+V4;neg:-:ts:V5+V7||V8|Somatic mutations in tumors; polymorphism null here
+P|G1|D2|sup|a|bg|sup:a:bg:V1;neg:-:ts:V6||V8|Somatic mutations in nevi; genotype-nevus count null
+P|G1|D3|neg|-|bg|neg:-:bg:V2|||Germline mutations not causal in melanoma families
+P|G1|D4|unc|-|bg|unc:-:bg:V3|hedged_claim||Cited study only suggested haplotype association
+F|F1|group_comparison|BRAF rs1639679 genotype/allele frequency|incident melanoma cases vs female controls|not_significant|null|not_reported|V5|abstract only
+F|F2|group_comparison|BRAF polymorphism genotype by sex|male vs female incident cases|not_significant|null|not_reported|V5|abstract only
+F|F3|association|BRAF genotype vs mean nevus count|melanoma cases and controls|not_significant|null|not_reported|V6|abstract only
+F|F4|descriptive|BRAF promoter indel LD with rs1639679|184 familial melanoma cases|not_applicable|not_applicable|not_reported|V4|
+C|C1|BRAF polymorphism melanoma susceptibility|b0002.s7+b0002.s10|noncritical|resolved|Prior positive report vs null here; different populations
+R|single pair status|G1-D1, G1-D2|Background somatic-mutation association and this-study germline null coexist|Chose sup bg; listed negative claim with variant conditions

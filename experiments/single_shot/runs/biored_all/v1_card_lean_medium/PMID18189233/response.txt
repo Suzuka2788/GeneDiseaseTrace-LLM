@@ -1,0 +1,18 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|RNASEL|RNASEL;ribonuclease L|r||human||
+E|G2|gene|ABCE1|ABCE1;RNASEL-inhibitor;inhibitor of RNASEL|r||human||
+E|D1|disease|prostate cancer|prostate cancer|r||||
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s7|ts|neg|neg|cmp
+EV|V3|b0002.s9|ts|neg|neg|cmp
+EV|V4|b0002.s12|ts|int|neg|rr
+EV|V5|b0002.s10+b0002.s11|ts|neg|neg|cmp
+EV|V6|b0002.s8|ts|res|na|do
+EV|V7|b0002.s6|ts|aim|q|none
+P|G1|D1|sup|a|bg|sup:a:bg:V1;neg:-:ts:V2+V3+V4|||Background association; null only in Afro-Caribbeans
+P|G2|D1|neg|-|ts|neg:-:ts:V5+V4||V7|ABCE1 promoter SNP not associated in Afro-Caribbeans
+F|F1|association|RNASEL R462Q, D541E vs prostate cancer|Tobago Afro-Caribbean 230 cases, 458 controls|not_significant|null|not_reported|V2|abstract only
+F|F2|association|RNASEL 20 bp upstream indel vs prostate cancer|Tobago Afro-Caribbean cases and controls|not_significant|null|not_reported|V3|abstract only
+F|F3|association|ABCE1 -1,071 A/G vs prostate cancer|Tobago Afro-Caribbean cases and controls|not_significant|null|not_reported|V5|abstract only
+F|F4|descriptive|RNASEL novel K294E variant|single heterozygous prostate cancer case|not_applicable|not_applicable|not_applicable|V6|no disease attribution

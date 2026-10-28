@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|Klotho (human)|Klotho|r|||human||
+E|G2|gene|Klotho (mouse)|Klotho|p|species_unresolved|non-human||
+E|D1|disease|essential hypertension|essential hypertension;Essential Hypertension;EH|r||||
+E|D2|disease|arteriosclerosis|arteriosclerosis|r||||
+X|G-395A|b0002|variant identifier, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s9|ts|int|aff|rr
+EV|V5|b0002.s6|ts|res|aff|rr,cmp
+EV|V6|b0001.s1+b0002.s2|ts|hyp|hyp|ho
+EV|V7|b0002.s8|ts|res|na|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V3+V4;sup:a:ts:V5|||V2,V6|A allele carriers lower EH odds after adjustment
+P|G2|D2|sup|c|bg|sup:c:bg:V1|||| Klotho-defective mice exhibit arteriosclerosis
+F|F1|group_comparison|G-395A genotype distribution vs EH status|215 EH vs 220 controls|significant|unknown|partial|V2|overall genotype test
+F|F2|association|-395A carrier vs EH odds|EH cases vs controls, adjusted|significant|negative|partial|V3|OR 0.593, P=0.024
+F|F3|association|G-395A vs EH by subgroup|over 60, females, nonsmokers|significant|unknown|not_reported|V5|subgroup statistics not readable
+F|F4|mechanism|-395A vs -395G luciferase activity|in vitro reporter assay|unknown|positive|not_reported|V7|

@@ -1,0 +1,22 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|DGUOK|DGUOK;Deoxyguanosine kinase;dGK|r||human||
+E|D1|disease|hepatocerebral mitochondrial DNA depletion syndrome|hepatocerebral mitochondrial DNA depletion syndrome|r||||
+E|D2|disease|deoxyguanosine kinase deficiency|Deoxyguanosine kinase (dGK) deficiency|r||||
+E|D3|disease|combined respiratory chain deficiencies|combined respiratory chain deficiencies|r||||
+E|S1|phenotype|mitochondrial DNA depletion|mitochondrial DNA depletion|r||||
+E|S2|phenotype|hepatocerebral phenotype|hepatocerebral phenotype|r||||
+E|S3|phenotype|subtentorial abnormal myelination|subtentorial abnormal myelination|r||||
+X|dGK kinase domain|b0002|protein domain, not a separate gene
+X|c.444-62C>A|b0002|variant identifier
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s9|ts|res|aff|rr,eda
+EV|V3|b0002.s3|ts|res|aff|rr,do
+EV|V4|b0002.s8|ts|res|aff|cs
+EV|V5|b0002.s6+b0002.s7|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2;sup:a:ts:V3+V4|||Founder mutation explicitly associated with hepatocerebral MDDS
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Disease defined as deficiency of this gene product
+P|G1|D3|unc|-|ts|unc:-:ts:V3|coreference,scope|V4|Mutation found in patients; the disease referent in segregation is unclear
+F|F1|association|common haplotype at DGUOK locus vs disease|two North-African consanguineous families|unknown|positive|not_reported|V4|10 markers; 4.6 Mb
+F|F2|mechanism|c.444-62C>A splicing and protein structure|in silico|not_applicable|not_applicable|not_applicable|V5|prediction only
+F|F3|descriptive|homozygous DGUOK mutation, liver mtDNA depletion|three patients|not_applicable|not_applicable|not_applicable|V3|

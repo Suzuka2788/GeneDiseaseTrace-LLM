@@ -1,0 +1,104 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full review text and figure captions; references removed
+E|G1|gene|ZO-1|ZO-1;zonula occludens-1|r||||
+E|G2|gene|ZO-2|ZO-2|r||||
+E|G3|gene|ZO-3|ZO-3|r||||
+E|G4|gene|ZO-1 (mouse knockout)|ZO-1 -/-|p|species_unresolved|||
+E|G5|gene|ZO-2 (mouse knockout)|ZO-2-/-|p|species_unresolved|||
+E|G7|gene|dlg (Drosophila discs large)|dlg;lethal(1)discs-large;Discs-large;DlgA;dlgA;Dlg|r||non-human||
+E|G8|gene|occludin|occludin|r||||
+E|G9|gene|JAM|JAM;Junctional adhesion molecule;Junction adhesion molecule;JAMs|p|ambiguous_mapping|||
+E|G10|gene|tricellulin|tricellulin|r||||
+E|G11|gene|CAR|CAR;coxsackievirus and adenovirus receptor|r||||
+E|G12|gene|alpha-catenin|alpha-catenin|r||||
+E|G13|gene|p120 catenin|p120 catenin|r||||
+E|G14|gene|AF-6/afadin|AF-6;afadin;AF6;ALL-1 fusion partner at chromosome 6|r||||
+E|G15|gene|PSD95|PSD95;SAP90|r||||
+E|G16|gene|MAP1A|MAP1A|r||||
+E|G17|gene|BEGAIN|BEGAIN|r||||
+E|G18|gene|GAKIN|GAKIN|r||||
+E|G19|gene|cortactin|cortactin|r||||
+E|G20|gene|protein 4.1R|protein 4.1R|r||||
+E|G21|gene|cingulin|cingulin|r||||
+E|G22|gene|Shroom|Shroom|r||||
+E|G23|gene|ZAK|ZAK;ZO-1 associated kinase-1|r||||
+E|G24|gene|Gα12|Gα12;Ga12|r||||
+E|G25|gene|PATJ|PATJ|r||||
+E|G26|gene|human Scribble|human Scribble;hScrib|r||human||
+E|G27|gene|Drosophila Scribble|Scribble|r||non-human||
+E|G28|gene|SAF-B|SAF-B;HET;scaffold attachment factor-B|r||||
+E|G29|gene|estrogen receptor alpha|estrogen receptor alpha|r||||
+E|G30|gene|hsp27|hsp27;small heat shock protein 27|r||||
+E|G31|gene|cyclin D1|cyclin D1;CD1;CD-1|p|suspected_typo|||
+E|G32|gene|Myc|Myc|r||||
+E|G33|gene|ZONAB|ZONAB;DbpA;Msy3|r||||
+E|G34|gene|PCNA|PCNA;proliferating cell nuclear antigen|r||||
+E|G35|gene|Cdk4|Cdk4;Cdk-4|r||||
+E|G36|gene|Apg-2|Apg-2|r||||
+E|G37|gene|symplekin|symplekin|r||||
+E|G38|gene|Jun|Jun|r||||
+E|G39|gene|Fos|Fos|r||||
+E|G40|gene|C/EBP|C/EBP|p|ambiguous_mapping|||
+E|G41|gene|ARVCF|ARVCF|r||||
+E|G42|gene|Kaiso|Kaiso|r||||
+E|G43|gene|M2PK|M2PK;pyruvate kinase M2|r||||
+E|G44|gene|Oct-4|Oct-4|r||||
+E|G45|gene|Tamou/Polychaetoid|Tamou;Polychaetoid|r||non-human||
+E|G46|gene|emc|emc;extramacrochaetae|r||non-human||
+E|G47|gene|Ras|Ras|p|ambiguous_mapping|||
+E|G48|gene|Rap-1|Rap-1|r||||
+E|G49|gene|nectin|nectin|p|ambiguous_mapping|||
+E|G50|gene|E-cadherin|E-cadherin|r||||
+E|G51|gene|SC-35|SC-35;SC35|r||||
+E|G52|gene|laminB1|laminB1|r||||
+E|G53|gene|Dlg1|Dlg1|r||||
+E|G54|gene|c-Crk|c-Crk|r||||
+E|D1|disease|tumorous overgrowth of imaginal discs|tumorous overgrowth|r||||
+E|D2|disease|neoplastic overgrowth of imaginal disc cells|neoplastic overgrowth|r||||
+E|D3|disease|breast cancer|breast cancer|r||||
+E|D4|disease|breast carcinoma|breast carcinoma|r||||
+E|D5|disease|carcinomas|carcinomas|r||||
+E|D6|disease|epithelial cancer|epithelial cancer;Epithelial cancers|r||||
+E|D7|disease|velo-cardio-facial syndrome|velo-cardio-facial syndrome|r||||
+E|D8|disease|estrogen-dependent mammary tumors|estrogen-dependent mammary tumors|r||||
+E|D9|disease|virus-induced cancer|virus-induced cancer|r||||
+E|S1|phenotype|reduced fertility|reduced fertility|r||||
+E|S2|phenotype|extra mechanosensory organs|extra mechanosensory organs|r||||
+E|S3|phenotype|disturbed yolk sac angiogenesis|Disturbed yolk sac angiogenesis|r||||
+X|claudins|b0008|gene family, not single gene
+X|connexins|b0005|gene family, not single gene
+X|MAGUK|b0011|protein family label
+X|high-risk human papillomavirus|b0029|virus, not gene or disease
+X|adenovirus (Ad) type 9|b0056|virus, not gene or disease
+X|Eph4|b0032|cell line identifier
+X|Eph48|b0034|cell line identifier, likely Eph4 typo
+X|Rat1|b0055|cell line identifier
+EV|V1|b0011.s3|bg|bgr|aff|ebr,mi
+EV|V2|b0053.s3|bg|bgr|aff|ebr,mi
+EV|V3|b0043.s6|bg|bgr|aff|ebr
+EV|V4|b0043.s7|bg|bgr|aff|ebr
+EV|V5|b0054.s1|bg|bgr|aff|ebr
+EV|V6|b0055.s1|bg|bgr|aff|ebr
+EV|V7|b0053.s2|bg|hyp|hyp|ho
+EV|V8|b0049.s1|bg|co|pre|unc
+EV|V9|b0056.s4+b0056.s5|bg|res|q|do
+EV|V10|b0058.s6|ts|aim|na|ho
+P|G7|D1|sup|c|bg|sup:c:bg:V1||||Drosophila loss-of-function causes tumorous overgrowth
+P|G7|D2|sup|c|bg|sup:c:bg:V2||||Dlg PDZ/SH3 mutants cause neoplastic overgrowth
+P|G28|D3|sup|r|bg|sup:r:bg:V3||||Levels inversely correlated with breast cancer proliferation
+P|G30|D3|sup|a|bg|sup:a:bg:V4||||Bad prognostic marker in breast cancer
+P|G30|D4|unc|-|bg||scope|V4|Garbled sentence; carcinoma cells scope unclear
+P|G47|D6|sup|a|bg|sup:a:bg:V6||||Epithelial cancers related to Ras mutations
+P|G1|D5|unc|-|bg||scope|V5|Family-level statement, not member-specific
+P|G2|D5|unc|-|bg||scope|V5|Family-level statement, not member-specific
+P|G3|D5|unc|-|bg||scope|V5|Family-level statement, not member-specific
+P|G1|D6|unc|-|bg||hedged_claim,scope|V7|Homology clue only, role undefined
+P|G2|D6|unc|-|bg||hedged_claim,scope|V7|Homology clue only, role undefined
+P|G3|D6|unc|-|bg||hedged_claim,scope|V7|Homology clue only, role undefined
+P|G41|D7|unc|-|bg||presupposed_only|V8|Deletion implied only by gene name
+P|G2|D8|nf|-||||V9|Ad9 binds ZO-2; no tumor attribution
+P|G29|D3|nf|-||||V3|Co-repressor role only, no disease link
+F|F1|correlation|SAF-B/HET level vs proliferation|breast cancer cells|unknown|negative|not_reported|V3|background, cell-level
+F|F2|association|hsp27 vs prognosis|breast cancer patient subsets|unknown|negative|not_reported|V4|background; subsets unspecified
+F|F3|descriptive|ZO proteins delocalization/downregulation|several carcinomas|unknown|negative|not_reported|V5|family-level, background
+R|species|b0032-b0036|Mouse ZO-3 knockout has no distinct verbatim surface form|Mouse ZO-3 not split; kept under generic ZO-3 node

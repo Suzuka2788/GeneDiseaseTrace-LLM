@@ -1,0 +1,793 @@
+{
+  "case_set_version": "1.3.0",
+  "purpose": "Frozen rule-regression expectations, not biomedical ground truth or whole-paper answers.",
+  "synthetic_notice": "G/H/D/QX and synthetic findings are illustrative, not real biomedical assertions.",
+  "evaluation_notice": "Expected/rationale must not be supplied as test inputs. No model behavior or cross-model pilot has been run by creating this file.",
+  "cases": [
+    {
+      "case_id": "BC01",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R3",
+        "R4",
+        "R13"
+      ],
+      "text": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0003",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Does this excerpt support each named human-context gene with FCCM as a cited background causal claim?",
+      "expected": {
+        "status": "supported",
+        "relation_type": "causal",
+        "source_scope": "背景引用",
+        "distribute_to_members": true
+      },
+      "rationale": "明确逐基因疾病病因背景陈述可以支持，不要求当前论文重述全部被引实验；不是本研究新验证因果。"
+    },
+    {
+      "case_id": "BC02",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R4"
+      ],
+      "text": "R et al. suggested an association between G and D after observing that the G variant co-segregated specifically with D in affected relatives and was absent in unaffected relatives [ref].",
+      "context": [],
+      "source": null,
+      "question": "Assess the reported background association, without upgrading it to causality.",
+      "expected": {
+        "status": "supported",
+        "relation_type": "association",
+        "source_scope": "背景引用"
+      },
+      "rationale": "suggested并不自动降级；当前片段提供了明确疾病对应的共分离结果。"
+    },
+    {
+      "case_id": "BC03",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R3",
+        "R4"
+      ],
+      "text": "Sequencing confirmed a variant in G in a patient with D. No analysis or attribution linking that variant to D was made.",
+      "context": [],
+      "source": null,
+      "question": "Does confirmation of detection alone support G-D?",
+      "expected": {
+        "status": "not_found",
+        "relation_type": "none",
+        "relation_asserted": "not_asserted"
+      },
+      "rationale": "confirmed确认的是检出，不是疾病关联。"
+    },
+    {
+      "case_id": "BC04",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R4",
+        "R5"
+      ],
+      "text": "R et al. showed no statistically significant association between G carrier status and D incidence in their specified case-control sample [ref].",
+      "context": [],
+      "source": null,
+      "question": "Assess only the reported case-control question.",
+      "expected": {
+        "status": "explicit_negative",
+        "relation_type": "none",
+        "tested_relation_type": "association",
+        "source_scope": "背景引用"
+      },
+      "rationale": "showed并不自动阳性；保留样本和对应问题，不证明普遍无关系。"
+    },
+    {
+      "case_id": "BC05",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R4"
+      ],
+      "text": "F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM.",
+      "context": [
+        {
+          "location": "b0098",
+          "quote": "Second, other gene mutations could induce FCCM despite the rarity of the disease."
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0098",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Within these readable fragments, is the empirical basis of ZPLD1-FCCM clear enough for a supported edge?",
+      "expected": {
+        "status": "uncertain",
+        "relation_type": "none",
+        "unresolved_reason": [
+          "support_basis_unresolved"
+        ]
+      },
+      "rationale": "不是因proposed一词自动排除；结合前句could及未描述结果的语境，无法区分实证转述与提议。"
+    },
+    {
+      "case_id": "BC06",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R1",
+        "R15"
+      ],
+      "text": "FIAS and FBTCS, 51YO → PLE",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0076",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "The row is under KRIT1 variants; no gene-PLE relationship beyond the same patient is stated. Assess that pair and PLE identity.",
+      "expected": {
+        "status": "not_found",
+        "identity_status": "unresolved",
+        "identity_issues": [
+          "undefined_abbreviation"
+        ],
+        "retain_candidate": true
+      },
+      "rationale": "诊断候选身份未知仍保留；同病例共现不使该配对自动uncertain。"
+    },
+    {
+      "case_id": "BC07",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R15"
+      ],
+      "text": "G expression was associated with the diagnosis QX. QX is a diagnostic label whose meaning is not defined anywhere in the supplied material.",
+      "context": [],
+      "source": null,
+      "question": "Does unresolved QX identity obstruct a genuine relationship assertion?",
+      "expected": {
+        "status": "uncertain",
+        "relation_type": "none",
+        "identity_status": "unresolved",
+        "unresolved_reason": [
+          "identity"
+        ]
+      },
+      "rationale": "已有指定关系主张，其疾病解释依赖QX身份；区别于BC06。"
+    },
+    {
+      "case_id": "BC08",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R3"
+      ],
+      "text": "Background: pathogenic variants in G cause D [ref]. Results: we detected a G variant in one D patient; no additional attribution or relationship analysis was performed.",
+      "context": [],
+      "source": null,
+      "question": "Summarize G-D and keep the current study observation in the correct place.",
+      "expected": {
+        "status": "supported",
+        "relation_type": "causal",
+        "source_scope": "背景引用",
+        "own_detection_as_association": false
+      },
+      "rationale": "背景支持与描述性检出不冲突；因果来源不写两者兼有，不强建本研究association。"
+    },
+    {
+      "case_id": "BC09",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R3",
+        "R14"
+      ],
+      "text": "A cited experiment reported that knockout of G induced model D. Our direct replication under the same genotype, model, endpoint, and conditions instead found that knockout of G prevented D. The discrepancy is unresolved.",
+      "context": [],
+      "source": null,
+      "question": "Assess the stated same-question unresolved directional conflict.",
+      "expected": {
+        "status": "uncertain",
+        "unresolved_reason": [
+          "conflict"
+        ],
+        "impact": "status_critical"
+      },
+      "rationale": "输入明确给出同问题同条件的实质相反方向；不能用展示优先级抹去冲突。"
+    },
+    {
+      "case_id": "BC10",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R3",
+        "R5"
+      ],
+      "text": "However, the correlation between age and the number of large CCMs was not statistically significant in the PDCD10 group.",
+      "context": [
+        {
+          "location": "b0003",
+          "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10."
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0094",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Does this null age-lesion correlation negate a separate direct background PDCD10-FCCM causal claim?",
+      "expected": {
+        "status": "supported",
+        "relation_type": "causal",
+        "source_scope": "背景引用",
+        "same_question_conflict": false
+      },
+      "rationale": "年龄—病灶数与基因—FCCM病因不是同一问题，原关系保留；组内结果另存。"
+    },
+    {
+      "case_id": "BC11",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R13"
+      ],
+      "text": "The products of genes G and H form a protein complex. D patients were enrolled in an unrelated descriptive analysis.",
+      "context": [],
+      "source": null,
+      "question": "Does complex formation alone establish G-D or H-D?",
+      "expected": {
+        "status": "not_found",
+        "distribute_to_members": false
+      },
+      "rationale": "集合功能不自动成为各成员的疾病关系。"
+    },
+    {
+      "case_id": "BC12",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R13"
+      ],
+      "text": "Combined knockout of G and H induced disease model D. Neither individual knockout was tested or separately attributed to D.",
+      "context": [],
+      "source": null,
+      "question": "Does the combined-intervention result establish either independent single-gene effect?",
+      "expected": {
+        "status": "not_found",
+        "distribute_to_members": false,
+        "retain_joint_finding": true
+      },
+      "rationale": "保留联合模型发现，不拆成各成员独立效应。"
+    },
+    {
+      "case_id": "BC13",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R7",
+        "R13"
+      ],
+      "text": "In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0098",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Members are known as KRIT1/CCM2/PDCD10; this excerpt addresses general CCM. Does it directly establish KRIT1-sporadic CCM?",
+      "expected": {
+        "direct_subtype_edge": false,
+        "propagate_to_subtype": false,
+        "require_scope_assessment": true
+      },
+      "rationale": "该片段只支持一般CCM机制，不能直接传播到指定基因—散发亚型。此案例只固定范围不传播的行为；整对not_found或uncertain须结合其余实际原文，不把这一句固化为整篇答案。"
+    },
+    {
+      "case_id": "BC14",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R5"
+      ],
+      "text": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+      "context": [
+        {
+          "location": "b0021",
+          "quote": "Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models."
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0094",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Only the genotype-group overall result is readable. Give the individual gene-CASH status if no other evidence exists.",
+      "expected": {
+        "status": "not_found",
+        "per_gene_negative": false,
+        "retain_group_finding": true
+      },
+      "rationale": "缺每基因对比，不把总体结果拆为逐基因阴性；保留对应首次CASH问题。"
+    },
+    {
+      "case_id": "BC15",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R5",
+        "R16"
+      ],
+      "text": "The correlation coefficients of the KRIT1, Mutation not detected, and CCM2 groups were 0.75 (P < 0.001), 0.53 (P = 0.004), and - 0.84 (p = 0.019), respectively.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0094",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "The variables are age and large-lesion count. Encode the CCM2 group finding, not a gene-disease correlation coefficient.",
+      "expected": {
+        "finding_type": "correlation",
+        "reported_significance": "significant",
+        "effect_direction": "negative",
+        "statistics_availability": "available",
+        "gene_disease_correlation_from_this_fragment": false
+      },
+      "rationale": "显著负相关不是explicit_negative，统计两端也不是基因与疾病。"
+    },
+    {
+      "case_id": "BC16",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R10",
+        "R16"
+      ],
+      "text": "The patients diagnosed at a younger age were at increased risk of the earlier first CASH.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0094",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "No significance or numeric effect is given here. A nearby prior sentence cites S3 for genotype differences. Can S3 contents or significance for this sentence be asserted?",
+      "expected": {
+        "reported_significance": "unknown",
+        "statistics_availability": "not_reported",
+        "confirmed_dependency_on_S3": false
+      },
+      "rationale": "不能将附近的引用当成已确认该发现的统计出处；可记possible_attachment_reference，不能猜S3内容。"
+    },
+    {
+      "case_id": "BC17",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R10",
+        "R16"
+      ],
+      "text": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0094",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "The table is unread, but the sentence reports significance. Preserve both facts.",
+      "expected": {
+        "finding_type": "group_comparison",
+        "reported_significance": "not_significant",
+        "statistics_availability": "unread",
+        "depends_on_unread": [
+          "Table S3"
+        ]
+      },
+      "rationale": "附件缺失不把正文明确不显著改成unknown；不可读的具体统计量不补造。"
+    },
+    {
+      "case_id": "BC18",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R2"
+      ],
+      "text": "A human G construct was expressed in hamster cells. Only cell morphology was measured; the text gives no disease-model endpoint.",
+      "context": [],
+      "source": null,
+      "question": "Record gene origin, host, and whether this creates a human disease causal edge.",
+      "expected": {
+        "gene_species": "human",
+        "host_species": "hamster",
+        "human_disease_causal_edge": false
+      },
+      "rationale": "宿主不改变基因来源，细胞形态不等于人类疾病因果。"
+    },
+    {
+      "case_id": "BC19",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R8"
+      ],
+      "text": "G1 and G2 are distinct genes in the same family and are both included in this sequencing panel.",
+      "context": [],
+      "source": null,
+      "question": "May these near-identical names be merged?",
+      "expected": {
+        "merge": false
+      },
+      "rationale": "编辑距离、同家族和同列举不能覆盖明确不同指称。"
+    },
+    {
+      "case_id": "BC20",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R8"
+      ],
+      "text": "the FCCM gene (KRTI1, CCM2, and PDCD10) panel test",
+      "context": [
+        {
+          "location": "b0014",
+          "quote": "FCCM gene panel testing consisting of KRIT1, CCM2, and PDCD10"
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0005",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Compare the same panel defined elsewhere. How should KRTI1 be handled?",
+      "expected": {
+        "merge_to": "KRIT1",
+        "identity_status": "provisional",
+        "identity_issues": [
+          "suspected_typo"
+        ]
+      },
+      "rationale": "同一面板的跨位置同指依据支持疑似笔误归一，保留原名与残余歧义。"
+    },
+    {
+      "case_id": "BC21",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R9"
+      ],
+      "text": "Unit A contains only gene G and disease DA. Unit B contains only gene H and disease DB; these are independent abstracts.",
+      "context": [],
+      "source": null,
+      "question": "Should a G-DB pair be generated and labelled not_found?",
+      "expected": {
+        "pair_generated": false,
+        "scope_exclusion": "different_study_unit"
+      },
+      "rationale": "研究单元外组合不混入已检索的无证据配对分母。"
+    },
+    {
+      "case_id": "BC22",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R14"
+      ],
+      "text": "For the same G-D case-control analysis, the text reports OR=2.0, p=0.01; the table reports OR=2.2, p=0.01. Both explicitly report the same positive association; the exact OR discrepancy is unresolved.",
+      "context": [],
+      "source": null,
+      "question": "Does the magnitude discrepancy alone invalidate the association?",
+      "expected": {
+        "status": "supported",
+        "relation_type": "association",
+        "preserve_both_values": true,
+        "impact": "noncritical"
+      },
+      "rationale": "方向和关键推断一致，精确值保留未解决，不擅自挑表或正文。"
+    },
+    {
+      "case_id": "BC23",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R14",
+        "R15"
+      ],
+      "text": "The only disease-specific attribution for patient P assigns the responsible variant to G in the text and to H in the table. The study provides no way to resolve which gene was tested.",
+      "context": [],
+      "source": null,
+      "question": "Assess G-D when the attribution depends on this unresolved gene identity.",
+      "expected": {
+        "status": "uncertain",
+        "unresolved_reason": [
+          "identity",
+          "conflict"
+        ],
+        "impact": "status_critical"
+      },
+      "rationale": "关键身份矛盾影响指定实体对，不按表格优先强行通过。"
+    },
+    {
+      "case_id": "BC24",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R6"
+      ],
+      "text": "Table heading: G variants. Row P: variant V, diagnosis D. Two intervening paragraphs describe imaging methods without other variants. The next sentence says: this variant co-segregated with D in the family.",
+      "context": [],
+      "source": null,
+      "question": "Can the uniquely traceable nonadjacent reference to G variant V be resolved?",
+      "expected": {
+        "coreference_resolved": true,
+        "require_link_path": true
+      },
+      "rationale": "距离不单独否决，须列出表头、行和后文的唯一连接路径。"
+    },
+    {
+      "case_id": "BC25",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R1"
+      ],
+      "text": "history of cavernous angioma with symptomatic hemorrhage (CASH)",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0016",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Should this defined named clinical event be retained in the primary target scope?",
+      "expected": {
+        "entity_type": "clinical_event",
+        "in_primary_matrix": true
+      },
+      "rationale": "具名复合事件有原文定义，类型不改成普通疾病。"
+    },
+    {
+      "case_id": "BC26",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R1"
+      ],
+      "text": "The introduction briefly mentions bleeding in general, without defining a clinical condition or using it as a study endpoint.",
+      "context": [],
+      "source": null,
+      "question": "Does the generic word alone require a primary disease/event node?",
+      "expected": {
+        "in_primary_matrix": false,
+        "retain_candidate_record": true
+      },
+      "rationale": "仅有名称不够；泛指事件与具名结局区分。"
+    },
+    {
+      "case_id": "BC27",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R7"
+      ],
+      "text": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0011",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "May intracranial vascular malformation be treated as an exact alias of unrestricted vascular malformation?",
+      "expected": {
+        "merge": false,
+        "propagate_relationship": false
+      },
+      "rationale": "部位限定子类不是上位类别的同义词，层级不能自动传播基因关系。"
+    },
+    {
+      "case_id": "BC28",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R9"
+      ],
+      "text": "Resultados: se observó una asociación entre la variante G y el diagnóstico D.",
+      "context": [],
+      "source": null,
+      "question": "Preserve the Spanish evidence and optionally provide an explicitly labelled translation.",
+      "expected": {
+        "retain_original_quote": true,
+        "translation_separate": true,
+        "invent_numeric_statistics": false
+      },
+      "rationale": "这是合成语言处理案例，不是实际西班牙语论文引文，不替代原句或补造统计量。"
+    },
+    {
+      "case_id": "BC29",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R4"
+      ],
+      "text": "We aimed to examine whether G is associated with D. No results are available in the supplied material.",
+      "context": [],
+      "source": null,
+      "question": "Does a research objective establish either a supported or a pending empirical result?",
+      "expected": {
+        "status": "not_found",
+        "relation_type": "none",
+        "assertion_kind": "aim"
+      },
+      "rationale": "仅目的不等于已发现关系，也不是阴性试验结果。"
+    },
+    {
+      "case_id": "BC30",
+      "origin": "synthetic",
+      "rule_ids": [
+        "R10",
+        "R15"
+      ],
+      "text": "The relationship between G and the diagnostic label QX is reported in Supplementary Table S1. The definition of QX and all evidence needed to interpret that relationship are only in the unavailable table.",
+      "context": [],
+      "source": null,
+      "question": "A relationship is pointed to, but its identity and interpretation require unread material. How should it be handled?",
+      "expected": {
+        "status": "uncertain",
+        "unresolved_reason": [
+          "identity",
+          "missing_material"
+        ],
+        "depends_on_unread": [
+          "Table S1"
+        ]
+      },
+      "rationale": "明确依赖的关键身份/解释缺失不同于“附件可能有”，必须保留未解决。"
+    },
+    {
+      "case_id": "BC31",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R3",
+        "R4",
+        "R7"
+      ],
+      "text": "Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients.",
+      "context": [
+        {
+          "location": "b0098",
+          "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3."
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0098",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Assess the cited patient-group finding used in this disease-mechanism discussion for MAP3K3-sporadic CCM, without propagating it.",
+      "expected": {
+        "status": "supported",
+        "relation_type": "association",
+        "source_scope": "背景引用",
+        "support_basis": [
+          "explicit_background_report"
+        ],
+        "propagate_to_parent": false,
+        "propagate_to_other_subtype": false
+      },
+      "rationale": "被引的疾病患者群体发现被当作疾病相关事实使用，支持背景关联，不是本研究一次检出；不自动因果、显著或亚型传播。"
+    },
+    {
+      "case_id": "BC32",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R4",
+        "R6",
+        "R13"
+      ],
+      "text": "Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown.",
+      "context": [
+        {
+          "location": "b0011",
+          "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10."
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0011",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Using context only to resolve the three gene members, assess CCM2-vascular malformation from this presupposition, without importing subtype or other support.",
+      "expected": {
+        "status": "uncertain",
+        "relation_type": "none",
+        "relation_asserted": "presupposed",
+        "unresolved_reason": [
+          "presupposed_only"
+        ],
+        "require_link_path": true
+      },
+      "rationale": "句子断言机制未知，抑制血管畸形关系是预设且无该宽泛类别的其他支持；前文命名成员使此例不需要额外coreference未解决项。"
+    },
+    {
+      "case_id": "BC33",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R1",
+        "R7"
+      ],
+      "text": "This component is likely critical for preventing vascular malformation.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0100",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "Should vascular malformation, used as the condition class in this mechanistic interpretation, enter the primary entity scope?",
+      "expected": {
+        "entity_type": "disease",
+        "in_primary_matrix": true,
+        "merge_with_intracranial_vascular_malformation": false
+      },
+      "rationale": "宽泛疾病类别作为关系对象仍需提取；likely限制关系证据，不删除实体，不与部位限定子类合并。"
+    },
+    {
+      "case_id": "BC34",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R4",
+        "R9"
+      ],
+      "text": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+      "context": [],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0003",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "This objective-background sentence has no citation number and is not a new result. Record provenance without inventing a citation.",
+      "expected": {
+        "source_scope": "背景引用",
+        "assertion_kind": "background_relation_statement",
+        "conditions": {
+          "citation_absent": true
+        }
+      },
+      "rationale": "与BC01同一原句，仅补明确无引文编号的来源字段；背景标签不等于真的存在引用编号。"
+    },
+    {
+      "case_id": "BC35",
+      "origin": "paper_excerpt",
+      "rule_ids": [
+        "R1",
+        "R6"
+      ],
+      "text": "Non-cerebral CM",
+      "context": [
+        {
+          "location": "b0070",
+          "quote": "Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM."
+        }
+      ],
+      "source": {
+        "paper_id": "PMC10014009",
+        "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+        "location": "b0072",
+        "source_file": ".Input/100papers/PMC10014009.xml",
+        "normalization": "Unicode NFKC, whitespace/typography as biomed.jats"
+      },
+      "question": "This column only groups site-specific entries, with no independent definition or analysis of the category itself. Should the grouping label create a primary node?",
+      "expected": {
+        "in_primary_matrix": false,
+        "excluded_reason": "table_grouping_label",
+        "retain_spinal_and_cutaneous_entities": true
+      },
+      "rationale": "仅分组表头留排除记录和表头路径，不新增疾病节点；下级疾病及表注独立定义的一般CM照常核查。"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+META|claude-opus-5-5|seen: no
+SCOPE|title and abstract only; full text unavailable
+E|g1|gene|SLCO1B1|SLCO1B1;OATP-C;OATP1B1|r||human||
+E|d1|disease|pravastatin-induced myopathy|pravastatin-induced myopathy|r||||
+EV|V1|b0002.s4|ts|co|na|do
+P|g1|d1|unc|-|unk|||V1|novel haplotype found in patient; no attribution
+F|F1|group_comparison|variant allele transport activity vs wild-type|HEK293 and HeLa transient expression|significant|negative|partial|V1|simvastatin excepted
+F|F2|group_comparison|Km and Vmax by haplotype|cells expressing variants|mixed|negative|partial|V1|Km unaltered, Vmax decreased
+F|F3|mechanism|521T>C SNP and protein sorting|variant allelic proteins|unknown|not_applicable|not_reported|V1|authors' interpretation
+U|full text body|not applicable|only title and abstract provided

@@ -1,0 +1,28 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IL-17|interleukin-17;interleukin (IL)-17;IL-17|p|other||||
+E|G2|gene|IL-6|IL-6|r||non-human||
+E|G3|gene|IL-23|interleukin-23;IL-23|r||non-human||
+E|G4|gene|TLR4|Toll-like receptor 4;TLR4|r||non-human||
+E|G5|gene|IFN-g|interferon-g;interferon (IFN)-g;IFN-g|r||non-human||
+E|D1|disease|tumor|tumor|r||||
+E|D2|disease|hepatoma|hepatoma|r||||
+E|D3|disease|mammary tumors|mammary tumors|r||||
+E|D4|disease|cancer|cancer|r||||
+X|Th17|b0002|cell type, not gene
+X|MH134|b0002|tumor cell line identifier
+X|C3H/HeJ|b0002|mouse strain, not gene
+X|TLR|b0002|receptor family, not single gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s9|ts|res|aff|rr,mi
+EV|V3|b0002.s5+b0002.s6|ts|res|aff|rr,cmp
+EV|V4|b0002.s10|ts|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||IL-17 role in tumor progression stated
+P|G1|D2|sup|c|ts|sup:c:ts:V2|||anti-IL-17 suppressed MH134 hepatoma growth in mice
+P|G4|D2|unc|-|ts|unc:-:ts:V3|scope||TLR4 needed for drug effect, not disease
+P|G3|D2|unc|-|ts|unc:-:ts:V3+V4|hedged_claim,scope||serum change with treatment; mechanism inferred
+P|G5|D2|unc|-|ts|unc:-:ts:V3+V2+V4|hedged_claim,scope||IFN-g rise with inhibition; interpretive only
+F|F1|group_comparison|Spirulina LPS vs tumor growth; TLR4 status|C3H/HeN vs C3H/HeJ mice, MH134|unknown|negative|not_reported|V3|abstract only
+F|F2|group_comparison|anti-IL-17 vs tumor growth, IFN-g|tumor-bearing C3H/HeN mice|unknown|negative|not_reported|V2|abstract only
+R|species|G1|IL-17 discussed for humans and mice jointly|single entity, species left empty
+R|coreference|b0002.s9|"tumor" linked to MH134 hepatoma via abstract topic|assigned in-study tumor findings to hepatoma

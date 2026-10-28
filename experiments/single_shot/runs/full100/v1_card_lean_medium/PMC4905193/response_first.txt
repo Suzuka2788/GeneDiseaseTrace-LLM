@@ -1,0 +1,95 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full review text, tables and captions; references removed
+E|g1|gene|c-myc|c-myc|r||||
+E|g2|gene|c-MYC|c-MYC|p|species_unresolved|||
+E|g3|gene|p53|p53|r||||
+E|g4|gene|p66Shc|p66Shc;p66shc|r||||
+E|g5|gene|Akt|Akt|r||||
+E|g6|gene|Bcl-2|Bcl-2;bcl-2;B-cell CLL/lymphoma 2|r||||
+E|g7|gene|Bcl-xL|Bcl-xL;Bcl-XL;B-cell lymphoma-extra large protein|r||||
+E|g8|gene|Bad|Bad|r||||
+E|g9|gene|Bax|Bax;BAX;Bcl-2-associated X protein|r||||
+E|g10|gene|Bak|Bak;BAK;Bcl-2-antagonist killer|r||||
+E|g11|gene|HK2|HK2;Hk-2;Hk2;hexokinase 2|r||||
+E|g12|gene|PTEN|PTEN;Pten;phosphatase and tensin homolog deleted on chromosome 10|r||human||
+E|g13|gene|PML|PML;promyelocytic leukemia protein|r||human||
+E|g14|gene|Sig1-R|Sig1-R;Sig-1R;sigma-1 receptor;Sigma 1 receptor|r||||
+E|g15|gene|GRP78|GRP78;BiP;Bip;glucose regulated protein 78|r||||
+E|g16|gene|CLU|CLU;clusterin|r||||
+E|g17|gene|Mcl-1|Mcl-1;myeloid cell leukemia sequence 1|r||||
+E|g18|gene|K-Ras4B|K-Ras4B|r||||
+E|g19|gene|K-Ras|K-Ras|r||||
+E|g20|gene|H-Ras12v|H-Ras12v;H-Ras|r||||
+E|g21|gene|Bok|Bok;Bcl-2-related ovarian killer|r||||
+E|g22|gene|Bok (mouse)|Bok|p|species_unresolved|non-human||
+E|g23|gene|Ero1-α|Ero1-α;ER oxidoreductin-1 α|r||||
+E|g24|gene|Fis1|Fis1;Fission 1 homolog|r||||
+E|g25|gene|Bap31|Bap31;B-cell receptor-associated protein 31;B-cell-receptor-associated protein 31|r||||
+E|g26|gene|PERK|PERK;RNA-dependent protein kinase (PKR)-like ER kinase|r||||
+E|g27|gene|VDAC1|VDAC1|r||||
+E|g28|gene|VDAC2|VDAC2|r||||
+E|g29|gene|VDAC3|VDAC3|r||||
+E|g30|gene|GRP75|GRP75;glucose regulated protein 75|r||||
+E|g31|gene|MICU1|MICU1;mitochondrial calcium uptake 1|r||||
+E|g32|gene|PACS2|PACS2;PACS-2;phosphofurin acidic cluster sorting protein 2|r||||
+E|g33|gene|PP2a|PP2a|r||||
+E|g34|gene|IP3R3|IP3R3;IP3R type 3|r||||
+E|g35|gene|IP3R1|IP3R1;IP3R type 1|r||||
+E|g36|gene|Mdm2|Mdm2|r||||
+E|g37|gene|Fas ligand|Fas ligand|r||||
+E|g38|gene|BIM|BIM|r||||
+E|g39|gene|TRAIL|TRAIL|r||||
+E|g40|gene|TRADD|TRADD|r||||
+E|g41|gene|BFL1|BFL1;BFL-1|r||||
+E|g42|gene|cIAP1|cIAP1|r||||
+E|g43|gene|cIAP2|cIAP2|r||||
+E|g44|gene|PUMA|PUMA;p53 upregulated modulator of apoptosis|r||||
+E|g45|gene|IRE1|IRE1|r||||
+E|g46|gene|FACL4|FACL4;long-chain fatty acid-CoA ligase type 4|r||||
+E|g47|gene|PSS-1|PSS-1;phosphatidylserine synthase-1|r||||
+E|g48|gene|caspase-8|caspase-8;procaspase-8;caspase 8|r||||
+E|g49|gene|caspase-3|caspase-3;procaspase-3|r||||
+E|g50|gene|cytochrome c|cytochrome c|r||||
+E|g51|gene|Caveolin-1|Caveolin-1|r||||
+E|g52|gene|vMIA|vMIA;viral mitochondrion-localized inhibitor of apoptosis|r||non-human||
+E|g53|gene|HBx|HBx|r||non-human||
+E|g54|gene|enterovirus 2B protein|enterovirus 2B protein|r||non-human||
+E|d1|disease|cancer|cancer;cancers|r||||
+E|d2|disease|leukemia|leukemia|r||||
+E|d3|disease|prostate cancer|prostate cancer|r|||d1|
+E|d4|disease|hepatocellular carcinoma|hepatocellular carcinoma|r||||
+E|d5|disease|chronic liver disease|chronic liver disease|r||||
+E|d6|disease|colon cancer|colon cancer|r|||d1|
+E|d7|disease|lymphoma|lymphoma|r||||
+E|d8|disease|cancer predisposition syndromes|cancer predisposition syndromes|r||||
+E|ph1|phenotype|tumorigenicity|tumorigenicity|r||||
+X|promyelocytic leukemia|b0013|gene name expansion, not disease
+X|mTORc2|b0033|protein complex, not single gene
+X|IP3R|b0052|receptor family, not single gene
+X|VDAC|b0051|channel family, not single gene
+X|MCU|b0052|complex, not single gene
+X|SERCA|b0077|pump family, not single gene
+X|NF-κB|b0055|transcription factor complex
+EV|V1|b0075.s1|bg|bgr|aff|ebr
+EV|V2|b0032.s1|bg|bgr|aff|ebr
+EV|V3|b0076.s2|bg|bgr|aff|ebr
+EV|V4|b0031.s1|bg|bgr|aff|ebr
+EV|V5|b0053.s4+b0053.s5+b0053.s6|bg|res|aff|rr
+EV|V6|b0060.s3|bg|res|aff|rr
+EV|V7|b0062.s1|bg|res|aff|rr
+EV|V8|b0062.s1|ts|int|hyp|ho
+EV|V9|b0070.s4|bg|neg|neg|mi
+EV|V10|b0064.s1+b0064.s2+b0064.s3|bg|co|na|do
+P|g13|d2|sup|a|bg|sup:a:bg:V1+V2|||PML gene implicated in leukemia pathogenesis
+P|g13|d1|sup|a|bg|sup:a:bg:V1+V2|||implicated in pathogenesis of other cancers
+P|g12|d1|sup|a|bg|sup:a:bg:V3+V4|||commonly lost or mutated in human cancers
+P|g12|d8|sup|a|bg|sup:a:bg:V3|||germline mutations found in predisposition syndromes
+P|g4|d3|unc|-|bg|unc:r:bg:V5|scope|||correlation with proliferation in cancer cells only
+P|g16|d3|unc|-|bg|unc:a:bg:V6|scope|||cell survival phenotype, not disease
+P|g19|d6|unc|-|bg|unc:a:bg:V7|scope|||Ca2+ effects in colon cancer cell lines
+P|g20|d1|unc|-|ts|unc:a:ts:V8|hedged_claim|||suggesting role in cancer progression
+P|g22|d7|neg|-|bg|neg:c:bg:V9|||Bok loss does not accelerate mouse lymphoma
+P|g2|d7|unc|-|bg|unc:c:bg:V9|presupposed_only|||lymphoma model presupposed, not stated
+P|g53|d4|nf|-|||V10|HCC attributed to HBV, not HBx
+F|F1|correlation|p66Shc level vs proliferation|prostate cancer cells|unknown|positive|not_reported|V5|background cell-level
+F|F2|other|Bok loss vs lymphoma development|c-MYC transgenic mice|not_significant|null|not_reported|V9|background in vivo

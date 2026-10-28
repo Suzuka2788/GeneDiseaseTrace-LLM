@@ -1,0 +1,24 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full case-report text incl. tables and captions; no attachments
+E|G1|gene|VPS13B|VPS13B;vacuolar protein sorting 13 homolog B|r||human|||
+E|G2|gene|SERPINB1|SERPINB1;SerpinB1|r||human|||
+E|D1|disease|Cohen syndrome|Cohen syndrome|r|||||
+E|D2|disease|retinal dystrophy|retinal dystrophy|r|||||
+E|D3|disease|heart disease|heart disease|r|||||
+E|S1|phenotype|neutropenia|neutropenia|r|||||
+E|S2|phenotype|developmental retardation|developmental retardation|r|||||
+E|S3|phenotype|microcephaly|microcephaly|r|||||
+X|Autistic Behavior Checklist|b0014|assessment tool, not disease
+X|ACMG|b0014|guideline body, not gene
+X|genetic diseases|b0071|generic category, not specific disease
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0009.s3|bg|bgr|aff|ebr
+EV|V3|b0003.s3+b0003.s4|bg|bgr|aff|ebr
+EV|V4|b0066.s2|ts|int|hyp|eda
+EV|V5|b0071.s1|ts|res|aff|eda
+EV|V6|b0067.s4|bg|bgr|aff|ebr
+EV|V7|b0068.s7|bg|neg|neg|ebr
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3;sup:a:ts:V5;unc:-:ts:V4|||Background causal; case attribution association
+P|G2|D1|sup|a|bg|sup:a:bg:V6|||Reduced expression in Cohen neutrophils
+F|F1|association|VPS13B variant vs disease severity|Cohen syndrome patients (cited)|not_significant|null|not_reported|V7|background; no clear correlation
+R|case-report attribution|b0071.s1|Authors' conclusion asserts variants induce Cohen syndrome.|Recorded as association per card, not causal.

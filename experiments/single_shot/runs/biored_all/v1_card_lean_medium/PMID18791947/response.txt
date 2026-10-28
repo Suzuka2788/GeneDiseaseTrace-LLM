@@ -1,0 +1,14 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GPIbalpha|GPIbalpha;gpIbalpha|r||human||
+E|D1|disease|Bernard-Soulier Syndrome|Bernard-Soulier Syndrome;BSS|r||||
+E|S1|phenotype|thrombocytopenia|thrombocytopenia|r||||
+E|S2|symptom|bleeding|bleeding|r||||
+E|S3|phenotype|giant platelets|giant platelets|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s3+b0002.s8|ts|res|aff|eda,rr
+EV|V3|b0002.s7+b0002.s9|ts|res|aff|rr,cs
+EV|V4|b0002.s10|both|res|aff|rr,ebr
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2+V3;sup:a:both:V4|||Case attribution plus background BSS mutation reports
+F|F1|descriptive|GPIbalpha TGAG deletion; GPIbalpha expression|proband and consanguineous parents|not_applicable|not_applicable|not_applicable|V2;V3|single family case report
+R|case-report attribution|b0001.s1|"due to" wording versus case-report rule favouring association|Coded association per case-report rule, not causal

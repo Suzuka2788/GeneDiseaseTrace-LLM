@@ -1,0 +1,1163 @@
+[
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G01",
+    "entity_type": "gene",
+    "canonical_name": "KRIT1",
+    "original_names": [
+      "KRIT1",
+      "KRTI1"
+    ],
+    "species": "Homo sapiens",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0073",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "ambiguity": "KRTI1 是原文拼写，按同一三基因检测面板上下文判为 KRIT1 的疑似排字错误，不作独立基因。",
+    "merge_basis": "b0003、b0014、b0019 的检测面板均为 KRIT1/CCM2/PDCD10；仅 b0005 写 KRTI1。b0100 的 KRIT1 protein 是同一基因产物，角色另记。",
+    "entity_subtype": "gene_with_product_mentions",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [
+      "NG_012964.1",
+      "NC_000007.14"
+    ],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G02",
+    "entity_type": "gene",
+    "canonical_name": "CCM2",
+    "original_names": [
+      "CCM2"
+    ],
+    "species": "Homo sapiens",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0084",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "gene",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [
+      "NG_016295.1",
+      "NC_000007.14"
+    ],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G03",
+    "entity_type": "gene",
+    "canonical_name": "PDCD10",
+    "original_names": [
+      "PDCD10"
+    ],
+    "species": "Homo sapiens",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0087",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "gene",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [
+      "NG_008158.1",
+      "NC_000003.12"
+    ],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G04",
+    "entity_type": "gene",
+    "canonical_name": "ZPLD1",
+    "original_names": [
+      "ZPLD1"
+    ],
+    "species": "人类患者语境；原句未另标物种",
+    "location": [
+      "b0098"
+    ],
+    "ambiguity": "只有讨论中转述他人提出的关联，本研究未测定此基因。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "gene",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G05",
+    "entity_type": "gene",
+    "canonical_name": "MAP3K3",
+    "original_names": [
+      "MAP3K3",
+      "MEKK3"
+    ],
+    "species": "人类散发 CCM 患者语境",
+    "location": [
+      "b0098"
+    ],
+    "ambiguity": "MEKK3 为蛋白产物名称，不是另一个已明确出现的基因。",
+    "merge_basis": "b0098 明写 MAP3K3, encoding MEKK3；并入同一基因产物节点，mentions.csv 保留 gene/protein 角色。",
+    "entity_subtype": "gene_with_product_mentions",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G06",
+    "entity_type": "gene",
+    "canonical_name": "Krit1",
+    "original_names": [
+      "Krit1"
+    ],
+    "species": "动物模型；所给原文未指明具体物种",
+    "location": [
+      "b0099"
+    ],
+    "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+    "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+    "entity_subtype": "gene",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G07",
+    "entity_type": "gene",
+    "canonical_name": "Ccm2",
+    "original_names": [
+      "Ccm2"
+    ],
+    "species": "动物模型；所给原文未指明具体物种",
+    "location": [
+      "b0099"
+    ],
+    "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+    "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+    "entity_subtype": "gene",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G08",
+    "entity_type": "gene",
+    "canonical_name": "Pdcd10",
+    "original_names": [
+      "Pdcd10"
+    ],
+    "species": "动物模型；所给原文未指明具体物种",
+    "location": [
+      "b0099"
+    ],
+    "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+    "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+    "entity_subtype": "gene",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "canonical_name": "cerebral cavernous malformation",
+    "original_names": [
+      "Cerebral cavernous malformation",
+      "cerebral cavernous malformation",
+      "CCM",
+      "CCMs",
+      "cerebral cavernous malformations",
+      "CMM"
+    ],
+    "species": "人类；动物模型另有语境",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0016",
+      "b0017",
+      "b0021",
+      "b0026",
+      "b0027",
+      "b0028",
+      "b0029",
+      "b0049",
+      "b0068",
+      "b0070",
+      "b0072",
+      "b0074",
+      "b0075",
+      "b0076",
+      "b0077",
+      "b0093",
+      "b0094",
+      "b0095",
+      "b0097",
+      "b0098",
+      "b0099",
+      "b0101",
+      "b0102",
+      "b0104"
+    ],
+    "ambiguity": "CMM 仅 b0099 出现一次，按相邻治疗 CCM 语境视为疑似笔误；保留原文。",
+    "merge_basis": "b0011 和图注明确定义 CCM；CCMs 为复数。CMM 的合并为上下文判断。",
+    "entity_subtype": "疾病家族/上位疾病",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "canonical_name": "familial cerebral cavernous malformation",
+    "original_names": [
+      "familial cerebral cavernous malformation",
+      "Familial cerebral cavernous malformation",
+      "Familial CCM",
+      "familial CCM",
+      "FCCM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0001",
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0009",
+      "b0011",
+      "b0014",
+      "b0023",
+      "b0026",
+      "b0027",
+      "b0029",
+      "b0069",
+      "b0070",
+      "b0071",
+      "b0094",
+      "b0095",
+      "b0097",
+      "b0098",
+      "b0099",
+      "b0100",
+      "b0101",
+      "b0102",
+      "b0104",
+      "b0114",
+      "b0115",
+      "b0116"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0003、b0011 显式定义 FCCM；保留为 CCM 的家族性亚型节点，不与上位 CCM 合并。",
+    "entity_subtype": "疾病亚型",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D03",
+    "entity_type": "disease",
+    "canonical_name": "sporadic cerebral cavernous malformation",
+    "original_names": [
+      "sporadic CCM",
+      "sporadic CCMs"
+    ],
+    "species": "人类",
+    "location": [
+      "b0011",
+      "b0026",
+      "b0098",
+      "b0099"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0011 明确区分 sporadic 与 familial；不向另一个亚型传播证据。",
+    "entity_subtype": "疾病亚型",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "canonical_name": "spinal cavernous malformation",
+    "original_names": [
+      "spinal cavernous malformation",
+      "spinal CM",
+      "Spinal CM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0047",
+      "b0070",
+      "b0076",
+      "b0090"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0016 定义 CM；spinal 明确限定脊髓部位。表2 Spinal 为同列的简写。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D05",
+    "entity_type": "disease",
+    "canonical_name": "cutaneous cavernous malformation",
+    "original_names": [
+      "cutaneous CM",
+      "Cutaneous CM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0048",
+      "b0070",
+      "b0085"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0016 的 CM 定义及表1、表2 的 non-cerebral CM 语境。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D06",
+    "entity_type": "disease",
+    "canonical_name": "cavernous angioma with symptomatic hemorrhage",
+    "original_names": [
+      "cavernous angioma with symptomatic hemorrhage",
+      "cavernous angioma with a symptomatic hemorrhage",
+      "cavernous angiomas with the occurrence of symptomatic hemorrhage",
+      "cavernous angiomas with a symptomatic hemorrhage",
+      "CASH"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0021",
+      "b0028",
+      "b0043",
+      "b0044",
+      "b0045",
+      "b0064",
+      "b0070",
+      "b0072",
+      "b0075",
+      "b0078",
+      "b0080",
+      "b0085",
+      "b0086",
+      "b0088",
+      "b0093",
+      "b0094",
+      "b0097",
+      "b0100",
+      "b0101",
+      "b0115",
+      "b0116"
+    ],
+    "ambiguity": "病变伴症状性出血的复合临床事件，作为条件节点保留；不与所有 CCM 合并。",
+    "merge_basis": "b0016、b0064、b0093 明确 CASH 的展开。",
+    "entity_subtype": "疾病伴并发事件",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D07",
+    "entity_type": "disease",
+    "canonical_name": "small vessel disease",
+    "original_names": [
+      "small vessel disease"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D08",
+    "entity_type": "disease",
+    "canonical_name": "diffuse axonal injury",
+    "original_names": [
+      "diffuse axonal injury"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "损伤",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D09",
+    "entity_type": "disease",
+    "canonical_name": "intracerebral hemorrhage",
+    "original_names": [
+      "intracerebral hemorrhages"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "原文指无 CCM 病灶的多发复发脑内出血，不与 CASH 合并。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "出血性病症",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D10",
+    "entity_type": "disease",
+    "canonical_name": "developmental venous anomaly",
+    "original_names": [
+      "developmental venous anomaly"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "本队列明确无人患此畸形；这不是基因—疾病关联阴性试验。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D11",
+    "entity_type": "disease",
+    "canonical_name": "tumor",
+    "original_names": [
+      "tumor",
+      "tumors",
+      "Tumor",
+      "tumorous condition"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0050",
+      "b0070",
+      "b0072"
+    ],
+    "ambiguity": "宽泛疾病家族；表2的具体肿瘤不并入此节点。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "疾病家族",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D12",
+    "entity_type": "disease",
+    "canonical_name": "breast cancer",
+    "original_names": [
+      "Breast cancer"
+    ],
+    "species": "人类",
+    "location": [
+      "b0074"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D13",
+    "entity_type": "disease",
+    "canonical_name": "thyroid cancer",
+    "original_names": [
+      "Thyroid cancer"
+    ],
+    "species": "人类",
+    "location": [
+      "b0075"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D14",
+    "entity_type": "disease",
+    "canonical_name": "diffuse midline glioma",
+    "original_names": [
+      "diffuse midline glioma",
+      "Diffuse midline glioma"
+    ],
+    "species": "人类",
+    "location": [
+      "b0070",
+      "b0076"
+    ],
+    "ambiguity": "",
+    "merge_basis": "正文活检与表2均指 K3，WHO grade IV 为分级，不是另一肿瘤节点。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D15",
+    "entity_type": "disease",
+    "canonical_name": "adrenal adenoma",
+    "original_names": [
+      "Adrenal adenoma"
+    ],
+    "species": "人类",
+    "location": [
+      "b0077"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D16",
+    "entity_type": "disease",
+    "canonical_name": "left anterior cerebral artery infarction",
+    "original_names": [
+      "Left ACA infarction"
+    ],
+    "species": "人类",
+    "location": [
+      "b0077"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0093 明确 ACA 为 anterior cerebral artery；不推断具体梗死病因。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D17",
+    "entity_type": "disease",
+    "canonical_name": "occipital lobe epilepsy",
+    "original_names": [
+      "occipital lobe epilepsy",
+      "OLE"
+    ],
+    "species": "人类",
+    "location": [
+      "b0082",
+      "b0093"
+    ],
+    "ambiguity": "",
+    "merge_basis": "表2脚注明确定义 OLE。",
+    "entity_subtype": "",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D18",
+    "entity_type": "ambiguous",
+    "canonical_name": "PLE",
+    "original_names": [
+      "PLE"
+    ],
+    "species": "人类",
+    "location": [
+      "b0076"
+    ],
+    "ambiguity": "表2 K3 临床表现出现 PLE，正文及脚注未定义，不能按常识补为某种癫痫。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "未解决的疾病/诊断缩写候选",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D19",
+    "entity_type": "disease",
+    "canonical_name": "cavernous malformation",
+    "original_names": [
+      "cavernous malformation",
+      "CM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0064",
+      "b0070",
+      "b0072",
+      "b0093"
+    ],
+    "ambiguity": "一般 CM 上位名称；不自动合并为脑 CCM 或脊髓/皮肤亚型。",
+    "merge_basis": "b0064、b0093 定义 CM；限定部位的名称分别入 D01/D04/D05。",
+    "entity_subtype": "疾病家族",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D20",
+    "entity_type": "disease",
+    "canonical_name": "vascular malformation",
+    "original_names": [
+      "vascular malformation"
+    ],
+    "species": "人类；机制描述",
+    "location": [
+      "b0011",
+      "b0100"
+    ],
+    "ambiguity": "机制背景指代尚需审慎；与颅内子类D21分开。",
+    "merge_basis": "宽泛类别；不把 intracranial vascular malformation 当作同义词。b0011 的抑制机制语句与 b0100 属此范围。",
+    "entity_subtype": "疾病家族",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D21",
+    "entity_type": "disease",
+    "canonical_name": "intracranial vascular malformation",
+    "original_names": [
+      "intracranial vascular malformation"
+    ],
+    "species": "人类疾病定义语境",
+    "location": [
+      "b0011"
+    ],
+    "ambiguity": "CCM的上位类别，但不是所有 vascular malformation 的同义词。",
+    "merge_basis": "b0011 的原文定义；独立于 D20，不自动继承基因边。",
+    "entity_subtype": "疾病家族/部位限定子类",
+    "database_id": "",
+    "in_primary_matrix": true,
+    "reference_sequences_from_text": [],
+    "review_state": "reviewed_with_limitations"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S01",
+    "entity_type": "symptom",
+    "canonical_name": "seizure",
+    "original_names": [
+      "Seizure",
+      "seizure",
+      "seizures"
+    ],
+    "species": "人类",
+    "location": [
+      "b0028",
+      "b0041",
+      "b0042",
+      "b0064",
+      "b0066",
+      "b0097",
+      "b0102"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Generic seizure mentions, including 'Seizure onset' and 'early-onset seizure' (b0102), where 'early-onset' is a timing qualifier.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S02",
+    "entity_type": "symptom",
+    "canonical_name": "focal impaired awareness seizure (FIAS)",
+    "original_names": [
+      "FIAS",
+      "focal impaired awareness seizure"
+    ],
+    "species": "人类",
+    "location": [
+      "b0076",
+      "b0093"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Abbreviation defined in Table 2 note.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S03",
+    "entity_type": "symptom",
+    "canonical_name": "focal to bilateral tonic-clonic seizure (FBTCS)",
+    "original_names": [
+      "FBTCS",
+      "focal to bilateral tonic-clonic seizure"
+    ],
+    "species": "人类",
+    "location": [
+      "b0076",
+      "b0078",
+      "b0083",
+      "b0093"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Abbreviation defined in Table 2 note.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S04",
+    "entity_type": "symptom",
+    "canonical_name": "emotional seizure",
+    "original_names": [
+      "Emotional seizure"
+    ],
+    "species": "人类",
+    "location": [
+      "b0086"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S05",
+    "entity_type": "symptom",
+    "canonical_name": "headache",
+    "original_names": [
+      "Headache",
+      "headache"
+    ],
+    "species": "人类",
+    "location": [
+      "b0036",
+      "b0070",
+      "b0074",
+      "b0075",
+      "b0076",
+      "b0081",
+      "b0090"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Includes 'Nonspecific headache' (Table 2).",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S06",
+    "entity_type": "symptom",
+    "canonical_name": "neck pain",
+    "original_names": [
+      "neck pain"
+    ],
+    "species": "人类",
+    "location": [
+      "b0070",
+      "b0076"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S07",
+    "entity_type": "symptom",
+    "canonical_name": "dizziness",
+    "original_names": [
+      "Dizziness",
+      "dizziness"
+    ],
+    "species": "人类",
+    "location": [
+      "b0037",
+      "b0080"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S08",
+    "entity_type": "symptom",
+    "canonical_name": "weakness",
+    "original_names": [
+      "Weakness",
+      "weakness"
+    ],
+    "species": "人类",
+    "location": [
+      "b0038",
+      "b0075"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Table 1 'Weakness' and Table 2 'sided weakness'.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S09",
+    "entity_type": "symptom",
+    "canonical_name": "dysarthria",
+    "original_names": [
+      "Dysarthria"
+    ],
+    "species": "人类",
+    "location": [
+      "b0038"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S10",
+    "entity_type": "symptom",
+    "canonical_name": "facial palsy",
+    "original_names": [
+      "Facial palsy"
+    ],
+    "species": "人类",
+    "location": [
+      "b0038"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S11",
+    "entity_type": "symptom",
+    "canonical_name": "diplopia",
+    "original_names": [
+      "Diplopia",
+      "diplopia"
+    ],
+    "species": "人类",
+    "location": [
+      "b0039",
+      "b0075",
+      "b0079"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Includes 'binocular diplopia' (Table 2).",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S12",
+    "entity_type": "symptom",
+    "canonical_name": "visual symptoms",
+    "original_names": [
+      "Visual symptoms"
+    ],
+    "species": "人类",
+    "location": [
+      "b0040"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "表1的概括症状类目；不与表2特定阳性视觉症状作严格同义合并。",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S13",
+    "entity_type": "symptom",
+    "canonical_name": "visual disturbance",
+    "original_names": [
+      "Visual disturbance"
+    ],
+    "species": "人类",
+    "location": [
+      "b0080"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S14",
+    "entity_type": "symptom",
+    "canonical_name": "central vertigo",
+    "original_names": [
+      "Central vertigo"
+    ],
+    "species": "人类",
+    "location": [
+      "b0085"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S15",
+    "entity_type": "symptom",
+    "canonical_name": "drowsy mentality",
+    "original_names": [
+      "drowsy mentality"
+    ],
+    "species": "人类",
+    "location": [
+      "b0086"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S16",
+    "entity_type": "symptom",
+    "canonical_name": "decreased mentality",
+    "original_names": [
+      "Decreased mentality"
+    ],
+    "species": "人类",
+    "location": [
+      "b0088"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S17",
+    "entity_type": "phenotype",
+    "canonical_name": "cerebral microbleeds",
+    "original_names": [
+      "cerebral microbleeds"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "phenotype",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S18",
+    "entity_type": "phenotype",
+    "canonical_name": "neurological sequelae",
+    "original_names": [
+      "neurological sequelae"
+    ],
+    "species": "人类",
+    "location": [
+      "b0070"
+    ],
+    "ambiguity": "辅助实体，不标为疾病，不进入主基因×疾病表。",
+    "merge_basis": "Single surface form.",
+    "entity_subtype": "phenotype",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "S19",
+    "entity_type": "symptom",
+    "canonical_name": "transient positive visual symptom",
+    "original_names": [
+      "Transient positive visual symptom"
+    ],
+    "species": "人类",
+    "location": [
+      "b0082"
+    ],
+    "ambiguity": "特定症状；保留Transient/positive限定，不与表1Visual symptoms作同义合并。",
+    "merge_basis": "表2 K8 原文，最多属于广泛视觉症状类，不等同同义实体。",
+    "entity_subtype": "symptom",
+    "database_id": "",
+    "in_primary_matrix": false,
+    "reference_sequences_from_text": [],
+    "review_state": "auxiliary_only"
+  }
+]

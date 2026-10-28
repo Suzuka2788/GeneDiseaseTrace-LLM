@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TMC1|TMC1;transmembrane channel-like gene 1|r||human||
+E|D1|disease|DFNB7/B11 deafness|DFNB7/B11 deafness;DFNB7/B11|r||||
+E|D2|disease|Non-syndromic deafness|Non-syndromic deafness|r||||
+E|D3|disease|non-syndromic recessive deafness|non-syndromic recessive deafness|r|||D2|
+E|D4|disease|deafness|deafness|r||||
+E|D5|disease|recessive deafness|recessive deafness|r|||D4|
+E|D6|disease|autosomal recessive deafness|DFNB|p|other|||
+X|p.R34X|b0002|variant ID
+X|9q13-q21|b0002|chromosomal locus, not disease
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s5|ts|res|aff|rr,eda
+EV|V4|b0002.s6+b0002.s7|ts|res|aff|rr,eda
+EV|V5|b0002.s9|ts|int|hyp|ho
+P|G1|D1|sup|c|both|sup:c:ts:V1;sup:c:bg:V2;sup:a:ts:V3|||TMC1 mutations cause DFNB7/B11 deafness
+P|G1|D3|sup|c|bg|sup:c:bg:V2|||prior report: TMC1 mutations cause it
+P|G1|D4|sup|c|ts|sup:c:ts:V4;unc:-:ts:V5|hedged_claim||TMC1 mutations account for/cause deafness
+F|F1|descriptive|TMC1 mutations; deafness families|557 Pakistani families|not_applicable|not_applicable|available|V4|
+F|F2|descriptive|p.R34X founder haplotype|p.R34X families|unknown|not_applicable|not_reported|V4|abstract only
+F|F3|descriptive|p.R34X carriage in controls|African-American, northern European controls|not_applicable|not_applicable|not_reported|V5|frequency not given
+R|D6 surface|b0002.s4|Full name only appears with embedded abbreviation, not as a contiguous verbatim string|Listed DFNB as surface, marked provisional/other

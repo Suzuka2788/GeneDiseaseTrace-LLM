@@ -1,0 +1,22 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MMP1|MMP1|r||human||
+E|D1|disease|lumbar disc disease|lumbar disc disease|r||||
+E|D2|disease|DDD|DDD|p|undefined_abbreviation|||
+E|S1|phenotype|disc bulge|Disc bulge|r||||
+E|S2|phenotype|annular tear|annular tears|r||||
+E|S3|phenotype|Schmorl's nodes|Schmorl's nodes|r||||
+X|Matrix metalloproteinases (MMPs)|b0002|gene family, not a single-gene endpoint
+EV|V1|b0001.s1|ts|res|aff|rr
+EV|V2|b0002.s8+b0002.s9+b0002.s12|ts|res|aff|rr,cmp
+EV|V3|b0002.s10+b0002.s13|ts|res|aff|rr,cmp
+EV|V4|b0002.s2+b0002.s3|bg|int|na|none
+EV|V5|b0002.s11+b0002.s14|ts|neg|neg|cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||Title reports association of -1607 polymorphism
+P|G1|D2|sup|a|ts|sup:a:ts:V2;sup:a:ts:V3||V4|D allele associated with DDD case-control
+F|F1|association|MMP1 -1607 D allele vs DDD|Southern Chinese volunteers 18-55 years|significant|positive|partial|V2|
+F|F2|association|MMP1 D allele carriage, genotypic, vs DDD|Southern Chinese volunteers 18-55 years|significant|positive|partial|V2|
+F|F3|association|MMP1 genotype and allele vs DDD|Subjects over 40 years|significant|positive|partial|V3|
+F|F4|association|D allele vs bulge, tears, Schmorl's nodes|Southern Chinese volunteers|not_significant|null|not_reported|V5|
+F|F5|mechanism|-1607 G/D vs promoter activity|not stated|unknown|unknown|not_reported|V4|background statement, no data
+R|merging|b0001.s1;b0002.s3|DDD undefined; co-reference with lumbar disc disease is not explicit|Kept DDD and lumbar disc disease as separate entities

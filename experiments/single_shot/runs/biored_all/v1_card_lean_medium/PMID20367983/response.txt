@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|MEN1|MEN1;MEN1 gene;tumor suppressor gene MEN1|r||human||
+E|D1|disease|multiple endocrine neoplasia type 1|multiple endocrine neoplasia type 1;Multiple endocrine neoplasia type 1;MEN1;MEN1 syndrome|r||||
+E|D2|disease|parathyroid hyperplasia|parathyroid hyperplasia|r||||
+E|D3|disease|pituitary adenoma|pituitary adenoma|r||||
+X|c.1546_1547insC|b0002|variant identifier
+X|IVS3 + 18C > T|b0002|variant identifier
+X|cancer syndrome|b0002|generic disease category describing MEN1
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s5|ts|co|na|do
+EV|V3|b0002.s7|ts|int|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1;unc:-:ts:V3|hedged_claim|V2|Background states germline MEN1 mutations cause MEN1
+P|G1|D2|unc|-|ts|unc:-:ts:V3|hedged_claim||Authors say mutation might induce parathyroid hyperplasia
+P|G1|D3|unc|-|ts|unc:-:ts:V3|hedged_claim||Authors say mutation might induce pituitary adenoma
+F|F1|descriptive|MEN1 c.1546_1547insC carrier status|proband and two affected relatives|not_applicable|not_applicable|not_applicable|V2|abstract only; unaffected members not described

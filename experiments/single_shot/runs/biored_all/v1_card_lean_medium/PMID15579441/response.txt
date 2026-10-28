@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|vascular endothelial growth factor|vascular endothelial growth factor|p|species_unresolved||||
+E|G2|gene|proliferating cell nuclear antigen|proliferating cell nuclear antigen|p|species_unresolved||||
+E|G3|ambiguous_gene|ED-1|ED-1|u|undefined_abbreviation,ambiguous_mapping||||
+E|D1|disease|renal disease|renal disease|r|||||
+E|D2|disease|proteinuria|proteinuria|r|||||
+E|D3|disease|glomerular hypertension|glomerular hypertension|r|||||
+E|D4|disease|nephrotic syndrome|nephrotic syndrome|r|||||
+E|D5|disease|tubulointerstitial injury|tubulointerstitial injury|r|||||
+E|D6|disease|glomerular diseases|glomerular diseases|r|||||
+E|S1|phenotype|hypoxia|hypoxia|r|||||
+X|hypoxia-responsive element|b0002|regulatory element, not a gene
+X|remnant kidney model|b0002|experimental model, not a named disease
+X|diseased kidney|b0002|generic tissue description
+EV|V1|b0002.s4+b0002.s5|ts|res|q|rr,do
+EV|V2|b0002.s7|ts|co|na|do
+P|G1|D4|unc|-|ts|unc:-:ts:V1|scope|V1|VEGF change over time in model, no comparator
+P|G2|D5|nf|-|||||V2|localization only, no disease link
+F|F1|descriptive|VEGF expression over time|PAN nephrotic and remnant kidney models|unknown|negative|not_reported|V1|rat model; comparator unclear
+F|F2|correlation|hypoxia degree vs tubulointerstitial injury|both rat models|unknown|positive|not_reported|V1|no gene involved
+R|species|b0002.s2|Transgenic rat, but VEGF element species not stated|Gene species left empty, provisional

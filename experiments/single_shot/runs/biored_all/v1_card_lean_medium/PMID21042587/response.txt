@@ -1,0 +1,44 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|glucocorticoid receptor|glucocorticoid receptor;GR|r||human||
+E|G2|gene|FKBP5|FKBP5|r||human||
+E|G3|gene|mineralocorticoid receptor|mineralocorticoid receptor|r||human||
+E|G4|gene|11b-hydroxysteroid dehydrogenase type 2|11b-hydroxysteroid dehydrogenase type 2|r||human||
+E|D1|disease|primary glucocorticoid resistance|Primary glucocorticoid resistance;primary glucocorticoid resistance|r||||
+E|D2|disease|cortisol resistance|cortisol resistance|r||||
+E|D3|disease|bilateral adrenal hyperplasia|bilateral adrenal hyperplasia|r|||D4|
+E|D4|disease|adrenal hyperplasia|adrenal hyperplasia|r||||
+E|D5|disease|arterial hypertension|arterial hypertension|r|||D6|
+E|D6|disease|hypertension|hypertension|r||||
+E|D7|disease|mineralocorticoid-independent hypertension|mineralocorticoid-independent hypertension|r|||D6|
+E|D8|disease|hypokalemia|hypokalemia|r||||
+E|D9|disease|adrenal incidentalomas|adrenal incidentalomas|r||||
+E|D10|disease|apparent mineralocorticoid excess|apparent mineralocorticoid excess|r||||
+E|D11|disease|subclinical hypercortisolism|subclinical hypercortisolism|r||||
+E|D12|disease|familial glucocorticoid receptor haploinsufficiency|Familial glucocorticoid receptor haploinsufficiency;GR haploinsufficiency|p|other|||
+X|OMIM 138040|b0002.s1|database identifier
+X|p.R469[R,X]|b0002.s3|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0002.s3|ts|res|aff|cs,rr
+EV|V3|b0002.s9|ts|int|aff|unc
+EV|V4|b0002.s10|ts|res|aff|rr
+EV|V5|b0002.s11|ts|hyp|hyp|ho
+EV|V6|b0002.s5+b0002.s6+b0002.s8|ts|res|aff|rr
+EV|V7|b0002.s7|ts|res|aff|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1||| GR alterations cause primary glucocorticoid resistance
+P|G1|D2|sup|a|ts|sup:a:ts:V2|||Phenotype cosegregates with GR nonsense mutation
+P|G1|D3|sup|a|ts|sup:a:ts:V2;unc:-:ts:V5|||Cosegregation; causal role only proposed
+P|G1|D5|sup|a|ts|sup:a:ts:V2|||Cosegregates with GR nonsense mutation
+P|G1|D6|sup|a|ts|sup:a:ts:V2;unc:-:ts:V3|||Cosegregation; mechanistic causal inference unconfirmed
+P|G1|D8|sup|a|ts|sup:a:ts:V2|||Cosegregates with GR nonsense mutation
+P|G1|D10|sup|a|ts|sup:a:ts:V4|||AME demonstrated in GR mutation carriers
+P|G1|D11|unc|-||unc:-:ts:V5|hedged_claim||Only proposed as possible genetic cause
+P|G1|D7|unc|-||unc:-:ts:V5|hedged_claim||Only proposed as possible genetic cause
+P|G1|D12|sup|a|ts|sup:a:ts:V6|||Mutant allele degraded, 50% GR reduction
+P|G1|D9|nf|-|||||V2|Incidentalomas only led to family discovery
+P|G4|D10|unc|-||unc:-:ts:V4|hedged_claim||Reduced enzyme activity inferred from urinary ratio
+P|G3|D6|unc|-||unc:-:ts:V3|hedged_claim||Mechanistic interpretation of MR occupation
+F|F1|association|GR p.R469X and familial phenotype|eight affected family members|unknown|positive|not_reported|V2|abstract only
+F|F2|descriptive|wild type GR mRNA and protein|proband fibroblasts|unknown|negative|partial|V6|single proband
+F|F3|group_comparison|FKBP5 induction|proband fibroblasts vs normal|significant|negative|not_reported|V7|cell-level only
+F|F4|group_comparison|urinary THE/THF ratio|affected patients|unknown|negative|not_reported|V4|

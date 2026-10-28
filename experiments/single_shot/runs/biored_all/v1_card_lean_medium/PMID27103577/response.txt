@@ -1,0 +1,16 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|peroxisome proliferator-activated receptor a|PPARa;peroxisome proliferator-activated receptor a|r||non-human||
+E|G2|gene|uncoupling protein 3|UCP3;mitochondrial uncoupling protein 3|r||non-human||
+E|D1|disease|hypoxic injury|hypoxic injury|p|other|||
+E|S1|phenotype|hypoxia|hypoxia|r||||
+E|S2|phenotype|decreased contractile function|contractile function|r||||
+EV|V1|b0001.s1+b0002.s6+b0002.s8|ts|int|aff|rr,unc
+EV|V2|b0002.s4+b0002.s5|ts|res|na|rr,do
+EV|V3|b0002.s7|ts|res|na|mi,rr
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V3|scope,support_basis_unresolved|V2|Injury named only in title; link is interpretive
+F|F1|group_comparison|PPARa, UCP3 expression vs hypoxia|chow-fed mouse hearts|unknown|negative|not_reported|V2|abstract only
+F|F2|group_comparison|PPARa, UCP3 vs high-fat diet|mouse hearts|unknown|positive|not_reported|V2|abstract only
+F|F3|group_comparison|ATP, contractile function in hypoxia|high-fat-fed mouse hearts|significant|negative|not_reported|V1|abstract only
+F|F4|mechanism|PPARa deficiency, function in hypoxia|PPARa-/- mouse hearts|unknown|not_applicable|not_reported|V3|abstract only
+R|named injury vs condition|b0001.s1|Hypoxia is an exposure; hypoxic injury is mentioned only in the title|Kept hypoxic injury as a provisional disease; hypoxia as a phenotype

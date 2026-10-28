@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat isoproterenol MI model
+E|G1|gene|AMP-activated protein kinase|AMP-activated protein kinase;AMPK|p|ambiguous_mapping,species_unresolved|||
+E|G2|gene|AMPKa|AMPKa;p-AMPK|r||non-human||
+E|G3|gene|toll-like receptor 4|toll-like receptor 4;TLR4|r||non-human||
+E|G4|gene|myeloid differentiation protein 88|myeloid differentiation protein 88;MyD88|r||non-human||
+E|G5|gene|tumor necrosis factor-alpha|tumor necrosis factor-alpha;TNF-a|r||non-human||
+E|G6|gene|interleukin 6|interleukin 6;IL-6|r||non-human||
+E|D1|disease|myocardial infarction|myocardial infarction;post-myocardial infarction|r||||
+E|D2|disease|acute myocardial infarction|acute myocardial infarction|r|||D1|
+E|D3|disease|left ventricular dysfunction|left ventricular dysfunction|r||||
+E|D4|disease|cardiac dysfunction|cardiac dysfunction|r||||
+E|S1|phenotype|inflammatory responses|inflammatory responses|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s7|ts|res|aff|rr,mi
+EV|V3|b0002.s8|ts|res|aff|rr,mi
+EV|V4|b0002.s11|ts|int|hyp|ho
+EV|V5|b0002.s10|ts|res|na|rr
+P|G1|D1|unc|-|bg|unc:-:bg:V1||scope|| Drug-mechanism statement; gene-disease link only implied
+P|G3|D2|sup|a|ts|sup:a:ts:V2|||| TLR4 mRNA elevated in isoproterenol MI rats
+P|G4|D2|sup|a|ts|sup:a:ts:V2|||| MyD88 elevated in isoproterenol MI rats
+P|G5|D2|sup|a|ts|sup:a:ts:V2+V3|||| TNF-a elevated in heart and serum
+P|G6|D2|sup|a|ts|sup:a:ts:V2+V3|||| IL-6 elevated in heart and serum
+P|G3|D4|unc|-|ts|unc:-:ts:V4||hedged_claim|| Possibly through TLR4 inhibition; hedged
+P|G2|D2|nf|-||||V5| p-AMPK change tied to metformin dose only
+F|F1|group_comparison|TLR4, MyD88, TNF-a, IL-6 levels|isoproterenol MI rats vs metformin|unknown|negative|not_reported|V2+V3|metformin lowers elevation; no statistics shown
+F|F2|group_comparison|p-AMPK by metformin dose|isoproterenol MI rats|mixed|positive|not_reported|V5|significant only at 25mg/kg
+F|F3|hypothesis|TLR4 inhibition mediating cardioprotection|isoproterenol MI rats|not_applicable|not_applicable|not_applicable|V4|
+R|animal disease-model expression change|b0002.s7|Isoproterenol-induced elevation of gene expression in rat MI model; comparator implicit|Treated as association ts, non-human

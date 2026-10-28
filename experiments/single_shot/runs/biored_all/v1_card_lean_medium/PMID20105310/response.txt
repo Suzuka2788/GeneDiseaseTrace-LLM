@@ -1,0 +1,53 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ASP|Acylation Stimulating protein;ASP|p|ambiguous_mapping|human||
+E|G2|gene|InsR|InsR|r||human||
+E|G3|gene|IRS-1|IRS-1|r||human||
+E|G4|gene|factor B|factor B|r||human||
+E|G5|gene|adipsin|adipsin|r||human||
+E|G6|gene|complement C3|complement C3|r||human||
+E|G7|gene|C5L2|C5L2|r||human||
+E|G8|gene|CD36|CD36|r||human||
+E|G9|gene|DGAT1|DGAT1|r||human||
+E|G10|gene|DGAT2|DGAT2|r||human||
+E|G11|gene|SCD1|SCD1|r||human||
+E|G12|gene|FASN|FASN|r||human||
+E|G13|gene|LPL|LPL|r||human||
+E|G14|gene|HSL|HSL|p|undefined_abbreviation|human||
+E|G15|gene|CES1|CES1|r||human||
+E|G16|gene|perilipin|perilipin|r||human||
+E|G17|gene|FABP1|FABP1|r||human||
+E|G18|gene|FABP3|FABP3|r||human||
+E|G19|gene|CEBPalpha|CEBPalpha|r||human||
+E|G20|gene|CEBPbeta|CEBPbeta|r||human||
+E|G21|gene|PPARgamma|PPARgamma|r||human||
+E|G22|gene|AMPK|AMPK|p|ambiguous_mapping|human||
+E|G23|gene|UCP1|UCP1|r||human||
+E|G24|gene|CPT1|CPT1|p|ambiguous_mapping|human||
+E|G25|gene|FABP7|FABP7|r||human||
+E|G26|gene|TGFB1|TGFB1|r||human||
+E|G27|gene|TIMP1|TIMP1|r||human||
+E|G28|gene|TIMP3|TIMP3|r||human||
+E|G29|gene|TIMP4|TIMP4|r||human||
+E|G30|gene|PIG7|PIG7|r||human||
+E|G31|gene|MMP2|MMP2|r||human||
+E|D1|disease|obesity|obesity;obese|r||||
+E|D2|disease|morbid obesity|morbidly obese|r|||D1|
+E|S1|phenotype|insulin resistance|insulin resistance|r||||
+X|LAT|b0002|study group label defined by plasma ASP and TG
+X|HAT|b0002|study group label defined by plasma ASP and TG
+X|TG|b0002|lipid analyte (triglyceride), not gene or disease
+EV|V1|b0002.s6|ts|res|na|rr,cmp
+EV|V2|b0002.s8|ts|res|na|rr,cmp
+EV|V3|b0002.s9+b0002.s10+b0002.s11|ts|res|na|rr,cmp
+EV|V4|b0002.s5|ts|res|na|rr,cmp
+EV|V5|b0002.s12|ts|int|hyp|ho
+P|G1|D2|nf|-|||||V5|HAT vs LAT is not disease outcome
+P|G7|D2|nf|-|||||V2+V5|comparison within morbidly obese, matched obesity
+F|F1|correlation|ASP-related genes factor B, adipsin, C3|morbidly obese SC/OM tissue|significant|positive|partial|V1|direction trend; correlation details not reported
+F|F2|group_comparison|C5L2 expression, HAT vs LAT|morbidly obese subjects|significant|positive|partial|V2|
+F|F3|group_comparison|lipid storage/lipolysis/FABP/differentiation genes, HAT vs LAT|morbidly obese subjects|significant|positive|partial|V3|
+F|F4|group_comparison|oxidation genes AMPK, UCP1, CPT1, FABP7|morbidly obese subjects|significant|negative|partial|V3|significance assumed from shared p<0.025
+F|F5|group_comparison|TGFB1, TIMPs, PIG7, MMP2, HAT vs LAT|morbidly obese subjects|significant|positive|partial|V3|
+F|F6|group_comparison|InsR, IRS-1 expression, HAT vs LAT|morbidly obese subjects|not_significant|null|not_reported|V4|stated as similar
+F|F7|hypothesis|C5L2/ASP compensatory response|morbidly obese HAT subjects|not_applicable|not_applicable|not_applicable|V2+V5|authors' interpretation

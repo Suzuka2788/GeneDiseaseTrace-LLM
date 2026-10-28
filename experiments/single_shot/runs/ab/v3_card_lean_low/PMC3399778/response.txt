@@ -1,0 +1,45 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full brief report text, figure captions, tables; references removed
+E|G1|gene|MPZ|myelin protein zero;Myelin protein zero;MPZ;P0|r||human||
+E|G2|gene|SPTLC1|serine palmitoyltransferase, long-chain base subunit-1;SPTLC-1|r||human||
+E|G3|gene|RAB7|RAB7|r||human||
+E|G4|gene|periaxin (human)|periaxin|r||human||
+E|G5|gene|periaxin (mouse)|periaxin|p|species_unresolved|non-human||
+E|G6|gene|PMP22|PMP22|r||human||
+E|G7|gene|GJB1|GJB1|r||human||
+E|G8|gene|myelin basic protein|myelin basic protein;MBP|r||||
+E|G9|gene|PGP 9.5|protein gene product (PGP) 9.5;PGP 9.5|p|ambiguous_mapping|||
+E|D1|disease|intermediate Charcot-Marie-Tooth disease|Intermediate Charcot-Marie-Tooth disease;intermediate form of CMT|r|||D2|
+E|D2|disease|Charcot-Marie-Tooth disease|Charcot-Marie-Tooth disease;CMT;CMT disease|r||||
+E|D3|disease|CMT4F|CMT4F|r|||D2|
+E|D4|disease|Fabry disease|Fabry disease|r||||
+E|D5|disease|familial amyloid neuropathy|familial amyloid neuropathy|r||||
+E|D6|disease|hereditary neuropathy|hereditary neuropathies;hereditary neuropathy;Inherited neuropathies|r||||
+E|D7|disease|neuropathic pain|neuropathic pain|r||||
+E|D8|disease|demyelinating neuropathy|demyelinating neuropathies;demyelinating neuropathy|r||||
+E|D9|disease|axonal neuropathy|axonal neuropathies|r||||
+E|D10|disease|traumatic nerve injury|traumatic nerve injury|r||||
+E|S1|phenotype|pes cavus|pes cavus|r||||
+X|type IV collagen|b0012|antibody target, not analysed gene endpoint
+X|CMTNS|b0008|clinical score, not disease
+EV|V1|b0001.s1+b0005.s9+b0026.s1|ts|res|aff|eda,rr
+EV|V2|b0020.s2+b0020.s5|ts|res|aff|cs
+EV|V3|b0005.s7+b0027.s3|bg|bgr|aff|ebr
+EV|V4|b0002.s2+b0028.s2+b0032.s1|ts|res|aff|eda
+EV|V5|b0028.s3+b0028.s4+b0028.s5|bg|bgr|aff|ebr
+EV|V6|b0005.s4|bg|bgr|aff|ebr
+EV|V7|b0005.s3|bg|bgr|aff|ebr
+EV|V8|b0030.s4|bg|bgr|aff|mi
+EV|V9|b0020.s1|ts|neg|na|do
+EV|V10|b0027.s5|bg|bgr|aff|ebr
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2||| novel MPZ mutation causes intermediate CMT in kindred
+P|G1|D2|sup|c|ts|sup:c:ts:V1;sup:a:bg:V3||| MPZ mutation results in mild CMT
+P|G1|D7|sup|a|both|sup:a:ts:V4;sup:a:bg:V5||| MPZ mutation associated with neuropathic pain
+P|G1|D8|sup|a|bg|sup:a:bg:V10||| MPZ mutation groups include demyelinating neuropathy
+P|G4|D3|sup|c|bg|sup:c:bg:V6||| periaxin mutations cause CMT4F
+P|G2|D6|sup|c|bg|sup:c:bg:V7||| SPTLC-1 mutations cause hereditary neuropathy
+P|G3|D6|sup|c|bg|sup:c:bg:V7||| RAB7 mutations cause hereditary neuropathy
+P|G5|D7|unc|-|bg||scope|V8| pain-related hypersensitivity in mice, not disease
+P|G6|D1|nf|-|ts|||V9| negative proband test, not association test
+P|G7|D1|nf|-|ts|||V9| negative proband test, not association test
+F|F1|descriptive|Trp101X carriage; affected status|English kindred, 4 generations|not_applicable|positive|not_applicable|V2|carriers assessed only

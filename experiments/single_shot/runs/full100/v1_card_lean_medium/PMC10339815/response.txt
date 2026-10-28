@@ -1,0 +1,111 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text, tables, captions; supplements and figures unread
+E|G1|gene|AC145285.6|AC145285.6;ACI45285.6|p|suspected_typo|human||
+E|G2|gene|MAGI2-AS3|MAGI2-AS3;MAGI2.AS3;MAGIC2-AS3|p|suspected_typo|human||
+E|G3|gene|AL590705.3|AL590705.3|r||human||
+E|G4|gene|AC007405.3|AC007405.3|r||human||
+E|G5|gene|LINC00106|LINC00106;LINCO00106|p|suspected_typo|human||
+E|G6|gene|BRCA2|BRCA2|r||human||
+E|G7|gene|ATM|ATM|r||human||
+E|G8|gene|RAD51|RAD51|r||human||
+E|G9|gene|ATR|ATR|r||human||
+E|G10|gene|BRCA1|BRCA1/2|p|ambiguous_mapping|human||
+E|G11|gene|KRAS|KRAS|r||human||
+E|G12|gene|linc00312|linc00312|r||human||
+E|G13|gene|DNA-PKcs|DNA-PKcs|r||||
+E|G14|gene|AKT|AKT|r||||
+E|G15|gene|SLC26A4-AS1|SLC26A4-AS1|r||human||
+E|G16|gene|miR-34a|miR-34a|r||||
+E|G17|gene|miR-34b|miR-34b|r||||
+E|G18|gene|miR-34c|miR-34c|r||||
+E|G19|gene|GAS5|GAS5|r||||
+E|G20|gene|E2F1|E2F1|r||||
+E|G21|gene|GAPDH|GAPDH|r||human||
+E|G22|gene|TTN|TTN|r||human||
+E|G23|gene|TP53|TP 53|p|other|human||
+E|G24|gene|MUC16|MUC16;MUC 16|r||human||
+E|G25|gene|ZEB1|ZEB1|r||||
+E|G26|gene|miR-141/200a|miR-141/200a|p|ambiguous_mapping|||
+E|G27|gene|MAGI2|MAGI2|r||||
+E|G28|gene|TET2|TET2|r||||
+E|G29|gene|LRIG1|LRIG1|r||||
+E|G30|gene|Lig4|Lig4|r||||
+E|G31|gene|CDCA5|CDCA5|r||human||
+E|G32|gene|UBE2T|UBE2T|r||human||
+E|G33|gene|lncRNA-CRAL|lncRNA-CRAL|r||||
+E|G34|gene|miR-505|miR-505|r||||
+E|G35|gene|CYLD|CYLD|r||||
+E|D1|disease|gastric cancer|Gastric cancer;gastric cancer;GC;Gc|r||||
+E|D2|disease|stomach adenocarcinoma|stomach adenocarcinoma;STAD|r||||
+E|D3|disease|nasopharyngeal cancer|nasopharyngeal cancer|r||||
+E|D4|disease|thyroid cancer|thyroid cancer|r||||
+E|D5|disease|breast cancer|breast cancer;BC|r||||
+E|D6|disease|lung adenocarcinoma|lung adenocarcinoma;LUAD|r||||
+E|D7|disease|hepatocellular carcinoma|hepatocellular carcinoma;HCC|r||||
+E|D8|disease|soft tissue sarcoma|soft tissue sarcoma|r||||
+E|D9|disease|cancer|cancers;cancer|r||||
+E|D10|clinical_event|overall survival|overall survival;OS|r||||
+E|S1|phenotype|microsatellite instability|Microsatellite instability|r||||
+X|TCGA-STAD|b0005|dataset name, not disease entity
+X|gene signature A/B|b0031|gene set, not single gene
+X|ATM/p38 MAPK signaling pathway|b0013|pathway, not single gene
+X|cGAS-STING|b0094|pathway, not single gene
+X|GOBP DNA REPAIR|b0020|database gene set
+X|MSI-H|b0082|molecular status, not disease
+EV|V1|b0012.s8|bg|bgr|aff|ebr
+EV|V2|b0091.s3|bg|bgr|aff|ebr
+EV|V3|b0013.s3|bg|bgr|aff|ebr
+EV|V4|b0013.s5|bg|bgr|aff|ebr
+EV|V5|b0013.s7|bg|bgr|q|unc
+EV|V6|b0056.s3+b0056.s4+b0056.s5|ts|res|aff|rr,cmp
+EV|V7|b0056.s6|ts|res|aff|rr,cmp
+EV|V8|b0088.s2+b0088.s3+b0088.s4+b0088.s5+b0088.s6+b0088.s7|ts|res|aff|rr,cmp
+EV|V9|b0093.s3|bg|bgr|aff|ebr
+EV|V10|b0093.s5|bg|bgr|q|unc
+EV|V11|b0093.s10+b0093.s11|bg|int|hyp|ho
+EV|V12|b0095.s6|bg|bgr|aff|ebr
+EV|V13|b0096.s3|bg|bgr|hyp|unc
+EV|V14|b0093.s14|ts|res|aff|rr,cmp
+EV|V15|b0093.s2|bg|bgr|aff|ebr
+EV|V16|b0079.s10+b0095.s7|ts|co|na|do
+EV|V17|b0093.s8+b0093.s9|ts|hyp|pre|ho
+P|G1|D1|sup|r|ts|sup:r:ts:V6;sup:a:ts:V7+V8|||Expression linked to GC prognosis; upregulated
+P|G2|D1|sup|r|both|sup:r:ts:V6;sup:r:bg:V9;sup:a:ts:V7+V8|||High expression poor GC prognosis, both sources
+P|G3|D1|sup|r|ts|sup:r:ts:V6;sup:a:ts:V7||V14|Prognostic risk factor; tissue expression conflicting
+P|G4|D1|sup|r|ts|sup:r:ts:V6;sup:a:ts:V7+V8|||Protective prognostic factor; upregulated in GC
+P|G5|D1|sup|r|ts|sup:r:ts:V6;sup:a:ts:V7+V8||V11|Protective factor; DDR role only speculated
+P|G1|D10|sup|r|ts|sup:r:ts:V6|||KM: high expression better outcome
+P|G2|D10|sup|r|ts|sup:r:ts:V6|||KM: high expression poorer outcome
+P|G3|D10|sup|r|ts|sup:r:ts:V6|||KM: high expression poorer outcome
+P|G4|D10|sup|r|ts|sup:r:ts:V6|||KM: high expression better outcome
+P|G5|D10|sup|r|ts|sup:r:ts:V6|||KM: high expression better outcome
+P|G6|D1|sup|a|bg|sup:a:bg:V1;sup:a:bg:V2|||Mutations prevalent in GC; GC associated
+P|G7|D1|sup|a|bg|sup:a:bg:V1|||Mutations prevalent in GC
+P|G8|D1|sup|a|bg|sup:a:bg:V1||V17|Mutations prevalent in GC
+P|G9|D1|sup|a|bg|sup:a:bg:V1|||Mutations prevalent in GC
+P|G6|D10|sup|a|bg|sup:a:bg:V1|||Mutations associated with OS
+P|G7|D10|sup|a|bg|sup:a:bg:V1|||Mutations associated with OS
+P|G8|D10|sup|a|bg|sup:a:bg:V1|||Mutations associated with OS
+P|G9|D10|sup|a|bg|sup:a:bg:V1|||Mutations associated with OS
+P|G10|D1|sup|a|bg|sup:a:bg:V2|||BRCA1/2 mutations associated with GC development
+P|G11|D1|sup|a|bg|sup:a:bg:V2|||KRAS mutations associated with GC development
+P|G12|D3|sup|r|bg|sup:r:bg:V3;sup:a:bg:V3|||Downregulated; expression tied to OS
+P|G15|D4|sup|r|bg|sup:r:bg:V4|||Low expression linked to poor prognosis
+P|G22|D1|sup|a|bg|sup:a:bg:V12||V16|Mutations associated with better GC prognosis
+P|G24|D1|sup|a|bg|sup:a:bg:V12||V16|Mutations associated with better GC prognosis
+P|G19|D1|unc|-|bg|unc:-:bg:V5|scope||GC cell proliferation only
+P|G2|D5|unc|-|bg|unc:-:bg:V10|scope||BC cell phenotype only
+P|G2|D9|unc|-|bg|unc:-:bg:V15|scope||Dysregulated in unspecified several cancers
+P|G33|D1|unc|-|bg|unc:-:bg:V13|scope,hedged_claim||Chemoresistant cell effect; biomarker hedged
+P|G23|D1|nf|-||||V16|Mutation rate descriptive only
+F|F1|association|five DDR lncRNAs vs OS|TCGA-STAD GC|significant|mixed|partial|V6|Figure S2 unread
+F|F2|group_comparison|five lncRNA expression tumor vs normal|TCGA-STAD|significant|mixed|unread|V7|
+F|F3|group_comparison|lncRNA expression by qRT-PCR|20 GC tissue pairs; cell lines|mixed|mixed|unread|V8+V14|figures unread
+F|F4|association|risk model score vs OS|TCGA-STAD GC|significant|positive|available|b0069.s2|
+F|F5|group_comparison|four lncRNAs across clusters|TCGA-STAD clusters|mixed|positive|unread|b0072.s7|MAGI2-AS3 not differential
+F|F6|descriptive|top mutated genes by risk group|TCGA-STAD risk groups|unknown|not_applicable|unread|V16|Figure S4 unread
+F|F7|correlation|RS score vs TMB|TCGA-STAD|significant|negative|unread|b0082.s3|
+C|C1|AL590705.3 tissue expression|b0056.s6+b0093.s14+b0088.s2|noncritical|unresolved|TCGA increased; qPCR no change
+C|C2|number of prognostic lncRNAs|b0056.s3+b0093.s1|noncritical|unresolved|Five vs three prognostic
+U|Supplemental Materials Tables 1-8|b0020.s1;b0036.s5;b0040.s2|not provided
+U|Figures S2-S4|b0056.s5;b0059.s1;b0079.s7|not provided

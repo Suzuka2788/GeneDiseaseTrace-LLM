@@ -1,0 +1,27 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|androgen receptor|androgen receptor;AR|r||non-human||
+E|G2|gene|apolipoprotein E|apolipoprotein E;apoE|r||non-human||
+E|D1|disease|atherosclerosis|atherosclerosis|r||||
+E|D2|disease|obesity|obesity|r||||
+E|D3|disease|dyslipidemia|dyslipidemia;atherogenic dyslipidemia|r||||
+E|S1|phenotype|reduced insulin sensitivity|insulin sensitivity|r||||
+E|S2|phenotype|hepatic triglyceride levels|hepatic triglyceride levels|r||||
+X|hepatoma cells|b0002|cell model, not an analysed disease
+X|ARKO|b0002|knockout model label, not a separate gene
+EV|V1|b0002.s2+b0002.s3+b0002.s5+b0002.s7|ts|res|aff|mi,cmp,rr
+EV|V2|b0001.s1+b0002.s4+b0002.s5|ts|res|aff|mi,cmp,rr
+EV|V3|b0001.s1+b0002.s4|ts|res|aff|mi,cmp,rr
+EV|V4|b0002.s2|bg|bgr|aff|ebr
+EV|V5|b0002.s6|ts|res|aff|rr
+EV|V6|b0002.s3|ts|neg|neg|cmp
+EV|V7|b0002.s7|ts|hyp|hyp|ho
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:c:ts:V5|||AR knockout increased HFD-induced atherosclerosis in mice
+P|G1|D2|sup|c|ts|sup:c:ts:V2|||ARKO raised body weight and fat
+P|G1|D3|sup|c|ts|sup:c:ts:V3|||ARKO caused atherogenic dyslipidemia in mice
+P|G2|D1|sup|a|bg|sup:a:bg:V4|||apoE-deficient background described as atherosclerosis-prone
+F|F1|group_comparison|AR status vs aortic atherosclerosis|female apoE-deficient mice, high-fat diet|unknown|positive|partial|V1|percent only; p-value not shown
+F|F2|group_comparison|AR status vs atherosclerosis on chow|female apoE-deficient mice, chow diet|not_significant|null|not_reported|V6|
+F|F3|group_comparison|AR status vs atherosclerosis, weight, lipids|ovariectomized prepubertal mice|not_significant|null|not_reported|V2|
+F|F4|group_comparison|DHT vs atherosclerosis, fat, cholesterol|ovariectomized female mice|unknown|negative|partial|V5|agonist, not gene intervention
+F|F5|mechanism|AR effect via body composition/lipid metabolism|female mice|not_applicable|unknown|not_applicable|V7|proposed mechanism only

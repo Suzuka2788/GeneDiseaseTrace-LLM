@@ -1,0 +1,8 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|ALD gene|ALD|r||human||
+E|D1|disease|X-linked adrenoleukodystrophy|X-linked adrenoleukodystrophy;ALD;Adrenoleukodystrophy|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0002.s2+b0002.s5|ts|res|aff|rr,do
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2|||Gene described as responsible for X-linked ALD
+F|F1|descriptive|ALD gene mRNA and 80 kDa protein|ALD patient #163 fibroblasts vs controls|not_applicable|negative|not_applicable|V2|single patient; no statistics

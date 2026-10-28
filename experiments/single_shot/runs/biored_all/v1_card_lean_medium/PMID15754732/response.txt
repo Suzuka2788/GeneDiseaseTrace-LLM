@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MEN1|MEN1|r||human||
+E|D1|disease|primary hyperparathyroidism|Primary hyperparathyroidism;pHPT|r||||
+E|D2|disease|sporadic primary hyperparathyroidism|sporadic primary hyperparathyroidism;sporadic pHPT|r||||
+E|D3|disease|multiple endocrine neoplasia|multiple endocrine neoplasia|r||||
+E|D4|disease|sporadic parathyroid tumors|sporadic parathyroid tumors|r||||
+E|D5|disease|benign sporadic parathyroid tumors|benign sporadic parathyroid tumors;benign parathyroid lesion|p|other|||
+E|D6|disease|parathyroid adenoma|parathyroid adenoma|r||||
+E|D7|disease|parathyroid hyperplasia|hyperplasia|p|other|||
+E|D8|disease|parathyroid carcinoma|carcinoma;carcinomas|p|other|||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s6+b0002.s11|ts|res|aff|rr
+EV|V3|b0002.s6|ts|neg|neg|rr
+EV|V4|b0002.s10+b0002.s12|ts|neg|neg|rr
+EV|V5|b0002.s1|bg|bgr|na|do
+P|G1|D4|sup|a|bg|sup:a:bg:V1||V2|Background: somatic MEN1 mutations described in these tumors
+P|G1|D5|sup|a|ts|sup:a:ts:V2|||Somatic MEN1 alterations in about one fifth
+P|G1|D2|sup|a|ts|sup:a:ts:V2||V4|MEN1 mutations in 6/35 benign sporadic pHPT
+P|G1|D8|neg|-|ts|neg:-:ts:V3|||No MEN1 alterations in 4 carcinomas
+P|G1|D6|unc|-|ts|unc:-:ts:V2|scope||Adenoma and hyperplasia pooled; not separated
+P|G1|D7|unc|-|ts|unc:-:ts:V2|scope||Adenoma and hyperplasia pooled; not separated
+P|G1|D3|nf|-||||V5|MEN syndrome cited for pHPT, not linked to gene
+F|F1|descriptive|MEN1 somatic mutation frequency|35 benign sporadic pHPT tumors|not_applicable|not_applicable|partial|V2|6/35 (17.1%)
+F|F2|association|MEN1 genotype vs clinical phenotype|39 sporadic pHPT patients|not_significant|null|not_reported|V4|Mutations and polymorphisms; tests unreported
+R|abbreviation collision|b0002.s1|MEN1 denotes both the syndrome and the gene|Used the MEN1 surface for the gene only; syndrome kept as multiple endocrine neoplasia

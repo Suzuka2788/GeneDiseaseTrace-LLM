@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, captions and tables; references removed
+E|G1|gene|Q6S8D9_SARS|Q6S8D9_SARS;Q6S8D9|p|other|non-human||
+E|G2|gene|angiotensin-converting enzyme 2|angiotensin-converting enzyme 2|p|species_unresolved|||
+E|G3|gene|parathyroid hormone|parathyroid hormone|r||human||
+E|G4|gene|Nucleoporin GLE1|Nucleoporin GLE1|p|species_unresolved|||
+E|D1|disease|severe acute respiratory syndrome|severe acute respiratory syndrome;SARS|r||||
+E|D2|disease|coronavirus disease 2019|coronavirus disease 2019|r||||
+E|D3|disease|pneumonia|pneumonia|r||||
+E|D4|disease|acute breathing misery syndrome|acute breathing misery syndrome|p|other|||
+E|D5|disease|common cold|common cold|r||||
+E|D6|disease|flu|flu|r||||
+E|D7|clinical_event|death|death|r||||
+E|S1|symptom|dyspnea|dyspnea|r||||
+E|S2|phenotype|diffuse alveolar damage|diffuse alveolar damage|r||||
+X|SARS-CoV|b0002|virus name, not gene or disease
+X|SARS-CoV-2|b0004|virus name, not gene or disease
+X|SARS-CoV_ORF9c superfamily|b0028|protein domain family, not single gene
+X|cl38891|b0028|domain accession ID
+X|J9TE29|b0022|UniProt accession identifier
+X|1FVY A|b0033|PDB template identifier
+X|6b4e.1.A|b0033|structural template identifier
+X|b6e5oD|b0033|structural template identifier
+EV|V1|b0004.s6|bg|bgr|q|unc
+EV|V2|b0002.s9+b0039.s6|ts|aim|na|none
+EV|V3|b0028.s2|bg|hyp|hyp|ho
+P|G2|D1|unc|-|bg|unc:-:bg:V1|support_basis_unresolved,scope||Viral entry via ACE2, no gene-disease attribution
+P|G1|D1|nf|-|||||V2+V3|Therapeutic target aim; domain function hedged only
+R|viral protein as gene|b0005.s7|Viral accessory protein named only by UniProt accession, not gene symbol|Kept as provisional non-human gene entity

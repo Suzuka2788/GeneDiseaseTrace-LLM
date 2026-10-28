@@ -1,0 +1,10 @@
+﻿subject,state,location,reason
+PLE,identity,"[""b0076""]",诊断缩写未定义；8对候选保留uncertain。
+ZPLD1—FCCM,assertion_basis,"[""b0098""]",当前论文未提供proposed关联的结果细节，保留待审核。
+MAP3K3—FCCM,hypothesis,"[""b0098""]",could及these genes指代；散发亚型结果不能补足。
+人类三基因—散发CCM,subtype_specificity,"[""b0098"", ""b0026""]",间接双打击背景，缺乏明确逐基因亚型对应。
+人类三基因—广义血管畸形,broad_scope,"[""b0011"", ""b0100""]",范围宽泛且为机制/功能解释。
+动物Krit1/Ccm2/Pdcd10,species,"[""b0099""]",具体动物物种未指明；支持边仅限模型。
+CASH首次时点逐基因对比,missing_supplement,"[""b0094"", ""b0116""]",缺S3，未将组阴性拆成单基因阴性。
+图片与S1—S3实际数据,coverage,"[""b0027"", ""b0068"", ""b0095"", ""b0114"", ""b0115"", ""b0116""]",仅链接JPG与DOCX，无法检查附件新增实体。
+KRTI1/CMM疑似笔误,contextual_normalization,"[""b0005"", ""b0099""]",上下文支持合并，但没有作者勘误确认。

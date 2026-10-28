@@ -1,0 +1,32 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|survivin|survivin|r||human||
+E|G2|gene|VEGF|vascular endothelial growth factor;VEGF|r||human||
+E|G3|gene|VEGFR1|VEGF receptor 1;VEGFR1|r||human||
+E|G4|gene|Sp1|Sp1|r||human||
+E|G5|gene|Sp3|Sp3|r||human||
+E|G6|gene|Sp4|Sp4|r||human||
+E|G7|gene|bcl-2|bcl-2|r||human||
+E|G8|gene|cyclin D1|cyclin D1|r||human||
+E|D1|disease|cancer|cancer|r||||
+E|D2|disease|bladder cancer|bladder cancer|r|||D1|
+E|D3|disease|bladder tumor|bladder tumor|p|ambiguous_mapping||D1|
+X|specificity protein (Sp) transcription factors|b0002|gene family, not single gene
+X|nuclear factor kappaB (NF-kappaB)|b0002|complex, not single-gene endpoint
+X|253JB-V|b0002|cell line identifier
+X|KU7|b0002|cell line identifier
+EV|V1|b0002.s4|ts|res|na|rr,do
+EV|V2|b0002.s6|ts|res|na|rr,do
+EV|V3|b0002.s7|ts|int|q|unc
+EV|V4|b0002.s2|ts|res|na|rr,do
+EV|V5|b0002.s5|ts|res|na|rr,do
+P|G4|D2|unc|-|ts|unc:-:ts:V1+V3|scope|V1|drug-induced expression loss only, no disease link
+P|G5|D2|unc|-|ts|unc:-:ts:V1+V3|scope|V1|drug-induced expression loss only, no disease link
+P|G6|D2|unc|-|ts|unc:-:ts:V1+V3|scope|V1|drug-induced expression loss only, no disease link
+P|G4|D3|nf|-|ts||scope|V2|xenograft expression decrease after curcumin only
+P|G5|D3|nf|-|ts||scope|V2|xenograft expression decrease after curcumin only
+P|G6|D3|nf|-|ts||scope|V2|xenograft expression decrease after curcumin only
+F|F1|mechanism|curcumin; Sp1, Sp3, Sp4 protein|253JB-V and KU7 bladder cancer cells|unknown|negative|not_reported|V1|abstract only
+F|F2|mechanism|curcumin; survivin, VEGF, VEGFR1 expression|253JB-V and KU7 bladder cancer cells|unknown|negative|not_reported|V4|abstract only
+F|F3|mechanism|Sp knockdown; bcl-2, survivin, cyclin D1|bladder cancer cells|unknown|negative|not_reported|V5|partial contribution stated
+F|F4|mechanism|curcumin; tumor growth, Sp1/Sp3/Sp4 levels|nude mice with KU7 xenografts|unknown|negative|not_reported|V2|abstract only

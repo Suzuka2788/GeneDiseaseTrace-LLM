@@ -1,0 +1,47 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full review text and captions; no figure images or supplements
+E|G1|gene|NOTCH3|NOTCH 3;NOTCH3;Notch 3;Notch3|r||human||
+E|G2|gene|TIMP3|tissue inhibitor of metalloproteinases 3;TIMP-3|r||human||
+E|G3|gene|VTN|vitronectin;VTN|r||human||
+E|G4|gene|LTBP1|latent TGF-β binding protein 1;LTBP-1|r||human||
+E|G5|gene|calnexin|calnexin|p|ambiguous_mapping|human||
+E|G6|gene|annexin 2|annexin 2|p|ambiguous_mapping|human||
+E|G7|gene|periostin|periostin|p|ambiguous_mapping|human||
+E|G8|gene|amyloid P|amyloid P;Amyloid P|p|ambiguous_mapping|human||
+E|D1|disease|CADASIL|Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy;CADASIL|r|||D2|
+E|D2|disease|cerebral small vessel disease|SVD;small vessel disease;small-vessel disease|r||||
+E|D3|disease|sporadic cerebral small vessel disease|sporadic SVD;sporadic cerebral small vessel disease;sporadic cerebral small-vessel disease;sporadic small-vessel disease;sporadic cerebral SVD|r|||D2|
+E|D4|disease|Alzheimer disease|Alzheimer disease|r||||
+E|D5|disease|migraine with aura|migraine with aura;Migraine with aura|r||||
+E|D6|disease|dementia|dementia|r||||
+E|D7|clinical_event|ischemic stroke|ischemic stroke|r||||
+E|D8|clinical_event|hemorrhagic stroke|hemorrhagic stroke|r||||
+E|D9|disease|myocardial infarction|myocardial infarction|r||||
+E|S1|symptom|cognitive impairment|cognitive impairment|r||||
+E|S2|phenotype|white matter hyperintensities|white-matter hyperintensities|r||||
+X|EGFR|b0018.s5|Epidermal growth factor-like repeats of NOTCH3, not the EGFR gene
+X|5E1|b0041.s2|Monoclonal antibody clone, not a gene
+X|GOMs|b0015.s5|Granular osmiophilic material, pathological deposit
+X|NOTCH3 disease|b0028.s8|Speculative spectrum concept, not a defined diagnosis
+X|SCF|b0042.s1|Therapeutic protein agent; no gene-disease role
+EV|V1|b0004.s3+b0018.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0002.s1+b0039.s2|bg|bgr|aff|ebr
+EV|V3|b0050.s9|bg|hyp|hyp|ho
+EV|V4|b0050.s10|bg|res|aff|ebr
+EV|V5|b0021.s8+b0021.s9|bg|hyp|hyp|ho
+EV|V6|b0034.s4|bg|co|na|do
+EV|V7|b0027.s9+b0027.s10+b0027.s11|bg|res|aff|rr
+EV|V8|b0028.s1|bg|neg|neg|rr
+EV|V9|b0024.s7|bg|res|aff|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2||V7+V8+V9|Explicit background causal attribution of CADASIL to NOTCH3
+P|G1|D3|unc|-|bg|unc:a:bg:V3+V4|hedged_claim,scope|V4|Hinted involvement; SNPs linked to WMH only
+P|G1|D7|nf|-|||||V7|Variant-position comparison within CADASIL, not gene status
+P|G5|D1|unc|-|bg|unc:c:bg:V5|hedged_claim||Calnexin role proposed as possible only
+P|G2|D1|nf|-|||||V6|Only detected as GOM component
+P|G3|D1|nf|-|||||V6|Only detected as GOM component
+P|G4|D1|nf|-|||||V6|Only detected as GOM component
+F|F1|group_comparison|NOTCH3 EGFR 1-6 vs 7-34 variants; stroke onset|CADASIL patients|unknown|unknown|not_reported|V7|No statistics reported in review
+F|F2|association|NOTCH3 mutation site vs clinical phenotype|CADASIL patients|not_significant|unknown|not_reported|V8|
+F|F3|group_comparison|EGFR10-11 vs EGFR2-5 mutations; phenotype|CADASIL patients|unknown|unknown|not_reported|V9|
+F|F4|association|NOTCH3 region SNPs vs WMH presence|Hypertensive Austrian subjects|unknown|unknown|not_reported|V4|Endpoint is WMH, not SVD diagnosis
+C|K1|Genotype-phenotype by NOTCH3 mutation site|b0027.s11+b0028.s1|noncritical|unresolved|Different cohorts; NOTCH3-CADASIL unaffected

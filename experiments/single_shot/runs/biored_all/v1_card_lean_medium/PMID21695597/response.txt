@@ -1,0 +1,17 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|C4A|C4A|r||human||
+E|G2|gene|HLA-DRB1|HLA-DRB1|r||human||
+E|D1|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r|||||
+X|major histocompatibility complex (MHC)|b0002|gene region/complex, not single-gene endpoint
+X|rs9271366|b0002|variant ID
+EV|V1|b0002.s7|ts|neg|neg|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s9|bg|bgr|aff|ebr
+EV|V4|b0002.s1|bg|bgr|aff|ebr
+P|G1|D1|neg|-|ts|neg:-:ts:V1||V4|C4A deletion not significant, univariate or adjusted
+P|G2|D1|unc|-|both|unc:-:ts:V2;unc:-:bg:V3|scope||SNP only near HLA-DRB1; gene attribution not explicit
+F|F1|association|rs9271366 vs SLE|African American women case-control|significant|positive|available|V2|SNP near gene, not gene itself
+F|F2|association|rs204890, rs2071349, rs2844580 vs SLE|African American women case-control|significant|positive|available|V2|conditional haplotype analysis; MHC SNPs
+F|F3|association|C4A deletion vs SLE|African American women case-control|not_significant|positive|available|V1|OR 1.38 univariate; 1.01 adjusted
+F|F4|association|four-SNP genotype score vs SLE|African American women case-control|significant|positive|available|V2|additive per high-risk allele

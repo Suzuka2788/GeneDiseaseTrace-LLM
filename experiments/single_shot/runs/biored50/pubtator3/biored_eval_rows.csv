@@ -1,0 +1,273 @@
+﻿paper_id,outcome,detail,gold_gene,gold_disease,gold_type,gold_novel,our_pair,our_gene,our_disease,our_status,our_relation,our_source,our_reason
+PMID15000256,TP,,FMR1 (2332),autistic (D001321),Association,Novel,G0004-D0001,FMR1,Autistic Disorder,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15000256,TP,,FMR1 (2332),mentally retarded (D008607),Association,Novel,G0004-D0003,FMR1,Intellectual Disability,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15000256,TP,,FMR1 (2332),Fragile X syndrome (D005600),Association,No,G0004-D0002,FMR1,Fragile X Syndrome,supported,Association,,PubTator3 prediction (score 0.96)
+PMID15459975,TP,,SSH1 (54434),disseminated superficial actinic porokeratosis (D017499),Association,Novel,G0004-D0002,SSH1,Porokeratosis,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15464247,TP,,interleukin 12B (3593),viremia (D014766),Association,Novel,G0003-D0002,IL12B,Viremia,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15464247,FP,gold has both concepts but no relation,,,,,G0003-D0001,IL12B,Hepatitis C,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15485686,TP,,SCN5A (6331),bradycardia (D001919),Association,Novel,G0010-D0003,SCN5A,Bradycardia,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15485686,TP,,SCN5A (6331),tachycardia (D013610),Association,Novel,G0010-D0006,SCN5A,Tachycardia,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15485686,TP,,SCN5A (6331),arrhythmias (D001145),Association,Novel,G0009-D0002,IGLV2-18,Arrhythmias Cardiac,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15485686,TP,,SCN5A (6331),long QT syndrome (D008133),Association,Novel,G0009-D0001,IGLV2-18,Long QT syndrome type 3,supported,Association,,PubTator3 prediction (score 0.98)
+PMID15485686,FP,gold has both concepts but no relation,,,,,G0009-D0007,IGLV2-18,Tachycardia Ventricular,supported,Association,,PubTator3 prediction (score 0.55)
+PMID15668505,TP,,BRCA1 (672),breast and ovarian cancer (D010051),Association,No,G0005-D0002,BRCA1,Neoplasms,supported,Association,,PubTator3 prediction (score 0.94)
+PMID15668505,TP,,BRCA1 (672),breast and ovarian cancer (D001943),Association,No,G0005-D0001,BRCA1,Breast Neoplasms,supported,Association,,PubTator3 prediction (score 0.97)
+PMID15668505,TP,,BRCA2 (675),breast and ovarian cancer (D010051),Association,No,G0006-D0003,BRCA2,Ovarian Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15668505,TP,,BRCA2 (675),breast and ovarian cancer (D001943),Association,No,G0006-D0003,BRCA2,Ovarian Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15818664,TP,,ANKH (56172),hypertrophy (D006984),Association,Novel,G0003-D0002,ANKH,Hypertrophy,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15818664,TP,,ANKH (56172),sporadic chondrocalcinosis (D002805),Association,Novel,G0003-D0001,ANKH,Chondrocalcinosis,supported,Association,,PubTator3 prediction (score 1.00)
+PMID15824163,TP,,BRAF (673),melanoma (D008545),Association,No,G0004-D0001,BRAF,Melanoma,supported,Association,,PubTator3 prediction (score 0.99)
+PMID15824163,FP,gold has both concepts but no relation,,,,,G0004-D0002,BRAF,Nevus,supported,Association,,PubTator3 prediction (score 0.82)
+PMID16112787,TP,,N-acetyl-beta-d-glucosaminidase (154968),nephrotoxicity (D007674),Association,No,G0008-D0005,Oga,Renal Tubular Transport Inborn Errors,supported,Association,,PubTator3 prediction (score 1.00)
+PMID16186368,TP,,CYP4V2 (285440),Bietti crystalline dystrophy (C535440),Association,No,G0002-D0001,CYP4V2,Bietti Crystalline Dystrophy,supported,Association,,PubTator3 prediction (score 1.00)
+PMID16731636,FN,gene not recorded by us,beta-adrenoceptor (24925),hypertrophy (D006984),Association,Novel,,,,,,,
+PMID16731636,FN,our pair: not_found,angiotensinogen (24179),hypertrophy (D006984),Association,Novel,,,,,,,
+PMID16731636,TP,,angiotensinogen (24179),cardiac hypertrophy (D006332),Association,No,G0005-D0002,Agt,Cardiomegaly,supported,Association,,PubTator3 prediction (score 0.99)
+PMID16731636,FN,gene not recorded by us,beta-AR kinase-1 (25238),cardiac hypertrophy (D006332),Association,Novel,,,,,,,
+PMID16731636,FN,gene not recorded by us,beta-adrenoceptor (24925),cardiac hypertrophy (D006332),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,tissue plasminogen activator (5327),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,angiotensin converting enzyme (1636),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,factor V (2153),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,plasminogen activator inhibitor 1 (5054),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,factor VII-activating protease (3026),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,thrombomodulin (7056),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,tissue factor pathway inhibitor (7035),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,prothrombin (2147),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,beta-fibrinogen (2244),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,factor XIII (2162),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,factor VII (2155),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,methylenetetrahydrofolate reductase (4524),venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,FN,our pair: not_found,"apolipoprotein E2/E3/E4, glycoprotein Ia (22915)",venous and arterial thromboembolism (D054556),Association,Novel,,,,,,,
+PMID17003923,TP,,methylenetetrahydrofolate reductase (4524),thromboembolic diseases (D013923),Association,No,G0015-D0003,MTHFR,Thromboembolism,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17003923,TP,,"apolipoprotein E2/E3/E4, glycoprotein Ia (22915)",thromboembolic diseases (D013923),Association,No,G0012-D0003,MMRN1,Thromboembolism,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17003923,FP,gold has both concepts but no relation,,,,,G0008-D0003,F5,Thromboembolism,supported,Association,,PubTator3 prediction (score 0.98)
+PMID17003923,FP,gold has both concepts but no relation,,,,,G0017-D0003,PLAT,Thromboembolism,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17059986,TP,,SLC12A3 (6559),idiopathic intracranial hypertension (D011559),Association,Novel,G0013-D0007,SLC12A3,Pseudotumor Cerebri,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17059986,TP,,SLC12A3 (6559),Gitelman syndrome (D053579),Association,Novel,G0013-D0010,SLC12A3,Gitelman Syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17166870,TP,,endoglin (2022),pulmonary arterial hypertension (D000081029),Association,Novel,G0007-D0001,ENG,Pulmonary Arterial Hypertension,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17166870,TP,,endoglin (2022),systemic sclerosis (D012595),Association,Novel,G0007-D0004,ENG,Scleroderma Systemic,supported,Association,,PubTator3 prediction (score 1.00)
+PMID17166870,FN,our pair: not_found,endoglin (2022),vascular complication (D014652),Association,Novel,,,,,,,
+PMID17166870,FP,disease not a gold disease concept,,,,,G0007-D0006,ENG,Microvascular Angina,supported,Association,,PubTator3 prediction (score 0.64)
+PMID17935240,TP,,RPGR (6103),X-linked retinitis pigmentosa (D012174),Association,No,G0003-D0001,RPGR,Retinitis Pigmentosa 2,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18179903,TP,,RAPSN (5913),congenital myasthenia (D020294),Negative_Correlation,Novel,G0014-D0009,RAPSN,Myasthenic Syndromes Congenital,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18179903,TP,,RAPSN (5913),fetal akinesia (C536647),Negative_Correlation,Novel,G0014-D0003,RAPSN,Fetal akinesia syndrome X-linked,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18179903,TP,,embryonal acetylcholine receptor g subunit (1146),multiple pterygium syndrome (C537377),Association,No,G0013-D0002,CHRNG,Multiple pterygium syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0010-D0002,CHRNA1,Multiple pterygium syndrome,supported,Association,,PubTator3 prediction (score 0.97)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0010-D0003,CHRNA1,Fetal akinesia syndrome X-linked,supported,Association,,PubTator3 prediction (score 0.79)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0011-D0002,CHRNB1,Multiple pterygium syndrome,supported,Association,,PubTator3 prediction (score 0.52)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0011-D0003,CHRNB1,Fetal akinesia syndrome X-linked,supported,Association,,PubTator3 prediction (score 0.92)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0012-D0002,CHRND,Multiple pterygium syndrome,supported,Association,,PubTator3 prediction (score 0.59)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0013-D0003,CHRNG,Fetal akinesia syndrome X-linked,supported,Association,,PubTator3 prediction (score 0.74)
+PMID18179903,FP,gold has both concepts but no relation,,,,,G0014-D0002,RAPSN,Multiple pterygium syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18457324,TP,,carbonyl reductase 3 (874),cardiotoxic (D066126),Association,Novel,G0005-D0003,CBR3,Cardiotoxicity,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18457324,TP,,carbonyl reductase 3 (874),congestive heart failure (D006333),Association,Novel,G0005-D0001,CBR3,Heart Failure,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18507837,TP,,C6ofr49 (29964),breast cancer (D001943),Association,Novel,G0016-D0001,PRICKLE4,Breast Neoplasms,supported,Positive_Correlation,,PubTator3 prediction (score 0.92)
+PMID18507837,TP,,CCND3 (896),breast cancer (D001943),Association,Novel,G0022-D0001,CCND3,Breast Neoplasms,supported,Association,,PubTator3 prediction (score 0.78)
+PMID18507837,TP,,CCND3 (896),death (D003643),Association,Novel,G0022-D0002,CCND3,Death,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18507837,FP,gold has both concepts but no relation,,,,,G0014-D0001,FRS3,Breast Neoplasms,supported,Association,,PubTator3 prediction (score 0.64)
+PMID18507837,FP,gold has both concepts but no relation,,,,,G0015-D0001,USP49,Breast Neoplasms,supported,Association,,PubTator3 prediction (score 0.85)
+PMID18991055,TP,,SLC30A8 (169026),type 2 diabetes (D003924),Association,Novel,G0005-D0002,SLC30A8,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 0.99)
+PMID18991055,TP,,KCNQ1 (3784),type 2 diabetes (D003924),Association,Novel,G0007-D0002,KCNQ1,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18991055,TP,,CDKAL1 (54901),type 2 diabetes (D003924),Association,Novel,G0008-D0002,CDKAL1,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 1.00)
+PMID18991055,FN,our pair: not_found,CDKN2A/B (1030),type 2 diabetes (D003924),Association,Novel,,,,,,,
+PMID18991055,FN,our pair: not_found,CDKN2A/B (1029),type 2 diabetes (D003924),Association,Novel,,,,,,,
+PMID18991055,TP,,HHEX (3087),type 2 diabetes (D003924),Association,Novel,G0006-D0002,HHEX,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 0.84)
+PMID18991055,FP,gold has both concepts but no relation,,,,,G0004-D0002,IGF2BP2,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 0.66)
+PMID18991055,FP,gold has both concepts but no relation,,,,,G0009-D0002,WFS1,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 0.90)
+PMID18991055,FP,gold has both concepts but no relation,,,,,G0010-D0002,FTO,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 0.49)
+PMID19207031,TP,,Growth hormone (2688),growth hormone-deficient (D004393),Negative_Correlation,No,G0002-D0001,GH1,Dwarfism Pituitary,supported,Association,,PubTator3 prediction (score 0.99)
+PMID19207031,FP,gold has both concepts but no relation,,,,,G0003-D0001,IGF1,Dwarfism Pituitary,supported,Association,,PubTator3 prediction (score 0.99)
+PMID19208385,TP,,COL1A2 (1278),abnormal limb development (D009140),Association,Novel,G0011-D0003,COL1A2,Developmental Disabilities,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19208385,TP,,COL1A2 (1278),intracranial hemorrhage (D020300),Association,Novel,G0011-D0006,COL1A2,Subarachnoid Hemorrhage,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19208385,TP,,COL1A2 (1278),Osteogenesis imperfecta (D010013),Association,Novel,G0011-D0005,COL1A2,Osteogenesis Imperfecta,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19208385,TP,,COL1A2 (1278),Osteogenesis imperfecta type III (C536044),Association,Novel,G0011-D0001,COL1A2,Osteogenesis imperfecta type 3,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19208385,TP,,COL1A2 (1278),brachydactyly (D059327),Association,Novel,G0011-D0010,COL1A2,Brachydactyly,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19276632,TP,,FOXF2 (2295),disorders of sex development (D012734),Association,No,G0007-D0004,FOXF2,Disorders of Sex Development,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19276632,TP,,FOXF2 (2295),cleft palate (D002972),Association,No,G0007-D0003,FOXF2,Cleft Palate,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19276632,TP,,Foxf2 (14238),hypoplasia of the genital tubercle (C537540),Association,No,G0006-D0001,Foxf2,Microcephaly seizures genital hypoplasia,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19276632,TP,,Foxf2 (14238),cleft palate (D002972),Association,No,G0006-D0003,Foxf2,Cleft Palate,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19276632,FP,disease not a gold disease concept,,,,,G0007-D0002,FOXF2,Developmental Disabilities,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19484664,TP,,Angiotensin converting enzyme (1636),asthmatic (D001249),Association,No,G0008-D0003,ACE,Asthma,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19484664,FP,disease not a gold disease concept,,,,,G0008-D0001,ACE,Diastrophic dysplasia,supported,Association,,PubTator3 prediction (score 0.56)
+PMID19484664,FP,gold has both concepts but no relation,,,,,G0008-D0004,ACE,Drug Hypersensitivity,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19565319,TP,,Adenosine A(2A) receptor (135),panic disorder (D016584),Association,No,G0006-D0005,ADORA2A,Panic Disorder,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19565319,TP,,Adenosine A(2A) receptor (135),autism spectrum disorder (D000067877),Association,Novel,G0006-D0001,ADORA2A,Autism Spectrum Disorder,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19565319,TP,,Adenosine A(2A) receptor (135),anxiety (D001008),Association,Novel,G0006-D0002,ADORA2A,Anxiety,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19565319,TP,,Adenosine A(2A) receptor (135),autistic symptoms (D001321),Association,Novel,G0006-D0003,ADORA2A,Autistic Disorder,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19789368,TP,,Vitamin D receptor (7421),cancers (D009369),Positive_Correlation,Novel,G0017-D0001,VDR,Neoplasms,supported,Association,,PubTator3 prediction (score 0.99)
+PMID19789368,TP,,KRAS (3845),colorectal cancer (D015179),Association,Novel,G0008-D0002,KRAS,Colorectal Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19789368,TP,,PIK3CA (5290),colorectal cancer (D015179),Association,Novel,G0011-D0002,PIK3CA,Colorectal Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID19789368,TP,,Vitamin D receptor (7421),colorectal cancer (D015179),Positive_Correlation,Novel,G0017-D0001,VDR,Neoplasms,supported,Association,,PubTator3 prediction (score 0.99)
+PMID20705401,FN,our pair: not_found,Serotonin 6 receptor (3362),hyperactivity (D006948),Association,No,,,,,,,
+PMID20705401,TP,,Serotonin 6 receptor (3362),psychosis (D011605),Association,Novel,G0005-D0002,HTR6,Psychotic Disorders,supported,Association,,PubTator3 prediction (score 1.00)
+PMID20709368,TP,,fibrinogen gamma (2266),myocardial infarction (D009203),Association,No,G0009-D0004,FGG,Myocardial Infarction,supported,Association,,PubTator3 prediction (score 1.00)
+PMID20709368,TP,,fibrinogen gamma (2266),deep venous thrombosis (D020246),Association,No,G0009-D0005,FGG,Venous Thrombosis,supported,Association,,PubTator3 prediction (score 0.97)
+PMID21126715,FN,disease not recorded by us,BSCL2 (26580),enlargement of kidneys (D007674),Association,Novel,,,,,,,
+PMID21126715,TP,,BSCL2 (26580),intellectual impairment (D008607),Association,No,G0010-D0001,BSCL2,Mental Retardation Autosomal Recessive 1,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21126715,TP,,BSCL2 (26580),cardiomyopathy (D009202),Association,No,G0010-D0004,BSCL2,Cardiomyopathies,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21126715,TP,,BSCL2 (26580),congenital generalized lipodystrophy (D052497),Association,Novel,G0010-D0009,BSCL2,Lipodystrophy Congenital Generalized,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21126715,FP,gene not a gold gene concept,,,,,G0011-D0004,GZMH,Cardiomyopathies,supported,Association,,PubTator3 prediction (score 0.90)
+PMID21219851,TP,,type III procollagen (1281),"Ehlers-Danlos Syndrome, vascular type (D004535)",Association,No,G0004-D0001,COL3A1,Ehlers-Danlos Syndrome Type IV,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21405999,TP,,GUCA1A (2978),macular dystrophy (D008268),Association,No,G0007-D0003,GUCA1A,Macular Degeneration,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21405999,TP,,GUCA1A (2978),cone and cone rod dystrophy (D000077765),Association,No,G0007-D0001,GUCA1A,Cone-Rod Dystrophies,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21405999,TP,,GUCA1A (2978),cone and cone rod dystrophy (D000071700),Association,No,G0007-D0001,GUCA1A,Cone-Rod Dystrophies,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21405999,TP,,GUCA1B (2979),retinal disease (D012164),Association,No,G0008-D0005,GUCA1B,Retinal Diseases,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21405999,TP,,GUCA1B (2979),retinal degenerations (D012162),Association,Novel,G0008-D0004,GUCA1B,Retinal Degeneration,supported,Association,,PubTator3 prediction (score 0.97)
+PMID21405999,TP,,GUCA1B (2979),cone and cone rod dystrophy (D000077765),Association,Novel,G0008-D0001,GUCA1B,Cone-Rod Dystrophies,supported,Association,,PubTator3 prediction (score 0.97)
+PMID21405999,TP,,GUCA1B (2979),cone and cone rod dystrophy (D000071700),Association,Novel,G0008-D0001,GUCA1B,Cone-Rod Dystrophies,supported,Association,,PubTator3 prediction (score 0.97)
+PMID21684788,TP,,ALDH3A1 (218),Sjogren-Larsson syndrome (D016111),Association,Novel,G0010-D0007,ALDH3A1,Sjogren-Larsson Syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21684788,TP,,ALDH3A2 (224),Sjogren-Larsson syndrome (D016111),Association,Novel,G0011-D0007,ALDH3A2,Sjogren-Larsson Syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21750150,TP,,fibroblast growth factor 2 (2247),glioma (D005910),Association,No,G0006-D0002,Fgf2,Glioma,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21750150,TP,,fibroblast growth factor 2 (2247),tumor (D009369),Association,No,G0006-D0003,Fgf2,Neoplasms,supported,Association,,PubTator3 prediction (score 0.97)
+PMID21750150,TP,,DACH1 (1602),glioma (D005910),Association,Novel,G0005-D0002,Dach1,Glioma,supported,Association,,PubTator3 prediction (score 1.00)
+PMID21750150,TP,,DACH1 (1602),tumor (D009369),Association,Novel,G0005-D0003,Dach1,Neoplasms,supported,Negative_Correlation,,PubTator3 prediction (score 1.00)
+PMID21750150,FP,gold has both concepts but no relation,,,,,G0005-D0001,Dach1,Glioblastoma,supported,Negative_Correlation,,PubTator3 prediction (score 0.75)
+PMID21879313,TP,,apolipoprotein B-100 (338),HCV genotype 1b infection (D006526),Association,Novel,G0004-D0001,APOB,Hepatitis C,supported,Association,,PubTator3 prediction (score 0.71)
+PMID21879313,TP,,IL28B (282617),HCV genotype 1b infection (D006526),Association,Novel,G0003-D0002,IFNL3,Hepatitis C Chronic,supported,Association,,PubTator3 prediction (score 0.99)
+PMID21879313,FN,gene not recorded by us,pegylated interferon (3439),HCV genotype 1b infection (D006526),Negative_Correlation,No,,,,,,,
+PMID21879313,FN,gene not recorded by us,pegylated interferon (3439),chronic hepatitis (D006521),Negative_Correlation,No,,,,,,,
+PMID21879313,TP,,IL28B (282617),chronic hepatitis (D006521),Association,No,G0003-D0002,IFNL3,Hepatitis C Chronic,supported,Association,,PubTator3 prediction (score 0.99)
+PMID21879313,FN,our pair: not_found,apolipoprotein B-100 (338),chronic hepatitis C (D019698),Association,Novel,,,,,,,
+PMID21879313,TP,,IL28B (282617),chronic hepatitis C (D019698),Association,No,G0003-D0002,IFNL3,Hepatitis C Chronic,supported,Association,,PubTator3 prediction (score 0.99)
+PMID21976953,TP,,FBN1 (2200),Marfan syndrome (D008382),Association,Novel,G0002-D0001,FBN1,Marfan Syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22369755,FN,our pair: not_found,SERPINB5 (5268),carcinogenic (D009369),Association,Novel,,,,,,,
+PMID22369755,TP,,FOXD3 (27022),carcinogenic (D009369),Association,Novel,G0010-D0002,FOXD3,Neoplasms,supported,Negative_Correlation,,PubTator3 prediction (score 0.75)
+PMID22369755,TP,,CDKN3 (1033),carcinogenic (D009369),Association,Novel,G0005-D0002,CDKN3,Neoplasms,supported,Negative_Correlation,,PubTator3 prediction (score 0.98)
+PMID22369755,TP,,STAT3 (6774),carcinogenic (D009369),Association,Novel,G0022-D0002,STAT3,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22369755,TP,,CDKN2A (1029),carcinogenic (D009369),Association,Novel,G0004-D0002,CDKN2A,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22369755,TP,,HGF (3082),carcinogenic (D009369),Association,Novel,G0011-D0002,HGF,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22369755,TP,,EGF (1950),carcinogenic (D009369),Association,Novel,G0007-D0002,EGF,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22369755,TP,,SLURP-1 (57152),carcinogenic (D009369),Association,Novel,G0017-D0003,SLURP1,Carcinogenesis,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22729903,TP,,STAT4 (6775),renal symptoms (D007674),Association,Novel,G0004-D0001,STAT4,Glycosuria Renal,supported,Association,,PubTator3 prediction (score 1.00)
+PMID22729903,TP,,STAT4 (6775),systemic lupus erythematosus (D008180),Association,No,G0004-D0002,STAT4,Lupus Erythematosus Systemic,supported,Association,,PubTator3 prediction (score 1.00)
+PMID23069675,TP,,neuronal pentraxin 1 (266777),hypoxic-ischemic neuronal injury (D020925),Association,Novel,G0007-D0002,Nptx1,Nerve Degeneration,supported,Association,,PubTator3 prediction (score 0.98)
+PMID23069675,FN,our pair: not_found,caspase-3 (12367),neuronal death (D009410),Association,Novel,,,,,,,
+PMID23069675,FN,gene not recorded by us,Cyt C (13063),neuronal death (D009410),Association,Novel,,,,,,,
+PMID23069675,FN,our pair: not_found,Bax (12028),neuronal death (D009410),Association,Novel,,,,,,,
+PMID23069675,FN,gene not recorded by us,Bad (12015),neuronal death (D009410),Association,Novel,,,,,,,
+PMID23069675,TP,,neuronal pentraxin 1 (18164),neuronal death (D009410),Association,Novel,G0007-D0002,Nptx1,Nerve Degeneration,supported,Association,,PubTator3 prediction (score 0.98)
+PMID23069675,TP,,neuronal pentraxin 1 (18164),hypoxic-ischemic neuronal injury (D020925),Association,Novel,G0007-D0002,Nptx1,Nerve Degeneration,supported,Association,,PubTator3 prediction (score 0.98)
+PMID24442316,FN,our pair: not_found,aspartate aminotransferase (14718),liver injured (D008107),Association,Novel,,,,,,,
+PMID24442316,FN,our pair: not_found,alanine aminotransferase (76282),liver injured (D008107),Association,Novel,,,,,,,
+PMID24442316,TP,,von Willebrand factor (22371),liver injured (D008107),Association,Novel,G0008-D0002,Vwf,Wounds and Injuries,supported,Association,,PubTator3 prediction (score 0.98)
+PMID24442316,TP,,intercellular adhesion molecule-1 (15894),liver injured (D008107),Association,Novel,G0005-D0002,Icam1,Wounds and Injuries,supported,Association,,PubTator3 prediction (score 0.98)
+PMID24442316,TP,,vascular cell adhesion molecule-1 (22329),liver injured (D008107),Association,Novel,G0007-D0002,Vcam1,Wounds and Injuries,supported,Association,,PubTator3 prediction (score 0.98)
+PMID24442316,FN,our pair: not_found,matrix metalloproteinase-2 and 9 (17395),liver injured (D008107),Association,Novel,,,,,,,
+PMID24442316,FN,our pair: not_found,matrix metalloproteinase-2 and 9 (17390),liver injured (D008107),Association,Novel,,,,,,,
+PMID24442316,FN,our pair: not_found,glutathione S-transferase (54486),liver injured (D008107),Association,Novel,,,,,,,
+PMID24442316,FN,gene not recorded by us,superoxide dismutase (20655),liver injured (D008107),Association,Novel,,,,,,,
+PMID25006961,FN,our pair: not_found,PKC-alpha (18750),polyuria (D011141),Association,Novel,,,,,,,
+PMID25006961,TP,,PKC-alpha (18750),nephrogenic diabetes insipidus (D018500),Positive_Correlation,Novel,G0004-D0002,Prkca,Diabetes Insipidus Nephrogenic,supported,Association,,PubTator3 prediction (score 1.00)
+PMID25006961,FP,gold has both concepts but no relation,,,,,G0003-D0002,Aqp2,Diabetes Insipidus Nephrogenic,supported,Association,,PubTator3 prediction (score 0.99)
+PMID25006961,FP,gold has both concepts but no relation,,,,,G0005-D0002,Slc14a2,Diabetes Insipidus Nephrogenic,supported,Association,,PubTator3 prediction (score 1.00)
+PMID25277705,FN,gene not recorded by us,stem cell growth factor beta (6320),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,CXCL12 (6387),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,CCL27 (10850),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,stem cell factor (4254),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,migration inhibitory factor (4282),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,retinoic acid-inducible gene-1 (23586),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,Leukemia inhibitory factor (3976),lung injury (D055370),Negative_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,Leukemia inhibitory factor (3976),infection (D007239),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,Leukemia inhibitory factor (3976),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,TIR-domain-containing adapter-inducing interferon-b (106759),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,mitochondrial antiviral-signaling protein (228607),respiratory syncytial viral infection (D018357),Positive_Correlation,No,,,,,,,
+PMID25277705,FN,gene not recorded by us,stem cell growth factor beta (6320),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,CXCL12 (6387),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,CCL27 (10850),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,stem cell factor (4254),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,migration inhibitory factor (4282),respiratory syncytial viral infection (D018357),Positive_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,retinoic acid-inducible gene-1 (23586),respiratory syncytial viral infection (D018357),Association,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,Leukemia inhibitory factor (16878),lung injury (D055370),Negative_Correlation,Novel,,,,,,,
+PMID25277705,FN,our pair: not_found,Leukemia inhibitory factor (16878),respiratory syncytial viral infection (D018357),Association,Novel,,,,,,,
+PMID25874935,FN,our pair: not_found,Neuroserpin (5274),cerebral ischemic (D002545),Negative_Correlation,No,,,,,,,
+PMID25874935,FN,our pair: not_found,neuroserpin (116459),cerebral ischemic (D002545),Negative_Correlation,No,,,,,,,
+PMID25874935,FN,our pair: not_found,neuroserpin (116459),ischemic (D007511),Negative_Correlation,Novel,,,,,,,
+PMID25874935,FP,disease not a gold disease concept,,,,,G0005-D0001,Mapk1,Ring Chromosome 20 Syndrome,supported,Positive_Correlation,,PubTator3 prediction (score 1.00)
+PMID25874935,FP,disease not a gold disease concept,,,,,G0007-D0001,Akt1,Ring Chromosome 20 Syndrome,supported,Positive_Correlation,,PubTator3 prediction (score 1.00)
+PMID25874935,FP,disease not a gold disease concept,,,,,G0010-D0001,Syt1,Ring Chromosome 20 Syndrome,supported,Positive_Correlation,,PubTator3 prediction (score 1.00)
+PMID25874935,FP,disease not a gold disease concept,,,,,G0011-D0001,Mapk3,Ring Chromosome 20 Syndrome,supported,Positive_Correlation,,PubTator3 prediction (score 0.98)
+PMID26110643,TP,,lgl2 (795670),tumor (D009369),Negative_Correlation,No,G0015-D0001,llgl2,Neoplasms,supported,Negative_Correlation,,PubTator3 prediction (score 1.00)
+PMID26110643,FN,our pair: not_found,grip1 (558006),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,fras1 (563428),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,megf6a (565108),Skin disorders (D012871),Association,Novel,,,,,,,
+PMID26110643,FN,our pair: not_found,fkbp10b (324381),Skin disorders (D012871),Association,Novel,,,,,,,
+PMID26110643,FN,our pair: not_found,arhgef25b (569561),Skin disorders (D012871),Association,Novel,,,,,,,
+PMID26110643,FN,our pair: not_found,capn12 (799247),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,ahnak (559276),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,col4a4 (554270),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,msxc (30526),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,hmcn1 (559150),Skin disorders (D012871),Association,No,,,,,,,
+PMID26110643,FN,our pair: not_found,Neuregulin 2a (100006951),Skin disorders (D012871),Association,No,,,,,,,
+PMID26615423,TP,,centrosomal protein 55 (55165),epithelial ovarian carcinoma (D000077216),Association,Novel,G0010-D0001,CEP55,Carcinoma Ovarian Epithelial,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26615423,TP,,centrosomal protein 55 (55165),intraperitoneal metastasis (D009362),Positive_Correlation,Novel,G0010-D0004,CEP55,Neoplasm Metastasis,supported,Association,,PubTator3 prediction (score 0.99)
+PMID26615423,TP,,centrosomal protein 55 (55165),lymph node metastasis (D008207),Positive_Correlation,Novel,G0010-D0003,CEP55,Lymphatic Metastasis,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26615423,TP,,centrosomal protein 55 (55165),tumor (D009369),Positive_Correlation,No,G0010-D0005,CEP55,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26615423,TP,,centrosomal protein 55 (55165),metastasis of ovarian (D010051),Positive_Correlation,Novel,G0010-D0004,CEP55,Neoplasm Metastasis,supported,Association,,PubTator3 prediction (score 0.99)
+PMID26615423,FP,gold has both concepts but no relation,,,,,G0010-D0002,CEP55,Ascites,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26847345,TP,,Transgelin (6876),cancer (D009369),Association,Novel,G0010-D0002,TAGLN,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26847345,TP,,Transgelin (6876),lung metastases (D008175),Association,Novel,G0010-D0001,TAGLN,Neoplasm Metastasis,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26847345,TP,,Transgelin (6876),colorectal cancer (D015179),Association,Novel,G0010-D0002,TAGLN,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26900322,TP,,CFI (3426),uveitis (D014605),Association,No,G0004-D0002,CFI,Uveitis,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26900322,TP,,CFI (3426),cataract (D002386),Association,Novel,G0004-D0001,CFI,Cataract,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26900322,TP,,CFI (3426),Vogt-Koyanagi-Harada syndrome (D014607),Association,Novel,G0004-D0003,CFI,Uveomeningoencephalitic Syndrome,supported,Association,,PubTator3 prediction (score 1.00)
+PMID26937641,FN,gene not recorded by us,CCl4 (6351),liver injury and fibrogenesis (D008107),Association,Novel,,,,,,,
+PMID26937641,TP,,Serum Amyloid A (20210),liver injury and fibrogenesis (D008107),Association,Novel,G0014-D0003,SAA3P,Chemical and Drug Induced Liver Injury,supported,Positive_Correlation,,PubTator3 prediction (score 1.00)
+PMID26937641,TP,,Serum Amyloid A (20208),liver injury and fibrogenesis (D008107),Association,Novel,G0013-D0003,SAA1,Chemical and Drug Induced Liver Injury,supported,Positive_Correlation,,PubTator3 prediction (score 1.00)
+PMID26937641,FP,disease not a gold disease concept,,,,,G0012-D0001,SAA@,Inflammation,supported,Positive_Correlation,,PubTator3 prediction (score 0.98)
+PMID27384305,FN,gene not recorded by us,11b-HSD1 (15483),hepatic inflammation (D008107),Association,Novel,,,,,,,
+PMID27384305,FN,gene not recorded by us,11b-HSD1 (15483),Nonalcoholic Fatty Liver Disease (D065626),Positive_Correlation,Novel,,,,,,,
+PMID27959387,TP,,HLA (3123),malignancy (D009369),Association,No,G0004-D0002,HLA-A,Neoplasms,supported,Association,,PubTator3 prediction (score 0.99)
+PMID27959387,FN,gene not recorded by us,interferon (282617),malignancy (D009369),Association,No,,,,,,,
+PMID27959387,TP,,PGR (5241),malignancy (D009369),Association,No,G0009-D0002,PGR,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,TP63 (8626),malignancy (D009369),Association,No,G0014-D0002,TP63,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,ITGB6 (3694),malignancy (D009369),Association,No,G0005-D0002,ITGB6,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,KRT15 (3866),malignancy (D009369),Association,No,G0006-D0002,KRT15,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,GDF15 (9518),malignancy (D009369),Association,No,G0015-D0002,GDF15,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,SAMD9 (54809),malignancy (D009369),Association,No,G0011-D0002,SAMD9,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,SERPINA3 (12),malignancy (D009369),Association,No,G0003-D0002,SERPINA3,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,STEAP4 (79689),malignancy (D009369),Association,No,G0012-D0002,STEAP4,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID27959387,TP,,Ceacam6 (4680),malignancy (D009369),Association,No,G0008-D0002,CEACAM6,Neoplasms,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28068934,TP,,PIK3CA (5290),esophageal squamous cell carcinoma (D000077277),Association,No,G0002-D0001,PIK3CA,Esophageal Squamous Cell Carcinoma,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28684635,FN,disease not recorded by us,ADCY5 (111),impaired insulin secretion (D003920),Association,Novel,,,,,,,
+PMID28684635,TP,,ADCY5 (111),Type 2 Diabetes (D003924),Negative_Correlation,Novel,G0002-D0001,ADCY5,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28684635,FP,gold has both concepts but no relation,,,,,G0004-D0001,INS,Diabetes Mellitus Type 2,supported,Association,,PubTator3 prediction (score 0.91)
+PMID28846666,TP,,NF-kappaB (4790),Gestational Diabetes Mellitus (D016640),Association,Novel,G0020-D0004,NFKB1,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,FN,our pair: not_found,IL-10 (3586),disordered lipid and glucose metabolisms (D052439),Association,Novel,,,,,,,
+PMID28846666,FN,our pair: not_found,IL-10 (3586),disordered lipid and glucose metabolisms (D044882),Association,Novel,,,,,,,
+PMID28846666,TP,,IL-10 (3586),Gestational Diabetes Mellitus (D016640),Association,Novel,G0016-D0004,IL10,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,FN,our pair: not_found,IL-8 (3576),disordered lipid and glucose metabolisms (D052439),Association,Novel,,,,,,,
+PMID28846666,FN,our pair: not_found,IL-8 (3576),disordered lipid and glucose metabolisms (D044882),Association,Novel,,,,,,,
+PMID28846666,TP,,IL-8 (3576),Gestational Diabetes Mellitus (D016640),Association,Novel,G0015-D0004,CXCL8,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,FN,our pair: not_found,Interleukin 6 (3569),disordered lipid and glucose metabolisms (D052439),Association,Novel,,,,,,,
+PMID28846666,FN,our pair: not_found,Interleukin 6 (3569),disordered lipid and glucose metabolisms (D044882),Association,Novel,,,,,,,
+PMID28846666,TP,,Interleukin 6 (3569),Gestational Diabetes Mellitus (D016640),Association,Novel,G0014-D0004,IL6,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,FN,our pair: not_found,CRP (1401),disordered lipid and glucose metabolisms (D052439),Association,Novel,,,,,,,
+PMID28846666,FN,our pair: not_found,CRP (1401),disordered lipid and glucose metabolisms (D044882),Association,Novel,,,,,,,
+PMID28846666,TP,,CRP (1401),Gestational Diabetes Mellitus (D016640),Association,Novel,G0008-D0004,CRP,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,IL-1b (3553),Inflammation (D007249),Association,Novel,G0013-D0001,IL1B,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,NF-kappaB (4790),Inflammation (D007249),Association,Novel,G0020-D0001,NFKB1,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,IL-10 (3586),Inflammation (D007249),Association,Novel,G0016-D0001,IL10,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,IL-8 (3576),Inflammation (D007249),Association,Novel,G0015-D0001,CXCL8,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,Interleukin 6 (3569),Inflammation (D007249),Association,Novel,G0014-D0001,IL6,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,CRP (1401),Inflammation (D007249),Association,Novel,G0008-D0001,CRP,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,Tumor Necrosis Factor alpha (7124),Inflammation (D007249),Association,Novel,G0024-D0001,TNF,Inflammation,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,Tumor Necrosis Factor alpha (7124),disordered lipid and glucose metabolisms (D052439),Association,Novel,G0024-D0003,TNF,Pneumonia Lipid,supported,Association,,PubTator3 prediction (score 0.85)
+PMID28846666,TP,,Tumor Necrosis Factor alpha (7124),disordered lipid and glucose metabolisms (D044882),Association,Novel,G0024-D0003,TNF,Pneumonia Lipid,supported,Association,,PubTator3 prediction (score 0.85)
+PMID28846666,TP,,Tumor Necrosis Factor alpha (7124),Gestational Diabetes Mellitus (D016640),Association,Novel,G0024-D0004,TNF,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,chemerin (5919),Gestational Diabetes Mellitus (D016640),Association,Novel,G0022-D0004,RARRES2,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,RBP-4 (5950),Gestational Diabetes Mellitus (D016640),Association,Novel,G0023-D0004,RBP4,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,visfatin (10135),Gestational Diabetes Mellitus (D016640),Association,Novel,G0006-D0004,NAMPT,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,adipokines (9370),Gestational Diabetes Mellitus (D016640),Association,Novel,G0026-D0004,ADIPOQ,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,adipokines (3952),Gestational Diabetes Mellitus (D016640),Association,Novel,G0018-D0004,LEP,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,IRS-2 (8660),Gestational Diabetes Mellitus (D016640),Association,Novel,G0025-D0004,IRS2,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,IRS-1 (3667),Gestational Diabetes Mellitus (D016640),Association,Novel,G0017-D0004,IRS1,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,IL-1b (3553),Gestational Diabetes Mellitus (D016640),Association,Novel,G0013-D0004,IL1B,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,FABP-5 (2171),Gestational Diabetes Mellitus (D016640),Association,Novel,G0012-D0004,FABP5,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,FABP-4 (2167),Gestational Diabetes Mellitus (D016640),Association,Novel,G0009-D0004,FABP4,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,FABP-3 (2170),Gestational Diabetes Mellitus (D016640),Association,Novel,G0011-D0004,FABP3,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,FABP-1 (2168),Gestational Diabetes Mellitus (D016640),Association,Novel,G0010-D0004,FABP1,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,LPL (4023),Gestational Diabetes Mellitus (D016640),Association,Novel,G0019-D0004,LPL,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 0.97)
+PMID28846666,FN,gene not recorded by us,EL (9388),Gestational Diabetes Mellitus (D016640),Association,Novel,,,,,,,
+PMID28846666,TP,,FATP-4 (10999),Gestational Diabetes Mellitus (D016640),Association,Novel,G0007-D0004,SLC27A4,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,TP,,nesfatin-1 (4925),Gestational Diabetes Mellitus (D016640),Association,Novel,G0021-D0004,NUCB2,Diabetes Gestational,supported,Association,,PubTator3 prediction (score 1.00)
+PMID28846666,FP,gold has both concepts but no relation,,,,,G0012-D0003,FABP5,Pneumonia Lipid,supported,Association,,PubTator3 prediction (score 0.95)

@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text|
+E|G1|gene|TBX1|TBX1|r||human||
+E|D1|disease|22q11.2 deletion syndrome|Deletion 22q11.2 syndrome;22q11.2 deletion syndrome|r||||
+E|D2|disease|DiGeorge syndrome|DiGeorge|r|||D1|
+E|D3|disease|Shprintzen syndrome|Shprintzen syndrome;Shprintzen (velocardiofacial) syndromes|r|||D1|
+X|22q11.2 deletions|b0001|genomic deletion (variant), not a disease name
+X|H194Q|b0002|variant ID
+EV|V1|b0002.s2|bg|bgr|hyp|ho
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s4+b0001.s1|ts|res|aff|rr,eda
+EV|V4|b0002.s5+b0001.s1|ts|int|aff|rr
+P|G1|D3|sup|a|ts|sup:a:ts:V3|||Novel H194Q mutation in familial Shprintzen case
+P|G1|D1|unc|-|unk|unc:-:bg:V1+V2;unc:-:ts:V4|hedged_claim,scope||Thought-to-cause; links to features or phenotype, not syndrome
+F|F1|mechanism|TBX1 missense mutations; protein function|H194Q and two prior missense mutations|unknown|positive|not_reported|V3|gain of function; dimer stabilization hedged
+R|phenotype equivalence|b0002.s5|Phenotype same as syndrome is not clearly a disease relation|Set D1 pair to uncertain with scope

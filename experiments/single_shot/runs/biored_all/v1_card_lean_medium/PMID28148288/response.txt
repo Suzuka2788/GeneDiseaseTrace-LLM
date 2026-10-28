@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ADAM12|ADAM12|r||human||
+E|G2|gene|EGFR|Epidermal Growth Factor Receptor;EGFR|r||human||
+E|G3|gene|EGF|EGF|r||human||
+E|G4|gene|CD44|CD44|r||human||
+E|G5|gene|CD24|CD24|r||human||
+E|G6|gene|ALDH|ALDH|p|ambiguous_mapping|human||
+E|D1|disease|breast cancer|breast cancer;breast cancers|r||||
+E|D2|disease|claudin-low breast cancer|claudin-low breast cancer;claudin-low breast tumors|r|||D1|
+E|D3|disease|estrogen receptor-negative tumors|estrogen receptor-negative tumors|p|other|||
+E|S1|phenotype|chemoresistance|chemoresistance|r||||
+E|S2|phenotype|CSC phenotype|CSC phenotype|r||||
+E|S3|phenotype|tumorigenesis|tumorigenesis|r||||
+X|SUM159PT|b0002|cell line identifier, not gene
+X|Hs578T|b0002|cell line identifier, not gene
+X|ALDEFLUOR|b0002|assay name, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s7+b0002.s8+b0002.s9|ts|res|aff|rr,mi
+EV|V4|b0002.s13|ts|int|aff|rr
+EV|V5|b0002.s10+b0002.s11+b0002.s12|ts|res|aff|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||ADAM12 upregulated in human breast cancers
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||ADAM12 predicts chemoresistance in ER-negative tumors
+P|G1|D2|unc|-|ts|unc:-:ts:V3+V4|scope|V2|Cell and xenograft CSC phenotypes, not disease
+P|G2|D2|nf|-||||scope|V5|EGFR pathway in cells only
+F|F1|group_comparison|ADAM12 level vs CSC markers, mammospheres|sorted SUM159PT cells|unknown|positive|not_reported|V3|abstract only
+F|F2|mechanism|ADAM12 knockdown vs migration, invasion, tumorigenesis|SUM159PT, Hs578T cells; mice|unknown|positive|not_reported|V3|abstract only
+F|F3|association|ADAM12- and EGFR-regulated gene overlap|claudin-low cell lines|significant|positive|not_reported|V5|
+F|F4|mechanism|ADAM12 knockdown vs EGFR activation|claudin-low cell lines|unknown|positive|not_reported|V5|batimastat abolished effect

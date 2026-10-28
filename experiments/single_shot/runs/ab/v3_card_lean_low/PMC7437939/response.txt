@@ -1,0 +1,58 @@
+META|Opus 5.5|seen: no
+SCOPE|Full case-report text; supplementary tables and figures unread
+E|G1|gene|NTRK1|NTRK1;TRKA;neurotrophic tyrosine kinase receptor type 1 gene;neurotrophic receptor tyrosine kinase 1|r||human||
+E|G2|gene|NGF|NGF;nerve growth factor|r||human||
+E|G3|gene|FAAH|FAAH|r||human||
+E|G4|gene|SPTBN2|SPTBN2|r||human||
+E|G5|gene|GRM6|GRM6|r||human||
+E|G6|gene|BDNF|BDNF|r||human||
+E|G7|gene|TRPV1|TRPV1|r||human||
+E|G8|gene|CNR1|CNR1|r||human||
+E|G9|gene|OPRD1|OPRD1;DPRD1|p|suspected_typo|human||
+E|G10|gene|OPRK1|OPRK1|r||human||
+E|G11|gene|OPRM1|OPRM1|r||human||
+E|G12|gene|CNR2|CNR2|r||human||
+E|G13|gene|BDKRB2|BDKRB2|r||human||
+E|G14|gene|BDKRB1|BDKRB1|r||human||
+E|G15|gene|CX3CR1|CX3CR1|r||human||
+E|G16|gene|KCNQ3|KCNQ3|r||human||
+E|G17|gene|KCNQ2|KCNQ2|r||human||
+E|G18|gene|SCN1A|SCN1A|r||human||
+E|G19|gene|SCN11A|SCN11A|r||human||
+E|G20|gene|SCN10A|SCN10A|r||human||
+E|G21|gene|SCN8A|SCN8A|r||human||
+E|G22|gene|SCN9A|SCN9A|r||human||
+E|D1|disease|congenital insensitivity to pain with anhidrosis|Congenital insensitivity to pain with anhidrosis;congenital insensitivity to pain with anhidrosis;CIPA;hereditary sensory and autonomic neuropathy Type IV;HSAN-IV|r|||||
+E|D2|disease|Riga-Fede disease|Riga-Fede disease|r|||||
+E|D3|disease|osteochondroma|osteochondroma|r|||||
+E|D4|disease|osteomyelitis|osteomyelitis|r|||||
+E|D5|disease|pneumonia|pneumonia|r|||||
+E|D6|disease|humoral immunodeficiency|humoral immunodeficiency|r|||||
+E|D7|disease|palmoplantar keratoderma|palmoplantar keratoderma|r|||||
+E|D8|disease|early onset renal disease|early onset renal disease|r|||||
+E|D9|disease|Charcot's joint|Charcot's joint|r|||||
+E|D10|disease|corneal ulcers|corneal ulcers|r|||||
+E|S1|phenotype|intellectual disability|intellectual disability|r|||||
+E|S2|symptom|anhidrosis|anhidrosis|r|||||
+E|S3|phenotype|bone fractures|bone fractures|r|||||
+E|S4|phenotype|heterotopic ossification|heterotopic ossification|r|||||
+X|S100 protein|b0016|immunohistochemical marker, not analysed as gene
+X|rs763758904|b0005|variant ID
+X|rs80356677|b0005|variant ID
+X|rs324420|b0005|variant ID
+EV|V1|b0003.s2+b0011.s4+b0011.s8|bg|bgr|aff|ebr
+EV|V2|b0012.s4+b0033.s8|bg|bgr|aff|ebr
+EV|V3|b0005.s3+b0025.s3+b0033.s6|ts|res|aff|rr,eda
+EV|V4|b0005.s4+b0034.s2+b0035.s1|ts|int|hyp|do,ho
+EV|V5|b0005.s6+b0028.s3+b0038.s1|ts|int|hyp|ho
+EV|V6|b0011.s13|bg|hyp|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V2;sup:a:ts:V3;unc:-:bg:V6|||Background causal; patient genetic diagnosis
+P|G3|D1|unc|-|ts|unc:-:ts:V4|hedged_claim||Variant detected; possible phenotypic heterogeneity link
+P|G4|D1|unc|-|ts|unc:-:ts:V5|hedged_claim||PPI only; proposed relevance to pathogenesis
+P|G5|D1|unc|-|ts|unc:-:ts:V5|hedged_claim||PPI only; proposed relevance to pathogenesis
+F|F1|descriptive|NTRK1 rs763758904, rs80356677 genotypes|CIPA patient and parents|not_applicable|not_applicable|partial|V3|single trio
+F|F2|descriptive|69 P/LP variants in 46 genes|CIPA patient|not_applicable|not_applicable|unread|V4|Table S3 unread
+F|F3|mechanism|PPI NTRK1, GRM6, SPTBN2 with pain matrix|String network|significant|positive|partial|V5|predicted interactions
+F|F4|other|GO enrichment of 28 mutated genes|46 genes with variants|significant|not_applicable|partial|V4|
+C|C1|zygosity of two NTRK1 variants|b0005.s3+b0020.s4+b0033.s7+b0033.s10|noncritical|unresolved|both homozygous; "second mutation" phrasing unclear
+U|Tables S1-S6, Figures S1-S3|b0020.s2;b0025.s1;b0026.s6;b0028.s2|supplementary files not provided

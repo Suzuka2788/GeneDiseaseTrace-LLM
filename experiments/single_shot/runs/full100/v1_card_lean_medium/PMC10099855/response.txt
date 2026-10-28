@@ -1,0 +1,52 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables, captions; supplements unread
+E|G1|gene|PYGM|PYGM;myophosphorylase;Myophosphorylase|r||human||
+E|G2|gene|Pygm|Pygm|r||non-human||
+E|G3|gene|HADH|HADH;3-Hydroxyacyl-CoA dehydrogenase;3-hydroxyacyl-CoA dehydrogenase|r||non-human||
+E|G4|gene|ATGL|ATGL;Adipose triglyceride lipase;adipose triglyceride lipase|r||non-human||
+E|G5|gene|HSL|HSL;hormone-sensitive lipase|r||non-human||
+E|G6|gene|CD36|CD36;cluster of differentiation 36|r||non-human||
+E|G7|gene|Plin5|Plin5;Plin 5;Perilipin 5;perilipin 5|r||non-human||
+E|G8|gene|PGC-1α|PGC-1α;peroxisome proliferator-activated receptor gamma coactivator 1 alpha|r||||
+E|G9|gene|malonyl-CoA decarboxylase|malonyl-CoA decarboxylase|r||||
+E|G10|ambiguous_gene|acetyl-CoA carboxylase|acetyl-CoA carboxylase|u|ambiguous_mapping|||
+E|D1|disease|McArdle disease|McArdle disease;glycogenosis type V;McArcdle|p|suspected_typo|||
+E|D2|disease|metabolic myopathies|metabolic myopathies|r|||||
+E|D3|disease|cardiorespiratory disease|cardiorespiratory disease|r|||||
+E|S1|symptom|exercise intolerance|exercise intolerance|r|||||
+E|S2|symptom|myoglobinuria|myoglobinuria|r|||||
+E|S3|symptom|hyperpnoea|hyperpnoea|r|||||
+X|AMPK|b0028.s7|protein complex, not single-gene endpoint
+X|pAMPKThr172|b0040.s1|phospho-form of complex AMPK
+X|monocarboxylate transporters|b0009.s4|gene family, not single gene
+X|myoadenylate deaminase-xanthine oxidase pathway|b0009.s4|pathway
+X|p.R50*|b0009.s3|variant identifier
+EV|V1|b0008.s1|bg|bgr|aff|ebr
+EV|V2|b0016.s2+b0016.s3|ts|res|aff|rr,eda
+EV|V3|b0048.s1+b0046.s2|ts|res|aff|eda
+EV|V4|b0009.s3+b0003.s4|bg|bgr|aff|ebr,mi
+EV|V5|b0026.s3|ts|co|na|do
+EV|V6|b0016.s5|ts|co|aff|unc
+EV|V7|b0088.s1+b0089.s3|ts|res|aff|cmp
+EV|V8|b0088.s1+b0089.s4|ts|neg|neg|cmp
+EV|V9|b0090.s1+b0091.s3|ts|neg|neg|cmp
+EV|V10|b0090.s1+b0090.s2|ts|res|aff|cmp
+EV|V11|b0085.s1+b0085.s2|ts|res|na|cmp
+EV|V12|b0046.s4|bg|bgr|aff|ebr
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2+V3||V12|PYGM mutations cause McArdle; genetic diagnosis
+P|G2|D1|sup|c|bg|sup:c:bg:V4||V5|Pygm knockin mouse model of McArdle disease
+P|G1|D2|unc|-|ts|unc:-:ts:V6|scope||PYGM only in panel-level metabolic myopathy statement
+P|G3|D1|sup|a|ts|sup:a:ts:V7|||Lower HADH in McArdle vs WT mice
+P|G6|D1|neg|-|ts|neg:-:ts:V8|||No CD36 difference, mouse muscle
+P|G5|D1|neg|-|ts|neg:-:ts:V8+V9|||No HSL difference, mouse muscle and WAT
+P|G7|D1|neg|-|ts|neg:-:ts:V8+V9|||No Plin5 difference, mouse muscle and WAT
+P|G4|D1|neg|-|ts|neg:-:ts:V9|||No pATGL difference, mouse WAT
+F|F1|descriptive|PYGM genotypes|19 McArdle patients|not_applicable|not_applicable|not_applicable|V3|
+F|F2|group_comparison|muscle HADH level|McArdle vs WT male mice|significant|negative|available|V7|small sample
+F|F3|group_comparison|CD36, HSL, Plin5, pATGL levels|McArdle vs WT mice muscle/WAT|not_significant|null|available|V8+V9|small sample
+F|F4|group_comparison|WAT pAMPK Thr172|McArdle vs WT mice|significant|positive|available|V10|AMPK is complex
+F|F5|group_comparison|MFO rate and FATmax|McArdle patients vs controls|significant|positive|available|V11|9 patients after exclusions
+C|C1|pHSL serine site label|b0089.s3+b0090.s1+b0091.s2|noncritical|resolved|Ser656 typo for Ser565
+U|Statistical Summary Document|b0108.s1|supplement not provided
+U|Peer Review History|b0110.s1|supplement not provided
+R|statistics direction|b0088.s1|Protein level compared by disease-model group, not gene status vs outcome|Treated as association/negative, non-human, this study

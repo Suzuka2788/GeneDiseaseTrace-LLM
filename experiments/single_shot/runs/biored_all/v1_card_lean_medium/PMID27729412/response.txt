@@ -1,0 +1,17 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|adiponectin|adiponectin;Adiponectin|p|species_unresolved|||
+E|G2|gene|ALDH1A1|ALDH1A1;aldehyde dehydrogenase A1|p|species_unresolved|||
+E|G4|gene|RARg|RARg|p|species_unresolved|||
+E|D1|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|S1|phenotype|adiposity|adiposity|r||||
+X|retinoic acid receptor|b0002|gene family, not a single-gene endpoint
+X|retinoid X receptor|b0002|gene family, not a single-gene endpoint
+X|RAR|b0002|gene family abbreviation, not a single-gene endpoint
+EV|V1|b0002.s2|bg|co|na|do
+EV|V2|b0002.s5+b0002.s8|ts|res|na|rr
+P|G1|D1|nf|-|||||V1|CVD and reduced adiponectin are separate diet outcomes
+F|F1|group_comparison|adiponectin, ALDH1A1 expression vs high-fat diet|mouse WAT|unknown|mixed|not_reported|V2|no disease outcome
+F|F2|mechanism|RAR/RXR agonists vs adiponectin, ALDH1A1|adipocyte cell culture|unknown|mixed|not_reported|V2|cell-level, no disease
+R|species|b0002|Abstract mixes general adiponectin background with mouse data; species not stated.|Used one provisional node per gene with species_unresolved; no human pairs.
+R|surface form|b0002.s7|RARa written only as "(RAR)a-"; no verbatim whole-word surface form available.|Omitted RARa entity; it has no disease pair, so no status lost.

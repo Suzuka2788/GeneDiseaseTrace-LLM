@@ -1,0 +1,56 @@
+META|claude-opus-5-5|seen: no
+SCOPE|full text read; supplementary tables/figures unread
+E|g1|gene|SNCA|SNCA;α-syn;alpha-synuclein;α-synuclein;miR-SNCA|r||human|
+E|g2|gene|Snca|α-syn;murine specific α-syn;mouse α-syn|r||non-human|
+E|g3|gene|SQSTM1|p62/SQSTM1;p62/SQTM;p62|r||non-human|
+E|g4|gene|TH|TH;tyrosine hydroxylase|r||non-human|
+E|g5|gene|GFAP|GFAP;glial fibrillary acidic protein|r||non-human|
+E|g6|gene|Iba-1|Iba-1;ionized calcium-binding adapter molecule 1|r||non-human|
+E|g7|gene|DAT|DAT;dopamine transporter|r||non-human|
+E|g8|gene|PRNP|mouse prion protein promoter;mouse prion promoter|p|species_unresolved|non-human|
+E|d1|disease|Parkinson's disease|Parkinson's disease|r|||
+E|d2|disease|dementia with Lewy bodies|dementia with Lewy bodies|r|||
+E|d3|disease|multiple system atrophy|multiple system atrophy;MSA|r|||
+E|d4|disease|synucleinopathy|synucleinopathy;synucleinopathies;Synucleinopathies|r|||
+E|d5|disease|familial Parkinson's disease|familial Parkinson's disease|r|||d1
+E|d6|disease|Alzheimer's disease|Alzheimer's disease|r|||
+E|p1|phenotype|motor deficits|motor deficits|r|||
+E|p2|phenotype|Lewy pathology|Lewy pathology|r|||
+X|eGFP|b0014|reporter transgene, not disease/gene endpoint target
+X|AAV1|b0006|viral vector, not gene
+X|TgM83|b0010|transgenic mouse line label
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0005.s1+b0005.s2|bg|bgr|aff|ebr
+EV|V3|b0075.s3|bg|bgr|aff|ebr
+EV|V4|b0002.s3+b0002.s4|ts|res|aff|mi,rr
+EV|V5|b0056.s3+b0056.s4+b0058.s6|ts|res|aff|rr
+EV|V6|b0068.s4+b0068.s6|ts|res|aff|mi,rr
+EV|V7|b0006.s1|bg|bgr|aff|ebr
+EV|V8|b0075.s1|bg|bgr|aff|ebr
+EV|V9|b0010.s1+b0043.s1|ts|co|na|do
+EV|V10|b0061.s5|ts|neg|neg|cmp
+EV|V11|b0063.s5|ts|neg|neg|cmp
+EV|V12|b0063.s4+b0071.s3|ts|res|aff|cmp
+EV|V13|b0058.s3+b0069.s1|ts|res|aff|cmp
+EV|V14|b0071.s1|bg|bgr|aff|ebr
+EV|V15|b0072.s1|ts|int|aff|rr
+P|g1|d1|sup|c|both|sup:c:bg:V3;sup:a:bg:V1+V7;sup:a:ts:V15|||SNCA multiplications cause familial PD; A53T mutant model
+P|g1|d5|sup|c|bg|sup:c:bg:V3|||SNCA multiplications cause familial PD
+P|g1|d2|sup|a|bg|sup:a:bg:V1+V2|||aggregated α-syn accumulation in DLB
+P|g1|d3|sup|a|bg|sup:a:bg:V1+V2|||α-syn accumulation in MSA glia
+P|g1|d4|sup|c|both|sup:a:bg:V2+V7;sup:c:ts:V4+V5+V6|||knockdown prevents spreading synucleinopathy in mice
+P|g2|d4|sup|c|ts|sup:c:ts:V4+V5|||murine α-syn also knocked down, pathology reduced
+P|g8|d4|unc|-|ts||scope|V9|promoter drives transgene; no disease attribution
+P|g4|d4|nf|-|||||TH only outcome marker of dopaminergic integrity
+P|g3|d4|nf|-|||||p62 colocalization marker, no gene-disease link
+EV|V16|b0045.s2+b0045.s3+b0045.s4|ts|res|aff|cmp
+F|F1|group_comparison|miR-SNCA vs eGFP; α-syn levels|TgM83+/- mice brain regions|mixed|negative|available|V16|distal regions unchanged
+F|F2|group_comparison|miR-SNCA vs eGFP; motor performance|MSAmo-inoculated mice|significant|positive|available|V4+V6|
+F|F3|group_comparison|miR-SNCA vs eGFP; p-syn inclusions|MSAmo-inoculated mice|significant|negative|partial|V5|supplementary table unread
+F|F4|group_comparison|α-syn knockdown; TH/DAT markers|SN and striatum, mice|not_significant|null|available|V10|
+F|F5|group_comparison|α-syn knockdown; GFAP astrocyte density|mouse brain regions|not_significant|null|not_reported|V11|
+F|F6|group_comparison|miR-SNCA; Iba-1 microglial density|thalamus and midbrain|significant|negative|available|V12|
+F|F7|descriptive|miR-SNCA; p62/p-syn co-localization|treated vs control mice|unknown|negative|not_reported|V13|qualitative only
+F|F8|group_comparison|miR-SNCA; striatal total α-syn|MSAmo-inoculated mice|not_significant|negative|available|V10|trend -24%, P=0.09
+U|Supplementary Table 1|b0056.s4|not provided
+U|Supplementary Fig. S1, Fig. 2|b0043.s1|not provided

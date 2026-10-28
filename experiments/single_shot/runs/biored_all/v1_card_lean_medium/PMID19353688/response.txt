@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PCDH9|PCDH9;protocadherin-9;PCHD9|p|suspected_typo|human||
+E|D1|disease|autosomal dominant auditory neuropathy|autosomal dominant auditory neuropathy;AUNA1|r||||
+E|D2|disease|deafness|deafness|r||||
+E|D3|disease|monosomy 13q21.2-q31.1|Pure monosomy;pure monosomy;monosomy 13q21.2-q31.3|p|other|||
+E|D4|disease|trisomy 13q21.2-q31.1|Pure trisomy;pure trisomy;pure partial trisomy|p|other|||
+E|D5|disease|contiguous gene deletion syndromes|contiguous gene deletion syndromes|r||||
+E|S1|phenotype|duodenal stenosis|duodenal stenosis|r||||
+E|S2|phenotype|developmental and growth delay|developmental and growth delay|r||||
+E|S3|phenotype|vertebral anomalies|vertebral anomalies|r||||
+E|S4|phenotype|facial dysmorphisms|facial dysmorphisms|r||||
+X|Insertional translocations|b0002|structural rearrangement, not a disease endpoint
+X|STR|b0002|marker type, not a gene
+EV|V1|b0002.s6|ts|aim|q|ho
+EV|V2|b0002.s7+b0002.s8|ts|neg|neg|rr
+EV|V3|b0001.s1|ts|neg|neg|rr
+EV|V4|b0002.s9|ts|hyp|hyp|ho
+EV|V5|b0002.s5|ts|co|na|do
+P|G1|D1|neg|-|ts|neg:-:ts:V2+V3|||No coding mutations; PCDH9 excluded for AUNA1 (tested causal)
+P|G1|D2|unc|-|ts|unc:-:ts:V4|hedged_claim|V1|Monosomy of PCDH9 may cause deafness; speculative
+P|G1|D3|nf|-||||V5|PCDH9 lies in the deleted region only
+F|F1|descriptive|PCDH9 coding sequence|AUNA1 family; monosomic patient|not_applicable|null|not_applicable|V2|abstract only
+F|F2|descriptive|AUNA1 breakpoint vs PCDH9 position|AUNA1 family|not_applicable|not_applicable|not_applicable|V2|abstract only
+C|C1|monosomy segment distal band|b0001.s1+b0002.s4+b0002.s9|noncritical|unresolved|q31.1 vs q31.3; same segment
+R|suspected typo|b0002.s9|PCHD9 is close to PCDH9, sharing the IT gene-region context.|Merged into PCDH9; marked provisional and suspected_typo.

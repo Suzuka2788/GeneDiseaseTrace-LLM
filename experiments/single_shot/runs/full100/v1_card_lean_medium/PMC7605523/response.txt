@@ -1,0 +1,89 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text with figure/table captions; table bodies and supplements unavailable
+E|G1|gene|SLC39A8|ZIP8;SLC39A8|r|||||
+E|G2|gene|Slc39a8 (mouse)|Zip8;Slc39a8;Zip|p|species_unresolved,suspected_typo|non-human||
+E|G3|gene|SLC30A10|ZNT10;SLC30A10|r||human||
+E|G4|gene|SLC39A14|ZIP14;SLC39A14|r||human||
+E|G5|gene|Prkca|Prkca;protein kinase C α|p|species_unresolved||||
+E|G6|gene|Il11 (mouse)|Il11|p|species_unresolved|non-human||
+E|G7|gene|IL-11|IL-11;IL11|r||human||
+E|G8|gene|IL13RA2|IL13RA2|r||human||
+E|G9|gene|Il6|Il6|p|species_unresolved|non-human||
+E|G10|gene|Gapdh|Gapdh|p|species_unresolved|non-human||
+E|G11|gene|Mdr1|Mdr1;MDR1|p|species_unresolved|non-human||
+E|G12|gene|E-cadherin|E-cadherin|p|species_unresolved|non-human||
+E|G13|gene|IL-17A|IL-17A|p|other|||
+E|G14|gene|MTF1|MTF1|p|other|||
+E|G15|gene|MGAT4|MGAT4;N-acetylglucosaminyltransferase IV|p|ambiguous_mapping|human||
+E|G16|ambiguous_gene|AGP|α-1-Acid glycoprotein;AGP|u|ambiguous_mapping|human||
+E|D1|disease|Crohn's disease|Crohn's disease|r|||||
+E|D2|disease|stricturing and penetrating Crohn's disease|stricturing and penetrating Crohn's disease|r|||D1|
+E|D3|disease|ileal Crohn's disease|ileal Crohn's disease|r|||D1|
+E|D4|disease|schizophrenia|schizophrenia|r|||||
+E|D5|disease|obesity|obesity|r|||||
+E|D6|disease|Parkinson's disease|Parkinson's disease|r|||||
+E|D7|disease|hypertension|hypertension|r|||||
+E|D8|disease|alcohol misuse disorders|alcohol misuse disorders|r|||||
+E|D9|disease|dyslipidemia|dyslipidemia|r|||||
+E|D10|disease|scoliosis|scoliosis|r|||||
+E|D11|disease|congenital disorders of glycosylation|congenital disorders of glycosylation|r|||||
+E|D12|disease|Mn deficiency|Mn deficiency|p|other||||
+E|D13|disease|Mn excess|Mn excess|p|other||||
+E|D14|disease|chemically induced colitis (DSS)|chemically induced colitis;DSS colitis;DSS-induced colitis;colitis|r|||||
+E|D15|disease|ulcerative colitis|ulcerative colitis|r|||||
+E|D16|disease|multiple sclerosis|multiple sclerosis|r|||||
+E|D17|disease|inflammatory bowel disease|inflammatory bowel disease;IBD|r|||||
+E|S1|symptom|rectal bleeding|rectal bleeding|r|||||
+E|S2|phenotype|intestinal inflammation|intestinal inflammation|r|||||
+X|rs13107325|b0002|variant identifier
+X|NF-κB|b0031|complex, not single gene
+X|β-1,4-galactosyltransferase|b0024|enzyme family, not single gene
+X|N-acetylglucosaminyltransferases|b0033|enzyme family
+X|tumor suppressor|b0020|gene function label, no specific disease
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0005.s3|bg|bgr|aff|ebr
+EV|V3|b0006.s3|bg|bgr|aff|ebr,eda
+EV|V4|b0010.s3|bg|bgr|aff|ebr
+EV|V5|b0018.s2|bg|bgr|aff|ebr
+EV|V6|b0022.s2+b0022.s3|ts|res|aff|rr,cmp
+EV|V7|b0020.s6|bg|bgr|aff|ebr
+EV|V8|b0031.s2|bg|bgr|aff|ebr
+EV|V9|b0002.s6+b0019.s4+b0019.s6+b0072.s4|ts|res|aff|rr,cmp,mi
+EV|V10|b0007.s3+b0028.s3|ts|int|q|unc
+EV|V11|b0020.s3|bg|bgr|aff|ebr
+EV|V12|b0020.s5|bg|bgr|aff|ebr
+P|G1|D1|sup|a|both|sup:a:bg:V1+V2+V5;sup:a:ts:V6||V10|GWAS background plus sex-stratified case-control
+P|G1|D2|sup|a|bg|sup:a:bg:V7|||Explicit cited subtype association
+P|G1|D3|sup|a|bg|sup:a:bg:V8|||Strongest subphenotype association, cited
+P|G1|D4|sup|a|bg|sup:a:bg:V1+V2|||Minor allele GWAS risk
+P|G1|D5|sup|a|bg|sup:a:bg:V1+V2|||Minor allele GWAS risk
+P|G1|D6|sup|a|bg|sup:a:bg:V2|||Major allele risk association
+P|G1|D7|sup|a|bg|sup:a:bg:V2|||Major allele risk association
+P|G1|D8|sup|a|bg|sup:a:bg:V2|||Major allele risk association
+P|G1|D9|sup|a|bg|sup:a:bg:V2|||Minor allele risk association
+P|G1|D10|sup|a|bg|sup:a:bg:V2|||Minor allele risk association
+P|G1|D11|sup|a|bg|sup:a:bg:V3|||Private loss-of-function mutation carriers
+P|G1|D12|sup|c|bg|sup:a:bg:V3;sup:c:bg:V4|||Loss of function leads to deficiency
+P|G2|D14|sup|c|ts|sup:c:ts:V9|||Knockin increases DSS colitis severity
+P|G2|D1|nf|-||||V10|Mouse result only mimics human association
+P|G3|D13|sup|c|bg|sup:c:bg:V4|||Loss of function causes Mn excess
+P|G4|D13|sup|c|bg|sup:c:bg:V4|||Loss of function causes Mn excess
+P|G5|D16|sup|a|bg|sup:a:bg:V11|||Reduced expression associated, cited
+P|G7|D1|sup|a|bg|sup:a:bg:V12|||Cited scRNA-Seq association
+P|G7|D15|sup|a|bg|sup:a:bg:V12|||Cited scRNA-Seq association
+P|G8|D1|unc|-|||scope|V12|Marker of fibroblast subset, not gene
+P|G8|D15|unc|-|||scope|V12|Marker of fibroblast subset, not gene
+F|F1|association|rs13107325 vs Crohn's disease by sex|CD case-control, 7927 male/7378 female|significant|positive|partial|V6|Supplemental Table 2 unread
+F|F2|group_comparison|Zip8 393T genotype vs tissue Mn|male and female KI mice|mixed|negative|available|V9|Brain, lung, heart unchanged
+F|F3|group_comparison|Zip8 393T genotype vs DSS weight loss|male KI vs WT mice|significant|positive|available|V9|
+F|F4|group_comparison|Zip8 393T genotype vs rectal bleeding|male KI vs WT mice|not_significant|positive|partial|V9|
+F|F5|association|ZIP8 391-Thr vs plasma triantennary glycans|population GWAS cohorts|significant|negative|unread|V6|Table 1 body unavailable
+F|F6|association|ZIP8 391-Thr vs IgG N-glycome|population cohort n=8080|not_significant|null|unread||Supplemental Table 3 unread
+F|F7|group_comparison|ZIP8 391-Thr carriers vs plasma glycans|Crohn's disease patients n=313|significant|negative|unread||Table 2 body unavailable
+F|F8|descriptive|Prkca, Il11 expression by genotype|DSS-treated homozygous vs WT colon|unknown|mixed|unread||Exploratory, not multiplicity-adjusted
+F|F9|group_comparison|Slc39a8 mRNA by genotype|male mouse liver|not_significant|null|available||
+C|C1|Heading says mice, analysis is human|b0021.s1+b0022.s2|noncritical|resolved|Body confirms human case-control cohort
+U|Supplemental Table 2|b0022.s3|not provided
+U|Table 1 and Table 2|b0024.s7+b0026.s4|only captions provided
+U|Supplemental Tables 1, 3, 4|b0020.s2+b0024.s8|not provided
+R|model intervention|V9|Knockin modifies susceptibility to induced colitis rather than inducing disease|Treated as model-intervention causal, non-human

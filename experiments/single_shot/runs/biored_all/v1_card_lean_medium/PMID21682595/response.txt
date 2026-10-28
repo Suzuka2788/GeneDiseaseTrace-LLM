@@ -1,0 +1,19 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|XRCC1|XRCC1;X-ray repair cross-complementing|r||human||
+E|D1|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r||||
+E|S1|symptom|malar rash|malar rash|r||||
+E|S2|symptom|photosensitivity|photosensitivity|r||||
+X|rs25487|b0002|variant identifier, not gene
+EV|V1|b0002.s2+b0002.s4+b0002.s5+b0002.s6|ts|res|aff|rr,cmp
+EV|V2|b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s3|ts|res|na|rr,cmp
+EV|V4|b0002.s10|ts|int|hyp|ho
+EV|V5|b0002.s1|bg|bgr|na|do
+EV|V6|b0002.s7|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2||V3+V4+V5|Case-control and meta-analysis significant for Arg399Gln
+F|F1|association|Gln carrier vs Arg/Arg; SLE|Polish SLE 265 vs 360 controls|significant|positive|available|V1|
+F|F2|association|Gln/Gln vs other genotypes; SLE|Polish SLE 265 vs 360 controls|not_significant|positive|available|V3|recessive model only
+F|F3|association|Gln allele and trend; SLE|Polish SLE 265 vs 360 controls|significant|positive|available|V1|
+F|F4|association|Gln carrier vs Arg/Arg; malar rash/photosensitivity|Polish SLE patients|significant|positive|available|V6|symptoms, not primary disease
+F|F5|association|Gln carrier and allele; SLE|meta-analysis Taiwanese, Brazilian, Polish|significant|positive|available|V2|

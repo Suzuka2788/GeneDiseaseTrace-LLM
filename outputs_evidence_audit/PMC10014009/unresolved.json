@@ -1,0 +1,65 @@
+[
+  {
+    "id": "U01",
+    "subject": "ZPLD1—FCCM",
+    "state": "uncertain",
+    "reason": "proposed句未附结果细节，无法判断背景实证强度。",
+    "needed": "被引研究15结果细节；当前任务不调用外部知识。"
+  },
+  {
+    "id": "U02",
+    "subject": "MAP3K3—FCCM",
+    "state": "uncertain",
+    "reason": "could be a novel cause及these genes指代不清。",
+    "needed": "当前论文没有足够结果，不能用散发亚型补足。"
+  },
+  {
+    "id": "U03",
+    "subject": "KRIT1/CCM2/PDCD10—散发CCM",
+    "state": "uncertain",
+    "reason": "体细胞双打击与亚型对应为间接证据。",
+    "needed": "指定基因和散发亚型直接对应证据。"
+  },
+  {
+    "id": "U04",
+    "subject": "三基因—广义vascular malformation",
+    "state": "uncertain",
+    "reason": "宽泛类别、机制未知/likely；范围不足。",
+    "needed": "明确疾病范围与对应关系结果。"
+  },
+  {
+    "id": "U05",
+    "subject": "PLE",
+    "state": "unresolved_identity",
+    "reason": "全文及脚注没有展开；8个候选对保留uncertain。",
+    "needed": "作者提供缩写定义或完整病历上下文。"
+  },
+  {
+    "id": "U06",
+    "subject": "动物Krit1/Ccm2/Pdcd10",
+    "state": "unresolved_species",
+    "reason": "仅写animal model，具体物种未注明。",
+    "needed": "模型物种说明；现有边严格限动物背景。"
+  },
+  {
+    "id": "U07",
+    "subject": "首次CASH Cox分析",
+    "state": "unresolved_per_gene_contrasts",
+    "reason": "S3缺失，无法确认每基因参照组/HR/CI/p。",
+    "needed": "ACN3-10-373-s001.docx中的S3。"
+  },
+  {
+    "id": "U08",
+    "subject": "覆盖盲区",
+    "state": "missing_attachments",
+    "reason": "3张图片像素与补充DOCX未提供，无法核查其中共同遗漏。",
+    "needed": "原始JPG与补充DOCX。"
+  },
+  {
+    "id": "U09",
+    "subject": "KRTI1/CMM",
+    "state": "contextual_typo_normalization",
+    "reason": "上下文支持疑似排字错误合并，非数据库确认。",
+    "needed": "出版社勘误或作者确认方可彻底消除疑义。"
+  }
+]

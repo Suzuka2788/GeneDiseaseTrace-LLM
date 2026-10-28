@@ -1,0 +1,102 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, Tables 1-4, figure captions; supplement unread
+E|G1|gene|PUF60|PUF60|r||human||
+E|G2|gene|NAA15|NAA15|r||human||
+E|G3|gene|SMARCA4|SMARCA4|r||human||
+E|G4|gene|FGFR2|FGFR2|r||human||
+E|G5|gene|SETD5|SETD5|r||human||
+E|G6|gene|ASXL3|ASXL3|r||human||
+E|G7|gene|SLC13A5|SLC13A5|r||human||
+E|G8|gene|UTP14C|UTP14C|r||human||
+E|G9|gene|KLF16|KLF16|r||human||
+E|G10|gene|TAOK1|TAOK1|r||human||
+E|G11|gene|IRF2BPL|IRF2BPL|r||human||
+E|G12|gene|PARP1|PARP1|r||human||
+E|G13|gene|GJB4|GJB4|r||human||
+E|G14|gene|SCRIB|SCRIB|r||human||
+E|G15|gene|NAA10|NAA10|r||human||
+E|G16|gene|mNAT1|mNAT1|r||non-human||
+E|G17|gene|Nat1|Nat1|p|species_unresolved|non-human||
+E|G18|gene|mARD1|mARD1|p|species_unresolved|non-human||
+E|D1|disease|intellectual disability|Intellectual Disability;intellectual disability;Intellectual disability;ID|r||||
+E|D2|disease|Verheij syndrome|Verheij syndrome;Verheij Syndrome;8q24.3 microdeletion syndrome;8q24.3 deletion syndrome;8q23.3 deletion syndrome|p|suspected_typo||||
+E|D3|disease|neurodevelopmental disorder|neurodevelopmental disorders;neurodevelopmental disorder;NDD;neurodevelopment disorder|r||||
+E|D4|disease|epilepsy|epilepsy|r|||D3|
+E|D5|disease|autism spectrum disorder|autism spectrum disorder;Autism Spectrum Disorder;ASD|r|||D3|
+E|D6|disease|autism|autism|r||||
+E|D7|disease|Asperger syndrome|Asperger syndrome;Asperger|r||||
+E|D8|disease|Coffin-Siris syndrome 4|Coffin-Siris syndrome 4|r||||
+E|D9|disease|Apert syndrome|Apert syndrome|r||||
+E|D10|disease|Craniofacial-skeletal-dermatologic dysplasia|Craniofacial-skeletal-dermatologic dysplasia|r||||
+E|D11|disease|Jackson-Weiss syndrome|Jackson-Weiss syndrome|r||||
+E|D12|disease|Pfeiffer syndrome|Pfeiffer syndrome|r||||
+E|D13|disease|Scaphocephaly, maxillary retrusion, and mental retardation|Scaphocephaly, maxillary retrusion, and mental retardation|r||||
+E|D14|disease|Mental retardation, autosomal dominant 23|Mental retardation, autosomal dominant 23|r||||
+E|D15|disease|Bainbridge-Ropers syndrome|Bainbridge-Ropers syndrome|r||||
+E|D16|disease|early infantile epileptic encephalopathy|early infantile epileptic encephalopathy|r||||
+E|D17|disease|Ogden syndrome|Ogden syndrome|r|||D3|
+E|D18|disease|tetralogy of fallot|tetralogy of fallot;tetrology of fallot;Tetrology of Fallot|p|suspected_typo||||
+E|D19|ambiguous_disease|TOF|TOF|u|undefined_abbreviation||||
+E|D20|disease|ventricular septal defect|ventricular septal defect;VSD|r||||
+E|D21|disease|atrioventricular septal defect|atrioventricular septal defect;AVSD|r||||
+E|D22|disease|vesicoureteral reflux|vesicoureteral reflux;VUR|r||||
+E|D23|disease|Bronchopulmonary dysplasia|Bronchopulmonary dysplasia|r||||
+E|D24|disease|Pervasive Developmental Disorder NOS|NOS Pervasive Developmental Disorder|r||||
+E|D25|disease|congenital hip dysplasia|congenital hip dysplasia|r||||
+E|P1|phenotype|developmental delay|developmental delay|r||||
+X|NMDAR|b0084|receptor class, not single gene
+X|PUF|b0044|complex, not single gene
+X|NatA|b0084|complex, not single gene
+X|Deciphering Developmental Disorders|b0073|project name, not disease
+X|CADD|b0025|score/tool
+EV|V1|b0044.s1|ts|res|aff|rr,eda
+EV|V2|b0002.s6+b0085.s2|ts|res|aff|eda
+EV|V3|b0044.s4|bg|bgr|aff|ebr
+EV|V4|b0044.s12|ts|int|aff|eda
+EV|V5|b0016.s1+b0021.s1|both|res|aff|eda
+EV|V6|b0044.s8+b0049.s1|bg|bgr|aff|ebr
+EV|V7|b0026.s8|bg|bgr|aff|ebr
+EV|V8|b0073.s7+b0073.s8|bg|bgr|aff|ebr
+EV|V9|b0026.s5+b0073.s1+b0034.s1|bg|bgr|aff|ebr
+EV|V10|b0073.s2|bg|bgr|aff|ebr
+EV|V11|b0073.s9+b0079.s1|bg|bgr|aff|ebr
+EV|V12|b0002.s8+b0072.s2+b0085.s3|ts|int|hyp|ho
+EV|V13|b0084.s11|bg|bgr|aff|ebr
+EV|V14|b0084.s13|ts|int|na|do
+EV|V15|b0018.s1|bg|bgr|aff|ebr
+EV|V16|b0019.s1|bg|bgr|aff|ebr
+EV|V17|b0020.s1|bg|bgr|aff|ebr
+EV|V18|b0022.s1|bg|bgr|aff|ebr
+EV|V19|b0015.s1+b0015.s2+b0043.s1|ts|res|aff|rr,eda
+EV|V20|b0015.s4|bg|bgr|aff|ebr
+EV|V21|b0041.s8|ts|res|na|do
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V19;sup:a:bg:V6|||LoF attributed as cause of ID
+P|G1|D2|sup|c|both|sup:c:ts:V2+V4;sup:c:bg:V3;sup:a:both:V5|||major causative gene in deletion region
+P|G14|D2|sup|c|bg|sup:c:bg:V3|||functional studies: main contributor
+P|G2|D1|sup|a|bg|sup:a:bg:V7+V11;unc:-:ts:V12|hedged_claim||cited cohort variants; own claim candidate only
+P|G2|D3|sup|a|bg|sup:a:bg:V8+V9|||reported NDD risk gene, DNVs in NDD
+P|G2|D6|sup|a|bg|sup:a:bg:V10+V7|||DNVs in autism trio study
+P|G2|D5|sup|a|bg|sup:a:bg:V11|||ASD in cited NAA15 variant carriers
+P|G2|D17|nf|-||||V14|shared features only, no link
+P|G15|D17|sup|a|bg|sup:a:bg:V13|||NAA10 associated with Ogden syndrome
+P|G3|D1|sup|a|ts|sup:a:ts:V19|||pathogenic variant diagnosing ID patient
+P|G4|D1|sup|a|ts|sup:a:ts:V19|||pathogenic variant diagnosing ID patient
+P|G5|D1|sup|a|ts|sup:a:ts:V19|||pathogenic variant diagnosing ID patient
+P|G6|D1|sup|a|ts|sup:a:ts:V19|||pathogenic variant diagnosing ID patients
+P|G3|D8|sup|a|bg|sup:a:bg:V15|||OMIM associated disorder
+P|G4|D9|sup|a|bg|sup:a:bg:V16|||OMIM associated disorder
+P|G4|D10|sup|a|bg|sup:a:bg:V16|||OMIM associated disorder
+P|G4|D11|sup|a|bg|sup:a:bg:V16|||OMIM associated disorder
+P|G4|D12|sup|a|bg|sup:a:bg:V16|||OMIM associated disorder
+P|G4|D13|sup|a|bg|sup:a:bg:V16|||OMIM associated disorder
+P|G5|D14|sup|a|bg|sup:a:bg:V17|||OMIM associated disorder
+P|G6|D15|sup|a|bg|sup:a:bg:V18|||OMIM associated disorder
+P|G7|D1|sup|a|bg|sup:a:bg:V20|||stated known ID gene
+P|G7|D16|sup|a|bg|sup:a:bg:V20|||previous patients' main symptom EIEE
+F|F1|descriptive|NAA15 DNV counts cases vs controls|13 prior exome studies|unknown|positive|not_reported|V9|counts only, no test
+F|F2|descriptive|diagnostic yield pathogenic DNVs|28 ID patients|not_applicable|not_applicable|partial|V19|
+F|F3|correlation|missense z score vs pathogenicity|five pathogenic variant genes|unknown|unknown|not_reported|V21|small sample, informal
+C|C1|PUF60 reported SNV case count|b0044.s8+b0047.s1|noncritical|unresolved|16 cases vs 9 prior in Table 3
+C|C2|Stessman NAA15 variant count|b0026.s8+b0073.s8|noncritical|unresolved|12 variants vs 13 patients
+C|C3|NAA15 missense variant count|b0073.s11+b0076.s1|noncritical|unresolved|three stated, table shows more missense
+U|Supplemental Table S1|b0015.s5;b0025.s1;b0090.s1|supplement not provided

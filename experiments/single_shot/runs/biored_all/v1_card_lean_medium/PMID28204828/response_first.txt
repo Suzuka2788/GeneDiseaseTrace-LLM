@@ -1,0 +1,36 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|TIEG1 (background, species unstated)|TIEG1;transforming growth factor (TGF)-b-inducible early gene-1|p|other||||
+E|G2|gene|TIEG1 (mouse knockout model)|TIEG1|p|species_unresolved||||
+E|G3|gene|TGF-b|transforming growth factor|p|other||||
+E|G4|gene|Pten|Pten;phosphatase and tensin homolog|p|species_unresolved||||
+E|G5|gene|Akt|Akt|p|species_unresolved,undefined_abbreviation||||
+E|G6|gene|Bcl-2|Bcl-2|p|species_unresolved,undefined_abbreviation||||
+E|G7|gene|Bax|Bax|p|species_unresolved,undefined_abbreviation||||
+E|G8|gene|VEGF|VEGF;vascular endothelial growth factor|p|species_unresolved||||
+E|G9|gene|a-SMA|a-SMA;a-smooth muscle actin|p|species_unresolved||||
+E|G10|gene|CD31|CD31|p|species_unresolved,undefined_abbreviation||||
+E|D1|disease|pancreatic cancer|pancreatic cancer|r||||
+E|D2|disease|leukaemia|leukaemia|r||||
+E|D3|disease|osteoporosis|osteoporosis|r||||
+E|D4|disease|ischaemic heart disease|ischaemic heart disease|r||||
+E|D5|disease|myocardial infarction|myocardial infarction;MI|r||||
+E|S1|phenotype|scar formation|scar formation|r||||
+X|BrdU|b0002.s9|staining reagent, not a gene
+X|infarcted heart|b0001.s1|descriptive phrase for the MI model, not a separate entity
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s7+b0002.s11+b0002.s12|ts|res|aff|rr,mi,cmp
+EV|V3|b0002.s13|ts|int|aff|rr
+EV|V4|b0002.s12|ts|res|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1||||explicit background role in pancreatic cancer
+P|G1|D2|sup|a|bg|sup:a:bg:V1||||explicit background role in leukaemia
+P|G1|D3|sup|a|bg|sup:a:bg:V1||||explicit background role in osteoporosis
+P|G2|D5|sup|a|ts|sup:a:ts:V2||||KO mice show improved post-MI outcome
+P|G2|D4|sup|a|ts|sup:a:ts:V2+V3||||authors conclude cardioprotective role from MI model
+P|G4|D4|nf|-||||V3;V4|pathway-level mechanism only; no single-gene link
+P|G5|D4|nf|-||||V3;V4|pathway-level mechanism only; no single-gene link
+P|G4|D5|nf|-||||V4|expression altered in KO only
+F|F1|group_comparison|TIEG1 KO vs WT; cardiomyocyte apoptosis, proliferation|isolated mouse cardiomyocytes, ischaemic insult|unknown|negative|not_reported|V2|abstract only, no statistics
+F|F2|group_comparison|TIEG1 KO vs WT; cardiac function, scar|mouse MI model|unknown|positive|not_reported|V2|direction: KO improves function
+F|F3|mechanism|Pten, Akt, Bcl-2/Bax, VEGF expression|TIEG1 KO mice|unknown|unknown|not_reported|V4+V3|direction of changes not stated
+R|species of background gene|b0002.s1|Background TIEG1 species unstated; study gene is mouse|Split into separate background and mouse nodes

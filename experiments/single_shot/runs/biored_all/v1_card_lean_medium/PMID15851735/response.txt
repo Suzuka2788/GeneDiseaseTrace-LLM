@@ -1,0 +1,27 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GLDC|GLDC;glycine decarboxylase|r||human||
+E|G2|gene|AMT|AMT|r||human||
+E|G3|gene|GCSH|GCSH|r||human||
+E|D1|disease|glycine encephalopathy|glycine encephalopathy;GE;NKH|p|undefined_abbreviation,ambiguous_mapping|||
+E|D2|disease|mild glycine encephalopathy|Mild glycine encephalopathy;mild GE|r|||D1|
+E|D3|disease|classic neonatal-onset glycine encephalopathy|Classic neonatal-onset glycine encephalopathy;classic glycine encephalopathy|r|||D1|
+E|D4|disease|severe neonatal-onset glycine encephalopathy|severe neonatal-onset GE|r|||D1|
+E|S1|symptom|hypotonia|hypotonia|r||||
+E|S2|symptom|mental retardation|mental retardation|r||||
+E|S3|symptom|convulsions|convulsions|r||||
+EV|V1|b0001.s1|ts|res|aff|eda,rr
+EV|V2|b0002.s9|ts|res|aff|cs,rr
+EV|V3|b0002.s10+b0002.s11+b0002.s14|ts|res|aff|rr
+EV|V4|b0002.s12|ts|co|na|do
+EV|V5|b0002.s15|ts|int|hyp|ho
+EV|V6|b0002.s4|ts|aim|na|none
+P|G1|D2|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2;sup:c:ts:V3|||Title attributes mild GE to GLDC splice mutation
+P|G1|D1|unc|-|ts|unc:-:ts:V1|scope||Evidence concerns mild subtype; no propagation to parent
+P|G1|D4|nf|-||||V4|Homozygosity detected in one case; no attribution
+P|G1|D3|unc|-|ts|unc:-:ts:V5|hedged_claim||Only hedged comparison of outcome with classic GE
+P|G2|D2|nf|-||||V6|Screened only; no result reported
+P|G3|D2|nf|-||||V6|Screened only; no result reported
+F|F1|association|GLDC c.2607C>A homozygosity; mild GE|nine patients and heterozygous parents|unknown|positive|not_reported|V2|abstract only
+F|F2|mechanism|GLDC mRNA level; splicing|patient lymphoblasts|unknown|negative|partial|V3|4-6% normal splicing; no comparator stats
+R|abbreviation placement|b0001.s1|NKH attached to mild GE but undefined; referent ambiguous|kept as provisional surface of parent glycine encephalopathy

@@ -1,0 +1,90 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full provided text; Tables S1-S3 not provided
+E|G1|gene|KRIT1|KRIT1|r||human|||
+E|G2|gene|CCM2|CCM2|r||human|||
+E|G3|gene|PDCD10|PDCD10|r||human|||
+E|G4|gene|KRTI1|KRTI1|p|suspected_typo|human|||
+E|G5|gene|ZPLD1|ZPLD1|r||human|||
+E|G6|gene|MAP3K3|MAP3K3;MEKK3|r||human|||
+E|G7|gene|Krit1|Krit1|p|species_unresolved||||
+E|G8|gene|Ccm2|Ccm2|p|species_unresolved||||
+E|G9|gene|Pdcd10|Pdcd10|p|species_unresolved||||
+E|D1|disease|vascular malformation|vascular malformation|r|||||
+E|D2|disease|cerebral cavernous malformation|Cerebral cavernous malformation;cerebral cavernous malformation;CCM;CCMs|r|||D1||
+E|D3|disease|familial cerebral cavernous malformation|Familial cerebral cavernous malformation;familial cerebral cavernous malformation;FCCM;Familial CCM;familial CCM|r|||D2||
+E|D4|disease|sporadic CCM|sporadic CCM;sporadic CCMs|r|||D2||
+E|D5|disease|cavernous malformation|cavernous malformation;CM|r|||||
+E|D6|disease|spinal cavernous malformation|spinal cavernous malformation;spinal CM;Spinal CM|r|||D5||
+E|D7|disease|cutaneous CM|cutaneous CM;Cutaneous CM|r|||D5||
+E|D8|clinical_event|cavernous angioma with symptomatic hemorrhage|CASH;cavernous angioma with symptomatic hemorrhage;cavernous angiomas with a symptomatic hemorrhage|r|||||
+E|D9|disease|small vessel disease|small vessel disease|r|||||
+E|D10|disease|diffuse axonal injury|diffuse axonal injury|r|||||
+E|D11|disease|intracerebral hemorrhage|intracerebral hemorrhages|r|||||
+E|D12|disease|developmental venous anomaly|developmental venous anomaly|r|||||
+E|D13|disease|tumor|tumors;Tumor;tumor|r|||||
+E|D14|disease|breast cancer|Breast cancer|r|||||
+E|D15|disease|thyroid cancer|Thyroid cancer|r|||||
+E|D16|disease|diffuse midline glioma|diffuse midline glioma;Diffuse midline glioma|r|||||
+E|D17|disease|adrenal adenoma|Adrenal adenoma|r|||||
+E|D18|disease|anterior cerebral artery infarction|ACA infarction|r|||||
+E|D19|disease|occipital lobe epilepsy|occipital lobe epilepsy;OLE|r|||||
+E|D20|ambiguous|PLE|PLE|u|undefined_abbreviation||||disease
+E|D21|disease|CMM|CMM|p|suspected_typo||||
+E|S1|symptom|seizure|seizures|r|||||
+E|S2|symptom|headache|headache|r|||||
+E|S3|phenotype|cerebral microbleeds|cerebral microbleeds|r|||||
+X|CCM genes|b0007.s4|gene set, not single gene
+X|CCM complexes|b0011.s9|protein complex, not single gene
+X|FCCM gene panel|b0104.s2|test panel / gene set
+X|NG_012964.1|b0019.s2|reference sequence identifier
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0011.s3|bg|bgr|aff|ebr
+EV|V3|b0011.s6+s7|bg|bgr|aff|ebr
+EV|V4|b0098.s11|bg|bgr|aff|ebr
+EV|V5|b0026.s4|ts|res|aff|rr,eda
+EV|V18|b0028.s1|ts|res|aff|rr,eda
+EV|V19|b0070.s7+s8+s9+s10|ts|res|aff|rr,eda
+EV|V6|b0070.s2+s3|ts|res|aff|cs
+EV|V7|b0098.s12|bg|bgr|aff|ebr
+EV|V8|b0098.s13+s14|ts|hyp|hyp|ho
+EV|V9|b0098.s8+s9|bg|hyp|hyp|ho
+EV|V10|b0099.s3|bg|bgr|aff|ebr,mi
+EV|V11|b0011.s8|bg|bgr|pre|unc
+EV|V12|b0100.s11+s12+s13|ts|int|hyp|ho
+EV|V13|b0094.s7|ts|res|na|rr
+EV|V14|b0067.s2+s3+s4+s5+s6+s7|ts|res|na|cmp
+EV|V20|b0053.s1|ts|res|na|cmp
+EV|V15|b0094.s10+s11+s12+s13+s14|ts|res|na|rr
+EV|V21|b0095.s10+s11+s12|ts|res|na|rr
+EV|V16|b0066.s1|ts|res|na|cmp
+EV|V17|b0007.s4|ts|co|na|do
+EV|V22|b0070.s11|ts|co|na|do
+P|G1|D3|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V5+V18+V19+V6|||Explicit causal statement; study genetic diagnosis, co-segregation
+P|G2|D3|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V5+V18+V19|||Explicit causal statement; study genetic diagnosis
+P|G3|D3|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V5+V18+V19+V6|||Explicit causal statement; study genetic diagnosis, co-segregation
+P|G1|D2|sup|c|bg|sup:c:bg:V3+V4|||LOF of three genes leads to CCM
+P|G2|D2|sup|c|bg|sup:c:bg:V3+V4|||LOF of three genes leads to CCM
+P|G3|D2|sup|c|bg|sup:c:bg:V3+V4|||LOF of three genes leads to CCM
+P|G7|D2|sup|c|bg|sup:c:bg:V10|||Heterozygous loss induces CCM animal model
+P|G8|D2|sup|c|bg|sup:c:bg:V10|||Heterozygous loss induces CCM animal model
+P|G9|D2|sup|c|bg|sup:c:bg:V10|||Heterozygous loss induces CCM animal model
+P|G6|D4|sup|a|bg|sup:a:bg:V7|||GOF mutations found in sporadic CCM patients
+P|G6|D3|unc|-|ts|unc:-:ts:V8|hedged_claim||Authors speculate possible novel FCCM cause
+P|G6|D2|nf|-||||V7|Evidence only for sporadic CCM; no propagation
+P|G5|D3|unc|-|bg|unc:-:bg:V9|hedged_claim||Cited study only proposed association
+P|G1|D1|unc|-|unk|unc:-:bg:V11;unc:-:ts:V12|presupposed_only,hedged_claim||Presupposed suppression; hedged ankyrin role
+P|G2|D1|unc|-|bg|unc:-:bg:V11|presupposed_only||Only presupposed in unknown-mechanism sentence
+P|G3|D1|unc|-|bg|unc:-:bg:V11|presupposed_only||Only presupposed in unknown-mechanism sentence
+P|G1|D8|nf|-||||V13|Overall genotype test only, not significant
+F|F1|group_comparison|lesion location vs mutation detection|cohort 1, detected vs not detected|significant|positive|available|V14+V20|gene group, not disease outcome
+F|F2|association|brainstem marker ROC contribution|cohort 1|significant|positive|available|V14|small sample; AUC inconsistency
+F|F3|correlation|age vs large CCM count|cohort 2 (n=25)|significant|positive|available|V15|within-disease correlation
+F|F4|correlation|age vs large CCM count by gene group|KRIT1, CCM2, PDCD10, not detected|mixed|mixed|partial|V15+V21|PDCD10 statistics not reported; slopes untested
+F|F5|group_comparison|CCM genotype vs first CASH risk|cohort 2|not_significant|null|unread|V13|Table S3 unread
+F|F6|group_comparison|clinical characteristics by mutation detection|cohort 1|not_significant|null|partial|V16|
+F|F7|descriptive|six novel KRIT1/PDCD10 variants|gene-confirmed FCCM probands|not_applicable|not_applicable|not_applicable|V17+V22|
+C|C1|three-marker model AUC value|b0007.s5;b0067.s4;b0067.s7|noncritical|unresolved|0.928 vs 0.982; P and direction unchanged
+C|C2|parietal frequency not-detected group|b0060.s1;b0067.s2|noncritical|unresolved|50.0% vs 50.4%
+U|Table S1|b0070.s8;b0114.s1|not provided
+U|Table S2|b0094.s5;b0115.s1|not provided
+U|Table S3|b0094.s7;b0116.s1|not provided

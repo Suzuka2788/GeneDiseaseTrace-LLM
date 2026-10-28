@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables.
+E|G1|gene|CCR2|CCR2|r||non-human||
+E|G2|gene|CCL2|CCL2|r||non-human||
+E|D1|disease|status epilepticus|status epilepticus;SE|r|||||
+E|D2|disease|seizures|seizures;Seizures|r|||||
+E|S1|phenotype|neuroinflammation|Neuroinflammation|r|||||
+E|S2|phenotype|epileptogenesis|epileptogenesis|r|||||
+X|brain pathologies|b0002|generic disease-like term, no specific disease
+EV|V1|b0002.s9+b0002.s16|ts|res|aff|rr,cmp
+EV|V2|b0002.s15+b0002.s16|ts|res|aff|rr,cmp
+EV|V3|b0002.s10+b0002.s17|ts|res|aff|rr
+EV|V4|b0002.s18|ts|hyp|hyp|ho
+EV|V5|b0002.s2|bg|bgr|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||CCR2 increased in hippocampus after pilocarpine SE
+P|G2|D1|sup|a|ts|sup:a:ts:V2|||CCL2 elevated in hippocampus after SE
+P|G1|D2|sup|a|ts|sup:a:ts:V3||V4|Seizures altered CCR2 expression in neurons, astrocytes
+F|F1|group_comparison|CCR2 expression; CCR2+ cell number|SE rats vs saline controls|unknown|positive|not_reported|V1|abstract only; rat model
+F|F2|group_comparison|CCR2+ neurons and astrocytes|SE rats vs saline controls|unknown|positive|not_reported|V3|abstract only
+F|F3|group_comparison|CCL2 expression|SE rats vs saline controls|unknown|positive|not_reported|V2|abstract only
+R|species|b0002.s2|Background CCR2/CCL2 statement lacks species; study genes are rat.|Kept a single non-human node per gene.

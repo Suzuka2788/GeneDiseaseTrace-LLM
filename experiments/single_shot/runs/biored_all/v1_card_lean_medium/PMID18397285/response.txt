@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|VWF|VWF;von Willebrand factor|r||human||
+E|G2|gene|ADAMTS13|ADAMTS13|r||human||
+E|D1|disease|von Willebrand disease|von Willebrand disease;VWD|r||||
+E|D2|disease|type 2A von Willebrand disease|type 2A von Willebrand disease;Type 2A von Willebrand disease;type 2A VWD|r|||D1|
+X|L1503R|b0001.s1|variant identifier
+X|L1503Q|b0002.s6|variant identifier
+X|293T|b0002.s3|cell line, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0002.s3|ts|res|aff|rr,cmp,eda
+EV|V3|b0002.s5|ts|int|aff|mi,eda
+EV|V4|b0002.s7|ts|hyp|hyp|ho
+EV|V5|b0002.s6|ts|res|na|do
+P|G1|D2|sup|a|both|sup:a:bg:V1;sup:a:ts:V2+V3;unc:-:ts:V4|||Novel L1503R found in patients, absent in controls
+P|G1|D1|nf|-||||V1|No propagation from type 2A subtype
+F|F1|descriptive|L1503R carrier status|2 type 2A VWD patients vs 60 controls|not_applicable|not_applicable|not_reported|V2|Abstract only
+F|F2|mechanism|mutant VWF secretion and retention|293T cells|unknown|negative|not_reported|V3|Cell model only
+F|F3|mechanism|mutant DNA dose vs VWF secretion|co-transfected 293T cells|unknown|negative|not_reported|V3|Cell model only
+F|F4|other|RMSD of L1503R vs WT/L1503Q|molecular dynamics simulation|unknown|not_applicable|not_reported|V5|Simulation only
+F|F5|hypothesis|protein instability and intracellular retention|L1503R VWF|not_applicable|not_applicable|not_applicable|V4|

@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PER2|PER2;hPER2;PERIOD2|r||human||
+E|D1|disease|advanced sleep phase syndrome|advanced sleep phase syndrome;ASPS|r||||
+E|S1|phenotype|diurnal preference|diurnal preference|r||||
+X|C111G|b0002|variant identifier
+X|C-1228T|b0002|variant identifier
+X|G3853A|b0002|variant identifier
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s8|ts|int|hyp|ho
+EV|V3|b0002.s5|ts|res|aff|rr,cmp
+EV|V4|b0002.s5+b0002.s6|ts|neg|neg|rr,cmp
+EV|V5|b0002.s7|ts|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2|hedged_claim||Prior missense mutation linked to ASPS
+F|F1|association|111G allele frequency vs diurnal preference|extreme morning vs evening (n=35 each)|significant|positive|available|V3|ASPS not tested directly
+F|F2|association|C-1228T and G3853A allele frequencies|all preference groups|not_significant|null|partial|V4|
+F|F3|association|111G frequency vs intermediate preference|morning or evening vs intermediate|not_significant|null|not_reported|V4|
+F|F4|mechanism|C111G transcript secondary structure|computer prediction|not_applicable|unknown|not_applicable|V5|prediction only

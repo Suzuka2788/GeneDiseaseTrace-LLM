@@ -1,0 +1,3366 @@
+{
+  "source": "BIORED.zip (https://ftp.ncbi.nlm.nih.gov/pub/lu/BioRED/), Train/Dev/Test.BioC.JSON",
+  "zip_sha256": "c3032230bd89d22a0923d0df6ae943bc8ea37fba7e42dafa7a8dec21bac02d47",
+  "split_sha256": {
+    "Train": "53e08e0acff5043937cdd3fdb595639e59bfb0390b64760a3840f6e1a2a69987",
+    "Dev": "d5ab4d05673ac46fb5e3b2904d2820462dec2c4c50dfcdd8678635ff1b8ce1f5",
+    "Test": "35ec8aad0c62032689b4a957220c7532eb067dc7e159d70cc42e6d40e6c447c6"
+  },
+  "criteria": "every abstract in any split with >= 1 gold gene-disease relation; no sampling",
+  "abstracts": 600,
+  "eligible": 419,
+  "papers": [
+    {
+      "paper_id": "PMID1353340",
+      "pmid": "1353340",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID1671881",
+      "pmid": "1671881",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID2491010",
+      "pmid": "2491010",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID6086495",
+      "pmid": "6086495",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID7018927",
+      "pmid": "7018927",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID7668252",
+      "pmid": "7668252",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID7811247",
+      "pmid": "7811247",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID7905839",
+      "pmid": "7905839",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID8002973",
+      "pmid": "8002973",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID8755918",
+      "pmid": "8755918",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID9294109",
+      "pmid": "9294109",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID9647766",
+      "pmid": "9647766",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID10491763",
+      "pmid": "10491763",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID10788334",
+      "pmid": "10788334",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID11054569",
+      "pmid": "11054569",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID12442272",
+      "pmid": "12442272",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID14510914",
+      "pmid": "14510914",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID14722929",
+      "pmid": "14722929",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15000256",
+      "pmid": "15000256",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15018851",
+      "pmid": "15018851",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15033202",
+      "pmid": "15033202",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15041272",
+      "pmid": "15041272",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID15064320",
+      "pmid": "15064320",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15069170",
+      "pmid": "15069170",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15075188",
+      "pmid": "15075188",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID15086325",
+      "pmid": "15086325",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15099351",
+      "pmid": "15099351",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15111599",
+      "pmid": "15111599",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15122708",
+      "pmid": "15122708",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15122711",
+      "pmid": "15122711",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15145918",
+      "pmid": "15145918",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15177686",
+      "pmid": "15177686",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15191352",
+      "pmid": "15191352",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID15198485",
+      "pmid": "15198485",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15200408",
+      "pmid": "15200408",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15241482",
+      "pmid": "15241482",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15459183",
+      "pmid": "15459183",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID15459975",
+      "pmid": "15459975",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15464247",
+      "pmid": "15464247",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15485686",
+      "pmid": "15485686",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID15523499",
+      "pmid": "15523499",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15579441",
+      "pmid": "15579441",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15599941",
+      "pmid": "15599941",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15609295",
+      "pmid": "15609295",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15623763",
+      "pmid": "15623763",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID15649253",
+      "pmid": "15649253",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15668505",
+      "pmid": "15668505",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15673851",
+      "pmid": "15673851",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID15748645",
+      "pmid": "15748645",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15749661",
+      "pmid": "15749661",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID15754732",
+      "pmid": "15754732",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID15755837",
+      "pmid": "15755837",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15770495",
+      "pmid": "15770495",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15807692",
+      "pmid": "15807692",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15814629",
+      "pmid": "15814629",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID15818664",
+      "pmid": "15818664",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15820770",
+      "pmid": "15820770",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15824163",
+      "pmid": "15824163",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15851735",
+      "pmid": "15851735",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15858223",
+      "pmid": "15858223",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID15867855",
+      "pmid": "15867855",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15951966",
+      "pmid": "15951966",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15970799",
+      "pmid": "15970799",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15983230",
+      "pmid": "15983230",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID15987266",
+      "pmid": "15987266",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16000134",
+      "pmid": "16000134",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16001362",
+      "pmid": "16001362",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID16005363",
+      "pmid": "16005363",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16018252",
+      "pmid": "16018252",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16046395",
+      "pmid": "16046395",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16051693",
+      "pmid": "16051693",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16112787",
+      "pmid": "16112787",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16120104",
+      "pmid": "16120104",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16152606",
+      "pmid": "16152606",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16157158",
+      "pmid": "16157158",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16158428",
+      "pmid": "16158428",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16160878",
+      "pmid": "16160878",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID16167916",
+      "pmid": "16167916",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16181814",
+      "pmid": "16181814",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16186368",
+      "pmid": "16186368",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16252083",
+      "pmid": "16252083",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16277682",
+      "pmid": "16277682",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16288197",
+      "pmid": "16288197",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16288199",
+      "pmid": "16288199",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16321363",
+      "pmid": "16321363",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16330669",
+      "pmid": "16330669",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID16391785",
+      "pmid": "16391785",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID16410744",
+      "pmid": "16410744",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID16412238",
+      "pmid": "16412238",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16418600",
+      "pmid": "16418600",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16419642",
+      "pmid": "16419642",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16428827",
+      "pmid": "16428827",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16506214",
+      "pmid": "16506214",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16541406",
+      "pmid": "16541406",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16543197",
+      "pmid": "16543197",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16575011",
+      "pmid": "16575011",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16584858",
+      "pmid": "16584858",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID16586083",
+      "pmid": "16586083",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16611040",
+      "pmid": "16611040",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16629641",
+      "pmid": "16629641",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16725121",
+      "pmid": "16725121",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16731636",
+      "pmid": "16731636",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID16737910",
+      "pmid": "16737910",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16781314",
+      "pmid": "16781314",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16786513",
+      "pmid": "16786513",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16810074",
+      "pmid": "16810074",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16822828",
+      "pmid": "16822828",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16838170",
+      "pmid": "16838170",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16840830",
+      "pmid": "16840830",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16843501",
+      "pmid": "16843501",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID16849419",
+      "pmid": "16849419",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16867246",
+      "pmid": "16867246",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID16970763",
+      "pmid": "16970763",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17000021",
+      "pmid": "17000021",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17003357",
+      "pmid": "17003357",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17003923",
+      "pmid": "17003923",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 15,
+      "gold_novel": 13
+    },
+    {
+      "paper_id": "PMID17006606",
+      "pmid": "17006606",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17033686",
+      "pmid": "17033686",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID17033974",
+      "pmid": "17033974",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17059986",
+      "pmid": "17059986",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17065198",
+      "pmid": "17065198",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17083016",
+      "pmid": "17083016",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17166870",
+      "pmid": "17166870",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17177139",
+      "pmid": "17177139",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17185386",
+      "pmid": "17185386",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17192049",
+      "pmid": "17192049",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17221831",
+      "pmid": "17221831",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17244258",
+      "pmid": "17244258",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17250663",
+      "pmid": "17250663",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17273972",
+      "pmid": "17273972",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17286451",
+      "pmid": "17286451",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17304550",
+      "pmid": "17304550",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID17318851",
+      "pmid": "17318851",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID17327131",
+      "pmid": "17327131",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17345627",
+      "pmid": "17345627",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 16,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID17391797",
+      "pmid": "17391797",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17395743",
+      "pmid": "17395743",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17397547",
+      "pmid": "17397547",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 29,
+      "gold_novel": 27
+    },
+    {
+      "paper_id": "PMID17439425",
+      "pmid": "17439425",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17495183",
+      "pmid": "17495183",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17511042",
+      "pmid": "17511042",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17549393",
+      "pmid": "17549393",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17595233",
+      "pmid": "17595233",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID17628794",
+      "pmid": "17628794",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17634480",
+      "pmid": "17634480",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17671735",
+      "pmid": "17671735",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17683901",
+      "pmid": "17683901",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17877751",
+      "pmid": "17877751",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17910065",
+      "pmid": "17910065",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17935240",
+      "pmid": "17935240",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID17943461",
+      "pmid": "17943461",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 11,
+      "gold_novel": 11
+    },
+    {
+      "paper_id": "PMID17951029",
+      "pmid": "17951029",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17959715",
+      "pmid": "17959715",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID17962394",
+      "pmid": "17962394",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID17968299",
+      "pmid": "17968299",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18046082",
+      "pmid": "18046082",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18050247",
+      "pmid": "18050247",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID18083142",
+      "pmid": "18083142",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18165598",
+      "pmid": "18165598",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID18166824",
+      "pmid": "18166824",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID18179903",
+      "pmid": "18179903",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18189233",
+      "pmid": "18189233",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18235024",
+      "pmid": "18235024",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18257781",
+      "pmid": "18257781",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18262054",
+      "pmid": "18262054",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18270997",
+      "pmid": "18270997",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18366737",
+      "pmid": "18366737",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID18385794",
+      "pmid": "18385794",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18397285",
+      "pmid": "18397285",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18408250",
+      "pmid": "18408250",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18410508",
+      "pmid": "18410508",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18410548",
+      "pmid": "18410548",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18439317",
+      "pmid": "18439317",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18442015",
+      "pmid": "18442015",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18457324",
+      "pmid": "18457324",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18470323",
+      "pmid": "18470323",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18483878",
+      "pmid": "18483878",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18487244",
+      "pmid": "18487244",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18507837",
+      "pmid": "18507837",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID18541230",
+      "pmid": "18541230",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18593936",
+      "pmid": "18593936",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 12,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID18631865",
+      "pmid": "18631865",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18672102",
+      "pmid": "18672102",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID18674790",
+      "pmid": "18674790",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID18681856",
+      "pmid": "18681856",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18699851",
+      "pmid": "18699851",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID18752389",
+      "pmid": "18752389",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18768591",
+      "pmid": "18768591",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID18772193",
+      "pmid": "18772193",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18779591",
+      "pmid": "18779591",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID18790087",
+      "pmid": "18790087",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18791947",
+      "pmid": "18791947",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18808529",
+      "pmid": "18808529",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18827003",
+      "pmid": "18827003",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID18945288",
+      "pmid": "18945288",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID18991055",
+      "pmid": "18991055",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID19037252",
+      "pmid": "19037252",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19048115",
+      "pmid": "19048115",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 10,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19067809",
+      "pmid": "19067809",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19082493",
+      "pmid": "19082493",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19101703",
+      "pmid": "19101703",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19110214",
+      "pmid": "19110214",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19160446",
+      "pmid": "19160446",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19207031",
+      "pmid": "19207031",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19208385",
+      "pmid": "19208385",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID19218574",
+      "pmid": "19218574",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19276632",
+      "pmid": "19276632",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19300402",
+      "pmid": "19300402",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 12,
+      "gold_novel": 12
+    },
+    {
+      "paper_id": "PMID19306381",
+      "pmid": "19306381",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID19353688",
+      "pmid": "19353688",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19365571",
+      "pmid": "19365571",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19370764",
+      "pmid": "19370764",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID19394258",
+      "pmid": "19394258",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID19484664",
+      "pmid": "19484664",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19508969",
+      "pmid": "19508969",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19521089",
+      "pmid": "19521089",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19536134",
+      "pmid": "19536134",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID19549709",
+      "pmid": "19549709",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19565319",
+      "pmid": "19565319",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19592582",
+      "pmid": "19592582",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19672862",
+      "pmid": "19672862",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID19692487",
+      "pmid": "19692487",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19696792",
+      "pmid": "19696792",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19721134",
+      "pmid": "19721134",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID19759529",
+      "pmid": "19759529",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19779499",
+      "pmid": "19779499",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19789368",
+      "pmid": "19789368",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID19811499",
+      "pmid": "19811499",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 10,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID19825989",
+      "pmid": "19825989",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID19880293",
+      "pmid": "19880293",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID19881468",
+      "pmid": "19881468",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID19918264",
+      "pmid": "19918264",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20005218",
+      "pmid": "20005218",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID20034406",
+      "pmid": "20034406",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID20080916",
+      "pmid": "20080916",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20086182",
+      "pmid": "20086182",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20105280",
+      "pmid": "20105280",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20105310",
+      "pmid": "20105310",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20126413",
+      "pmid": "20126413",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20143913",
+      "pmid": "20143913",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20335448",
+      "pmid": "20335448",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID20367983",
+      "pmid": "20367983",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20415560",
+      "pmid": "20415560",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20428796",
+      "pmid": "20428796",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID20523265",
+      "pmid": "20523265",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID20534142",
+      "pmid": "20534142",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20534762",
+      "pmid": "20534762",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID20540798",
+      "pmid": "20540798",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID20558148",
+      "pmid": "20558148",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20579626",
+      "pmid": "20579626",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20583543",
+      "pmid": "20583543",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID20588063",
+      "pmid": "20588063",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID20606392",
+      "pmid": "20606392",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID20621845",
+      "pmid": "20621845",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID20648600",
+      "pmid": "20648600",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID20682662",
+      "pmid": "20682662",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20705401",
+      "pmid": "20705401",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20708777",
+      "pmid": "20708777",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20709368",
+      "pmid": "20709368",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20801104",
+      "pmid": "20801104",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID20801540",
+      "pmid": "20801540",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID20806042",
+      "pmid": "20806042",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID20846357",
+      "pmid": "20846357",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20854438",
+      "pmid": "20854438",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID20859899",
+      "pmid": "20859899",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID20949073",
+      "pmid": "20949073",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21042587",
+      "pmid": "21042587",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID21054465",
+      "pmid": "21054465",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21059483",
+      "pmid": "21059483",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21070631",
+      "pmid": "21070631",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21080147",
+      "pmid": "21080147",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID21126715",
+      "pmid": "21126715",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21130517",
+      "pmid": "21130517",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21135151",
+      "pmid": "21135151",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21163864",
+      "pmid": "21163864",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21195121",
+      "pmid": "21195121",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21219851",
+      "pmid": "21219851",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21325775",
+      "pmid": "21325775",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21405999",
+      "pmid": "21405999",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 7,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID21496008",
+      "pmid": "21496008",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21533187",
+      "pmid": "21533187",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21615796",
+      "pmid": "21615796",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21666969",
+      "pmid": "21666969",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21682595",
+      "pmid": "21682595",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21684788",
+      "pmid": "21684788",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21695597",
+      "pmid": "21695597",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21699520",
+      "pmid": "21699520",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21750150",
+      "pmid": "21750150",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21771880",
+      "pmid": "21771880",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21799811",
+      "pmid": "21799811",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21810259",
+      "pmid": "21810259",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID21879313",
+      "pmid": "21879313",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 7,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID21903317",
+      "pmid": "21903317",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21904390",
+      "pmid": "21904390",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID21911891",
+      "pmid": "21911891",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID21976953",
+      "pmid": "21976953",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID22048266",
+      "pmid": "22048266",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID22051099",
+      "pmid": "22051099",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID22104738",
+      "pmid": "22104738",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID22180037",
+      "pmid": "22180037",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID22303482",
+      "pmid": "22303482",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID22369755",
+      "pmid": "22369755",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 8,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID22711886",
+      "pmid": "22711886",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID22729903",
+      "pmid": "22729903",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID22808010",
+      "pmid": "22808010",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID22859398",
+      "pmid": "22859398",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID23069675",
+      "pmid": "23069675",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 7,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID23285048",
+      "pmid": "23285048",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID23651211",
+      "pmid": "23651211",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 20,
+      "gold_novel": 20
+    },
+    {
+      "paper_id": "PMID23791840",
+      "pmid": "23791840",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 9
+    },
+    {
+      "paper_id": "PMID24014394",
+      "pmid": "24014394",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID24055495",
+      "pmid": "24055495",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID24126708",
+      "pmid": "24126708",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID24132704",
+      "pmid": "24132704",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID24288432",
+      "pmid": "24288432",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID24442316",
+      "pmid": "24442316",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 9,
+      "gold_novel": 9
+    },
+    {
+      "paper_id": "PMID24477591",
+      "pmid": "24477591",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID24587916",
+      "pmid": "24587916",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID24632946",
+      "pmid": "24632946",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID24768818",
+      "pmid": "24768818",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID24840785",
+      "pmid": "24840785",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID24842192",
+      "pmid": "24842192",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID24853300",
+      "pmid": "24853300",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID24914936",
+      "pmid": "24914936",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID24971338",
+      "pmid": "24971338",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 9
+    },
+    {
+      "paper_id": "PMID25006961",
+      "pmid": "25006961",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID25054547",
+      "pmid": "25054547",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID25080425",
+      "pmid": "25080425",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID25119790",
+      "pmid": "25119790",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID25218136",
+      "pmid": "25218136",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID25277705",
+      "pmid": "25277705",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 19,
+      "gold_novel": 18
+    },
+    {
+      "paper_id": "PMID25305591",
+      "pmid": "25305591",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 16,
+      "gold_novel": 11
+    },
+    {
+      "paper_id": "PMID25550469",
+      "pmid": "25550469",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID25589620",
+      "pmid": "25589620",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID25622904",
+      "pmid": "25622904",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID25874935",
+      "pmid": "25874935",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID25946186",
+      "pmid": "25946186",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID25979836",
+      "pmid": "25979836",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID25983002",
+      "pmid": "25983002",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID25986755",
+      "pmid": "25986755",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID26027517",
+      "pmid": "26027517",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID26102294",
+      "pmid": "26102294",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID26110643",
+      "pmid": "26110643",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 12,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID26270232",
+      "pmid": "26270232",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 24,
+      "gold_novel": 14
+    },
+    {
+      "paper_id": "PMID26411452",
+      "pmid": "26411452",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID26449539",
+      "pmid": "26449539",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID26516699",
+      "pmid": "26516699",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 30,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID26615423",
+      "pmid": "26615423",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID26684240",
+      "pmid": "26684240",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 42,
+      "gold_novel": 22
+    },
+    {
+      "paper_id": "PMID26847345",
+      "pmid": "26847345",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID26900322",
+      "pmid": "26900322",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID26937641",
+      "pmid": "26937641",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID27014915",
+      "pmid": "27014915",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 10,
+      "gold_novel": 10
+    },
+    {
+      "paper_id": "PMID27084744",
+      "pmid": "27084744",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 15,
+      "gold_novel": 11
+    },
+    {
+      "paper_id": "PMID27090298",
+      "pmid": "27090298",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27103577",
+      "pmid": "27103577",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27134166",
+      "pmid": "27134166",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID27172902",
+      "pmid": "27172902",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27184800",
+      "pmid": "27184800",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27248656",
+      "pmid": "27248656",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27292643",
+      "pmid": "27292643",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID27384305",
+      "pmid": "27384305",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27630165",
+      "pmid": "27630165",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27643404",
+      "pmid": "27643404",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27663860",
+      "pmid": "27663860",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID27707793",
+      "pmid": "27707793",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27729412",
+      "pmid": "27729412",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27779699",
+      "pmid": "27779699",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID27798239",
+      "pmid": "27798239",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID27807193",
+      "pmid": "27807193",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID27825100",
+      "pmid": "27825100",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID27840894",
+      "pmid": "27840894",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID27860244",
+      "pmid": "27860244",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID27866394",
+      "pmid": "27866394",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27930654",
+      "pmid": "27930654",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27941998",
+      "pmid": "27941998",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 12,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID27959382",
+      "pmid": "27959382",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID27959387",
+      "pmid": "27959387",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 11,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID27974047",
+      "pmid": "27974047",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 19,
+      "gold_novel": 10
+    },
+    {
+      "paper_id": "PMID27999109",
+      "pmid": "27999109",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID28068934",
+      "pmid": "28068934",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID28075473",
+      "pmid": "28075473",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID28098423",
+      "pmid": "28098423",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28101574",
+      "pmid": "28101574",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID28148288",
+      "pmid": "28148288",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28151486",
+      "pmid": "28151486",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28204828",
+      "pmid": "28204828",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 9,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28259923",
+      "pmid": "28259923",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID28260056",
+      "pmid": "28260056",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID28260110",
+      "pmid": "28260110",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID28346429",
+      "pmid": "28346429",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28348168",
+      "pmid": "28348168",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28368423",
+      "pmid": "28368423",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28393239",
+      "pmid": "28393239",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28398555",
+      "pmid": "28398555",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID28411266",
+      "pmid": "28411266",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28416580",
+      "pmid": "28416580",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 6,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28428256",
+      "pmid": "28428256",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28468941",
+      "pmid": "28468941",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 8,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID28472177",
+      "pmid": "28472177",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 17,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28481876",
+      "pmid": "28481876",
+      "split": "Test",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28487437",
+      "pmid": "28487437",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 5,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28512644",
+      "pmid": "28512644",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 18,
+      "gold_novel": 18
+    },
+    {
+      "paper_id": "PMID28518143",
+      "pmid": "28518143",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28584052",
+      "pmid": "28584052",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28650467",
+      "pmid": "28650467",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID28660748",
+      "pmid": "28660748",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28684635",
+      "pmid": "28684635",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28687665",
+      "pmid": "28687665",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID28747658",
+      "pmid": "28747658",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 11,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID28777492",
+      "pmid": "28777492",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID28846666",
+      "pmid": "28846666",
+      "split": "Test",
+      "in_sample_50": true,
+      "gold_gene_disease": 39,
+      "gold_novel": 39
+    },
+    {
+      "paper_id": "PMID28851297",
+      "pmid": "28851297",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28883039",
+      "pmid": "28883039",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID29045486",
+      "pmid": "29045486",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 14,
+      "gold_novel": 12
+    },
+    {
+      "paper_id": "PMID29049388",
+      "pmid": "29049388",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 7,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID29183288",
+      "pmid": "29183288",
+      "split": "Dev",
+      "in_sample_50": false,
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID30442153",
+      "pmid": "30442153",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 20,
+      "gold_novel": 11
+    },
+    {
+      "paper_id": "PMID30836660",
+      "pmid": "30836660",
+      "split": "Train",
+      "in_sample_50": false,
+      "gold_gene_disease": 14,
+      "gold_novel": 8
+    }
+  ]
+}

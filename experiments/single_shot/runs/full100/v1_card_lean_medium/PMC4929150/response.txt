@@ -1,0 +1,91 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text and captions read; supplementary tables and figures not read
+E|G1|gene|BRAF|BRAF;B-RAF|r||human||
+E|G2|gene|NRAS|NRAS|r||human||
+E|G3|gene|PTEN|PTEN|r||human||
+E|G4|gene|MITF|MITF|r||human||
+E|G5|gene|EGFR|EGFR|r||human||
+E|G6|ambiguous_gene|PDGFR|PDGFR|u|ambiguous_mapping|human||
+E|G7|gene|AXL|AXL|r||human||
+E|G8|gene|AKT3|AKT3|r||human||
+E|G9|gene|AKT1|AKT1Q79K|r||human||
+E|G10|ambiguous_gene|AKT|AKT|u|ambiguous_mapping|human||
+E|G11|gene|MAP2K1|MAP2K1E203K|r||human||
+E|G12|gene|PIK3CA|PIK3CAE545K|r||human||
+E|G13|gene|MET|c-MET;MET|r||human||
+E|G14|gene|CRAF|CRAF|r||human||
+E|G15|gene|MEK1|MEK1T55insdelRT|p|ambiguous_mapping|human||
+E|G16|gene|FGFR1|FGFR1|r||human||
+E|G17|gene|Melan-A|Melan-A;MelanA;melanA|r||human||
+E|G18|gene|gp-100|gp-100|r||human||
+E|G19|gene|tyrosinase|tyrosinase|r||human||
+E|G20|ambiguous_gene|S100|S100|u|ambiguous_mapping|human||
+E|G21|gene|vinculin|vinculin;Vinculin|r||human||
+E|G22|ambiguous_gene|tubulin|Tubulin|u|ambiguous_mapping|||
+E|G23|ambiguous_gene|ERK|ERK;ERK1/2|u|ambiguous_mapping|human||
+E|G24|ambiguous_gene|MEK|MEK|u|ambiguous_mapping|human||
+E|D1|disease|melanoma|melanoma;melanomas;Melanoma;Melanomas|r||||
+E|D2|disease|metastatic melanoma|metastatic melanoma;metastatic melanomas|r|||D1|
+E|D3|disease|colon cancer|colon cancer|r||||
+E|D4|disease|pancreatic cancer|pancreatic cancer|r||||
+E|D5|disease|breast cancer|breast cancer|r||||
+E|D6|disease|glioblastoma|glioblastoma|r||||
+E|D7|disease|lung cancer|lung cancer|r||||
+E|D8|disease|glioma|gliomas|r||||
+E|D9|disease|neuroblastoma|neuroblastoma|r||||
+E|D10|clinical_event|BRAF inhibitor resistance|BRAFi resistance;vemurafenib resistance;drug resistance|p|other|||
+X|Prkdcscid|b0013|mouse strain allele designation, not analysed gene
+X|Il2rgtm1Wjl|b0013|mouse strain allele designation, not analysed gene
+X|LINE|b0082|qPCR normalization element, not gene
+X|BRAFV600E/DK|b0002|variant of BRAF, not separate gene
+EV|V1|b0006.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s6+b0047.s5+b0060.s2|ts|res|aff|rr,eda
+EV|V3|b0050.s4+b0050.s5+b0050.s6+b0050.s7|ts|res|aff|mi,cmp
+EV|V4|b0053.s1+b0057.s8+b0058.s1|ts|res|aff|eda
+EV|V5|b0026.s7+b0039.s1|bg|bgr|aff|ebr
+EV|V6|b0038.s1+b0038.s3|bg|bgr|aff|ebr
+EV|V7|b0039.s2|bg|bgr|aff|ebr
+EV|V8|b0027.s2|bg|bgr|aff|ebr
+EV|V9|b0030.s4+b0030.s6|ts|res|aff|rr,eda,cmp
+EV|V10|b0027.s4|bg|bgr|aff|ebr
+EV|V11|b0027.s4+b0028.s1+b0054.s6|ts|int|hyp|ho
+EV|V12|b0023.s1+b0023.s4|bg|bgr|aff|ebr
+EV|V13|b0039.s1|bg|bgr|aff|ebr
+EV|V14|b0059.s7|bg|bgr|aff|ebr
+EV|V15|b0059.s1|bg|bgr|aff|ebr,unc
+EV|V16|b0059.s2|bg|co|na|do
+EV|V17|b0015.s2|bg|bgr|aff|ebr
+EV|V18|b0035.s2|bg|bgr|pre|unc
+EV|V19|b0031.s1|ts|res|aff|rr
+EV|V20|b0051.s3+b0051.s4|ts|res|aff|mi
+EV|V21|b0054.s3+b0054.s4+b0087.s8|ts|res|aff|rr,cmp
+P|G1|D10|sup|c|both|sup:c:ts:V3+V4+V20;sup:c:bg:V5+V6+V7;sup:a:ts:V19|||Kinase domain duplication knockdown restores sensitivity
+P|G1|D1|sup|a|ts|sup:a:ts:V2|||BRAFV600E/DK found in resistant melanoma patients
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Half of metastatic melanoma harbor BRAF mutation
+P|G1|D9|nf|-||||V16|Duplication detected only, no attribution
+P|G2|D10|sup|c|bg|sup:c:bg:V8+V7;sup:a:ts:V9|||NRASQ61K resistance-inducing mutation
+P|G8|D10|sup|c|bg|sup:c:bg:V10;unc:-:ts:V11|||AKT3E17K resistance-conferring; L51R only hedged
+P|G9|D10|sup|c|bg|sup:c:bg:V10|||AKT1Q79K resistance-conferring mutation
+P|G11|D10|sup|c|bg|sup:c:bg:V7|||MAP2K1E203K resistance-conferring mutation
+P|G12|D10|sup|c|bg|sup:c:bg:V7|||PIK3CAE545K resistance-conferring mutation
+P|G4|D10|sup|c|bg|sup:c:bg:V12+V13|||MITF loss/gain/amplification cause resistance
+P|G5|D10|sup|c|bg|sup:c:bg:V13|||EGFR overexpression validated resistance mechanism
+P|G13|D10|sup|c|bg|sup:c:bg:V13|||c-MET hyperactivation validated resistance mechanism
+P|G3|D10|sup|c|bg|sup:c:bg:V13|||PTEN loss validated resistance mechanism
+P|G15|D10|sup|c|bg|sup:c:bg:V14|||MEK1T55insdelRT drives drug resistance
+P|G3|D1|unc|-|||unc:-:bg:V18|scope||Driver claim attaches to chromosome loss
+P|G5|D6|unc|-|||unc:-:bg:V15|coreference||Respectively mapping two genes to three diseases
+P|G5|D7|unc|-|||unc:-:bg:V15|coreference||Respectively mapping two genes to three diseases
+P|G16|D8|unc|-|||unc:-:bg:V15|coreference||Respectively mapping two genes to three diseases
+P|G17|D1|sup|a|bg|sup:a:bg:V17|||Marker used for melanoma diagnosis
+P|G18|D1|sup|a|bg|sup:a:bg:V17|||Marker used for melanoma diagnosis
+P|G19|D1|sup|a|bg|sup:a:bg:V17|||Marker used for melanoma diagnosis
+P|G20|D1|unc|-|||unc:-:bg:V17|identity||S100 family name, member unresolved
+F|F1|descriptive|BRAFV600E/DK frequency|resistant melanoma PDXs and patient cohort|not_applicable|not_applicable|partial|V2|4 of 44 in external cohort
+F|F2|group_comparison|DK shRNA vs scr; BRAFi sensitivity|A375R and M063R.X1 cells|significant|positive|unread|V3|statistics in figure only
+F|F3|group_comparison|NRASQ61K vs naive PDX dabrafenib response|M026 and M029 PDX pairs|unknown|positive|partial|V9|per-pair p values unread
+F|F4|association|BRAFT1799A amplification and therapy resistance|M009 PDX pair|unknown|positive|not_reported|V19|single pair, qualitative
+F|F5|group_comparison|LY3009120 vs dabrafenib tumor growth|BRAFV600E/DK PDXs M063R, M048R2|unknown|mixed|partial|V21|AKT3L51R confounds M048R2
+C|C1|BRAFV600E/D vs BRAFV600E/DK naming|b0072.s2|noncritical|resolved|Same cloned construct; typo
+R|clinical_event scope|b0058.s1|Resistance to MAPK pathway inhibition versus BRAFi resistance; event boundary unclear|Merged into one resistance event; noted provisional
+R|respectively mismatch|b0059.s1|Two genes mapped to three diseases with respectively|Marked all candidate pairs uncertain for coreference

@@ -1,0 +1,69 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text incl. tables; figures unread; references removed
+E|G1|gene|ACE2|angiotensin-converting enzyme 2;ACE2|r||human||
+E|G2|gene|CRP|C-reactive protein;CRP;C-Reactive Protein|r||human||
+E|G3|gene|IL-6|IL-6|r||human||
+E|G4|gene|TNF-α|tumor necrosis factor-alpha;TNF-α|r||human||
+E|G5|ambiguous_gene|IL-1|IL-1|u|ambiguous_mapping|human||
+E|G6|ambiguous_gene|IL-12|IL-12|u|ambiguous_mapping|human||
+E|G7|ambiguous_gene|interferon alpha|interferon alpha|u|ambiguous_mapping|human||
+E|G8|ambiguous_gene|lactate dehydrogenase|lactate dehydrogenase;LDH;Lactate Dehydrogenase|u|ambiguous_mapping|human||
+E|G9|ambiguous_gene|ferritin|ferritin;Ferritin|u|ambiguous_mapping|human||
+E|G10|ambiguous_gene|fibrinogen|Fibrinogen;fibrinogen|u|ambiguous_mapping|human||
+E|G11|gene|T-cell immunoglobulin and mucin domain 2|T-cell immunoglobulin and mucin domain 2|p|ambiguous_mapping|||
+E|G12|ambiguous_gene|alkaline phosphatase|alkaline phosphatase;ALP|u|ambiguous_mapping|human||
+E|G13|ambiguous_gene|creatine phosphokinase|creatine phosphokinase;CPK|u|ambiguous_mapping|human||
+E|D1|disease|COVID-19|coronavirus disease 2019;COVID-19;COVID-19 disease;COVID-19 infection;COVID-19 syndrome;SARS-CoV-2 disease|r||||
+E|D2|disease|sepsis|sepsis|r||||
+E|D3|disease|sepsis syndrome|sepsis syndrome|r||||
+E|D4|clinical_event|cytokine storm|cytokine storm;cytokine storms|r||||
+E|D5|disease|human immunodeficiency virus infection|human immunodeficiency virus infection|r||||
+E|D6|disease|malignancy|malignancy|r||||
+E|D7|disease|hypothyroidism|hypothyroidism|r||||
+E|D8|disease|hyperthyroidism|hyperthyroidism|r||||
+E|D9|disease|chronic lung disease|Chronic lung disease|r||||
+E|D10|disease|diabetes|Diabetes|r||||
+E|D11|disease|cardiovascular disease|Cardiovascular disease;cardiovascular disease|r||||
+E|D12|disease|hypertension|Hypertension;hypertension|r||||
+E|D13|disease|chronic renal disease|Chronic renal disease|r||||
+E|D14|disease|cancer|Cancer|r||||
+E|D15|disease|neurologic disorder|Neurologic disorder|r||||
+E|D16|disease|hyperferritinemic syndromes|hyperferritinemic syndromes|r||||
+E|D17|clinical_event|thromboembolic events|thromboembolic events|r||||
+E|D18|disease|burns|burns|r||||
+E|D19|disease|surgical trauma|surgical trauma|r||||
+E|D20|disease|LC deficiency|LC deficiency|r||||
+E|D21|disease|hyperinflammation syndrome|hyperinflammation syndrome|r||||
+E|D22|disease|chronic illnesses|chronic illnesses;chronic diseases;chronic disease|p|other|||
+E|D23|clinical_event|hospital mortality|hospital mortality|r||||
+E|D24|disease|viral infections|viral infections|r||||
+E|S1|symptom|seizure|seizure|r||||
+E|S2|phenotype|mitochondrial dysfunction|mitochondrial dysfunction|r||||
+X|Comorbidities|b0047|table_grouping_label
+X|L-carnitine|b0003|metabolite, not gene
+X|D-dimer|b0005|fibrin degradation product, not gene
+X|NF-kB|b0134|complex/family, not single gene
+X|IRCT20170609034406N10|b0011|trial registry identifier
+EV|V1|b0017.s1+b0017.s2|bg|bgr|aff|ebr
+EV|V2|b0134.s1+b0134.s2|bg|bgr|aff|ebr
+EV|V3|b0134.s3|bg|bgr|aff|ebr
+EV|V4|b0038.s10|ts|co|na|do
+EV|V5|b0015.s2|bg|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||ACE2 binding determines SARS-CoV-2 entry and severity
+P|G3|D1|sup|a|bg|sup:a:bg:V2|||IL-6 released during COVID-19 cytokine storm
+P|G3|D4|sup|a|bg|sup:a:bg:V2|||IL-6 listed as cytokine-storm mediator
+P|G4|D1|sup|a|bg|sup:a:bg:V2|||TNF-α released during COVID-19 cytokine storm
+P|G4|D4|sup|a|bg|sup:a:bg:V2|||TNF-α listed as cytokine-storm mediator
+P|G5|D1|unc|-|unk|unc:-:bg:V2|identity||IL-1 family member unresolved
+P|G6|D1|unc|-|unk|unc:-:bg:V2|identity||IL-12 subunit unresolved
+P|G7|D1|unc|-|unk|unc:-:bg:V2|identity||interferon alpha gene unresolved
+P|G9|D1|unc|-|unk|unc:-:bg:V3|identity||ferritin subunit gene unresolved
+P|G9|D16|unc|-|unk|unc:-:bg:V3|identity||ferritin subunit gene unresolved
+P|G2|D1|nf|-|||||V4+V5|elevated levels descriptive only, no comparator
+P|G8|D1|nf|-|||||V4|elevated levels descriptive only, no comparator
+F|F1|group_comparison|LDH change, LC vs placebo|COVID-19 inpatients|significant|negative|available|V6|treatment effect, not gene status
+F|F2|group_comparison|CRP and ferritin, LC vs placebo|COVID-19 inpatients|not_significant|null|available|V7|treatment effect, not gene status
+EV|V6|b0127.s3+b0114.s1+b0115.s1|ts|res|na|rr,cmp
+EV|V7|b0127.s2+b0096.s1+b0102.s1|ts|neg|na|rr,cmp
+U|Fig. 4|b0127.s2|figure image not provided
+R|lab protein markers|b0005.s5|CRP/LDH/ferritin serve as lab markers and gene products|kept as gene/ambiguous_gene; marker levels not treated as gene status

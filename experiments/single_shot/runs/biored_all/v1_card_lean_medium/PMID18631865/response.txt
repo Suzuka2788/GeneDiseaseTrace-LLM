@@ -1,0 +1,15 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; review article, no full text
+E|G1|gene|mammalian target of rapamycin|mToR;mammalian target of rapamycin|r||human||
+E|D1|disease|chronic allograft nephropathy|chronic allograft nephropathy|r|||||
+E|D2|disease|focal segmental glomerulosclerosis|focal segmental glomerulosclerosis|r|||||
+E|D3|disease|podocyte injury|Podocyte injury|r|||||
+E|S1|phenotype|proteinuria|proteinuria|r|||||
+X|calcineurin|b0002|protein complex named only as drug class target
+EV|V1|b0002.s4|bg|bgr|aff|ebr
+EV|V2|b0002.s1|bg|co|na|do
+P|G1|D2|sup|a|bg|sup:a:bg:V1||V2|FSGS related to mToR inhibition in patients
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||Podocyte injury related to mToR inhibition
+P|G1|D1|nf|-|||||V2|CAN is only the patient setting
+R|pharmacological inhibition as gene evidence|b0002.s4|Card does not address drug-mediated gene inhibition linked to disease|Treated as explicit background association, not causal
+R|proteinuria as primary endpoint|b0001.s1|Proteinuria is the main outcome but is a lab finding|Kept as auxiliary phenotype; no gene pair listed

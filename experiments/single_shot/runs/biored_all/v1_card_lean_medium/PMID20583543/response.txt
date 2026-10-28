@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SRD5A2|SRD5A2|r||human||
+E|G2|gene|androgen receptor|androgen receptor;AR|r||human||
+E|D1|disease|46,XY DSD|46,XY DSD|r||||
+E|D2|disease|micropenis|micropenis|r||||
+E|D3|disease|hypospadias|hypospadias|r||||
+X|SRD5A2 gene defect|b0002|gene status label, not a named disease
+X|p.R246Q|b0002|variant ID
+X|g.80_87delT CGCGAAG|b0002|variant ID
+X|p.G196S|b0002|variant ID
+EV|V1|b0002.s4+b0002.s6+b0002.s7|ts|res|aff|rr,eda
+EV|V2|b0002.s4+b0002.s9|ts|neg|neg|rr
+EV|V3|b0002.s8|ts|co|na|do
+EV|V4|b0002.s11|ts|co|na|do
+EV|V5|b0002.s10|ts|int|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V5|SRD5A2 mutations identified in 46,XY DSD cohort
+P|G2|D1|neg|-|ts|neg:-:ts:V2|||No AR mutation in 29 DSD patients by SSCP
+P|G1|D2|nf|-||||V3|Heterozygous variant detected, no attribution
+P|G1|D3|nf|-||||V4|Novel deletion detected, no explicit attribution
+F|F1|descriptive|SRD5A2 mutations|29 patients with 46,XY DSD|not_applicable|not_applicable|partial|V1|SSCP screening may miss variants
+F|F2|descriptive|AR mutations|29 patients with 46,XY DSD|not_applicable|null|partial|V2|SSCP screening only
+F|F3|descriptive|p.R246Q frequency|SRD5A2-mutant patients, Northern India|not_applicable|not_applicable|partial|V5|small sample, four families

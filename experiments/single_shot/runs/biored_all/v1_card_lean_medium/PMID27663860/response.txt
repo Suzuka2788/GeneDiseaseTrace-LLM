@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|angiotensin II type 1a receptor|angiotensin II type 1a receptor;AT1a receptor;AT1a|r||non-human||
+E|G2|gene|liver-type fatty acid binding protein|liver-type fatty acid binding protein;L-FABP|r||human||
+E|D1|disease|renal injury|renal injury|r||||
+E|D2|disease|deoxycorticosterone acetate-salt hypertension|deoxycorticosterone acetate-salt hypertension|r|||D3|
+E|D3|disease|hypertension|hypertension|r||||
+E|D4|disease|renal damage|renal damage|r||||
+E|D5|disease|glomerular sclerosis|glomerular sclerosis|r||||
+E|D6|disease|tubulointerstitial damage|tubulointerstitial damage|r||||
+E|D7|disease|glomerular damage|glomerular damage|r||||
+E|D8|disease|hypertensive renal damage|hypertensive renal damage|r||||
+E|S1|phenotype|expansion of glomerular area|expansion of glomerular area|r||||
+X|DOCA|b0002|chemical treatment abbreviation, not gene or disease
+EV|V1|b0002.s5|ts|res|aff|rr,cmp,mi
+EV|V2|b0002.s4+b0002.s5|ts|neg|neg|cmp,mi
+EV|V3|b0002.s8|ts|int|hyp|ho
+EV|V4|b0002.s6|ts|res|aff|rr,cmp,mi
+EV|V5|b0002.s2|ts|co|na|do
+EV|V6|b0002.s1+b0002.s2|ts|aim|q|none
+P|G1|D7|sup|c|ts|sup:c:ts:V1||V3|AT1a knockout worsened glomerular damage in DOCA mice
+P|G1|D3|neg|-|ts|neg:-:ts:V2|||Hypertension similarly induced regardless of AT1a status
+P|G1|D8|unc|-|ts|unc:-:ts:V3|hedged_claim||Only hedged conclusion of protective role
+P|G1|D6|unc|-|ts|unc:-:ts:V4|scope||Urinary L-FABP indicator only, damage not directly reported
+P|G1|D1|nf|-|||||V6|Title and aim only
+P|G2|D6|nf|-|||||V5|L-FABP used as measurement indicator only
+F|F1|group_comparison|glomerular damage by AT1a genotype|DOCA-salt female uninephrectomized mice|significant|positive|not_reported|V1|abstract only
+F|F2|group_comparison|blood pressure by AT1a genotype|DOCA-salt female uninephrectomized mice|unknown|null|not_reported|V2|abstract only, "similarly induced"
+F|F3|group_comparison|urinary L-FABP by AT1a genotype|DOCA-salt female uninephrectomized mice|significant|positive|not_reported|V4|abstract only

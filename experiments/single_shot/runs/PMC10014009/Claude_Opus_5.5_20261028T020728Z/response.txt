@@ -1,0 +1,68 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text b0001-b0117; supplementary tables S1-S3 unread
+E|G1|gene|KRIT1|KRIT1;KRTI1|p|suspected_typo|human||||
+E|G2|gene|CCM2|CCM2|r||human||||
+E|G3|gene|PDCD10|PDCD10|r||human||||
+E|G4|gene|ZPLD1|ZPLD1|r||human||||
+E|G5|gene|MAP3K3|MAP3K3;MEKK3|r||human||||
+E|G6|gene|Krit1|Krit1|p|species_unresolved|||||
+E|G7|gene|Ccm2|Ccm2|p|species_unresolved|||||
+E|G8|gene|Pdcd10|Pdcd10|p|species_unresolved|||||
+E|D1|disease|cerebral cavernous malformation|Cerebral cavernous malformation;cerebral cavernous malformation;CCM;CCMs|r|||||
+E|D2|disease|familial cerebral cavernous malformation|Familial cerebral cavernous malformation;familial cerebral cavernous malformation;Familial CCM;FCCM;familial CCM|r|||D1||
+E|D3|disease|sporadic CCM|sporadic CCM;sporadic CCMs|r|||D1||
+E|D4|disease|spinal cavernous malformation|spinal cavernous malformation;spinal CM;Spinal CM|r|||||
+E|D5|disease|cutaneous CM|cutaneous CM;Cutaneous CM|r|||||
+E|D6|disease|small vessel disease|small vessel disease|r|||||
+E|D7|disease|diffuse axonal injury|diffuse axonal injury|r|||||
+E|D8|disease|intracerebral hemorrhage|intracerebral hemorrhages|r|||||
+E|D9|disease|breast cancer|Breast cancer|r|||||
+E|D10|disease|thyroid cancer|Thyroid cancer|r|||||
+E|D11|disease|diffuse midline glioma|diffuse midline glioma;Diffuse midline glioma|r|||||
+E|D12|disease|adrenal adenoma|Adrenal adenoma|r|||||
+E|D13|disease|ACA infarction|ACA infarction|r|||||
+E|D14|disease|occipital lobe epilepsy|occipital lobe epilepsy;OLE|r|||||
+E|D15|disease|developmental venous anomaly|developmental venous anomaly|r|||||
+E|D16|disease|vascular malformation|vascular malformation|r|||||
+E|D17|disease|tumor|tumor;Tumor|r|||||
+E|D18|disease|cavernous malformation|cavernous malformation;CM|r|||||
+E|D19|disease|epilepsy|PLE|u|undefined_abbreviation|||||
+E|K1|clinical_event|cavernous angioma with symptomatic hemorrhage|cavernous angiomas with symptomatic hemorrhage;cavernous angioma with symptomatic hemorrhage;CASH|r|||||
+E|S1|symptom|seizure|seizures|r|||||
+E|S2|phenotype|brainstem lesions|brainstem lesions|r|||||
+X|CCM genes|b0007.s4|gene set, not a single gene
+X|CCM complexes|b0011.s9|protein complex
+X|CMM|b0099.s9|possible typo for CCM; no positive evidence, not merged
+X|Mutation detected|b0030.s1|group label
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0011.s3|bg|bgr|aff|ebr
+EV|V3|b0011.s7|bg|bgr|aff|ebr
+EV|V4|b0028.s1|ts|res|aff|rr,eda
+EV|V5|b0070.s2+b0070.s3|ts|res|aff|cs
+EV|V6|b0098.s9|bg|hyp|hyp|ho
+EV|V7|b0098.s12+b0098.s13|bg|bgr|aff|ebr
+EV|V8|b0098.s14|ts|int|hyp|ho
+EV|V9|b0099.s3|bg|bgr|aff|mi
+EV|V10|b0094.s13+b0094.s14|ts|res|aff|rr
+EV|V11|b0067.s7|ts|res|aff|cmp
+EV|V12|b0094.s7|ts|neg|neg|cmp
+P|G1|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V4+V5|||background cause; cohort genetic diagnosis
+P|G2|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V4|||background cause; cohort genetic diagnosis
+P|G3|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V4+V5|||background cause; cohort genetic diagnosis
+P|G1|D1|sup|c|bg|sup:c:bg:V3|||LOF leads to CCM formation
+P|G2|D1|sup|c|bg|sup:c:bg:V3|||LOF leads to CCM formation
+P|G3|D1|sup|c|bg|sup:c:bg:V3|||LOF leads to CCM formation
+P|G5|D3|sup|a|bg|sup:a:bg:V7|||GOF mutations found in sporadic CCM
+P|G5|D2|unc|-||unc:-:ts:V8|hedged_claim||authors speculate novel cause
+P|G4|D2|unc|-||unc:-:bg:V6|hedged_claim||cited proposal only
+P|G6|D1|sup|c|bg|sup:c:bg:V9|||animal model induced by heterozygous loss
+P|G7|D1|sup|c|bg|sup:c:bg:V9|||animal model induced by heterozygous loss
+P|G8|D1|sup|c|bg|sup:c:bg:V9|||animal model induced by heterozygous loss
+F|F1|group_comparison|brainstem lesion vs mutation detection|cohort 1 FCCM|significant|positive|available|V11|pooled genes; small sample
+F|F2|correlation|age vs large lesion count by gene|cohort 2|mixed|mixed|available|V10|KRIT1 positive, CCM2 negative, PDCD10 ns
+F|F3|association|CCM genotype vs first CASH|FCCM patients|not_significant|null|unread|V12|overall genotype test; Table S3
+C|C1|AUC three-marker model|b0007.s5;b0067.s7|noncritical|unresolved|0.928 vs 0.982
+C|C2|parietal frequency not-detected|b0060.s1;b0067.s2|noncritical|unresolved|50.0% vs 50.4%
+U|Table S1|b0070.s8|supplement not provided
+U|Table S2|b0094.s5|supplement not provided
+U|Table S3|b0094.s7|supplement not provided

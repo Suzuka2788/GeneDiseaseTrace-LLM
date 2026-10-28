@@ -1,0 +1,42 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, tables and captions; references removed
+E|G1|gene|CFTR|CFTR;cystic fibrosis transmembrane conductance regulator;CTFR|p|suspected_typo|human||
+E|D1|disease|cystic fibrosis|cystic fibrosis;CF|r||||
+E|D2|disease|CFTR-associated disorders|CFTR-associated disorders;CFTR-associated disease;CFTR-associated diseases|r|||D1|
+E|D3|disease|CF-related diabetes|CF-related diabetes;CFRD|r|||D1|
+E|D4|disease|allergic bronchopulmonary aspergillosis|allergic bronchopulmonary aspergillosis;ABPA|r||||
+E|D5|disease|distal intestinal obstruction syndrome|distal intestinal obstruction syndrome;DIOS|r||||
+E|D6|disease|salt wasting syndrome|salt wasting syndrome;SWS|r||||
+E|D7|disease|Pseudo-Bartter syndrome|Pseudo-Bartter syndrome|r||||
+E|D8|disease|pneumothorax|pneumothorax;Pneumothorax|r||||
+E|D9|disease|liver disease|liver disease;Liver disease|r||||
+E|D10|disease|cirrhosis|cirrhosis|r||||
+E|D11|disease|osteoporosis|osteoporosis;Osteoporosis|r||||
+E|D12|disease|amyloidosis|amyloidosis;Amyloidosis|r||||
+E|D13|disease|malignant tumors|malignant tumors|r||||
+E|D14|disease|meconium ileus|meconium ileus;Meconium ileus|r||||
+E|D15|disease|upper respiratory tract polyposis|upper respiratory tract polyposis;Upper respiratory tract polyposis|r||||
+E|D16|disease|pulmonary hemorrhage|pulmonary hemorrhage|r||||
+E|D17|disease|Diabetes|Diabetes|r||||
+E|D18|disease|steatosis|steatosis|r||||
+E|D19|disease|viral hepatitis|viral hepatitis|r||||
+E|D20|disease|portal hypertension|portal hypertension|r||||
+E|D21|disease|exercise-induced asthma|exercise-induced asthma|r||||
+E|D22|disease|chronic Pseudomonas aeruginosa infection|chronic Pseudomonas aeruginosa infection;Chronic P.aeruginosa|r||||
+E|S1|symptom|hemoptysis|Hemoptysis|r||||
+X|Disease complications in the reporting year|b0114|table_grouping_label
+X|L467F|b0032|variant ID
+X|F508del|b0006|variant ID
+EV|V1|b0004.s1|bg|bgr|aff|ebr
+EV|V2|b0031.s3+b0036.s5|bg|bgr|aff|ebr
+EV|V3|b0031.s2|bg|bgr|hyp|ebr
+EV|V4|b0002.s6+b0035.s1+b0071.s2|ts|res|na|cmp
+EV|V5|b0036.s1+b0037.s2|ts|int|hyp|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||CF caused by CFTR mutations
+P|G1|D2|sup|c|bg|sup:c:bg:V2;unc:-:bg:V3||V3|Cis CFTR variants cause CFTR-associated diseases
+F|F1|group_comparison|L467F complex allele vs clinical course|F508del homozygous CF, n=50 vs 479|not_significant|null|available|V4+V5|registry data; within-CFTR-genotype comparison
+F|F2|group_comparison|complex allele vs CFTR channel function ICM|3 vs 3 CF patients|unknown|negative|partial|V4|n=3; no test reported
+F|F3|group_comparison|complex allele vs modulator organoid response|3 organoid cultures vs 1 control|unknown|negative|partial||no statistical test
+F|F4|descriptive|complex allele frequency 8.2%|810 F508del homozygous patients|not_applicable|not_applicable|available||
+C|C1|complex allele group size|b0014.s1+b0052.s3|noncritical|unresolved|65 detected vs 50 in registry comparison
+R|comparator another CFTR genotype|b0035.s1|gene-status test lacks non-mutant comparator for complications|recorded as finding, pairs kept nf

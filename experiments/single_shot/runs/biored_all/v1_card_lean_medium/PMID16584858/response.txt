@@ -1,0 +1,31 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat ISPH-induced MI model study
+E|G1|gene|lactate dehydrogenase|lactate dehydrogenase;LDH|p|ambiguous_mapping|non-human||
+E|G2|gene|creatine phosphokinase isoenzymes|creatine phosphokinase isoenzymes;CK-MB|p|ambiguous_mapping|non-human||
+E|G3|gene|superoxide dismutase|superoxide dismutase|p|ambiguous_mapping|non-human||
+E|G4|gene|catalase|catalase|r||non-human||
+E|G5|gene|glutathione peroxidase|glutathione peroxidase|p|ambiguous_mapping|non-human||
+E|G6|gene|glutathione transferase|glutathione transferase|p|ambiguous_mapping|non-human||
+E|G7|gene|glutathione reductase|glutathione reductase|r||non-human||
+E|G8|gene|cerruloplasmin|cerruloplasmin|r||non-human||
+E|D1|disease|myocardial infarction|myocardial infarction;MI|r||||
+E|D2|disease|myocardial damage|myocardial damage|r||||
+E|D3|disease|cardiac damage|cardiac damage|r||||
+E|S1|phenotype|ischemic myocardium|ischemic myocardium|r||||
+EV|V1|b0002.s3|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s2+b0002.s3|ts|res|q|unc
+P|G1|D2|sup|a|ts|sup:a:ts:V1||||Raised serum activity marks ISPH myocardial damage in rats
+P|G2|D2|sup|a|ts|sup:a:ts:V1||||Raised serum activity marks ISPH myocardial damage in rats
+P|G1|D1|unc|-|ts|unc:-:ts:V4|coreference|||Damage-to-MI link implied, not explicit
+P|G2|D1|unc|-|ts|unc:-:ts:V4|coreference|||Damage-to-MI link implied, not explicit
+P|G3|D1|sup|a|ts|sup:a:ts:V2+V3||||Activity altered in MI rats versus normal
+P|G4|D1|sup|a|ts|sup:a:ts:V2+V3||||Activity altered in MI rats versus normal
+P|G5|D1|sup|a|ts|sup:a:ts:V2+V3||||Activity altered in MI rats versus normal
+P|G6|D1|sup|a|ts|sup:a:ts:V2+V3||||Activity altered in MI rats versus normal
+P|G7|D1|sup|a|ts|sup:a:ts:V2+V3||||Activity altered in MI rats versus normal
+P|G8|D1|sup|a|ts|sup:a:ts:V2||||Level altered in MI rats versus normal
+F|F1|group_comparison|serum LDH, CK-MB activity|ISPH-treated vs control rats|unknown|positive|not_reported|V1|abstract only; no statistics
+F|F2|group_comparison|cardiac antioxidant enzymes, cerruloplasmin|MI rats vs normal|unknown|unknown|not_reported|V2|direction stated only as altered
+F|F3|group_comparison|antioxidant enzyme activities|mangiferin-pretreated vs MI rats|significant|positive|not_reported|V3|

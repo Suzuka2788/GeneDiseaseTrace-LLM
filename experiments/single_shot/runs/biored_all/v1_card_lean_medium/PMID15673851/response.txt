@@ -1,0 +1,17 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; rat model; no full text
+E|G1|gene|NMDA receptor|N-methyl-D-aspartate receptors;NMDA receptors;N-methyl-d-aspartate (NMDA) receptors;NMDA receptor|p|ambiguous_mapping|non-human||
+E|D1|disease|degeneration of spinal motor neurons|degeneration of spinal motor neurons||||||
+E|D2|disease|spinal cord ischemia|spinal cord ischemia;Spinal cord ischemia|r||||
+E|D3|disease|spastic paraparesis|spastic paraparesis|r||||
+E|S1|phenotype|neurotoxic|neurotoxic|r||||
+E|S2|phenotype|dark-stained alpha-motoneurons|dark-stained alpha-motoneurons|r||||
+X|aortic occlusion|b0002.s1|procedure used to induce ischemia, not a disease
+X|MK-801|b0002.s5|chemical identifier, not a gene
+EV|V1|b0001.s1|ts|hyp|hyp|ho
+EV|V2|b0002.s5+b0002.s8|ts|res|na|rr,cmp
+EV|V3|b0002.s9+b0002.s10|ts|int|hyp|ho
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V2|hedged_claim,support_basis_unresolved|V2|Title hedged; MK-801 target link not stated
+P|G1|D2|unc|-|ts|unc:-:ts:V3|hedged_claim|V3|Opioid neurotoxicity via NMDA suggested only
+F|F1|group_comparison|IT MK-801 vs saline; dark-stained motoneurons|rats with morphine-induced spastic paraparesis|significant|negative|not_reported|V2|abstract only; no statistics
+R|complex as gene|G1|NMDA receptor is a multi-subunit complex, not a single gene|kept as provisional gene node with ambiguous_mapping

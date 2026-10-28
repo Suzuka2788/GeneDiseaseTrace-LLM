@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|STAT4|STAT4|r||human||
+E|D1|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r||||
+E|S1|symptom|renal symptoms|renal symptoms|r||||
+E|S2|symptom|neurologic manifestations|neurologic manifestations|r||||
+E|S3|phenotype|anti-snRNP Ab|anti-snRNP Ab|r||||
+E|S4|phenotype|anti-Scl-70 Ab|anti-Scl-70 Ab|r||||
+X|rs7582694|b0002|variant ID
+X|anti-snRNP Ab|b0002|autoantibody lab finding, not gene
+X|anti-Scl-70 Ab|b0002|autoantibody lab finding, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s4|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|int|aff|rr
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2+V3|||Background susceptibility plus case-control genotype and allele association
+F|F1|association|STAT4 C/G+C/C genotype vs SLE risk|253 SLE vs 521 controls|significant|positive|available|V2|
+F|F2|association|STAT4 C allele vs SLE risk|253 SLE vs 521 controls|significant|positive|available|V2|
+F|F3|association|STAT4 C carriers vs renal symptoms|SLE patients|significant|positive|available|V3|within-disease subgroup; comparator unclear
+F|F4|association|STAT4 C carriers vs neurologic manifestations|SLE patients|significant|positive|available|V3|within-disease subgroup; comparator unclear
+F|F5|association|STAT4 C carriers vs anti-snRNP Ab|SLE patients|significant|positive|available|V3|within-disease subgroup
+F|F6|association|STAT4 C carriers vs anti-Scl-70 Ab|SLE patients|significant|positive|available|V3|within-disease subgroup
+EV|V4|b0002.s5|ts|res|aff|rr,cmp
+EV|V5|b0002.s6|ts|res|aff|rr,cmp

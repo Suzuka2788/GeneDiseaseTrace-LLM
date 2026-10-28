@@ -1,0 +1,45 @@
+{
+  "paper_id": "PMC10014009",
+  "input_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+  "block_counts": {
+    "title": 1,
+    "section_heading": 22,
+    "paragraph": 32,
+    "caption": 5,
+    "table_row": 55,
+    "table_note": 2
+  },
+  "gene_count": 8,
+  "disease_count": 19,
+  "ambiguous_disease_candidate_count": 1,
+  "pair_count": 160,
+  "status_counts": {
+    "supported": 10,
+    "not_found": 139,
+    "uncertain": 11
+  },
+  "supported_edges": 10,
+  "mentions": 307,
+  "pair_set_complete": true,
+  "pair_unique": true,
+  "quotes_exact": true,
+  "mentions_exact": true,
+  "graph_includes_all_nodes": true,
+  "graph_only_supported": true,
+  "xml_graph_counts": {
+    "nodes": 28,
+    "edges": 10
+  },
+  "validation_scope": "本次分析自查与字符串/集合校验；不是独立人工验证，也不是准确率或召回率评估。",
+  "unresolved": [
+    "图片像素未提供",
+    "补充 DOCX 未提供",
+    "PLE 未定义",
+    "动物模型具体物种未注明",
+    "ZPLD1 仅提出的背景关联",
+    "MAP3K3 与 FCCM 仅推测",
+    "KRTI1/CMM 疑似排字错误的上下文合并",
+    "宽泛 vascular malformation 的范围与推测性证据",
+    "未读取被引文献原始研究"
+  ]
+}

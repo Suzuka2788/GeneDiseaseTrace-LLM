@@ -1,0 +1,17 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|EGFR|EGFR|r||human||
+E|D1|disease|lung cancer|lung cancer|r||||
+E|CE1|clinical_event|overall survival|overall survival|r||||
+X|EGFR Exon 19 deletion|b0002.s4|variant name, mapped to gene EGFR
+X|L858R|b0002.s4|variant name, not separate gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s8|ts|co|na|do
+EV|V3|b0002.s11|ts|res|aff|rr,cmp
+EV|V4|b0002.s13|ts|int|aff|rr
+P|G1|D1|sup|r|ts|sup:r:ts:V3+V4;sup:a:bg:V1|||V2|EGFR mutation correlates with survival in lung cancer
+P|G1|CE1|sup|r|ts|sup:r:ts:V3|||V4|OS correlated with EGFR mutation on erlotinib
+F|F1|association|plasma vs tumor EGFR mutation status|31 lung cancer patients|not_applicable|positive|partial|V2|61% concordance, no test reported
+F|F2|correlation|EGFR mutation status vs overall survival|erlotinib-treated lung cancer patients|significant|positive|partial|V3|subgroup size not given
+F|F3|descriptive|plasma detection of tumor EGFR mutations|matched tumor-mutant patients|not_applicable|not_applicable|available|V2|5/14 Exon19del, 3/4 L858R
+R|correlation scope|b0002.s11|Survival outcome within treated subgroup; unclear if a disease variable|Treated OS as a disease variable; recorded as correlation

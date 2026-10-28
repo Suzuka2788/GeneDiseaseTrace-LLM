@@ -1,0 +1,29 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|fras1|fras1|r||non-human||
+E|G2|gene|grip1|grip1|r||non-human||
+E|G3|gene|hmcn1|hmcn1|r||non-human||
+E|G4|gene|msxc|msxc|r||non-human||
+E|G5|gene|col4a4|col4a4|r||non-human||
+E|G6|gene|ahnak|ahnak|r||non-human||
+E|G7|gene|capn12|capn12|r||non-human||
+E|G8|gene|nrg2a|nrg2a;neuregulin 2a;Neuregulin 2a;Nrg2a|r||non-human||
+E|G9|gene|arhgef25b|arhgef25b|r||non-human||
+E|G10|gene|fkbp10b|fkbp10b|r||non-human||
+E|G11|gene|megf6a|megf6a|r||non-human||
+E|G12|gene|ErbB2|ErbB2|p|other|non-human||
+E|G13|gene|AKT|AKT|p|ambiguous_mapping|non-human||
+E|G14|gene|lgl2|lgl2;Lgl2|r||non-human||
+E|D1|disease|Skin disorders|Skin disorders|r||||
+E|S1|phenotype|thickened MFF edges|thickened MFF edges|r||||
+X|ErbB|b0002|gene family/receptor network, not a single gene
+X|ErbB2/3|b0001|combined ErbB2 and ErbB3 notation; ErbB2 kept as gene
+X|ZIP|b0002|project acronym, not a gene
+X|GBT|b0002|transposon construct, not a gene
+EV|V1|b0002.s6+b0002.s7+b0002.s8|ts|res|na|rr,mi
+EV|V2|b0002.s10+b0002.s11|ts|res|na|rr,mi
+EV|V3|b0002.s9|ts|res|na|rr
+F|F1|mechanism|nrg2a mutation; ridge cell polarity, MFF edges|zebrafish nrg2a mutant larvae|unknown|negative|not_reported|V1|abstract only; developmental phenotype, no disease
+F|F2|mechanism|lgl2 knockdown; nrg2a mutant phenotype|zebrafish nrg2a mutant embryos|unknown|positive|not_reported|V2|abstract only; rescue described qualitatively
+F|F3|mechanism|ErbB inhibition; Nrg2a signalling|zebrafish embryos|unknown|unknown|not_reported|V3|pharmacological; abstract only
+R|surface form|b0002.s6|ErbB3 is only written within ErbB2/3, so it has no verbatim surface form.|No ErbB3 entity was created; the ErbB2/3 notation is recorded as X.

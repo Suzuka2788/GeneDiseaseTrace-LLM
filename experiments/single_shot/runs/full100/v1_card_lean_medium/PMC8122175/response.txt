@@ -1,0 +1,72 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text given; supplementary figures S1-S4 unread
+E|G1|gene|DIAPH1|DIAPH1|r||human||
+E|G2|gene|DIAPH2|DIAPH2|r||human||
+E|G3|gene|DIAPH3|DIAPH3|r||human||
+E|G4|gene|mDia1|mDia1|r||non-human||
+E|G5|gene|mDia3|mDia3|r||non-human||
+E|G6|gene|mDia2|mDia2|r||non-human||
+E|G7|gene|Diaphanous|Diaphanous|r||non-human||
+E|G8|gene|IFT20|IFT20;IF20|p|suspected_typo|human||
+E|G9|gene|IFT22|IFT22|r||||
+E|G10|gene|IFT25|IFT25|r||||
+E|G11|gene|IFT88|IFT88|r||human||
+E|G12|gene|Ift88|Ift88|p|species_unresolved|||
+E|G13|gene|kif3|kif3|p|species_unresolved|||
+E|G14|gene|Rab11|Rab11|r||human||
+E|G15|gene|Rab8|Rab8|r||||
+E|G16|gene|BBS1|BBS1|r||human||
+E|G17|gene|Arl13B|Arl13B|r||human||
+E|G18|gene|PC1|PC1|p|undefined_abbreviation|human||
+E|G19|gene|Polycystin1|Polycystin1|r||human||
+E|G20|gene|Polycystin2|Polycystin2;PC2|r||human||
+E|G21|gene|Arf4|Arf4|r||human||
+E|G22|gene|DAAM1|DAAM1|r||||
+E|G23|gene|INF1|INF1|r||||
+E|G24|gene|RhoA|RhoA|r||||
+E|G25|gene|RhoC|RhoC|r||||
+E|G26|gene|RhoB|RhoB|r||||
+E|G27|gene|Cdc42|Cdc42|r||||
+E|G28|gene|Rb|Rb;RB|r||human||
+E|G29|gene|GAPDH|GAPDH|r||human||
+E|G30|gene|centrin|centrin;Centrin1;CETN1;CNTN1;CENT1;CNT|p|suspected_typo|human||
+E|G31|gene|EB3|EB3;Eb3|r||human||
+E|G32|gene|EB1|EB1|r||human||
+E|G33|gene|smoothened|smoothened|r||||
+E|G34|gene|profilin|profilin|p|ambiguous_mapping|||
+E|G35|ambiguous_gene|Rac|Rac|u|ambiguous_mapping|||
+E|D1|disease|ciliopathies|ciliopathies|r|||||
+E|D2|disease|AUNA1|AUNA1;auditory neuropathy, nonsyndromic, autosomal dominant, 1|r|||||
+E|D3|disease|premature ovarian failure|premature ovarian failure;POF|r|||||
+E|D4|disease|cystic kidney|cystic kidney|r|||D1|
+E|D5|disease|obesity|obesity|r|||D1|
+E|D6|disease|psychiatric and infertility disorders|psychiatric and infertility disorders|p|other||D1|
+E|S1|symptom|hearing loss|hearing loss|r|||||
+E|S2|symptom|blindness|blindness|r|||||
+E|S3|phenotype|skeletal abnormalities|skeletal abnormalities|r|||||
+X|retinoblastoma protein|b0009|protein name, not disease
+X|BBS proteins|b0004|protein group label, not single gene
+X|PACT|b0016|centrosome-targeting domain
+X|DIAPH3ACT;DIAPH3MT;DIAPH3TM|b0023|mutant constructs of DIAPH3
+X|Notch|b0003|signaling pathway
+X|Hedgehog (Hh)|b0003|signaling pathway
+EV|V1|b0005.s14+b0005.s15|bg|bgr|aff|ebr,eda
+EV|V2|b0005.s16|bg|bgr|aff|ebr
+EV|V3|b0029.s5|ts|int|hyp|ho
+EV|V4|b0009.s1+b0026.s2|bg|co|q|unc
+EV|V5|b0005.s13|bg|res|aff|mi
+EV|V6|b0002.s1+b0003.s2|bg|bgr|aff|ebr
+P|G3|D2|sup|c|bg|sup:c:bg:V1;unc:-:ts:V3|hedged_claim|V5|regulatory mutations cause overexpression leading to AUNA1
+P|G2|D3|sup|a|bg|sup:a:bg:V2|||DIAPH2 mutation linked to POF
+P|G1|D1|nf|-||||V4|phenotype similarity only, not association
+P|G2|D1|nf|-||||V4|phenotype similarity only, not association
+P|G3|D1|nf|-||||V4|phenotype similarity only, not association
+F|F1|mechanism|DIAPH2/DIAPH3 depletion; ciliation, cilia length|hTERT-RPE1 cells|significant|negative|partial|b0009.s5+b0010.s1+b0010.s7|cellular phenotype, no disease
+F|F2|mechanism|isoform-specific rescue of depletion|hTERT-RPE1 cells|significant|not_applicable|partial|b0009.s12+b0011.s2|codepletion data in unread supplement
+F|F3|mechanism|basal-body targeted DIAPH3; length, bulbs, trafficking|hTERT-RPE1 cells|significant|positive|partial|b0016.s6+b0020.s5+b0021.s11|
+F|F4|mechanism|DIAPH3 microtubule mutant rescue|DIAPH3-depleted hTERT-RPE1 cells|significant|null|partial|b0023.s4+b0023.s5+b0024.s9|
+C|C1|DIAPH3 mutant named TM vs MT|b0023.s2+b0024.s1|noncritical|resolved|same microtubule-defective construct
+C|C2|same siRNA ID for DIAPH1, DIAPH2|b0035.s2|noncritical|unresolved|catalog number duplicated
+C|C3|DIAPH2 figure compares siDIAPH1 rescue|b0010.s6|noncritical|unresolved|likely copy error in legend
+U|Figures S1-S4|b0009.s3;b0012.s2;b0018.s5;b0020.s10|not provided
+R|hearing loss symptom vs AUNA1|b0029.s5|human DIAPH3 overexpression hearing loss not named AUNA1|linked to AUNA1 via b0005.s14-s15 co-reference

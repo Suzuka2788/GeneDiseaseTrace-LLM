@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|sodium/iodide symporter|sodium/iodide symporter;NIS|r|||human||
+E|G2|gene|TSH|TSH|p|other|human||
+E|D1|disease|congenital hypothyroidism|Congenital hypothyroidism;congenital hypothyroidism|r|||||
+E|D2|disease|iodide transport defect|Iodide transport defect;ITD|r|||||
+E|D3|disease|hypothyroidism|hypothyroidism|r|||||
+E|D4|disease|nodular goitre|nodular goitre|r|||||
+E|S1|symptom|iodide uptake|iodide uptake|r|||||
+X|COS-7|b0002|cell line, not a gene
+X|del-(439-443)|b0002|variant identifier
+EV|V1|b0001.s1+b0002.s12|ts|res|aff|eda,rr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s8+b0002.s9+b0002.s10|ts|res|na|do
+EV|V4|b0002.s11|ts|int|hyp|mi,ho
+P|G1|D1|sup|c|ts|sup:c:ts:V1|||NIS deletion explicitly attributed as cause of CH
+P|G1|D2|sup|c|bg|sup:c:bg:V2;unc:-:ts:V4|hedged_claim|V3|Background: ITD arises from NIS abnormalities
+P|G1|D3|nf|-||||V1|Patient's hypothyroidism; no relation propagated
+F|F1|descriptive|NIS indel genotype|patient and consanguineous parents|not_applicable|not_applicable|not_applicable|V3|single family
+F|F2|mechanism|mutant NIS iodide concentration|transfected COS-7 cells|unknown|negative|not_reported|V4|cell model only
+R|recombinant protein as gene|b0002.s6|recombinant human TSH is a reagent, not gene evidence|kept as provisional gene; no pairs

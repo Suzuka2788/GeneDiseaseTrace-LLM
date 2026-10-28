@@ -1,0 +1,24 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|Ras|Ras genes;Ras|p|ambiguous_mapping|human|||
+E|G2|gene|H-Ras|H-Ras|r||human|||
+E|G3|gene|cyclin D1|cyclin D1|p|species_unresolved||||
+E|G4|gene|cyclin D2|D2|p|species_unresolved||||
+E|G5|gene|p27Kip1|p27Kip1|p|species_unresolved||||
+E|G6|gene|p57Kip2|p57Kip2|p|species_unresolved||||
+E|G7|gene|Erk1|Erk1|p|species_unresolved||||
+E|G8|gene|Erk2|Erk2|p|species_unresolved||||
+E|G9|gene|Spry1|Spry 1|p|species_unresolved||||
+E|G10|gene|Spry2|Spry 2|p|species_unresolved||||
+E|G11|gene|Prox1|Prox1|p|species_unresolved||||
+E|G12|gene|Keratin 12|Keratin 12|p|species_unresolved||||
+E|D1|disease|human cancers|cancers|r|||||
+E|D2|disease|tumor|Tumor|r|||||
+X|FGF signaling pathway|b0002|pathway, not single gene
+X|Ras-Raf-Erk signaling|b0002|pathway, not single gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|pre|unc
+P|G1|D1|sup|a|bg|sup:a:bg:V1||||Ras frequently mutated in human cancers
+P|G1|D2|unc|-|bg|unc:-:bg:V2|presupposed_only|||Tumor development via Ras presupposed only
+F|F1|group_comparison|Ras transgene vs proliferation and targets|transgenic mouse lens and cornea|unknown|positive|not_reported||No disease outcome; abstract only
+R|gene family|b0002.s1|Ras genes is a family, not one gene|Kept as provisional gene with ambiguous_mapping

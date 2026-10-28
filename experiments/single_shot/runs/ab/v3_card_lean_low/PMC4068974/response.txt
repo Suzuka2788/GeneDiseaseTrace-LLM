@@ -1,0 +1,49 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text read; supplementary files and movies unread
+E|G1|gene|LanB1|LanB1;Laminin B1;LamininB1|r||non-human||
+E|G2|gene|Cg25C|Cg25C;Dcg1;col4a1|r||non-human||
+E|G3|gene|vkg|vkg;viking;col4a2;Vkg|r||non-human||
+E|G4|gene|LanB2|LanB2|r||non-human||
+E|G5|gene|LanA|LanA;Laminin A|r||non-human||
+E|G6|gene|wb|wb;wing blister|r||non-human||
+E|G7|gene|LAMB2|LAMB2|r||human||
+E|G8|gene|COL4A1|COL4A1|r||human||
+E|G9|gene|COL4A2|COL4A2|r||human||
+E|G10|gene|org-1|org-1|r||non-human||
+E|G11|gene|trol|trol;terribly reduced optic lobes|r||non-human||
+E|G12|gene|prc|prc;pericardin;Pericardin|r||non-human||
+E|G13|gene|loh|loh;lonely heart|r||non-human||
+E|G14|gene|Mp|Mp;multiplexin|r||non-human||
+E|G15|gene|Ndg|Ndg|r||non-human||
+E|G16|gene|tin|tin;tinman;Tinman|r||non-human||
+E|G17|gene|Hand|Hand|r||non-human||
+E|G18|gene|Lamb1 (mouse)|Lamb1|p|species_unresolved|non-human||
+E|D1|disease|Pierson syndrome|Pierson syndrome;Pierson Syndrome|r||||
+E|D2|disease|porencephaly|porencephaly|r||||
+E|D3|disease|hemorrhagic stroke|hemorrhagic stroke|r||||
+E|D4|disease|small vessel disease|small vessel disease|r||||
+E|D5|disease|HANAC Syndrome|Hereditary Angiopathy with Nephropathy, Aneurysms, and Muscle Cramps;HANAC|r||||
+E|D6|disease|cardiomyopathies|cardiomyopathies|r||||
+E|D7|disease|collagen-related diseases|collagen-related diseases|r||||
+E|D8|disease|vasculature-related diseases|vasculature-related diseases|r||||
+E|S1|phenotype|alary muscle detachment|alary muscle detachment|r||||
+X|broken hearted|b0075.s1|phenotype name, not disease
+X|Df(2L)Exel7022|b0025.s5|deficiency identifier, not gene
+EV|V1|b0068.s10|bg|bgr|aff|ebr
+EV|V2|b0081.s1|bg|bgr|aff|ebr
+EV|V3|b0078.s2+b0084.s3|ts|int|hyp|ho
+EV|V4|b0066.s2|bg|hyp|hyp|ho
+EV|V5|b0071.s2|bg|res|aff|unc
+P|G7|D1|sup|c|bg|sup:c:bg:V1|||explicit cause statement
+P|G8|D2|sup|a|bg|sup:a:bg:V2|||mutations found in disease
+P|G8|D3|sup|a|bg|sup:a:bg:V2|||mutations found in disease
+P|G8|D4|sup|a|bg|sup:a:bg:V2|||mutations found in disease
+P|G8|D5|sup|a|bg|sup:a:bg:V2|||mutations found in disease
+P|G9|D2|sup|a|bg|sup:a:bg:V2|||lesser frequency, still reported
+P|G9|D3|sup|a|bg|sup:a:bg:V2|||lesser frequency, still reported
+P|G9|D4|sup|a|bg|sup:a:bg:V2|||lesser frequency, still reported
+P|G9|D5|sup|a|bg|sup:a:bg:V2|||lesser frequency, still reported
+P|G2|D7|unc|-|ts|unc:-:ts:V3|hedged_claim||parallels only, may contribute
+P|G18|D1|nf|-||||V5|corresponding mutation, no disease link
+F|F1|association|Cg25C alleles vs AM detachment fraction|Drosophila embryos, three temperatures|unknown|positive|partial|V3|no statistical test
+R|human vs fly gene|b0081.s1|COL4A1 human vs Cg25C col4a1 fly ortholog|kept separate species nodes

@@ -1,0 +1,62 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables 1-6, captions; Additional file 1 unread
+E|G1|gene|ASS1|ASS1;Argininosuccinate Synthetase 1|r||human||
+E|G2|gene|ASL|ASL;Argininosuccinate Lyase|r||human||
+E|G3|gene|OTC|OTC;Ornithine Transcarbamylase|r||human||
+E|G4|gene|ARG1|ARG1;Arginase|p|ambiguous_mapping|human||
+E|G5|gene|CPS1|CPS1;Carbamoyl phosphate synthetase 1;carbamoylphosphate synthetase 1|r||human||
+E|G6|gene|NAGS|NAGS;N-acetyl glutamate synthase|r||human||
+E|G7|gene|SLC25A13|SLC25A13|r||human||
+E|G8|gene|SLC7A7|SLC7A7|r||human||
+E|D1|disease|urea cycle disorders|Urea cycle disorders;UCDs;UCD;Urea Cycle Disorders;urea cycle disorders;Urea cycle disorder|r|||D11|
+E|D2|disease|citrullinemia type 1|Citrullinemia type 1;citrullinemia type 1;ASS1-D;Argininosuccinate synthetase type 1 deficiency|p|other||D1|
+E|D3|disease|ASL deficiency|ASL deficiency;ASL-D;Argininosucccinate lyase deficiency;argininosuccinic aciduria;Argininosuccinic aciduria;ASA|p|suspected_typo,other||D1|
+E|D4|disease|OTC deficiency|OTC deficiency;OTC-D;Ornithine transcarbamylase deficiency|r|||D1|
+E|D5|disease|arginase deficiency|arginase deficiency;ARG-D;Arginase deficiency|r|||D1|
+E|D6|disease|CPS1 deficiency|CPS1 deficiency;CPS1-D;CPS1 -D;carbamoyl phosphate synthetase|r|||D1|
+E|D7|disease|NAGS deficiency|NAGS deficiency;NAGS-D;N-acetyl glutamate synthase deficiency;N-acetylglutamate synthase|r|||D1|
+E|D8|disease|citrin deficiency|citrin deficiency;Citrin-D;Citrin deficiency;citrin|r|||D1|
+E|D9|disease|lysinuric protein intolerance|lysinuric protein intolerance;LPI;Lysinuric protein intolerance|r|||D1|
+E|D10|disease|inherited metabolic disorders|inherited metabolic disorders|r||||
+E|D11|disease|inborn errors of metabolism|inborn errors of metabolism|r||||
+E|D12|disease|recessive disorders|recessive disorders|r||||
+E|CE1|clinical_event|death|Death;death;mortality|r||||
+E|S1|symptom|hyperammonemia|hyperammonemia|r||||
+E|S2|symptom|neonatal encephalopathy|Neonatal encephalopathy|r||||
+E|S3|phenotype|developmental delay|Developmental delay|r||||
+E|S4|phenotype|liver disease|Liver disease|r||||
+E|S5|symptom|failure to thrive|Failure to thrive|r||||
+E|S6|phenotype|neonatal cholestasis|neonatal cholestasis|r||||
+X|ASA|b0209|metabolite abbreviation (argininosuccinic acid), not disease here
+X|ASA|b0168|metabolite level in table, not disease
+X|MRC Holland P079-OTC|b0022|probe mix identifier
+X|Types of UCD|b0028|table_grouping_label
+EV|V1|b0006.s1+b0174.s1+b0174.s2+b0174.s3|ts|res|aff|rr,eda
+EV|V2|b0211.s2|ts|res|aff|rr
+EV|V3|b0175.s1+b0175.s3+b0214.s7|ts|res|aff|rr
+EV|V4|b0176.s1+b0176.s3+b0215.s1+b0215.s2|ts|res|aff|rr,eda
+EV|V5|b0215.s3+b0215.s4+b0215.s5|bg|bgr|aff|ebr
+EV|V6|b0176.s5+b0176.s6|ts|res|aff|rr
+EV|V7|b0176.s5+b0176.s7+b0176.s8+b0176.s9+b0176.s10|ts|res|aff|rr,cs
+EV|V8|b0173.s1+b0176.s5|ts|res|q|unc
+EV|V9|b0060.s2|ts|co|na|do
+EV|V10|b0214.s6|ts|int|hyp|ho
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V2;unc:-:ts:V10||V9|ASS1 mutations confirm citrullinemia type 1 diagnosis
+P|G2|D3|sup|a|ts|sup:a:ts:V3||V9|ASL mutations found in ASL deficiency cases
+P|G3|D4|sup|a|both|sup:a:ts:V4;sup:a:bg:V5||V9|OTC mutations in OTC deficiency; literature agrees
+P|G4|D5|sup|a|ts|sup:a:ts:V6||V9|ARG1 variants in arginase deficiency cases
+P|G5|D6|sup|a|ts|sup:a:ts:V7||V9|CPS1 variants in CPS1 deficiency, RNA confirmed
+P|G6|D7|sup|a|ts|sup:a:ts:V6||V9|NAGS variants in NAGS deficiency cases
+P|G7|D8|unc|-|unk|unc:-:ts:V8|coreference|V9|Gene-disease mapping not stated explicitly
+P|G8|D9|unc|-|unk|unc:-:ts:V8|coreference|V9|Gene-disease mapping not stated explicitly
+F|F1|descriptive|ASS1 p.Gly390Arg, p.Arg157His allele frequency|citrullinemia type 1, 110 alleles|not_applicable|not_applicable|available|V1|
+F|F2|descriptive|ASL zygosity by centre|ASL deficiency, Centre 1 vs 2|not_applicable|not_applicable|available|V3|small numbers
+F|F3|association|OTC mutation type vs severity|OTC deficiency patients|unknown|positive|not_reported|V4|no statistical test
+F|F4|hypothesis|ASS1 genotype-phenotype correlation|citrullinemia type 1|unknown|unknown|not_reported|V10|hedged, no data
+F|F5|descriptive|no pathogenic variant on targeted testing|5 cases ASL/OTC|not_applicable|null|available|V9|
+C|C1|ASS1 c.1168G>A vs c.1168G>C|b0174.s3+b0079.s1|noncritical|unresolved|same protein change p.Gly390Arg
+C|C2|ASS1 c.570T>A vs c.570C>A|b0072.s1+b0133.s1|noncritical|unresolved|same p.Tyr190Ter
+C|C3|CPS1 c.236+4 vs c.254+4|b0176.s8+b0151.s1|noncritical|unresolved|same novel splice variant
+C|C4|OTC deficiency case count 24 vs 26|b0005.s4+b0026.s1|noncritical|unresolved|abstract vs results
+U|Additional file 1 (Table S1)|b0052.s2;b0053.s1;b0220.s1|not provided
+R|merging by table count|b0026.s1;b0028.s1|Citrullinemia/ASA co-referenced with ASS1-D/ASL-D only via Table 1 counts|merged provisionally (identity p, other)

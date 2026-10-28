@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|miR-501|miR-501|p|species_unresolved||||
+E|G2|gene|Clcn5|Clcn5;chloride channel, voltage-sensitive 5|p|species_unresolved||||
+E|G3|gene|MYH3|MYH3;embryonic myosin heavy chain|p|species_unresolved||||
+E|G4|gene|gigaxonin|gigaxonin|p|species_unresolved||||
+E|D1|disease|CTX-induced muscle injury|muscle injury|r|||||
+E|D2|ambiguous_disease|pathological disease state (mdx model)|pathological disease state|u|ambiguous_mapping||||
+X|myosin heavy chain|b0001|gene family, not single gene
+X|adult myosin isoforms|b0002|gene set, not single gene
+X|mdx|b0002|mouse model or allele name, disease unnamed
+EV|V1|b0002.s2|ts|co|na|do
+EV|V2|b0002.s5|ts|res|aff|rr
+EV|V3|b0002.s3|ts|res|aff|mi
+EV|V4|b0002.s4|ts|res|aff|rr
+P|G1|D2|unc|-|ts|unc:r:ts:V2|identity|V2|Serum level tracks disease state; disease unnamed
+P|G1|D1|nf|-||||V1+V3|Expression and regeneration effects only; no injury outcome
+F|F1|correlation|miR-501 expression vs Clcn5 expression|MPs during CTX injury|unknown|positive|not_reported|V1|
+F|F2|mechanism|miR-501 inhibition vs MYH3 induction|regenerating mouse muscle|unknown|negative|not_reported|V3|
+F|F3|mechanism|gigaxonin as miR-501 target, MYH3|primary myoblasts|unknown|unknown|not_reported|V4|
+F|F4|correlation|serum miR-501 vs disease state|mdx mice|unknown|positive|not_reported|V2|
+R|unnamed disease|b0002.s5|mdx disease state not named in text; no expansion allowed|Created an ambiguous disease entity; pair marked uncertain for identity

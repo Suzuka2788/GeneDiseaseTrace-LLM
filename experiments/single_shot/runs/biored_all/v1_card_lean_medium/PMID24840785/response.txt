@@ -1,0 +1,25 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|p38 MAPK|p38 MAPK;P38;P-P38;P38 mitogen-activated protein kinase|r||non-human||
+E|G2|gene|BCL-2|BCL-2|r||non-human||
+E|G3|gene|lactate dehydrogenase|lactate dehydrogenase|p|ambiguous_mapping|non-human||
+E|D1|disease|arrhythmia|arrhythmia|r||||
+E|D2|disease|cardiotoxicity|cardiotoxicity|r||||
+E|D3|disease|aconitine poisoning|aconitine poisoning|r||||
+E|D4|disease|myocardial injury|myocardial injury|r||||
+E|S1|phenotype|apoptosis|apoptosis|r||||
+E|S2|phenotype|Ca2+ overload|Ca2+ overload|r||||
+X|voltage-dependent Na(+) channels|b0002|gene family, not single gene
+X|MAPK family members|b0002|gene family, not single gene
+X|Ca(2+) handling proteins|b0002|unspecified protein set
+X|terminal deoxynucleotidyl transferase|b0002|assay name component
+EV|V1|b0001.s1|ts|res|aff|rr,unc
+EV|V2|b0002.s12+b0002.s13|ts|int|hyp|rr,ho
+EV|V3|b0002.s11|ts|res|na|do
+EV|V4|b0002.s6+b0002.s7|ts|res|na|do
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V2|scope,hedged_claim||p38 scope tied to apoptosis, not arrhythmia
+P|G1|D3|unc|-|ts|unc:-:ts:V2|hedged_claim||"suggest" mechanism; phosphorylation change only
+P|G2|D3|nf|-|||||V3|expression change only, no disease link
+P|G3|D4|nf|-|||||V4|LDH used as injury marker only
+F|F1|descriptive|P-P38/P38 ratio; aconitine|rat cardiac tissue|unknown|positive|not_reported|V2|abstract only
+F|F2|descriptive|BCL-2 expression; aconitine|rat myocytes/tissue|unknown|negative|not_reported|V3|abstract only

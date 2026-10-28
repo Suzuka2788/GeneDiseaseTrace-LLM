@@ -1,0 +1,23 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FH|Fumarate hydratase;fumarate hydratase;FH;fumarase|r||human||
+E|D1|disease|congenital fumarase deficiency|congenital fumarase deficiency;FH deficiency;deficiency of FH|r||||
+E|D2|disease|encephalopathy|encephalopathy|r||||
+E|D3|disease|multiple cutaneous and uterine leiomyomas|multiple cutaneous and uterine leiomyomas;MCUL|r||||
+E|D4|disease|hereditary leiomyomatosis and renal cell cancer|hereditary leiomyomatosis and renal cell cancer;HLRCC;HLRRC|p|suspected_typo|||
+E|D5|disease|renal cell cancer|renal cell cancer|r||||
+X|subunits of succinate dehydrogenase|b0002|complex, not single-gene endpoint
+X|succinate dehydrogenase gene mutation database|b0002|database name
+X|tumorigenesis|b0002|process term, not named disease
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr,eda
+EV|V3|b0001.s1+b0002.s9|bg|bgr|aff|ebr
+EV|V4|b0002.s4|bg|co|na|do
+P|G1|D2|sup|c|bg|sup:c:bg:V1||V3|FH deficiency stated to cause encephalopathy
+P|G1|D1|sup|a|bg|sup:a:bg:V3|||FH mutations involved in fumarase deficiency
+P|G1|D3|sup|a|bg|sup:a:bg:V2;sup:a:bg:V3|||germline FH mutations in MCUL patients
+P|G1|D4|sup|a|bg|sup:a:bg:V3|||FH mutations involved in HLRCC
+P|G1|D5|nf|-||||V4|RCC only syndrome component; no FH link stated
+F|F1|descriptive|FH variants; pathogenicity; mutation types|FH deficiency and MCUL/HLRCC patients|not_applicable|not_applicable|partial|V3|literature-derived counts
+R|suspected typo|b0002.s9|HLRRC appears in MCUL/HLRRC pattern matching MCUL (HLRCC)|merged into D4 as provisional suspected_typo
+R|merging|b0002.s9|FH deficiency vs congenital fumarase deficiency; FH equals fumarase explicitly|merged as synonym via explicit FH/fumarase identity

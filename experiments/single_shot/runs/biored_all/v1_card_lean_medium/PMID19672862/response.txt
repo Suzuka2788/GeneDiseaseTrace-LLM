@@ -1,0 +1,32 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PKCalpha|Protein kinase C alpha;PKCalpha|r||human||
+E|G2|gene|p21|p21(Cip1/WAF1);p21|r||human||
+E|G3|gene|p27|p27(Kip1);p27|r||human||
+E|G4|gene|PTEN|phosphatase and tensin homolog;PTEN|r||human||
+E|G5|gene|Akt|Akt|p|ambiguous_mapping|human||
+E|G6|gene|GSK-3beta|glycogen synthase kinase-3beta;GSK-3beta|r||human||
+E|G7|gene|ERK|ERK|p|ambiguous_mapping|human||
+E|G8|gene|EGF|EGF|r||human||
+E|D1|disease|endometrial cancer|Endometrial cancer;endometrial cancer|r||||
+E|D2|disease|gynecologic malignancy|gynecologic malignancy|r||||
+E|D3|disease|endometrial adenocarcinoma|endometrial adenocarcinoma|r||||
+E|D4|disease|Grade 1 endometrioid adenocarcinoma|Grade 1 endometrioid adenocarcinoma|r||||
+E|D5|disease|endometrial tumors|endometrial tumors|r||||
+X|protein kinase C (PKC)|b0002|gene family, not single gene
+X|cyclin-dependent kinase (CDK)|b0002|gene family, not single gene
+X|Ishikawa cells|b0002|cell line
+EV|V1|b0001.s1+b0002.s8|ts|int|aff|rr
+EV|V2|b0002.s3|ts|res|na|rr,mi
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s9|ts|hyp|hyp|ho
+EV|V5|b0002.s5|ts|co|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||V3|Authors conclude PKCalpha role in endometrial tumorigenesis
+P|G1|D3|unc|-|ts|unc:-:ts:V2|scope||Cell-model knockdown phenotypes only
+P|G1|D4|sup|a|ts|sup:a:ts:V3|||Elevated PKCalpha staining versus normal endometrium
+P|G1|D5|unc|-|ts|unc:-:ts:V4|hedged_claim||Therapeutic targeting stated as possibility
+P|G4|D3|nf|-||||V5|PTEN absence in cell line, descriptive only
+F|F1|mechanism|PKCalpha knockdown; growth, xenograft tumor formation|Ishikawa cells, nude mice|unknown|negative|not_reported|V2|abstract only
+F|F2|mechanism|PKCalpha knockdown; p21, p27 levels|Ishikawa cells|unknown|positive|not_reported|V1|abstract only
+F|F3|mechanism|PKCalpha knockdown; Akt, GSK-3beta, ERK phosphorylation|Ishikawa cells|unknown|negative|not_reported|V5|abstract only
+F|F4|group_comparison|PKCalpha staining|Grade 1 endometrioid adenocarcinoma vs normal|unknown|positive|not_reported|V3|IHC, no statistics

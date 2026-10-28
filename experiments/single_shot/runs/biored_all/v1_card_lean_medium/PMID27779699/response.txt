@@ -1,0 +1,25 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FLNA|FLNA;filamin A|r|||human||
+E|G2|gene|FLNB|FLNB;filamin B;FLNBv2;FLNBv4|r|||human||
+E|G3|gene|FLNC|FLNC;filamin C|r|||human||
+E|G4|gene|RANKL|RANKL|p|undefined_abbreviation|human||
+E|G5|gene|OCN|OCN|p|undefined_abbreviation|human||
+E|G6|gene|OPG|OPG|p|undefined_abbreviation|human||
+E|G7|gene|RUNX2|RUNX2|r|||human||
+E|D1|disease|Giant cell tumor of bone|Giant cell tumor of bone;GCT;giant cell tumor|r|||D2|
+E|D2|disease|non-malignant bone tumor|non-malignant bone tumor|r||||
+X|Filamins|b0002|gene family, not a single gene
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s9|ts|res|aff|rr
+EV|V3|b0002.s10|ts|int|hyp|ho
+EV|V4|b0002.s8|unk|bgr|aff|unc
+P|G2|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V3|||FLNBv4 expressed in GCT cells, minimal in osteoblasts
+P|G4|D1|unc|-|unk|unc:-:unk:V4|scope||Linked to GCT cell survival, not disease
+P|G5|D1|unc|-|unk|unc:-:unk:V4|scope||Linked to GCT cell survival, not disease
+P|G6|D1|unc|-|unk|unc:-:unk:V4|scope||Linked to GCT cell survival, not disease
+P|G7|D1|unc|-|unk|unc:-:unk:V4|scope||Linked to GCT cell survival, not disease
+F|F1|group_comparison|FLNBv4 expression|GCT cell lines vs normal osteoblasts|unknown|positive|not_reported|V1|abstract only
+F|F2|mechanism|FLNBv4 overexpression; RANKL, OCN, OPG, RUNX2|GCT cells|unknown|positive|not_reported|V4|abstract only
+F|F3|group_comparison|FLNBv4 vs FLNBv2; cell viability|GCT cells|unknown|negative|not_reported|V2|abstract only
+R|splice variants|b0002.s5|FLNBv2/FLNBv4 are transcript variants, not distinct genes|Merged as surface forms of FLNB

@@ -1,0 +1,23 @@
+{
+  "paper_id": "PMC6240673",
+  "source_sha256": "1b4559f864364b9b0085f6d410e7db5915384b069bec524ff79f9b31ca12f9df",
+  "reference_kind": "assistant-authored source-grounded development reference, not expert gold standard",
+  "scope": "Named gene/protein candidates and named diseases in included XML; generic symptoms, anatomical terms, fluorescent tags and database labels excluded. Ortholog IDs are not resolved.",
+  "usage": "Post-run development checks only; never supplied to inference tasks. This paper informed workflow changes and is not a held-out evaluation set.",
+  "entities": [
+    {"key": "POLR1C", "entity_type": "gene", "aliases": ["POLR1C", "polr1c", "RNA polymerase I and III subunit C"], "evidence": [{"block_id": "b0003", "quote": "RNA polymerase I and III subunit C (POLR1C)"}], "note": "Human constructs are explicit in b0005. Human, mouse, rat and yeast comparisons also occur; species context must be retained, not assumed identical biological genes."},
+    {"key": "LAMP1", "entity_type": "gene", "aliases": ["LAMP1"], "evidence": [{"block_id": "b0005", "quote": "an antibody against the lysosome marker LAMP1"}], "note": "Protein marker in this context. Include as gene/protein candidate with ambiguity; not independently established as a gene-level disease relation."},
+    {"key": "HLD_family", "entity_type": "disease", "aliases": ["Hypomyelinating leukodystrophis", "Hypomyelinating leukodystrophies", "HLDs", "HLD"], "evidence": [{"block_id": "b0002", "quote": "Hypomyelinating leukodystrophis (HLDs)"}], "note": "Disease family, not an alias of every subtype."},
+    {"key": "PMD_HLD1", "entity_type": "disease", "aliases": ["Pelizaeus-Merzbacher disease", "PMD", "HLD1"], "evidence": [{"block_id": "b0002", "quote": "Pelizaeus-Merzbacher disease (PMD, also called HLD1)"}], "note": "Explicit same-entity aliases. HLD11 is a separate named subtype."},
+    {"key": "HLD11", "entity_type": "disease", "aliases": ["HLD11"], "evidence": [{"block_id": "b0003", "quote": "associated with HLD11 (OMIN No. 616494)"}], "note": "Do not merge with HLD1."},
+    {"key": "TCS3", "entity_type": "disease", "aliases": ["Treacher-Collins syndrome 3"], "evidence": [{"block_id": "b0007", "quote": "Treacher-Collins syndrome 3 (OMIN No. 248390)"}], "note": "Same disease in body and captions, not separate identities due to missing species labels."}
+  ],
+  "relation_checks": [
+    {"gene": "POLR1C", "disease": "HLD11", "expectation": "positive", "evidence": [{"block_id": "b0003", "quote": "Two missense mutations Asn-32-to-Ile (N32I) and Asn-74-to-Ser (N74S) of the polr1c gene are associated with HLD11 (OMIN No. 616494)"}], "note": "Explicit association in cited background. Cell phenotypes add study evidence but do not alone prove disease causation."},
+    {"gene": "POLR1C", "disease": "TCS3", "expectation": "positive", "evidence": [{"block_id": "b0013", "quote": "Alignment among mammals in the POLR1C amino acid sequences. Human, mouse, and rat POLR1C amino acid sequences and some amino acid numbers are shown. Red letters indicate the position of missense mutations associated with HLD11. Blue letters indicate those associated with Treacher-Collins syndrome 3."}], "note": "Caption explicitly associates POLR1C sequence mutation positions with this disease; classify as association, not demonstrated causation."},
+    {"gene": "POLR1C", "disease": "PMD_HLD1", "expectation": "no_positive", "evidence": [{"block_id": "b0002", "quote": "which resemble prototypic Pelizaeus-Merzbacher disease (PMD, also called HLD1)"}], "note": "Resemblance of diseases does not establish this gene-disease edge. Absence of positive evidence is not a biological negative."},
+    {"gene": "LAMP1", "disease": "HLD11", "expectation": "no_positive", "evidence": [{"block_id": "b0005", "quote": "The structures partially corresponded to the ones stained with an antibody against the lysosome marker LAMP1"}], "note": "Lysosomal marker localization is not by itself a gene-disease association."}
+  ],
+  "excluded_surfaces": ["OMIN", "GFP"],
+  "not_scored": "Whether POLR1C-HLD11 should also propagate to the broad HLD family requires an explicit hierarchy policy. No complete edge precision/recall is claimed."
+}

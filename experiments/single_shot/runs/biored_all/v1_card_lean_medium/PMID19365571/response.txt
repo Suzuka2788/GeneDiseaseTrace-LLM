@@ -1,0 +1,12 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CHST6|CHST6;carbohydrate sulfotransferase gene|r||human||
+E|D1|disease|macular corneal dystrophy|Macular corneal dystrophy;macular corneal dystrophy;MCD|r||||
+X|keratan sulfate|b0002.s12|metabolite, not a gene
+X|KS|b0002.s12|metabolite abbreviation, not a gene
+EV|V1|b0002.s8+b0002.s10+b0002.s11|ts|res|aff|rr,cs,cmp
+EV|V2|b0001.s1|ts|res|aff|eda
+EV|V3|b0002.s12|ts|hyp|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2;unc:-:ts:V3|hedged_claim||Compound heterozygotes affected, carriers unaffected, absent in controls
+F|F1|descriptive|CHST6 compound heterozygosity vs affection status|11 family members; 100 controls|not_applicable|positive|not_applicable|V1|small single family
+R|causal wording|b0002.s12|Causal loss-of-function claim is hedged ("were thought to")|Recorded as an uncertain claim; main relation kept as association

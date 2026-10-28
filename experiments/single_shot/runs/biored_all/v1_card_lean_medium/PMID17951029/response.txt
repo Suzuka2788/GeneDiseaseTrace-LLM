@@ -1,0 +1,13 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|PORCN|PORCN|r||human||
+E|D1|disease|focal dermal hypoplasia|Focal dermal hypoplasia;FDH;Goltz syndrome|r||||
+E|S1|phenotype|osteopathia striata|osteopathia striata|r||||
+E|S2|phenotype|syndactyly|syndactyly|r||||
+E|S3|phenotype|dental caries|dental caries|r||||
+E|S4|symptom|hypoplastic dermis|hypoplastic dermis|r||||
+X|Wnt|b0002.s3|gene family/pathway, not a single gene
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s6+b0002.s7+b0002.s8|ts|res|aff|rr,eda
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2|||Background molecular basis; de novo nonsense mutation confirms diagnosis
+F|F1|descriptive|PORCN p.E300X heterozygous de novo|Thai girl with FDH; parents; 100 control chromosomes|not_applicable|not_applicable|not_applicable|V2|single case

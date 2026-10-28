@@ -1,0 +1,67 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text and captions; supplementary figures and tables unread
+E|G1|gene|NTRK1|NTRK1;TRKA;neurotrophic tyrosine kinase receptor type 1 gene;neurotrophic receptor tyrosine kinase 1|r||human||
+E|G2|gene|FAAH|FAAH|r||human||
+E|G3|gene|SPTBN2|SPTBN2|r||human||
+E|G4|gene|GRM6|GRM6|r||human||
+E|G5|gene|NGF|NGF;nerve growth factor;Nerve growth factor|r||human||
+E|G6|gene|BDNF|BDNF|r||human||
+E|G7|gene|TRPV1|TRPV1|r||human||
+E|G8|gene|CNR1|CNR1|r||human||
+E|G9|gene|OPRD1|OPRD1;DPRD1|p|suspected_typo|human||
+E|G10|gene|OPRK1|OPRK1|r||human||
+E|G11|gene|OPRM1|OPRM1|r||human||
+E|G12|gene|CNR2|CNR2|r||human||
+E|G13|gene|BDKRB2|BDKRB2|r||human||
+E|G14|gene|BDKRB1|BDKRB1|r||human||
+E|G15|gene|CX3CR1|CX3CR1|r||human||
+E|G16|gene|KCNQ3|KCNQ3|r||human||
+E|G17|gene|KCNQ2|KCNQ2|r||human||
+E|G18|gene|SCN1A|SCN1A|r||human||
+E|G19|gene|SCN11A|SCN11A|r||human||
+E|G20|gene|SCN10A|SCN10A|r||human||
+E|G21|gene|SCN8A|SCN8A|r||human||
+E|G22|gene|SCN9A|SCN9A|r||human||
+E|D1|disease|congenital insensitivity to pain with anhidrosis|Congenital insensitivity to pain with anhidrosis;congenital insensitivity to pain with anhidrosis;CIPA;hereditary sensory and autonomic neuropathy Type IV;HSAN-IV|r||||
+E|D2|disease|Riga-Fede disease|Riga-Fede disease|r||||
+E|D3|disease|osteochondroma|osteochondroma|r||||
+E|D4|disease|pneumonia|pneumonia|r||||
+E|D5|disease|osteomyelitis|osteomyelitis|r||||
+E|D6|disease|Charcot's joint|Charcot's joint|r||||
+E|S1|symptom|anhidrosis|anhidrosis|r||||
+E|S2|symptom|pain insensitivity|pain insensitivity|r||||
+E|S3|phenotype|intellectual disability|intellectual disability|r||||
+E|S4|phenotype|humoral immunodeficiency|humoral immunodeficiency|r||||
+E|S5|phenotype|palmoplantar keratoderma|palmoplantar keratoderma|r||||
+E|S6|phenotype|early onset renal disease|early onset renal disease|r||||
+E|S7|phenotype|bone fractures|bone fractures|r||||
+E|S8|symptom|self-mutilation|self-mutilation|r||||
+E|S9|phenotype|heterotopic ossification|heterotopic ossification|r||||
+X|S100 protein|b0016|immunohistochemical staining marker, not a studied gene
+X|pain matrix|b0010|conceptual gene/protein group, not a single gene
+X|uniparental disomy|b0011|genetic mechanism, not a disease entity
+EV|V1|b0003.s2|bg|bgr|aff|ebr
+EV|V2|b0011.s4|bg|bgr|aff|ebr
+EV|V3|b0011.s8|bg|bgr|aff|ebr,eda
+EV|V4|b0012.s4|bg|bgr|aff|ebr
+EV|V5|b0011.s14|bg|bgr|aff|ebr
+EV|V6|b0033.s6+b0033.s8|bg|bgr|aff|ebr
+EV|V7|b0005.s3+b0020.s4+b0033.s7+b0033.s10|ts|co|aff|do
+EV|V8|b0011.s13|bg|hyp|hyp|ho
+EV|V9|b0005.s4+b0025.s4|ts|hyp|hyp|ho
+EV|V10|b0034.s2+b0011.s15|bg|bgr|aff|ebr
+EV|V11|b0028.s3+b0036.s1+b0037.s1+b0038.s1|ts|int|na|none
+EV|V12|b0011.s5|bg|bgr|aff|ebr
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V3;sup:a:bg:V2+V4+V5+V6;unc:c:bg:V8||V7|Explicit background causal reports; patient genotype is descriptive only
+P|G2|D1|unc|-|ts|unc:a:ts:V9|hedged_claim,scope|V10|Possible link to CIPA phenotypic heterogeneity; hedged claim only
+P|G3|D1|nf|-|unk|||V11|PPI interactions only; no disease attribution
+P|G4|D1|nf|-|unk|||V11|PPI interactions only; no disease attribution
+P|G5|D1|nf|-|unk|||V12|NGF evidence concerns fracture consolidation, not CIPA
+F|F1|descriptive|P/LP variants across 46 genes|CIPA patient (trio NGS)|not_applicable|not_applicable|unread|V9|counts given; variant list in Table S3
+F|F2|mechanism|GO enrichment of 46 mutated genes|CIPA patient variant genes|significant|not_applicable|partial|V11|FDR<0.01 only; Table S5 unread
+F|F3|mechanism|PPI of NTRK1, GRM6, SPTBN2 with pain matrix|STRING network|significant|not_applicable|partial|V11|predicted interactions; Figure S3 and Table S6 unread
+C|K1|FAAH rs324420 pain phenotype direction|b0011.s15;b0034.s2|noncritical|unresolved|pain sensitivity versus pain insensitivity
+C|K2|count of 69 P/LP variants|b0025.s1;b0025.s4|noncritical|unresolved|"other 69" wording versus total of 69
+U|Additional file 4: Tables S1-S6|b0020.s2;b0025.s1;b0026.s6;b0028.s2|attachment not provided
+U|Additional files 1-3: Figures S1-S3|b0018.s11;b0020.s3;b0028.s2|attachment not provided
+R|R4|b0005.s4|Hypothesis targets CIPA phenotypic heterogeneity, not the CIPA diagnosis itself|Marked FAAH-CIPA uncertain with scope and hedged_claim

@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|TUBA1A|TUBA1A|r||human||
+E|G2|gene|Tuba1a|Tuba1a|r||non-human||
+E|G3|gene|Tuba8|Tuba8|p|species_unresolved|||
+E|D1|disease|cortical malformations|cortical malformations|r||||
+E|S1|phenotype|slowed migration|slowed migration|r||||
+X|a/b-tubulin heterodimers|b0002|protein complex, not single gene
+X|S140G|b0002|variant identifier
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s8|bg|bgr|aff|ebr
+EV|V3|b0002.s5+b0002.s6|ts|res|na|rr,mi
+EV|V4|b0002.s7|ts|res|na|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||Background: TUBA1A mutation associated with cortical malformations
+P|G3|D1|sup|a|bg|sup:a:bg:V2|||Background: Tuba8 previously associated with cortical malformations
+P|G2|D1|nf|-||||V3|Mouse migration phenotypes only, no disease link
+F|F1|mechanism|Tuba1a S140G vs neuronal migration|mice postnatal and adult brain|unknown|positive|not_reported|V3|abstract only
+F|F2|mechanism|Tuba1a mutation vs MT straightness|Tuba1a-mutant neurons|unknown|positive|not_reported|V4|abstract only
+R|species|b0002.s8|Tuba8 species not stated in mouse-study context|gene node with empty species, provisional

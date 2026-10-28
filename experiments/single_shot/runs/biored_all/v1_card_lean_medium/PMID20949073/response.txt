@@ -1,0 +1,12 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|CFTR|CFTR|r||human||
+E|D1|disease|cystic fibrosis|cystic fibrosis|r||||
+E|D2|disease|genetic disorders|genetic disorders|r||||
+X|E831X|b0002|variant ID, not a gene
+X|2623G>T|b0002|variant ID, not a gene
+EV|V1|b0002.s4|ts|res|aff|rr,eda
+EV|V2|b0002.s7|ts|int|aff|eda,unc
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||CF patients homozygous for CFTR E831X stop mutation
+F|F1|mechanism|E831X NAGNAG alternative splicing; phenotype severity|CF patients homozygous E831X|not_applicable|not_applicable|not_reported|V1+V2|abstract only; no statistics
+R|causal vs association|b0002.s7|Generic disease-causing UAG codon not explicitly tied to CF|kept association; did not upgrade to causal

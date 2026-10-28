@@ -1,0 +1,17 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|alpha2-adrenergic receptor|alpha2-adrenergic|p|ambiguous_mapping,species_unresolved|non-human||
+E|G2|gene|I1-imidazoline receptor|I1-imidazoline;I1-receptor;I1-receptors|p|ambiguous_mapping,species_unresolved|non-human||
+E|D1|disease|hypotension|hypotension|r|||||
+E|S1|phenotype|heart rate variability|heart rate variability|r|||||
+X|Ovx|b0002.s3|surgical model (ovariectomized), not a disease
+X|SDRR|b0002.s4|variability index, not a gene
+EV|V1|b0001.s1+b0002.s3+b0002.s5|ts|res|aff|rr,mi
+EV|V2|b0002.s7+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s10|ts|int|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2+V3|||Selective alpha2 agonist elicited hypotension; estrogen modulates it
+P|G2|D1|sup|a|ts|sup:a:ts:V1+V3|||Selective I1 agonist rilmenidine elicited hypotension
+F|F1|group_comparison|Ovx vs sham; alpha-methyldopa hypotension|female rats|significant|positive|not_reported|V2|abstract only
+F|F2|group_comparison|Ovx vs sham; rilmenidine hypotension|female rats|not_significant|null|not_reported|V2|abstract only
+F|F3|mechanism|estrogen replacement restores alpha-methyldopa effects|Ovx rats with 17beta-estradiol|unknown|negative|not_reported|V2|abstract only
+R|receptor-mediated drug hypotension|b0001.s1|attribution rests on agonist selectivity, not genetic manipulation|treated as supported association, not causal

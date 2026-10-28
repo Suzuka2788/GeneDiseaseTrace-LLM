@@ -1,0 +1,36 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TMEM67|meckelin;MKS3;TMEM67|r||human||
+E|D1|disease|nephronophthisis|Nephronophthisis;nephronophthisis;NPHP|r||||
+E|D2|disease|nephronophthisis with liver fibrosis (NPHP11)|nephronophthisis with liver fibrosis;NPHP11;NPHP with liver fibrosis|r|||D1|
+E|D3|disease|cystic kidney disease|cystic kidney disease|r||||
+E|D4|disease|chronic renal failure|chronic renal failure|r||||
+E|D5|disease|Senior-Loken syndrome|Senior-Loken syndrome|r||||
+E|D6|disease|Joubert syndrome|Joubert syndrome;JBTS|r||||
+E|D7|disease|Joubert syndrome type 6|Joubert syndrome (JBTS) type 6|r|||D6|
+E|D8|disease|Meckel-Gruber syndrome|Meckel-Gruber syndrome;MKS|r||||
+E|D9|disease|Meckel-Gruber syndrome type 3|Meckel-Gruber syndrome (MKS) type 3|r|||D8|
+E|D10|disease|liver fibrosis|liver fibrosis;congenital liver fibrosis|p|other|||
+E|S1|phenotype|retinal degeneration|retinal degeneration|r||||
+E|S2|phenotype|vermian agenesis|vermian agenesis|r||||
+E|S3|phenotype|brainstem and cerebellar anomalies|brainstem and cerebellar anomalies|r||||
+X|NPHP1-9|b0002|gene set label covering nine genes, not a single gene
+EV|V1|b0001.s1+b0002.s11|ts|res|aff|eda,rr
+EV|V2|b0002.s4+b0002.s5|ts|res|aff|cs,rr
+EV|V3|b0002.s6|ts|res|aff|rr
+EV|V4|b0002.s7|bg|bgr|aff|ebr
+EV|V5|b0002.s10|ts|res|aff|rr
+EV|V6|b0002.s13|ts|int|aff|eda
+EV|V7|b0002.s8+b0002.s9|ts|hyp|hyp|ho
+EV|V8|b0002.s12|ts|res|aff|rr
+P|G1|D2|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2+V3|||Hypomorphic mutations stated to cause NPHP11
+P|G1|D1|sup|a|ts|sup:a:ts:V6+V8||V7|NPHP stated allelic disorder of MKS3
+P|G1|D6|sup|a|both|sup:a:ts:V5+V6;sup:a:bg:V4|||Mutations found in JBTS cohort; background
+P|G1|D7|sup|a|bg|sup:a:bg:V4|||Mutations previously found in JBTS type 6
+P|G1|D8|sup|a|both|sup:a:bg:V4;sup:a:ts:V6||V7|MKS stated allelic disorder; background MKS type 3
+P|G1|D9|sup|a|bg|sup:a:bg:V4|||Mutations previously found in MKS type 3
+P|G1|D10|unc|-||unc:-:ts:V3+V5|scope||Liver fibrosis only within combined phenotypes
+F|F1|association|linkage LOD at chromosome 8q22|consanguineous family, three affected|significant|positive|partial|V2|single family
+F|F2|descriptive|MKS3/TMEM67 mutation frequency|62 NPHP with liver fibrosis patients|not_applicable|not_applicable|partial|V3|
+F|F3|descriptive|MKS3/TMEM67 mutation frequency|120 JBTS patients|not_applicable|not_applicable|partial|V5|
+F|F4|hypothesis|missense versus truncating mutations and severity|NPHP versus MKS/JBTS patients|unknown|unknown|not_reported|V7|hedged; no statistical test

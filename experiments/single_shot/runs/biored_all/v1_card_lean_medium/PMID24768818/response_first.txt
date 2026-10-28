@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|DDR1|DDR1|r|||human||
+E|G2|gene|DDR2|DDR2|r|||||
+E|G3|gene|ABL|Abelson kinase;ABL|r|||||
+E|D1|disease|fibrosis|fibrosis|r|||||
+E|D2|disease|atherosclerosis|atherosclerosis|r|||||
+E|D3|disease|cancer|cancer|r|||||
+E|D4|disease|lung cancer|lung cancer|r||||D3|
+E|S1|phenotype|drug resistance|drug resistance|r|||||
+X|DDRs|b0002|gene family/subfamily label, not a single-gene endpoint
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s9|bg|int|pre|unc
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||explicit background link of excessive signaling
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||explicit background link of excessive signaling
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||explicit background link of excessive signaling
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||explicit background link of excessive signaling
+P|G2|D2|sup|a|bg|sup:a:bg:V1|||explicit background link of excessive signaling
+P|G2|D3|sup|a|bg|sup:a:bg:V1|||explicit background link of excessive signaling
+P|G1|D4|unc|-|bg|unc:-:bg:V2|presupposed_only,hedged_claim||overexpression/mutation in lung cancer only presupposed
+P|G2|D4|unc|-|bg|unc:-:bg:V2|presupposed_only,hedged_claim||overexpression/mutation in lung cancer only presupposed

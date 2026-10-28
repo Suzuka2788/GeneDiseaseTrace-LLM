@@ -1,0 +1,25 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PGC-1a|peroxisome proliferator-activated receptor-g coactivator 1a;PGC-1a|r||human||
+E|G2|gene|transcription factor A mitochondrial|transcription factor A mitochondrial|r||human||
+E|G3|gene|AMPK|AMPK|p|ambiguous_mapping|human||
+E|G4|gene|serine-threonine liver kinase B1|serine-threonine liver kinase B1|r||human||
+E|G5|gene|MEF2C|myocyte-specific enhancer factor 2C;MEF2C|r||human||
+E|G6|gene|MYF5|myogenic factor 5;MYF5|r||human||
+E|D1|disease|diabetic nephropathy|diabetic nephropathy|r||||
+E|D2|disease|lactic acidosis|lactic acidosis|p|other|||
+X|high glucose|b0002.s4|culture condition, not a disease
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr
+EV|V3|b0002.s4+b0002.s6|ts|res|aff|mi
+P|G5|D1|sup|a|ts|sup:a:ts:V1||V3|Reduced expression in diabetic nephropathy kidney tissue
+P|G6|D1|sup|a|ts|sup:a:ts:V1||V3|Reduced expression in diabetic nephropathy kidney tissue
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V2|Reduced expression in diabetic nephropathy kidney tissue
+P|G2|D1|nf|-|||||V2|Altered only by high glucose in vitro
+P|G3|D1|nf|-|||||V2|Altered only by high glucose in vitro
+P|G4|D1|nf|-|||||V2|Altered only by high glucose in vitro
+P|G5|D2|nf|-|||||V3|Joint knockdown phenocopied glycolytic shift, not acidosis
+P|G6|D2|nf|-|||||V3|Joint knockdown phenocopied glycolytic shift, not acidosis
+F|F1|group_comparison|MEF2C, MYF5, PGC-1a expression|diabetic nephropathy patient kidney sections|unknown|negative|not_reported|V1|abstract only; no statistics reported
+F|F2|mechanism|combined MEF2C/MYF5 knockdown vs glycolytic shift|human podocyte cell line|unknown|positive|not_reported|V3|joint intervention; in vitro only
+F|F3|descriptive|TFAM, PGC-1a, AMPK, LKB1 expression|podocytes in high glucose|unknown|unknown|not_reported|V2|direction of alteration not specified

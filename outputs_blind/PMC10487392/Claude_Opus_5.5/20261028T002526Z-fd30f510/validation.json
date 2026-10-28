@@ -1,0 +1,100 @@
+{
+  "run_dir": "outputs\\PMC10487392\\rules-1.3.0\\20261028T002526Z-fd30f510",
+  "passed": true,
+  "genes": 2,
+  "targets": 4,
+  "pairs": 8,
+  "status_counts": {
+    "not_found": 6,
+    "supported": 2,
+    "uncertain": 0,
+    "explicit_negative": 0
+  },
+  "checks": [
+    {
+      "check": "manifest_source_sha256",
+      "passed": true,
+      "detail": "manifest=6acd0775e893d1ae75ce3e0c4363a149bc6ecece844d28e475c58a3634646f54"
+    },
+    {
+      "check": "manifest_rule_hashes",
+      "passed": true,
+      "detail": "rule_version=1.3.0; {\"SKILL.md\": \"8469cd2e3cfd2c9672155957181a43b2463ff448cb0d517655d5c333f924062e\", \"decision-rules.md\": \"00b8e4fd7b995248d2ac833f4027d992495dc0c7038940ef79a8656d31ae2958\", \"data-contract.md\": \"f74cffa0fee82711ba58e759066dcc18cceb3430f8bc6641cc31e08a74ed2d4e\"}"
+    },
+    {
+      "check": "entity_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "auxiliary_not_in_primary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mention_offsets",
+      "passed": true,
+      "detail": "126 mentions; failures=[]"
+    },
+    {
+      "check": "evidence_quotes_in_cited_block",
+      "passed": true,
+      "detail": "23 quotes; missing=[]"
+    },
+    {
+      "check": "evidence_offsets",
+      "passed": true,
+      "detail": "offset mismatches=[]"
+    },
+    {
+      "check": "evidence_ids_unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "matrix_is_full_product",
+      "passed": true,
+      "detail": "1 unit(s); 2 genes, 4 targets; expected pairs=8; rows=8; missing=0; extra=0; duplicates=0"
+    },
+    {
+      "check": "pair_enumerations",
+      "passed": true,
+      "detail": "bad rows=[]"
+    },
+    {
+      "check": "pair_status_requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pair_evidence_ids_exist",
+      "passed": true,
+      "detail": "dangling=[]"
+    },
+    {
+      "check": "edges_csv_equals_supported",
+      "passed": true,
+      "detail": "edges=2 supported=2"
+    },
+    {
+      "check": "graph_nodes_equal_primary_entities",
+      "passed": true,
+      "detail": "nodes=6 primary=6; extra=[]; missing=[]"
+    },
+    {
+      "check": "graph_edges_equal_supported",
+      "passed": true,
+      "detail": "graph_edges=2 supported=2"
+    },
+    {
+      "check": "manifest_status_counts",
+      "passed": true,
+      "detail": "manifest={'supported': 2, 'explicit_negative': 0, 'uncertain': 0, 'not_found': 6} actual={'not_found': 6, 'supported': 2, 'uncertain': 0, 'explicit_negative': 0}"
+    }
+  ],
+  "not_checked": [
+    "whether any judgment is biologically or textually correct",
+    "entities missed by the model",
+    "content of result.json beyond what the CSVs and GraphML carry"
+  ]
+}

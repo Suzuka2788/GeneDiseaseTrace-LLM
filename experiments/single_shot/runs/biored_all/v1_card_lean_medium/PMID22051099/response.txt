@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CXCR1|CXCR1;IL8RA;CXCR-1;IL8R-alpha;chemokine receptor 1|r||human||
+E|G2|gene|IL8|IL8;IL-8;interleukin 8|r||human||
+E|G3|gene|CXCR2|CXCR2|r||human||
+E|D1|disease|chronic periodontitis|chronic periodontitis|r||||
+E|D2|disease|lung cancer|lung cancer|r||||
+X|rs2234671|b0002.s2|variant identifier
+X|S276T|b0002.s2|amino acid substitution, not gene
+EV|V1|b0002.s5+b0002.s6+b0002.s7|ts|neg|neg|rr,cmp
+EV|V2|b0002.s2+b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s4|bg|bgr|aff|ebr
+P|G1|D1|neg|-|ts|neg:-:ts:V1|||rs2234671 not associated in Brazilian case-control
+P|G1|D2|sup|a|bg|sup:a:bg:V2|||rs2234671 associated with decreased lung cancer risk
+P|G2|D1|sup|a|bg|sup:a:bg:V3|||Prior group study: IL8 haplotypes associated
+P|G3|D1|sup|a|bg|sup:a:bg:V3|||Prior group study: CXCR2 haplotypes associated
+F|F1|group_comparison|rs2234671 allele and genotype frequencies|395 Brazilians with/without chronic periodontitis|not_significant|null|partial|V1|only p>0.05 reported

@@ -1,0 +1,30 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; mouse embryo study|
+E|G1|gene|SOD1|superoxide dismutase 1;Superoxide dismutase 1;SOD1|p|species_unresolved||||
+E|G2|gene|CHOP|C/EBP-homologous protein;CHOP|p|species_unresolved||||
+E|G3|gene|calnexin|calnexin|p|species_unresolved||||
+E|G4|gene|eIF2a|eukaryotic initiation factor 2a;eIF2a|p|species_unresolved||||
+E|G5|gene|PERK|PERK|p|species_unresolved||||
+E|G6|gene|binding immunoglobulin protein|binding immunoglobulin protein|p|species_unresolved||||
+E|G7|gene|protein disulfide isomerase family A member 3|protein disulfide isomerase family A member 3|p|species_unresolved||||
+E|G8|gene|IRE1a|inositol-requiring protein-1a;IRE1a|p|species_unresolved||||
+E|G9|gene|XBP1|X-box binding protein;XBP1|p|species_unresolved||||
+E|D1|disease|diabetic embryopathy|diabetic embryopathy|r||||
+E|D2|disease|maternal diabetes|Maternal diabetes;maternal diabetes;diabetes|r||||
+E|S1|phenotype|ER stress|ER stress|r||||
+E|S2|phenotype|oxidative stress|oxidative stress|r||||
+EV|V1|b0002.s1|bg|bgr|na|none
+EV|V2|b0002.s4|ts|res|aff|rr,cmp
+EV|V3|b0002.s5+b0002.s6|ts|res|aff|mi,rr
+P|G2|D2|sup|a|ts|sup:a:ts:V2|||Increased in embryos exposed to maternal diabetes
+P|G3|D2|sup|a|ts|sup:a:ts:V2|||Increased in embryos exposed to maternal diabetes
+P|G4|D2|sup|a|ts|sup:a:ts:V2|||Phosphorylation increased under maternal diabetes
+P|G5|D2|sup|a|ts|sup:a:ts:V2|||Phosphorylation increased under maternal diabetes
+P|G8|D2|sup|a|ts|sup:a:ts:V2|||Phosphorylation increased under maternal diabetes
+P|G9|D2|sup|a|ts|sup:a:ts:V2|||mRNA splicing triggered by maternal diabetes
+P|G6|D2|unc|-|unk||scope||Only gene-set level ER chaperone expression
+P|G7|D2|unc|-|unk||scope||Only gene-set level ER chaperone expression
+P|G1|D1|unc|-|ts||scope|V1;V3|Blocks ER stress; embryopathy outcome not reported
+F|F1|group_comparison|ER stress markers vs maternal diabetes|WT day 8.75 embryos|significant|positive|not_reported|V2|abstract only
+F|F2|mechanism|SOD1 overexpression vs ER stress markers|diabetic pregnancy embryos|unknown|negative|not_reported|V3|abstract only
+R|non-human species|SOD1 transgene|Transgene species not stated in abstract|Kept species empty, provisional species_unresolved

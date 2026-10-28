@@ -1,0 +1,29 @@
+﻿id,label,bipartite,species,entity_type,ambiguity
+G01,KRIT1,0,Homo sapiens,gene,KRTI1 是原文拼写，按同一三基因检测面板上下文判为 KRIT1 的疑似排字错误，不作独立基因。
+G02,CCM2,0,Homo sapiens,gene,
+G03,PDCD10,0,Homo sapiens,gene,
+G04,ZPLD1,0,人类患者语境；原句未另标物种,gene,只有讨论中转述他人提出的关联，本研究未测定此基因。
+G05,MAP3K3,0,人类散发 CCM 患者语境,gene,MEKK3 为蛋白产物名称，不是另一个已明确出现的基因。
+G06,Krit1,0,动物模型；所给原文未指明具体物种,gene,与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。
+G07,Ccm2,0,动物模型；所给原文未指明具体物种,gene,与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。
+G08,Pdcd10,0,动物模型；所给原文未指明具体物种,gene,与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。
+D01,cerebral cavernous malformation,1,人类；动物模型另有语境,disease,CMM 仅 b0099 出现一次，按相邻治疗 CCM 语境视为疑似笔误；保留原文。
+D02,familial cerebral cavernous malformation,1,人类,disease,
+D03,sporadic cerebral cavernous malformation,1,人类,disease,
+D04,spinal cavernous malformation,1,人类,disease,
+D05,cutaneous cavernous malformation,1,人类,disease,
+D06,cavernous angioma with symptomatic hemorrhage,1,人类,disease,病变伴症状性出血的复合临床事件，作为条件节点保留；不与所有 CCM 合并。
+D07,small vessel disease,1,人类,disease,
+D08,diffuse axonal injury,1,人类,disease,
+D09,intracerebral hemorrhage,1,人类,disease,原文指无 CCM 病灶的多发复发脑内出血，不与 CASH 合并。
+D10,developmental venous anomaly,1,人类,disease,本队列明确无人患此畸形；这不是基因—疾病关联阴性试验。
+D11,tumor,1,人类,disease,宽泛疾病家族；表2的具体肿瘤不并入此节点。
+D12,breast cancer,1,人类,disease,
+D13,thyroid cancer,1,人类,disease,
+D14,diffuse midline glioma,1,人类,disease,
+D15,adrenal adenoma,1,人类,disease,
+D16,left anterior cerebral artery infarction,1,人类,disease,
+D17,occipital lobe epilepsy,1,人类,disease,
+D18,PLE,1,人类,ambiguous,表2 K3 临床表现出现 PLE，正文及脚注未定义，不能按常识补为某种癫痫。
+D19,cavernous malformation,1,人类,disease,一般 CM 上位名称；不自动合并为脑 CCM 或脊髓/皮肤亚型。
+D20,vascular malformation,1,人类；机制描述,disease,宽泛畸形表述；b0100 是 KRIT1 蛋白组分功能推测，不足以支持对该宽泛家族的基因因果关系。

@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|PSA|prostate specific antigen;PSA|r||human||
+E|G2|gene|AR|androgen receptor;AR|r||human||
+E|D1|disease|prostate cancer|prostate cancer;PC|r||||
+E|D2|disease|benign prostatic hyperplasia|benign prostate hyperplasia;benign prostatic hyperplasia;BPH|r||||
+X|Nhe 1|b0002.s7|restriction enzyme, not a gene
+X|ARE|b0002.s2|androgen response element, regulatory region not gene
+X|malignant disease|b0002.s13|generic term, contextually PC; not separate entity
+EV|V1|b0002.s1|bg|hyp|hyp|ho
+EV|V2|b0002.s9+b0002.s10|ts|res|aff|rr,cmp
+EV|V3|b0002.s12|ts|int|aff|rr,eda
+EV|V4|b0002.s3|bg|bgr|hyp|unc
+EV|V5|b0002.s11+b0002.s13|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3;unc:-:bg:V1|||PSA GG genotype more frequent in PC cases
+P|G2|D1|unc|-|unk|unc:-:bg:V4;unc:-:ts:V5|hedged_claim,scope||Background hedged; result only joint CAG/GG genotype
+P|G1|D2|nf|-||||V2|BPH used only as comparator group
+F|F1|group_comparison|PSA GG genotype frequency|PC vs BPH vs population controls|significant|positive|partial|V2|abstract only
+F|F2|group_comparison|PSA GG frequency by age <65|PC cases|significant|positive|partial|V2|comparator group unclear
+F|F3|group_comparison|joint short CAG and PSA GG genotype|PC vs BPH and controls|significant|positive|partial|V5|joint genotype; not single gene
+R|gene sets|b0002.s11|Joint AR CAG/PSA GG genotype result, not individual gene|Not assigned to AR alone; AR-PC uncertain

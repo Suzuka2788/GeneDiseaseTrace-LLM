@@ -1,0 +1,38 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or statistics
+E|G1|gene|VPAC2 receptor|VPAC2;VIPR2;vasoactive intestinal peptide receptor type 2|r||non-human||
+E|G2|gene|vasoactive intestinal peptide|Vasoactive intestinal peptide;VIP|p|species_unresolved|||
+E|G3|gene|pituitary adenylyl cyclase-activating polypeptide|pituitary adenylyl cyclase-activating polypeptide;PACAP|p|species_unresolved|||
+E|G4|gene|VPAC1|VPAC1|p|species_unresolved|||
+E|G5|gene|PAC1|PAC1|p|species_unresolved|||
+E|G6|gene|TNF-alpha|TNF-alpha|r||non-human||
+E|G7|gene|IL-6|IL-6|r||non-human||
+E|G8|gene|IFN-gamma|IFN-gamma|r||non-human||
+E|G9|gene|IL-17|IL-17|r||non-human||
+E|G10|gene|IL-10|IL-10|r||non-human||
+E|G11|gene|TGFbeta|TGFbeta|r||non-human||
+E|G12|gene|IL-4|IL-4|r||non-human||
+E|G13|gene|CD4|CD4|r||non-human||
+E|G14|gene|CD25|CD25|r||non-human||
+E|G15|gene|FoxP3|FoxP3|r||non-human||
+E|D1|disease|experimental autoimmune encephalomyelitis|experimental autoimmune encephalomyelitis;EAE|r||||
+E|D2|disease|inflammatory disease|inflammatory disease|r||||
+E|D3|disease|autoimmunity|autoimmunity|p|other|||
+X|MOG35-55|b0002|immunizing peptide used to induce EAE, not a gene endpoint
+X|Th1/Th17|b0001|T-cell subset labels, not genes
+EV|V1|b0002.s2|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0001.s1+b0002.s4|ts|res|aff|rr,cmp,mi
+EV|V4|b0002.s7|ts|int|aff|unc
+P|G1|D1|sup|a|ts|sup:a:ts:V3|||VPAC2 deletion exacerbated induced EAE versus wild type
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||VIP-deficient mice showed ameliorated EAE
+P|G3|D1|sup|a|bg|sup:a:bg:V1|||PACAP-deficient mice showed exacerbated EAE
+P|G2|D2|sup|a|bg|sup:a:bg:V2|||Peptide anti-inflammatory in inflammatory disease models
+P|G3|D2|sup|a|bg|sup:a:bg:V2|||Peptide anti-inflammatory in inflammatory disease models
+P|G1|D3|unc|-|ts|unc:-:ts:V4|scope||Generalised conclusion beyond EAE model
+P|G3|D3|unc|-|unk|unc:-:unk:V4|scope,support_basis_unresolved||Protective claim generalised; PACAP not tested here
+F|F1|group_comparison|EAE clinical and histopathological severity|VPAC2-deficient vs wild type mice|unknown|positive|not_reported|V3|abstract only
+F|F2|group_comparison|pro- and anti-inflammatory cytokines in CNS/lymph nodes|VPAC2-deficient vs wild type EAE mice|unknown|mixed|not_reported|V3|abstract only
+F|F3|group_comparison|CD4+CD25+FoxP3+ Treg abundance and proliferation|VPAC2-deficient mice with EAE|unknown|negative|not_reported|b0002.s5|evidence by sentence ID
+F|F4|other|in vitro Treg suppressive activity|VPAC2-deficient lymph node, splenic Tregs|unknown|negative|not_reported|b0002.s6|evidence by sentence ID
+R|model-intervention causality|b0002.s2;b0002.s4|Knockout modifies severity of induced EAE rather than inducing disease|Recorded as association, not causal

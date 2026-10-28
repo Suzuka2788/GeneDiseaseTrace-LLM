@@ -1,0 +1,31 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|angiotensin II subtype 1a receptor|Angiotensin II subtype 1a receptor;angiotensin II subtype receptor 1a;AT1a|p|species_unresolved||||
+E|G2|gene|TGF-b1|transforming growth factor- b1;TGF-b1|p|species_unresolved||||
+E|G3|gene|CD31|CD31|p|species_unresolved,undefined_abbreviation||||
+E|G4|gene|F4/80|F4/80|p|species_unresolved,undefined_abbreviation||||
+E|D1|disease|liver metastasis|liver metastasis;Liver metastases|r|||||
+E|D2|disease|colorectal cancer|colorectal cancer;CRC|r|||||
+E|D3|disease|colon cancer|colon cancer|r|||||
+E|D4|disease|tumor|tumor|r|||||
+E|D5|disease|metastases|metastases|r|||||
+X|renin-angiotensin system|b0002|pathway, not single gene
+X|CMT-93|b0002|cell line identifier
+X|Angiotensin II|b0002|peptide ligand, not gene endpoint
+X|AT1aKO|b0002|mouse strain label
+EV|V1|b0002.s4+b0002.s5|ts|res|aff|mi,cmp,rr
+EV|V2|b0001.s1+b0002.s14|ts|int|aff|rr,mi
+EV|V3|b0002.s6+b0002.s7|ts|res|na|do
+EV|V4|b0002.s14|ts|int|hyp|ho
+EV|V5|b0002.s3|ts|aim|q|none
+EV|V6|b0002.s13|ts|res|aff|rr
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2;sup:a:ts:V6|||AT1a knockout reduced liver metastasis in mouse model
+P|G1|D2|unc|-|ts|unc:-:ts:V5+V1|scope||Aim names CRC; model studies metastasis only
+P|G2|D1|unc|-|ts|unc:-:ts:V4|hedged_claim|V3|TGF-b1 role stated as suggested mechanism
+P|G4|D1|nf|-|||||V3|Expression change only; macrophage marker, not gene test
+P|G3|D1|nf|-|||||V3|Expression change only, no disease attribution
+F|F1|group_comparison|liver weight, metastatic rate|AT1aKO vs WT mice|significant|negative|partial|V1|abstract only
+F|F2|group_comparison|CD31, TGF-b1, F4/80 mRNA|AT1aKO vs WT mice|unknown|negative|not_reported|V3|abstract only
+F|F3|group_comparison|metastasis formation by BM chimera|WT/AT1aKO BM chimeras|unknown|negative|not_reported|V1|b0002.s8-s9; no statistics
+F|F4|mechanism|Angiotensin II, TGF-b1 expression|Kupffer cells|unknown|positive|not_reported||b0002.s11
+F|F5|correlation|collagen deposition, liver metastasis|metastatic area, AT1a-dependent|unknown|positive|not_reported|V6|abstract only

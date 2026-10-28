@@ -1,0 +1,28 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, figures or methods
+E|G1|gene|b-catenin|b-catenin;b-Catenin|p|species_unresolved||||
+E|G2|gene|Shh|Shh|p|species_unresolved||||
+E|G3|gene|keratin 1|keratin 1|p|species_unresolved||||
+E|G4|gene|filaggrin|filaggrin|p|species_unresolved||||
+E|G5|gene|Bmp4|Bmp4|p|species_unresolved||||
+E|G6|gene|Bmp7|Bmp7|p|species_unresolved||||
+E|G7|gene|Msx2|Msx2|p|species_unresolved||||
+E|G8|gene|BmprIA|BmprIA|p|species_unresolved||||
+E|D1|disease|congenital malformations|congenital malformations|r||||
+E|D2|disease|anorectal malformations|anorectal malformations;ARMs;ARM|r|||D1|
+X|bone morphogenetic protein (Bmp) genes|b0002|gene family, not single gene
+X|Smad1/5/8|b0002|gene group, not single-gene endpoint
+X|Wnt|b0002|signaling pathway label
+X|Shh(CreERT2)|b0002|Cre driver construct; gene recorded as G2
+EV|V1|b0001.s1+b0002.s5+b0002.s14|ts|res|aff|mi,rr
+EV|V2|b0002.s11+b0002.s12+b0002.s13|ts|int|aff|mi,unc
+EV|V3|b0002.s9+b0002.s10|ts|res|na|do
+P|G1|D2|sup|c|ts|sup:c:ts:V1|||b-catenin LOF/GOF mutants model ARM phenotypes
+P|G8|D2|unc|-|ts|unc:-:ts:V2|scope||Rescue attributed to Bmp signaling pathway, not gene
+P|G5|D2|nf|-|ts||||V3|Expression induced; ARM causation stated pathway-level only
+P|G6|D2|nf|-|ts||||V3|Expression induced; ARM causation stated pathway-level only
+F|F1|mechanism|b-catenin LOF/GOF; URS elongation, perineal clefts|endodermal conditional mutants|unknown|positive|not_reported|V1|abstract only; non-human model
+F|F2|group_comparison|URS mesenchyme proliferation; epithelial apoptosis|b-catenin mutants|unknown|negative|not_reported|V1|abstract only
+F|F3|descriptive|Bmp4, Bmp7, Msx2 expression|b-catenin GOF mutants|unknown|positive|not_reported|V3|abstract only
+F|F4|mechanism|BmprIA heterozygosity; URS elongation|b-catenin GOF mutants|unknown|positive|not_reported|V2|partial restoration; abstract only
+R|pathway attribution|b0002.s13|Causal claim made for Bmp signaling, tested via single receptor gene|BmprIA-ARM kept uncertain (scope); members not assigned

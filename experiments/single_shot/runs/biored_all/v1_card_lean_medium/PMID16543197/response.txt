@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|CRB1|CRB1|r||human||
+E|G2|gene|crumbs|crumbs|r||non-human||
+E|D1|disease|Leber congenital amaurosis|Leber congenital amaurosis;LCA|r||||
+E|D2|disease|high hyperopia|high hyperopia;hyperopia|p|other|||
+E|D3|disease|retinitis pigmentosa|retinitis pigmentosa;RP|r||||
+X|G1103R|b0002|variant ID, not gene
+X|1q31.3|b0002|chromosomal locus, not gene
+EV|V1|b0001.s1|ts|res|aff|cs
+EV|V2|b0002.s6|ts|res|aff|rr,cs
+EV|V3|b0002.s11|ts|res|aff|cs,eda
+EV|V4|b0002.s7|bg|bgr|aff|ebr
+EV|V5|b0002.s8|bg|bgr|aff|ebr
+EV|V6|b0002.s10|bg|bgr|aff|ebr
+P|G1|D1|sup|a|both|sup:a:ts:V1+V2+V3;sup:a:bg:V4+V5+V6|||Linkage, co-segregation, and prior reported association
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V3|||Hyperopia co-inherited with CRB1 mutation in family
+P|G1|D3|sup|a|bg|sup:a:bg:V4+V6|||Background report of CRB1 association with RP
+F|F1|association|1q31.3 linkage with LCA and hyperopia|Middle Eastern family, four affected|significant|positive|partial|V2|LOD 5.20 only; single family
+R|hyperopia entity type|b0002.s5|High hyperopia may be a refractive phenotype or a disease endpoint|Treated as a provisional disease because it is a co-inherited primary condition

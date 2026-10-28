@@ -1,0 +1,58 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title, abstract, body, table rows/notes, captions; figure images unavailable
+E|G1|gene|MPZ|myelin protein zero;Myelin protein zero;MPZ;P0|r||human||
+E|G2|gene|PMP22|PMP22|r||human||
+E|G3|gene|GJB1|GJB1|r||human||
+E|G4|gene|SPTLC1|serine palmitoyltransferase, long-chain base subunit-1;SPTLC-1|r||human||
+E|G5|gene|RAB7|RAB7|r||human||
+E|G6|gene|PRX|periaxin|r||human||
+E|G7|gene|Prx (mouse)|periaxin|r||non-human||
+E|D1|disease|Charcot-Marie-Tooth disease|Charcot-Marie-Tooth disease;CMT;CMT disease|r||||
+E|D2|disease|intermediate Charcot-Marie-Tooth disease|Intermediate Charcot-Marie-Tooth disease;intermediate form of CMT;intermediate forms of CMT|r|||D1|
+E|D3|disease|CMT4F|CMT4F|r|||D1|
+E|D4|disease|hereditary neuropathy|hereditary neuropathy;hereditary neuropathies;Inherited neuropathies|r||||
+E|D5|disease|Fabry disease|Fabry disease|r||||
+E|D6|disease|familial amyloid neuropathy|familial amyloid neuropathy|r||||
+E|D7|disease|demyelinating neuropathy|demyelinating neuropathy;demyelinating neuropathies|r||||
+E|D8|disease|axonal neuropathy|axonal neuropathies|r||||
+E|D9|disease|neuropathic pain|neuropathic pain|r||||
+E|S1|symptom|sensory loss|sensory loss|r||||
+E|S2|phenotype|pes cavus|pes cavus|r||||
+X|PGP 9.5|b0012.s3|antibody tool marker, not studied gene
+X|myelin basic protein|b0012.s4|antibody staining tool, not studied gene
+X|collagen type 4|b0038.s2|staining marker for basement membrane
+X|D10537|b0008.s3|GenBank reference sequence accession, not entity
+X|Charcot-Marie-Tooth Disease Neuropathy Score|b0008.s5|clinical score, not a disease
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0005.s8+b0005.s9|ts|res|aff|eda
+EV|V3|b0003.s4+b0020.s5|ts|res|aff|cs
+EV|V4|b0026.s1|ts|res|aff|eda
+EV|V5|b0005.s7|bg|bgr|aff|ebr
+EV|V6|b0027.s3+b0027.s4|bg|bgr|aff|ebr
+EV|V7|b0003.s6|bg|bgr|aff|ebr
+EV|V8|b0027.s4+b0027.s5|bg|bgr|aff|ebr
+EV|V9|b0028.s3|bg|bgr|aff|ebr
+EV|V10|b0032.s1|ts|int|aff|eda
+EV|V11|b0028.s2|ts|res|aff|rr
+EV|V12|b0005.s1+b0005.s3|bg|bgr|aff|ebr
+EV|V13|b0005.s4|bg|bgr|aff|ebr
+EV|V14|b0020.s1|ts|neg|neg|do
+EV|V15|b0030.s4|bg|bgr|aff|mi
+EV|V16|b0003.s1|ts|co|na|do
+P|G1|D2|sup|c|ts|sup:c:ts:V1+V2+V3;sup:a:bg:V5+V6|||Novel MPZ mutation attributed, co-segregates in kindred
+P|G1|D1|sup|c|ts|sup:c:ts:V4;sup:a:bg:V5+V6|||Mutation results in mild CMT; background association
+P|G1|D4|sup|c|ts|sup:c:ts:V16+V2+V3;sup:a:bg:V7|||Kindred hereditary neuropathy due to MPZ mutation
+P|G1|D7|sup|a|bg|sup:a:bg:V7+V8|||Background: MPZ mutations cause demyelinating neuropathy
+P|G1|D8|sup|a|bg|sup:a:bg:V7+V8|||Background: MPZ mutations cause axonal-loss neuropathy
+P|G1|D9|sup|a|both|sup:a:ts:V1+V11+V10;sup:a:bg:V9|||Mutation carriers have definite neuropathic pain
+P|G4|D4|sup|c|bg|sup:c:bg:V12|||Hereditary neuropathy due to SPTLC-1 mutations
+P|G5|D4|sup|c|bg|sup:c:bg:V12|||Hereditary neuropathy due to RAB7 mutations
+P|G4|D9|unc|-|bg|unc:a:bg:V12|scope||Pain linked to neuropathy class, not gene directly
+P|G5|D9|unc|-|bg|unc:a:bg:V12|scope||Pain linked to neuropathy class, not gene directly
+P|G6|D3|sup|c|bg|sup:c:bg:V13|||CMT4F caused by periaxin mutations
+P|G6|D1|sup|c|bg|sup:c:bg:V13|||Periaxin mutations cause a CMT form
+P|G2|D2|nf|-|ts|||V14|Proband exclusion test only, no association tested
+P|G3|D2|nf|-|ts|||V14|Proband exclusion test only, no association tested
+P|G7|D9|nf|-|bg|||V15|Mouse pain-related hypersensitivity phenotype, not disease model
+F|F1|descriptive|MPZ Trp101X carrier status; affected status|English kindred, assessed affected members|not_applicable|not_applicable|not_reported|V3|no formal linkage statistics
+R|R1|b0028.s2|Neuropathic pain is symptom-like but assessed against diagnostic criteria|Included as primary disease target; pairs limited to stated evidence

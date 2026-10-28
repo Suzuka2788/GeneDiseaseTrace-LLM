@@ -1,0 +1,28 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|phosphodiesterase 4D|phosphodiesterase 4D;PDE4D|r||human||
+E|D1|disease|stroke|stroke|r|||||
+E|D2|disease|young stroke|young stroke|r|||D1|
+E|D3|disease|carotid atherosclerosis|carotid atherosclerosis|r|||||
+E|D4|disease|subclinical atherosclerosis|subclinical atherosclerosis|r|||||
+E|S1|phenotype|carotid intima-media thickness|IMT|r|||||
+E|S2|phenotype|plaque index|plaque index|r|||||
+X|rs702553|b0002|variant ID, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|unk|hyp|hyp|ho
+EV|V3|b0002.s8|bg|bgr|aff|ebr
+EV|V4|b0002.s10|ts|res|aff|rr,cmp
+EV|V5|b0002.s11+b0002.s12|ts|res|aff|rr,cmp
+EV|V6|b0002.s13|ts|res|aff|rr,cmp
+EV|V7|b0002.s14|ts|neg|neg|cmp
+EV|V8|b0002.s15|ts|res|aff|rr,cmp
+EV|V9|b0002.s16|ts|int|aff|rr
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V9|||Background susceptibility gene; study conclusion on stroke
+P|G1|D2|sup|a|both|sup:a:bg:V3;sup:a:ts:V8||V7|Prior report plus significant in men only
+P|G1|D3|sup|a|ts|sup:a:ts:V4+V5+V6+V9;unc:-:unk:V2|hedged_claim|V7|rs702553 TT associated with plaque/IMT in men
+P|G1|D4|sup|a|ts|sup:a:ts:V4+V5+V6||V7|IMT and plaque index defined as phenotypes
+F|F1|association|rs702553 rare homozygote vs plaque index≥4|overall subjects|significant|positive|partial|V4|
+F|F2|group_comparison|TT genotype frequency by plaque index|men, index≥4 vs 0|significant|positive|partial|V5|
+F|F3|association|TT vs AA+AT and thick IMT|men|significant|positive|partial|V6|
+F|F4|association|rs702553 vs IMT and plaque index|women|not_significant|null|partial|V7|
+F|F5|association|rs702553 vs young stroke|men vs women|mixed|positive|partial|V8|significant men only; reused prior data

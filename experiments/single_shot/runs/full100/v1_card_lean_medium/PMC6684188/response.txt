@@ -1,0 +1,56 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables and notes; references removed|
+E|G1|gene|GLA|GLA;alpha galactosidase A gene|r||human||
+E|D1|disease|Fabry disease|Fabry disease;FD;Fabry's disease|r||||
+E|D2|disease|hypertrophic cardiomyopathy|hypertrophic cardiomyopathy;Hypertrophic cardiomyopathy;HCM|r||||
+E|D3|disease|asymmetric septal hypertrophic cardiomyopathy|Asymmetric septal hypertrophic cardiomyopathy|r|||D2|
+E|D4|disease|cardiac variant of Fabry disease|cardiac variant|r|||D1|
+E|D5|disease|classic Fabry disease|classic FD|r|||D1|
+E|D6|disease|coronary artery disease|coronary artery disease|r||||
+E|D7|disease|valvulopathies|valvulopathies|r||||
+E|D8|disease|hypertensive cardiomyopathy|hypertensive cardiomyopathy|r||||
+E|D9|disease|cerebrovascular disease|cerebrovascular disease;CVD|r||||
+E|D10|disease|renal failure|renal failure|r||||
+E|D11|clinical_event|cardiac sudden death|cardiac sudden death|r||||
+E|D12|disease|transitory ischemic attack|transitory ischemic attack;TIA|r||||
+E|D13|disease|ischemic stroke|ischemic stroke;ischemic cerebrovascular accident;ICVA|r||||
+E|D14|disease|atrial fibrillation|atrial fibrillation;AFib|r||||
+E|D15|disease|ventricular tachycardia|ventricular tachycardia;VT|r||||
+E|D16|disease|atrioventricular block|atrioventricular block;Atrioventricular block;AVB|r||||
+E|D17|disease|first-degree atrioventricular block|first degree atrio-ventricular block;first-degree atrioventricular block;FDAVB|r|||D16|
+E|D18|disease|left bundle branch block|left bundle branch block;LBBB|r||||
+E|D19|disease|mitral insufficiency|mitral insufficiency|r||||
+E|D20|disease|myocardial ischemia|myocardial ischemia|r||||
+E|D21|disease|systemic arterial hypertension|systemic arterial hypertension|r||||
+E|D22|disease|arterial thrombosis|arterial thrombosis;arteria thrombosis|p|suspected_typo|||
+E|D23|disease|cardiac arrhythmias|cardiac arrhythmias|r||||
+E|S1|phenotype|left ventricular hypertrophy|left ventricular hypertrophy|r||||
+E|S2|phenotype|myocardial fibrosis|myocardial fibrosis|r||||
+E|S3|symptom|proteinuria|proteinuria|r||||
+E|S4|symptom|syncope|Syncope|r||||
+E|S5|phenotype|white matter lesions|white matter lesions|r||||
+X|α-Gal A|b0003|enzyme product/activity measure, not separate gene
+X|lyso-Gb3|b0003|biomarker
+X|sarcomeric genes|b0105|gene set, not single gene
+X|X-linked lysosomal storage disorder|b0003|descriptive class of FD
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0014.s1+b0014.s2|bg|bgr|aff|ebr
+EV|V3|b0014.s2+b0016.s1|bg|bgr|aff|ebr
+EV|V4|b0011.s1+b0039.s3+b0089.s1|ts|co|na|do
+EV|V5|b0011.s3+b0109.s3|ts|int|hyp|ho
+EV|V6|b0067.s1+b0102.s1+b0103.s2|ts|int|hyp|unc
+EV|V7|b0096.s1+b0096.s2|ts|res|na|cmp
+EV|V8|b0097.s1|ts|neg|neg|rr
+EV|V9|b0098.s5+b0102.s8|ts|int|hyp|unc
+EV|V10|b0099.s1+b0100.s1+b0100.s2|bg|bgr|q|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;unc:-:ts:V6+V9||V10|Background states GLA mutations cause FD
+P|G1|D2|unc|-|ts|unc:-:ts:V4+V5|support_basis_unresolved,hedged_claim|V7|Mutation frequency in HCM only, no comparator
+P|G1|D4|sup|a|bg|sup:a:bg:V3|||Specific mutations associated with cardiac variant
+P|G1|D5|nf|-||||V10|Variant pathogenicity debate, no gene-disease claim
+F|F1|descriptive|GLA mutation frequency|60 HCM patients|not_applicable|not_applicable|available|V4|no comparator group
+F|F2|group_comparison|clinical variables by GLA mutation|HCM with vs without mutation|not_significant|null|available|V7|n=4 mutation carriers
+F|F3|association|GLA mutation vs LGE pattern|GLA mutation carriers|unknown|null|not_reported|V8|
+F|F4|other|in silico pathogenicity of p.Pro323Thr|patient 1|not_applicable|positive|not_reported|V9|software prediction only
+C|C1|fibrosis means and p-value|b0057.s1+b0096.s1+b0096.s2|noncritical|unresolved|table 11.0/p0.82 vs text 10.5/p0.85
+C|C2|Pro323Thr substitution direction|b0065.s1+b0098.s3|noncritical|unresolved|text reverses threonine and proline
+C|C3|male carriers with low enzyme|b0065.s3+b0085.s1+b0102.s5|noncritical|unresolved|no male mutations vs male patient 4

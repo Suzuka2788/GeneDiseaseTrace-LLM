@@ -1,0 +1,42 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|NPHS2 (human podocin)|NPHS2;podocin|r||human||
+E|G2|gene|Nphs2 (mouse podocin)|podocin;NPHS2|p|species_unresolved|non-human||
+E|G3|gene|miRNA21|miRNA21|p|species_unresolved|non-human||
+E|G4|gene|miRNA-193a|miRNA-193a|p|species_unresolved|non-human||
+E|D1|disease|nephrotic syndrome|nephrotic syndrome|r||||
+E|D2|disease|hereditary nephrotic syndrome|hereditary nephrotic syndrome|r|||D1|
+E|D3|disease|podocin-mutation-related nephrotic syndrome|podocin-mutation-related nephrotic syndrome|r|||D1|
+E|D4|disease|end-stage renal disease|end-stage renal disease|r||||
+E|D5|disease|renal failure|renal failure|r||||
+E|D6|disease|tubulointerstitial fibrosis|tubulointerstitial fibrosis|r||||
+E|D7|disease|glomerulosclerosis|glomerulosclerosis|r||||
+E|S1|symptom|proteinuria|proteinuria|r||||
+E|S2|phenotype|foot process fusion|Foot process fusion|r||||
+E|S3|phenotype|segmentally sclerosed glomeruli|segmentally sclerosed glomeruli|r||||
+X|R138Q|b0002|variant ID
+X|R140Q|b0002|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s3|bg|bgr|aff|ebr,mi
+EV|V4|b0002.s4+b0002.s6|ts|res|aff|rr,mi
+EV|V5|b0002.s13|ts|int|aff|ebr,mi
+EV|V6|b0001.s1|ts|res|aff|mi
+EV|V7|b0002.s9|ts|res|aff|rr,mi
+EV|V8|b0002.s10|ts|res|aff|rr,mi
+EV|V9|b0002.s12|ts|res|na|do
+EV|V10|b0002.s11|ts|res|na|do
+P|G1|D2|sup|c|bg|sup:c:bg:V1||||NPHS2 mutations cause hereditary nephrotic syndrome
+P|G1|D4|sup|a|bg|sup:a:bg:V2||||R138Q associated with progression to ESRD
+P|G1|D1|sup|c|bg|sup:c:bg:V5||||Podocin mutation called most common genetic cause
+P|G1|D3|sup|a|bg|sup:a:bg:V6||||Disease named as podocin-mutation-related
+P|G2|D5|sup|c|both|sup:c:bg:V3;sup:c:ts:V4||||R140Q knock-in causes renal failure in mice
+P|G2|D1|sup|c|ts|sup:c:ts:V4+V5||||Inducible R140Q model of nephrotic syndrome
+P|G2|D3|sup|c|ts|sup:c:ts:V6+V4||||Inducible mouse model of this disease
+P|G2|D7|sup|c|ts|sup:c:ts:V7||||Induced mutation produces segmental glomerulosclerosis
+P|G2|D6|sup|c|ts|sup:c:ts:V8||||Induced mutation produces tubulointerstitial fibrosis
+P|G3|D1|nf|-||||V9|Expression change only in model
+P|G4|D1|nf|-||||V9|Expression change only in model
+F|F1|correlation|early proteinuria vs later fibrosis|R140Q-induced mice|significant|positive|not_reported|V8|abstract only
+F|F2|descriptive|R140Q podocin mRNA and protein|R140Q-induced mice|unknown|mixed|not_reported|V10|abstract only
+F|F3|descriptive|miRNA21 and miRNA-193a expression time course|R140Q-induced mice|unknown|positive|not_reported|V9|abstract only

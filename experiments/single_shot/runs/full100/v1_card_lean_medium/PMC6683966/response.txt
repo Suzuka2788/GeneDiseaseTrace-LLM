@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text b0001-b0098; no genes found in paper
+E|D1|disease|aortic valve stenosis|aortic valve stenosis;Aortic valve stenosis;AoS;aortic stenosis|r||||
+E|D2|disease|hypertension|hypertension;Hypertension|r||||
+E|D3|disease|dyslipidemia|Dyslipidemia|r||||
+E|D4|disease|diabetes mellitus|Diabetes mellitus|r||||
+E|D5|disease|coronary artery disease|Coronary artery disease;coronary artery disease;CAD|r||||
+E|D6|disease|stroke|stroke|r||||
+E|D7|disease|chronic obstructive pulmonary disease|COPD;Chronic Obstructive Pulmonary Disease|r||||
+E|D8|disease|renal disease|Renal disease|r||||
+E|D9|disease|valvular disease|valvular disease|r||||
+E|CE1|clinical_event|mortality|mortality|r||||
+E|S1|symptom|angina pectoris|angina pectoris|r||||
+E|S2|symptom|vertigo|Vertigo|r||||
+E|PH1|phenotype|aortic stiffness|aortic stiffness|r||||
+X|ACE|b0043|drug class (ACE inhibitor), not gene
+X|Cardiovascular risk factors|b0035|table_grouping_label
+X|Comorbidities|b0047|table_grouping_label
+F|F1|correlation|baseline aPWV vs SBP/DBP change|severe AoS patients after TAVI|significant|negative|available|b0079.s1|small sample, short-term only
+F|F2|group_comparison|high vs low aPWV, SBP/DBP reduction|severe AoS patients after TAVI|significant|positive|available|b0079.s4+b0079.s5|small sample
+R|no gene entities|whole paper|No genes present; gene-disease matrix empty|Recorded diseases only; no P lines

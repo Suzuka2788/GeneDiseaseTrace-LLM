@@ -1,0 +1,46 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text incl. Table 1 and captions; Drosophila molecular study
+E|G1|gene|Spt5|Spt5|r|||non-human||
+E|G2|gene|pho|Pho;pho;Pleiohomeotic|r|||non-human||
+E|G3|gene|YY1|YY1;Ying Yang 1|p|ambiguous_mapping|||
+E|G4|gene|Spt4|Spt4|r|||non-human||
+E|G5|gene|NELF-A|NELF-A|r|||non-human||
+E|G6|gene|NELF-B|NELF-B|r|||non-human||
+E|G7|gene|NELF-C/D|NELF-C/D|p|ambiguous_mapping|non-human||
+E|G8|gene|NELF-E|NELF-E|r|||non-human||
+E|G9|gene|eve|eve;even-skipped|r|||non-human||
+E|G10|gene|run|run;runt|r|||non-human||
+E|G11|gene|hairy|hairy|r|||non-human||
+E|G12|gene|Scr|Scr;Sex combs reduced|r|||non-human||
+E|G13|gene|Pc|Pc;Polycomb|p|ambiguous_mapping|non-human||
+E|G14|gene|Ph|Ph;Polyhomeotic|r|||non-human||
+E|G15|gene|Trl|Trl;GAF;GAGA factor|r|||non-human||
+E|G16|gene|CBP|CBP;CREB binding protein|r|||non-human||
+E|G17|gene|Ash1|Ash1|r|||non-human||
+E|G18|gene|Ubx|Ubx|r|||non-human||
+E|G19|gene|Abd-B|Abd-B|r|||non-human||
+E|G20|gene|Hsp70Aa|Hsp70Aa|r|||non-human||
+E|G21|gene|hsp70|hsp70;Hsp70|p|ambiguous_mapping|non-human||
+E|G22|gene|NusG|NusG|r|||||
+E|G23|gene|BRM|Brahma;BRM|p|other|non-human||
+E|G24|gene|GFP|GFP|r|||||
+E|D1|disease|cancer|cancer|r||||
+E|S1|phenotype|ectopic sex combs|ectopic sex combs|r||||
+E|S2|phenotype|wing inflation phenotype|wing inflation phenotype|r||||
+E|S3|phenotype|segmentation defects|segmentation defects|r||||
+X|PcG|b0002|gene group label, not single gene
+X|P-TEFb|b0002|protein complex
+X|NELF|b0005|protein complex
+X|DSIF|b0005|protein complex
+X|PRC1|b0051|protein complex
+X|INO80|b0057|protein complex
+X|HOX genes|b0057|gene set
+X|NURF|b0057|remodelling complex
+X|Polycomb phenotypes|b0035|phenotype label, not disease
+EV|V1|b0004.s2|bg|bgr|na|none
+P|G1|D1|nf|-|||||cancer linked to elongation failure generally, no gene
+F|F1|group_comparison|ectopic sex combs by Spt5W049 genotype|phocv/phocv males|significant|positive|partial|b0018.s5+b0025.s1|phenotype, not disease
+F|F2|group_comparison|ectopic sex combs by Spt5MGE-3 genotype|phocv/phocv males|not_significant|null|partial|b0018.s3+b0028.s1|phenotype, not disease
+F|F3|group_comparison|ectopic sex combs by NELF-AKG genotype|phocv/phocv males|significant|positive|partial|b0018.s6+b0031.s1|
+F|F4|group_comparison|wing inflation by Spt5 alleles|phocv/phocv flies|significant|positive|partial|b0035.s2+b0025.s1+b0028.s1|
+R|YY1 species|b0013.s5;b0050.s3|YY1 referred to as human, mammalian and mouse orthologue|kept one YY1 entity, species empty, ambiguous_mapping

@@ -1,0 +1,37 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PPARa|PPARa|r||human||
+E|G2|gene|PPARa (mouse)|PPARa|p|species_unresolved|non-human||
+E|G3|gene|PLIN2|PLIN2|r||human||
+E|G4|gene|VLDLR|VLDLR|r||human||
+E|G5|gene|ANGPTL4|ANGPTL4|r||human||
+E|G6|gene|CPT1A|CPT1A|r||human||
+E|G7|gene|PDK4|PDK4|r||human||
+E|G8|gene|ACSL5|ACSL5|r||human||
+E|G9|gene|AGPAT9|AGPAT9|r||human||
+E|G10|gene|FADS1|FADS1|r||human||
+E|G11|gene|SLC27A4|SLC27A4|r||human||
+E|G12|gene|POR|POR|r||human||
+E|G13|gene|ABCC2|ABCC2|r||human||
+E|G14|gene|CYP3A5|CYP3A5|r||human||
+E|G15|gene|CXCL9-11|CXCL9-11|p|other|human||
+E|G16|gene|CCL8|CCL8|r||human||
+E|G17|gene|CX3CL1|CX3CL1|r||human||
+E|G18|gene|CXCL6|CXCL6|r||human||
+E|G19|gene|interferon g|interferon g|p|other|human||
+E|G20|gene|IFITM1|IFITM1|r||human||
+E|G21|gene|IFIT1|IFIT1|r||human||
+E|G22|gene|IFIT2|IFIT2|r||human||
+E|G23|gene|IFIT3|IFIT3|r||human||
+E|G24|gene|TLR3|TLR3|r||human||
+E|G25|gene|NOS2|NOS2|r||human||
+E|G26|gene|LCN2|LCN2|r||human||
+E|G27|gene|TSKU|TSKU|r||human||
+E|G28|gene|RHOF|RHOF|r||human||
+E|G29|gene|CA12|CA12|r||human||
+E|G30|gene|VSIG10L|VSIG10L|r||human||
+E|D1|disease|non-alcoholic fatty liver disease|non-alcoholic fatty liver disease|r||||
+EV|V1|b0002.s12|ts|int|hyp|ho
+P|G1|D1|unc|-|ts|unc:-:ts:V1||hedged_claim||Anti-inflammatory effect "may be" relevant to NAFLD
+F|F1|mechanism|PPARa activation vs target gene expression|human liver slices|significant|mixed|partial|V1|abstract only; q<0.05 reported
+R|range gene name|b0002.s7|"CXCL9-11" denotes three genes in one written form|kept as one entity as written, flagged other

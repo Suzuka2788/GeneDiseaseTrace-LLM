@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|OPRM1|OPRM1;mu opioid receptor|r||human||
+E|D1|disease|addiction|addiction|r||||
+E|D2|disease|drug addiction|drug addiction|r|||D1|
+E|S1|phenotype|pain perception|pain perception|r||||
+X|A118G|b0002|variant ID, not a gene
+X|N40D|b0002|amino-acid substitution ID, not a gene
+X|complex disorder|b0002|generic category, not a named disease
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s8|bg|bgr|aff|ebr
+EV|V4|b0002.s3+b0002.s4|ts|res|na|rr
+EV|V5|b0002.s5+b0002.s7|ts|res|na|rr,mi
+EV|V6|b0002.s6|ts|neg|na|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V4+V5|background statement of key role in addiction
+P|G1|D2|sup|a|bg|sup:a:bg:V2+V3||V4+V5|background: variants implicated in addiction predisposition
+F|F1|descriptive|OPRM1 A118 vs G118 mRNA allele ratio|8 heterozygous human brain samples|unknown|positive|partial|V4|no disease outcome; small n
+F|F2|mechanism|OPRM1-G118 mRNA and protein levels|transfected CHO cells|unknown|negative|partial|V5|in vitro; no disease outcome
+F|F3|mechanism|A118 vs G118 mRNA stability|transfected cells, actinomycin D|not_significant|null|not_reported|V6|in vitro only

@@ -1,0 +1,12 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|type VII collagen gene|type VII collagen gene|r||human||
+E|D1|disease|recessive dystrophic epidermolysis bullosa|recessive dystrophic epidermolysis bullosa|r||||
+E|D2|disease|recessive dystrophic epidermolysis bullosa, Hallopeau-Siemens variant|HS-RDEB|r|||D1|
+X|3472delC|b0002|variant identifier, not a gene
+X|IVS51 + 1G-->A|b0002|variant identifier, not a gene
+EV|V1|b0001.s1|ts|res|aff|eda,rr
+EV|V2|b0002.s1+b0002.s6|ts|res|aff|eda,rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V2|Title attributes severe RDEB to novel mutations
+P|G1|D2|sup|a|ts|sup:a:ts:V2||V1|Proband's compound heterozygous mutations attributed to HS-RDEB
+F|F1|descriptive|type VII collagen gene mutations; HS-RDEB|single proband, nuclear family|not_applicable|not_applicable|not_applicable|V2|single case; abstract only

@@ -1,0 +1,35 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or figures
+E|g1|gene|Fas ligand (murine model transgene)|Fas ligand;FasL|p|species_unresolved||m|
+E|g2|gene|Fas ligand (human, HIV-positive patients)|Fas ligand|r||human||
+E|g3|gene|Fas (murine model)|Fas|p|species_unresolved|||
+E|g4|gene|caspase 3 (murine model)|caspase 3|p|species_unresolved|||
+E|g5|gene|calpain 1 (murine model)|calpain 1|p|species_unresolved|||
+E|g6|gene|dystrophin (murine model)|dystrophin|p|species_unresolved|||
+E|g7|gene|cardiac troponin I (murine model)|cardiac troponin I|p|species_unresolved|||
+E|d1|disease|dilated cardiomyopathy|Dilated cardiomyopathy;DCM|r||||
+E|d2|disease|myocarditis|myocarditis|r||||
+E|d3|disease|HIV infection|HIV-infected;HIV-positive|r||||
+E|d4|disease|heart failure|heart failure|r||||
+E|d5|disease|acquired immunodeficiency syndrome|acquired immunodeficiency syndrome;AIDS|r||||
+E|d6|disease|cardiac and skeletal myopathies|cardiac and skeletal myopathies|r||||
+E|d7|disease|AZT-induced cardiomyopathy|AZT-induced cardiomyopathy|r||||
+E|d8|disease|HAART-induced cardiomyopathy|HAART-induced cardiomyopathy|r||||
+E|ph1|phenotype|cardiac dilation|cardiac dilation|r||||
+E|ph2|phenotype|inflammatory infiltration|inflammatory infiltration|r||||
+X|FasL Tg|b0002|transgenic mouse line label, not a separate gene
+X|NTg|b0002|non-transgenic control label
+EV|V1|b0001.s1+b0002.s6|ts|res|aff|rr,mi,cmp
+EV|V2|b0002.s3|ts|aim|na|ho
+EV|V3|b0002.s5|ts|res|neg|rr,cmp
+EV|V4|b0002.s9|ts|int|hyp|ho
+EV|V5|b0002.s7+b0002.s8|ts|res|aff|rr,do
+P|g1|d7|sup|c|ts|sup:c:ts:V1|||FasL transgene plus AZT induced cardiomyopathy, non-human
+P|g1|d1|unc|-|ts|unc:-:ts:V2+V1|scope|V3|DCM model framing only; untreated Tg unaffected
+P|g2|d8|unc|-|ts|unc:-:ts:V4|hedged_claim||Authors' extrapolation to patients uses "might"
+P|g2|d3|nf|-|||||V4|FasL expression in HIV patients stated, no relation
+P|g3|d7|nf|-|||||V5|Molecular changes accompany model; tissue-level only
+P|g4|d7|nf|-|||||V5|Caspase activation accompanies model; tissue-level only
+F|F1|group_comparison|AZT dose vs cardiac dilation and function|FasL Tg vs NTg mice|unknown|positive|not_reported|V1+V3|abstract only; dose-dependence claimed
+F|F2|mechanism|Fas, FasL, caspase 3, calpain 1, dystrophin, cTnI|AZT-treated FasL Tg mice|unknown|positive|not_reported|V5|abstract only
+R|Gene x drug interaction model|b0002.s5-s6|Disease requires transgene plus AZT; transgene alone shows no change|Linked to AZT-induced cardiomyopathy only, not generic DCM

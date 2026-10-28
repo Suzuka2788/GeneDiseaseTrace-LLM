@@ -1,0 +1,30 @@
+﻿id,label,entity_type,bipartite,species,ambiguity
+D01,cerebral cavernous malformation,disease,1,人类；b0099另用于动物模型,CMM合并未经作者勘误；疾病作基因集合修饰语的提及不算病例证据。
+D02,familial cerebral cavernous malformation,disease,1,人类,
+D03,sporadic cerebral cavernous malformation,disease,1,人类,
+D04,spinal cavernous malformation,disease,1,人类,
+D05,cutaneous cavernous malformation,disease,1,人类,
+D06,cavernous angioma with symptomatic hemorrhage,clinical_event,1,人类,本轮明确纳入主矩阵的病变伴症状性出血复合事件；不与所有CCM或一般出血合并。
+D07,small vessel disease,disease,1,人类,
+D08,diffuse axonal injury,disease,1,人类,
+D09,intracerebral hemorrhage,disease,1,人类,
+D10,developmental venous anomaly,disease,1,人类,队列无人患病，不代表基因关联阴性。
+D11,tumor,disease,1,人类,tumorous condition为当时影像疑诊，不能改成病理确诊。
+D12,breast cancer,disease,1,人类,
+D13,thyroid cancer,disease,1,人类,
+D14,diffuse midline glioma,disease,1,人类,
+D15,adrenal adenoma,disease,1,人类,
+D16,left anterior cerebral artery infarction,disease,1,人类,
+D17,occipital lobe epilepsy,disease,1,人类,
+D18,PLE,ambiguous,1,人类,不能补成某种癫痫，不能与OLE合并；本轮纳入候选矩阵，identity未解决。
+D19,cavernous malformation,disease,1,人类,部位可由上下文补足的CM提及另作回指，不一律作部位未明。
+D20,vascular malformation,disease,1,人类/一般机制描述,b0011抑制机制未知；b0100为蛋白功能推测。
+D21,intracranial vascular malformation,disease,1,人类疾病定义,
+G01,KRIT1,gene,0,Homo sapiens；本研究为患者血样测序,疑似排字错误尚无作者勘误确认；KRIT1 protein为产物提及。
+G02,CCM2,gene,0,Homo sapiens；本研究为患者血样测序,
+G03,PDCD10,gene,0,Homo sapiens；本研究为患者血样测序,
+G04,ZPLD1,gene,0,人类FCCM背景语境，原句未显式标注物种,未纳入本研究面板；proposed关联的证据性质未解决。
+G05,MAP3K3,gene,0,人类散发CCM患者背景语境,MEKK3不是第二个独立基因节点。
+G06,Krit1,gene,0,非人动物模型；具体物种未注明,不根据大小写猜测小鼠；具体物种与跨物种映射未确认。
+G07,Ccm2,gene,0,非人动物模型；具体物种未注明,不根据大小写猜测小鼠；具体物种与跨物种映射未确认。
+G08,Pdcd10,gene,0,非人动物模型；具体物种未注明,不根据大小写猜测小鼠；具体物种与跨物种映射未确认。

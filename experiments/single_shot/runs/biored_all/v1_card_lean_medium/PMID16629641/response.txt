@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|erythropoietin|erythropoietin|p|other|human||
+E|D1|disease|hepatitis C virus infection|HCV infection|r||||
+E|D2|disease|chronic hepatitis C|chronic hepatitis C|r||||
+E|D3|disease|cirrhosis|cirrhosis|r||||
+E|D4|disease|hepatocellular carcinoma|hepatocellular carcinoma|r||||
+E|D5|disease|end-stage liver disease|end-stage liver disease|r||||
+E|D6|disease|anemia|anemia|r||||
+E|D7|disease|hemolytic anemia|hemolytic anemia|r|||D6|
+E|D8|disease|ribavirin-associated anemia|ribavirin-associated anemia|r|||D6|
+E|D9|disease|renal disorders|renal|p|other|||
+E|D10|disease|cardiovascular disorders|cardiovascular disorders|r||||
+E|S1|phenotype|hemolysis|hemolysis|r||||
+X|pegylated interferon|b0002|drug, not a gene endpoint
+X|Hemoglobin|b0002|protein complex lab measure, not single gene
+X|Viramidine|b0002|drug name
+EV|V1|b0002.s7|ts|co|na|do
+P|G1|D8|nf|-||||V1|recombinant protein used as therapy only
+R|recombinant drug named after gene|b0002.s7|Therapeutic protein use is not a gene-disease relation|Kept gene node; pair nf with context

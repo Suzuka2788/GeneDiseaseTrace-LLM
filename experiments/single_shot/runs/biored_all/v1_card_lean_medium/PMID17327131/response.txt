@@ -1,0 +1,14 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CYP2F1|CYP2F1|r||human||
+E|D1|disease|lung cancer|lung cancer|r||||
+E|D2|disease|chemically induced diseases|chemically induced diseases|p|other|||
+X|CYP2F1*2A|b0002.s5|variant allele name, not separate gene
+X|pneumotoxicants|b0002.s1|chemical class, not a disease
+EV|V1|b0002.s8|ts|neg|neg|cmp
+EV|V2|b0002.s7|ts|hyp|hyp|ho
+EV|V3|b0002.s3+b0002.s4|ts|co|na|do
+P|G1|D1|neg|-|ts|neg:-:ts:V1||V3|Preliminary case-control showed no polymorphism-lung cancer evidence
+P|G1|D2|unc|-|ts|unc:-:ts:V2|hedged_claim||Susceptibility to these diseases only suggested as possible
+F|F1|association|CYP2F1 polymorphism vs lung cancer|44 lung cancer cases, 46 controls|not_significant|null|not_reported|V1|preliminary; statistics not given in abstract
+F|F2|descriptive|CYP2F1*2A allele frequency, frameshift homozygotes|90 French Caucasians|not_applicable|not_applicable|partial|V3|no disease comparison reported

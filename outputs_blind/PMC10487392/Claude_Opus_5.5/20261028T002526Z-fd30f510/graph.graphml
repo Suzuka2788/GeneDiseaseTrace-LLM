@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="n_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="n_bipartite" for="node" attr.name="bipartite" attr.type="string"/>
+  <key id="n_entity_type" for="node" attr.name="entity_type" attr.type="string"/>
+  <key id="n_unit_id" for="node" attr.name="unit_id" attr.type="string"/>
+  <key id="n_identity_status" for="node" attr.name="identity_status" attr.type="string"/>
+  <key id="n_gene_species" for="node" attr.name="gene_species" attr.type="string"/>
+  <key id="n_ambiguity" for="node" attr.name="ambiguity" attr.type="string"/>
+  <key id="e_edge_id" for="edge" attr.name="edge_id" attr.type="string"/>
+  <key id="e_unit_id" for="edge" attr.name="unit_id" attr.type="string"/>
+  <key id="e_status" for="edge" attr.name="status" attr.type="string"/>
+  <key id="e_relation_type" for="edge" attr.name="relation_type" attr.type="string"/>
+  <key id="e_source_scope" for="edge" attr.name="source_scope" attr.type="string"/>
+  <key id="e_evidence_species" for="edge" attr.name="evidence_species" attr.type="string"/>
+  <key id="e_gene_species" for="edge" attr.name="gene_species" attr.type="string"/>
+  <key id="e_host_species" for="edge" attr.name="host_species" attr.type="string"/>
+  <key id="e_gene_alteration" for="edge" attr.name="gene_alteration" attr.type="string"/>
+  <key id="e_model_type" for="edge" attr.name="model_type" attr.type="string"/>
+  <key id="e_evidence_ids" for="edge" attr.name="evidence_ids" attr.type="string"/>
+  <key id="e_conditions" for="edge" attr.name="conditions" attr.type="string"/>
+  <key id="e_reason" for="edge" attr.name="reason" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="G1"><data key="n_name">VPS13B</data><data key="n_bipartite">gene</data><data key="n_entity_type">gene</data><data key="n_unit_id">u1</data><data key="n_identity_status">resolved</data><data key="n_gene_species">human</data><data key="n_ambiguity"></data></node>
+    <node id="G2"><data key="n_name">SERPINB1</data><data key="n_bipartite">gene</data><data key="n_entity_type">gene</data><data key="n_unit_id">u1</data><data key="n_identity_status">resolved</data><data key="n_gene_species">human</data><data key="n_ambiguity">Case variant SerpinB1 vs SERPINB1 is not used to infer species; context (human patients&#x27; neutrophils) is.</data></node>
+    <node id="D1"><data key="n_name">Cohen syndrome</data><data key="n_bipartite">target</data><data key="n_entity_type">disease</data><data key="n_unit_id">u1</data><data key="n_identity_status">resolved</data><data key="n_gene_species"></data><data key="n_ambiguity"></data></node>
+    <node id="D2"><data key="n_name">neurodevelopmental disease</data><data key="n_bipartite">target</data><data key="n_entity_type">disease</data><data key="n_unit_id">u1</data><data key="n_identity_status">resolved</data><data key="n_gene_species"></data><data key="n_ambiguity">Broad disease family used only as the definitional superclass of Cohen syndrome (R1/R7).</data></node>
+    <node id="D3"><data key="n_name">retinal dystrophy</data><data key="n_bipartite">target</data><data key="n_entity_type">disease</data><data key="n_unit_id">u1</data><data key="n_identity_status">resolved</data><data key="n_gene_species"></data><data key="n_ambiguity">Named disease term used as a variable clinical manifestation of Cohen syndrome (b0068) and as a monitoring target (b0069); kept in the primary matrix conservatively as an explicitly named disease (R1), not as a separate diagnosis in the two patients.</data></node>
+    <node id="D4"><data key="n_name">heart disease</data><data key="n_bipartite">target</data><data key="n_entity_type">disease</data><data key="n_unit_id">u1</data><data key="n_identity_status">resolved</data><data key="n_gene_species"></data><data key="n_ambiguity">Broad disease family listed as a variable clinical manifestation of Cohen syndrome (b0068); the patients &#x27;did not present any ... cardiologic abnormality&#x27;. Kept in primary matrix conservatively (R1 broad family used as relation object of a manifestation statement).</data></node>
+    <edge id="G1-D1" source="G1" target="D1"><data key="e_edge_id">G1-D1</data><data key="e_unit_id">u1</data><data key="e_status">supported</data><data key="e_relation_type">causal</data><data key="e_source_scope">背景引用</data><data key="e_evidence_species">human</data><data key="e_gene_species">human</data><data key="e_host_species"></data><data key="e_gene_alteration"></data><data key="e_model_type"></data><data key="e_evidence_ids">E1,E2,E3,E4,E5,E6</data><data key="e_conditions">{&quot;evidence_species&quot;: &quot;human&quot;}</data><data key="e_reason">Supported. Display type causal from background claim C1 (R3 priority; not a reliability ranking). Study&#x27;s own contribution (C3) is a case attribution supporting association only, so source_scope of the selected causal claim is 背景引用. Background note of no clear variant-severity correlation (E11) concerns a different endpoint and does not conflict.</data></edge>
+    <edge id="G2-D1" source="G2" target="D1"><data key="e_edge_id">G2-D1</data><data key="e_unit_id">u1</data><data key="e_status">supported</data><data key="e_relation_type">association</data><data key="e_source_scope">背景引用</data><data key="e_evidence_species">human</data><data key="e_gene_species">human</data><data key="e_host_species"></data><data key="e_gene_alteration">reduced expression (not a mutation)</data><data key="e_model_type"></data><data key="e_evidence_ids">E9,E10</data><data key="e_conditions">{&quot;evidence_species&quot;: &quot;human&quot;, &quot;gene_alteration&quot;: &quot;reduced expression (not a mutation)&quot;}</data><data key="e_reason">Supported association (背景引用) based on the cited finding of significantly reduced SERPINB1 in Cohen syndrome neutrophils (b0067). No causal attribution of Cohen syndrome to SERPINB1 is made; edge represents an expression-level background association only.</data></edge>
+  </graph>
+</graphml>

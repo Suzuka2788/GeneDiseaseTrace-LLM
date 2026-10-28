@@ -1,0 +1,10 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|FGFR3|FGFR3;fibroblast growth factor receptor 3|r||human||
+E|D1|disease|achondroplasia|achondroplasia;Achondroplasia|r||||
+E|D2|disease|dwarfism|dwarfism|r||||
+EV|V1|b0001.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s5+b0002.s6|ts|res|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V2||V3|G380R stated as responsible for achondroplasia
+F|F1|descriptive|tetra-primer PCR vs PCR-RFLP FGFR3 genotypes|50 controls, 3 patients, 5 amniotic fluids|not_applicable|not_applicable|not_reported|V3|Concordance only; no association test

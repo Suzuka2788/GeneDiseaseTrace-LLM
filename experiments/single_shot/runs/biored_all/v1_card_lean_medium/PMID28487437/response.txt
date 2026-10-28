@@ -1,0 +1,33 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|g1|gene|glucagon receptor|Glucagon receptor;GcgR;GcgRs;Gcgr|p|species_unresolved||||
+E|g2|gene|ghrelin|ghrelin|p|species_unresolved||||
+E|g3|gene|ghrelin receptor|ghrelin receptor|p|species_unresolved||||
+E|g4|gene|insulin|insulin|p|species_unresolved||||
+E|g5|gene|glucagon|glucagon|p|species_unresolved||||
+E|d1|disease|type 1 diabetes|type 1 diabetes|r||||
+E|d2|disease|diabetes|diabetes|r||||
+E|d3|disease|hyperglycemia|hyperglycemia|r||||
+E|d4|disease|hypoglycemia|hypoglycemia;hypoglycemic|r||||
+X|db/db|b0002|mouse strain name, not a gene
+X|streptozotocin|b0002|chemical toxin, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s6|ts|res|aff|mi,cmp
+EV|V3|b0002.s1|bg|hyp|hyp|ho
+EV|V4|b0002.s9|ts|int|hyp|ho
+EV|V5|b0002.s4|ts|aim|hyp|ho
+EV|V6|b0002.s7|ts|res|aff|mi
+EV|V7|b0002.s8|ts|res|aff|mi
+EV|V8|b0002.s5|ts|res|aff|mi,cmp
+P|g1|d3|sup|c|both|sup:c:bg:V1;sup:c:ts:V2|||GcgR deletion corrects/averts hyperglycemia in models
+P|g1|d1|unc|-||unc:-:bg:V3;unc:-:ts:V4|hedged_claim||Therapy proposal and suggestive interpretation only
+P|g1|d2|unc|-||unc:-:bg:V1|scope||Effect stated on hyperglycemia within diabetes models
+P|g1|d4|unc|-||unc:-:ts:V6+V8|scope||Hypoglycemia only under combined blockade
+P|g3|d4|unc|-||unc:-:ts:V6+V7|scope||Antagonist effect only in GcgR-deficient background
+P|g2|d4|unc|-||unc:-:ts:V4+V5|hedged_claim||Hypothesis and "suggest" interpretation only
+P|g2|d1|unc|-||unc:-:ts:V4|hedged_claim||Suggestive interpretation only
+P|g2|d3|nf|-|||||V2|Ghrelin rise co-occurs with STZ hyperglycemia
+F|F1|group_comparison|blood glucose; plasma ghrelin|Gcgr-/- and anti-GcgR db/db mice|unknown|negative|not_reported|V8|abstract only
+F|F2|group_comparison|blood glucose; plasma ghrelin|STZ-treated WT vs Gcgr-/- mice|unknown|negative|not_reported|V2|abstract only
+F|F3|group_comparison|ghrelin receptor antagonist; blood glucose|fasted STZ Gcgr-/- mice|unknown|negative|not_reported|V6|abstract only
+F|F4|group_comparison|anti-GcgR antibody; blood glucose|STZ ghrelin receptor-null mice|unknown|negative|not_reported|V7|abstract only

@@ -1,0 +1,12 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SRD5A2|SRD5A2;steroid 5alpha-reductase type 2|r||human||
+E|D1|disease|steroid 5alpha-reductase deficiency type 2|steroid 5alpha-reductase deficiency type 2;steroid 5alpha-reductase type 2 deficiency|r||||
+E|D2|disease|masculinization defects|masculinization defects|p|other|||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s2+b0002.s3+b0002.s7+b0002.s9|ts|res|aff|rr,eda
+P|G1|D2|sup|c|bg|sup:c:bg:V1|||Uncited abstract statement: SRD5A2 mutations cause defects
+P|G1|D1|sup|a|ts|sup:a:ts:V2|||Mutations identified in patients with this deficiency
+F|F1|descriptive|SRD5A2 mutation spectrum|20 Brazilian patients, 18 families|not_applicable|not_applicable|not_applicable|V2|patients suspected; some heterozygous only
+F|F2|descriptive|G183S frequency|African-Brazilian patient subset|unknown|not_applicable|not_reported|V2|abstract only; prevalence not quantified
+R|entity type|b0002.s1|masculinization defects could be a phenotype or a disease category|Typed as disease with provisional identity

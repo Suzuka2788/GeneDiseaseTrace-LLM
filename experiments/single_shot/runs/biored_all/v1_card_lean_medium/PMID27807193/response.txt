@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PTPN22|PTPN22;protein tyrosine phosphatase nonreceptor 22|r||human||
+E|G2|gene|Ptpn22 (mouse)|Ptpn22|p|species_unresolved|non-human||
+E|G3|gene|Lyn|Lyn|p|species_unresolved|||
+E|G4|gene|Syk|Syk|p|species_unresolved|||
+E|G5|ambiguous_gene|Fcg receptor|Fcg Receptor;FcgR|u|ambiguous_mapping|||
+E|D1|disease|autoimmune disease|autoimmune disease|r||||
+E|D2|disease|rheumatoid arthritis|rheumatoid arthritis|r|||D1|
+E|D3|disease|immune complex-mediated arthritis|immune complex-mediated arthritis|r||||
+E|D4|disease|peritonitis|peritonitis|r||||
+E|D5|disease|bacterial infections|bacterial|p|other|||
+E|D6|disease|fungal infections|fungal infections|r||||
+E|S1|phenotype|inflammation|inflammation|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s7|ts|res|aff|mi,rr
+EV|V3|b0002.s8|ts|neg|neg|rr
+EV|V4|b0002.s4+b0002.s5+b0002.s6|ts|res|na|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||GWAS susceptibility contribution stated as established
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||GWAS susceptibility notably rheumatoid arthritis
+P|G2|D3|sup|c|ts|sup:c:ts:V2|||Knockout mice protected from serum-transfer arthritis
+P|G2|D4|nf|-||||V3|Null result concerns neutrophil recruitment, not peritonitis itself
+F|F1|group_comparison|neutrophil adhesion, ROS, degranulation|Ptpn22-/- vs wild-type mouse neutrophils|unknown|negative|not_reported|V4|abstract only
+F|F2|group_comparison|arthritis after arthritogenic serum transfer|Ptpn22-/- vs wild-type mice|unknown|negative|not_reported|V2|abstract only
+F|F3|group_comparison|neutrophil recruitment and chemotaxis|Ptpn22-deficient mice and neutrophils|unknown|null|not_reported|V3|abstract only
+R|Species|b0002.s8;b0002.s9|Uppercase PTPN22 used in a mouse-knockout context|Assigned mouse findings to G2; G1 kept for human GWAS statement

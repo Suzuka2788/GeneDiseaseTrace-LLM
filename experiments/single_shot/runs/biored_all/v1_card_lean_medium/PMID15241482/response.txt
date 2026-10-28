@@ -1,0 +1,24 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PON1|paraoxonase 1;PON1;PON|r||human||
+E|D1|disease|coronary heart disease|coronary heart disease;CHD|r|||||
+E|D2|disease|ischemic heart disease|ischemic heart disease|r|||||
+E|D3|clinical_event|mortality|mortality;death;survival|r|||||
+X|192RR|b0002.s5|genotype label, not gene
+X|-107C/T|b0002.s2|variant ID
+EV|V1|b0002.s1+b0002.s2|bg|hyp|hyp|ho
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s6|ts|res|aff|rr,cmp
+EV|V4|b0002.s8|ts|neg|neg|rr,cmp
+EV|V5|b0002.s9|ts|int|hyp|ho
+EV|V6|b0002.s4|ts|neg|neg|cmp
+P|G1|D3|sup|a|ts|sup:a:ts:V2+V3;unc:-:ts:V5|||192RR vs QQ poorer survival, HR 1.38
+P|G1|D1|neg|-|ts|neg:-:ts:V4;unc:-:bg:V1;unc:-:ts:V5|hedged_claim|V1+V5|No significant CHD susceptibility effect; severity link hedged
+P|G1|D2|neg|-|ts|neg:-:ts:V4|||192RR women: nonsignificant IHD risk trend
+F|F1|group_comparison|PON1 genotype and haplotype distribution|age groups, 1932 Danes|not_significant|null|not_reported|V6|
+F|F2|association|192RR vs QQ survival hazard|1932 Danes aged 47-93|significant|positive|partial|V2|
+F|F3|association|192RR vs QQ survival hazard|541 oldest-cohort Danes|not_significant|positive|partial|V3|P=0.09 described as confirmation
+F|F4|group_comparison|192RR effect by sex|both samples, women|unknown|positive|not_reported|V2+V3|stated as most pronounced in women
+F|F5|association|192RR and self-reported IHD|women|not_significant|positive|not_reported|V4|self-reported outcome
+C|C1|replication called confirmed despite P=0.09|b0002.s6|noncritical|resolved|primary sample significant; replication recorded not significant
+R|neg pair scope|b0002.s8|IHD used as proxy for CHD susceptibility; not synonymous|Kept separate; both neg, conditions noted

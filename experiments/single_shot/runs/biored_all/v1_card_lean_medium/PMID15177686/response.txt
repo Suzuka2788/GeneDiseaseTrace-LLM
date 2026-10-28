@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|HIRA|HIRA;Tuple1|r||human||
+E|D1|disease|DiGeorge syndrome|DiGeorge;DGS|r|||
+E|D2|disease|Velocardiofacial syndrome|Velocardiofacial syndromes;VCFS|r|||
+E|S1|phenotype|cardiovascular malformations|cardiovascular|r|||
+E|S2|phenotype|thymic malformations|thymic malformations|r|||
+X|TDR22|b0002|genomic region identifier (Typically Deleted Region), not gene
+X|22q11|b0002|chromosomal band deletion, not single gene or disease
+EV|V1|b0002.s4|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr
+EV|V3|b0002.s7|ts|hyp|hyp|ho
+EV|V4|b0002.s1|bg|bgr|na|do
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V2|scope|V3;V4|pooled DGS/VCFS group; comparator not stated
+P|G1|D2|unc|-|ts|unc:-:ts:V1+V2|scope|V3;V4|pooled DGS/VCFS group; comparator not stated
+F|F1|group_comparison|HIRA locus replication timing|DGS/VCFS subjects pooled|unknown|positive|not_reported|V1|comparator and statistics not in abstract
+F|F2|group_comparison|HIRA locus nuclear periphery localisation|DGS/VCFS subjects pooled|unknown|positive|not_reported|V2|abstract only
+F|F3|hypothesis|altered TDR22 transcription regulation|DGS/VCFS|not_applicable|not_applicable|not_applicable|V3|
+R|pooled-group comparison|b0002.s4|Result reported for combined DGS/VCFS group, not per disease|Marked both pairs uncertain with scope reason

@@ -1,0 +1,28 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; no disease entities present
+E|g1|gene|Ago2|Argonaute 2;Ago2;Eif2c2|r||non-human|||
+E|g2|gene|Ago1|Ago1;Argonaute 1|r||non-human|||
+E|g3|gene|Ago3|Ago3;Ago 3|r||non-human|||
+E|g4|gene|Ago4|Ago4|r||non-human|||
+E|g5|gene|Fads1|Fads1;fatty acid desaturase 1|r||non-human|||
+E|g6|gene|Fads2|Fads2|r||non-human|||
+E|g7|gene|Rab5a|Rab5a|r||non-human|||
+E|g8|gene|Rab5c|Rab5c;Ras-related protein Rab-5C|r||non-human|||
+E|g9|gene|F7|FVII;coagulation factor VII;Factor VII|r||non-human|||
+E|g10|gene|Dicer1|Dicer1|r||non-human|||
+E|g11|gene|GAPDH|GAPDH;Gapdh|r||non-human|||
+X|TNRC6|b0004|gene-like protein family name, no relation context
+X|Alb-Cre|b0054|transgene/tool name, not a study gene endpoint
+F|f1|group_comparison|CDS-siRNA knockdown vs Ago2 genotype|MEF cells, mouse liver|significant|negative|available|EV1|
+F|f2|group_comparison|3'UTR-siRNA knockdown vs Ago2 genotype|MEF cells, mouse liver|significant|mixed|available|EV2|
+F|f3|group_comparison|knockdown vs Ago1/3/4 knockout|mouse liver|not_significant|null|partial|EV3|
+F|f4|group_comparison|Rab5c knockdown vs Ago1+Ago2 depletion|wild-type mice|significant|negative|partial|EV4|
+F|f5|group_comparison|Fads1 knockdown vs Ago3 knockout|Ago1+2 knockdown mice|unknown|negative|partial|EV5|
+F|f6|descriptive|Argonaute mRNA levels vs Ago2 knockout|mouse liver, MEF cells|not_significant|null|partial|EV6|
+EV|EV1|b0010.s3+b0010.s4+b0026.s1|ts|res|na|rr
+EV|EV2|b0010.s5+b0012.s5+b0026.s1|ts|res|na|rr
+EV|EV3|b0027.s3|ts|neg|neg|rr
+EV|EV4|b0038.s3|ts|res|na|rr
+EV|EV5|b0040.s2+b0041.s1|ts|res|na|rr
+EV|EV6|b0021.s3+b0021.s4|ts|neg|neg|rr
+R|no primary disease/clinical_event entities|whole paper|RNAi mechanism study; no disease targets exist|No P records; findings recorded only

@@ -1,0 +1,34 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|REL|c-REL|r||human||
+E|G2|gene|BCL2|BCL-2|r||human||
+E|G3|gene|MALT1|MALT1|r||human||
+E|G4|gene|CDKN2A|CDKN2A|r||human||
+E|G5|gene|CDKN2B|CDKN2B|r||human||
+E|G6|gene|NSG-x|NSG-x|p|undefined_abbreviation|human||
+E|D1|disease|primary cutaneous large B-cell lymphoma|primary cutaneous large B-cell lymphoma;PCLBCL|r||||
+E|D2|disease|primary cutaneous follicle center lymphoma|primary cutaneous follicle center lymphoma;PCFCL|r|||D1|
+E|D3|disease|PCLBCL, leg type|PCLBCL, leg type|r|||D1|
+E|D4|clinical_event|death from lymphoma|died|r||||
+X|2p16.1|b0002|chromosomal locus, not a gene
+X|18q21.31-q21.33|b0002|chromosomal locus, not a gene
+X|9p21.3|b0002|chromosomal locus, not a gene
+X|14q32.33|b0002|chromosomal locus, not a gene
+EV|V1|b0002.s3+b0002.s4|ts|res|na|rr,do
+EV|V2|b0002.s5|ts|res|na|rr,do
+EV|V3|b0002.s5+b0002.s6|ts|res|na|rr,cmp,do
+EV|V4|b0002.s7|ts|res|na|rr,cmp,do
+EV|V5|b0002.s8+b0002.s10|ts|int|hyp|rr,ho
+P|G1|D2|unc|-|unk|unc:-:ts:V1|support_basis_unresolved,scope|V1|Amplification detected; patient subtype not explicit
+P|G2|D3|unc|-|unk|unc:-:ts:V2|support_basis_unresolved|V2|Recurrent amplification only; no attribution
+P|G3|D3|unc|-|unk|unc:-:ts:V2|support_basis_unresolved|V2|Recurrent amplification only; no attribution
+P|G4|D3|unc|-|unk|unc:-:ts:V3+V4;unc:-:ts:V5|support_basis_unresolved,hedged_claim|V3,V4|Deletion/methylation counts; prognostic role hedged
+P|G4|D4|unc|-|unk|unc:-:ts:V5|hedged_claim|V5|7/7 deaths descriptive; prognosis hedged
+P|G4|D2|nf|-||||V3,V4|Absent alterations; no association test
+P|G5|D3|nf|-||||V2|Only located in deleted region
+P|G6|D3|nf|-||||V2|Only located in deleted region
+F|F1|descriptive|2p16.1 amplification, c-REL|PCFCL n=19|not_applicable|not_applicable|not_reported|V1|frequency only
+F|F2|descriptive|18q21 amplification incl. BCL-2, MALT1|PCLBCL leg type n=12|not_applicable|not_applicable|not_reported|V2|frequency only
+F|F3|group_comparison|homozygous 9p21.3 deletion|leg type vs PCFCL|unknown|positive|not_reported|V3|counts only, no test
+F|F4|group_comparison|CDKN2A promoter methylation|leg type vs PCFCL|unknown|positive|not_reported|V4|counts only, no test
+F|F5|descriptive|CDKN2A inactivation vs lymphoma death|PCLBCL leg type, n=7|unknown|positive|not_reported|V5|no comparator reported

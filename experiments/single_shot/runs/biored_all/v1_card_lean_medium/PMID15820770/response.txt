@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|DBP|Vitamin D-binding protein;DBP|r||human||
+E|G2|gene|IA-2|IA-2|p|ambiguous_mapping|human||
+E|G3|gene|GAD65|GAD65|p|ambiguous_mapping|human||
+E|D1|disease|type 1 diabetes|type 1 diabetes|r||||
+X|1.25(OH)2D3|b0002|metabolite, not a gene
+X|vitamin D endocrine system|b0002|biological system, not a single gene
+EV|V1|b0002.s4|bg|bgr|aff|ebr
+EV|V2|b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s10|ts|neg|neg|rr,cmp
+EV|V4|b0002.s11|ts|int|hyp|unc
+EV|V5|b0002.s5|ts|aim|na|none
+EV|V6|b0002.s2+b0002.s3|bg|bgr|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||V2+V3+V4+V5|Background reports DBP allele correlations with T1D
+P|G2|D1|nf|-|||||V2+V5|Autoantibody marker only; no gene-disease claim
+P|G3|D1|nf|-|||||V3+V5|Autoantibody marker only; no gene-disease claim
+F|F1|group_comparison|DBP Glu genotypes vs IA-2 antibody status|diabetic patients|significant|positive|partial|V2|abstract only, P<0.01
+F|F2|group_comparison|DBP Glu genotypes vs GAD65 antibody prevalence|diabetic patients|not_significant|null|not_reported|V3|abstract only
+F|F3|hypothesis|vitamin D system and T1D autoimmunity|type 1 diabetes|not_applicable|not_applicable|not_applicable|V4|
+R|IA-2/GAD65 as genes|b0002.s9-s10|Autoantibody targets named, not gene status tested|Kept as gene entities; pairs left nf

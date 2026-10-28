@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SOX2|SOX2|r||human||
+E|G2|gene|CHX10|CHX10|r||human||
+E|D1|disease|anophthalmia|anophthalmia;anophthalmic|r||||
+E|D2|disease|microphthalmia|microphthalmia;microphthalmic|r||||
+E|S1|phenotype|eye malformation|eye malformation|r||||
+X|high mobility group (HMG)|b0002|protein domain, not a gene endpoint
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6+b0002.s8+b0002.s9+b0002.s10+b0002.s19+b0002.s20|ts|res|aff|rr,eda
+EV|V3|b0002.s11|ts|int|hyp|ho
+EV|V4|b0002.s15+b0002.s16+b0002.s17+b0002.s18+b0002.s21|ts|neg|neg|rr,cmp
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2+V3|scope|V3|Background report; cohort phenotype per patient not separated
+P|G1|D2|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2+V3|scope|V3|Background report; cohort phenotype per patient not separated
+P|G2|D1|sup|a|bg|sup:a:bg:V1;neg:-:ts:V4||V4|Background report; not implicated in this cohort
+P|G2|D2|sup|a|bg|sup:a:bg:V1;neg:-:ts:V4||V4|Background report; not implicated in this cohort
+F|F1|descriptive|SOX2 mutations and variants|34 anophthalmia/microphthalmia patients|not_applicable|not_applicable|not_applicable|V2|combined phenotype group; no per-disease breakdown
+F|F2|group_comparison|CHX10 p.Asp291Asn presence|patients vs 80 healthy controls|unknown|null|not_reported|V4|frequencies not given in abstract
+R|pair scope|b0002.s1;b0002.s2|Combined anophthalmia/microphthalmia cohort; per-disease attribution not separable|Background sup per disease; this-study claims uncertain (scope)
+R|status choice|b0002.s21|Background positive versus this-cohort negative for CHX10, different scope|Kept background sup; listed cohort negative as separate claim

@@ -1,0 +1,34 @@
+META|claude-opus-5-5 (Opus 5.5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|EP4 (endothelial cell in vitro)|EP4;EP4 receptor|p|other||||
+E|G2|gene|EP4 (mouse)|EP4|p|other|non-human|||
+E|G3|gene|Rap1|Rap1|r||||
+E|G4|gene|Rac1|Rac1|r||||
+E|G5|gene|VE-cadherin|VE-cadherin|r||||
+E|G6|gene|p120-catenin|p120-catenin|r||||
+E|G7|gene|ZO-1|ZO-1|r||||
+E|G8|gene|cortactin|cortactin|r||||
+E|G9|gene|VASP|VASP|r||||
+E|G10|gene|ICAM1|ICAM1|r||||
+E|G11|gene|VCAM1|VCAM1|r||||
+E|G12|gene|thrombin|thrombin|r||||
+E|D1|disease|acute lung injury|acute lung injury;ALI|r||||
+E|D2|disease|LPS-induced inflammatory injury|LPS-induced inflammatory injury|r|||D1|
+E|D3|disease|two-hit ALI|two-hit ALI|r|||D1|
+E|S1|phenotype|barrier dysfunction|barrier dysfunction|r||||
+E|S2|phenotype|vascular leakage|vascular leakage|r||||
+E|S3|phenotype|inflammation|inflammation|r||||
+X|NFkB|b0002|pathway/complex, not single gene
+X|protein kinase A|b0002|kinase family, not single gene endpoint
+X|thrombin receptor-activating peptide|b0002|peptide reagent, not gene
+EV|V1|b0002.s8+b0002.s9|ts|res|aff|rr,mi
+EV|V2|b0002.s4+b0002.s5+b0002.s6+b0002.s7|ts|res|aff|rr
+EV|V3|b0002.s10|ts|int|hyp|ho
+P|G2|D1|sup|a|ts|sup:a:ts:V1|||EC EP4 knockout abolishes PGA2 protection in ALI
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||knockout abolishes protection in LPS injury model
+P|G2|D3|sup|a|ts|sup:a:ts:V1|||knockout abolishes protection in two-hit ALI
+P|G1|D1|nf|-||||V2+V3|in vitro EC mechanism only, no disease link
+F|F1|mechanism|endothelial EP4 knockout; PGA2 protection|mice with ALI models|unknown|negative|not_reported|V1|abstract only; no statistics
+F|F2|mechanism|EP4 inhibition; PGA2 barrier/anti-inflammatory effects|pulmonary endothelial cells|unknown|negative|not_reported|V2|species of cells not stated
+R|species|b0002.s4|In vitro EC species unstated; mouse EP4 in vivo|split EP4 into EC node and mouse node
+R|pharmacologic mediation|b0002.s9|Knockout abolishes drug protection; not disease induction by gene|treated as association, ts, non-human

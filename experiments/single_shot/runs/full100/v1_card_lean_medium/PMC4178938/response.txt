@@ -1,0 +1,35 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; figures/images not viewable
+E|g1|gene|SCNN1A|αENaC;αK477;α|r||human|e1|
+E|g2|gene|SCNN1B|βENaC;βE446;βV85;β|r||human|e1|
+E|g3|gene|SCNN1G|γENaC;γE455;γV87;γ|r||human|e1|
+E|e1|gene|ENaC|ENaC;epithelial Na+ channel;αβγENaC|r||human||
+E|g4|gene|ASIC1|ASIC1a;ASIC1;cASIC1a|p|species_unresolved|non-human||
+E|g5|gene|MEC-4|MEC-4|r||non-human||
+E|d1|disease|hypertension|hypertension|r||||
+E|d2|disease|Liddle's syndrome|Liddle's syndrome|r|||d1|
+E|d3|disease|hypotension|hypotension|r||||
+E|d4|disease|pseudohypoaldosteronism type 1|pseudohypoaldosteronism type 1|r|||d3|
+E|d5|disease|cystic fibrosis|cystic fibrosis|r||||
+E|d6|disease|lung disease|lung disease|r||||
+E|d7|disease|pneumonia|pneumonia|r||||
+E|d8|disease|metabolic acidosis|metabolic acidosis|r||||
+E|d9|disease|alkalosis|alkalosis|r||||
+E|p1|phenotype|neurodegeneration|neurodegeneration|r||||
+X|DEG|b0005|degenerin family label, not a gene endpoint here
+X|4NYK|b0012|PDB structure identifier
+X|psalmotoxin 1|b0071|toxin, not gene
+EV|V1|b0005.s3|bg|bgr|aff|ebr
+EV|V2|b0005.s3|bg|hyp|hyp|ho
+EV|V3|b0030.s6|ts|res|na|rr
+P|e1|d1|sup|c|bg|sup:c:bg:V1|||ENaC mutations cause inherited hypertension
+P|e1|d2|sup|c|bg|sup:c:bg:V1|||Liddle's syndrome given as example
+P|e1|d3|sup|c|bg|sup:c:bg:V1|||ENaC mutations cause inherited hypotension
+P|e1|d4|sup|c|bg|sup:c:bg:V1|||pseudohypoaldosteronism type 1 named
+P|e1|d5|unc|-|bg||hedged_claim|V2|"may contribute to" lung disease pathogenesis
+P|e1|d6|unc|-|bg||hedged_claim,scope|V2|hedged contribution in cystic fibrosis lung disease
+F|F1|group_comparison|MTS-14-O4-MTS vs baseline current|αK477CβV85Cγ oocytes|significant|positive|partial|V3|figure values only
+F|F2|group_comparison|cross-linker length vs PO|αK477CβV85Cγ single channels|significant|mixed|partial||long increases, short decreases PO
+F|F3|group_comparison|DTT vs Na+ self-inhibition|αL120CβγE455C oocytes|significant|positive|partial||
+F|F4|mechanism|intersubunit distance vs gating state|human ENaC in oocytes|significant|mixed|partial||interpretation of combined assays
+R|relation_type priority|b0005.s3|subunit-level pairs not separable from complex-level claim|assigned to ENaC complex entity only

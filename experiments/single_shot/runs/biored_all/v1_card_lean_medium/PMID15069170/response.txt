@@ -1,0 +1,10 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|thiazide-sensitive Na-Cl co-transporter|thiazide-sensitive Na-Cl co-transporter;NCCT|r||human||
+E|D1|disease|Gitelman's syndrome|Gitelman's syndrome;GS|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s8+b0002.s9+b0002.s10+b0002.s13+b0002.s14|ts|res|aff|rr,eda
+EV|V3|b0002.s15|ts|int|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2||V3|Background states inactivating NCCT mutations cause GS
+F|F1|descriptive|NCCT mutations and zygosity|seven Japanese GS patients|not_applicable|not_applicable|not_applicable|V2|abstract only; one patient single heterozygote
+F|F2|hypothesis|NCCT mutation distribution by population|Japanese vs other GS patients|unknown|unknown|not_reported|V3|hedged; no statistical comparison

@@ -1,0 +1,15 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|PKP1|PKP1;plakophilin 1|r||human||
+E|D1|disease|ectodermal dysplasia-skin fragility syndrome|ectodermal dysplasia-skin fragility syndrome;Ectodermal dysplasia-skin fragility syndrome|r||||
+E|S1|symptom|skin fragility|skin fragility|r||||
+E|S2|symptom|plantar keratoderma|plantar keratoderma|r||||
+E|S3|symptom|nail dystrophy|nail dystrophy|r||||
+E|S4|symptom|alopecia|alopecia|r||||
+X|genodermatosis|b0002|co-referent of D1 via "this", not a separate disease name
+X|888delC|b0001|variant identifier
+EV|V1|b0001.s1+b0002.s1+b0002.s4|ts|res|aff|eda,rr
+EV|V2|b0002.s5|bg|bgr|aff|ebr
+P|G1|D1|sup|a|both|sup:a:ts:V1;sup:a:bg:V2|||Case-report attribution plus prior PKP1 cases with this syndrome
+F|F1|descriptive|PKP1 888delC homozygous deletion, exon 5|one affected 6-year-old boy|not_applicable|not_applicable|not_applicable|V1|single case
+R|attribution type|b0001.s1|Case-report title says "resulting from"; card allows causal or association|Applied case-report rule: association, not causal

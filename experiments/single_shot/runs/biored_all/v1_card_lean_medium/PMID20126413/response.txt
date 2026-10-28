@@ -1,0 +1,12 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PTEN|PTEN|r||human||
+E|D1|disease|grade IV glioma|grade IV glioma|r||||
+E|D2|disease|cancer|cancer|r||||
+X|U87MG|b0001|cell line name, not gene or disease
+X|dbSNP|b0002|database
+EV|V1|b0002.s6|ts|co|na|do
+EV|V2|b0002.s6+b0002.s9|ts|res|na|do
+P|G1|D1|nf|-|||||V1|PTEN mutation detected in cell line; no attribution
+P|G1|D2|nf|-|||||V1|Known mutation only identified; no disease link stated
+F|F1|descriptive|cell adhesion genes; mutated gene list|U87MG cell line|unknown|not_applicable|not_reported|V2|gene set; no disease comparator

@@ -1,0 +1,61 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full brief report text, captions and tables; references removed
+E|G1|gene|MPZ|myelin protein zero;Myelin protein zero;MPZ;P0|r||human||
+E|G2|gene|SPTLC-1|serine palmitoyltransferase, long-chain base subunit-1;SPTLC-1|r||human||
+E|G3|gene|RAB7|RAB7|r||human||
+E|G4|gene|periaxin|periaxin gene|r||human||
+E|G5|gene|periaxin (mouse)|periaxin|r||non-human||
+E|G6|gene|PMP22|PMP22|r||human||
+E|G7|gene|GJB1|GJB1|r||human||
+E|G8|gene|myelin basic protein|myelin basic protein;MBP|r||human||
+E|G9|gene|PGP 9.5|PGP 9.5|p|other|human||
+E|D1|disease|Charcot-Marie-Tooth disease|Charcot-Marie-Tooth disease;CMT;CMT disease|r||||
+E|D2|disease|intermediate Charcot-Marie-Tooth disease|Intermediate Charcot-Marie-Tooth disease|r|||D1|
+E|D3|disease|CMT4F|CMT4F|r|||D1|
+E|D4|disease|hereditary neuropathy|hereditary neuropathy;hereditary neuropathies;Inherited neuropathies|r||||
+E|D5|disease|neuropathic pain|neuropathic pain|r||||
+E|D6|disease|demyelinating neuropathy|demyelinating neuropathy;demyelinating neuropathies|r||||
+E|D7|disease|axonal neuropathy|axonal neuropathies|r||||
+E|D8|disease|Fabry disease|Fabry disease|r||||
+E|D9|disease|familial amyloid neuropathy|familial amyloid neuropathy|r||||
+E|D10|disease|traumatic nerve injury|traumatic nerve injury|r||||
+E|S1|phenotype|demyelination|demyelination|r||||
+E|S2|symptom|allodynia|allodynia|r||||
+E|S3|phenotype|pes cavus|pes cavus|r||||
+X|collagen type 4|b0038|protein family used as stain marker, not single gene
+X|Trp101X|b0003|variant identifier
+X|CMTNS|b0008|clinical score, not disease
+X|D10537|b0008|accession identifier
+EV|V1|b0001.s1+b0005.s9+b0026.s1|ts|res|aff|eda
+EV|V2|b0003.s1+b0003.s4+b0020.s2+b0020.s5|ts|res|aff|rr,cs
+EV|V3|b0005.s7+b0027.s3+b0027.s4|bg|bgr|aff|ebr
+EV|V4|b0003.s6|bg|bgr|aff|ebr
+EV|V5|b0027.s5|bg|bgr|aff|ebr
+EV|V6|b0002.s2+b0003.s8|ts|res|aff|rr
+EV|V7|b0028.s3+b0028.s4+b0028.s5+b0029.s2|bg|bgr|aff|ebr
+EV|V8|b0031.s11|ts|int|hyp|ho
+EV|V9|b0005.s3|bg|bgr|aff|ebr
+EV|V10|b0005.s4|bg|bgr|aff|ebr
+EV|V11|b0030.s4|bg|res|aff|mi
+EV|V12|b0020.s1|ts|res|na|do
+EV|V13|b0005.s1|bg|bgr|aff|ebr
+EV|V14|b0032.s1|ts|int|aff|unc
+P|G1|D2|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2;sup:a:bg:V3|||Novel MPZ mutation explicitly causes intermediate CMT
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:bg:V3|||MPZ mutation results in CMT; background reports
+P|G1|D4|sup|a|ts|sup:a:ts:V2|||Kindred neuropathy co-segregates with MPZ mutation
+P|G1|D5|sup|a|both|sup:a:ts:V6;sup:a:bg:V7||V8,V14|Kindred with MPZ mutation and neuropathic pain; prior reports
+P|G1|D6|sup|c|bg|sup:c:bg:V4;sup:a:bg:V5|||MPZ mutations give rise to demyelinating neuropathies
+P|G1|D7|sup|c|bg|sup:c:bg:V4;sup:a:bg:V5|||MPZ mutations give rise to axonal neuropathies
+P|G2|D4|sup|c|bg|sup:c:bg:V9|||Hereditary neuropathies due to SPTLC-1 mutations
+P|G3|D4|sup|c|bg|sup:c:bg:V9|||Hereditary neuropathies due to RAB7 mutations
+P|G2|D5|unc|-||unc:-:bg:V9+V13|scope||Pain linked to neuropathy, not gene directly
+P|G3|D5|unc|-||unc:-:bg:V9+V13|scope||Pain linked to neuropathy, not gene directly
+P|G4|D3|sup|c|bg|sup:c:bg:V10|||CMT4F caused by periaxin mutations
+P|G5|D5|unc|-||unc:-:bg:V11|scope||Mouse hypersensitivity phenotype, not explicit disease model
+P|G6|D4|nf|-|||||V12|Proband test negative; no relation asserted
+P|G7|D4|nf|-|||||V12|Proband sequencing negative; no relation asserted
+F|F1|descriptive|MPZ Trp101X carrier status|affected kindred members|not_applicable|not_applicable|not_applicable|V2|number assessed not stated
+F|F2|descriptive|PMP22 dosage; GJB1 sequence|proband Patient 5|not_applicable|null|not_applicable|V12|single patient
+F|F3|descriptive|dermal myelinated internodes|Patient 5 vs controls|not_applicable|negative|not_reported|V8|possible sampling issue
+R|neuropathic pain typing|b0001.s1|Pain is the main outcome but could be a symptom|Typed as disease because diagnostic criteria are applied (b0028.s2)
+R|shared surface form|b0005.s4; b0030.s4|Human and mouse periaxin both written "periaxin"|Human node uses "periaxin gene"; mouse node uses "periaxin"

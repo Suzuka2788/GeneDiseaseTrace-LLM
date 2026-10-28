@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TIM-1|TIM-1;T-cell immunoglobulin mucin 1|r||human||
+E|G2|gene|TIM-3|TIM-3;T-cell immunoglobulin mucin 3|r||human||
+E|D1|disease|asthma|asthma|r||||
+E|D2|disease|allergic diseases|allergic diseases|r||||
+E|S1|phenotype|asthma-related phenotypes|asthma-related phenotypes|r||||
+X|TIM|b0002|gene family name, not a single-gene endpoint
+X|hepatitis A virus|b0002|pathogen exposure (seropositivity), not an analysed disease
+EV|V1|b0001.s1|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s6|ts|res|aff|rr,cmp
+EV|V4|b0002.s9|ts|int|hyp|ho
+EV|V5|b0002.s8|ts|neg|neg|rr,cmp
+EV|V6|b0002.s1|bg|bgr|hyp|ho
+EV|V7|b0002.s7|ts|int|hyp|unc
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2+V3;unc:-:ts:V4|||Case-control and family-based association with asthma
+P|G2|D1|neg|-|ts|neg:-:ts:V1+V5|||No significant association in African Americans
+P|G1|D2|unc|-|bg|unc:-:bg:V6|hedged_claim,scope||Family-level suggested role in allergic diseases
+P|G2|D2|unc|-|bg|unc:-:bg:V6|hedged_claim,scope||Family-level suggested role in allergic diseases
+F|F1|association|TIM-1 rs2277025 TT genotype vs asthma|African American cases vs controls|significant|positive|partial|V2|
+F|F2|association|TIM-1 157delMTTTVP homozygous vs asthma|African American cases vs controls|significant|positive|partial|V2|
+F|F3|association|TIM-1 4-variant haplotype vs asthma|African American cases vs controls|significant|positive|partial|V3|
+F|F4|association|157delMTTTVP allele/haplotype transmission, asthma|African American families|significant|positive|partial|V3|
+F|F5|association|TIM-1 variants vs asthma|HAV-seronegative subjects|unknown|positive|not_reported|V7|Hedged wording; no statistics
+F|F6|association|TIM-3 SNPs vs asthma/phenotypes|African American population|not_significant|null|not_reported|V5|

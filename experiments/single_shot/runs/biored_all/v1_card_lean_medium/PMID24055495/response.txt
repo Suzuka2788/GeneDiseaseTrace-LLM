@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|insulin receptor|insulin-receptor;IR|p|other|||
+E|G2|gene|GLUT4|GLUT4|r||||
+E|G3|gene|GLUT3|GLUT3|r||||
+E|D1|disease|sporadic Alzheimer's disease|sporadic Alzheimer's disease;sAD|r||||
+E|D2|disease|Alzheimer's disease|AD|p|undefined_abbreviation|||
+E|D3|disease|dementia|dementia|r||||
+E|S1|symptom|cognitive deficits|cognitive deficits|r||||
+E|S2|symptom|memory deterioration|memory deterioration|r||||
+E|S3|phenotype|glucose hypometabolism|glucose hypometabolism|r||||
+X|STZ-icv|b0002|model induction label, not a disease
+X|Leloir pathway|b0002|pathway, not a single gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||sAD associated with insulin-receptor system dysfunction
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||sAD associated with decreased GLUT4 glucose transport
+P|G1|D3|unc|-|bg|unc:-:bg:V1|scope||Link stated for dementia of sAD type only
+P|G2|D3|unc|-|bg|unc:-:bg:V1|scope||Link stated for dementia of sAD type only
+R|gene vs system|b0002.s1|"insulin-receptor (IR) system" may denote a signalling system, not a gene|Treated as IR gene, provisional identity

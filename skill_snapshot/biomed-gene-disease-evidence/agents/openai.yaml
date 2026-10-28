@@ -1,0 +1,4 @@
+interface:
+  display_name: "基因—疾病证据提取与核查"
+  short_description: "从论文提取基因与疾病、逐对核查关系，并比较模型结果及导出证据图"
+  default_prompt: "使用 $biomed-gene-disease-evidence 分析提供的论文，或对齐并核查多份模型结果；交付可追溯实体表、完整关系表及未解决问题。"

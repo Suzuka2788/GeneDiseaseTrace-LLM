@@ -1,0 +1,143 @@
+{
+  "paper_id": "PMC7196473",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 34390,
+  "calls": [
+    {
+      "seconds": 87.0,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 16509,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 9934,
+        "output_tokens_details": {
+          "thinking_tokens": 5604
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 16509,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 9934,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 16509,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 16509
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.33154079999999997,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 9934,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 16509,
+          "webSearchRequests": 0,
+          "costUSD": 0.33154079999999997,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 5604,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 37.9,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 21105,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 4836,
+        "output_tokens_details": {
+          "thinking_tokens": 506
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 21105,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 4836,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 21105,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 21105
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.2663488,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 4836,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 21105,
+          "webSearchRequests": 0,
+          "costUSD": 0.2663488,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 506,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "P G2-D9: uncertain needs valid unresolved reasons",
+    "P G2-D9: unknown context evidence SPRED1",
+    "P G2-D9: unknown context evidence variant",
+    "P G2-D9: unknown context evidence in",
+    "P G2-D9: unknown context evidence clinical",
+    "P G2-D9: unknown context evidence NF1",
+    "P G2-D9: unknown context evidence descriptive",
+    "P G1-D13: uncertain needs valid unresolved reasons",
+    "P G1-D13: unknown context evidence single",
+    "P G1-D13: unknown context evidence case",
+    "P G1-D13: unknown context evidence co-occurrence",
+    "P G1-D13: unknown context evidence only"
+  ]
+}

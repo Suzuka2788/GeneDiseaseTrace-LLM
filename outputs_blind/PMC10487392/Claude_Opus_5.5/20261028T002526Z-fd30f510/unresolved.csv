@@ -1,0 +1,4 @@
+﻿item,kind,status,reason,material_needed
+Neutrophil percentage values (DC1) and Case 1 DQ severity (DC2),data,unresolved,Text vs Table 1 disagree.,Author clarification / raw clinical records
+Abstract novelty statement vs Discussion/Table 2 (DC4),data,unresolved,Ambiguous referent of 'they' in abstract.,Author clarification
+VPS13B-neutropenia relation,scope,unresolved,"Neutropenia treated as auxiliary laboratory phenotype under R1, so the paper's 'possible mechanism of VPS13B causing neutropenia' is not a primary pair; kept in study_findings F2.",Rule clarification on manifestation-type conditions

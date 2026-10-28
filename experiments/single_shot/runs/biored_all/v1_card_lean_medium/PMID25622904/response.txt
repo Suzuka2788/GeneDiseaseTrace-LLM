@@ -1,0 +1,32 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|SAG|SAG;Sag;RBX2;Rbx2;Roc2|p|species_unresolved||||
+E|E2|gene|Kras|Kras|p|species_unresolved||||
+E|E3|gene|NOXA|NOXA|p|species_unresolved||||
+E|E4|gene|NF1|NF1|p|species_unresolved||||
+E|E5|gene|IkappaB|IkappaB|p|species_unresolved,ambiguous_mapping||||
+E|E6|gene|DEPTOR|DEPTOR|p|species_unresolved||||
+E|E7|gene|p21|p21|p|species_unresolved,ambiguous_mapping||||
+E|E8|gene|p27|p27|p|species_unresolved,ambiguous_mapping||||
+E|E9|gene|Cdkn2a|Cdkn2a;p16|p|species_unresolved||||
+E|E10|gene|p53|p53|p|species_unresolved||||
+E|E11|gene|Jun-B|Jun-B|p|species_unresolved||||
+E|E12|gene|Fbxw7|Fbxw7|p|species_unresolved||||
+E|E13|disease|lung tumor|lung tumorigenesis|r|||||
+E|E14|disease|cancer|cancer|r|||||
+E|E15|phenotype|senescence|senescence|r|||||
+E|E16|phenotype|immortalization|immortalization|r|||||
+X|NFkappaB|b0002|pathway, not single gene
+X|MAPK signaling pathway|b0002|pathway, not single gene
+X|SAG-SCF E3 ligase|b0002|complex, not single gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s8|ts|int|hyp|ho
+EV|V3|b0002.s2+b0002.s3+b0002.s4+b0002.s5|ts|res|na|rr,mi
+EV|V4|b0002.s6+b0002.s7|ts|res|na|rr,mi
+P|E1|E13|sup|c|bg|sup:c:bg:V1||V2|prior study: SAG promotes lung tumorigenesis
+P|E2|E13|unc|-|bg|unc:-:bg:V1|scope||Kras role only as co-operating partner
+P|E1|E14|unc|-|ts|unc:-:ts:V2|hedged_claim||oncogene label; therapy claim hedged
+F|F1|mechanism|Sag deletion; senescence; p16, Jun-B|MEFs|unknown|positive|not_reported|V3|abstract only
+F|F2|mechanism|Cdkn2a co-deletion; senescence rescue|MEFs|unknown|negative|not_reported|V3+V4|abstract only
+F|F3|mechanism|Sag deletion; Kras(G12D) immortalization|MEFs|unknown|negative|not_reported|V4|abstract only
+R|species|b0002.s1-s8|MEF context is mouse; s1 and s8 species unclear; uppercase/lowercase forms mixed|Single node per gene, species empty, flagged species_unresolved

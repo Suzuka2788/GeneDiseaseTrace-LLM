@@ -1,0 +1,143 @@
+{
+  "paper_id": "PMC3226484",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 56157,
+  "calls": [
+    {
+      "seconds": 82.6,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 26415,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 9470,
+        "output_tokens_details": {
+          "thinking_tokens": 5923
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 26415,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 9470,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 26415,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 26415
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.4015088,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 9470,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 26415,
+          "webSearchRequests": 0,
+          "costUSD": 0.4015088,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 5923,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 32.6,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 30209,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 4229,
+        "output_tokens_details": {
+          "thinking_tokens": 442
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 30209,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 4229,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 30209,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 30209
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.3270408,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 4229,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 30209,
+          "webSearchRequests": 0,
+          "costUSD": 0.3270408,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 442,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "F F1: unknown evidence b0013.s6",
+    "F F2: unknown evidence b0014.s2",
+    "F F3: unknown evidence b0014.s4",
+    "F F4: unknown evidence b0014.s8",
+    "F F5: unknown evidence b0016.s5",
+    "F F5: unknown evidence b0016.s6",
+    "F F6: unknown evidence b0018.s2",
+    "F F7: unknown evidence b0021.s3",
+    "F F8: unknown evidence b0021.s4",
+    "F F9: unknown evidence b0021.s6",
+    "F F9: unknown evidence b0021.s7",
+    "F F10: unknown evidence b0023.s5"
+  ]
+}

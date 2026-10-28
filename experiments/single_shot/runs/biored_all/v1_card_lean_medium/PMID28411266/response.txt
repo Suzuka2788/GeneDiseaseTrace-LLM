@@ -1,0 +1,19 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ABCC8|ABCC8|r||human||
+E|D1|disease|type 2 diabetes|Type 2 Diabetes;type 2 diabetes|r||||
+E|D2|disease|coronary heart disease|Coronary Heart Disease;coronary heart disease|r||||
+E|S1|phenotype|BMI|BMI|r||||
+E|S2|phenotype|waist-to-hip ratio adjusted for BMI|waist-to-hip ratio adjusted for BMI|r||||
+X|Sulfonylurea Receptor|b0001|receptor complex, not single-gene endpoint; ABCC8 encodes one component
+X|cardiovascular outcomes|b0002|generic outcome term, not a defined analysed clinical event
+X|cardiometabolic traits|b0002|general trait category, not a disease
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1||b0002.s3|p.A1369S associated with lower type 2 diabetes risk
+P|G1|D2|sup|a|ts|sup:a:ts:V2||V3|p.A1369S associated with reduced CHD risk
+F|F1|association|ABCC8 p.A1369S; type 2 diabetes|UK Biobank plus GWAS summary data|significant|negative|available|V1|
+F|F2|association|ABCC8 p.A1369S; BMI|UK Biobank plus GWAS summary data|significant|positive|available|b0002.s6|
+F|F3|association|ABCC8 p.A1369S; WHR adjusted for BMI|UK Biobank plus GWAS summary data|unknown|negative|partial|b0002.s6|No statistics given for WHR
+F|F4|association|ABCC8 p.A1369S; coronary heart disease|UK Biobank plus GWAS summary data|significant|negative|available|V2|

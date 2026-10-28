@@ -1,0 +1,70 @@
+META|Opus 5.5 (claude-opus-5-5)|I have not seen any prior analyses of this paper or the rule boundary cases; this is a single-pass analysis from the given text.
+SCOPE|I read all blocks b0001-b0075, including the Table 1 and Table 2 rows and the figure captions; I did not see the figures or the reference list, and the cited studies are used only as restated in the text.
+E|G1|gene|VPS13B|VPS13B;vacuolar protein sorting 13 homolog B|r||human|||
+E|G2|gene|SERPINB1|SERPINB1;SerpinB1|r||human|||
+E|D1|disease|Cohen syndrome|Cohen syndrome|r|||||
+E|D2|disease|retinal dystrophy|retinal dystrophy|r|||||
+E|D3|disease|heart disease|heart disease|r|||||
+E|S1|phenotype|neutropenia|neutropenia|r|||||
+E|S2|phenotype|developmental retardation|developmental retardation;psychomotor retardation;psychomotor developmental delay|p|other||||
+E|S3|phenotype|microcephaly|microcephaly|r|||||
+E|S4|phenotype|intellectual disabilities|intellectual disabilities;mental deficiency|p|other||||
+E|S5|phenotype|hypotonia|hypotonia|r|||||
+E|S6|phenotype|myopia|myopia|r|||||
+E|S7|phenotype|micrognathia|micrognathia|r|||||
+E|S8|phenotype|leukopenia|leukopenia|r|||||
+E|S9|phenotype|obesity|obesity|r|||||
+E|S10|symptom|speech delay|speech delay|r|||||
+E|S11|phenotype|hypermobile joints|hypermobile joints;joint hyperactivity|p|other||||
+E|S12|phenotype|short stature|short stature|r|||||
+E|S13|phenotype|hypertelorism|hypertelorism|r|||||
+E|S14|phenotype|cerebellar dysplasia|Cerebellar dysplasia|r|||||
+E|S15|symptom|recurring infection|recurring infection|r|||||
+X|OMIM No. # 216550|b0003|identifier
+X|NM_017890.4|b0005|identifier
+X|c.6940+1G > T|b0005|variant ID
+X|c10334_10335del|b0005|variant ID
+X|8q22.2|b0003|anatomical/cytogenetic location
+X|American College of Medical Genetics (ACMG)|b0014|guideline code/organisation
+X|PVS1|b0052|guideline code
+X|PMID: 33959574|b0052|identifier
+X|gnomAD|b0061|database
+X|Autistic Behavior Checklist (ABC)|b0014|tool
+X|modified Checklist for Autism in Toddlers (M-chat)|b0019|tool
+X|Gesell Developmental Schedules|b0014|tool
+X|Golgi complex|b0067|anatomical/cellular structure, not a gene
+X|granulocyte colony-stimulating factor|b0069|treatment agent, not used as a gene endpoint
+X|genetic diseases|b0071|generic category with no specific referent
+X|autosomal recessive disorder|b0003|inheritance-mode category, not a separate disease
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0009.s3|bg|bgr|aff|ebr
+EV|V3|b0003.s3|bg|bgr|aff|ebr
+EV|V4|b0010.s3|bg|bgr|aff|ebr
+EV|V5|b0066.s2|bg|bgr|aff|ebr
+EV|V6|b0066.s2|ts|int|hyp|ho
+EV|V7|b0071.s1|ts|res|aff|eda
+EV|V8|b0005.s2+b0005.s3|ts|res|aff|rr,do
+EV|V9|b0014.s6+b0014.s7+b0014.s8+b0014.s9+b0014.s10|ts|res|na|do
+EV|V10|b0019.s5+b0019.s6|ts|res|na|do
+EV|V11|b0068.s6|bg|bgr|aff|ebr
+EV|V12|b0068.s7|bg|neg|na|rr
+EV|V13|b0067.s4|bg|bgr|aff|cmp,ebr
+EV|V14|b0067.s3|bg|hyp|hyp|ho
+EV|V15|b0067.s5|ts|int|hyp|ho
+EV|V16|b0007.s2|ts|int|aff|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3+V4+V5+V11;sup:a:ts:V7;unc:-:ts:V6|hedged_claim|V8+V9+V10+V12+V16|Background explicitly states VPS13B mutation causes Cohen syndrome; the authors' own attribution of the novel variants is case-level association and partly hedged.
+P|G2|D1|sup|a|bg|sup:a:bg:V13||V14|Background reports significantly reduced SERPINB1 in Cohen syndrome neutrophils; the link to neutropenia is only possible, and neutropenia is not a primary endpoint.
+P|G1|D2|nf|-||||V9|Retinal dystrophy is listed only as a Cohen syndrome manifestation; there is no VPS13B link cue.
+P|G1|D3|nf|-||||V9|Heart disease is listed only as a Cohen syndrome manifestation; there is no gene link cue.
+F|F1|descriptive|VPS13B c.6940+1G > T plus heterozygous exon 3-19 deletion (paternal) / c.6940+1G > T (maternal)|Case 1, 2-year-old girl with Cohen syndrome|not_applicable|not_applicable|not_applicable|V9|Compound heterozygous; graded pathogenic by ACMG criteria; single case.
+F|F2|descriptive|VPS13B c.6940+1G > T (maternal) plus c.10334_10335del (paternal)|Case 2, 1-year-old boy with Cohen syndrome|not_applicable|not_applicable|not_applicable|V10|Compound heterozygous; graded pathogenic by ACMG criteria; single case.
+F|F3|correlation|VPS13B variant vs disorder severity|Cohen syndrome patients in prior reports|not_significant|null|not_reported|V12|Within-disease genotype-phenotype statement; not a negative result for the gene-disease pair.
+F|F4|mechanism|SERPINB1 expression; neutrophil apoptosis; neutropenia|Cohen syndrome neutrophils (background)|significant|negative|not_reported|V13+V14|Background mechanism; causation is stated only as a possibility.
+C|C1|Case 1 neutrophil percentage|b0014.s5;b0046.s1|noncritical|unresolved|Text gives 15.2% but Table 1 gives 25.0%; this does not affect any pair.
+C|C2|Case 2 neutrophil percentage|b0019.s4;b0046.s1|noncritical|unresolved|Text gives 16.5% but Table 1 gives 20.5%.
+C|C3|Case 1 developmental severity|b0014.s4;b0044.s1|noncritical|unresolved|Text says moderate retardation but Table 1 says severe.
+C|C4|Novelty of c.6940+1G > T|b0005.s3;b0066.s2;b0052.s1|noncritical|resolved|The abstract says the variants are unreported, but the discussion and Table 2 say c.6940+1G > T was previously reported; only the deletions are novel.
+C|C5|Figure citation for Case 2 c.6940+1G > T|b0019.s5;b0048.s1|noncritical|unresolved|The text cites Figure 4 but Table 1 cites Figure 3.
+U|Figures 1-5|b0015;b0016;b0017;b0020;b0021|Images are not provided; only the captions were read.
+R|primary endpoints|b0067.s3;b0067.s4|Neutropenia is a lab-defined manifestation linked to VPS13B and SERPINB1 in hedged background text|Treated it as an auxiliary phenotype; no gene pair is generated.
+R|case-report attribution not causal|b0071.s1|The authors say the novel variants "can induce" Cohen syndrome|Recorded as a ts association claim; the causal main type comes from background V1+V2.

@@ -1,0 +1,14 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MnSOD|Manganese superoxide dismutase;manganese superoxide dismutase;Mn-SOD;MnSOD|r||human||
+E|D1|disease|urolithiasis|urolithiasis|r|||||
+E|S1|phenotype|stone formation|stone formation|r|||||
+E|S2|phenotype|oxidative stress|Oxidative stress|r|||||
+X|BsaW1|b0002|restriction enzyme, not a gene
+EV|V1|b0002.s4|bg|bgr|aff|ebr
+EV|V2|b0002.s10+b0002.s11+b0002.s12|ts|res|aff|rr,cmp
+EV|V3|b0002.s13|ts|int|hyp|ho
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||V3|Background and case-control genotype differences
+F|F1|group_comparison|Ala/Ala genotype frequency|66 patients vs 72 controls|significant|negative|partial|V2|Only P<0.01 reported
+F|F2|group_comparison|Ala/Val and Val/Val frequency|66 patients vs 72 controls|significant|positive|partial|V2|Only P<0.05 reported
+C|C1|Risk allele direction: Ala vs Val|b0002.s4;b0002.s11;b0002.s12|noncritical|unresolved|Background says Ala raises risk; results suggest Val

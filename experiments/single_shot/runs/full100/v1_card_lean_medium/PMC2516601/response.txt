@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text given; no disease entities present
+E|G1|gene|BSX xylanase (Bacillus sp. NG-27)|BSX;R-BSX;xylanase|p|species_unresolved|non-human||
+E|G2|gene|Bacillus halodurans xylanase|Bacillus halodurans xylanase;BHX|r||non-human||
+E|G3|gene|Bacillus firmus xylanase|Bacillus firmus xylanase;BFX|r||non-human||
+E|G4|gene|T4 lysozyme|T4 lysozyme|r||non-human||
+E|G5|gene|barnase|barnase|r||non-human||
+E|G6|gene|staphylococcal nuclease|staphylococcal nuclease;SN|r||non-human||
+E|G7|gene|human lysozyme|human lysozyme|r||human||
+E|G8|gene|ribonuclease A|ribonuclease A|p|species_unresolved|||
+E|G9|gene|trypsin|trypsin|p|species_unresolved|||
+X|V1G|b0021|variant identifier, not gene
+X|proteinase K|b0003|assay reagent, not analysed gene
+F|F1|mechanism|Val1 substitution vs thermal/SDS/protease/alkaline stability|recombinant BSX mutants in vitro|not_applicable|negative|not_reported|EV1|protein stability, no disease
+EV|EV1|b0007.s1+b0021.s9+b0041.s2+b0047.s3|ts|res|na|rr
+R|no disease endpoints|whole paper|Protein-engineering paper; no disease, clinical event or phenotype targets|Recorded genes only; no P records generated

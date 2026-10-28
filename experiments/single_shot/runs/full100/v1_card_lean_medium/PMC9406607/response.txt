@@ -1,0 +1,80 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables, captions read; Figure S1 not available
+E|G1|gene|PRPH2|PRPH2;peripherin-2;RDS;retinal degeneration slow;PRHP2;peripherin|p|suspected_typo|human||
+E|G2|gene|ROM1|ROM1;retinal outer segment membrane protein 1|r||human||
+E|G3|gene|ABCA4|ABCA4|r||human||
+E|G4|gene|RPE65|RPE65|r||human||
+E|G5|gene|VEGF|vascular endothelial growth factor;VEGF|r||human||
+E|D1|disease|inherited retinal dystrophy|inherited retinal dystrophies;inherited retinal diseases;IRD|r||||
+E|D2|disease|PRPH2-related retinal dystrophy|PRPH2-related retinal dystrophy;PRPH2 disease;PRPH2 retinal dystrophy;PRPH2-related disease;PRPH2 related dystrophy|r|||D1|
+E|D3|disease|pattern dystrophy|pattern dystrophy;PD|r||||
+E|D4|disease|multifocal pattern dystrophy simulating fundus flavimaculatus|multifocal pattern dystrophy simulating fundus flavimaculatus;pattern dystrophy-simulating fundus flavimaculatus;pattern disease simulating fundus flavimaculatus;PDSFF|r||||
+E|D5|disease|macular dystrophy|macular dystrophy;Macular dystrophy;MD|r||||
+E|D6|disease|Stargardt disease|Stargardt disease;SD|r||||
+E|D7|disease|autosomal recessive Stargardt disease|autosomal recessive SD|r|||D6|
+E|D8|disease|retinitis pigmentosa|retinitis pigmentosa;RP|r||||
+E|D9|disease|autosomal dominant retinitis pigmentosa|autosomal dominant RP;ADRP|r|||D8|
+E|D10|disease|digenic retinitis pigmentosa|digenic RP|r|||D8|
+E|D11|disease|adult-onset vitelliform macular dystrophy|adult-onset vitelliform macular dystrophy;AVMD;ADVM|p|suspected_typo|||
+E|D12|disease|extensive chorioretinal atrophy|extensive chorioretinal atrophy;extensive chorio-retinal atrophy;ECA|r||||
+E|D13|disease|central areolar choroidal dystrophy|central areolar choroidal dystrophy;CACD|r||||
+E|D14|disease|cone-rod dystrophy|cone-rod dystrophy;CRD|r||||
+E|D15|disease|rod-cone dystrophy|rod-cone dystrophy|r||||
+E|D16|disease|choroidal neovascularization|choroidal neovascularization;CNV|r||||
+E|D17|disease|best maculopathy|best maculopathy|r||||
+E|D18|ambiguous_disease|MNV|MNV|u|undefined_abbreviation|||
+E|S1|phenotype|electronegative ERG|electronegative ERG|r||||
+E|S2|phenotype|chromatic sense alteration|chromatic sense|r||||
+X|diabetic retinopathy|b0015|part of chart name (ETDRS), not a studied disease
+X|tetraspanin family|b0005|gene family, not single-gene endpoint
+X|PROM1Nonsense|b0138|gene-like token fused in table cell; no whole-word form
+X|D2 loop|b0042|protein domain, not gene
+EV|V1|b0002.s1+b0004.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0014.s1+b0022.s4|ts|res|aff|rr,eda
+EV|V3|b0035.s1+b0039.s2+b0043.s3|ts|int|aff|eda
+EV|V4|b0006.s1|bg|bgr|aff|ebr
+EV|V5|b0028.s1+b0028.s3|ts|res|aff|eda,rr
+EV|V6|b0055.s2|ts|res|aff|eda
+EV|V7|b0045.s1|ts|res|aff|eda
+EV|V8|b0029.s1+b0051.s2|bg|bgr|aff|ebr
+EV|V9|b0051.s3+b0052.s1|ts|res|aff|rr
+EV|V10|b0007.s3|bg|bgr|aff|ebr
+EV|V11|b0007.s3+b0043.s3+b0044.s2|ts|hyp|hyp|ho
+EV|V12|b0007.s2+b0049.s4|unk|int|q|unc
+EV|V13|b0048.s2|ts|res|na|do
+EV|V14|b0049.s2+b0049.s3|ts|res|na|do
+EV|V15|b0042.s4|ts|res|na|do
+EV|V16|b0032.s1|ts|co|na|do
+EV|V17|b0044.s1|ts|res|na|do
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||PRPH2 frequent in IRD; cohort carriers
+P|G1|D2|sup|c|ts|sup:c:ts:V3|||causative mutations, monogenic disease
+P|G1|D3|sup|a|both|sup:a:bg:V4;sup:a:ts:V5+V6+V7|||background and cohort phenotype attribution
+P|G1|D4|sup|a|both|sup:a:bg:V4;sup:a:ts:V5+V6+V7|||background and cohort phenotype attribution
+P|G1|D5|sup|a|both|sup:a:bg:V4;sup:a:ts:V5|||background and cohort phenotype attribution
+P|G1|D6|sup|a|bg|sup:a:bg:V4|||background list of PRPH2 presentations
+P|G1|D8|sup|a|both|sup:a:bg:V4;sup:a:ts:V5+V6|||background and cohort phenotype attribution
+P|G1|D9|sup|a|ts|sup:a:ts:V5+V7|||ADRP patients attributed to PRPH2 mutation
+P|G1|D11|sup|a|both|sup:a:bg:V4;sup:a:ts:V5+V7|||background and cohort phenotype attribution
+P|G1|D12|sup|a|both|sup:a:bg:V4;sup:a:ts:V5+V7|||background and cohort phenotype attribution
+P|G1|D13|sup|a|both|sup:a:bg:V4;sup:a:ts:V5+V6|||background and cohort phenotype attribution
+P|G1|D16|sup|a|both|sup:a:bg:V8;sup:a:ts:V9|||CNV reported as PRPH2 disease complication
+P|G1|D14|unc|-||unc:-:unk:V12|scope||progression/mimicry unclear for PRPH2
+P|G1|D15|unc|-||unc:-:unk:V12|scope||progression/mimicry unclear for PRPH2
+P|G2|D10|sup|a|bg|sup:a:bg:V10|||background: ROM1 in digenic RP
+P|G3|D7|sup|a|bg|sup:a:bg:V10|||background: ABCA4 typical in AR SD
+P|G2|D2|unc|-||unc:-:ts:V11|hedged_claim||modifier role only possible
+P|G3|D2|unc|-||unc:-:ts:V11|hedged_claim||modifier role only possible
+P|G4|D2|unc|-||unc:-:bg:V11|hedged_claim||modifier role only possible
+F|F1|descriptive|PRPH2 mutation vs seven phenotypes|28 carriers, 11 families|not_applicable|not_applicable|not_applicable|V5|no comparator group
+F|F2|descriptive|monocular CNV by phenotype|PRPH2 cohort, five patients|not_applicable|not_applicable|not_applicable|V9|no control group
+F|F3|descriptive|chromatic sense reduction vs BCVA|PRPH2 patients|unknown|positive|not_reported|V13|no statistical test
+F|F4|descriptive|electronegative ERG presence|PRPH2 cohort|not_applicable|null|not_applicable|V14|
+F|F5|descriptive|PRPH2 variant location in D2 loop|11 families|not_applicable|not_applicable|not_applicable|V15|
+F|F6|descriptive|modifier variants ABCA4 and ROM1|five patients, five families|not_applicable|not_applicable|not_applicable|V16|
+F|F7|descriptive|same PRPH2 variant, different phenotypes|families 1,3,5,9 and 4,8, family 2|not_applicable|not_applicable|not_applicable|V7+V17|
+C|C1|modifier gene ROM1 vs PROM1|b0032.s1+b0138.s1|undetermined|unresolved|text ROM1, table PROM1
+C|C2|Arg46* typed missense; rsID duplicated|b0137.s1+b0138.s1|noncritical|unresolved|table annotation inconsistency
+C|C3|c.742C>A families: one vs two|b0031.s2+b0055.s2|noncritical|unresolved|table shows family 11 only
+C|C4|Ser301 variant notation differs|b0031.s2+b0042.s4|noncritical|resolved|same frameshift variant
+U|Figure S1 pedigrees|b0023.s1|supplementary file not provided
+R|surface form whole-word|b0138.s1|PROM1 appears only fused as PROM1Nonsense|no entity created; recorded in X and C1

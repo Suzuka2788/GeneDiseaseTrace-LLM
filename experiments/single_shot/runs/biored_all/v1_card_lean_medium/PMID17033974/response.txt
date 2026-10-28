@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|CACNA2D4|CACNA2D4|r||human||
+E|G2|gene|Cacna2d4|Cacna2d4|r||non-human||
+E|D1|disease|autosomal recessive cone dystrophy|autosomal recessive cone dystrophy|r|||D2|
+E|D2|disease|cone dystrophy|cone dystrophy|r||||
+E|D3|disease|night blindness|night blindness|r||||
+E|S1|phenotype|loss of retinal signaling|loss of retinal signaling|r||||
+X|c.2406C-->A|b0002.s5|variant identifier
+EV|V1|b0001.s1+b0002.s8|ts|res|aff|eda,rr
+EV|V2|b0002.s5+b0002.s6+b0002.s7|ts|res|aff|rr,eda
+EV|V3|b0002.s2|ts|res|na|do
+EV|V4|b0002.s4|bg|bgr|na|none
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2|||Authors attribute AR cone dystrophy to homozygous truncating mutation
+P|G1|D2|unc|-|ts||scope|V2|Patients have cone dystrophy; attribution stated for AR subtype
+P|G1|D3|nf|-|||||V2|Night blindness was only the initial screening diagnosis
+P|G2|D1|nf|-|||||V3|Mouse mutant phenotype only, no disease named
+F|F1|descriptive|CACNA2D4 c.2406C-->A homozygous|34 night blindness patients, 2 siblings|not_applicable|not_applicable|not_applicable|V2|abstract only; segregation details unread

@@ -1,0 +1,75 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full review text, tables 1-3, figure captions, abbreviation list
+E|G1|gene|SLC12A3|SLC12A3;NCCT;NCC;TSC;Solute Carrier Family 12 Member 3;solute carrier family 12 member 3;Thiazide-Sensitive Sodium-Chloride Cotransporter|r||human||
+E|G2|gene|zebrafish slc12a3|slc12a3|r||non-human||
+E|G3|gene|rodent/mouse slc12a3|slc12a3|p|species_unresolved|non-human||
+E|G4|gene|SCNN1A|SCNN1A|r||human||
+E|G5|gene|ATF6|ATF6|r||human||
+E|G6|gene|GR|GR|p|undefined_abbreviation|||
+E|G7|gene|ROR|ROR|p|undefined_abbreviation,ambiguous_mapping|||
+E|G8|gene|TBP|TBP|r||human||
+E|G9|gene|USF1|USF1|r||human||
+E|G10|gene|ALPL|ALPL|r||human||
+E|G11|gene|COL4A4|COL4A4|r||human||
+E|G12|gene|MEFV|MEFV|r||human||
+E|G13|gene|S100A12|S100A12|r||human||
+E|G14|gene|has-miR-6863|has-miRNA-6863;has-miR-6863|p|other|human||
+E|D1|disease|Gitelman syndrome|Gitelman syndrome;GS;Gitelman's syndrome;gitelman syndrome;Familial hypokalemia-hypomagnesemia|r||||D8|
+E|D2|disease|diabetic kidney disease|diabetic kidney disease;Diabetic kidney disease;DKD;Diabetic nephropathy|r|||||
+E|D3|disease|type 2 diabetes|type 2 diabetes;T2D|r|||||
+E|D4|disease|diabetes|diabetes|r|||||
+E|D5|disease|hypertension|hypertension;high blood pressure;high blood pressures|r|||||
+E|D6|disease|cardiovascular diseases|cardiovascular diseases;CVD|r|||||
+E|D7|disease|renal disorders|Renal disorders;renal disorders;renal diseases|r|||||
+E|D8|disease|salt-losing renal tubulopathy|salt-losing renal tubulopathy;salt-losing tubulopathy|r|||||
+E|D9|disease|inherited renal tubular disorders|inherited renal tubular disorders|r|||||
+E|D10|disease|inherited diseases|inherited diseases|r|||||
+E|CE1|clinical_event|sudden cardiac arrest|Sudden cardiac arrest|r|||||
+E|S1|phenotype|hypokalemia|hypokalemia|r|||||
+E|S2|phenotype|hypomagnesemia|hypomagnesemia|r|||||
+E|S3|phenotype|metabolic alkalosis|metabolic alkalosis|r|||||
+E|S4|phenotype|hypocalciuria|hypocalciuria|r|||||
+E|S5|phenotype|secondary aldosteronism|secondary aldosteronism|r|||||
+E|S6|phenotype|hyperglycemia|hyperglycemia|r|||||
+X|SCNN1|b0041|subunit complex/family (ENaC), not single gene
+X|ENaC|b0008|channel complex, not single gene
+X|E2F|b0009|transcription factor family, not single gene
+X|hsa-miR-136-5p (and other Table 1 miRNAs)|b0033|identifier list, no disease link
+X|Autosomal recessive inherited disease|b0052|table_grouping_label
+X|Polygenic genetic disease|b0052|table_grouping_label
+X|Arg913Gln|b0105|variant ID
+EV|V1|b0002.s3+b0005.s3+b0040.s6+b0041.s6|bg|bgr|aff|ebr,eda
+EV|V2|b0041.s21+b0008.s4+b0035.s1|bg|bgr|aff|ebr
+EV|V3|b0041.s8+b0041.s12+b0041.s13+b0107.s2|bg|res|aff|ebr,rr
+EV|V4|b0053.s1|bg|bgr|aff|ebr
+EV|V5|b0002.s5+b0005.s4+b0105.s3+b0105.s5+b0035.s1+b0107.s5|bg|res|aff|ebr,cmp
+EV|V6|b0105.s4+b0105.s10|bg|res|aff|ebr,cmp
+EV|V7|b0105.s11|bg|neg|neg|ebr
+EV|V8|b0105.s12+b0105.s13+b0105.s14|bg|int|q|unc
+EV|V9|b0105.s9+b0009.s13|bg|int|hyp|ho
+EV|V10|b0105.s6+b0105.s7+b0105.s8|bg|res|aff|rr,cmp
+EV|V11|b0002.s2+b0038.s4+b0038.s5+b0038.s6|bg|int|hyp|mi,ho
+EV|V12|b0009.s8|bg|hyp|hyp|ho
+EV|V13|b0007.s11+b0007.s12+b0007.s13+b0036.s1|bg|bgr|na|do
+EV|V14|b0008.s6+b0041.s30|bg|bgr|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3;sup:a:bg:V4|||Explicit background statements that mutations cause GS
+P|G1|D2|sup|a|bg|sup:a:bg:V5+V6;neg:-:bg:V7;unc:-:bg:V9|conflict||Arg913Gln associated; direction disputed; null in Caucasians
+P|G1|D3|sup|a|bg|sup:a:bg:V6|||913 allele reported protective for T2D
+P|G1|D4|unc|-|bg|unc:-:bg:V8|conflict||Predisposing versus protective disagreement in diabetes
+P|G1|D7|unc|-|bg|unc:-:bg:V11|hedged_claim||Only "may have genetic effects" in renal disorders
+P|G1|D6|unc|-|bg|unc:-:bg:V12|hedged_claim|V13|miRNA interaction potentially contributes; drug target only
+P|G1|D5|nf|-|||||V13|Thiazide drug target, not gene-disease relation
+P|G14|D6|unc|-|bg|unc:-:bg:V12|hedged_claim||Interaction potentially contributes to CVD
+P|G2|D7|unc|-|bg|unc:-:bg:V11|hedged_claim,scope||Knockdown gives duct phenotype only; inference hedged
+P|G3|D2|sup|a|bg|sup:a:bg:V10;unc:-:bg:V9|||Overexpressed in db/db kidneys at DKD stage
+P|G3|D3|unc|-|bg|unc:-:bg:V10|scope||db/db diabetes stage; T2D model link indirect
+P|G4|D1|nf|-|||||V14|SCNN1 complex compensation, not assigned to member
+F|F1|group_comparison|BP, biochemistry by heterozygous SLC12A3 mutation|500 Chinese children|not_significant|null|not_reported|V3|background cited study
+F|F2|association|Arg913Gln and DKD risk|Japanese T2D subjects|significant|negative|not_reported|V5+V6|direction disputed elsewhere
+F|F3|association|SLC12A3 polymorphisms and DKD|American Caucasians|not_significant|null|not_reported|V7|possibly underpowered
+F|F4|group_comparison|slc12a3 kidney expression, db/db vs control|db/db mice 6,12,26 weeks|unknown|positive|not_reported|V10|
+F|F5|mechanism|slc12a3 knockdown and pronephric duct structure|zebrafish embryos|significant|unknown|not_reported|V11|tissue phenotype only
+C|C1|Arg913Gln allele direction for DKD|b0105.s3+b0105.s4+b0105.s10+b0105.s12+b0105.s13|noncritical|unresolved|protective vs predisposing; association exists
+C|C2|913Glu vs 913Gln allele naming|b0105.s10+b0105.s3|noncritical|unresolved|likely typo for Gln
+C|C3|zebrafish phenotype timing|b0002.s2+b0038.s5|noncritical|unresolved|1-cell stage vs 4 dpf
+C|C4|8 mutations mapped to 7 exons|b0103.s2+b0078.s1+b0079.s1|noncritical|unresolved|exon listing incomplete

@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|renin|renin;REN|r||human||
+E|G2|gene|uromodulin|UMOD;uromodulin|r||human||
+E|G3|gene|hepatocyte nuclear factor 1b|HNF1B;hepatocyte nuclear factor 1b|r||human||
+E|D1|disease|renal tubular dysgenesis|renal tubular dysgenesis|r||||
+E|D2|disease|kidney failure|kidney failure|r||||
+E|D3|disease|pulmonary hypoplasia|pulmonary hypoplasia|r||||
+E|D4|disease|fetopathy|fetopathy|r||||
+E|D5|disease|hyperuricemia|hyperuricemia|r||||
+E|D6|disease|anemia|anemia;Anemia|r||||
+E|D7|disease|chronic kidney disease|CKD;chronic kidney disease|r||||
+E|D8|clinical_event|death in utero|death in utero|r||||
+X|angiotensin-converting enzyme inhibitor|b0002|drug class, not a gene mention
+X|angiotensin receptor blocker|b0002|drug class, not a gene mention
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0001.s1+b0002.s6+b0002.s8|ts|res|aff|rr,cs,eda
+EV|V4|b0002.s5+b0002.s7|ts|res|na|do
+EV|V5|b0002.s9|ts|res|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1||V1|Background: biallelic REN mutations cause RTD
+P|G1|D5|sup|c|bg|sup:c:bg:V2;sup:a:ts:V3|||Background causal; kindred co-segregation
+P|G1|D6|sup|c|bg|sup:c:bg:V2;sup:a:ts:V3||V5|Background causal; kindred co-segregation
+P|G1|D7|sup|c|bg|sup:c:bg:V2;sup:a:ts:V3||V4|Background causal; kindred co-segregation
+P|G1|D2|nf|-||||V1|Kidney failure is a feature of RTD only
+P|G1|D3|nf|-||||V1|Pulmonary hypoplasia is a feature of RTD only
+P|G2|D7|nf|-||||V4|Prior negative testing only, no association claim
+P|G3|D7|nf|-||||V4|Prior negative testing only, no association claim
+F|F1|descriptive|REN mutation frequency|39 hyperuricemia/CKD kindreds|not_applicable|not_applicable|partial|V4|1 of 39 kindreds; abstract only

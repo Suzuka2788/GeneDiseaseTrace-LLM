@@ -1,0 +1,76 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text, captions and tables; supplementary figures and Table S1 unread
+E|G1|gene|Elp3 (mouse)|Elp3;ELP3|r||non-human||
+E|G2|gene|ELP3 (human, THP-1)|ELP3;HuELP3|r||human||
+E|G3|gene|Elp3 (background disease mention)|Elp3|p|species_unresolved|||
+E|G4|gene|Elp1|Elp1;ELP1|p|species_unresolved|||
+E|G5|gene|TYK2|TYK2;TKY2|p|suspected_typo|non-human||
+E|G6|gene|STAT1|STAT1;Stat1|r||non-human||
+E|G7|gene|STAT2|STAT2|r||non-human||
+E|G8|gene|IRF3|IRF3;Irf3|r||non-human||
+E|G9|gene|IRF7|IRF7;Irf7|r||non-human||
+E|G10|gene|IRF9|IRF9|r||non-human||
+E|G11|gene|IRF5|IRF5;Irf5|r||non-human||
+E|G12|gene|RELA|RELA;p65|r||non-human||
+E|G13|gene|NFKB1|NFKB1;p50|r||non-human||
+E|G14|gene|NFKB2|NFKB2;p52|r||non-human||
+E|G15|gene|Ifnb (mouse)|Ifnb;IFNβ;IFN-β|r||non-human||
+E|G16|gene|Ifna (mouse)|Ifna|r||non-human||
+E|G17|gene|IFNB (human)|IFNB;HuIFNB|r||human||
+E|G18|gene|CXCL10 (human)|CXCL10;HuCXCL10|r||human||
+E|G19|gene|TNF (human)|TNF;HuTNF|r||human||
+E|G20|gene|Cxcl10 (mouse)|Cxcl10|r||non-human||
+E|G21|gene|Ccl5|Ccl5|r||non-human||
+E|G22|gene|Tnf (mouse)|Tnf;TNF|r||non-human||
+E|G23|gene|Il6|Il6;IL-6|r||non-human||
+E|G24|gene|JAK1|JAK1|r||non-human||
+E|G25|gene|IFNAR1|IFNAR1|r||non-human||
+E|G26|gene|STAT3|STAT3;Stat3|r||non-human||
+E|G27|gene|STAT6|STAT6|r||non-human||
+E|G28|gene|Isg15|Isg15|r||non-human||
+E|G29|gene|Irf1|Irf1|r||non-human||
+E|G30|gene|Socs3|Socs3|r||non-human||
+E|G31|gene|Arg1|Arg1|r||non-human||
+E|G32|gene|Irf2|Irf2|r||non-human||
+E|G33|gene|TLR4|TLR4;Toll-like receptor 4|r||non-human||
+E|G34|gene|cGAS|cGAS|r||non-human||
+E|G35|gene|STING|STING|r||non-human||
+E|G36|gene|RIG-I|RIG-I|r||non-human||
+E|G37|gene|MDA5|MDA5|r||non-human||
+E|G38|gene|IFI204|IFI204|r||non-human||
+E|G39|gene|IFIT3|IFIT3|r||non-human||
+E|G40|gene|USP25|USP25|r||non-human||
+E|G41|gene|ADAR|ADAR|r||non-human||
+E|G42|gene|β-actin|β-actin;Actin;HuACTIN|r||||
+E|D1|disease|Familial dysautonomia|Familial dysautonomia|r||||
+E|D2|disease|Amyotrophic lateral sclerosis|Amyotrophic lateral sclerosis|r||||
+E|D3|disease|neurological conditions|neurological conditions;neurological disorders|p|other|||
+E|D4|disease|cancer|cancer|r||||
+E|D5|disease|RNA virus infection|RNA virus infection;RNA virus infections|r||||
+E|S1|phenotype|tumorigenicity|tumorigenicity|r||||
+X|Elongator|b0002.s6|protein complex, not single gene
+X|ELP1-6|b0006.s4|subunit list, not single gene
+X|ISGs|b0019.s3|gene set
+X|NFκB|b0004.s2|transcription factor family
+X|neurodegeneration|b0007.s3|process term, not specific disease
+X|influenza A virus|b0042.s2|pathogen, not disease
+EV|V1|b0007.s4|bg|bgr|aff|ebr
+EV|V2|b0007.s4|bg|bgr|aff|ebr
+EV|V3|b0007.s4|bg|bgr|aff|ebr,unc
+EV|V4|b0051.s2|ts|hyp|hyp|ho
+EV|V5|b0007.s5+b0007.s6|bg|bgr|aff|ebr
+P|G4|D1|sup|c|bg|sup:c:bg:V1||||Elp1 mutations lead to familial dysautonomia
+P|G3|D2|sup|a|bg|sup:a:bg:V2||||Elp3 allelic variants associated with ALS
+P|G4|D3|unc|-|bg|unc:-:bg:V3|scope|||Example via FD; subunit-level statement, not Elp1-specific
+P|G3|D3|unc|-|bg|unc:-:bg:V3|scope|||Subunit-level statement only; ALS example
+P|G1|D5|unc|-|ts|unc:-:ts:V4|hedged_claim|||Susceptibility only expected; ELP subunits generally
+P|G1|D4|nf|-||||V5|Cancer attributed to Elongator complex, not gene
+F|F1|group_comparison|Elp3 KO vs WT; mcm5s2U level|mouse iBMDMs|significant|negative|partial|b0011.s4+b0012.s7|
+F|F2|group_comparison|Elp3 KO; LPS-induced Ifnb, Irf7, Ifna|mouse iBMDMs|significant|negative|partial|b0026.s2+b0023.s8|
+F|F3|group_comparison|ELP3 shRNA; IFNB, CXCL10, TNF|human THP-1 cells|mixed|negative|unread|b0038.s1+b0038.s2|Supplementary figure S3 unread
+F|F4|correlation|EDC percentage vs ISG expression loss|Elp3 KO macrophages|unknown|null|not_reported|b0030.s11|No formal test reported
+F|F5|group_comparison|Elp3 KO; virus-induced Ifna, Ifnb, Irf7, Cxcl10|IAV/RSV-infected iBMDMs|significant|negative|partial|b0042.s3+b0042.s7+b0043.s5|Ccl5 unaffected
+C|C1|STAT1 phosphorylation figure reference|b0032.s2+b0028.s2|noncritical|resolved|Text cites Fig 4A; data in 5A
+U|Table S1|b0014.s6|Supplementary data not provided
+U|Figures S1-S3|b0018.s3;b0030.s4;b0038.s1|Supplementary figures not provided
+R|Species|b0007.s4|Elp1/Elp3 named in mammalian disease context, species unstated|Separate background node, species empty, provisional

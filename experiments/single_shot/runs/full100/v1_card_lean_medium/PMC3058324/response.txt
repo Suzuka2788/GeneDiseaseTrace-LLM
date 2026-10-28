@@ -1,0 +1,37 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text blocks b0001-b0064 including Table 1; figures not viewable
+E|G1|gene|LDLR|LDLR;LDL receptor;low-density lipoprotein receptor|r||human||
+E|G2|gene|APOB|APOB;apolipoprotein B|r||human||
+E|G3|gene|PCSK9|PCSK9;proprotein convertase subtilisin-kexin type 9|r||human||
+E|D1|disease|familial hypercholesterolaemia|familial hypercholesterolaemia;FH|r||||
+E|D2|disease|homozygous FH|homozygous FH|r|||D1|
+E|D3|disease|heterozygous FH|heterozygous FH|r|||D1|
+E|D4|disease|cardiovascular disease|cardiovascular disease;CVD|r||||
+E|D5|disease|atherosclerosis|atherosclerosis|r||||
+E|D6|disease|coronary artery disease|coronary artery disease|r||||
+X|Inherited Hypercholesterolaemia|b0017|part of foundation name (StOEH), not a disease mention
+X|Cape Town-2|b0036|variant name, not a disease or gene
+X|R3500Q|b0030|variant identifier, belongs to APOB
+EV|V1|b0012.s1|bg|bgr|aff|ebr
+EV|V2|b0012.s2|bg|bgr|aff|ebr
+EV|V3|b0012.s3|bg|bgr|aff|ebr
+EV|V4|b0024.s1+b0024.s2+b0027.s1+b0029.s1+b0030.s1|ts|res|aff|rr
+EV|V5|b0056.s4+b0040.s1|bg|bgr|aff|ebr
+EV|V6|b0054.s7+b0029.s1+b0031.s1|bg|res|aff|ebr,cmp
+EV|V7|b0051.s1+b0051.s2|ts|res|aff|rr
+EV|V8|b0054.s5+b0054.s6+b0031.s1|bg|int|aff|unc
+EV|V9|b0024.s3|ts|res|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V4;sup:a:bg:V5|||LDLR mutations stated main FH cause
+P|G2|D1|sup|c|bg|sup:c:bg:V2;sup:a:ts:V4|||APOB mutations cause FH phenotype in ~7%
+P|G3|D1|sup|c|bg|sup:c:bg:V3||V9|gain-of-function PCSK9 rare FH cause
+P|G1|D2|unc|-||unc:-:ts:V7|scope||homozygotes not broken down by gene
+P|G2|D2|unc|-||unc:-:ts:V7|scope||homozygotes not broken down by gene
+P|G1|D6|sup|a|bg|sup:a:bg:V6|||LDLR mutation carriers higher CAD risk vs relatives
+P|G1|D4|nf|-||||V8|only between-mutation severity comparison within FH
+F|F1|descriptive|LDL-C levels by mutation|screening-identified FH carriers|unknown|mixed|available|V4|no formal test between mutations
+F|F2|descriptive|mutation prevalence by PC2 area|Dutch FH patients, 12 mutations|not_applicable|not_applicable|partial|V4|founder effect inferred from maps
+F|F3|group_comparison|observed vs expected homozygous FH count|Dutch homozygous FH patients|unknown|positive|partial|V7|51 vs 26, no test
+F|F4|association|LDLR mutation carrier status vs CAD|FH patients vs unaffected relatives|significant|positive|available|V6|cited study
+C|C1|untreated LDL-C range|b0007.s2+b0025.s2+b0025.s3|noncritical|resolved|abstract range matches estimated pre-treatment levels
+C|C2|191-1 vs 191-2 variant name|b0046.s1+b0037.s1+b0047.s1|noncritical|unresolved|likely typo of 191-2
+C|C3|mutation counts 528+25 vs 552|b0024.s1+b0024.s2|noncritical|unresolved|sum 553 differs from total

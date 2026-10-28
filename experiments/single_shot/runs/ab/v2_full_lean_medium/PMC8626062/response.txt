@@ -1,0 +1,51 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Spanish case report text and captions; figure images and references unavailable
+E|G1|gene|RAG1|RAG1|r||human||
+E|G2|gene|RAG2|RAG2|r||human||
+E|G3|gene|Artemis-encoding gene|Artemis|p|other|human||
+E|G4|gene|RMRP (written RPMRP RNA)|RPMRP RNA|p|suspected_typo|human||
+E|G5|gene|IL7RA|IL7RA|r||human||
+E|D1|disease|síndrome de Omenn|síndrome de Omenn;inmunodeficiencia combinada con hipereosinofilia|r||||
+E|D2|disease|eritrodermia neonatal congénita|eritrodermias neonatales congénitas;eritrodermia congénita;eritrodermias;eritrodermia neonatal;eritodermia|r||||
+E|D3|disease|ictiosis|ictiosis;variante de ictiosis;variantes de ictiosis;ictiosis congénita|r|||D5|
+E|D4|disease|ictiosis laminar|ictiosis laminar|r|||D3|
+E|D5|disease|desórdenes de la cornificación|desórdenes de la cornificación|r||||
+E|D6|disease|desórdenes inflamatorios|desórdenes inflamatorios|r||||
+E|D7|disease|dermatitis atópica|dermatitis atópica|r|||D6|
+E|D8|disease|psoriasis|psoriasis|r|||D6|
+E|D9|disease|dermatitis seborreica|dermatitis seborreica|r|||D6|
+E|D10|disease|trastornos metabólicos|trastornos metabólicos|r||||
+E|D11|disease|deficiencia de biotinidasa|deficiencia de biotinidasa|r|||D10|
+E|D12|disease|inmunodeficiencia combinada grave|inmunodeficiencia combinada grave|r||||
+E|D13|disease|inmunodeficiencia primaria|inmunodeficiencia primaria|r||||
+E|D14|disease|enteritis|enteritis|r||||
+E|D15|disease|pneumonitis|pneumonitis|r||||
+E|D16|disease|hepatitis|hepatitis|r||||
+E|D17|disease|infección de piel|infección de piel|r||||
+E|D18|clinical_event|choque séptico|choque séptico|r||||
+E|D19|clinical_event|falla multiorgánica|falla multiorgánica|r||||
+E|D20|disease|insuficiencia renal aguda|insuficiencia renal aguda|r||||
+E|D21|disease|coagulación intravascular diseminada|coagulación intravascular diseminada|r||||
+E|D22|disease|taquipnea transitoria del recién nacido|taquipnea transitoria del recién nacido|r||||
+E|D23|disease|hemorragia intraventricular|hemorragia intraventricular|r||||
+E|S1|symptom|eritema|eritema|r||||
+E|S2|symptom|alopecia|alopecia|r||||
+E|S3|phenotype|polihidramnios|polihidramnios|r||||
+E|S4|phenotype|hepatoesplenomegalia|hepatoesplenomegalia|r||||
+X|deficiencia de biotinidasa y de zinc|b0009|elliptical zinc deficiency; no standalone written form
+X|IL-7|b0024|ELISA analyte for screening, not a studied gene
+X|TREC|b0024|T-cell receptor excision circles, assay target not gene
+X|recombination-activating genes|b0010|expansion of RAG1/RAG2 collective name
+EV|V1|b0010.s3|bg|bgr|aff|ebr
+EV|V2|b0010.s4|bg|bgr|aff|ebr
+EV|V3|b0018.s5|ts|co|aff|do
+EV|V4|b0019.s1|ts|int|aff|eda,unc
+EV|V5|b0026.s2|both|int|q|unc
+EV|V6|b0026.s4|ts|aim|na|none
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||Background: AR mutations in most Omenn cases
+P|G2|D1|sup|a|bg|sup:a:bg:V1;unc:a:ts:V3+V4+V5+V6|||Background support; heterozygous case variant inconclusive
+P|G3|D1|sup|a|bg|sup:a:bg:V2|||Literature associates Artemis gene mutations with syndrome
+P|G4|D1|sup|a|bg|sup:a:bg:V2|||Literature association; RPMRP likely RMRP typo
+P|G5|D1|sup|a|bg|sup:a:bg:V2|||Literature associates IL7RA mutations with syndrome
+F|F1|descriptive|RAG2 c.829dupT heterozygous duplication|single neonate with Omenn syndrome|not_applicable|not_applicable|not_applicable|V3+V5|single heterozygous allele; second allele untested
+R|R9|b0019.s1;b0026.s2|Case diagnosis partly cites RAG2 variant, but authors deny definitive genetic diagnosis|Case claim kept uncertain; pair supported only by background

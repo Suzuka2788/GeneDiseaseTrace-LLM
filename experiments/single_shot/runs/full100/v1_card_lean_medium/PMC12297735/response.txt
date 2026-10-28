@@ -1,0 +1,82 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; supplementary figures and materials not provided
+E|G1|gene|HTT|Huntingtin;mHTT;HTT;mutant Huntingtin|r||human||
+E|G2|gene|IGF2|Insulin-like growth factor 2;IGF2|r||human||
+E|G3|gene|IGF2R|insulin-like growth factor 2 receptor;IGF2R|r||||
+E|G4|ambiguous_gene|AKT|AKT;Protein Kinase B;PKB;Akt|p|ambiguous_mapping||||
+E|G5|gene|AKT1|AKT1|p|species_unresolved||||
+E|G6|gene|mTOR|mammalian target of rapamycin;mTOR|r||||
+E|G7|gene|GSK3β|glycogen synthase kinase 3 beta;GSK3β|r||||
+E|G8|ambiguous_gene|I-κB|I-κB|p|ambiguous_mapping||||
+E|G9|gene|I-κBα|I-κBα;I-kBα|p|species_unresolved||||
+E|G10|gene|Cdc42|Cdc42|r||||
+E|G11|gene|TNF-α|TNF-α;TNFα|p|species_unresolved||||
+E|G12|gene|IL-6|IL-6|p|species_unresolved||||
+E|G13|gene|CD63|CD63|p|species_unresolved||||
+E|G14|gene|GAPDH|GAPDH|p|species_unresolved||||
+E|G15|gene|β-Actin|β-Actin|p|species_unresolved||||
+E|G16|gene|γ-tubulin|γ-tubulin;Γ-tubulin|p|species_unresolved||||
+E|G17|gene|α-tubulin|α-tubulin|p|species_unresolved||||
+E|G18|gene|Histone 3|Histone 3;H3|p|species_unresolved||||
+E|G19|gene|c-Myc|c-Myc|r||||
+E|G20|gene|alpha-synuclein|alpha-synuclein|r||||
+E|D1|disease|Huntington's disease|Huntington's disease;HD;Huntington's chorea;huntington's disease|r|||D2|
+E|D2|disease|neurodegenerative disease|neurodegenerative disease;neurodegenerative diseases;neurodegenerative disorder|r||||
+E|D3|disease|Alzheimer's disease|Alzheimer's disease;AD|r|||D2|
+E|D4|disease|Parkinson's disease|Parkinson's disease;PD|r|||D2|
+E|D5|disease|amyotrophic lateral sclerosis|amyotrophic lateral sclerosis|r|||D2|
+E|D6|disease|spinal muscular atrophy|spinal muscular atrophy|r|||D2|
+E|D7|disease|neuroblastoma|neuroblastoma|r||||
+E|S1|symptom|motor activity deficits|motor activity deficits|r||||
+E|S2|phenotype|neurodegeneration|neurodegeneration|r||||
+E|S3|phenotype|inflammation|inflammation|r||||
+X|NF-κB|b0005.s2|transcription factor complex, not single gene
+X|IKK|b0015.s5|kinase complex
+X|IGF|b0014.s1|gene family label
+X|PI3K|b0068.s8|pathway/family name
+X|CREB|b0068.s8|family name, not single gene
+X|G84Q|b0052.s5|construct name for mHTT
+X|GIGF2|b0023.s4|EGFP-IGF2 fusion construct
+X|shAKT|b0023.s1|shRNA construct
+X|pNF-kB-Luc|b0023.s1|reporter plasmid
+X|EM48|b0025.s5|antibody
+X|R6/2|b0035.s1|mouse model strain
+X|GFP|b0053.s4|reporter tag
+X|TRCN0000304684|b0023.s5|clone identifier
+EV|V1|b0013.s1+b0013.s2|bg|bgr|aff|ebr
+EV|V2|b0005.s1+b0051.s4+b0051.s5+b0052.s4|ts|res|aff|rr,cmp
+EV|V3|b0051.s5|bg|bgr|aff|ebr
+EV|V4|b0005.s3+b0064.s8+b0064.s11+b0064.s12|ts|res|aff|rr,mi
+EV|V5|b0051.s6+b0051.s7|ts|int|hyp|unc
+EV|V6|b0014.s6|bg|bgr|aff|ebr
+EV|V7|b0068.s4|bg|bgr|aff|ebr
+EV|V8|b0068.s5|bg|bgr|aff|ebr
+EV|V9|b0067.s4|bg|bgr|aff|ebr
+EV|V10|b0054.s5+b0055.s9|ts|res|q|rr,cmp
+EV|V11|b0054.s6|ts|int|hyp|ho
+EV|V12|b0064.s13+b0065.s14|ts|res|na|rr
+EV|V13|b0053.s5+b0053.s8+b0056.s3+b0059.s17+b0061.s4|ts|res|na|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||Background: HD caused by HTT mutations
+P|G2|D1|sup|a|both|sup:a:ts:V2+V4;sup:a:bg:V3||V5|Lower expression in symptomatic HD; rescue in mice
+P|G2|D3|sup|a|bg|sup:a:bg:V6+V7|||Background neuroprotective role in AD
+P|G2|D4|sup|a|bg|sup:a:bg:V6+V8|||Background neuroprotective role in PD
+P|G2|D5|sup|a|bg|sup:a:bg:V6|||Background neuroprotective role in ALS
+P|G2|D6|sup|a|bg|sup:a:bg:V6|||Background neuroprotective role in SMA
+P|G2|D2|sup|a|bg|sup:a:bg:V6+V9|||Background benefit in neurodegenerative diseases
+P|G4|D1|unc|-||unc:-:ts:V10+V11|scope,identity,hedged_claim||Mouse model phospho-AKT only; family name
+P|G20|D4|unc|-||unc:-:bg:V8|presupposed_only||Accumulation in PD models presupposed
+F|F1|group_comparison|IGF2 mRNA vs HD stage|GSE1767 blood 14/5/12|significant|negative|partial|V2|one-tailed t-test; exact p unclear
+F|F2|group_comparison|IGF2 presymptomatic HD vs healthy|GSE1767 blood|not_significant|null|partial|V2|
+F|F3|group_comparison|IGF2 expression HD vs control|iPSC-derived BMEC and NSC datasets|unknown|negative|unread|V5|supplementary only
+F|F4|group_comparison|p-AKT/T-AKT R6/2 vs NTg|1-month mouse cortex|significant|negative|partial|V10|
+F|F5|group_comparison|GIGF2 vs control rotarod, grip|R6/2 mice 9 weeks|mixed|positive|partial|V4|rotarod significant; grip not
+F|F6|group_comparison|GIGF2 vs control mHTT aggregates|R6/2 striatum|significant|negative|partial|V4|
+F|F7|group_comparison|GIGF2 vs control p-AKT/T-AKT|R6/2 striatum|unknown|positive|partial|V12|text vs caption conflict
+F|F8|mechanism|IGF2/AKT/NF-κB vs mHTT aggregates|N2a cells|significant|negative|partial|V13|cell model only
+C|C1|in vivo p-AKT ratio after GIGF2|b0064.s13+b0071.s1+b0065.s14|noncritical|unresolved|slight increase vs no difference
+C|C2|AKT vs AKT1 knockdown target|b0056.s2+b0056.s3+b0062.s7|noncritical|unresolved|family name used for AKT1 shRNA
+U|Supplementary Fig. 1|b0051.s6|not provided
+U|Supplementary Fig. 2|b0053.s3|not provided
+U|Supplementary Fig. 3|b0059.s13|not provided
+U|Supplementary Fig. 4|b0059.s16|not provided
+U|Supplementary Material 1 and 2|b0076.s1+b0077.s1|not provided

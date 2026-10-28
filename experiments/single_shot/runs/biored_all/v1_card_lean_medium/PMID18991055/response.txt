@@ -1,0 +1,34 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SLC30A8|SLC30A8|r||human||
+E|G2|gene|HHEX|HHEX|r||human||
+E|G3|gene|CDKN2A/B|CDKN2A/B|p|ambiguous_mapping|human||
+E|G4|gene|IGF2BP2|IGF2BP2|r||human||
+E|G5|gene|FTO|FTO|r||human||
+E|G6|gene|WFS1|WFS1|r||human||
+E|G7|gene|CDKAL1|CDKAL1|r||human||
+E|G8|gene|KCNQ1|KCNQ1|r||human||
+E|D1|disease|type 2 diabetes mellitus|type 2 diabetes mellitus;type 2 diabetes;T2DM|r||||
+X|rs13266634|b0002.s4|variant ID
+X|rs7754840|b0002.s5|variant ID
+X|rs1111875|b0002.s6|variant ID
+X|rs10811661|b0002.s6|variant ID
+X|rs2237892|b0002.s6|variant ID
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s7|ts|neg|neg|rr,cmp
+EV|V5|b0002.s8|ts|int|aff|rr
+P|G7|D1|sup|a|ts|sup:a:ts:V1+V5||||rs7754840 strongest case-control association
+P|G2|D1|sup|a|ts|sup:a:ts:V2+V5||||rs1111875 G allele associated
+P|G3|D1|sup|a|ts|sup:a:ts:V2+V5||||rs10811661 T allele associated; locus label
+P|G8|D1|sup|a|ts|sup:a:ts:V2+V5||||rs2237892 C allele associated
+P|G1|D1|sup|a|ts|sup:a:ts:V3+V5||||nominal association p=0.045, authors conclude risk
+P|G4|D1|neg|-|ts|neg:-:ts:V4||||SNP not associated in Korean case-control
+P|G5|D1|neg|-|ts|neg:-:ts:V4||||SNP not associated in Korean case-control
+P|G6|D1|neg|-|ts|neg:-:ts:V4||||SNP not associated in Korean case-control
+F|F1|association|CDKAL1 rs7754840 vs T2DM|908 T2DM, 502 Korean controls|significant|positive|available|V1|
+F|F2|association|HHEX, CDKN2A/B, KCNQ1 risk alleles vs T2DM|908 T2DM, 502 Korean controls|significant|positive|available|V2|
+F|F3|association|SLC30A8 rs13266634 vs T2DM|908 T2DM, 502 Korean controls|significant|positive|available|V3|nominal only, no multiple-testing detail
+F|F4|association|IGF2BP2, FTO, WFS1 SNPs vs T2DM|908 T2DM, 502 Korean controls|not_significant|null|not_reported|V4|SNP-gene mapping not stated
+C|C1|SLC30A8 nominal vs conferred risk|b0002.s7+b0002.s8|noncritical|resolved|both report positive association direction

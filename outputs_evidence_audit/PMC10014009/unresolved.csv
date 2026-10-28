@@ -1,0 +1,10 @@
+﻿id,subject,state,reason,needed
+U01,ZPLD1—FCCM,uncertain,proposed句未附结果细节，无法判断背景实证强度。,被引研究15结果细节；当前任务不调用外部知识。
+U02,MAP3K3—FCCM,uncertain,could be a novel cause及these genes指代不清。,当前论文没有足够结果，不能用散发亚型补足。
+U03,KRIT1/CCM2/PDCD10—散发CCM,uncertain,体细胞双打击与亚型对应为间接证据。,指定基因和散发亚型直接对应证据。
+U04,三基因—广义vascular malformation,uncertain,宽泛类别、机制未知/likely；范围不足。,明确疾病范围与对应关系结果。
+U05,PLE,unresolved_identity,全文及脚注没有展开；8个候选对保留uncertain。,作者提供缩写定义或完整病历上下文。
+U06,动物Krit1/Ccm2/Pdcd10,unresolved_species,仅写animal model，具体物种未注明。,模型物种说明；现有边严格限动物背景。
+U07,首次CASH Cox分析,unresolved_per_gene_contrasts,S3缺失，无法确认每基因参照组/HR/CI/p。,ACN3-10-373-s001.docx中的S3。
+U08,覆盖盲区,missing_attachments,3张图片像素与补充DOCX未提供，无法核查其中共同遗漏。,原始JPG与补充DOCX。
+U09,KRTI1/CMM,contextual_typo_normalization,上下文支持疑似排字错误合并，非数据库确认。,出版社勘误或作者确认方可彻底消除疑义。

@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|DOCK8|DOCK8;dedicator of cytokinesis 8|r||human||
+E|D1|disease|lung cancer|lung cancer;primary lung cancers;lung cancers|r||||
+E|D2|disease|breast cancer|breast cancer|r||||
+E|D3|disease|gastric cancer|gastric|p|other|||
+E|D4|disease|cancers|cancers|p|other|||
+X|DOCK family proteins|b0002|gene family, not single-gene endpoint
+X|9p24|b0002|chromosomal locus, not gene
+EV|V1|b0002.s1|ts|co|na|do
+EV|V2|b0002.s4|ts|res|aff|rr,cmp
+EV|V3|b0002.s5+b0002.s6|ts|res|aff|rr
+EV|V4|b0002.s7|ts|co|na|do
+EV|V5|b0002.s9|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2;unc:-:ts:V5|||V1+V3|reduced expression in 87% tumours vs normal lung
+P|G1|D2|unc|-|ts|unc:-:ts:V5|hedged_claim,scope|V4|cell line deletion only; hedged other-cancer claim
+P|G1|D3|unc|-|ts|unc:-:ts:V5|hedged_claim,scope|V4|cell line deletion only; hedged other-cancer claim
+P|G1|D4|unc|-|ts|unc:-:ts:V5|hedged_claim|V4|suggested involvement only
+F|F1|group_comparison|DOCK8 expression tumour vs normal lung|71 primary lung cancers|unknown|negative|partial|V2|no test statistic in abstract
+F|F2|mechanism|5-Aza-dC/TSA treatment vs DOCK8 expression|lung cancer cell lines|unknown|positive|not_reported|V3|cell lines only
+F|F3|descriptive|DOCK8 homozygous deletion|lung, gastric, breast cancer cell lines|not_applicable|not_applicable|not_applicable|V1+V4|
+R|verbatim surface|b0002.s7|"gastric cancer" not verbatim; only "gastric ... cancer cell line"|used "gastric" as surface, marked provisional

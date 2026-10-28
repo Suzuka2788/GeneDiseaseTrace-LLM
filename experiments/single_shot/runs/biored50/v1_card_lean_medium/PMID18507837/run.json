@@ -1,0 +1,142 @@
+{
+  "paper_id": "PMID18507837",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 2621,
+  "calls": [
+    {
+      "seconds": 28.0,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1888,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 2215,
+        "output_tokens_details": {
+          "thinking_tokens": 1053
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 1888,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 2215,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 1888,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1888
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.0601928,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 2215,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 1888,
+          "webSearchRequests": 0,
+          "costUSD": 0.0601928,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 1053,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 15.4,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 3275,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 1257,
+        "output_tokens_details": {
+          "thinking_tokens": 191
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 3275,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 1257,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 3275,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 3275
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.0521288,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 1257,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 3275,
+          "webSearchRequests": 0,
+          "costUSD": 0.0521288,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 191,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "line 27: EV needs 7 fields, got 8",
+    "line 28: EV needs 7 fields, got 8",
+    "line 29: EV needs 7 fields, got 8",
+    "P G17-D1: unknown evidence V3",
+    "P G17-D1: unknown context evidence V1",
+    "P G3-D1: unknown evidence V1",
+    "P G3-D1: unknown evidence V2",
+    "P G3-D3: unknown evidence V1",
+    "P G3-D3: unknown evidence V2",
+    "F F1: unknown evidence V1",
+    "F F2: unknown evidence V3"
+  ]
+}

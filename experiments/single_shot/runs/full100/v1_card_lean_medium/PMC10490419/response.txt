@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, captions, tables; no genes found in paper
+E|D1|disease|chronic myelogenous leukemia|chronic myelogenous leukemia|r||||
+E|D2|disease|chronic diseases|chronic diseases|r||||
+E|D3|disease|neurodegenerative diseases|neurodegenerative|p|other|||
+E|D4|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|D5|disease|osteoporosis|osteoporosis|r||||
+E|D6|disease|lung cancer|lung cancer|p|other|||
+X|K562|b0002|cell line identifier, not gene
+X|HepmG2|b0010|cell line identifier, possible typo, not gene
+X|HT-29|b0012|cell line identifier
+X|HCT116|b0012|cell line identifier
+X|LNCaP|b0012|cell line identifier
+X|HeLa|b0012|cell line identifier
+X|A2780|b0012|cell line identifier
+X|B16F10|b0012|cell line identifier
+X|NSC18|b0033|probe tip model, not gene
+X|MTT|b0002|assay reagent, not gene
+R|no gene entities|whole paper|Paper contains no genes; no gene-disease pairs can be generated|Listed diseases only; no P lines output

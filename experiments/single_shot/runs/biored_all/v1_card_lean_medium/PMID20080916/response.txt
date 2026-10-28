@@ -1,0 +1,11 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IRF5|IRF5|r||human||
+E|D1|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r||||
+EV|V1|b0001.s1+b0002.s6|ts|res|aff|rr,cmp
+EV|V2|b0002.s2+b0002.s4|ts|res|aff|rr,cmp
+EV|V3|b0002.s5+b0002.s6|ts|res|na|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||V3|IRF5 promoter indel associated with SLE case-control
+F|F1|association|IRF5 promoter indel vs SLE susceptibility|SLE cases vs controls, 5 populations|significant|positive|not_reported|V1|abstract only; statistics absent
+F|F2|association|promoter indel and rs2070197 independent effects|1488 SLE, 1466 controls|significant|unknown|not_reported|V2|direction not stated
+F|F3|other|rs10954213 vs IRF5 transcript levels|PBMC samples|unknown|unknown|not_reported|V3|expression trait, not disease outcome

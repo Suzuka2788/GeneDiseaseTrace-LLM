@@ -1,0 +1,83 @@
+[
+  {
+    "subject": "PLE",
+    "state": "identity",
+    "location": [
+      "b0076"
+    ],
+    "reason": "诊断缩写未定义；8对候选保留uncertain。"
+  },
+  {
+    "subject": "ZPLD1—FCCM",
+    "state": "assertion_basis",
+    "location": [
+      "b0098"
+    ],
+    "reason": "当前论文未提供proposed关联的结果细节，保留待审核。"
+  },
+  {
+    "subject": "MAP3K3—FCCM",
+    "state": "hypothesis",
+    "location": [
+      "b0098"
+    ],
+    "reason": "could及these genes指代；散发亚型结果不能补足。"
+  },
+  {
+    "subject": "人类三基因—散发CCM",
+    "state": "subtype_specificity",
+    "location": [
+      "b0098",
+      "b0026"
+    ],
+    "reason": "间接双打击背景，缺乏明确逐基因亚型对应。"
+  },
+  {
+    "subject": "人类三基因—广义血管畸形",
+    "state": "broad_scope",
+    "location": [
+      "b0011",
+      "b0100"
+    ],
+    "reason": "范围宽泛且为机制/功能解释。"
+  },
+  {
+    "subject": "动物Krit1/Ccm2/Pdcd10",
+    "state": "species",
+    "location": [
+      "b0099"
+    ],
+    "reason": "具体动物物种未指明；支持边仅限模型。"
+  },
+  {
+    "subject": "CASH首次时点逐基因对比",
+    "state": "missing_supplement",
+    "location": [
+      "b0094",
+      "b0116"
+    ],
+    "reason": "缺S3，未将组阴性拆成单基因阴性。"
+  },
+  {
+    "subject": "图片与S1—S3实际数据",
+    "state": "coverage",
+    "location": [
+      "b0027",
+      "b0068",
+      "b0095",
+      "b0114",
+      "b0115",
+      "b0116"
+    ],
+    "reason": "仅链接JPG与DOCX，无法检查附件新增实体。"
+  },
+  {
+    "subject": "KRTI1/CMM疑似笔误",
+    "state": "contextual_normalization",
+    "location": [
+      "b0005",
+      "b0099"
+    ],
+    "reason": "上下文支持合并，但没有作者勘误确认。"
+  }
+]

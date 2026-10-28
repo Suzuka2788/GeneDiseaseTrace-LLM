@@ -1,0 +1,31 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|serum amyloid A|Serum amyloid A;Serum Amyloid A;SAA|p|ambiguous_mapping|||
+E|G2|gene|SAA1|SAA1|p|species_unresolved|||
+E|G3|gene|SAA3|SAA3|p|species_unresolved|||
+E|G4|gene|JNK|c-Jun N-terminal kinase;JNK|p|ambiguous_mapping|||
+E|G5|gene|Erk|Erk|p|ambiguous_mapping|||
+E|G6|gene|Akt|Akt|p|ambiguous_mapping|||
+E|G7|gene|MCP-1|MCP-1|r||||
+E|G8|gene|RANTES|RANTES|r||||
+E|G9|gene|MMP9|MMP9|r||||
+E|G10|gene|caspase 3|caspase 3|r||||
+E|G11|gene|PARP|PARP|p|ambiguous_mapping|||
+E|D1|disease|liver injury|liver injury|r||||
+E|D2|disease|hepatic fibrogenesis|hepatic fibrogenesis;fibrogenesis|r||||
+E|S1|phenotype|inflammation|inflammation|r||||
+E|S2|phenotype|apoptosis|apoptosis|r||||
+X|NF-kappaB|b0002|complex, not single gene
+X|IkappaB kinase|b0002|complex, not single gene
+X|MAP kinases|b0002|gene family, not single gene
+X|Annexin V|b0002|staining reagent for apoptosis assay
+X|CCl4|b0002|model-inducing chemical, not disease
+X|bile duct ligation|b0002|surgical model procedure, not disease
+EV|V1|b0002.s9|ts|res|aff|rr,cmp
+EV|V2|b0002.s10|ts|hyp|hyp|ho
+EV|V3|b0002.s2|bg|co|q|none
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||mRNA increased in animal fibrogenesis models, non-human
+P|G3|D2|sup|a|ts|sup:a:ts:V1|||mRNA increased in animal fibrogenesis models, non-human
+P|G1|D2|unc|-|ts|unc:-:ts:V2|hedged_claim||authors state SAA may modulate fibrogenesis
+P|G1|D1|nf|-||||V3|role stated as not elucidated
+F|F1|group_comparison|hepatic SAA1, SAA3 mRNA|CCl4 and bile duct ligation models|unknown|positive|not_reported|V1|comparator and species not stated

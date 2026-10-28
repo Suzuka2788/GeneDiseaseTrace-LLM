@@ -1,0 +1,122 @@
+{
+  "seed": 20261028,
+  "excluded": {
+    "PMC10014009": "used to build the rules and the card (development paper)",
+    "PMC10487392": "used repeatedly while building the single-shot pipeline (development paper)",
+    "PMC6240673": "development reference of the earlier LLM workflow",
+    "PMC10994491": "multi-study conference collection; tested separately"
+  },
+  "strata": [
+    [
+      "research, short (<31k chars)",
+      2
+    ],
+    [
+      "research, medium (31k-52k)",
+      3
+    ],
+    [
+      "research, long (>=52k)",
+      2
+    ],
+    [
+      "case report (English)",
+      1
+    ],
+    [
+      "review",
+      2
+    ],
+    [
+      "short other (letter, editorial, discussion, brief report)",
+      1
+    ]
+  ],
+  "note": "Frozen benchmark for A/B tests. Do not tune rules on these papers' outputs.",
+  "papers": [
+    {
+      "paper_id": "PMC8626062",
+      "article_type": "case-report",
+      "chars": 16051,
+      "title": "Aproximación diagnóstica ultrasonográfica prenatal al síndrome de Omenn: reporte de caso",
+      "stratum": "case report (Spanish, fixed)"
+    },
+    {
+      "paper_id": "PMC10085737",
+      "article_type": "research-article",
+      "chars": 19738,
+      "title": "A bioinformatics approach to characterize a hypothetical protein Q6S8D9_SARS of SARS-CoV",
+      "stratum": "research, short (<31k chars)"
+    },
+    {
+      "paper_id": "PMC3776720",
+      "article_type": "research-article",
+      "chars": 28476,
+      "title": "Functional evaluation of circulating hematopoietic progenitors in Noonan syndrome",
+      "stratum": "research, short (<31k chars)"
+    },
+    {
+      "paper_id": "PMC11202044",
+      "article_type": "research-article",
+      "chars": 47059,
+      "title": "Context-Dependent Regulation of Peripheral Nerve Abundance by the PI3K Pathway in the Tumor Microenvironment of Head and Neck Squamous Cell Carcinoma",
+      "stratum": "research, medium (31k-52k)"
+    },
+    {
+      "paper_id": "PMC9499621",
+      "article_type": "research-article",
+      "chars": 40911,
+      "title": "Evaluation of the Complex p.[Leu467Phe;Phe508del] CFTR Allele in the Intestinal Organoids Model: Implications for Therapy",
+      "stratum": "research, medium (31k-52k)"
+    },
+    {
+      "paper_id": "PMC3226484",
+      "article_type": "research-article",
+      "chars": 49254,
+      "title": "Deficiencies in lamin B1 and lamin B2 cause neurodevelopmental defects and distinct nuclear shape abnormalities in neurons",
+      "stratum": "research, medium (31k-52k)"
+    },
+    {
+      "paper_id": "PMC4068974",
+      "article_type": "research-article",
+      "chars": 85651,
+      "title": "Distinct functions of the laminin β LN domain and collagen IV during cardiac extracellular matrix formation and stabilization of alary muscle attachments revealed by EMS mutagenesis in Drosophila",
+      "stratum": "research, long (>=52k)"
+    },
+    {
+      "paper_id": "PMC10096224",
+      "article_type": "research-article",
+      "chars": 53466,
+      "title": "A D-2-hydroxyglutarate dehydrogenase mutant reveals a critical role for ketone body metabolism in Caenorhabditis elegans development",
+      "stratum": "research, long (>=52k)"
+    },
+    {
+      "paper_id": "PMC7437939",
+      "article_type": "case-report",
+      "chars": 25950,
+      "title": "Clinical, genomics and networking analyses of a high-altitude native American Ecuadorian patient with congenital insensitivity to pain with anhidrosis: a case report",
+      "stratum": "case report (English)"
+    },
+    {
+      "paper_id": "PMC2836178",
+      "article_type": "review-article",
+      "chars": 30820,
+      "title": "The Dual Role of Zonula Occludens (ZO) Proteins",
+      "stratum": "review"
+    },
+    {
+      "paper_id": "PMC7082755",
+      "article_type": "review-article",
+      "chars": 43144,
+      "title": "Pathophysiological Mechanisms and Potential Therapeutic Targets in Cerebral Autosomal Dominant Arteriopathy With Subcortical Infarcts and Leukoencephalopathy (CADASIL)",
+      "stratum": "review"
+    },
+    {
+      "paper_id": "PMC3399778",
+      "article_type": "brief-report",
+      "chars": 22229,
+      "title": "Intermediate Charcot-Marie-Tooth disease due to a novel Trp101Stop myelin protein zero mutation associated with debilitating neuropathic pain",
+      "stratum": "short other (letter, editorial, discussion, brief report)"
+    }
+  ]
+}

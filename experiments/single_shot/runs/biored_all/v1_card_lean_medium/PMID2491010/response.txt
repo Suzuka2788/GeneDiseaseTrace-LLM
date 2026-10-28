@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|DMD gene (dystrophin)|DMD;dystrophin|r|||human||
+E|D1|disease|Duchenne muscular dystrophy|Duchenne muscular dystrophy;DMD|r|||||
+E|D2|disease|Becker muscular dystrophy|Becker muscular dystrophy;BMD|r|||||
+E|S1|phenotype|intermediate phenotype|intermediate phenotype|r|||||
+X|p20|b0002|genomic probe, not gene
+X|DXS269|b0002|locus/probe identifier, not gene
+X|GMGX11|b0002|genomic probe, not gene
+X|DXS239|b0002|locus/probe identifier, not gene
+X|cDNA5b-7|b0002|cDNA probe identifier, not gene
+EV|V1|b0002.s1+b0002.s3|ts|res|aff|rr,do
+EV|V2|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0002.s9|bg|bgr|aff|ebr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||DMD patients carry gene deletions, frameshift linked to severity
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V2|||BMD patients carry gene deletions, mostly in-frame
+F|F1|group_comparison|reading frame status vs phenotype severity|38 classifiable deletion patients|unknown|positive|not_reported|V2|two exceptions; no statistical test
+C|C1|frame rule vs Malhotra 5' findings|b0002.s8+b0002.s9|noncritical|unresolved|background disagreement at 5' end
+R|abbreviation reuse|b0001.s1|DMD names both the gene and the disease|DMD listed as surface form of G1 and D1 by context

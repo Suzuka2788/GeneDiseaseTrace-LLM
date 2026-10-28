@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CYP11B2|CYP11B2;CYPB11B2|p|suspected_typo|human||
+E|G2|gene|CYP11B1|CYP11B1|r||human||
+E|D1|clinical_event|persistent postoperative hypertension|persistent postoperative hypertension;postoperative hypertension|r||||
+E|D2|disease|hypertension|hypertension;Hypertension|r||||
+E|D3|disease|primary aldosteronism|primary aldosteronism|r||||
+E|D4|disease|aldosterone-producing adenomas|aldosterone-producing adenomas;APA|r||||
+X|rs4539|b0002|variant identifier, not gene
+X|H1|b0002|haplotype label, not gene
+EV|V1|b0002.s5+b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s7+b0002.s9|ts|res|aff|rr
+EV|V3|b0002.s11+b0002.s12|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V3||V2|rs4539 within CYP11B2 associated with outcome
+P|G2|D1|unc|-|ts|unc:-:ts:V2;unc:-:ts:V3|scope,hedged_claim||Only joint haplotype; no CYP11B1 SNP result
+F|F1|association|rs4539 AA vs persistent postoperative hypertension|Chinese APA patients after adrenalectomy|significant|positive|partial|V1|P only; no effect size
+F|F2|association|CYP11B2-CYP11B1 haplotype vs outcome|Chinese APA patients after adrenalectomy|significant|unknown|partial|V2|overall haplotype test; direction unclear
+F|F3|association|haplotypes H1/H2/H3 vs outcome|Chinese APA patients after adrenalectomy|significant|unknown|partial|V2|Bonferroni-corrected P only

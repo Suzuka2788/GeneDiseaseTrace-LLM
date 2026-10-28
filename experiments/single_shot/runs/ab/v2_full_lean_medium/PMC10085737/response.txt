@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, captions, tables; figure images and references unavailable
+E|G1|gene|Q6S8D9_SARS|Q6S8D9_SARS;Q6S8D9|p|ambiguous_mapping|non-human||
+E|G2|gene|angiotensin-converting enzyme 2|angiotensin-converting enzyme 2|p|species_unresolved|||
+E|D1|disease|severe acute respiratory syndrome|SARS;severe acute respiratory syndrome|r||||
+E|D2|disease|coronavirus disease 2019|coronavirus disease 2019|r||||
+E|D3|disease|pneumonia|pneumonia|r||||
+E|D4|disease|acute respiratory distress syndrome|acute breathing misery syndrome|p|suspected_typo|||
+E|D5|disease|common cold|common cold|r||||
+E|D6|disease|flu|flu|r||||
+E|S1|phenotype|diffuse alveolar damage|diffuse alveolar damage|r||||
+E|S2|symptom|dyspnea|dyspnea|r||||
+E|S3|symptom|cough|cough|r||||
+E|S4|symptom|chest pain|chest pain|r||||
+X|SARS-CoV_ORF9c superfamily|b0028|protein domain family, not single gene
+X|human parathyroid hormone|b0033|structural modeling template only (1FVY A)
+X|Nucleoporin GLE1|b0033|sequence-identity template only
+X|J9TE29|b0022|secondary accession of Q6S8D9
+X|SARS-CoV|b0002|virus name, not disease
+EV|V1|b0004.s6|bg|bgr|aff|ebr
+EV|V2|b0039.s6+b0002.s9|ts|aim|na|none
+EV|V3|b0028.s2|bg|hyp|hyp|ho
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||SARS-CoV binds ACE2 to infect lungs, causing symptoms
+P|G1|D1|nf|-|unk||||V2+V3|only therapeutic-target aim; host-pathway effect hedged
+R|R1/R2|b0005.s7|Viral pathogen protein named by UniProt entry; gene-entity status not covered|Kept as provisional non-human gene; accession variant J9TE29 excluded
+R|R2|b0004.s6|Host receptor species given as human and bats generically|Single ACE2 node, species unresolved; edge limited to SARS background

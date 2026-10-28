@@ -1,0 +1,27 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PAI-1|plasminogen activator inhibitor type-1;Plasminogen activator inhibitor type 1;PAI-1|r||human||
+E|D1|disease|non-alcoholic fatty liver disease|non-alcoholic fatty liver disease;NAFLD|r||||
+E|D2|disease|liver fibrosis|liver fibrosis|r||||
+E|D3|disease|obesity|morbidly obese;obese|p|other|||
+E|D4|disease|NASH|NASH|p|undefined_abbreviation|||
+E|D5|disease|hypertension|hypertension|r||||
+E|D6|disease|diabetes|diabetes|r||||
+E|S1|phenotype|hepatic fibrogenesis|hepatic fibrogenesis|r||||
+X|4G/5G|b0002.s2|variant identifier, not a gene
+EV|V1|b0002.s2|bg|hyp|hyp|ho
+EV|V2|b0002.s3|ts|aim|na|none
+EV|V3|b0002.s8+b0002.s12|ts|res|aff|rr,cmp
+EV|V4|b0002.s9+b0002.s12|ts|neg|neg|cmp
+EV|V5|b0002.s10+b0002.s14|ts|neg|neg|cmp
+EV|V6|b0002.s11+b0002.s14|ts|neg|neg|cmp
+P|G1|D3|sup|a|ts|sup:a:ts:V3;neg:-:ts:V4||| Lower serum PAI-1 in obese; genotypes similar
+P|G1|D2|neg|-|ts|neg:-:ts:V5;neg:-:ts:V6||V1|No serum or genotype association in obese patients
+P|G1|D1|nf|-||||V1;V2|Aim and hedged fibrogenesis role only
+P|G1|D4|nf|-||||V6|Tested fibrosis within NASH, not NASH
+F|F1|group_comparison|PAI-1 serum levels vs obesity|obese vs non-obese controls|significant|negative|partial|V3|
+F|F2|group_comparison|PAI-1 4G/5G genotype frequencies|obese vs non-obese controls|not_significant|null|partial|V4|overall genotype test
+F|F3|group_comparison|PAI-1 levels vs liver fibrosis|obese patients with/without fibrosis|not_significant|null|available|V5|
+F|F4|group_comparison|PAI-1 4G/5G genotypes vs fibrosis|obese NASH patients with/without fibrosis|not_significant|null|partial|V6|overall genotype test
+C|C1|PAI-1 serum vs plasma levels|b0002.s5+b0002.s10|noncritical|unresolved|Measurement matrix wording differs
+R|obesity as disease|b0002.s4|Obesity is a group descriptor, not named as disease explicitly|Kept as provisional disease entity using written forms

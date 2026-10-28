@@ -1,0 +1,24 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|OPRM1|opioid receptor u1;opioid receptor mu 1;oprm1;OPRM1;Oprm1|p|suspected_typo|human||
+E|G2|gene|CA1|carbonic anhydrase 1;ca1|r||human||
+E|G3|gene|UBE2C|ubiquitin-conjugating enzyme E2C;ube2c|r||human||
+E|D1|disease|acute lymphoblastic leukemia|acute lymphoblastic leukemia;ALL|r||||
+E|D2|disease|pediatric acute lymphoblastic leukemia|pediatric acute lymphoblastic leukemia|r|||D1|
+E|S1|phenotype|L-asparaginase resistance|L-asparaginase resistance|r||||
+X|L-asparaginase-resistant ALL|b0002|drug-resistance state of ALL, not a separate disease entity
+EV|V1|b0002.s6|ts|res|aff|rr,do
+EV|V2|b0002.s7+b0002.s8|ts|res|aff|rr,mi
+EV|V3|b0002.s10|ts|res|aff|rr,cmp
+EV|V4|b0002.s11|ts|int|aff|rr,eda
+EV|V5|b0001.s1|ts|res|aff|rr
+EV|V6|b0002.s9|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3+V4|||OPRM1 loss mediates L-asparaginase resistance in ALL
+P|G1|D2|sup|a|ts|sup:a:ts:V5|||title: OPRM1 regulates resistance in pediatric ALL
+P|G2|D1|unc|-|ts|unc:-:ts:V1|scope||screen hits in resistant clones only, unvalidated
+P|G3|D1|unc|-|ts|unc:-:ts:V1|scope||screen hits in resistant clones only, unvalidated
+F|F1|descriptive|shRNA screen hits: OPRM1, CA1, UBE2C|10 resistant ALL clones|not_applicable|not_applicable|partial|V1|abstract only
+F|F2|mechanism|OPRM1 knockdown vs L-asparaginase sensitivity|ALL leukemic cells|unknown|negative|not_reported|V2+V6|no statistics in abstract
+F|F3|group_comparison|OPRM1 level vs L-asparaginase sensitivity|patient leukemic cells|unknown|positive|not_reported|V3|no statistics in abstract
+R|suspected typo|b0001.s1|'opioid receptor u1' in title vs 'mu 1' in abstract|merged into OPRM1 as provisional suspected_typo
+R|relation scope|b0002.s11|Gene links to drug resistance within ALL, not to disease onset|treated as association with ALL, not causal

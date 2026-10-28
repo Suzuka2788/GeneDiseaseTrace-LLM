@@ -1,0 +1,36 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|BDNF|brain-derived neurotrophic factor;Brain-derived neurotrophic factor;BDNF|p|other|non-human||
+E|G2|gene|TrkB|tropomyosin-related kinase B;TrkB|r||non-human||
+E|G3|gene|Akt|Akt|r||non-human||
+E|G4|gene|mTOR|mammalian target of rapamycin|r||non-human||
+E|G5|gene|Bad|Bad|r||non-human||
+E|G6|gene|p38 MAPK|p38 mitogen-activated protein kinase|r||non-human||
+E|G7|gene|ERK|extracellular regulated protein kinase|r||non-human||
+E|D1|disease|cardiotoxicity|cardiotoxicity|r||||
+E|D2|disease|cardiac dysfunction|cardiac dysfunction|r||||
+E|D3|disease|cardiac injury|cardiac injury|r||||
+E|D4|disease|cancer|cancer|r||||
+E|S1|phenotype|cardiomyocyte apoptosis|cardiomyocyte apoptosis|r||||
+E|S2|phenotype|oxidative stress|oxidative stress|r||||
+E|S3|phenotype|DNA damage|DNA damage|r||||
+X|TrkB-Fc|b0002|BDNF scavenger fusion construct, not a single-gene endpoint
+X|H9c2|b0002|cell line identifier
+EV|V1|b0002.s3|ts|hyp|hyp|ho
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|res|aff|rr,mi,cmp
+EV|V4|b0002.s12|ts|int|aff|rr,mi
+EV|V5|b0001.s1|ts|int|aff|mi
+EV|V6|b0002.s10|ts|res|aff|rr
+EV|V7|b0002.s11|ts|res|aff|mi,unc
+EV|V8|b0002.s6|ts|aim|q|none
+P|G1|D1|sup|a|ts|sup:a:ts:V3+V4;sup:a:ts:V2||V1|BDNF treatment attenuated Dox cardiotoxicity in rats
+P|G1|D2|sup|a|ts|sup:a:ts:V3+V5|||BDNF significantly inhibited Dox-induced cardiac dysfunction
+P|G1|D3|nf|-||||V8|Only examined as an aim
+P|G3|D1|unc|-|ts|unc:-:ts:V4+V7|scope,support_basis_unresolved|V6|Akt inhibitor outcome unspecified; mechanistic inference
+P|G3|D2|unc|-|ts|unc:-:ts:V5|scope,support_basis_unresolved|V6|Title mechanism claim; readouts not specified
+F|F1|group_comparison|BDNF protein; Dox treatment|rat ventricles|unknown|negative|not_reported|V2|abstract only
+F|F2|group_comparison|BDNF; apoptosis, oxidative stress, cardiac dysfunction|Dox-treated rats|significant|negative|not_reported|V3|abstract only
+F|F3|mechanism|BDNF; Akt, mTOR, Bad, p38, ERK|rats and H9c2 cells|unknown|mixed|not_reported|V6|p38 and ERK unaffected
+F|F4|mechanism|TrkB-Fc or Akt inhibitor; BDNF effect|Dox-treated models|unknown|negative|not_reported|V7|outcome measure unspecified
+R|species of recombinant BDNF|b0002.s4|Administered recombinant BDNF species not stated; endogenous BDNF is rat|single non-human BDNF node, provisional, issue other

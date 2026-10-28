@@ -1,0 +1,56 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, captions, table, supplementary legends; supplementary images/movies unread
+E|G1|gene|LanB1|LanB1;Laminin B1|r||non-human||
+E|G2|gene|Cg25C|Cg25C;Dcg1;col4a1|r||non-human||
+E|G3|gene|vkg|vkg;viking;Viking;Vkg;col4a2;Col4a2|r||non-human||
+E|G4|gene|LanB2|LanB2|r||non-human||
+E|G5|gene|LanA|LanA;Laminin A|r||non-human||
+E|G6|gene|wb|wb;wing blister|r||non-human||
+E|G7|gene|org-1|org-1|r||non-human||
+E|G8|gene|trol|trol;terribly reduced optic lobes|r||non-human||
+E|G9|gene|Ndg|Ndg|r||non-human||
+E|G10|gene|prc|prc|r||non-human||
+E|G11|gene|loh|loh;lonely heart|r||non-human||
+E|G12|gene|Hand|Hand|r||non-human||
+E|G13|gene|tin|tin;Tinman;tinman|r||non-human||
+E|G14|gene|HLH54F|HLH54F|r||non-human||
+E|G15|gene|emb-9|emb-9|r||non-human||
+E|G16|gene|let-2|let-2|r||non-human||
+E|G17|gene|Col1a (mouse)|Col1a|p|species_unresolved|non-human||
+E|G18|gene|Lamb1 (mouse)|Lamb1|r||non-human||
+E|G19|gene|Lamb2 (mouse)|Lamb2|r||non-human||
+E|G20|gene|LAMB2|LAMB2|r||human||
+E|G21|gene|COL4A1|COL4A1;Col4a1|r||human||
+E|G22|gene|COL4A2|COL4A2|r||human||
+E|D1|disease|cardiomyopathies|cardiomyopathies|r||||
+E|D2|disease|Pierson syndrome|Pierson syndrome;Pierson Syndrome|r||||
+E|D3|disease|porencephaly|porencephaly|r||||
+E|D4|disease|hemorrhagic stroke|hemorrhagic stroke|r|||D7|
+E|D5|disease|small vessel disease|small vessel disease|r||||
+E|D6|disease|HANAC syndrome|HANAC;Hereditary Angiopathy with Nephropathy, Aneurysms, and Muscle Cramps|r||||
+E|D7|disease|vasculature-related diseases|vasculature-related diseases|r||||
+E|D8|disease|collagen-related diseases|collagen-related diseases|r||||
+E|S1|phenotype|alary muscle detachment|alary muscle detachment|r||||
+X|human diseases|b0012|generic BM-component disease mention, no specific gene/disease
+X|broken hearted|b0075|Drosophila mutant phenotype name, not disease
+X|vascular and cardiac abnormalities|b0078|generic abnormalities, not named diagnosis
+EV|V1|b0068.s10|bg|bgr|aff|ebr
+EV|V2|b0081.s1|bg|bgr|aff|ebr
+EV|V3|b0066.s2|bg|bgr|aff|ebr
+EV|V4|b0071.s2|bg|bgr|aff|ebr
+EV|V5|b0078.s2+b0084.s3|ts|int|hyp|ho
+P|G20|D2|sup|c|bg|sup:c:bg:V1|||LAMB2 mutations stated as cause of Pierson syndrome
+P|G21|D3|sup|a|bg|sup:a:bg:V2|||COL4A1 mutations found in connection with porencephaly
+P|G21|D4|sup|a|bg|sup:a:bg:V2+V3|||COL4A1 mutations reported with hemorrhagic stroke
+P|G21|D5|sup|a|bg|sup:a:bg:V2|||COL4A1 mutations reported with small vessel disease
+P|G21|D6|sup|a|bg|sup:a:bg:V2|||COL4A1 mutations reported with HANAC
+P|G21|D7|unc|-|bg|unc:a:bg:V3|scope||Joint Col4a1/a2 mention; per-gene distribution unclear
+P|G22|D3|unc|-|bg|unc:a:bg:V2|scope||COL4A2 linked to disease list; mapping unspecified
+P|G22|D4|unc|-|bg|unc:a:bg:V2+V3|scope||COL4A2 linked to disease list; mapping unspecified
+P|G22|D5|unc|-|bg|unc:a:bg:V2|scope||COL4A2 linked to disease list; mapping unspecified
+P|G22|D6|unc|-|bg|unc:a:bg:V2|scope||COL4A2 linked to disease list; mapping unspecified
+P|G22|D7|unc|-|bg|unc:a:bg:V3|scope||Joint Col4a1/a2 mention; per-gene distribution unclear
+P|G2|D8|nf|-||||V5|Only parallels drawn; fly phenotype, not disease
+P|G18|D2|nf|-||||V4|Mouse mutation corresponds to Pierson residue; no disease link
+U|Additional files 1-7 (Figures S1-S3, Movies S1-S4)|Results, b0017-b0065|Only legends provided; images/movies not available
+R|R13|b0081.s1|Two genes jointly linked to disease list without per-gene mapping|COL4A1 primary-phrased gene supported; COL4A2 uncertain/scope

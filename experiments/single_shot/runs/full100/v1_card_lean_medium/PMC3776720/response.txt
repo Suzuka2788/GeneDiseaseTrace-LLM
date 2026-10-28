@@ -1,0 +1,82 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, captions, Tables I-IV; Figure 1 image absent
+E|G1|gene|PTPN11|PTPN11;SHP-2|r||human||
+E|G2|gene|SOS|SOS|p|ambiguous_mapping|human||
+E|G3|gene|SOS1|SOS1|r||human||
+E|G4|gene|KRAS|KRAS|r||human||
+E|G5|gene|RAF1|RAF1|r||human||
+E|G6|gene|BRAF|BRAF|r||human||
+E|G7|gene|SHOC2|SHOC2|r||human||
+E|G8|gene|NRAS|NRAS|r||human||
+E|G9|gene|CBL|CBL|r||human||
+E|G10|gene|NF1|NF1|r||human||
+E|D1|disease|Noonan syndrome|Noonan syndrome;NS|r||||
+E|D2|disease|Noonan syndrome-associated myeloproliferative disorder|NS/MPD;transient myeloproliferative disorder associated with Noonan syndrome|r||||
+E|D3|disease|myeloproliferative disorder|MPD;myeloproliferative disorder|p|ambiguous_mapping|||
+E|D4|disease|juvenile myelomonocytic leukemia|juvenile myelomonocytic leukemia;JMML;myelomonocytic leukemia|r||||
+E|D5|disease|acquired aplastic anemia|acquired aplastic anemia|r||||
+E|D6|disease|refractory anemia with blast excess|refractory anemia with blast excess;RAEB|r||||
+E|D7|disease|myelofibrosis with myeloid metaplasia|myelofibrosis with myeloid metaplasia|r||||
+E|D8|disease|non-Hodgkin lymphoma|non-Hodgkin lymphoma|r||||
+E|D9|disease|congenital heart defects|congenital heart defects|r||||
+E|D10|disease|pulmonary valve stenosis|pulmonary valve stenosis|r||||
+E|D11|disease|pulmonic stenosis|pulmonic stenosis|r||||
+E|D12|disease|hypertrophic cardiomyopathy|hypertrophic cardiomyopathy;hypertrophic cardiomiopathy|p|suspected_typo|||
+E|D13|disease|obstructive hypertrophic cardiomyopathy|obstructive hypertrophic cardiomyopathy|r|||D12|
+E|D14|disease|cryptorchidism|cryptorchidism|r||||
+E|D15|disease|bilateral cryptorchidism|bilateral cryptorchidism|r|||D14|
+E|D16|disease|lymphatic dysplasia|lymphatic dysplasia|r||||
+E|D17|disease|developmental delay/intellectual disability|developmental delay/intellectual disability;DD/ID|r||||
+E|CE1|clinical_event|acute cardiopulmonary failure|acute cardiopulmonary failure|r||||
+E|S1|symptom|monocytosis|monocytosis|r||||
+E|S2|symptom|thrombocytopenia|thrombocytopenia|r||||
+E|S3|symptom|short stature|short stature|r||||
+E|S4|phenotype|hypersensitivity to GM-CSF|hypersensitivity to GM-CSF|r||||
+X|GM-CSF|b0002|cytokine used as assay reagent
+X|BCR/ABL|b0004|fusion rearrangement, diagnostic exclusion marker
+X|RAS/MAPK|b0005|signaling pathway, not single gene
+X|CD34|b0007|cell surface marker
+X|Monosomy 7|b0004|cytogenetic finding
+X|HUMARA|b0036|clonality assay
+X|EWOG-MDS|b0002|diagnostic criteria
+EV|V1|b0005.s2|bg|bgr|aff|ebr
+EV|V2|b0005.s4|bg|bgr|aff|ebr
+EV|V3|b0005.s3|bg|bgr|aff|ebr
+EV|V4|b0005.s8|bg|bgr|aff|ebr
+EV|V5|b0043.s1+b0043.s2|bg|bgr|aff|ebr
+EV|V6|b0002.s6|ts|res|aff|rr
+EV|V7|b0036.s2|ts|res|aff|eda
+EV|V8|b0043.s3|bg|bgr|aff|ebr
+EV|V9|b0075.s1+b0076.s1+b0077.s1|ts|co|na|do
+EV|V10|b0079.s1+b0080.s1+b0081.s1|ts|co|na|do
+EV|V11|b0036.s1+b0036.s2|ts|co|na|do
+EV|V12|b0043.s3+b0043.s4|ts|co|na|do
+EV|V13|b0029.s3+b0029.s4+b0029.s5|ts|res|na|rr,cmp
+EV|V14|b0030.s1|ts|res|na|rr,cmp
+EV|V15|b0033.s2+b0033.s3+b0033.s5|ts|res|na|rr,cmp
+EV|V16|b0042.s1+b0042.s5|ts|res|na|rr
+P|G1|D1|sup|a|both|sup:a:bg:V1+V2;sup:a:ts:V6+V7|||Background germline mutations; study genetic diagnosis
+P|G2|D1|sup|a|ts|sup:a:ts:V6|||SOS defects reported as frequent in NS
+P|G3|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G4|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G5|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G6|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G7|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G8|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G9|D1|sup|a|bg|sup:a:bg:V1|||Germline mutations documented in NS
+P|G1|D4|sup|a|bg|sup:a:bg:V2+V3+V4+V5+V8||V10|Somatic PTPN11 mutations in JMML reported
+P|G4|D4|sup|a|bg|sup:a:bg:V3|||Somatic mutations found in JMML
+P|G8|D4|sup|a|bg|sup:a:bg:V3|||Somatic mutations found in JMML
+P|G10|D4|sup|a|bg|sup:a:bg:V3||V10|Somatic mutations found in JMML
+P|G1|D2|sup|a|bg|sup:a:bg:V4||V9|PTPN11 mutational spectrum reported in NS/MPD
+P|G1|D13|nf|-||||V11|Comorbidity in mutated patient only
+P|G1|D8|nf|-||||V12|Mother's lymphoma, no gene link stated
+F|F1|descriptive|PTPN11, SOS mutation frequency|NS cohort|not_applicable|not_applicable|partial|V6|no formal statistics
+F|F2|group_comparison|absolute CD34+ count|NS, NS/MPD, JMML, controls|significant|positive|available|V13|NS vs controls not different
+F|F3|group_comparison|CD34+ apoptotic rate|NS, NS/MPD, JMML vs controls|significant|negative|available|V14|no between-disease differences
+F|F4|group_comparison|CFU-GM growth, GM-CSF response|NS, NS/MPD, JMML, controls|significant|positive|available|V15|small NS/MPD and JMML groups
+F|F5|descriptive|GM-CSF hypersensitivity frequency|27 NS patients|not_applicable|not_applicable|partial|V16|
+C|C1|NS/MPD CD34+ summary statistic|b0002.s11+b0095.s1|noncritical|unresolved|abstract median vs table mean
+C|C2|NS/MPD1 MPD onset timing|b0002.s12+b0042.s2+b0036.s5|noncritical|resolved|12 months is age, 10-month interval
+U|Figure 1|b0037.s2|only caption provided
+R|merging|b0002.s6, b0012.s2|SOS vs SOS1 likely same gene, no explicit co-reference|kept separate; SOS provisional

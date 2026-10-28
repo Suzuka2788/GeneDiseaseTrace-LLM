@@ -1,0 +1,35 @@
+META|claude-opus-5-5|seen: no
+SCOPE|title and abstract only; no full text
+E|g1|gene|p17|p17;refp17;p17R76G;p17 R76G;vp17s;vp17;S75X|r|||
+E|g2|gene|CASP-9|CASP-9|r|||
+E|g3|gene|CASP-7|CASP-7|r|||
+E|g4|gene|DFF-45|DFF-45|r|||
+E|g5|gene|NPM|NPM|r|||
+E|g6|gene|YWHAZ|YWHAZ|r|||
+E|g7|gene|Src|Src|r|||
+E|g8|gene|PAX2|PAX2|r|||
+E|g9|gene|MAPK8|MAPK8|r|||
+E|g10|gene|CDK1|CDK1|r|||
+E|g11|gene|CDK2|CDK2|r|||
+E|g12|gene|CDK8|CDK8|r|||
+E|g13|gene|CHEK1|CHEK1|r|||
+E|g14|gene|CHEK2|CHEK2|r|||
+E|g15|gene|GSK-3 beta|GSK-3 beta|r|||
+E|g16|gene|PAK1|PAK1|r|||
+E|g17|gene|PP2C-alpha|PP2C-alpha|r|||
+E|g18|gene|PTEN|PTEN|r|||
+E|g19|gene|PI3K|PI3K|r|||
+E|g20|gene|Akt|Akt|r|||
+E|d1|disease|lymphoma|lymphoma|r|||
+E|d2|disease|HIV-1 infection|HIV-1;HIV-1-seropositive|p|other||
+E|d3|disease|cancer|cancer|r|||
+E|d4|disease|lymphomagenesis|lymphomagenesis|r|||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s1|bg|hyp|hyp|ho
+EV|V3|b0002.s2+b0002.s3|ts|res|aff|rr
+P|g1|d1|sup|a|bg|sup:a:bg:V1||V2|background: vp17s in lymphoma patients
+P|g1|d4|unc|-|||hedged_claim|V2|only suggested role in lymphomagenesis
+P|g1|d2|unc|-|||scope,support_basis_unresolved|V1|viral protein of HIV-1; no attribution
+F|F1|mechanism|R76G mutation; B-cell clonogenicity|B cells|unknown|positive|not_reported|V3|abstract only
+F|F2|mechanism|p17R76G; PTEN/PI3K/Akt pathway molecules|B cells|unknown|unknown|not_reported|V3|no statistics in abstract
+U|full text|whole paper|only title/abstract provided

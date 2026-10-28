@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|thyroid hormone receptor beta gene|TR-beta;thyroid hormone receptor beta gene;T3 receptor gene|r||human||
+E|D1|disease|resistance to thyroid hormone syndrome|Resistance to thyroid hormone syndrome;RTH;thyroid hormone resistance|r||||
+E|D2|disease|thyrotoxicosis|thyrotoxicosis|r||||
+E|D3|disease|hypothyroidism|hypothyroidism|r||||
+E|S1|symptom|tachycardia|tachycardia|r||||
+E|S2|phenotype|hyperkinetic behaviour|hyperkinetic behaviour|r||||
+E|S3|phenotype|seriously impaired intellectual development|seriously impaired intellectual development|r||||
+E|S4|symptom|hearing and visual impairment|hearing and visual impairment|r||||
+X|I280S|b0002.s5|variant ID, not a gene
+X|1123T-->G|b0002.s5|variant ID, not a gene
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s5|ts|res|aff|do
+EV|V3|b0002.s7|ts|int|hyp|ho
+EV|V4|b0002.s6|bg|bgr|aff|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2+V3|hedged_claim|V4|Background: RTH patients carry TR-beta mutations
+P|G1|D2|nf|-|||||V1|D2 only RTH presentation, no gene link
+P|G1|D3|nf|-|||||V1|D3 only RTH presentation, no gene link
+F|F1|descriptive|TR-beta I280S genotype|single RTH patient|not_applicable|not_applicable|not_applicable|V2|Homo- vs hemizygosity unresolved
+F|F2|hypothesis|I280S dominant negative; severe phenotype|single RTH patient|not_applicable|unknown|not_applicable|V3|Hedged; no functional data shown

@@ -1,0 +1,26 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|gankyrin (human)|gankyrin;Gankyrin|r||human||
+E|G2|gene|gankyrin (mouse)|gankyrin;Gankyrin|p|species_unresolved|non-human||
+E|G3|gene|STAT3|signal transducer and activator of transcription 3;STAT3|p|species_unresolved|||
+E|G4|gene|SHP-1|Src homology 2 domain-containing protein tyrosine phosphatase-1;SHP-1|p|species_unresolved|||
+E|G5|gene|vascular endothelial growth factor|vascular endothelial growth factor|p|species_unresolved|||
+E|G6|gene|IL-6|interleukin (IL)-6|p|species_unresolved|non-human||
+E|G7|gene|Bmi1|Bmi1|p|species_unresolved|non-human||
+E|G8|gene|EpCAM|epithelial cell adhesion molecule;EpCAM|p|species_unresolved|non-human||
+E|D1|disease|hepatocellular carcinoma|hepatocellular carcinoma;hepatocellular carcinomas;HCC|r||||
+E|D2|disease|chronic liver inflammation|chronic liver inflammation;Chronic inflammation|p|other|||
+E|S1|phenotype|inflammation-induced tumorigenesis in the colon|inflammation-induced tumorigenesis|r||||
+E|S2|phenotype|sorafenib resistance|sorafenib resistance|r||||
+EV|V1|b0002.s9|ts|res|aff|rr
+EV|V2|b0002.s8|ts|res|aff|rr
+EV|V3|b0002.s7|ts|res|aff|mi
+EV|V4|b0002.s10|ts|int|hyp|ho
+EV|V5|b0001.s1|ts|res|aff|rr
+EV|V6|b0002.s2|bg|bgr|aff|ebr
+P|G1|D1|sup|r|ts|sup:r:ts:V1;unc:-:ts:V4|||Expression negatively correlated with PFS in HCC
+P|G1|D2|sup|a|ts|sup:a:ts:V2|||Chronic inflammation increases liver gankyrin expression
+P|G2|D1|unc|-|ts|unc:-:ts:V3|scope|V5|Mouse tumorigenesis not explicitly named HCC
+F|F1|correlation|TME gankyrin expression vs progression-free survival|HCC patients on sorafenib|unknown|negative|not_reported|V1|abstract only
+F|F2|group_comparison|non-parenchymal gankyrin deletion vs tumorigenesis|Mx1-Cre;gankyrin(f/f) mice|unknown|negative|not_reported|V3|abstract only
+F|F3|association|chronic inflammation vs gankyrin expression|human liver|unknown|positive|not_reported|V2|abstract only

@@ -1,0 +1,40 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text as given; supplementary figures, tables and data unread
+E|G1|gene|D2HGDH|D2HGDH;D-2-hydroxyglutarate dehydrogenase;D-2HG dehydrogenase|p|ambiguous_mapping|human||
+E|G2|gene|dhgd-1|dhgd-1;Dhgd-1;DHGD-1;F54D5.12|r||non-human||
+E|G3|gene|hphd-1|hphd-1;HPHD-1;hpdh-1|p|suspected_typo|non-human||
+E|G4|gene|ADHFE1|ADHFE1|r||human||
+E|G5|gene|PHGDH|PHGDH|r||human||
+E|G6|gene|IDH1|IDH1|r||human||
+E|G7|gene|IDH2|IDH2|r||human||
+E|G8|gene|IMMT-1|IMMT-1|r||non-human||
+E|G9|gene|acdh-1|acdh-1|r||non-human||
+E|G10|gene|nhr-68|nhr-68|r||non-human||
+E|G11|gene|emb-27|emb-27|r||non-human||
+E|G12|gene|aass-1|aass-1|r||non-human||
+E|G13|gene|mccc-1|mccc-1|r||non-human||
+E|D1|disease|inborn errors of human metabolism|inborn errors of human metabolism|r||||
+E|D2|disease|D-2-hydroxyglutaric aciduria|L- and D-2-hydroxyglutaric aciduria|r|||D1|
+E|D3|disease|L-2-hydroxyglutaric aciduria|L- and D-2-hydroxyglutaric aciduria|r|||D1|
+E|D4|disease|2HG-associated diseases|2HG-associated diseases|r||||
+E|D5|disease|propionic acidemia|propionic acidemia|r||||
+E|D6|disease|diabetes|diabetic|r||||
+E|S1|symptom|seizures|seizures|r||||
+E|S2|symptom|ataxia|ataxia|r||||
+E|S3|symptom|delayed development|delayed development|r||||
+E|S4|phenotype|embryonic lethality|embryonic lethality|r||||
+E|S5|phenotype|mitochondrial defects|mitochondrial defects|r||||
+X|BCAT|b0007|gene family label, not a single gene
+X|Pmyo-3::GFPmito|b0073|reporter construct/strain identifier
+X|tm6671|b0014|allele identifier
+EV|V1|b0002.s1+b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0007.s1+b0007.s2|bg|bgr|aff|ebr,eda
+EV|V3|b0014.s2+b0014.s8|ts|res|na|rr
+P|G1|D2|sup|c|bg|sup:c:bg:V2||V1|Dehydrogenase mutations stated to result in aciduria
+F|F1|group_comparison|dhgd-1 deletion vs 2HG level|C. elegans mutants vs WT|unknown|positive|unread|V3|D-2HG enantiomer; figure data
+F|F2|group_comparison|dhgd-1 deletion vs hatching|C. elegans mutants vs WT|unknown|positive|unread||b0016.s1; worm phenotype
+F|F3|other|hphd-1 RNAi rescue of lethality|Δdhgd-1 worms|significant|positive|partial||b0022.s5, b0023.s13
+F|F4|other|3HB/AA rescue of lethality|Δdhgd-1 worms|significant|positive|partial||b0028.s1, b0027.s12
+U|S1 Data;S1-S9 Fig;S1-S4 Table|figure captions, results|not provided
+R|surface forms|b0007.s2|Both aciduria subtypes appear only in one coordinated ellipsis phrase|Used the coordinated phrase as surface form for D2 and D3
+R|D2HGDH name|b0011.s1|Human abbreviation D2HGDH applied to the worm enzyme|Kept as human gene; marked provisional with ambiguous_mapping

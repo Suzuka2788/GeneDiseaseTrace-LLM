@@ -1,0 +1,29 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|g1|gene|ANKH|ANKH|r||human||
+E|g2|gene|type X collagen|type X collagen|p|ambiguous_mapping|human||
+E|d1|disease|chondrocalcinosis|chondrocalcinosis|r||||
+E|d2|disease|sporadic chondrocalcinosis|sporadic chondrocalcinosis;severe sporadic chondrocalcinosis;Sporadic chondrocalcinosis|r|||d1|
+E|d3|disease|familial chondrocalcinosis|autosomal-dominant familial chondrocalcinosis;familial chondrocalcinosis|r|||d1|
+E|d4|disease|heritable chondrocalcinosis|heritable chondrocalcinosis|p|other||d1|
+E|d5|disease|pseudogout|pseudogout|r||||
+E|ph1|phenotype|chondrocyte hypertrophy|chondrocyte hypertrophy|r||||
+X|CH-8|b0002.s5|cell line identifier, not gene
+X|French familial chondrocalcinosis kindred|b0002.s7|family label; variant source, not separate disease
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|bg|bgr|aff|ebr
+EV|V4|b0002.s9|ts|int|hyp|ho
+EV|V5|b0002.s10|unk|int|aff|unc
+EV|V6|b0002.s3|ts|aim|q|none
+EV|V7|b0002.s7+b0002.s8|ts|res|aff|rr,mi
+P|g1|d2|sup|a|both|sup:a:ts:V2;sup:a:bg:V3;unc:-:ts:V4|hedged_claim|V6|-4-bp variant associated; GAG deletion previously linked
+P|g1|d3|sup|a|bg|sup:a:bg:V1+V3||| ANKH mutations linked to familial disease
+P|g1|d4|sup|a|unk|sup:a:unk:V5;unc:-:unk:V5|hedged_claim||Mutations associated; disease promotion only hedged
+P|g1|d5|unc|-||unc:-:ts:V2+V6|scope|V6|Pseudogout pooled with sporadic chondrocalcinosis cases
+P|g1|d1|nf|-||||V6|Only subtype-specific evidence; no propagation
+F|F1|association|-4-bp G-to-A homozygote vs disease|128 sporadic cases vs matched controls|significant|positive|partial|V2|genotype RR 6.0, P=0.0006
+F|F2|association|overall -4-bp genotype vs disease|128 sporadic cases vs matched controls|significant|unknown|partial|V2|overall genotype test; not pair-level
+F|F3|mechanism|ANKH variants vs ANKH translation|reticulocyte in vitro system|unknown|positive|not_reported|V7|143-bp T-to-C variant no increase
+F|F4|mechanism|ANKH cDNA vs extracellular PPi, type X collagen|CH-8 chondrocytes|unknown|mixed|not_reported|V7|divergent effects between mutants
+R|pooled case group|b0002.s3|cases combine sporadic chondrocalcinosis and pseudogout|linked to sporadic chondrocalcinosis; pseudogout marked uncertain/scope

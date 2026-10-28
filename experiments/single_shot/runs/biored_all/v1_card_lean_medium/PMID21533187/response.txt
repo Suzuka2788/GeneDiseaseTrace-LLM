@@ -1,0 +1,31 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|PTPN11|PTPN11|r||human||
+E|G2|gene|EXT1|EXT1|r||human||
+E|G3|gene|EXT2|EXT2|r||human||
+E|D1|disease|metachondromatosis|Metachondromatosis;metachondromatosis;MC|r||||
+E|D2|disease|Ollier disease|Ollier disease|r|||D6|
+E|D3|disease|Maffucci syndrome|Maffucci syndrome|r|||D6|
+E|D4|disease|multiple osteochondromas|multiple osteochondromas;MO|r||||
+E|D5|disease|multiple exostosis syndromes|multiple exostosis|r||||
+E|D6|disease|multiple enchondromatosis disorders|multiple enchondromatosis disorders|r||||
+E|D7|disease|multiple enchondromatosis syndromes|multiple enchondromatosis|p|ambiguous_mapping|||
+EV|V1|b0001.s1|ts|res|aff|eda,rr
+EV|V2|b0002.s3+b0002.s4+b0002.s5+b0002.s6|ts|res|aff|rr
+EV|V3|b0002.s7|ts|res|aff|rr
+EV|V4|b0002.s9|ts|int|aff|eda,rr
+EV|V5|b0002.s8|ts|neg|neg|rr
+EV|V6|b0002.s9|ts|neg|neg|rr
+EV|V7|b0002.s2|bg|bgr|aff|ebr
+EV|V8|b0002.s2|bg|bgr|neg|ebr
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V4;sup:a:ts:V2+V3||||LOF mutations stated as frequent cause of MC
+P|G1|D2|neg|-|ts|neg:-:ts:V5+V6||||No coding mutations; not a common cause
+P|G1|D3|neg|-|ts|neg:-:ts:V5+V6||||No coding mutations; not a common cause
+P|G2|D4|sup|c|bg|sup:c:bg:V7||||EXT1 stated as responsible gene for MO
+P|G3|D4|sup|c|bg|sup:c:bg:V7||||EXT2 stated as responsible gene for MO
+P|G2|D1|neg|-|bg|neg:-:bg:V8||||MC stated as unlinked to EXT1
+P|G3|D1|neg|-|bg|neg:-:bg:V8||||MC stated as unlinked to EXT2
+F|F1|descriptive|PTPN11 mutation carriers|17 MC families|not_applicable|not_applicable|partial|V2|10/17 families plus one deletion family
+F|F2|mechanism|LOH of wild-type PTPN11 allele|lesions from two MC patients|not_applicable|positive|not_reported|V3|only two patients
+F|F3|descriptive|PTPN11 coding mutations|54 Ollier/Maffucci patients|not_applicable|null|partial|V5|coding sequence only
+F|F4|hypothesis|locus heterogeneity of MC|1 familial, 5 sporadic cases|not_applicable|not_applicable|not_reported|V4|cases lacked obvious PTPN11 mutations

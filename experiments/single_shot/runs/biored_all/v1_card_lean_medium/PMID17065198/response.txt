@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|p53|p53|r||human||
+E|G2|gene|XPD|XPD|r||human||
+E|D1|disease|skin cancer|skin cancer|r||||
+E|D2|disease|non-melanoma skin cancers|non-melanoma skin cancers;NMSCs|r||||
+E|D3|disease|squamous cell carcinomas|squamous cell carcinomas;SCCs|r||||
+E|D4|disease|actinic keratosis|actinic keratosis;AK|r||||
+E|D5|disease|Basal Cell Carcinomas|Basal Cell Carcinomas|r||||
+E|D6|disease|HPV infection|infections by HPVs|p|other|||
+E|D7|ambiguous_disease|epidermodysplasia verruciformis|epidermodysplasia verruciformis|u|ambiguous_mapping|||
+X|renal transplant recipients|b0002|patient population, not a disease
+EV|V1|b0002.s3|ts|res|na|rr,do
+EV|V2|b0002.s5|ts|int|hyp|rr,ho
+EV|V3|b0002.s9|ts|neg|neg|rr,cmp
+EV|V4|b0002.s10|ts|res|neg|cmp
+EV|V5|b0001.s1+b0002.s11|ts|int|hyp|rr,unc
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V5|hedged_claim||p53 role in carcinogenesis only suggested
+P|G1|D2|unc|-|ts|unc:-:ts:V1|support_basis_unresolved||somatic mutations detected, no explicit attribution
+P|G1|D4|unc|-|ts|unc:-:ts:V2|hedged_claim||mutations in AK; early-event role suggested
+P|G1|D6|neg|-|ts|neg:-:ts:V3|||no association HPV status vs p53 mutation in lesions
+P|G2|D2|unc|-|ts|unc:-:ts:V4|scope||RTR vs control comparison, not tumour outcome
+F|F1|descriptive|p53 mutation frequency|NMSCs and AK of RTRs|not_applicable|not_applicable|partial|V1+V2|counts only in abstract
+F|F2|association|HPV status vs p53 mutation|RTR skin lesions|not_significant|null|not_reported|V3|
+F|F3|group_comparison|p53 codon 72, XPD genotypes|RTRs vs control populations|not_significant|null|not_reported|V4|
+F|F4|correlation|p53 accumulation vs p53 mutations|RTR skin lesions|unknown|positive|not_reported|V1|no disease outcome

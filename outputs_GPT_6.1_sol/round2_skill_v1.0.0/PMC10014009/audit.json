@@ -1,0 +1,38 @@
+{
+  "paper_id": "PMC10014009",
+  "run_id": "round2_skill_v1.0.0",
+  "rule_version": "1.0.0",
+  "entity_type_counts": {
+    "disease": 19,
+    "clinical_event": 1,
+    "ambiguous": 1,
+    "gene": 8,
+    "symptom": 17,
+    "phenotype": 2
+  },
+  "primary_gene_count": 8,
+  "primary_target_count": 21,
+  "primary_pair_count": 168,
+  "status_counts": {
+    "supported": 10,
+    "uncertain": 16,
+    "not_found": 142
+  },
+  "graph_nodes": 29,
+  "graph_edges": 10,
+  "raw_name_count": 86,
+  "mention_count": 356,
+  "evidence_count": 33,
+  "source_table_rows": 55,
+  "source_block_count": 117,
+  "checks": {
+    "complete_unique_pair_set": true,
+    "quotes_and_offsets_exact": true,
+    "mentions_and_offsets_exact": true,
+    "positive_negative_evidence_present": true,
+    "uncertainty_reason_present": true,
+    "graph_node_set_complete": true,
+    "graph_edge_set_equals_supported": true
+  },
+  "limitations": "模型自查和机械校验；不是独立人工验证，不能证明语义完整或无遗漏。"
+}

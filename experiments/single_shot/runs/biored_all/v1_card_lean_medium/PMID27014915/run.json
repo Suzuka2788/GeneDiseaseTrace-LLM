@@ -1,0 +1,163 @@
+{
+  "paper_id": "PMID27014915",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 2521,
+  "calls": [
+    {
+      "seconds": 22.9,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 1885,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 1946,
+        "output_tokens_details": {
+          "thinking_tokens": 877
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 1885,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 1946,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 1885,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 1885
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.0547888,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 1946,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 1885,
+          "webSearchRequests": 0,
+          "costUSD": 0.0547888,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 877,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 15.0,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 3582,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 1332,
+        "output_tokens_details": {
+          "thinking_tokens": 266
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 3582,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 1332,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 3582,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 3582
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.056084800000000004,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 1332,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 3582,
+          "webSearchRequests": 0,
+          "costUSD": 0.056084800000000004,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 266,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "P g3-d1: uncertain needs valid unresolved reasons",
+    "P g3-d1: unknown context evidence TNFa",
+    "P g3-d1: unknown context evidence induces",
+    "P g3-d1: unknown context evidence cell",
+    "P g3-d1: unknown context evidence death",
+    "P g3-d1: unknown context evidence this",
+    "P g3-d1: unknown context evidence is",
+    "P g3-d1: unknown context evidence not",
+    "P g3-d1: unknown context evidence a",
+    "P g3-d1: unknown context evidence disease",
+    "P g3-d1: unknown context evidence link",
+    "P g4-d1: uncertain needs valid unresolved reasons",
+    "P g4-d1: unknown context evidence Drug-induced",
+    "P g4-d1: unknown context evidence degradation",
+    "P g4-d1: unknown context evidence only",
+    "P g4-d1: unknown context evidence no",
+    "P g4-d1: unknown context evidence gene-disease",
+    "P g4-d1: unknown context evidence attribution",
+    "P g5-d1: uncertain needs valid unresolved reasons",
+    "P g5-d1: unknown context evidence Drug-induced",
+    "P g5-d1: unknown context evidence degradation",
+    "P g5-d1: unknown context evidence only",
+    "P g5-d1: unknown context evidence no",
+    "P g5-d1: unknown context evidence gene-disease",
+    "P g5-d1: unknown context evidence attribution",
+    "P g8-d2: uncertain needs valid unresolved reasons",
+    "P g8-d2: unknown context evidence Radiation-induced",
+    "P g8-d2: unknown context evidence upregulation",
+    "P g8-d2: unknown context evidence only",
+    "P g8-d2: unknown context evidence no",
+    "P g8-d2: unknown context evidence disease",
+    "P g8-d2: unknown context evidence comparator"
+  ]
+}

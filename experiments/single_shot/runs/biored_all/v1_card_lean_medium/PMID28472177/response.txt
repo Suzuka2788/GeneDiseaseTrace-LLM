@@ -1,0 +1,57 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|UCHL1|UCHL1;ubiquitin carboxyl-terminal esterase L1;Ubiquitin carboxyl-terminal esterase L1|r||human||
+E|G2|gene|ACTA2|ACTA2|r||human||
+E|G3|gene|POSTN|POSTN|r||human||
+E|G4|gene|LIF|LIF|r||human||
+E|G5|gene|FBXL7|FBXL7|r||human||
+E|G6|gene|FBXW11|FBXW11|r||human||
+E|G7|gene|GDF15|GDF15|r||human||
+E|G8|gene|HEY2|HEY2|r||human||
+E|G9|gene|IGLL5|IGLL5|r||human||
+E|G10|gene|ABCA4|ABCA4|r||human||
+E|G11|gene|AQP3|AQP3|r||human||
+E|G12|gene|AQP4|AQP4|r||human||
+E|G13|gene|CALB1|CALB1|r||human||
+E|G14|gene|ALK|ALK|r||human||
+E|G15|gene|FGF2|FGF2|r||human||
+E|G16|gene|IL1B|IL1B|r||human||
+E|G17|gene|TNF|TNF|r||human||
+E|G18|gene|PDGFB|PDGFB|r||human||
+E|G19|gene|HMGB1|HMGB1;High Mobility Group-Box 1|r||human||
+E|G20|gene|Beta catenin|Beta catenin|r||human||
+E|D1|disease|pediatric high-grade glioma|pediatric high-grade gliomas;pediatric high-grade glioma;pediatric aggressive tumors|r|||D2|
+E|D2|disease|glioma|glioma|r||||
+E|D3|disease|tumors of the nervous system|tumors of the nervous system|r||||
+E|D4|disease|cancer|cancers;cancer|r||||
+X|Wnt|b0002.s5|gene family/pathway, not single gene
+X|TCF|b0002.s5|reporter element/gene family, not single gene
+X|SF188|b0002.s3|cell line identifier
+X|SJ-GBM2|b0002.s3|cell line identifier
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s6|bg|bgr|aff|ebr
+EV|V3|b0002.s6|ts|int|hyp|ho
+EV|V4|b0001.s1+b0002.s4|ts|res|aff|rr
+EV|V5|b0002.s10|ts|hyp|hyp|ho
+EV|V6|b0002.s11|ts|hyp|hyp|ho
+EV|V7|b0002.s9|ts|res|na|do
+P|G1|D4|sup|a|bg|sup:a:bg:V1||V4|Deregulated in several cancers, background statement
+P|G1|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V4|Cell functions only; disease link hedged
+P|G1|D2|unc|-|ts|unc:-:ts:V6|hedged_claim|V4|Oncogene role stated as "might"
+P|G2|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G3|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G4|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G5|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G6|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G7|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G8|D4|sup|a|bg|sup:a:bg:V2|||Listed as known cancer-involved gene
+P|G9|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Called potential novel cancer gene
+P|G10|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Called potential novel cancer gene
+P|G11|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Called potential novel cancer gene
+P|G12|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Called potential novel cancer gene
+P|G13|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Called potential novel cancer gene
+P|G14|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Called potential novel cancer gene
+F|F1|group_comparison|UCHL1 knockdown vs proliferation, invasion, spheres|SF188, SJ-GBM2 glioma cells|unknown|negative|not_reported|V4|cell lines only
+F|F2|group_comparison|UCHL1 knockdown vs Wnt reporter activity|SF188, SJ-GBM2 cells|unknown|negative|partial|V4|70% reduction, no p-value
+F|F3|association|UCHL1 KD transcriptome, 306 DEGs|UCHL1 KDs vs vector control|significant|mixed|partial|V2+V3|
+F|F4|other|predicted upstream regulators FGF2, IL1B, TNF, PDGFB|UCHL1 KD transcriptome|significant|not_applicable|partial|V7|IPA prediction, no disease

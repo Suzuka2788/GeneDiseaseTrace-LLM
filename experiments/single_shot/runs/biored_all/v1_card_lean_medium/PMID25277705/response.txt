@@ -1,0 +1,85 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|LIF|LIF|r||human||
+E|G2|gene|MIF|migration inhibitory factor;MIF|r||human||
+E|G3|gene|SCF|stem cell factor;SCF|r||human||
+E|G4|gene|CCL27|CCL27|r||human||
+E|G5|gene|CXCL12|CXCL12|r||human||
+E|G6|gene|SCGF-b|stem cell growth factor beta;SCGF-b|r||human||
+E|G7|gene|RIG-I|retinoic acid-inducible gene-1;RIG-I|r||human||
+E|G8|gene|MDA5|melanoma differentiation-associated protein 5;MDA5|r||human||
+E|G9|gene|LGP2|laboratory of genetics and physiology 2;LGP2|r||human||
+E|G10|gene|Trif|Trif|r||human||
+E|M1|gene|Lif (mouse)|Leukemia inhibitory factor;leukemia inhibitory factor;LIF|r||non-human||
+E|M2|gene|Mif (mouse)|MIF|r||non-human||
+E|M3|gene|Scf (mouse)|SCF|r||non-human||
+E|M4|gene|Ccl27 (mouse)|CCL27|r||non-human||
+E|M5|gene|Cxcl12 (mouse)|CXCL12|r||non-human||
+E|M6|gene|Scgf-b (mouse)|SCGF-b|r||non-human||
+E|M7|gene|Trif (mouse)|TIR-domain-containing adapter-inducing interferon-b;Trif|r||non-human||
+E|M8|gene|Mavs (mouse)|mitochondrial antiviral-signaling protein;Mavs|r||non-human||
+E|M9|gene|Il1b (mouse)|IL-1b|r||non-human||
+E|M10|gene|Il4 (mouse)|IL-4|r||non-human||
+E|M11|gene|Il5 (mouse)|IL-5|r||non-human||
+E|M12|gene|Il6 (mouse)|IL-6|r||non-human||
+E|M13|gene|Il12b (mouse)|IL-12(p40)|r||non-human||
+E|M14|gene|Ifng (mouse)|IFN-g|r||non-human||
+E|M15|gene|Ccl2 (mouse)|CCL2|r||non-human||
+E|M16|gene|Ccl5 (mouse)|CCL5|r||non-human||
+E|M17|gene|Ccl3 (mouse)|CCL3|r||non-human||
+E|M18|gene|Cxcl1 (mouse)|CXCL1|r||non-human||
+E|M19|gene|Cxcl10 (mouse)|IP-10;CXCL10|r||non-human||
+E|M20|gene|Il22 (mouse)|IL-22|r||non-human||
+E|M21|gene|Cxcl9 (mouse)|MIG;CXCL9|r||non-human||
+E|D1|disease|RSV infection|respiratory syncytial viral infection;RSV infection|r||||
+E|D2|disease|acute lung injury|acute lung injury|r||||
+E|D3|disease|lung injury|lung injury|r||||
+E|S1|phenotype|airway hyperresponsiveness|airway hyperresponsiveness|r||||
+E|S2|phenotype|apoptosis|apoptosis|r||||
+X|melanoma differentiation-associated protein 5|b0002|gene name, not a melanoma disease mention
+X|A549|b0002|cell line identifier
+EV|V1|b0002.s5|ts|res|aff|rr
+EV|V2|b0002.s6|ts|res|aff|rr
+EV|V3|b0002.s8|ts|res|aff|rr,cmp
+EV|V4|b0002.s9|ts|res|aff|rr,cmp
+EV|V5|b0002.s10|ts|res|aff|rr,cmp
+EV|V6|b0002.s11|ts|res|aff|mi,cmp
+EV|V7|b0002.s13|ts|int|aff|eda
+EV|V8|b0002.s12|ts|int|aff|unc
+EV|V9|b0002.s1|bg|bgr|aff|ebr
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||RSV induces LIF in human epithelial cells
+P|G2|D1|sup|a|ts|sup:a:ts:V1|||RSV-inducible cytokine in human cells
+P|G3|D1|sup|a|ts|sup:a:ts:V1|||RSV-inducible cytokine in human cells
+P|G4|D1|sup|a|ts|sup:a:ts:V1|||RSV-inducible cytokine in human cells
+P|G5|D1|sup|a|ts|sup:a:ts:V1|||RSV-inducible cytokine in human cells
+P|G6|D1|sup|a|ts|sup:a:ts:V1|||RSV-inducible cytokine in human cells
+P|G7|D1|unc|-|ts|unc:-:ts:V5+V8|scope||Regulates cytokine response, not disease outcome
+P|M1|D1|sup|c|ts|sup:c:ts:V6+V7;sup:a:ts:V2+V4|||LIF neutralization enhanced RSV pathology in mice
+P|M1|D3|sup|c|ts|sup:c:ts:V6+V7|||LIF neutralization worsened lung injury in mice
+P|M1|D2|nf|-||||V9|Text says lung injury, not acute lung injury
+P|M2|D1|sup|a|ts|sup:a:ts:V2+V3+V4|||RSV-induced in mouse airways
+P|M3|D1|sup|a|ts|sup:a:ts:V2|||RSV-induced in mouse airways
+P|M4|D1|sup|a|ts|sup:a:ts:V2|||RSV-induced in mouse airways
+P|M5|D1|sup|a|ts|sup:a:ts:V2+V4|||RSV-induced in mouse airways
+P|M6|D1|sup|a|ts|sup:a:ts:V2|||RSV-induced in mouse airways
+P|M7|D1|unc|-|ts|unc:-:ts:V4|scope||KO alters cytokine induction, not disease outcome
+P|M8|D1|unc|-|ts|unc:-:ts:V3|scope||KO alters cytokine induction, not disease outcome
+P|M9|D1|sup|a|ts|sup:a:ts:V3+V4|||RSV-induced in mouse airways
+P|M10|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M11|D1|sup|a|ts|sup:a:ts:V3+V4|||RSV-induced in mouse airways
+P|M12|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M13|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M14|D1|sup|a|ts|sup:a:ts:V3+V4|||RSV-induced in mouse airways
+P|M15|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M16|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M17|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M18|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M19|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M20|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+P|M21|D1|sup|a|ts|sup:a:ts:V3|||RSV-induced in mouse airways
+F|F1|group_comparison|anti-LIF vs control IgG; lung pathology|RSV-infected wild-type mice|unknown|positive|not_reported|V6|abstract only, no statistics
+F|F2|group_comparison|Mavs KO vs wild-type; cytokine induction|RSV-infected mice|unknown|negative|not_reported|V3|abstract only
+F|F3|group_comparison|Trif KO vs wild-type; cytokine induction|RSV-infected mice|unknown|mixed|not_reported|V4|direction of alteration unspecified
+F|F4|mechanism|RIG-I vs MDA5/LGP2/Trif silencing; cytokines|RSV-infected A549 cells|unknown|negative|not_reported|V5+V8|abstract only
+R|species split|b0002.s5-s6|Same cytokine names measured in human cells and mouse airways|Separate human and mouse nodes per animal-model rule
+R|gene set|b0002.s1|Unnamed host cytokines linked to acute lung injury|Not assigned to individual genes; nf

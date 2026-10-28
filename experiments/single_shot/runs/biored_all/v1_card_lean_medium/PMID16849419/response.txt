@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SLC34A3|SLC34A3;sodium-phosphate cotransporter type IIc|r||human||
+E|D1|disease|hereditary hypophosphatemic rickets with hypercalciuria|Hereditary hypophosphatemic rickets with hypercalciuria;hereditary hypophosphatemic rickets with hypercalciuria;HHRH|r||||
+E|S1|phenotype|hypophosphatemia|hypophosphatemia|r||||
+E|S2|phenotype|rickets|rickets|r||||
+E|S3|phenotype|osteomalacia|osteomalacia|r||||
+E|S4|phenotype|hypercalciuria|hypercalciuria|r||||
+EV|V1|b0001.s1+b0002.s10|ts|res|aff|eda,rr
+EV|V2|b0002.s4+b0002.s5+b0002.s7|ts|res|aff|rr,eda
+EV|V3|b0002.s2|ts|aim|q|ho
+EV|V4|b0002.s8|ts|int|hyp|rr,unc
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2||V3+V4|Biallelic SLC34A3 mutations stated to cause HHRH
+F|F1|descriptive|SLC34A3 mutation genotypes|two HHRH families|not_applicable|not_applicable|not_applicable|V2|Few patients; abstract only
+F|F2|mechanism|intron 9 deletion and RNA splicing|HHRH family|unknown|not_applicable|not_reported|V4|Other two mutations only hedged
+F|F3|other|haplotypes of intron 9 deletions|HHRH family|not_applicable|not_applicable|not_reported|b0002.s6|Independent origin only suggested

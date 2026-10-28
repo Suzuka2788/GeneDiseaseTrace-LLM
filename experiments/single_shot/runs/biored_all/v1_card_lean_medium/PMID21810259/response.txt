@@ -1,0 +1,28 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|indoleamine 2,3 dioxygenase|indoleamine 2,3 dioxygenase;IDO|r||non-human||
+E|G2|gene|HIV-1 Tat|Tat|r||non-human||
+E|G3|gene|p38 MAPK|p38 mitogen-activated protein kinase;p38 MAPK;MAPK|p|other|non-human||
+E|G4|gene|IFNg|IFNg|r||non-human||
+E|G5|gene|TNFa|TNFa|r||non-human||
+E|G6|gene|IL-6|IL-6|r||non-human||
+E|G7|gene|inducible nitric oxide synthase|inducible isoform of nitric oxide synthase;iNOS|r||non-human||
+E|G8|gene|serotonin transporter|serotonin transporter;SERT|r||non-human||
+E|D1|disease|depressive-like behavior|depressive-like behavior|p|other||||
+E|D2|disease|depressive disorders|depressive disorders|r|||||
+E|D3|disease|HIV-1 infection|HIV-1-infected|r|||||
+E|S1|symptom|sickness behavior|sickness behavior|r|||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s5|ts|res|aff|rr,mi
+EV|V4|b0002.s13|ts|hyp|hyp|ho
+EV|V5|b0002.s6+b0002.s10+b0002.s11+b0002.s12|ts|res|na|rr
+EV|V6|b0002.s9|ts|neg|na|rr
+P|G2|D1|sup|c|both|sup:c:bg:V2;sup:c:ts:V3|||Tat causes depressive-like behavior; i.c.v. Tat confirms
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||IDO activation mediates switch to depressive-like behavior
+P|G1|D2|unc|-|ts|unc:-:ts:V4|hedged_claim||Targeting IDO could treat depression; speculative only
+P|G3|D2|unc|-|ts|unc:-:ts:V4|hedged_claim||p38 MAPK targeting therapy only proposed
+F|F1|group_comparison|i.c.v. Tat vs depressive-like behavior|C57BL/6J mice|unknown|positive|not_reported|V3|abstract only; comparator unstated
+F|F2|mechanism|Tat-induced IDO mRNA; p38 inhibitor effect|murine OHSCs|significant|positive|not_reported|V5|in vitro slices; no disease outcome
+F|F3|mechanism|Tat vs endogenous IFNg synthesis|murine OHSCs|unknown|null|not_reported|V6|
+R|disease typing|b0002.s2|Murine behavioral phenotype depressive-like behavior is not clearly disease or phenotype|Typed as provisional disease model endpoint; kept separate from depressive disorders

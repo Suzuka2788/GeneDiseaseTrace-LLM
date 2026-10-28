@@ -1,0 +1,12 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|arylsulfatase B|arylsulfatase B;ARSB|r||human||
+E|D1|disease|mucopolysaccharidosis type VI|mucopolysaccharidosis type VI|r||||
+X|p.R315X|b0002|variant identifier, not gene
+X|c.899-1142del|b0002|variant identifier, not gene
+X|g.99367-102002del|b0002|variant identifier, not gene
+EV|V1|b0001.s1+b0002.s1+b0002.s2|ts|res|aff|rr,eda
+EV|V2|b0002.s4|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||ARSB mutations identified in MPS VI patient genetic diagnosis
+F|F1|descriptive|ARSB p.R315X and exon 5 deletion|single MPS VI patient|not_applicable|not_applicable|not_applicable|V1+V2|single case
+R|explicit disease attribution|b0002.s1|Second mutation sought for diagnosis; disease attribution is implicit.|Treated as genetic diagnosis association, not causal.

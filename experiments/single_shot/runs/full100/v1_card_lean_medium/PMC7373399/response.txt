@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full letter text read; references removed; no tables or attachments
+E|G1|gene|ACE2|ACE2|r||human||
+E|D1|disease|diabetes|diabetes|r||||
+E|D2|disease|COVID-19|COVID-19|r||||
+E|D3|disease|acute respiratory distress syndrome|acute respiratory distress syndrome|r||||
+E|D4|disease|type 2 diabetes|type 2 diabetes|r|||D1|
+E|D5|disease|kidney disease|kidney, disease|p|other||||
+E|S1|phenotype|chronic hyperglycaemia|chronic hyperglycaemia|r||||
+X|severe acute respiratory syndrome coronavirus 2|b0003|pathogen, not gene or disease
+X|spike protein|b0003|viral protein, not a human gene endpoint
+X|HbA1c|b0004|lab measure
+EV|V1|b0004.s2|bg|res|aff|ebr,cmp
+EV|V2|b0004.s2|bg|res|aff|ebr
+EV|V3|b0003.s1|bg|bgr|aff|ebr
+EV|V4|b0004.s4|unk|int|hyp|ho
+EV|V5|b0004.s1|bg|bgr|aff|ebr
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V5|Diabetes patients show higher circulating ACE2 activity
+P|G1|D4|sup|a|bg|sup:a:bg:V2|||Low renal ACE2 expression in type 2 diabetes
+P|G1|D5|unc|-|bg|unc:-:bg:V2|scope||Finding attributed to combined T2D-kidney disease population
+P|G1|D2|unc|-|bg|unc:-:bg:V3+V4|support_basis_unresolved,hedged_claim||Viral receptor link; COVID-19 link only discussed
+C|C1|ACE2 levels in diabetes controversial|b0004.s1+b0004.s2|noncritical|unresolved|Different measures and populations; authors cite drug effects
+R|link via pathogen|b0003.s1|Gene linked to virus receptor role, not disease explicitly|Marked uncertain; did not infer virus-disease causation

@@ -1,0 +1,53 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; Drosophila wing study; no disease endpoints found
+E|G1|gene|corto|corto;Corto;CG2530|r||non-human||
+E|G2|gene|EloA|EloA;Elongin A;CG6755|r||non-human||
+E|G3|gene|EloB|EloB;Elongin B;CG4204|r||non-human||
+E|G4|gene|EloC|EloC;Elongin C;CG9291|r||non-human||
+E|G5|gene|rhomboid|rhomboid;rho;Rho|r||non-human||
+E|G6|gene|blistered|blistered;bs|r||non-human||
+E|G7|gene|kismet|kismet;kis|r||non-human||
+E|G8|gene|moira|moira;mor|r||non-human||
+E|G9|gene|trithorax|trithorax;trx|r||non-human||
+E|G10|gene|ERK|ERK|r||non-human||
+E|G11|gene|MP1|MP1|r||non-human||
+E|G12|gene|Drosophila EGF receptor|Drosophila EGF Receptor;Drosophila EGF receptor;DER|r||non-human||
+E|G13|gene|SNR1|SNR1|r||non-human||
+E|G14|gene|Serum Response Factor|Serum Response Factor;SRF|p|species_unresolved|||
+E|G15|gene|Scr|Scr|r||non-human||
+E|G16|gene|Rp49|Rp49|r||non-human||
+E|G17|gene|RpL12|RpL12|r||non-human||
+E|G18|gene|eIF-2α|eIF-2α|r||non-human||
+E|G19|gene|scalloped|scalloped;sd|r||non-human||
+E|G20|gene|Beadex|Beadex;Bx|r||non-human||
+E|G21|gene|nubbin|nubbin;nub|r||non-human||
+E|G22|gene|rotund|rotund;rn|r||non-human||
+E|G23|gene|spalt|spalt|r||non-human||
+E|G24|gene|daugtherless|daugtherless;da|p|other|non-human||
+E|G25|gene|Ubx|Ubx|r||non-human||
+E|S1|phenotype|ectopic veins|ectopic veins|r||||
+E|S2|phenotype|truncated L5 vein|truncated L5 vein|r||||
+E|S3|phenotype|lethality|lethality|r||||
+E|S4|phenotype|margin defects|margin defects|r||||
+X|Elongin complex|b0002|protein complex, not a single gene
+X|TrxG|b0002|gene family/group label
+X|ETP|b0002|gene family/group label
+X|BAP|b0006|chromatin remodeling complex
+X|PBAP|b0006|chromatin remodeling complex
+X|H3K36me3|b0008|histone mark, not gene
+EV|V1|b0061.s6+b0061.s7+b0072.s1|ts|res|na|rr,cmp
+EV|V2|b0061.s1+b0061.s2|ts|res|na|do
+EV|V3|b0073.s3+b0073.s4+b0079.s1|ts|res|na|rr,cmp
+EV|V4|b0082.s6+b0098.s1|ts|res|na|rr,cmp
+EV|V5|b0099.s4+b0114.s1|ts|res|na|rr,cmp
+EV|V6|b0118.s4+b0117.s6|ts|res|na|rr
+EV|V7|b0054.s3+b0054.s8+b0053.s5|ts|res|na|rr
+F|F1|group_comparison|EloA over-expression vs ectopic veins|sd::Gal4 or Bx::Gal4 females|significant|positive|available|V1|
+F|F2|descriptive|EloB/EloC heterozygotes, truncated L5|heterozygous females|not_applicable|not_applicable|available|V2|no comparator test
+F|F3|group_comparison|EloC alleles vs bs ectopic veins|EloC/bsEY23316 females|significant|negative|available|V3|
+F|F4|group_comparison|Elo alleles vs corto ectopic veins|corto transheterozygous females|significant|negative|available|V4|
+F|F5|group_comparison|Elo alleles vs TrxG ectopic veins|mor, kis, trx transheterozygotes|significant|negative|available|V5|no EloB rows in table
+F|F6|descriptive|EloC and Corto ChIP on rho|third instar wing discs|unknown|positive|partial|V6|two experiments, no test
+F|F7|descriptive|EloB/EloC loss-of-function lethality|homozygous/trans-allelic animals|not_applicable|not_applicable|not_reported|V7|
+C|C1|EloB in TrxG interaction claim|b0099.s4+b0100.s1|noncritical|unresolved|text says three Elo; table lacks EloB
+R|no disease endpoints|whole paper|only fly wing phenotypes and lethality; no disease or clinical event|recorded genes and phenotypes; no gene-disease pairs listed

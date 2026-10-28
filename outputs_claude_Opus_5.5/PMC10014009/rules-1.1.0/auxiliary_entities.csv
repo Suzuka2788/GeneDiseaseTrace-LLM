@@ -1,0 +1,19 @@
+﻿paper_id,id,type,name,original_names,species,in_primary_matrix,parent_ids,parent_basis,qualifiers,database_id,reference_sequences_from_text,mention_count,mention_roles,locations,merge_basis,ambiguity
+PMC10014009,D10,phenotype,cerebral microbleeds,"[""cerebral microbleeds""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0026""]",Single surface form.,Imaging finding in excluded patients (b0026); R1 auxiliary.
+PMC10014009,D21,symptom,seizure,"[""Seizure"", ""seizure"", ""seizures""]",human,False,[],,,,,10,"{""disease_name"": 10}","[""b0028"", ""b0041"", ""b0042"", ""b0064"", ""b0066"", ""b0097"", ""b0102""]",Generic seizure mentions incl. 'early-onset seizure' (timing qualifier).,
+PMC10014009,D22,symptom,focal impaired awareness seizure (FIAS),"[""FIAS"", ""focal impaired awareness seizure""]",human,False,"[""D21""]",Name contains 'seizure' (R7).,,,,3,"{""disease_name"": 3}","[""b0076"", ""b0093""]",Abbreviation defined in Table 2 note.,
+PMC10014009,D23,symptom,focal to bilateral tonic-clonic seizure (FBTCS),"[""FBTCS"", ""focal to bilateral tonic-clonic seizure""]",human,False,"[""D21""]",Name contains 'seizure' (R7).,,,,5,"{""disease_name"": 5}","[""b0076"", ""b0078"", ""b0083"", ""b0093""]",Abbreviation defined in Table 2 note.,
+PMC10014009,D24,symptom,emotional seizure,"[""Emotional seizure""]",human,False,"[""D21""]",Name contains 'seizure' (R7).,,,,1,"{""disease_name"": 1}","[""b0086""]",Single surface form.,
+PMC10014009,D27,symptom,headache,"[""Headache"", ""headache""]",human,False,[],,,,,7,"{""disease_name"": 7}","[""b0036"", ""b0070"", ""b0074"", ""b0075"", ""b0076"", ""b0081"", ""b0090""]",Includes 'Nonspecific headache'.,
+PMC10014009,D28,symptom,neck pain,"[""neck pain""]",human,False,[],,,,,2,"{""disease_name"": 2}","[""b0070"", ""b0076""]",Single surface form.,
+PMC10014009,D29,symptom,dizziness,"[""Dizziness"", ""dizziness""]",human,False,[],,,,,2,"{""disease_name"": 2}","[""b0037"", ""b0080""]",Single surface form.,
+PMC10014009,D30,symptom,weakness,"[""Weakness"", ""weakness""]",human,False,[],,,,,2,"{""disease_name"": 2}","[""b0038"", ""b0075""]",Table 1 'Weakness' and Table 2 'sided weakness'.,"Table 1 pools weakness, dysarthria and facial palsy."
+PMC10014009,D31,symptom,dysarthria,"[""Dysarthria""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0038""]",Single surface form.,
+PMC10014009,D32,symptom,facial palsy,"[""Facial palsy""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0038""]",Single surface form.,
+PMC10014009,D33,symptom,diplopia,"[""Diplopia"", ""diplopia""]",human,False,[],,,,,3,"{""disease_name"": 3}","[""b0039"", ""b0075"", ""b0079""]",Includes 'binocular diplopia'.,
+PMC10014009,D34,symptom,visual symptoms,"[""Visual symptoms"", ""positive visual symptom""]",human,False,[],,,,,2,"{""disease_name"": 2}","[""b0040"", ""b0082""]",Table 1 category and K8 'Transient positive visual symptom'.,Not merged with 'visual disturbance'.
+PMC10014009,D35,symptom,visual disturbance,"[""Visual disturbance""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0080""]",Single surface form.,
+PMC10014009,D36,symptom,central vertigo,"[""Central vertigo""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0085""]",Single surface form.,
+PMC10014009,D37,symptom,drowsy mentality,"[""drowsy mentality""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0086""]",Single surface form.,Not merged with 'decreased mentality'.
+PMC10014009,D38,symptom,decreased mentality,"[""Decreased mentality""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0088""]",Single surface form.,
+PMC10014009,D39,phenotype,neurological sequelae,"[""neurological sequelae""]",human,False,[],,,,,1,"{""disease_name"": 1}","[""b0070""]",Single surface form.,Non-specific outcome.

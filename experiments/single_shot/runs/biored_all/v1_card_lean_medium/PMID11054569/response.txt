@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|Rab6c|Rab6c|r|||human||
+E|G2|gene|Rab6|Rab6|p|other|human||
+E|D1|disease|breast cancer|breast cancer|r||||
+E|D2|disease|uterine sarcoma|uterine sarcoma|r||||
+E|S1|phenotype|multidrug resistant|multidrug resistant|r||||
+X|rab gene family|b0001|gene family, not a single-gene endpoint
+X|MCF7/AdrR|b0002|cell line identifier
+X|MES-SA/Dx5|b0002|cell line identifier
+X|MS-RDA|b0002|laboratory technique
+EV|V1|b0002.s2|ts|res|na|rr,cmp
+EV|V2|b0002.s3+b0002.s4+b0002.s5|ts|res|na|rr,mi
+P|G1|D1|nf|-||||V1+V2|Links drug resistance in cell line, not disease
+P|G1|D2|nf|-||||V1|Expression in MDR cell line only, no disease link
+F|F1|group_comparison|Rab6c expression; MDR versus parental lines|MCF7/AdrR, MES-SA/Dx5 cell lines|unknown|negative|not_reported|V1|abstract only; no statistics
+F|F2|mechanism|exogenous Rab6c; drug resistance and accumulation|MCF7/AdrR transfectants versus vector|unknown|negative|not_reported|V2|cell-level phenotype only

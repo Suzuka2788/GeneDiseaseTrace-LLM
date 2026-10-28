@@ -1,0 +1,54 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text and tables; online appendix unread
+E|G1|gene|KCNJ11|KCNJ11;Kir6.2|r||human||
+E|G2|gene|ABCC8|ABCC8;SUR1|r||human||
+E|G3|gene|Kir6.2 (mouse)|Kir6.2|r||non-human||
+E|G4|gene|SUR1 (hamster)|SUR1|r||non-human||
+E|G5|gene|HNF1α|HNF1α|r||human||
+E|D1|disease|type 2 diabetes|type 2 diabetes;type 2 diabetic|r||||
+E|D2|disease|neonatal diabetes mellitus|neonatal diabetes mellitus;NDM|r||||
+E|D3|disease|transient NDM|transient NDM|r|||D2|
+E|D4|disease|syndromic NDM|syndromic form of NDM|r|||D2|
+E|D5|disease|hyperinsulinism|hyperinsulinism|r||||
+E|D6|disease|type 1 diabetes|type 1 diabetes|r||||
+E|D7|disease|diabetes|diabetes|p|other|||
+E|CE1|clinical_event|secondary failure to sulfonylureas|secondary failure to sulfonylureas|r||||
+E|S1|phenotype|reduced insulin secretion|reduced insulin secretion|r||||
+E|S2|phenotype|insulin resistance|insulin resistance|r||||
+E|S3|phenotype|hyperglycemia|hyperglycemia|r||||
+X|KATP channel|b0010.s1|channel complex, not single gene
+X|rs5219|b0030.s1|variant identifier
+X|A1369S|b0034.s2|variant in hamster SUR1 clone
+EV|V1|b0003.s1+b0010.s5|bg|bgr|aff|ebr
+EV|V2|b0111.s3|bg|bgr|aff|ebr
+EV|V3|b0074.s5|bg|bgr|aff|ebr
+EV|V4|b0115.s3|ts|int|hyp|ho
+EV|V5|b0010.s4|bg|bgr|aff|ebr
+EV|V6|b0060.s9+b0060.s10|bg|bgr|aff|ebr,eda
+EV|V7|b0066.s3|bg|bgr|aff|ebr
+EV|V8|b0113.s2|bg|bgr|aff|ebr
+EV|V9|b0040.s5+b0040.s6+b0040.s7+b0040.s9|ts|res|na|rr,cmp
+EV|V10|b0071.s2+b0071.s3|ts|res|na|rr,cmp
+EV|V11|b0060.s2+b0066.s5+b0069.s5|ts|res|na|rr,cmp
+EV|V12|b0074.s6+b0090.s1+b0093.s1+b0099.s1|ts|res|na|rr,cmp
+EV|V13|b0109.s3|bg|bgr|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1;sup:a:bg:V2;unc:-:ts:V4|||Background E23K association with type 2 diabetes
+P|G1|D2|sup|c|bg|sup:a:bg:V5;sup:c:bg:V6;sup:c:bg:V7;sup:a:bg:V2|||Kir6.2 mutations underlie NDM
+P|G1|D3|sup|c|bg|sup:c:bg:V6|||I182V underlies transient NDM
+P|G1|D4|sup|c|bg|sup:c:bg:V6|||I296L underlies syndromic NDM
+P|G1|D5|sup|a|bg|sup:a:bg:V5|||Mutations associated with hyperinsulinism
+P|G2|D2|sup|a|bg|sup:a:bg:V5|||SUR1 mutations associated with NDM
+P|G2|D5|sup|a|bg|sup:a:bg:V5|||SUR1 mutations associated with hyperinsulinism
+P|G1|D7|sup|a|bg|sup:a:bg:V3|||Genotypes confer relative diabetes risk
+P|G1|CE1|sup|a|bg|sup:a:bg:V8|||E23K associated with sulfonylurea secondary failure
+P|G5|D7|nf|-||||V13|Carriers studied before onset; no attribution
+F|F1|group_comparison|E23K K/K vs E/E; insulin secretion|NGT adults, study 1|significant|negative|available|V9|n=9 per group
+F|F2|group_comparison|K/K vs E/E; hepatic insulin sensitivity|NGT adults, study 1|significant|positive|available|V10|small sample
+F|F3|group_comparison|K/K vs E/E; peripheral insulin sensitivity|NGT adults, study 1|not_significant|positive|available|V10|trend P<0.10
+F|F4|group_comparison|E23K genotype; secretion, sensitivity, clearance|461 volunteers, study 2|significant|mixed|available|V12|three-group ANCOVA tests
+F|F5|mechanism|K23 vs E23 channels; ATP sensitivity, Po|COSm6 recombinant mouse Kir6.2|significant|mixed|available|V11|in vitro only
+F|F6|group_comparison|K/K vs E/E; insulin clearance|NGT adults, study 1|not_significant|null|partial|V9|differs from study 2
+C|C1|insulin AUC values order vs text|b0040.s4+b0040.s5|noncritical|unresolved|K/K values larger despite lower claim
+C|C2|insulin clearance study 1 vs 2|b0040.s10+b0109.s9|noncritical|resolved|different cohorts and sizes
+U|online appendix|b0071.s5|supplementary material not provided
+R|species|b0034.s1|Human E23K studied in mouse Kir6.2 construct|In-vitro results attributed to E23K findings; mouse node kept separate

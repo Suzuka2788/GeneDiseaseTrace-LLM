@@ -1,0 +1,32 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat cells, mouse models
+E|G1|gene|autotaxin|autotaxin;ATX|r||||
+E|G2|gene|LPA2|LPA2;lpa2|p|species_unresolved|non-human||
+E|G3|gene|ATM|ATM|p|species_unresolved|non-human||
+E|G4|gene|ATR|ATR|p|species_unresolved|non-human||
+E|G5|gene|H2AX|H2AX|p|species_unresolved|non-human||
+E|G6|gene|LPA1|LPA1|p|species_unresolved|non-human||
+E|G7|gene|ERK1|ERK1|p|species_unresolved|non-human||
+E|G8|gene|PI3K|PI3K|p|ambiguous_mapping|||
+E|G9|gene|AKT|AKT|p|ambiguous_mapping|||
+E|G10|gene|Sca-1|Sca-1|p|species_unresolved|non-human||
+E|G11|gene|c-Kit|c-Kit|p|species_unresolved|non-human||
+E|G12|gene|TNFalpha|TNFalpha|r||||
+E|D1|disease|radiation injury|radiation injury|r||||
+X|NF-kappaB|b0002|protein complex, not a single gene
+X|LPA1 '3|b0002|garbled range; LPA3 not written verbatim
+X|ERK1 '2|b0002|garbled range; ERK2 not written verbatim
+X|LPA|b0002|lipid ligand, not a gene
+X|CGK-733|b0002|chemical inhibitor
+EV|V1|b0002.s1+b0002.s2|ts|res|q|rr,do
+EV|V2|b0002.s7|ts|res|q|rr,mi
+EV|V3|b0002.s8|ts|res|q|rr,do
+EV|V4|b0002.s8|bg|bgr|q|ebr
+P|G2|D1|unc|-|ts|unc:-:ts:V1+V2|scope||Irradiation response and DNA repair are not disease outcomes
+P|G1|D1|unc|-|ts|unc:-:ts:V3|scope||Plasma ATX rise after irradiation; no disease link
+P|G12|D1|nf|-|bg||scope|V4|Radiation-induced upregulation only; no injury link
+F|F1|group_comparison|lpa2 mRNA vs gamma-irradiation dose/time|IEC-6 cells, jejunum enteroids|unknown|positive|not_reported|V1|abstract only
+F|F2|group_comparison|residual gamma-H2AX, LPA2-KO vs WT|irradiated mice bone marrow, jejunum|unknown|positive|not_reported|V2|abstract only
+F|F3|group_comparison|plasma ATX activity, LPA after irradiation|irradiated subjects, species unstated|unknown|positive|not_reported|V3|abstract only
+F|F4|descriptive|LPA2 transcripts in LSK vs progenitors|bone marrow stem/progenitor cells|unknown|positive|not_reported|b0002.s6|no EV; descriptive
+R|species split|b0002.s2,b0002.s7|LPA2 is studied in rat cells and in mice|Kept one non-human LPA2 node, marked provisional

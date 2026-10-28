@@ -1,0 +1,226 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, tables, captions; supplementary tables unread
+E|G1|gene|MYBPC3|MYBPC3|r||human||
+E|G2|gene|MYH7|MYH7|r||human||
+E|G3|gene|DSP|DSP|r||human||
+E|G4|gene|LMNA|LMNA|r||human||
+E|G5|gene|DES|DES|r||human||
+E|G6|gene|KCNQ1|KCNQ1|r||human||
+E|G7|gene|KCNH2|KCNH2|r||human||
+E|G8|gene|SCN5A|SCN5A|r||human||
+E|G9|gene|APOB|APOB|r||human||
+E|G10|gene|PCSK9|PCSK9|r||human||
+E|G11|gene|LDLR|LDLR|r||human||
+E|G12|gene|LDLRAP1|LDLRAP1|r||human||
+E|G13|gene|ANGPTL3|ANGPTL3|r||human||
+E|G14|gene|ACTA2|ACTA2|r||human||
+E|G15|gene|ACTC1|ACTC1|r||human||
+E|G16|gene|DSC2|DSC2|r||human||
+E|G17|gene|DSG2|DSG2|r||human||
+E|G18|gene|GLA|GLA|r||human||
+E|G19|gene|MYH11|MYH11|r||human||
+E|G20|gene|MYL2|MYL2|r||human||
+E|G21|gene|MYL3|MYL3|r||human||
+E|G22|gene|PKP2|PKP2|r||human||
+E|G23|gene|PRKAG2|PRKAG2|r||human||
+E|G24|gene|RYR1|RYR1|r||human||
+E|G25|gene|RYR2|RYR2|r||human||
+E|G26|gene|SDHD|SDHD|r||human||
+E|G27|gene|SMAD3|SMAD3|r||human||
+E|G28|gene|TMEM43|TMEM43|r||human||
+E|G29|gene|TNNI3|TNNI3|r||human||
+E|G30|gene|TNNT2|TNNT2|r||human||
+E|G31|gene|TPM1|TPM1|r||human||
+E|G32|gene|PAH|PAH|r||human||
+E|G33|gene|ATP7B|ATP7B|r||human||
+E|G34|gene|F7|F7|r||human||
+E|G35|gene|FKBP14|FKBP14|r||human||
+E|G36|gene|TRIM63|TRIM63|r||human||
+E|G37|gene|SYNE2|SYNE2|r||human||
+E|G38|gene|DMD|DMD|r||human||
+E|G39|gene|SYNE1|SYNE1|r||human||
+E|G40|gene|ABCA1|ABCA1|r||human||
+E|G41|gene|ILK|ILK|r||human||
+E|G42|gene|MYOM1|MYOM1|r||human||
+E|G43|gene|TTN|TTN|r||human||
+E|G44|gene|TGFB3|TGFB3|r||human||
+E|G45|gene|MIB1|MIB1|r||human||
+E|G46|gene|PHKA1|PHKA1|r||human||
+E|G47|gene|LAMA2|LAMA2;alpha-2 laminin|r||human||
+E|G48|gene|MUTYH|MUTYH|r||human||
+E|G49|gene|PMS2|PMS2|r||human||
+E|G50|gene|MEF2A|MEF2A|r||human||
+E|G51|gene|GAA|GAA|r||human||
+E|G52|gene|PMM2|PMM2|r||human||
+E|G53|gene|APOC3|APOC3|r||human||
+E|G54|gene|COL4A1|COL4A1;collagen type IV alpha 1 chain|r||human||
+E|G55|gene|EYA1|EYA1|r||human||
+E|G56|gene|FBN2|FBN2|r||human||
+E|G57|gene|NNT|NNT|r||human||
+E|G58|gene|SVEP1|SVEP1|r||human||
+E|G59|gene|SIX5|SIX5|r||human||
+E|G60|gene|GLB1|GLB1|r||human||
+E|G61|gene|MTO1|MTO1|r||human||
+E|G62|gene|SURF1|SURF1|r||human||
+E|G63|gene|ALMS1|ALMS1|r||human||
+E|G64|gene|SCO2|SCO2|r||human||
+E|G65|gene|CACNA1C|CACNA1C|r||human||
+E|G66|gene|APOA5|APOA5|r||human||
+E|G67|gene|NOTCH3|NOTCH3|r||human||
+E|G68|gene|FLNC|FLNC|r||human||
+E|D1|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|D2|disease|cardiomyopathy|cardiomyopathy|r||||
+E|D3|disease|channelopathy|channelopathy|r||||
+E|D4|disease|hypercholesterolemia|hypercholesterolemia;Hypercholesterolemia|r||||
+E|D5|disease|hypobetalipoproteinemia|hypobetalipoproteinemia;Hypobetalipoproteinemia|r||||
+E|D6|disease|familial hypobetalipoproteinemia|familial hypobetalipoproteinemia|r|||D5|
+E|D7|disease|hypertrophic cardiomyopathy|hypertrophic cardiomyopathy;Hypertrophic cardiomyopathy|r|||D2|
+E|D8|disease|dilated cardiomyopathy|dilated cardiomyopathy;Dilated cardiomyopathy|r|||D2|
+E|D9|disease|phenylketonuria|phenylketonuria|r||||
+E|D10|disease|Wilson's disease|Wilson's disease|r||||
+E|D11|disease|factor VII deficiency|factor VII deficiency|r||||
+E|D12|disease|kyphoscoliosis type of Ehlers-Danlos syndrome|kyphoscoliosis type of Ehlers-Danlos syndrome|r||||
+E|D13|disease|familial hypercholesterolemia|familial hypercholesterolemia|r|||D4|
+E|D14|disease|cystic fibrosis|cystic fibrosis|r||||
+E|D15|disease|alpha-1 antitrypsin deficiency|alpha-1 antitrypsin deficiency|r||||
+E|D16|disease|sensorineural hearing loss|sensorineural hearing loss|r||||
+E|D17|disease|breast and ovarian cancer|breast and ovarian cancer|r||||
+E|D18|disease|coronary artery disease|coronary artery disease;Coronary artery disease;CAD|r||||
+E|D19|disease|myocardial infarction|myocardial infarction;myocardial infarctions|r||||
+E|D20|disease|HDL deficiency|HDL deficiency|r||||
+E|D21|disease|arrhythmogenic right ventricular dysplasia|Arrhythmogenic right ventricular dysplasia|r||||
+E|D22|disease|Emery-Dreifuss muscular dystrophy|Emery-Dreifuss muscular dystrophy|r||||
+E|D23|disease|left ventricular non-compaction|left ventricular non-compaction|r||||
+E|D24|disease|muscle glycogenosis|muscle glycogenosis|r||||
+E|D25|disease|long QT syndrome|long QT syndrome;Long QT syndrome|r||||
+E|D26|disease|aortic aneurysm|Aortic aneurysm|r||||
+E|D27|disease|Pompe disease|Pompe disease;glycogen storage disease type II;Glycogen storage disease type II;Glycogen storage disease|r||||
+E|D28|disease|GM1-gangliosidosis|GM1-gangliosidosis|r||||
+E|D29|disease|merosin-deficient congenital muscular dystrophy type 1A|merosin-deficient congenital muscular dystrophy type 1A;Merosin-deficient congenital muscular dystrophy type 1A;MDC1A|r||||
+E|D30|disease|combined oxidative phosphorylation deficiency|combined oxidative phosphorylation deficiency;Combined oxidative phosphorylation deficiency|r||||
+E|D31|disease|mitochondrial complex IV deficiency|mitochondrial complex IV deficiency;Mitochondrial complex IV deficiency;cardioencephalomyopathy;Cardioencephalo-myopathy|p|ambiguous_mapping|||
+E|D32|disease|Leigh syndrome|Leigh syndrome|r||||
+E|D33|disease|Alstrom syndrome|Alstrom syndrome|r||||
+E|D34|disease|hypertriglyceridemia|hypertriglyceridemia;Hypertriglyceridemia|r||||
+E|D35|disease|cerebral infarction|cerebral infarction;Cerebral infarction|r||||
+E|D36|disease|myopathy|myopathy;Myopathy|r||||
+E|D37|disease|heart failure|heart failure|r||||
+E|D38|disease|hyperalphalipoproteinemia|hyperalphalipoproteinemia|r||||
+E|CE1|clinical_event|sudden cardiac death|sudden cardiac death|r||||
+E|CE2|clinical_event|stroke|strokes|r||||
+E|CE3|clinical_event|all-cause mortality|all-cause mortality|r||||
+E|S1|phenotype|prolonged QTc interval|prolonged QTc interval|r||||
+E|S2|phenotype|low LDL-C|low level of LDL-C|r||||
+X|ACMG59|b0002|gene list, not a single gene
+X|Mendelian disorders|b0006|generic disease category, not specific disease
+X|non-communicable diseases|b0012|generic disease category
+EV|V1|b0006.s7|bg|bgr|aff|ebr
+EV|V2|b0016.s1|bg|bgr|aff|ebr
+EV|V3|b0041.s1+b0042.s1+b0058.s1|bg|bgr|aff|ebr
+EV|V4|b0043.s1+b0044.s1+b0058.s1|bg|bgr|aff|ebr
+EV|V5|b0045.s1+b0046.s1+b0047.s1+b0048.s1+b0049.s1+b0050.s1+b0058.s1|bg|bgr|aff|ebr
+EV|V6|b0051.s1+b0052.s1+b0053.s1+b0058.s1|bg|bgr|aff|ebr
+EV|V7|b0054.s1+b0055.s1+b0056.s1+b0057.s1+b0058.s1|bg|bgr|aff|ebr
+EV|V8|b0059.s2|bg|bgr|aff|ebr
+EV|V9|b0065.s1+b0066.s1+b0067.s1+b0068.s1|bg|bgr|aff|ebr
+EV|V10|b0069.s1+b0070.s1+b0071.s1|bg|bgr|aff|ebr
+EV|V11|b0072.s1+b0073.s1+b0075.s1+b0076.s1|bg|bgr|aff|ebr
+EV|V12|b0077.s1+b0078.s1+b0079.s1+b0080.s1|bg|bgr|aff|ebr
+EV|V13|b0081.s1+b0082.s1|bg|bgr|aff|ebr
+EV|V14|b0083.s1+b0084.s1|bg|bgr|aff|ebr
+EV|V15|b0085.s1+b0086.s1+b0087.s1+b0088.s1|bg|bgr|aff|ebr
+EV|V16|b0103.s1|bg|bgr|aff|ebr
+EV|V17|b0103.s4|bg|bgr|aff|ebr
+EV|V18|b0112.s1+b0123.s1|bg|bgr|aff|ebr
+EV|V19|b0113.s1+b0124.s1|bg|bgr|aff|ebr
+EV|V20|b0114.s1+b0125.s2+b0125.s6+b0125.s9|bg|bgr|aff|ebr,eda
+EV|V21|b0115.s1+b0128.s3|bg|bgr|aff|ebr
+EV|V22|b0116.s1+b0126.s1+b0126.s2+b0155.s4+b0155.s5|bg|bgr|aff|ebr
+EV|V23|b0117.s1+b0128.s1|bg|bgr|aff|ebr
+EV|V24|b0118.s1+b0127.s1|bg|bgr|aff|ebr
+EV|V25|b0119.s1+b0120.s1+b0128.s1+b0128.s2|bg|bgr|aff|ebr
+EV|V26|b0121.s1+b0128.s4|bg|bgr|aff|ebr
+EV|V27|b0130.s4+b0137.s1|ts|res|aff|eda
+EV|V28|b0130.s4+b0136.s1|ts|res|aff|eda
+EV|V29|b0130.s4+b0138.s1|ts|res|aff|eda
+EV|V30|b0002.s10+b0140.s1+b0141.s1+b0142.s1+b0148.s1|ts|res|aff|eda
+EV|V31|b0148.s2|bg|bgr|aff|ebr,cs
+EV|V32|b0002.s10+b0143.s1+b0148.s1|ts|res|aff|eda
+EV|V33|b0148.s3|bg|bgr|aff|ebr
+EV|V34|b0145.s1+b0149.s1|ts|res|aff|eda
+EV|V35|b0151.s1+b0151.s2+b0151.s3+b0151.s4|both|int|hyp|do,ho
+EV|V36|b0123.s4+b0123.s5|bg|int|q|unc
+EV|V37|b0059.s2+b0059.s3+b0059.s4+b0059.s5|ts|res|na|rr
+EV|V38|b0109.s3+b0109.s4+b0109.s5+b0110.s1|ts|res|na|rr,cmp
+EV|V39|b0125.s4|ts|res|na|rr,cmp
+EV|V40|b0150.s1+b0150.s2+b0157.s1+b0149.s2|ts|res|na|do
+P|G1|D2|sup|a|bg|sup:a:bg:V2||| panel example of cardiomyopathy gene
+P|G1|D7|sup|a|bg|sup:a:bg:V12;sup:a:bg:V19|||Table 3 group and ClinVar variant attribution
+P|G2|D2|sup|a|bg|sup:a:bg:V2;sup:a:bg:V33|||panel example; cardiomyopathy mechanism in MYH7
+P|G2|D7|sup|a|both|sup:a:bg:V12;sup:a:ts:V32|||carrier with HCM confirmed; table group
+P|G3|D2|sup|a|bg|sup:a:bg:V2|||panel example of cardiomyopathy gene
+P|G3|D8|sup|a|bg|sup:a:bg:V10|||Table 3 row group
+P|G4|D2|sup|a|bg|sup:a:bg:V2|||panel example of cardiomyopathy gene
+P|G5|D2|sup|a|bg|sup:a:bg:V2|||panel example of cardiomyopathy gene
+P|G6|D3|sup|a|bg|sup:a:bg:V2|||panel example of channelopathy gene
+P|G6|D25|sup|a|bg|sup:a:bg:V11;sup:a:bg:V18||V36|gene-level link; Thr96Arg pathogenicity doubted
+P|G7|D3|sup|a|bg|sup:a:bg:V2|||panel example of channelopathy gene
+P|G8|D3|sup|a|bg|sup:a:bg:V2|||panel example of channelopathy gene
+P|G9|D4|sup|a|bg|sup:a:bg:V9|||Table 3 row group
+P|G9|D5|sup|a|both|sup:a:bg:V9;sup:a:ts:V30|||three truncating carriers with hypobetalipoproteinemia
+P|G9|D6|sup|a|bg|sup:a:bg:V31|||truncated APOB segregates with phenotype
+P|G10|D4|sup|a|bg|sup:a:bg:V14|||Table 3 row group
+P|G10|D5|unc|-|bg|unc:a:bg:V2|scope||joint list with hypercholesterolemia, member link unclear
+P|G11|D4|unc|-|bg|unc:a:bg:V2|scope||joint list, disease per member unclear
+P|G11|D5|unc|-|bg|unc:a:bg:V2|scope||joint list, disease per member unclear
+P|G12|D4|unc|-|bg|unc:a:bg:V2|scope||joint list, disease per member unclear
+P|G12|D5|unc|-|bg|unc:a:bg:V2|scope||joint list, disease per member unclear
+P|G13|D4|unc|-|bg|unc:a:bg:V2|scope||joint list, disease per member unclear
+P|G13|D5|unc|-|bg|unc:a:bg:V2|scope||joint list, disease per member unclear
+P|G19|D26|sup|a|bg|sup:a:bg:V13|||Table 3 row group
+P|G24|D36|sup|a|ts|sup:a:ts:V34|||carrier with myopathy, confirmed phenotype
+P|G25|D21|sup|a|bg|sup:a:bg:V6;sup:a:bg:V15|||Table 2 and 3 row groups
+P|G28|D21|sup|a|bg|sup:a:bg:V15|||Table 3 row group
+P|G32|D9|sup|c|bg|sup:c:bg:V1|||disease-causing variant cited
+P|G33|D10|sup|c|bg|sup:c:bg:V1|||disease-causing variant cited
+P|G34|D11|sup|c|bg|sup:c:bg:V1|||disease-causing variant cited
+P|G35|D12|sup|c|bg|sup:c:bg:V1|||disease-causing variant cited
+P|G36|D7|sup|a|bg|sup:a:bg:V5|||Table 2 row group by associated disorder
+P|G41|D7|sup|a|bg|sup:a:bg:V5|||Table 2 row group by associated disorder
+P|G42|D7|sup|a|bg|sup:a:bg:V5|||Table 2 row group by associated disorder
+P|G43|D7|sup|a|bg|sup:a:bg:V5|||Table 2 row group by associated disorder
+P|G37|D22|sup|a|bg|sup:a:bg:V7|||Table 2 row group by associated disorder
+P|G39|D22|sup|a|bg|sup:a:bg:V7|||Table 2 row group by associated disorder
+P|G38|D8|sup|a|bg|sup:a:bg:V4|||Table 2 row group by associated disorder
+P|G40|D20|sup|a|bg|sup:a:bg:V3|||Table 2 row group by associated disorder
+P|G44|D21|sup|a|bg|sup:a:bg:V6|||Table 2 row group by associated disorder
+P|G45|D23|sup|a|bg|sup:a:bg:V8|||stated association (OMIM)
+P|G46|D24|sup|a|bg|sup:a:bg:V8|||stated association (OMIM)
+P|G47|D29|sup|a|bg|sup:a:bg:V22|||variant associated; found in MDC1A patients
+P|G50|D18|sup|a|both|sup:a:bg:V16;sup:a:ts:V27|||variant associated; carrier with validated CAD
+P|G50|D19|sup|a|bg|sup:a:bg:V16|||variant associated with CAD/myocardial infarction
+P|G51|D27|sup|c|bg|sup:c:bg:V20|||disease-causing GAA variant; enzyme deficiency
+P|G53|D18|sup|a|bg|sup:a:bg:V17|||ClinVar single-submitter association
+P|G53|D38|sup|a|bg|sup:a:bg:V17|||ClinVar single-submitter association
+P|G60|D28|sup|a|bg|sup:a:bg:V21|||variant associated with GM1-gangliosidosis
+P|G61|D30|sup|a|bg|sup:a:bg:V23|||variant associated with disease
+P|G62|D31|sup|a|bg|sup:a:bg:V24|||table phenotype and text attribution
+P|G62|D32|sup|a|bg|sup:a:bg:V24|||most prevalent SURF1 allele in patients
+P|G63|D33|sup|a|bg|sup:a:bg:V25|||variants associated with Alstrom syndrome
+P|G64|D31|sup|a|bg|sup:a:bg:V26|||variant associated with cardioencephalomyopathy
+P|G66|D34|sup|a|ts|sup:a:ts:V28|||carrier with confirmed hypertriglyceridemia
+P|G67|D35|sup|a|ts|sup:a:ts:V29|||carrier with cerebral infarction endpoint
+P|G68|D8|unc|-|both|unc:a:both:V35|hedged_claim||single case; VUS; authors only suggest pathogenicity
+F|F1|group_comparison|novel vs known variant counts per gene|MIB1, PHKA1, LAMA2|mixed|positive|available|V37|LAMA2 P=0.002 fails correction
+F|F2|group_comparison|KP allele frequency vs gnomAD NFE|KP variants with 3+ carriers|significant|positive|partial|V38|P-values in unread Supplementary Table 4
+F|F3|group_comparison|GAA rs375470378 frequency Ivanovo vs Estonia|Ivanovo vs Estonian population|significant|positive|available|V39|marginal, small samples
+F|F4|descriptive|phenotype confirmation rate in variant carriers|ACMG59 and non-ACMG carriers|not_applicable|not_applicable|partial|V40|limited clinical data
+C|C1|count of overrepresented recessive KP variants|b0002.s5+b0109.s3+b0125.s1+b0155.s3|noncritical|unresolved|abstract seven vs text/table eight
+C|C2|GLB1 rs376663785 carrier count|b0115.s1+b0128.s3|noncritical|unresolved|table four carriers vs three copies
+C|C3|KCNQ1 Thr96Arg pathogenicity|b0074.s1+b0123.s1+b0123.s4|noncritical|unresolved|ClinVar LP vs VarSome VUS
+U|Supplementary Table 1|b0016.s7|not provided
+U|Supplementary Table 3|b0093.s1|not provided
+U|Supplementary Table 4|b0109.s5|not provided
+U|Supplementary Methods|b0010.s3|not provided
+R|row-group co-reference|b0058.s1|Table row group disease labels are specific disorders, not categories|Collected as diseases; used as background gene attribution
+R|merging|b0128.s4|Text equates cardioencephalomyopathy with mitochondrial complex IV deficiency; may be broader|Merged per explicit synonym, marked provisional

@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SLC6A4|SLC6A4;serotonin transporter|r||human||
+E|D1|disease|Parkinson's disease|Parkinson's disease;PD|r||||
+E|D2|disease|sporadic Parkinson's disease|sporadic Parkinson's disease|r|||D1|
+E|S1|symptom|muscular rigidity|muscular rigidity|r||||
+E|S2|symptom|resting tremor|resting tremor|r||||
+E|S3|symptom|bradykinesia|bradykinesia|r||||
+X|5-HTTLPR|b0002|variant/polymorphic element identifier, not separate gene
+X|rs25531|b0002|variant ID
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0001.s1|ts|res|aff|rr,eda
+EV|V3|b0002.s6|ts|neg|neg|rr,cmp
+EV|V4|b0002.s7|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V4|||5-HTTLPR S/S genotype associated with PD risk
+P|G1|D2|sup|a|ts|sup:a:ts:V2|||Title reports 5-HTTLPR increases sporadic PD risk
+F|F1|association|5-HTTLPR S/S genotype vs PD risk|393 PD vs 444 controls, Italy|significant|positive|available|V1|abstract only
+F|F2|association|rs25531 and 5-HTTLPR/rs25531 haplotype vs PD|393 PD vs 444 controls, Italy|not_significant|null|not_reported|V3|variant-level, not gene-level negative

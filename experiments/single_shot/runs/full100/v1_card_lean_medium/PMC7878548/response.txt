@@ -1,0 +1,59 @@
+META|Opus 5.5|seen: no
+SCOPE|Full case report text; supplementary figures and table unread
+E|G1|gene|EGFR|EGFR|r||human||
+E|G2|gene|ALK|ALK|r||human||
+E|G3|gene|CTLA4|cytotoxic T-lymphocyte-associated antigen 4;CTLA-4|r||human||
+E|G4|gene|PDCD1|programmed cell death protein 1;PD-1|r||human||
+E|G5|gene|CD274|PD-L1|r||human||
+E|D1|disease|large-cell neuroendocrine carcinoma of lung|Large-Cell Neuroendocrine Carcinoma of Lung;lung large-cell neuroendocrine carcinoma;Large-cell neuroendocrine carcinomas;LCNECs;LCNEC;lung LCNEC|r||||
+E|D2|disease|lung cancer|lung cancers|r||||
+E|D3|disease|high-grade neuroendocrine carcinoma|high-grade neuroendocrine carcinoma|r||||
+E|D4|disease|small-cell lung carcinoma|small-cell lung carcinoma;SCLC|r||||
+E|D5|disease|non-small-cell lung carcinoma|non-small-cell lung carcinoma;NSCLC|r||||
+E|D6|disease|neuroendocrine tumor|neuroendocrine tumor|r||||
+E|D7|disease|myocarditis|myocarditis|r||||
+E|D8|disease|fulminant myocarditis|fulminant myocarditis|r|||D7|
+E|D9|disease|immune-related myocarditis|immune-related myocarditis|r|||D7|
+E|D10|disease|myasthenia gravis crisis|myasthenia gravis crisis|r||||
+E|D11|disease|hepatic dysfunction|hepatic dysfunction|r||||
+E|D12|disease|pneumonitis|pneumonitis;Pneumonitis|r||||
+E|D13|disease|delayed pneumonitis|delayed pneumonitis;Delayed pneumonitis|r|||D12|
+E|D14|disease|immune-related pneumonitis|immune-related pneumonitis|r|||D12|
+E|D15|disease|pembrolizumab-induced pneumonitis|pembrolizumab-induced pneumonitis|r|||D12|
+E|D16|disease|pneumonia|pneumonia|r||||
+E|D17|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|D18|disease|bone metastasis|bone metastasis|r||||
+E|D19|disease|metastatic prostate cancer|metastatic prostate cancer|r||||
+E|D20|disease|metastatic melanoma|metastatic melanoma|r||||
+E|D21|disease|myositis|myositis|r||||
+E|D22|disease|drug-induced myopathy|drug-induced myopathy|r||||
+E|D23|disease|heart failure|heart failure|r||||
+E|D24|ambiguous_disease|myocardial infraction|myocardial infraction|u|suspected_typo||||
+E|D25|disease|malignancies|malignancies|r||||
+E|CE1|clinical_event|immune-related adverse events|immune-related adverse events;irAEs;irAE|r||||
+E|CE2|clinical_event|multiorgan failure|multiorgan failure;Multiorgan Failure|r||||
+E|CE3|clinical_event|heterochronous irAE|heterochronous irAE|r|||CE1|
+E|S1|phenotype|complete left bundle branch block|complete left bundle branch block|r||||
+E|S2|phenotype|complete left heart block|complete left heart block|r||||
+E|S3|symptom|ptosis|ptosis|r||||
+E|S4|phenotype|arrhythmias|arrhythmias|r||||
+X|T cell receptor (TCR)|b0016|receptor complex, not single gene
+X|creatine phosphokinase (CK)|b0007|lab marker, not gene endpoint
+X|creatine kinase MB isoenzyme (CK-MB)|b0007|lab marker, not gene endpoint
+X|brain natriuretic peptide (BNP)|b0007|lab marker, not gene endpoint
+X|troponin I|b0007|lab marker, not gene endpoint
+X|myohemoglobin|b0007|lab marker, not gene endpoint
+X|aspartate aminotransferase (AST)|b0007|lab marker, not gene endpoint
+X|alanine aminotransferase (ALT)|b0007|lab marker, not gene endpoint
+EV|V1|b0007.s3|ts|co|na|do
+EV|V2|b0017.s11|bg|bgr|na|do
+EV|V3|b0004.s6|bg|bgr|na|do
+P|G1|D1|nf|-||||V1|Negative mutation test in patient; descriptive only
+P|G2|D1|nf|-||||V1|Fusion not detected; descriptive only
+P|G4|D12|nf|-||||V2|Drug-target adverse event, not gene relation
+P|G5|D12|nf|-||||V2|Drug-target adverse event, not gene relation
+P|G3|D6|nf|-||||V3|Therapeutic target only
+F|F1|descriptive|EGFR mutation, ALK fusion|single LCNEC patient|not_applicable|null|not_applicable|V1|single case
+U|Supplementary Figure S1|b0007.s8|online attachment not provided
+U|Supplementary Figure S2|b0016.s7;b0016.s9|online attachment not provided
+U|Supplementary Table S1|b0010.s8|online attachment not provided

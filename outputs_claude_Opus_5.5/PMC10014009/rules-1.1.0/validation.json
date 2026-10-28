@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "1. 355 mention offsets slice to their surface; all evidence quotes found in their block and in the source XML.",
+    "2. Pair set equals the 8 x 21 product exactly once (168 pairs).",
+    "3. supported/explicit_negative carry claims with evidence; uncertain carries unresolved_reason; relation_type/source_scope follow the highest-level claim (R3).",
+    "4. GraphML nodes = 29 primary entities (isolated kept, auxiliary excluded); edges = 11 supported pairs.",
+    "5. pairs.csv, edges.csv, result.json and graph.graphml counts agree."
+  ],
+  "not_checked": [
+    "Biological correctness of any judgment",
+    "Entities only present in unread supplements or figure pixels",
+    "Recall of entity names beyond the pattern list and manual reading"
+  ]
+}

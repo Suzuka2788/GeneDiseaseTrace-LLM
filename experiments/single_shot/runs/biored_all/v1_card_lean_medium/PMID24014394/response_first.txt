@@ -1,0 +1,22 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|LYRM7|LYRM7;MZM1L|r||human||
+E|G2|gene|MZM1|MZM1;mzm1|p|species_unresolved|non-human||
+E|G3|gene|Rieske Fe-S protein|Rieske Fe-S protein|p|species_unresolved,ambiguous_mapping|non-human||
+E|D1|disease|encephalopathy|encephalopathy|r||||
+E|D2|disease|mitochondrial encephalopathy|mitochondrial encephalopathy|r||||D1|
+E|D3|disease|lactic acidosis|lactic acidosis|r||||
+E|D4|disease|complex III deficiency|cIII deficiency;cIII-defective|r||||
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s3|ts|res|aff|cs,rr
+EV|V3|b0002.s4|ts|res|aff|mi
+EV|V4|b0002.s5|ts|res|aff|eda
+EV|V5|b0002.s2|bg|bgr|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||Segregating homozygous mutation in encephalopathy patient
+P|G1|D3|sup|a|ts|sup:a:ts:V1+V2|||Title reports association with lactic acidosis
+P|G1|D4|sup|c|ts|sup:c:ts:V3+V4;sup:a:ts:V1+V2|||Yeast model reproduces cIII defect; explicit attribution
+P|G1|D2|sup|a|ts|sup:a:ts:V4|||Authors attribute disease to gene; single family
+P|G2|D4|nf|-|||||V3|Yeast cellular phenotype only, no disease link
+F|F1|descriptive|LYRM7 c.73G>A homozygous; segregation|one infant patient and family|not_applicable|not_applicable|not_reported|V2|single family
+F|F2|mechanism|mzm1(D25N) allele; respiration, cIII activity|mzm1D yeast strain|unknown|negative|not_reported|V3|yeast model, abstract only
+R|case-report attribution vs causal|b0002.s5|"Causing" stated for one family; card says not automatically causal|Mitochondrial encephalopathy kept as association; cIII causal via model

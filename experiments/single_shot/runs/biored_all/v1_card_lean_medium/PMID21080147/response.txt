@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CRELD1|CRELD1|r||human||
+E|D1|disease|atrioventricular septal defect|atrioventricular septal defect;Atrioventricular septal defects;AVSDs;AVSD|r||||
+E|D2|disease|partial AVSD|partial AVSD|r|||D1|
+E|D3|disease|Down syndrome|Down syndrome|r||||
+E|D4|disease|heart defect|heart defect|r||||
+X|calcium-binding EGF domain|b0002|protein domain, not a gene
+EV|V1|b0002.s3|bg|hyp|hyp|ho
+EV|V2|b0002.s1+b0002.s12|ts|co|na|do
+EV|V3|b0002.s13|ts|int|hyp|ho
+EV|V4|b0002.s8+b0002.s9|ts|co|na|do
+EV|V5|b0002.s10+b0002.s11|ts|co|na|do
+P|G1|D1|unc|-|ts|unc:-:bg:V1;unc:-:ts:V3|hedged_claim|V2|Candidate gene; susceptibility only hedged as likely
+P|G1|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Risk increase stated only as possibility
+P|G1|D2|nf|-|||||V4+V5|Mutations detected in cases; no attribution
+P|G1|D3|nf|-|||||V5|Comorbidity only
+F|F1|descriptive|CRELD1 mutations; AVSD|133 AVSD patients, 200 controls|not_applicable|not_applicable|not_reported|V2+V4+V5|abstract only; control comparison unreported

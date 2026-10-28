@@ -1,0 +1,34 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|TBX21|TBX21;T cell specific T-box transcription factor|r||human||
+E|G2|gene|HLX1|HLX1;H.20-like homeobox 1|r||human||
+E|G3|gene|IL-5|IL-5|r||human||
+E|G4|gene|IL-13|IL-13|r||human||
+E|G5|gene|TNF-a|TNF-a|r||human||
+E|G6|gene|GM-CSF|GM-CSF|r||human||
+E|G7|gene|IFN-g|IFN-g|r||human||
+E|G8|gene|IL-6|IL-6|r||human||
+E|G9|gene|Der p 1|Dermatophagoides pteronyssinus 1;Derp1|p|species_unresolved|non-human||
+E|D1|disease|asthma|asthma|r||||
+E|D2|disease|childhood asthma|childhood asthma|r|||D1|
+E|D3|disease|atopic dermatitis|atopic dermatitis|r||||
+E|D4|disease|atopic diseases|Atopic diseases|r||||
+E|D5|disease|immune-mediated diseases|immune-mediated diseases|r||||
+X|T(H)1/T(H)2-related genes|b0002|gene set, not single gene
+X|Lipid A|b0002|stimulus compound, not gene
+X|Peptidoglycan|b0002|stimulus compound, not gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s12|ts|res|aff|rr,cmp
+EV|V3|b0002.s14|ts|aim|na|none
+EV|V4|b0002.s7+b0002.s8+b0002.s9+b0002.s10|ts|res|aff|rr,cmp
+EV|V5|b0002.s11|ts|neg|neg|rr,cmp
+EV|V6|b0002.s13|ts|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||SNPs previously shown associated with asthma
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||SNPs previously shown associated with asthma
+P|G1|D3|sup|a|ts|sup:a:ts:V2|||rs11079788 carriers fewer AD symptoms, p=0.03
+P|G1|D2|nf|-|||||V3|future follow-up aim only
+P|G2|D2|nf|-|||||V3|future follow-up aim only
+F|F1|association|TBX21/HLX1 SNPs vs cord blood cytokines|200 neonates CBMCs|mixed|mixed|partial|V4|many trend-level p values
+F|F2|association|TBX21 rs11079788 vs cytokine secretion|200 neonates CBMCs|not_significant|null|not_reported|V5|
+F|F3|group_comparison|TBX21 rs11079788 vs atopic dermatitis symptoms|children at 3 years|significant|negative|partial|V2|questionnaire-based outcome
+F|F4|hypothesis|TBX21/HLX1 variants and TH2 responses|neonates|not_applicable|unknown|not_applicable|V6|

@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|OGT|N-acetylglucosamine (O-GlcNAc) transferase;N-Acetylglucosamine (O-GlcNAc) transferase;OGT|r||human||
+E|G2|gene|O-GlcNAcase|O-GlcNAcase|p|other|human||
+E|G3|gene|host cell factor 1|host cell factor 1|r||human||
+E|D1|disease|X-linked intellectual disability|X-linked intellectual disability;XLID|r||||
+E|D2|disease|neurodegeneration|neurodegeneration|r||||
+E|S1|phenotype|developmental defects|developmental defects|r||||
+E|S2|phenotype|dysmorphic features|dysmorphic features|r||||
+X|O-GlcNAcylation|b0002|modification process, not a gene
+EV|V1|b0001.s1+b0002.s5|ts|res|aff|rr,eda
+EV|V2|b0002.s11|ts|int|hyp|ho
+EV|V3|b0002.s10|bg|bgr|aff|ebr
+EV|V4|b0002.s3|bg|bgr|aff|ebr
+EV|V5|b0002.s7+b0002.s8|ts|res|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V2||V2|hemizygous OGT mutations reported in XLID patients
+P|G3|D1|sup|a|bg|sup:a:bg:V3|||HCFC1 described as XLID-associated gene
+P|G1|D2|nf|-||||V4|O-GlcNAc levels, not OGT gene, linked
+P|G2|D1|nf|-||||V5|reduced expression in patient cells only
+F|F1|descriptive|OGT and O-GlcNAcase protein levels|patient-derived fibroblasts|unknown|negative|not_reported|V5|global O-GlcNAc unaffected
+F|F2|mechanism|c.463-6T>G splicing; no truncated protein|patient-derived fibroblasts|not_applicable|not_applicable|not_reported|V1|
+F|F3|mechanism|p.Arg284Pro stability and glycosylation activity|recombinant OGT|unknown|negative|not_reported|V3|includes HCF1 proteolysis

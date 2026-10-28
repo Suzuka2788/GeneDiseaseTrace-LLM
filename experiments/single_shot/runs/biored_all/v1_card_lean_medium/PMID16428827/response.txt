@@ -1,0 +1,18 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|choline acetyltransferase|choline acetyltransferase;ChAT|p|species_unresolved|||
+E|D1|disease|Alzheimer's disease|Alzheimer's disease;AD|r||||
+E|D2|disease|scopolamine-induced amnesia|scopolamine-induced amnesia|r||||
+E|D3|disease|drug-induced amnesia|drug-induced amnesia|p|other|||
+E|S1|phenotype|impairments of learning and memory|impairments of learning and memory|r||||
+X|MC-IXC|b0001|cell line, not gene
+X|acetylcholine|b0002|metabolite, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s7|ts|res|na|rr,cmp
+EV|V3|b0002.s8|ts|int|hyp|ho
+EV|V4|b0001.s1|ts|res|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V1|ChAT activation stated as important for AD treatment
+P|G1|D2|unc|-|ts|unc:-:ts:V3|hedged_claim|V2|ChAT role in amnesia rescue only hedged
+P|G1|D3|nf|-||||V4|title co-occurrence only; compound effect
+F|F1|group_comparison|daidzein vs scopolamine Y-maze alternation|mice with scopolamine-induced amnesia|significant|positive|partial|V2|compound effect, ChAT not tested
+R|disease identity|b0001.s1|Title "drug-induced amnesia" may co-refer to scopolamine-induced amnesia|Kept separate; no explicit co-reference statement

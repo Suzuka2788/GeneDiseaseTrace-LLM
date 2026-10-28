@@ -1,0 +1,9 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|human mu opiate receptor|Human mu opiate receptor;human mu opiate receptor;h mu OR1;mu OR1|r|||human||
+E|G2|gene|rat mu opiate receptor|rat mu opiate receptor|r|||non-human||
+E|D1|disease|neuropsychiatric disorders|neuropsychiatric disorders|r|||||
+X|MspI|b0002|restriction enzyme defining polymorphism, not gene
+EV|V1|b0002.s7|ts|aim|q|ho
+P|G1|D1|nf|-|||||V1|future utility proposed; no association tested
+F|F1|descriptive|h mu OR1 chromosomal localization|human rodent hybrid cell lines|not_applicable|not_applicable|not_applicable||localization 6q24-25, no disease link

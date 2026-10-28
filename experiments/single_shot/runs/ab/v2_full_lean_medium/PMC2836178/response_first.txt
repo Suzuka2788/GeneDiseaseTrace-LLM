@@ -1,0 +1,91 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text and figure captions; no figure images or references
+E|G1|gene|ZO-1|ZO-1;zonula occludens-1|r|||||
+E|G2|gene|ZO-2|ZO-2|r|||||
+E|G3|gene|ZO-3|ZO-3|r|||||
+E|G4|gene|dlg|dlg;lethal(1)discs-large;Discs-large;DlgA;dlgA;Dlg|p|ambiguous_mapping|non-human||
+E|G5|gene|Dlg1|Dlg1|r|||||
+E|G6|gene|PSD95|PSD95;SAP90;PSD-95|r|||||
+E|G7|gene|occludin|occludin|r|||||
+E|G8|gene|claudins|claudins;claudin|p|other||||
+E|G9|gene|JAM|JAM;JAMs;Junctional adhesion molecule;Junction adhesion molecule|p|other||||
+E|G10|gene|tricellulin|tricellulin|r|||||
+E|G11|gene|CAR|CAR;coxsackievirus and adenovirus receptor|r|||||
+E|G12|gene|alpha-catenin|alpha-catenin|r|||||
+E|G13|gene|p120 catenin|p120 catenin|r|||||
+E|G14|gene|AF-6/afadin|AF-6;AF6;afadin;ALL-1 fusion partner at chromosome 6|r|||||
+E|G15|gene|MAP1A|MAP1A|r|||||
+E|G16|gene|BEGAIN|BEGAIN|r|||||
+E|G17|gene|GAKIN|GAKIN|r|||||
+E|G18|gene|cortactin|cortactin|r|||||
+E|G19|gene|protein 4.1R|protein 4.1R|r|||||
+E|G20|gene|cingulin|cingulin|r|||||
+E|G21|gene|Shroom|Shroom|p|other||||
+E|G22|gene|ZAK|ZAK;ZO-1 associated kinase-1;ZO-1 associated kinase|r|||||
+E|G23|gene|Gα12|Gα12;Ga12|r|||||
+E|G24|gene|PATJ|PATJ;protein associated with tight junctions;Protein associated with tight junctions|r|||||
+E|G25|gene|human Scribble|Scribble;hScrib|r||human||
+E|G26|gene|Drosophila Scribble|Scribble|r||non-human||
+E|G27|gene|E-cadherin|E-cadherin|r|||||
+E|G28|gene|SAF-B|SAF-B;HET;scaffold attachment factor-B;Scaffold attachment factor-B|r|||||
+E|G29|gene|estrogen receptor alpha|estrogen receptor alpha|r|||||
+E|G30|gene|hsp27|hsp27;small heat shock protein 27|r|||||
+E|G31|gene|cyclin D1|cyclin D1;CD1;CD-1|r|||||
+E|G32|gene|Myc|Myc|r|||||
+E|G33|gene|ZONAB|ZONAB;DbpA;Msy3;ZO-1 associated nucleic acid binding protein|r|||||
+E|G34|gene|PCNA|PCNA;proliferating cell nuclear antigen|r|||||
+E|G35|gene|Cdk4|Cdk4;Cdk-4;cyclin-dependent kinase-4;Cyclin-dependent kinase-4|r|||||
+E|G36|gene|Apg-2|Apg-2|r|||||
+E|G37|gene|symplekin|symplekin|r|||||
+E|G38|gene|Jun|Jun|r|||||
+E|G39|gene|Fos|Fos|r|||||
+E|G40|gene|C/EBP|C/EBP|p|other||||
+E|G41|gene|ARVCF|ARVCF;Armadillo repeat gene deleted in velo-cardio-facial syndrome|r|||||
+E|G42|gene|Kaiso|Kaiso|r|||||
+E|G43|gene|M2PK|M2PK;pyruvate kinase M2|r|||||
+E|G44|gene|Oct-4|Oct-4|r|||||
+E|G45|gene|Ras|Ras|p|other||||
+E|G46|gene|Rap-1|Rap-1|r|||||
+E|G47|gene|Tamou/Polychaetoid|Tamou;Polychaetoid|r||non-human||
+E|G48|gene|emc|emc;extramacrochaetae|r||non-human||
+E|G49|gene|SC-35|SC-35;SC35|r|||||
+E|G50|gene|laminB1|laminB1|r|||||
+E|G51|gene|connexins|connexins;Connexin|p|other||||
+E|G52|gene|nectin|nectin|p|other||||
+E|G53|gene|c-Crk|c-Crk|r|||||
+E|D1|disease|breast cancer|breast cancer;breast carcinoma|r|||D2|
+E|D2|disease|carcinoma|carcinomas;carcinoma|r||||
+E|D3|disease|epithelial cancer|epithelial cancer;Epithelial cancers|r||||
+E|D4|disease|velo-cardio-facial syndrome|velo-cardio-facial syndrome|r||||
+E|D5|disease|estrogen-dependent mammary tumors (animal)|mammary tumors|r||||
+E|D6|disease|virus-induced cancer|virus-induced cancer|r||||
+E|S1|phenotype|tumorous overgrowth of imaginal discs (Drosophila)|tumorous overgrowth|r||||
+E|S2|phenotype|reduced fertility (chimeric mice)|reduced fertility|r||||
+X|MAGUK|b0011|protein family label, not single gene
+X|AP-1|b0048|transcription factor complex, members Jun/Fos recorded
+X|HPV E6|b0056|viral protein, not human gene
+X|ZU5|b0060|protein domain name
+EV|V1|b0043.s7|bg|bgr|aff|ebr
+EV|V2|b0043.s6|bg|bgr|aff|ebr
+EV|V3|b0054.s1|bg|bgr|aff|ebr
+EV|V4|b0055.s1|bg|bgr|aff|ebr
+EV|V5|b0053.s2+b0058.s1|bg|hyp|hyp|ho
+EV|V6|b0049.s1|bg|bgr|pre|do
+EV|V7|b0056.s4+b0056.s5|bg|co|na|do
+EV|V8|b0058.s6|bg|aim|q|none
+EV|V9|b0050.s3|bg|co|na|do
+P|G30|D1|sup|a|bg|sup:a:bg:V1||V2|hsp27 bad prognostic marker in breast cancer
+P|G28|D1|nf|-|bg|||V2|correlation with cell proliferation, not disease
+P|G1|D2|unc|-|bg|unc:a:bg:V3|scope||ZO group down-regulation; member distribution unclear
+P|G2|D2|unc|-|bg|unc:a:bg:V3|scope||ZO group down-regulation; member distribution unclear
+P|G3|D2|unc|-|bg|unc:a:bg:V3|scope||ZO group down-regulation; member distribution unclear
+P|G1|D3|unc|-|bg|unc:a:bg:V5|hedged_claim,scope||only homology-based undefined role suggested
+P|G2|D3|unc|-|bg|unc:a:bg:V5|hedged_claim,scope||only homology-based undefined role suggested
+P|G3|D3|unc|-|bg|unc:a:bg:V5|hedged_claim,scope||only homology-based undefined role suggested
+P|G45|D3|sup|a|bg|sup:a:bg:V4|||epithelial cancers related to Ras mutations
+P|G41|D4|unc|-|bg|unc:a:bg:V6|presupposed_only||relation only implied by gene name
+P|G2|D5|nf|-|bg|||V7|viral interaction only; no tumor attribution to ZO-2
+P|G2|D6|nf|-|bg|||V8|future research aim only
+P|G43|D2|nf|-|bg|||V9|expression in carcinoma cells only
+R|R4|b0049.s1|Relation embedded only in gene full name, not a sentence-level presupposition|Treated as presupposed_only; pair uncertain, no edge
+R|R13|b0054.s1|Group term "ZO proteins" with "delocalized or down-regulated"; no per-member assignment|Assigned to each member as uncertain/scope, no edges

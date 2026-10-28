@@ -1,0 +1,30 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; mouse in vitro and in vivo study
+E|G1|gene|NP1|neuronal pentraxin 1;NP1|r||non-human||
+E|G2|gene|PTEN|PTEN|r||non-human||
+E|G3|gene|Akt|Akt|r||non-human||
+E|G4|gene|GSK-3b|GSK-3b|r||non-human||
+E|G5|gene|Bad|Bad|r||non-human||
+E|G6|gene|Bax|Bax|r||non-human||
+E|G7|gene|Cyt C|Cyt C;cytochrome C|r||non-human||
+E|G8|gene|caspase-3|caspase-3|r||non-human||
+E|D1|disease|hypoxic-ischemic injury|hypoxic-ischemic;HI|r||||
+E|D2|disease|hypoxic-ischemic neuronal injury|hypoxic-ischemic neuronal injury;HI neuronal injury|r|||D1|
+E|D3|disease|HI brain injury|HI brain injury|r|||D1|
+E|S1|phenotype|neurological disabilities|neurological disabilities|r||||
+E|S2|phenotype|neuronal death|neuronal death|r||||
+X|long-pentraxin family|b0002|gene family, not single gene
+X|oxygen glucose deprivation|b0002|in vitro experimental condition, not disease
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0001.s1+b0002.s11|ts|res|aff|mi,rr
+EV|V4|b0002.s13|ts|hyp|hyp|ho
+EV|V5|b0002.s6+b0002.s7+b0002.s8|ts|res|na|rr
+EV|V6|b0002.s9+b0002.s12|ts|int|na|rr
+P|G1|D2|sup|a|bg|sup:a:bg:V1;unc:-:ts:V3|scope|V6|Prior report of NP1 induction after HI injury
+P|G1|D3|sup|a|ts|sup:a:ts:V2;unc:-:ts:V4|hedged_claim||NP1 induced in ipsilateral hippocampus post-HI
+F|F1|group_comparison|NP1 expression; ipsilateral vs contralateral|neonatal mouse HI model; OGD neurons|unknown|positive|not_reported|V2|abstract only
+F|F2|group_comparison|NP1-KO vs WT; neuronal death after OGD|primary hippocampal neurons|significant|negative|not_reported|V3|in vitro cell model only
+F|F3|mechanism|PTEN, Akt, GSK-3b, Bad, Bax, Cyt C, caspase-3|OGD-exposed hippocampal neurons|unknown|mixed|not_reported|V5|
+F|F4|mechanism|NP1 interaction with Bad and Bax|OGD-exposed hippocampal neurons|unknown|positive|not_reported|V6|
+R|in vitro model causality|b0002.s11|OGD knockout effect is cellular; unclear if it links to disease|NP1-HI neuronal injury causal claim set uncertain (scope)

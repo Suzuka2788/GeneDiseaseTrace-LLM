@@ -1,0 +1,66 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text and captions read; supplementary files unread; no disease endpoints
+E|G1|gene|oma-1|oma-1;OMA-1|r||non-human||
+E|G2|gene|oma-2|oma-2;OMA-2|r||non-human||
+E|G3|gene|mbk-2|MBK-2|r||non-human||
+E|G4|gene|zif-1|zif-1;ZIF-1|r||non-human||
+E|G5|gene|nos-2|nos-2|r||non-human||
+E|G6|gene|pie-1|PIE-1|r||non-human||
+E|G7|gene|mex-1|MEX-1|r||non-human||
+E|G8|gene|mex-3|MEX-3|r||non-human||
+E|G9|gene|mex-5|MEX-5|r||non-human||
+E|G10|gene|pos-1|pos-1;POS-1|r||non-human||
+E|G11|gene|taf-4|TAF-4|r||non-human||
+E|G12|gene|meg-1|meg-1;MEG-1|r||non-human||
+E|G13|gene|meg-2|meg-2|r||non-human||
+E|G14|gene|skn-1|skn-1|r||non-human||
+E|G15|gene|mat-1|mat-1;MAT-1|r||non-human||
+E|G16|gene|mat-2|mat-2;MAT-2|r||non-human||
+E|G17|gene|mat-3|mat-3;MAT-3;MAT3|p|suspected_typo|non-human||
+E|G18|gene|emb-30|emb-30;EMB-30|r||non-human||
+E|G19|gene|fzy-1|fzy-1;FZY-1|r||non-human||
+E|G20|gene|fzr-1|fzr-1;FZR-1|r||non-human||
+E|G21|gene|such-1|such-1;SUCH-1|r||non-human||
+E|G22|gene|emb-27|emb-27;EMB-27|r||non-human||
+E|G23|gene|cdc-26|cdc-26;CDC-26|r||non-human||
+E|G24|gene|apc-2|apc-2;APC-2|r||non-human||
+E|G25|gene|apc-10|apc-10;APC-10|r||non-human||
+E|G26|gene|apc-11|apc-11;APC-11|r||non-human||
+E|G27|gene|pgl-1|PGL-1|r||non-human||
+E|G28|gene|ify-1|ify-1|r||non-human||
+E|G29|gene|unc-22|unc-22|r||non-human||
+E|G30|gene|rol-6|rol-6|r||non-human||
+E|G31|gene|Cdc20|Cdc20|p|species_unresolved||||
+E|G32|gene|Cdh1|Cdh1|p|species_unresolved||||
+E|G33|gene|Apc1|Apc1|p|species_unresolved||||
+E|G34|gene|Apc2|Apc2|p|species_unresolved||||
+E|G35|gene|Apc3|Apc3|p|species_unresolved||||
+E|G36|gene|Apc4|Apc4|p|species_unresolved||||
+E|G37|gene|Apc5|Apc5|p|species_unresolved||||
+E|G38|gene|Apc6|Apc6|p|species_unresolved||||
+E|G39|gene|Apc8|Apc8|p|species_unresolved||||
+E|G40|gene|Apc10|Apc10|p|species_unresolved||||
+E|G41|gene|Apc11|Apc11;Apc-11|p|species_unresolved,suspected_typo||||
+E|G42|gene|Cdc26|Cdc26|p|species_unresolved||||
+E|G43|gene|securin|securin|p|species_unresolved||||
+E|G44|gene|separase|separase|p|species_unresolved||||
+E|G45|gene|cyclin B|cyclin B|p|species_unresolved,ambiguous_mapping||||
+E|S1|phenotype|embryonic lethality|embryonic lethality|r|||||
+X|APC/C|b0002.s7|complex, not a single gene
+X|EMS|b0013.s1|blastomere name and mutagen, not a gene
+X|TFIID|b0007.s15|complex, not a single gene
+X|zu405|b0002.s5|allele identifier
+EV|V1|b0002.s7+b0018.s6+b0018.s7|ts|res|aff|rr,mi
+EV|V2|b0021.s3+b0021.s9|ts|res|aff|rr,cmp
+EV|V3|b0023.s6+b0023.s7+b0023.s9|ts|res|aff|rr,cmp
+EV|V4|b0030.s3+b0030.s6+b0031.s5|ts|res|aff|rr,cmp
+EV|V5|b0034.s7+b0034.s8|ts|res|aff|rr,cmp
+EV|V6|b0037.s6+b0039.s4+b0040.s3|ts|res|aff|rr,cmp
+F|F1|other|APC/C alleles vs oma-1(zu405) lethality|C. elegans oma-1(zu405) strains|significant|positive|partial|V1|worm phenotype, not disease
+F|F2|group_comparison|RNAi of APC/C genes vs brood size|oma-1(zu405) worms|mixed|mixed|partial|V2|RNAi efficiency uncertain
+F|F3|group_comparison|fzy-1D433N vs transcriptome DEGs|early embryos|significant|positive|partial|V3|
+F|F4|group_comparison|fzy-1D433N vs OMA-1 P granule localization|4-cell embryos|significant|negative|partial|V4|P240L colocalization not significant
+F|F5|descriptive|fzy-1D433N vs OMA-1P240L-bound mRNAs|whole young adults|unknown|positive|partial|V5|whole worms, not embryos
+F|F6|descriptive|APC/C mutants vs cell fate determinant distribution|oma-1(zu405) embryos|not_applicable|positive|not_reported|V6|imaging only
+C|C1|allele name zu450 vs zu405|b0027.s1+b0013.s2|noncritical|resolved|heading typo for zu405
+R|primary endpoints|whole paper|Only worm phenotypes; no disease or clinical event present|No gene-disease pairs; all pairs not_found

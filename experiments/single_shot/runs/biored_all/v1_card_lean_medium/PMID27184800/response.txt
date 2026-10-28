@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|metallothionein-1|metallothionein-1;Metallothionein-1;MT1|p|ambiguous_mapping|human||
+E|G2|gene|MT1G|MT1G|r||human||
+E|G3|gene|NRF2|NRF2;Nuclear factor erythroid 2-Related Factor 2|r||human||
+E|G4|gene|luciferase|luciferase|p|species_unresolved|||
+E|D1|disease|hepatocellular carcinoma|hepatocellular carcinoma;HCC|r||||
+E|D2|disease|solid tumours|solid tumours|r||||
+E|D3|disease|cancer|cancer|p|other|||
+E|S1|phenotype|oxidative stress|oxidative stress|r||||
+X|ferroptosis|b0002|cell death form, not a disease
+X|Anti-oxidant Response Element|b0002|promoter element, not a gene
+X|Huh7|b0002|cell line identifier
+EV|V1|b0002.s9|ts|res|aff|rr
+EV|V2|b0002.s5+b0002.s6+b0002.s8|ts|res|na|do
+EV|V3|b0002.s7|ts|res|na|mi
+P|G1|D1|sup|r|ts|sup:r:ts:V1||V2|Serum MT1 rise linked to reduced survival in HCC
+P|G2|D1|nf|-|||||V2|Drug induction in HCC cells, not disease link
+P|G3|D1|nf|-|||||V3|NRF2 mediates drug response only
+F|F1|association|serum MT1 level vs overall survival|HCC patients receiving sorafenib|unknown|negative|not_reported|V1|abstract only; MT1 is family
+F|F2|mechanism|sorafenib vs MT1G mRNA induction|Huh7, cancer cells, HCC explants|unknown|positive|not_reported|V2|
+F|F3|mechanism|NRF2 requirement for MT1G promoter induction|cancer cell lines|unknown|positive|not_reported|V3|
+R|gene family as endpoint|b0002.s9|MT1 is a gene family measured as one serum protein|Kept MT1 as provisional gene entity, ambiguous_mapping

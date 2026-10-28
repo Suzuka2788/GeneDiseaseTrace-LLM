@@ -1,0 +1,44 @@
+META|Opus 5.5|seen: no
+SCOPE|Full case report text and figure captions; references removed
+E|G1|gene|PIK3CA|PIK3CA|r|||human||
+E|G2|gene|KRAS|KRAS|r|||human||
+E|G3|gene|TP53|TP53|r|||human||
+E|G4|gene|AKT1|AKT1|r|||human||
+E|G5|gene|BRAF|BRAF|r|||human||
+E|G6|gene|CDKN2A|CDKN2A|r|||human||
+E|G7|gene|CTNNB1|CTNNB1|r|||human||
+E|G8|gene|EGFR|EGFR|r|||human||
+E|G9|gene|HRAS|HRAS|r|||human||
+E|G10|gene|IDH1|IDH1|r|||human||
+E|G11|gene|IDH2|IDH2|r|||human||
+E|G12|gene|NRAS|NRAS|r|||human||
+E|G13|gene|CCND1|CCND1|r|||human||
+E|G14|gene|CDH1|CDH1|r|||human||
+E|G15|gene|ERBB2|ERBB2|r|||human||
+E|G16|gene|ESR1|ESR1|r|||human||
+E|G17|gene|FGFR1|FGFR1|r|||human||
+E|G18|gene|GATA3|GATA3|r|||human||
+E|G19|gene|HER2|HER2;human epidermal growth factor receptor 2|r|||human||
+E|D1|disease|breast cancer|breast cancer|r|||||
+E|D2|disease|hormone receptor-positive breast cancer|hormone receptor-positive breast cancer|r||||D1|
+E|D3|disease|triple-negative breast cancer|triple-negative breast cancer|r||||D1|
+E|D4|disease|cancer|cancer|r|||||
+E|CE1|clinical_event|relapse|relapse;recurrence|r|||||
+E|CE2|clinical_event|liver metastases|liver metastases;liver metastasis|r|||||
+E|S1|symptom|jaundice|jaundice|r|||||
+X|mTOR pathway|b0005|pathway, not single-gene endpoint
+X|CEA|b0008|tumor marker lab measure
+X|CA-153|b0008|tumor marker lab measure
+X|hormone receptor|b0002|receptor-status class, not single gene
+X|ER+|b0008|receptor status descriptor
+X|PR+|b0008|receptor status descriptor
+EV|V1|b0012.s3|bg|bgr|aff|ebr
+EV|V2|b0008.s8+b0008.s10|ts|int|q|do,unc
+EV|V3|b0002.s3|ts|co|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||cited TCGA variant frequency in breast cancer patients
+P|G1|CE1|unc|-||unc:-:ts:V2|scope,hedged_claim|V3|ctDNA detection preceded relapse; not gene-specific
+P|G2|CE1|unc|-||unc:-:ts:V2|scope,hedged_claim||ctDNA variants jointly indicated potential relapse
+P|G3|CE1|unc|-||unc:-:ts:V2|scope,hedged_claim||ctDNA variants jointly indicated potential relapse
+F|F1|descriptive|PIK3CA, KRAS, TP53 ctDNA variants|single breast cancer patient|not_applicable|not_applicable|not_applicable|V2|single case
+F|F2|descriptive|PIK3CA, TP53 mutant allele frequency rise|single patient, second sample|not_applicable|positive|not_applicable||single case
+F|F3|hypothesis|PIK3CA N345K and everolimus response|single breast cancer patient|not_applicable|positive|not_applicable||single case, hedged

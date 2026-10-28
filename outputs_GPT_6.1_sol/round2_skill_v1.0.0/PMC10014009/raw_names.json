@@ -1,0 +1,2097 @@
+[
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CCM",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "locations": [
+      "b0003",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0016",
+      "b0021",
+      "b0026",
+      "b0027",
+      "b0028",
+      "b0029",
+      "b0049",
+      "b0068",
+      "b0070",
+      "b0072",
+      "b0074",
+      "b0075",
+      "b0076",
+      "b0093",
+      "b0094",
+      "b0097",
+      "b0098",
+      "b0099",
+      "b0101",
+      "b0102",
+      "b0104"
+    ],
+    "mention_ids": [
+      "M0004",
+      "M0016",
+      "M0019",
+      "M0022",
+      "M0027",
+      "M0029",
+      "M0039",
+      "M0040",
+      "M0044",
+      "M0045",
+      "M0046",
+      "M0048",
+      "M0049",
+      "M0050",
+      "M0054",
+      "M0060",
+      "M0061",
+      "M0062",
+      "M0068",
+      "M0080",
+      "M0083",
+      "M0085",
+      "M0086",
+      "M0088",
+      "M0089",
+      "M0094",
+      "M0097",
+      "M0098",
+      "M0100",
+      "M0107",
+      "M0121",
+      "M0122",
+      "M0124",
+      "M0142",
+      "M0152",
+      "M0153",
+      "M0154",
+      "M0160",
+      "M0176",
+      "M0183",
+      "M0190",
+      "M0193",
+      "M0199",
+      "M0239",
+      "M0245",
+      "M0274",
+      "M0278",
+      "M0291",
+      "M0292",
+      "M0293",
+      "M0297",
+      "M0299",
+      "M0303",
+      "M0304",
+      "M0314",
+      "M0328",
+      "M0329",
+      "M0340",
+      "M0343"
+    ],
+    "context_examples": [
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      },
+      {
+        "location": "b0007",
+        "context": "Among the patients (n = 34) undergoing the FCCM gene test, twenty-seven patients had CCM confirmed by brain MRI, and twenty-one patients were considered to have FCCM (cohort 1). In cohort 1, thirteen patients had mutations in the FCCM gene, but eight did not. Cohort 2 comprised cohort 1 and four family members with the same mutation as the probands. Six novel variants in CCM genes were detected (KRIT1 c.22_26del, c.815dup, c.1094_1098del, c.1147-2A>G, c.2124dup, and PDCD10 c.150 + 1dup). Cohort 1 demonstrated that brainstem lesions were mostly associated with the mutation detection in CCM genes (brainstem, lateral temporal, and parietal lesions vs. lateral temporal and parietal lesions, AUC 0.928 vs. 0.779, P = 0.0389). The radiologic severity worsened according to age in the KRIT1 group compared with the Mutation not detected group (correlation coefficient 0.75 (P < 0.001) versus 0.53 (P = 0.004))."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CCMs",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "locations": [
+      "b0005",
+      "b0017",
+      "b0077",
+      "b0094"
+    ],
+    "mention_ids": [
+      "M0010",
+      "M0070",
+      "M0071",
+      "M0072",
+      "M0073",
+      "M0207",
+      "M0248",
+      "M0259"
+    ],
+    "context_examples": [
+      {
+        "location": "b0005",
+        "context": "This study investigated clinical FCCM patients with multiple lesions or a family history of CCMs who underwent the FCCM gene (KRTI1, CCM2, and PDCD10) panel test. The clinical, genetic, and radiologic features were analyzed."
+      },
+      {
+        "location": "b0017",
+        "context": "To evaluate the burden of CCMs, we did not use the total number of CCMs because the number of tiny lesions could be easily affected by image protocol and section. Instead, we counted the number of large CCMs (i.e., those ≥5 mm in diameter). Because of blooming artifacts in SWI and GRE, lesion size measurement was based on T2WI. We investigated the trajectory of the number of large CCMs, defined as larger than or equal to 5 mm, measured by T2WI, according to age. Two or more brain MRIs within six months were considered same-period imaging."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CMM",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "locations": [
+      "b0099"
+    ],
+    "mention_ids": [
+      "M0315"
+    ],
+    "context_examples": [
+      {
+        "location": "b0099",
+        "context": "Brainstem lesions were mostly associated with mutation detection in patients with multiple CCM lesions. In the comparison of the Mutation detected and the Mutation not detected groups, the locations specific to the Mutation detected group were obtained as the radiologic markers. Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18 Because sporadic and familial CCM have different pathophysiologies, the vulnerable sites or disease-specific lesion sites could differ. Radiologic markers could encourage physicians to proceed with genetic testing for FCCM patients. Genetic diagnosis of clinical FCCM patients induces cascade screening for family members, allowing early diagnosis of FCCM. As prevention and treatment methods improve, the importance of early diagnosis and screening for FCCM through genetic testing will increase. Currently, there are few therapeutic strategies for CCM. However, various preclinical studies for candidate therapeutics for CMM are ongoing. 2"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Cerebral cavernous malformation",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "locations": [
+      "b0011"
+    ],
+    "mention_ids": [
+      "M0026"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cerebral cavernous malformation",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "locations": [
+      "b0027",
+      "b0068",
+      "b0093",
+      "b0095"
+    ],
+    "mention_ids": [
+      "M0108",
+      "M0155",
+      "M0240",
+      "M0261"
+    ],
+    "context_examples": [
+      {
+        "location": "b0027",
+        "context": "Flow chart of the participants. FCCM: familial cerebral cavernous malformation, MRI: magnetic resonance imaging, CCM: cerebral cavernous malformation."
+      },
+      {
+        "location": "b0068",
+        "context": "Comparison of two receiver operating curves predicting the detection of CCM gene mutation. The prediction model for the detection of CCM gene mutations was derived from the presence of lesions at specific anatomical sites (brainstem, lateral temporal, and parietal lobe), which were associated with mutation detection. The three new models were generated to investigate the site most relevant to mutation detection by removing each predicting factor (brainstem, lateral temporal lobe, or parietal lobe) from the original models. Subtracting the presence of brainstem lesions significantly reduced the area under the curve. B: brainstem, LT: lateral temporal lobe, P: parietal lobe, AUC: area under the curve, CCM: cerebral cavernous malformation."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "FCCM",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "locations": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0009",
+      "b0011",
+      "b0014",
+      "b0026",
+      "b0027",
+      "b0069",
+      "b0070",
+      "b0094",
+      "b0095",
+      "b0097",
+      "b0098",
+      "b0099",
+      "b0100",
+      "b0101",
+      "b0102",
+      "b0104"
+    ],
+    "mention_ids": [
+      "M0003",
+      "M0008",
+      "M0009",
+      "M0011",
+      "M0015",
+      "M0017",
+      "M0018",
+      "M0024",
+      "M0025",
+      "M0033",
+      "M0038",
+      "M0051",
+      "M0052",
+      "M0053",
+      "M0055",
+      "M0056",
+      "M0096",
+      "M0099",
+      "M0101",
+      "M0102",
+      "M0103",
+      "M0105",
+      "M0156",
+      "M0157",
+      "M0247",
+      "M0265",
+      "M0266",
+      "M0273",
+      "M0282",
+      "M0288",
+      "M0290",
+      "M0301",
+      "M0310",
+      "M0311",
+      "M0312",
+      "M0313",
+      "M0316",
+      "M0327",
+      "M0339",
+      "M0342",
+      "M0344",
+      "M0348",
+      "M0349"
+    ],
+    "context_examples": [
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      },
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Familial CCM",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "locations": [
+      "b0011"
+    ],
+    "mention_ids": [
+      "M0032"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Familial cerebral cavernous malformation",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "locations": [
+      "b0003"
+    ],
+    "mention_ids": [
+      "M0002"
+    ],
+    "context_examples": [
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "familial",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "locations": [
+      "b0011"
+    ],
+    "mention_ids": [
+      "M0031"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "familial CCM",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "locations": [
+      "b0099"
+    ],
+    "mention_ids": [
+      "M0309"
+    ],
+    "context_examples": [
+      {
+        "location": "b0099",
+        "context": "Brainstem lesions were mostly associated with mutation detection in patients with multiple CCM lesions. In the comparison of the Mutation detected and the Mutation not detected groups, the locations specific to the Mutation detected group were obtained as the radiologic markers. Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18 Because sporadic and familial CCM have different pathophysiologies, the vulnerable sites or disease-specific lesion sites could differ. Radiologic markers could encourage physicians to proceed with genetic testing for FCCM patients. Genetic diagnosis of clinical FCCM patients induces cascade screening for family members, allowing early diagnosis of FCCM. As prevention and treatment methods improve, the importance of early diagnosis and screening for FCCM through genetic testing will increase. Currently, there are few therapeutic strategies for CCM. However, various preclinical studies for candidate therapeutics for CMM are ongoing. 2"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "familial cerebral cavernous malformation",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "locations": [
+      "b0001",
+      "b0023",
+      "b0027",
+      "b0029",
+      "b0071",
+      "b0114",
+      "b0115",
+      "b0116"
+    ],
+    "mention_ids": [
+      "M0001",
+      "M0087",
+      "M0106",
+      "M0123",
+      "M0182",
+      "M0352",
+      "M0354",
+      "M0356"
+    ],
+    "context_examples": [
+      {
+        "location": "b0001",
+        "context": "Clinicoradiologic data of familial cerebral cavernous malformation with age-related disease burden"
+      },
+      {
+        "location": "b0023",
+        "context": "The Institutional Review Board (IRB) of Seoul National University approved this Korean familial cerebral cavernous malformation study (H-2204-163-1320). Because this study was retrospective, the IRB exempted informed consent, and information from medical records was deidentified for the subjects' privacy."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "sporadic",
+    "entity_id": "D03",
+    "entity_type": "disease",
+    "locations": [
+      "b0011",
+      "b0099"
+    ],
+    "mention_ids": [
+      "M0030",
+      "M0308"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      },
+      {
+        "location": "b0099",
+        "context": "Brainstem lesions were mostly associated with mutation detection in patients with multiple CCM lesions. In the comparison of the Mutation detected and the Mutation not detected groups, the locations specific to the Mutation detected group were obtained as the radiologic markers. Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18 Because sporadic and familial CCM have different pathophysiologies, the vulnerable sites or disease-specific lesion sites could differ. Radiologic markers could encourage physicians to proceed with genetic testing for FCCM patients. Genetic diagnosis of clinical FCCM patients induces cascade screening for family members, allowing early diagnosis of FCCM. As prevention and treatment methods improve, the importance of early diagnosis and screening for FCCM through genetic testing will increase. Currently, there are few therapeutic strategies for CCM. However, various preclinical studies for candidate therapeutics for CMM are ongoing. 2"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "sporadic CCM",
+    "entity_id": "D03",
+    "entity_type": "disease",
+    "locations": [
+      "b0011",
+      "b0026",
+      "b0098"
+    ],
+    "mention_ids": [
+      "M0037",
+      "M0095",
+      "M0296"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      },
+      {
+        "location": "b0026",
+        "context": "A total of thirty-four patients underwent the CCM gene test. (Fig. 1) However, seven patients with multiple lesions were excluded because the lesions were regarded as non-CCM lesions, including cerebral microbleeds in small vessel disease (n = 5), diffuse axonal injury (n = 1), and multiple and recurrent intracerebral hemorrhages without CCM lesions (n = 1) by neuroradiologists. Of the remaining 27 patients, six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded. The twenty-one FCCM patients were divided into two groups: thirteen patients with pathogenic variants in CCM genes and eight patients with undetected mutations. The eight patients had multiple lesions suggestive of FCCM. All (n = 21) of the patients considered to be FCCM (gene confirmed or clinical) were analyzed for clinical manifestation and radiologic findings (cohort 1). Furthermore, four family members of three probands underwent a family gene test and had the same mutation as the proband. The data of twenty-five patients, combining cohort 1 with the familial members, were used for the analysis of the age-related disease burden in FCCM (cohort 2). There was neither a patient with a developmental venous anomaly nor a history of radiation in our cohort."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "sporadic CCMs",
+    "entity_id": "D03",
+    "entity_type": "disease",
+    "locations": [
+      "b0098"
+    ],
+    "mention_ids": [
+      "M0302"
+    ],
+    "context_examples": [
+      {
+        "location": "b0098",
+        "context": "The proportions of CCM genes (KRIT1 69.2%, CCM2 15.4%, and PDCD10 15.4%) affected were similar to those in previous reports. 12 However, the patients without detected mutations accounted for a larger proportion (38.1%) of our cohort, in contrast to previous cohorts in which mutations were undetected in >5% of the patients. These patients had at least five lesions and no history of head, neck, or intracranial radiation, suggesting clinical FCCM. There are several reasons that mutations were not detected. First, intronic variants or copy number variations in KRIT1, CCM2, and PDCD10 could not be detected by our DNA sequencing method. In fact, large deletion/duplication mutations, such as deletions spanning exons 2-10, accounted for 30-60% of CCM2 variants despite a low proportion (approximately 20%) of CCM2 variants. 13 , 14 Multiplex ligation-dependent probe amplification and whole genome sequencing are needed to identify these variants. Second, other gene mutations could induce FCCM despite the rarity of the disease. F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15 Furthermore, various genes related to CCM pathophysiology were recently discovered. 2 In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation. Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16 LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3. Therefore, the mutation of these genes could be a novel cause of FCCM. Finally, multiple sporadic CCMs are possible but rare."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CM",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "locations": [
+      "b0016",
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0064",
+      "M0178",
+      "M0179"
+    ],
+    "context_examples": [
+      {
+        "location": "b0016",
+        "context": "We investigated the patients' clinical manifestations, including demographics, symptoms, presence of spinal cavernous malformation (CM) and cutaneous CM, history of cavernous angioma with symptomatic hemorrhage (CASH), brain surgery due to CCM, radiotherapy for other reasons, and tumors. We only reviewed brain MRIs, including T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and axial susceptibility-weighted imaging (SWI) or gradient echo imaging (GRE). For analysis, a total of eighty brain MRIs were conducted, and 20% (16/80) and 80% (64/80) were MRIs with GRE and SWI sequences, respectively. The last MRIs in all patients contained SWI sequences. For recording the location, we used the SWI because of its high sensitivity. However, we included not the lesions, which were only visible on SWI, but the lesions frankly visible on T1WI and T2WI (i.e., non-Zabramski type IV)."
+      },
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Spinal",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "locations": [
+      "b0076",
+      "b0090"
+    ],
+    "mention_ids": [
+      "M0203",
+      "M0230"
+    ],
+    "context_examples": [
+      {
+        "location": "b0076",
+        "context": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)"
+      },
+      {
+        "location": "b0090",
+        "context": "P2 | Male | 43 | 54 | Nonspecific headache → Brain MRI | Spinal (screen) | n/a | 0 | n/a | Yes | c.283C > T, p.Arg95* | No | Previously reported | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Spinal CM",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "locations": [
+      "b0047"
+    ],
+    "mention_ids": [
+      "M0140"
+    ],
+    "context_examples": [
+      {
+        "location": "b0047",
+        "context": "Spinal CM, % | 9.5 (2) | 11.1 (1) | 0.0 (0) | 50.0 (1) | 15.4 (2) | 0.0 (0)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "spinal CM",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0161",
+      "M0177"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      },
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "spinal cavernous malformation",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "locations": [
+      "b0016"
+    ],
+    "mention_ids": [
+      "M0063"
+    ],
+    "context_examples": [
+      {
+        "location": "b0016",
+        "context": "We investigated the patients' clinical manifestations, including demographics, symptoms, presence of spinal cavernous malformation (CM) and cutaneous CM, history of cavernous angioma with symptomatic hemorrhage (CASH), brain surgery due to CCM, radiotherapy for other reasons, and tumors. We only reviewed brain MRIs, including T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and axial susceptibility-weighted imaging (SWI) or gradient echo imaging (GRE). For analysis, a total of eighty brain MRIs were conducted, and 20% (16/80) and 80% (64/80) were MRIs with GRE and SWI sequences, respectively. The last MRIs in all patients contained SWI sequences. For recording the location, we used the SWI because of its high sensitivity. However, we included not the lesions, which were only visible on SWI, but the lesions frankly visible on T1WI and T2WI (i.e., non-Zabramski type IV)."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Cutaneous",
+    "entity_id": "D05",
+    "entity_type": "disease",
+    "locations": [
+      "b0085"
+    ],
+    "mention_ids": [
+      "M0222"
+    ],
+    "context_examples": [
+      {
+        "location": "b0085",
+        "context": "C1 | Male | 4 | 8 | Central vertigo ← CASH (cerebellum) | Cutaneous | 4 | 1 | Craniotomy | Yes | c.55C>T, p.Arg19* | No | Previously reported | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Cutaneous CM",
+    "entity_id": "D05",
+    "entity_type": "disease",
+    "locations": [
+      "b0048"
+    ],
+    "mention_ids": [
+      "M0141"
+    ],
+    "context_examples": [
+      {
+        "location": "b0048",
+        "context": "Cutaneous CM, % | 4.8 (1) | 0.0 (0) | 50.0 (1) | 0.0 (0) | 7.7 (1) | 0.0 (0)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cutaneous CM",
+    "entity_id": "D05",
+    "entity_type": "disease",
+    "locations": [
+      "b0016",
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0065",
+      "M0162"
+    ],
+    "context_examples": [
+      {
+        "location": "b0016",
+        "context": "We investigated the patients' clinical manifestations, including demographics, symptoms, presence of spinal cavernous malformation (CM) and cutaneous CM, history of cavernous angioma with symptomatic hemorrhage (CASH), brain surgery due to CCM, radiotherapy for other reasons, and tumors. We only reviewed brain MRIs, including T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and axial susceptibility-weighted imaging (SWI) or gradient echo imaging (GRE). For analysis, a total of eighty brain MRIs were conducted, and 20% (16/80) and 80% (64/80) were MRIs with GRE and SWI sequences, respectively. The last MRIs in all patients contained SWI sequences. For recording the location, we used the SWI because of its high sensitivity. However, we included not the lesions, which were only visible on SWI, but the lesions frankly visible on T1WI and T2WI (i.e., non-Zabramski type IV)."
+      },
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CASH",
+    "entity_id": "D06",
+    "entity_type": "clinical_event",
+    "locations": [
+      "b0016",
+      "b0021",
+      "b0028",
+      "b0043",
+      "b0044",
+      "b0045",
+      "b0064",
+      "b0070",
+      "b0072",
+      "b0075",
+      "b0078",
+      "b0080",
+      "b0085",
+      "b0086",
+      "b0088",
+      "b0093",
+      "b0094",
+      "b0097",
+      "b0100",
+      "b0101"
+    ],
+    "mention_ids": [
+      "M0067",
+      "M0082",
+      "M0084",
+      "M0117",
+      "M0118",
+      "M0119",
+      "M0120",
+      "M0137",
+      "M0138",
+      "M0139",
+      "M0144",
+      "M0149",
+      "M0163",
+      "M0185",
+      "M0186",
+      "M0196",
+      "M0210",
+      "M0214",
+      "M0221",
+      "M0225",
+      "M0228",
+      "M0233",
+      "M0243",
+      "M0244",
+      "M0246",
+      "M0277",
+      "M0326",
+      "M0334",
+      "M0338"
+    ],
+    "context_examples": [
+      {
+        "location": "b0016",
+        "context": "We investigated the patients' clinical manifestations, including demographics, symptoms, presence of spinal cavernous malformation (CM) and cutaneous CM, history of cavernous angioma with symptomatic hemorrhage (CASH), brain surgery due to CCM, radiotherapy for other reasons, and tumors. We only reviewed brain MRIs, including T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and axial susceptibility-weighted imaging (SWI) or gradient echo imaging (GRE). For analysis, a total of eighty brain MRIs were conducted, and 20% (16/80) and 80% (64/80) were MRIs with GRE and SWI sequences, respectively. The last MRIs in all patients contained SWI sequences. For recording the location, we used the SWI because of its high sensitivity. However, we included not the lesions, which were only visible on SWI, but the lesions frankly visible on T1WI and T2WI (i.e., non-Zabramski type IV)."
+      },
+      {
+        "location": "b0021",
+        "context": "We summarized the clinical data as percentages or means and standard deviations. To compare the differences between the two groups, Mutation detected and Mutation not detected, we utilized the Mann-Whitney U or Student's t test for continuous variables and the chi-square or Fisher's exact test for categorical variables. Receiver operating characteristic (ROC) analysis for predicting mutation detection by the specific CCM locations was performed using a logistic regression model and the calculated propensity score. To compare two ROC curves, the DeLong test was used. We used Cox proportional hazards models to estimate the probability of first cavernous angiomas with the occurrence of symptomatic hemorrhage (CASH) between birth and various ages. Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models. To evaluate the change in large CCM numbers according to the age, we used Pearson's correlation test when the variables were normally distributed or Spearman's rank correlation test when they were not. All analyses were performed using SPSS 26.0 and R version 4.2.1, and a scatter plot was created using RStudio. A P-value <0.05 was considered statistically significant."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cavernous angioma with symptomatic hemorrhage",
+    "entity_id": "D06",
+    "entity_type": "clinical_event",
+    "locations": [
+      "b0016",
+      "b0093",
+      "b0115",
+      "b0116"
+    ],
+    "mention_ids": [
+      "M0066",
+      "M0234",
+      "M0353",
+      "M0355"
+    ],
+    "context_examples": [
+      {
+        "location": "b0016",
+        "context": "We investigated the patients' clinical manifestations, including demographics, symptoms, presence of spinal cavernous malformation (CM) and cutaneous CM, history of cavernous angioma with symptomatic hemorrhage (CASH), brain surgery due to CCM, radiotherapy for other reasons, and tumors. We only reviewed brain MRIs, including T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and axial susceptibility-weighted imaging (SWI) or gradient echo imaging (GRE). For analysis, a total of eighty brain MRIs were conducted, and 20% (16/80) and 80% (64/80) were MRIs with GRE and SWI sequences, respectively. The last MRIs in all patients contained SWI sequences. For recording the location, we used the SWI because of its high sensitivity. However, we included not the lesions, which were only visible on SWI, but the lesions frankly visible on T1WI and T2WI (i.e., non-Zabramski type IV)."
+      },
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cavernous angiomas with a symptomatic hemorrhage",
+    "entity_id": "D06",
+    "entity_type": "clinical_event",
+    "locations": [
+      "b0064"
+    ],
+    "mention_ids": [
+      "M0145"
+    ],
+    "context_examples": [
+      {
+        "location": "b0064",
+        "context": "P-values were obtained from the comparison between Mutation detected group and Mutation not detected group.YO, year-old; CASH, cavernous angiomas with a symptomatic hemorrhage; CM, cavernous malformation; FHx, family history; SD, standard deviation; NA, not applicable. a Mean and standard deviation were calculated from the groups with seizure or CASH.* P-value < 0.05.** P-value < 0.005."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cavernous angiomas with the occurrence of symptomatic hemorrhage",
+    "entity_id": "D06",
+    "entity_type": "clinical_event",
+    "locations": [
+      "b0021"
+    ],
+    "mention_ids": [
+      "M0081"
+    ],
+    "context_examples": [
+      {
+        "location": "b0021",
+        "context": "We summarized the clinical data as percentages or means and standard deviations. To compare the differences between the two groups, Mutation detected and Mutation not detected, we utilized the Mann-Whitney U or Student's t test for continuous variables and the chi-square or Fisher's exact test for categorical variables. Receiver operating characteristic (ROC) analysis for predicting mutation detection by the specific CCM locations was performed using a logistic regression model and the calculated propensity score. To compare two ROC curves, the DeLong test was used. We used Cox proportional hazards models to estimate the probability of first cavernous angiomas with the occurrence of symptomatic hemorrhage (CASH) between birth and various ages. Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models. To evaluate the change in large CCM numbers according to the age, we used Pearson's correlation test when the variables were normally distributed or Spearman's rank correlation test when they were not. All analyses were performed using SPSS 26.0 and R version 4.2.1, and a scatter plot was created using RStudio. A P-value <0.05 was considered statistically significant."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "recurrent symptomatic hemorrhage",
+    "entity_id": "D06",
+    "entity_type": "clinical_event",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0164"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "small vessel disease",
+    "entity_id": "D07",
+    "entity_type": "disease",
+    "locations": [
+      "b0026"
+    ],
+    "mention_ids": [
+      "M0091"
+    ],
+    "context_examples": [
+      {
+        "location": "b0026",
+        "context": "A total of thirty-four patients underwent the CCM gene test. (Fig. 1) However, seven patients with multiple lesions were excluded because the lesions were regarded as non-CCM lesions, including cerebral microbleeds in small vessel disease (n = 5), diffuse axonal injury (n = 1), and multiple and recurrent intracerebral hemorrhages without CCM lesions (n = 1) by neuroradiologists. Of the remaining 27 patients, six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded. The twenty-one FCCM patients were divided into two groups: thirteen patients with pathogenic variants in CCM genes and eight patients with undetected mutations. The eight patients had multiple lesions suggestive of FCCM. All (n = 21) of the patients considered to be FCCM (gene confirmed or clinical) were analyzed for clinical manifestation and radiologic findings (cohort 1). Furthermore, four family members of three probands underwent a family gene test and had the same mutation as the proband. The data of twenty-five patients, combining cohort 1 with the familial members, were used for the analysis of the age-related disease burden in FCCM (cohort 2). There was neither a patient with a developmental venous anomaly nor a history of radiation in our cohort."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "diffuse axonal injury",
+    "entity_id": "D08",
+    "entity_type": "disease",
+    "locations": [
+      "b0026"
+    ],
+    "mention_ids": [
+      "M0092"
+    ],
+    "context_examples": [
+      {
+        "location": "b0026",
+        "context": "A total of thirty-four patients underwent the CCM gene test. (Fig. 1) However, seven patients with multiple lesions were excluded because the lesions were regarded as non-CCM lesions, including cerebral microbleeds in small vessel disease (n = 5), diffuse axonal injury (n = 1), and multiple and recurrent intracerebral hemorrhages without CCM lesions (n = 1) by neuroradiologists. Of the remaining 27 patients, six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded. The twenty-one FCCM patients were divided into two groups: thirteen patients with pathogenic variants in CCM genes and eight patients with undetected mutations. The eight patients had multiple lesions suggestive of FCCM. All (n = 21) of the patients considered to be FCCM (gene confirmed or clinical) were analyzed for clinical manifestation and radiologic findings (cohort 1). Furthermore, four family members of three probands underwent a family gene test and had the same mutation as the proband. The data of twenty-five patients, combining cohort 1 with the familial members, were used for the analysis of the age-related disease burden in FCCM (cohort 2). There was neither a patient with a developmental venous anomaly nor a history of radiation in our cohort."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "intracerebral hemorrhages",
+    "entity_id": "D09",
+    "entity_type": "disease",
+    "locations": [
+      "b0026"
+    ],
+    "mention_ids": [
+      "M0093"
+    ],
+    "context_examples": [
+      {
+        "location": "b0026",
+        "context": "A total of thirty-four patients underwent the CCM gene test. (Fig. 1) However, seven patients with multiple lesions were excluded because the lesions were regarded as non-CCM lesions, including cerebral microbleeds in small vessel disease (n = 5), diffuse axonal injury (n = 1), and multiple and recurrent intracerebral hemorrhages without CCM lesions (n = 1) by neuroradiologists. Of the remaining 27 patients, six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded. The twenty-one FCCM patients were divided into two groups: thirteen patients with pathogenic variants in CCM genes and eight patients with undetected mutations. The eight patients had multiple lesions suggestive of FCCM. All (n = 21) of the patients considered to be FCCM (gene confirmed or clinical) were analyzed for clinical manifestation and radiologic findings (cohort 1). Furthermore, four family members of three probands underwent a family gene test and had the same mutation as the proband. The data of twenty-five patients, combining cohort 1 with the familial members, were used for the analysis of the age-related disease burden in FCCM (cohort 2). There was neither a patient with a developmental venous anomaly nor a history of radiation in our cohort."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "developmental venous anomaly",
+    "entity_id": "D10",
+    "entity_type": "disease",
+    "locations": [
+      "b0026"
+    ],
+    "mention_ids": [
+      "M0104"
+    ],
+    "context_examples": [
+      {
+        "location": "b0026",
+        "context": "A total of thirty-four patients underwent the CCM gene test. (Fig. 1) However, seven patients with multiple lesions were excluded because the lesions were regarded as non-CCM lesions, including cerebral microbleeds in small vessel disease (n = 5), diffuse axonal injury (n = 1), and multiple and recurrent intracerebral hemorrhages without CCM lesions (n = 1) by neuroradiologists. Of the remaining 27 patients, six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded. The twenty-one FCCM patients were divided into two groups: thirteen patients with pathogenic variants in CCM genes and eight patients with undetected mutations. The eight patients had multiple lesions suggestive of FCCM. All (n = 21) of the patients considered to be FCCM (gene confirmed or clinical) were analyzed for clinical manifestation and radiologic findings (cohort 1). Furthermore, four family members of three probands underwent a family gene test and had the same mutation as the proband. The data of twenty-five patients, combining cohort 1 with the familial members, were used for the analysis of the age-related disease burden in FCCM (cohort 2). There was neither a patient with a developmental venous anomaly nor a history of radiation in our cohort."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Tumor",
+    "entity_id": "D11",
+    "entity_type": "disease",
+    "locations": [
+      "b0050",
+      "b0072"
+    ],
+    "mention_ids": [
+      "M0143",
+      "M0187"
+    ],
+    "context_examples": [
+      {
+        "location": "b0050",
+        "context": "Tumor, % | 28.6 (6) | 44.4 (4) | 0.0 (0) | 0.0 (0) | 30.8 (4) | 25.0 (2)"
+      },
+      {
+        "location": "b0072",
+        "context": "Patient | Gender | CCM diagnosis (YO) | Last F/U (YO) | Clinical manifestation | Non-cerebral CM | First CASH (YO) | Total CASH events | Surgery | Family history | Variant* | Novel | ACMG guideline classification | Tumor"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "tumor",
+    "entity_id": "D11",
+    "entity_type": "disease",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0172",
+      "M0173"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      },
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "tumorous condition",
+    "entity_id": "D11",
+    "entity_type": "disease",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0180"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "tumors",
+    "entity_id": "D11",
+    "entity_type": "disease",
+    "locations": [
+      "b0016"
+    ],
+    "mention_ids": [
+      "M0069"
+    ],
+    "context_examples": [
+      {
+        "location": "b0016",
+        "context": "We investigated the patients' clinical manifestations, including demographics, symptoms, presence of spinal cavernous malformation (CM) and cutaneous CM, history of cavernous angioma with symptomatic hemorrhage (CASH), brain surgery due to CCM, radiotherapy for other reasons, and tumors. We only reviewed brain MRIs, including T1-weighted imaging (T1WI), T2-weighted imaging (T2WI), and axial susceptibility-weighted imaging (SWI) or gradient echo imaging (GRE). For analysis, a total of eighty brain MRIs were conducted, and 20% (16/80) and 80% (64/80) were MRIs with GRE and SWI sequences, respectively. The last MRIs in all patients contained SWI sequences. For recording the location, we used the SWI because of its high sensitivity. However, we included not the lesions, which were only visible on SWI, but the lesions frankly visible on T1WI and T2WI (i.e., non-Zabramski type IV)."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Breast cancer",
+    "entity_id": "D12",
+    "entity_type": "disease",
+    "locations": [
+      "b0074"
+    ],
+    "mention_ids": [
+      "M0191"
+    ],
+    "context_examples": [
+      {
+        "location": "b0074",
+        "context": "K1 | Female | 59 | 59 | Nonspecific headache → CCM in Brain MRI | None | n/a | 0 | n/a | No | c.22_26del, p.Glu8Cysfs*22 | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Breast cancer"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Thyroid cancer",
+    "entity_id": "D13",
+    "entity_type": "disease",
+    "locations": [
+      "b0075"
+    ],
+    "mention_ids": [
+      "M0197"
+    ],
+    "context_examples": [
+      {
+        "location": "b0075",
+        "context": "K2 | Female | 37 | 53 | Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons) | None | 37 | 4 | Craniotomy | No | c.535C>T, p.Arg179* | No | Previously reported | Thyroid cancer"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Diffuse midline glioma",
+    "entity_id": "D14",
+    "entity_type": "disease",
+    "locations": [
+      "b0076"
+    ],
+    "mention_ids": [
+      "M0205"
+    ],
+    "context_examples": [
+      {
+        "location": "b0076",
+        "context": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "diffuse midline glioma",
+    "entity_id": "D14",
+    "entity_type": "disease",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0181"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Adrenal adenoma",
+    "entity_id": "D15",
+    "entity_type": "disease",
+    "locations": [
+      "b0077"
+    ],
+    "mention_ids": [
+      "M0208"
+    ],
+    "context_examples": [
+      {
+        "location": "b0077",
+        "context": "K4 | Female | 59 | 61 | Left ACA infarction → incidental CCMs | None | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17 | Yes | Same as above | Adrenal adenoma"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Left ACA infarction",
+    "entity_id": "D16",
+    "entity_type": "disease",
+    "locations": [
+      "b0077"
+    ],
+    "mention_ids": [
+      "M0206"
+    ],
+    "context_examples": [
+      {
+        "location": "b0077",
+        "context": "K4 | Female | 59 | 61 | Left ACA infarction → incidental CCMs | None | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17 | Yes | Same as above | Adrenal adenoma"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "OLE",
+    "entity_id": "D17",
+    "entity_type": "disease",
+    "locations": [
+      "b0082",
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0217",
+      "M0241"
+    ],
+    "context_examples": [
+      {
+        "location": "b0082",
+        "context": "K8 | Male | 67 | 68 | Transient positive visual symptom (29YO) → OLE | None | n/a | 0 | n/a | Yes | c.1961_1962del, p.Lys654fs*21 | No | Previously reported | None"
+      },
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "occipital lobe epilepsy",
+    "entity_id": "D17",
+    "entity_type": "disease",
+    "locations": [
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0242"
+    ],
+    "context_examples": [
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "PLE",
+    "entity_id": "D18",
+    "entity_type": "ambiguous",
+    "locations": [
+      "b0076"
+    ],
+    "mention_ids": [
+      "M0202"
+    ],
+    "context_examples": [
+      {
+        "location": "b0076",
+        "context": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CM",
+    "entity_id": "D19",
+    "entity_type": "disease",
+    "locations": [
+      "b0064",
+      "b0072",
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0146",
+      "M0184",
+      "M0231"
+    ],
+    "context_examples": [
+      {
+        "location": "b0064",
+        "context": "P-values were obtained from the comparison between Mutation detected group and Mutation not detected group.YO, year-old; CASH, cavernous angiomas with a symptomatic hemorrhage; CM, cavernous malformation; FHx, family history; SD, standard deviation; NA, not applicable. a Mean and standard deviation were calculated from the groups with seizure or CASH.* P-value < 0.05.** P-value < 0.005."
+      },
+      {
+        "location": "b0072",
+        "context": "Patient | Gender | CCM diagnosis (YO) | Last F/U (YO) | Clinical manifestation | Non-cerebral CM | First CASH (YO) | Total CASH events | Surgery | Family history | Variant* | Novel | ACMG guideline classification | Tumor"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cavernous malformation",
+    "entity_id": "D19",
+    "entity_type": "disease",
+    "locations": [
+      "b0064",
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0147",
+      "M0232"
+    ],
+    "context_examples": [
+      {
+        "location": "b0064",
+        "context": "P-values were obtained from the comparison between Mutation detected group and Mutation not detected group.YO, year-old; CASH, cavernous angiomas with a symptomatic hemorrhage; CM, cavernous malformation; FHx, family history; SD, standard deviation; NA, not applicable. a Mean and standard deviation were calculated from the groups with seizure or CASH.* P-value < 0.05.** P-value < 0.005."
+      },
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "vascular malformation",
+    "entity_id": "D20",
+    "entity_type": "disease",
+    "locations": [
+      "b0011",
+      "b0100"
+    ],
+    "mention_ids": [
+      "M0047",
+      "M0325"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      },
+      {
+        "location": "b0100",
+        "context": "In our cohort, six novel variants were confirmed, despite the limitations of a single-center study. Three case reports of Korean FCCM have been published to date, and four variants (KRIT1 c.535C>T, p. Arg179*; c.816delG, p. Arg273Glufs*; c.940_943 del, p. Val314 Asn315delinsThrfs*3; PDCD10 c.103C>T, p. Arg35*) were documented. 5 , 6 , 7 KRIT1 c. 535C>T, p. Arg179* was also identified in our cohort. When our cohort was combined with previously reported variants, the mutations were located at KRIT1 exons 1, 4, 5, 6, 8, 11,13, intervening sequence (IVS) 8, CCM2 exons 2 and 6, and PDCD10 exons 2, 4, and IVS 2. In particular, the KRIT1 IVS8 variant (c.1147-2A>G), a canonical splice site mutation, was expected to induce exon skipping of exon 12 and an in-frame mutation. Exon 12 is responsible for a particular portion of the KRIT1 protein ankyrin component. 19 This component is likely critical for preventing vascular malformation. Two probands had this mutation and showed different clinical manifestations, including age at diagnosis and the presence of CASH."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "intracranial vascular malformation",
+    "entity_id": "D21",
+    "entity_type": "disease",
+    "locations": [
+      "b0011"
+    ],
+    "mention_ids": [
+      "M0028"
+    ],
+    "context_examples": [
+      {
+        "location": "b0011",
+        "context": "Cerebral cavernous malformation (CCM) is an intracranial vascular malformation causing a collection of abnormally distended capillaries. 1 CCM is broadly divided into sporadic and familial categories. Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10. In contrast to sporadic CCM patients, who typically have a solitary lesion, FCCM patients present with multiple CCM lesions showing progressive increases in number and size. The pathophysiology of CCM has recently been elucidated, and various mechanisms associated with the development and hemorrhage have been suggested. 2 These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM. Despite the tremendous progress in understanding CCM, the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown. Understanding variants in the CCM-associated genes could help explain the function of CCM complexes and their interaction with other proteins. 3 Hence, genetic testing for those suspected to be FCCM could be important. While many variants have been reported, studies on Korean FCCM patients are sparse. 4 , 5 , 6 , 7 Furthermore, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. We examined the manifestations of Korean FCCM patients and their CCM gene test results and evaluated the clinical and radiologic features associated with these mutations. In addition, the disease burden of FCCM according to age was analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "KRIT1",
+    "entity_id": "G01",
+    "entity_type": "gene",
+    "locations": [
+      "b0003",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0073",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "mention_ids": [
+      "M0005",
+      "M0020",
+      "M0023",
+      "M0034",
+      "M0041",
+      "M0057",
+      "M0074",
+      "M0077",
+      "M0109",
+      "M0112",
+      "M0125",
+      "M0158",
+      "M0166",
+      "M0169",
+      "M0171",
+      "M0188",
+      "M0249",
+      "M0252",
+      "M0255",
+      "M0257",
+      "M0262",
+      "M0267",
+      "M0270",
+      "M0271",
+      "M0279",
+      "M0283",
+      "M0317",
+      "M0319",
+      "M0320",
+      "M0323",
+      "M0324",
+      "M0330",
+      "M0331",
+      "M0345",
+      "M0350"
+    ],
+    "context_examples": [
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      },
+      {
+        "location": "b0007",
+        "context": "Among the patients (n = 34) undergoing the FCCM gene test, twenty-seven patients had CCM confirmed by brain MRI, and twenty-one patients were considered to have FCCM (cohort 1). In cohort 1, thirteen patients had mutations in the FCCM gene, but eight did not. Cohort 2 comprised cohort 1 and four family members with the same mutation as the probands. Six novel variants in CCM genes were detected (KRIT1 c.22_26del, c.815dup, c.1094_1098del, c.1147-2A>G, c.2124dup, and PDCD10 c.150 + 1dup). Cohort 1 demonstrated that brainstem lesions were mostly associated with the mutation detection in CCM genes (brainstem, lateral temporal, and parietal lesions vs. lateral temporal and parietal lesions, AUC 0.928 vs. 0.779, P = 0.0389). The radiologic severity worsened according to age in the KRIT1 group compared with the Mutation not detected group (correlation coefficient 0.75 (P < 0.001) versus 0.53 (P = 0.004))."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "KRTI1",
+    "entity_id": "G01",
+    "entity_type": "gene",
+    "locations": [
+      "b0005"
+    ],
+    "mention_ids": [
+      "M0012"
+    ],
+    "context_examples": [
+      {
+        "location": "b0005",
+        "context": "This study investigated clinical FCCM patients with multiple lesions or a family history of CCMs who underwent the FCCM gene (KRTI1, CCM2, and PDCD10) panel test. The clinical, genetic, and radiologic features were analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "CCM2",
+    "entity_id": "G02",
+    "entity_type": "gene",
+    "locations": [
+      "b0003",
+      "b0005",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0084",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "mention_ids": [
+      "M0006",
+      "M0013",
+      "M0035",
+      "M0042",
+      "M0058",
+      "M0075",
+      "M0078",
+      "M0110",
+      "M0113",
+      "M0126",
+      "M0167",
+      "M0219",
+      "M0250",
+      "M0253",
+      "M0258",
+      "M0263",
+      "M0268",
+      "M0280",
+      "M0284",
+      "M0286",
+      "M0287",
+      "M0321",
+      "M0332",
+      "M0333",
+      "M0335",
+      "M0346"
+    ],
+    "context_examples": [
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      },
+      {
+        "location": "b0005",
+        "context": "This study investigated clinical FCCM patients with multiple lesions or a family history of CCMs who underwent the FCCM gene (KRTI1, CCM2, and PDCD10) panel test. The clinical, genetic, and radiologic features were analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "PDCD10",
+    "entity_id": "G03",
+    "entity_type": "gene",
+    "locations": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0087",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "mention_ids": [
+      "M0007",
+      "M0014",
+      "M0021",
+      "M0036",
+      "M0043",
+      "M0059",
+      "M0076",
+      "M0079",
+      "M0111",
+      "M0114",
+      "M0127",
+      "M0159",
+      "M0168",
+      "M0170",
+      "M0226",
+      "M0251",
+      "M0254",
+      "M0256",
+      "M0260",
+      "M0264",
+      "M0269",
+      "M0272",
+      "M0281",
+      "M0285",
+      "M0318",
+      "M0322",
+      "M0336",
+      "M0337",
+      "M0347",
+      "M0351"
+    ],
+    "context_examples": [
+      {
+        "location": "b0003",
+        "context": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10. However, previous studies paid little attention to analyzing the radiologic features and age-related disease burden according to the genes. Therefore, we retrospectively reviewed the genetic tests of our center's clinical FCCM patients."
+      },
+      {
+        "location": "b0005",
+        "context": "This study investigated clinical FCCM patients with multiple lesions or a family history of CCMs who underwent the FCCM gene (KRTI1, CCM2, and PDCD10) panel test. The clinical, genetic, and radiologic features were analyzed."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "ZPLD1",
+    "entity_id": "G04",
+    "entity_type": "gene",
+    "locations": [
+      "b0098"
+    ],
+    "mention_ids": [
+      "M0289"
+    ],
+    "context_examples": [
+      {
+        "location": "b0098",
+        "context": "The proportions of CCM genes (KRIT1 69.2%, CCM2 15.4%, and PDCD10 15.4%) affected were similar to those in previous reports. 12 However, the patients without detected mutations accounted for a larger proportion (38.1%) of our cohort, in contrast to previous cohorts in which mutations were undetected in >5% of the patients. These patients had at least five lesions and no history of head, neck, or intracranial radiation, suggesting clinical FCCM. There are several reasons that mutations were not detected. First, intronic variants or copy number variations in KRIT1, CCM2, and PDCD10 could not be detected by our DNA sequencing method. In fact, large deletion/duplication mutations, such as deletions spanning exons 2-10, accounted for 30-60% of CCM2 variants despite a low proportion (approximately 20%) of CCM2 variants. 13 , 14 Multiplex ligation-dependent probe amplification and whole genome sequencing are needed to identify these variants. Second, other gene mutations could induce FCCM despite the rarity of the disease. F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15 Furthermore, various genes related to CCM pathophysiology were recently discovered. 2 In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation. Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16 LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3. Therefore, the mutation of these genes could be a novel cause of FCCM. Finally, multiple sporadic CCMs are possible but rare."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "MAP3K3",
+    "entity_id": "G05",
+    "entity_type": "gene",
+    "locations": [
+      "b0098"
+    ],
+    "mention_ids": [
+      "M0294",
+      "M0298"
+    ],
+    "context_examples": [
+      {
+        "location": "b0098",
+        "context": "The proportions of CCM genes (KRIT1 69.2%, CCM2 15.4%, and PDCD10 15.4%) affected were similar to those in previous reports. 12 However, the patients without detected mutations accounted for a larger proportion (38.1%) of our cohort, in contrast to previous cohorts in which mutations were undetected in >5% of the patients. These patients had at least five lesions and no history of head, neck, or intracranial radiation, suggesting clinical FCCM. There are several reasons that mutations were not detected. First, intronic variants or copy number variations in KRIT1, CCM2, and PDCD10 could not be detected by our DNA sequencing method. In fact, large deletion/duplication mutations, such as deletions spanning exons 2-10, accounted for 30-60% of CCM2 variants despite a low proportion (approximately 20%) of CCM2 variants. 13 , 14 Multiplex ligation-dependent probe amplification and whole genome sequencing are needed to identify these variants. Second, other gene mutations could induce FCCM despite the rarity of the disease. F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15 Furthermore, various genes related to CCM pathophysiology were recently discovered. 2 In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation. Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16 LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3. Therefore, the mutation of these genes could be a novel cause of FCCM. Finally, multiple sporadic CCMs are possible but rare."
+      },
+      {
+        "location": "b0098",
+        "context": "The proportions of CCM genes (KRIT1 69.2%, CCM2 15.4%, and PDCD10 15.4%) affected were similar to those in previous reports. 12 However, the patients without detected mutations accounted for a larger proportion (38.1%) of our cohort, in contrast to previous cohorts in which mutations were undetected in >5% of the patients. These patients had at least five lesions and no history of head, neck, or intracranial radiation, suggesting clinical FCCM. There are several reasons that mutations were not detected. First, intronic variants or copy number variations in KRIT1, CCM2, and PDCD10 could not be detected by our DNA sequencing method. In fact, large deletion/duplication mutations, such as deletions spanning exons 2-10, accounted for 30-60% of CCM2 variants despite a low proportion (approximately 20%) of CCM2 variants. 13 , 14 Multiplex ligation-dependent probe amplification and whole genome sequencing are needed to identify these variants. Second, other gene mutations could induce FCCM despite the rarity of the disease. F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15 Furthermore, various genes related to CCM pathophysiology were recently discovered. 2 In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation. Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16 LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3. Therefore, the mutation of these genes could be a novel cause of FCCM. Finally, multiple sporadic CCMs are possible but rare."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "MEKK3",
+    "entity_id": "G05",
+    "entity_type": "gene",
+    "locations": [
+      "b0098"
+    ],
+    "mention_ids": [
+      "M0295",
+      "M0300"
+    ],
+    "context_examples": [
+      {
+        "location": "b0098",
+        "context": "The proportions of CCM genes (KRIT1 69.2%, CCM2 15.4%, and PDCD10 15.4%) affected were similar to those in previous reports. 12 However, the patients without detected mutations accounted for a larger proportion (38.1%) of our cohort, in contrast to previous cohorts in which mutations were undetected in >5% of the patients. These patients had at least five lesions and no history of head, neck, or intracranial radiation, suggesting clinical FCCM. There are several reasons that mutations were not detected. First, intronic variants or copy number variations in KRIT1, CCM2, and PDCD10 could not be detected by our DNA sequencing method. In fact, large deletion/duplication mutations, such as deletions spanning exons 2-10, accounted for 30-60% of CCM2 variants despite a low proportion (approximately 20%) of CCM2 variants. 13 , 14 Multiplex ligation-dependent probe amplification and whole genome sequencing are needed to identify these variants. Second, other gene mutations could induce FCCM despite the rarity of the disease. F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15 Furthermore, various genes related to CCM pathophysiology were recently discovered. 2 In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation. Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16 LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3. Therefore, the mutation of these genes could be a novel cause of FCCM. Finally, multiple sporadic CCMs are possible but rare."
+      },
+      {
+        "location": "b0098",
+        "context": "The proportions of CCM genes (KRIT1 69.2%, CCM2 15.4%, and PDCD10 15.4%) affected were similar to those in previous reports. 12 However, the patients without detected mutations accounted for a larger proportion (38.1%) of our cohort, in contrast to previous cohorts in which mutations were undetected in >5% of the patients. These patients had at least five lesions and no history of head, neck, or intracranial radiation, suggesting clinical FCCM. There are several reasons that mutations were not detected. First, intronic variants or copy number variations in KRIT1, CCM2, and PDCD10 could not be detected by our DNA sequencing method. In fact, large deletion/duplication mutations, such as deletions spanning exons 2-10, accounted for 30-60% of CCM2 variants despite a low proportion (approximately 20%) of CCM2 variants. 13 , 14 Multiplex ligation-dependent probe amplification and whole genome sequencing are needed to identify these variants. Second, other gene mutations could induce FCCM despite the rarity of the disease. F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15 Furthermore, various genes related to CCM pathophysiology were recently discovered. 2 In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation. Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16 LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3. Therefore, the mutation of these genes could be a novel cause of FCCM. Finally, multiple sporadic CCMs are possible but rare."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Krit1",
+    "entity_id": "G06",
+    "entity_type": "gene",
+    "locations": [
+      "b0099"
+    ],
+    "mention_ids": [
+      "M0305"
+    ],
+    "context_examples": [
+      {
+        "location": "b0099",
+        "context": "Brainstem lesions were mostly associated with mutation detection in patients with multiple CCM lesions. In the comparison of the Mutation detected and the Mutation not detected groups, the locations specific to the Mutation detected group were obtained as the radiologic markers. Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18 Because sporadic and familial CCM have different pathophysiologies, the vulnerable sites or disease-specific lesion sites could differ. Radiologic markers could encourage physicians to proceed with genetic testing for FCCM patients. Genetic diagnosis of clinical FCCM patients induces cascade screening for family members, allowing early diagnosis of FCCM. As prevention and treatment methods improve, the importance of early diagnosis and screening for FCCM through genetic testing will increase. Currently, there are few therapeutic strategies for CCM. However, various preclinical studies for candidate therapeutics for CMM are ongoing. 2"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Ccm2",
+    "entity_id": "G07",
+    "entity_type": "gene",
+    "locations": [
+      "b0099"
+    ],
+    "mention_ids": [
+      "M0306"
+    ],
+    "context_examples": [
+      {
+        "location": "b0099",
+        "context": "Brainstem lesions were mostly associated with mutation detection in patients with multiple CCM lesions. In the comparison of the Mutation detected and the Mutation not detected groups, the locations specific to the Mutation detected group were obtained as the radiologic markers. Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18 Because sporadic and familial CCM have different pathophysiologies, the vulnerable sites or disease-specific lesion sites could differ. Radiologic markers could encourage physicians to proceed with genetic testing for FCCM patients. Genetic diagnosis of clinical FCCM patients induces cascade screening for family members, allowing early diagnosis of FCCM. As prevention and treatment methods improve, the importance of early diagnosis and screening for FCCM through genetic testing will increase. Currently, there are few therapeutic strategies for CCM. However, various preclinical studies for candidate therapeutics for CMM are ongoing. 2"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Pdcd10",
+    "entity_id": "G08",
+    "entity_type": "gene",
+    "locations": [
+      "b0099"
+    ],
+    "mention_ids": [
+      "M0307"
+    ],
+    "context_examples": [
+      {
+        "location": "b0099",
+        "context": "Brainstem lesions were mostly associated with mutation detection in patients with multiple CCM lesions. In the comparison of the Mutation detected and the Mutation not detected groups, the locations specific to the Mutation detected group were obtained as the radiologic markers. Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18 Because sporadic and familial CCM have different pathophysiologies, the vulnerable sites or disease-specific lesion sites could differ. Radiologic markers could encourage physicians to proceed with genetic testing for FCCM patients. Genetic diagnosis of clinical FCCM patients induces cascade screening for family members, allowing early diagnosis of FCCM. As prevention and treatment methods improve, the importance of early diagnosis and screening for FCCM through genetic testing will increase. Currently, there are few therapeutic strategies for CCM. However, various preclinical studies for candidate therapeutics for CMM are ongoing. 2"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Seizure",
+    "entity_id": "S01",
+    "entity_type": "symptom",
+    "locations": [
+      "b0041",
+      "b0042"
+    ],
+    "mention_ids": [
+      "M0135",
+      "M0136"
+    ],
+    "context_examples": [
+      {
+        "location": "b0041",
+        "context": "Seizure, % | 38.1 (8) | 44.4 (4) | 50.0 (1) | 50.0 (1) | 46.2 (6) | 25.0 (2)"
+      },
+      {
+        "location": "b0042",
+        "context": "Seizure onset, YO a | 34.5 (SD 19.5) | 39.5 (SD 12.7) | 16.00 (SD n/a) | 0.0 (SD n/a) | 29.0 (SD 19.7) | 51.0 (SD 2.8)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "seizure",
+    "entity_id": "S01",
+    "entity_type": "symptom",
+    "locations": [
+      "b0028",
+      "b0064",
+      "b0066",
+      "b0097",
+      "b0102"
+    ],
+    "mention_ids": [
+      "M0116",
+      "M0148",
+      "M0151",
+      "M0276",
+      "M0341"
+    ],
+    "context_examples": [
+      {
+        "location": "b0028",
+        "context": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1). In Table 1, clinical characteristics and imaging findings are described according to All, KRIT1, CCM2, PDCD10, Mutation detected, and Mutation not detected groups. The mean diagnosis ages of the overall and the last brain MRI were 36.8 (standard deviation, SD 18.5) and 45.0 (SD 18.5) years old, respectively. There was a slight female predominance (male: female = 38.1:61.9). A total of 90.5% of the patients were symptomatic, and seizures were the most common manifestation. Moreover, the mean age of seizure onset was 34.5 (SD 19.5) years. CASH occurred in 52.4% of the patients overall; the mean age of CASH was 29.4 (SD 18.8) years old, and the mean number of CASH events was 1.8 (SD 1.3). Overall, 33.3% of the patients underwent surgery for CASH or enlarged symptomatic CCM lesions. A total of 42.9% of the overall patients had a family history. However, the rate was inaccurate because the family history of CCM was usually obtained by history taking. Meanwhile, the lesions were distributed over various locations. The frequencies were lower in the basal ganglia (9.5%) and thalamus (42.9%) than in the other sites."
+      },
+      {
+        "location": "b0064",
+        "context": "P-values were obtained from the comparison between Mutation detected group and Mutation not detected group.YO, year-old; CASH, cavernous angiomas with a symptomatic hemorrhage; CM, cavernous malformation; FHx, family history; SD, standard deviation; NA, not applicable. a Mean and standard deviation were calculated from the groups with seizure or CASH.* P-value < 0.05.** P-value < 0.005."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "seizures",
+    "entity_id": "S01",
+    "entity_type": "symptom",
+    "locations": [
+      "b0028",
+      "b0066",
+      "b0097"
+    ],
+    "mention_ids": [
+      "M0115",
+      "M0150",
+      "M0275"
+    ],
+    "context_examples": [
+      {
+        "location": "b0028",
+        "context": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1). In Table 1, clinical characteristics and imaging findings are described according to All, KRIT1, CCM2, PDCD10, Mutation detected, and Mutation not detected groups. The mean diagnosis ages of the overall and the last brain MRI were 36.8 (standard deviation, SD 18.5) and 45.0 (SD 18.5) years old, respectively. There was a slight female predominance (male: female = 38.1:61.9). A total of 90.5% of the patients were symptomatic, and seizures were the most common manifestation. Moreover, the mean age of seizure onset was 34.5 (SD 19.5) years. CASH occurred in 52.4% of the patients overall; the mean age of CASH was 29.4 (SD 18.8) years old, and the mean number of CASH events was 1.8 (SD 1.3). Overall, 33.3% of the patients underwent surgery for CASH or enlarged symptomatic CCM lesions. A total of 42.9% of the overall patients had a family history. However, the rate was inaccurate because the family history of CCM was usually obtained by history taking. Meanwhile, the lesions were distributed over various locations. The frequencies were lower in the basal ganglia (9.5%) and thalamus (42.9%) than in the other sites."
+      },
+      {
+        "location": "b0066",
+        "context": "Even though there was no statistical significance in the clinical characteristics, some conditions were relatively disproportionate. While the gender ratio of Mutation detected was neutral, Mutation not detected demonstrated a female predominance. In the Mutation detected group, the prevalence of seizures was relatively higher (46.2%), and the age of seizure onset was younger (29.0 years old, SD 19.7) than in the Mutation not detected group (25.0%; 51.0 years old, SD 2.8). The Mutation not detected group had a lower frequency of family history. However, as mentioned above, the difference could result from the detection bias."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "FIAS",
+    "entity_id": "S02",
+    "entity_type": "symptom",
+    "locations": [
+      "b0076",
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0200",
+      "M0235"
+    ],
+    "context_examples": [
+      {
+        "location": "b0076",
+        "context": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)"
+      },
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "focal impaired awareness seizure",
+    "entity_id": "S02",
+    "entity_type": "symptom",
+    "locations": [
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0236"
+    ],
+    "context_examples": [
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "FBTCS",
+    "entity_id": "S03",
+    "entity_type": "symptom",
+    "locations": [
+      "b0076",
+      "b0078",
+      "b0083",
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0201",
+      "M0209",
+      "M0218",
+      "M0237"
+    ],
+    "context_examples": [
+      {
+        "location": "b0076",
+        "context": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)"
+      },
+      {
+        "location": "b0078",
+        "context": "K5 | Female | 50 | 52 | FBTCS (50YO) ← CASH (motor cortex) | None | 50 | 1 | Craniotomy | Yes | c.1094_1098del, p.Gly365Alafs*3 | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "focal to bilateral tonic-clonic seizure",
+    "entity_id": "S03",
+    "entity_type": "symptom",
+    "locations": [
+      "b0093"
+    ],
+    "mention_ids": [
+      "M0238"
+    ],
+    "context_examples": [
+      {
+        "location": "b0093",
+        "context": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Emotional seizure",
+    "entity_id": "S04",
+    "entity_type": "symptom",
+    "locations": [
+      "b0086"
+    ],
+    "mention_ids": [
+      "M0223"
+    ],
+    "context_examples": [
+      {
+        "location": "b0086",
+        "context": "C2 | Male | 16 | 19 | Emotional seizure followed by drowsy mentality ← CASH (frontal cortex) | None | 16 | 1 | Craniotomy | No | c.638T>C, p.Leu213Pro | No | Previously reported | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Headache",
+    "entity_id": "S05",
+    "entity_type": "symptom",
+    "locations": [
+      "b0036"
+    ],
+    "mention_ids": [
+      "M0128"
+    ],
+    "context_examples": [
+      {
+        "location": "b0036",
+        "context": "Headache, % | 23.8 (5) | 22.2 (2) | 0.0 (0) | 50.0 (1) | 23.1 (3) | 25.0 (2)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Nonspecific headache",
+    "entity_id": "S05",
+    "entity_type": "symptom",
+    "locations": [
+      "b0074",
+      "b0075",
+      "b0076",
+      "b0081",
+      "b0090"
+    ],
+    "mention_ids": [
+      "M0189",
+      "M0192",
+      "M0198",
+      "M0215",
+      "M0229"
+    ],
+    "context_examples": [
+      {
+        "location": "b0074",
+        "context": "K1 | Female | 59 | 59 | Nonspecific headache → CCM in Brain MRI | None | n/a | 0 | n/a | No | c.22_26del, p.Glu8Cysfs*22 | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Breast cancer"
+      },
+      {
+        "location": "b0075",
+        "context": "K2 | Female | 37 | 53 | Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons) | None | 37 | 4 | Craniotomy | No | c.535C>T, p.Arg179* | No | Previously reported | Thyroid cancer"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "headache",
+    "entity_id": "S05",
+    "entity_type": "symptom",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0174"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "neck pain",
+    "entity_id": "S06",
+    "entity_type": "symptom",
+    "locations": [
+      "b0070",
+      "b0076"
+    ],
+    "mention_ids": [
+      "M0175",
+      "M0204"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      },
+      {
+        "location": "b0076",
+        "context": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Dizziness",
+    "entity_id": "S07",
+    "entity_type": "symptom",
+    "locations": [
+      "b0037"
+    ],
+    "mention_ids": [
+      "M0129"
+    ],
+    "context_examples": [
+      {
+        "location": "b0037",
+        "context": "Dizziness, % | 9.5 (2) | 11.1 (1) | 50.0 (1) | 0.0 (0) | 15.4 (2) | 0.0 (0)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "dizziness",
+    "entity_id": "S07",
+    "entity_type": "symptom",
+    "locations": [
+      "b0080"
+    ],
+    "mention_ids": [
+      "M0213"
+    ],
+    "context_examples": [
+      {
+        "location": "b0080",
+        "context": "K7 | Male | 19 | 20 | Visual disturbance and dizziness ← CASH (occipital cortex) | None | 19 | 1 | Not done | Yes | c.1147-2A>G, p.? | Yes | Same as above | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Weakness",
+    "entity_id": "S08",
+    "entity_type": "symptom",
+    "locations": [
+      "b0038"
+    ],
+    "mention_ids": [
+      "M0130"
+    ],
+    "context_examples": [
+      {
+        "location": "b0038",
+        "context": "Weakness, Dysarthria, or Facial palsy, % | 33.3 (7) | 11.1 (1) | 50.0 (1) | 50.0 (1) | 23.1 (3) | 50.0 (4)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "sided weakness",
+    "entity_id": "S08",
+    "entity_type": "symptom",
+    "locations": [
+      "b0075"
+    ],
+    "mention_ids": [
+      "M0194"
+    ],
+    "context_examples": [
+      {
+        "location": "b0075",
+        "context": "K2 | Female | 37 | 53 | Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons) | None | 37 | 4 | Craniotomy | No | c.535C>T, p.Arg179* | No | Previously reported | Thyroid cancer"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Dysarthria",
+    "entity_id": "S09",
+    "entity_type": "symptom",
+    "locations": [
+      "b0038"
+    ],
+    "mention_ids": [
+      "M0131"
+    ],
+    "context_examples": [
+      {
+        "location": "b0038",
+        "context": "Weakness, Dysarthria, or Facial palsy, % | 33.3 (7) | 11.1 (1) | 50.0 (1) | 50.0 (1) | 23.1 (3) | 50.0 (4)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Facial palsy",
+    "entity_id": "S10",
+    "entity_type": "symptom",
+    "locations": [
+      "b0038"
+    ],
+    "mention_ids": [
+      "M0132"
+    ],
+    "context_examples": [
+      {
+        "location": "b0038",
+        "context": "Weakness, Dysarthria, or Facial palsy, % | 33.3 (7) | 11.1 (1) | 50.0 (1) | 50.0 (1) | 23.1 (3) | 50.0 (4)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Diplopia",
+    "entity_id": "S11",
+    "entity_type": "symptom",
+    "locations": [
+      "b0039"
+    ],
+    "mention_ids": [
+      "M0133"
+    ],
+    "context_examples": [
+      {
+        "location": "b0039",
+        "context": "Diplopia, % | 14.3 (3) | 22.2 (2) | 0.0 (0) | 0.0 (0) | 15.4 (2) | 12.5 (1)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "binocular diplopia",
+    "entity_id": "S11",
+    "entity_type": "symptom",
+    "locations": [
+      "b0075",
+      "b0079"
+    ],
+    "mention_ids": [
+      "M0195",
+      "M0211"
+    ],
+    "context_examples": [
+      {
+        "location": "b0075",
+        "context": "K2 | Female | 37 | 53 | Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons) | None | 37 | 4 | Craniotomy | No | c.535C>T, p.Arg179* | No | Previously reported | Thyroid cancer"
+      },
+      {
+        "location": "b0079",
+        "context": "K6 | Female | 36 | 50 | Sudden onset binocular diplopia (pons) | None | n/a | 0 | n/a | Yes | c.1147-2A>G, p.? | Yes | 2 PM (PVS1_Moderate + PM2) + 2 PP (PP1 + PP4) (LP) | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Visual symptoms",
+    "entity_id": "S12",
+    "entity_type": "symptom",
+    "locations": [
+      "b0040"
+    ],
+    "mention_ids": [
+      "M0134"
+    ],
+    "context_examples": [
+      {
+        "location": "b0040",
+        "context": "Visual symptoms, % | 14.3 (3) | 22.2 (2) | 0.0 (0) | 0.0 (0) | 15.4 (2) | 12.5 (1)"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Visual disturbance",
+    "entity_id": "S13",
+    "entity_type": "symptom",
+    "locations": [
+      "b0080"
+    ],
+    "mention_ids": [
+      "M0212"
+    ],
+    "context_examples": [
+      {
+        "location": "b0080",
+        "context": "K7 | Male | 19 | 20 | Visual disturbance and dizziness ← CASH (occipital cortex) | None | 19 | 1 | Not done | Yes | c.1147-2A>G, p.? | Yes | Same as above | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Central vertigo",
+    "entity_id": "S14",
+    "entity_type": "symptom",
+    "locations": [
+      "b0085"
+    ],
+    "mention_ids": [
+      "M0220"
+    ],
+    "context_examples": [
+      {
+        "location": "b0085",
+        "context": "C1 | Male | 4 | 8 | Central vertigo ← CASH (cerebellum) | Cutaneous | 4 | 1 | Craniotomy | Yes | c.55C>T, p.Arg19* | No | Previously reported | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "drowsy mentality",
+    "entity_id": "S15",
+    "entity_type": "symptom",
+    "locations": [
+      "b0086"
+    ],
+    "mention_ids": [
+      "M0224"
+    ],
+    "context_examples": [
+      {
+        "location": "b0086",
+        "context": "C2 | Male | 16 | 19 | Emotional seizure followed by drowsy mentality ← CASH (frontal cortex) | None | 16 | 1 | Craniotomy | No | c.638T>C, p.Leu213Pro | No | Previously reported | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Decreased mentality",
+    "entity_id": "S16",
+    "entity_type": "symptom",
+    "locations": [
+      "b0088"
+    ],
+    "mention_ids": [
+      "M0227"
+    ],
+    "context_examples": [
+      {
+        "location": "b0088",
+        "context": "P1 | Female | 0 | 1 | Decreased mentality ← CASH (brainstem) | None | 0 | 4 | Craniotomy | Yes | c.150+1dup, p.? | Yes | 1 PS (PVS1_Strong) + 2PP (PP1 + PP4) (LP) | None"
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "cerebral microbleeds",
+    "entity_id": "S17",
+    "entity_type": "phenotype",
+    "locations": [
+      "b0026"
+    ],
+    "mention_ids": [
+      "M0090"
+    ],
+    "context_examples": [
+      {
+        "location": "b0026",
+        "context": "A total of thirty-four patients underwent the CCM gene test. (Fig. 1) However, seven patients with multiple lesions were excluded because the lesions were regarded as non-CCM lesions, including cerebral microbleeds in small vessel disease (n = 5), diffuse axonal injury (n = 1), and multiple and recurrent intracerebral hemorrhages without CCM lesions (n = 1) by neuroradiologists. Of the remaining 27 patients, six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded. The twenty-one FCCM patients were divided into two groups: thirteen patients with pathogenic variants in CCM genes and eight patients with undetected mutations. The eight patients had multiple lesions suggestive of FCCM. All (n = 21) of the patients considered to be FCCM (gene confirmed or clinical) were analyzed for clinical manifestation and radiologic findings (cohort 1). Furthermore, four family members of three probands underwent a family gene test and had the same mutation as the proband. The data of twenty-five patients, combining cohort 1 with the familial members, were used for the analysis of the age-related disease burden in FCCM (cohort 2). There was neither a patient with a developmental venous anomaly nor a history of radiation in our cohort."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "severe neurological sequelae",
+    "entity_id": "S18",
+    "entity_type": "phenotype",
+    "locations": [
+      "b0070"
+    ],
+    "mention_ids": [
+      "M0165"
+    ],
+    "context_examples": [
+      {
+        "location": "b0070",
+        "context": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV."
+      }
+    ]
+  },
+  {
+    "paper_id": "PMC10014009",
+    "surface": "Transient positive visual symptom",
+    "entity_id": "S19",
+    "entity_type": "symptom",
+    "locations": [
+      "b0082"
+    ],
+    "mention_ids": [
+      "M0216"
+    ],
+    "context_examples": [
+      {
+        "location": "b0082",
+        "context": "K8 | Male | 67 | 68 | Transient positive visual symptom (29YO) → OLE | None | n/a | 0 | n/a | Yes | c.1961_1962del, p.Lys654fs*21 | No | Previously reported | None"
+      }
+    ]
+  }
+]

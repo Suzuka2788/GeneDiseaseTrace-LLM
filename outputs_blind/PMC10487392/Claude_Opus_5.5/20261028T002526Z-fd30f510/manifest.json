@@ -1,0 +1,99 @@
+{
+  "run_id": "20261028T002526Z-fd30f510",
+  "rule_version": "1.3.0",
+  "rule_hashes": {
+    "SKILL.md": "8469cd2e3cfd2c9672155957181a43b2463ff448cb0d517655d5c333f924062e",
+    "decision-rules.md": "00b8e4fd7b995248d2ac833f4027d992495dc0c7038940ef79a8656d31ae2958",
+    "data-contract.md": "f74cffa0fee82711ba58e759066dcc18cceb3430f8bc6641cc31e08a74ed2d4e"
+  },
+  "paper_id": "PMC10487392",
+  "title": "Deletion as novel variants in VPS13B gene in Cohen syndrome: Case series",
+  "article_type": "case-report",
+  "language": "en",
+  "input_path": "input/PMC10487392.xml",
+  "source_sha256": "6acd0775e893d1ae75ce3e0c4363a149bc6ecece844d28e475c58a3634646f54",
+  "annotation_hash": "fd30f510540b451bbbee08f48129bcff2071c4b83f77315db12b258a77403896",
+  "model_identifier": "claude-opus-5-5",
+  "exposure": {
+    "statement": "No prior exposure. In this session and in any memory available to me I have not seen prior analysis results for PMC10487392, other models' outputs for it, or the skill's boundary-cases.md / model-comparison.md / CHANGELOG.md. No persistent memories were loaded into this session's context (the memory directory was not opened, to respect the working-directory-only rule). Only files inside the working directory were read; no network or database queries were made.",
+    "blind": true
+  },
+  "completion": "complete",
+  "unread_attachments": [
+    {
+      "name": "Figures 1-5 (image files)",
+      "original_link": "linked graphics in XML",
+      "cited_at": [
+        "b0014",
+        "b0015",
+        "b0016",
+        "b0017",
+        "b0019",
+        "b0020",
+        "b0021"
+      ],
+      "reason": "Image pixels not analysed by parser; captions read.",
+      "depends_on_unread": false,
+      "dependency_detail": "Captions state the relevant inheritance results; no pair status depends on image content."
+    }
+  ],
+  "scope_overrides": [],
+  "scope_exclusions": [],
+  "text_normalization": "biomed.jats.normalize: NFKC; hyphen/dash/minus/apostrophe variants unified; whitespace collapsed",
+  "parser": {
+    "entrypoint": "biomed.jats.parse_article",
+    "sha256": "a0eb5fa7b4199c23c2a2d9c95f66b6458f8f8aeeec3c03f9147b430f9bdb5f81"
+  },
+  "toolkit_version": "0.1.0",
+  "toolkit_hashes": {
+    "__init__.py": "b000475e258418b4453f90adde0eda340030b7d422a5409f1a740cf24b3564e1",
+    "blocks.py": "3f545d4d6e095faa67752510a2310503bc99a2cafff252f884157f0a994ac512",
+    "build.py": "5c11008a6e947d19caf3931694336f3edfea998a5d5c187539df2d19602062b9",
+    "common.py": "e35b9dbf280ba543d6dd204aec3d5b0c4d9b2d09839a656570fed794f1fb08b5",
+    "find.py": "00f0de3bfeded6bb6d50a8a11e8631a1c3ce3081924c04b2531c51e05f6344ea",
+    "render.py": "281756fa128852d315d0bfeb71b599108b5803a7896581c30073a1891f967f60",
+    "validate.py": "525e09cd8c254e84dfc602a5ec6b370c24d92f8c7f3d9230c9018f3436855b83"
+  },
+  "counts": {
+    "units": 1,
+    "genes": 2,
+    "targets": 4,
+    "auxiliary_entities": 25,
+    "excluded_candidates": 10,
+    "mentions": 126,
+    "pairs": 8,
+    "edges": 2,
+    "evidence": 23,
+    "study_findings": 4,
+    "data_conflicts": 5
+  },
+  "status_counts": {
+    "supported": 2,
+    "explicit_negative": 0,
+    "uncertain": 0,
+    "not_found": 6
+  },
+  "check_limits": "Toolkit checks structure, quotes, offsets, matrix and graph consistency only; not semantic correctness.",
+  "output_files": [
+    "auxiliary_entities.csv",
+    "data_conflicts.csv",
+    "edges.csv",
+    "entities.csv",
+    "evidence.csv",
+    "excluded_candidates.csv",
+    "gene_sets.csv",
+    "graph.graphml",
+    "graph.svg",
+    "index.html",
+    "judgments.json",
+    "manifest.json",
+    "mentions.csv",
+    "pairs.csv",
+    "result.json",
+    "rule_feedback.md",
+    "source_blocks.json",
+    "study_findings.csv",
+    "unresolved.csv",
+    "validation.json"
+  ]
+}

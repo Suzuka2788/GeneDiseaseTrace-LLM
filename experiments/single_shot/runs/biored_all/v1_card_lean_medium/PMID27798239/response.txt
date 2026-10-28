@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PI4KIIb|PI4KIIb;PI4K2B;Phosphatidylinositol 4-kinase IIb|p|other|human||
+E|G2|gene|PI4KIIa|PI4KIIa|r||human||
+E|G3|gene|MT1-MMP|MT1-MMP;membrane type I matrix metalloproteinase|r||human||
+E|G4|gene|Rab5|Rab5|r||human||
+E|G5|gene|Rab7|Rab7|r||human||
+E|G6|gene|Rab8|Rab8|r||human||
+E|D1|disease|human cancers|cancers|r||||
+E|S1|phenotype|invasive cellular phenotype|invasive cellular phenotype|r||||
+X|PI4KII|b0002|gene family, not a single gene
+X|type II phosphatidylinositol 4-kinase|b0002|gene family, not a single gene
+X|clathrin adaptors|b0002|protein group, not a single gene
+EV|V1|b0002.s8|ts|res|aff|rr
+EV|V2|b0002.s9|ts|int|hyp|ho
+EV|V3|b0002.s4+b0002.s7|ts|res|na|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||Database mining: PI4K2B loss and underexpression associated with cancers
+F|F1|association|PI4K2B allele loss, PI4KIIb mRNA underexpression|human cancers, oncogenomic databases|unknown|negative|not_reported|V1|abstract only, no statistics
+F|F2|mechanism|PI4KIIb depletion, invadopodia, invasion|HeLa and MCF-7 cells|unknown|positive|not_reported|V3+V2|cell phenotype, no disease link
+R|merging|b0002.s8|PI4K2B allele and PI4KIIb mRNA are not explicitly defined as the same gene.|Merged by co-reference in the same sentence; marked provisional.

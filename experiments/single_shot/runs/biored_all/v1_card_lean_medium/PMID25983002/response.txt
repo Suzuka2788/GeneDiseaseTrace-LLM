@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|LDHA|LDHA;Lactate dehydrogenase A|r||human||
+E|G2|gene|MMP-9|MMP-9|r||human||
+E|G3|gene|PLAU|PLAU|r||human||
+E|G4|gene|cathepsin B|cathepsin B|r||human||
+E|D1|disease|prostate cancer|prostate cancer|r||||
+E|D2|disease|benign prostate hyperplasia|benign prostate hyperplasia|r||||
+E|D3|disease|cancer|cancer|r||||
+E|D4|disease|tumor|tumor|p|other|||
+E|S1|phenotype|Warburg effect|Warburg effect|r||||
+X|PC-3|b0002.s5|cell line, not gene or disease
+X|DU145|b0002.s5|cell line, not gene or disease
+X|FX11|b0002.s5|LDHA inhibitor compound, not gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s4|ts|res|aff|rr,cmp
+EV|V3|b0002.s5+b0002.s6|ts|res|aff|rr,mi
+EV|V4|b0002.s7|ts|int|aff|eda
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V4|||Overexpression in prostate cancer versus BPH tissues
+P|G1|D4|sup|a|bg|sup:a:bg:V1|||Background: LDHA involved in tumor progression
+P|G1|D2|nf|-|||||V2|BPH used only as comparator tissue
+P|G1|D3|nf|-|||||V1|Generic cancer hallmark sentence, no LDHA link
+F|F1|group_comparison|LDHA expression; tissue type|prostate cancer vs BPH tissues|unknown|positive|not_reported|V2|abstract only, no statistics
+F|F2|mechanism|LDHA knockdown/FX11; proliferation, invasion, apoptosis|PC-3 and DU145 cells|unknown|positive|not_reported|V3|cell phenotypes only
+F|F3|mechanism|LDHA knockdown; MMP-9, PLAU, cathepsin B expression|PC-3 and DU145 cells|unknown|positive|not_reported|V3|cell-line data only
+R|cell-line knockdown evidence|b0002.s5|Knockdown phenotypes in cancer cell lines; not an animal model|Not used for causal; association from tissue comparison

@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ABCG2|ABCG2|r||human||
+E|D1|clinical_event|irinotecan-induced severe myelosuppression|irinotecan-induced severe myelosuppression;severe myelosuppression;myelosuppression|r||||
+E|D2|disease|colorectal cancer|colorectal|p|other|||
+E|D3|disease|lung cancer|lung cancers|r||||
+E|S1|symptom|diarrhea|diarrhea|r||||
+X|rs2622604|b0002|variant ID
+EV|V1|b0001.s1|ts|res|aff|rr
+EV|V2|b0002.s2+b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s6|ts|int|hyp|ho
+EV|V4|b0002.s1|bg|co|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2;unc:c:ts:V3|||Case-control SNP association significant after correction
+P|G1|D2|nf|-||||V4|Cancer only mentioned as irinotecan indication
+F|F1|association|rs2622604 genotype vs severe myelosuppression|irinotecan patients, combined two stages|significant|unknown|partial|V2|small sample; risk allele not stated
+F|F2|association|170 SNPs in 14 genes vs myelosuppression|stage 1: 23 cases, 58 controls|mixed|unknown|partial|V2|five SNPs P<0.01; genes unnamed
+R|surface form|b0002.s1|"colorectal cancer" not verbatim; only "colorectal and lung cancers"|Used "colorectal" as surface; identity provisional

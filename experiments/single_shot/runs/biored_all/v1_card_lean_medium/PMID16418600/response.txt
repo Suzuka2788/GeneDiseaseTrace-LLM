@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TSPYL1|TSPYL1|r||human||
+E|D1|disease|sudden infant death syndrome|sudden infant death syndrome;Sudden infant death syndrome;SIDS|r||||
+E|D2|disease|sudden infant death with dysgenesis of the testes syndrome|sudden infant death with dysgenesis of the testes syndrome;SIDDT|r||||
+E|S1|phenotype|dysgenesis of the testes|dysgenesis of the testes|r||||
+X|p.F366L|b0002.s7|variant ID, not a gene
+X|457_458insG|b0002.s10|variant ID, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s9|bg|bgr|aff|ebr
+EV|V3|b0002.s6|ts|neg|neg|cmp
+EV|V4|b0002.s11|ts|neg|neg|cmp
+EV|V5|b0002.s7+b0002.s8|ts|hyp|hyp|do,ho
+EV|V6|b0002.s10|ts|res|na|do
+EV|V7|b0002.s12|ts|int|q|unc
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:c:bg:V2|||Background: loss-of-function TSPYL1 mutations cause SIDDT
+P|G1|D1|neg|-|ts|neg:-:ts:V3+V4;unc:-:ts:V5||V6+V7|No allele frequency difference; association tested, none found
+F|F1|group_comparison|TSPYL1 variant allele frequencies|126 SIDS cases vs 261 controls|not_significant|null|not_reported|V3+V4|German cohort; abstract only
+F|F2|descriptive|heterozygous p.F366L, absent in controls|one female SIDS patient|not_applicable|not_applicable|not_applicable|V5|single case; pathogenicity unresolved
+F|F3|descriptive|SIDDT mutation 457_458insG not detected|SIDS cohort|not_applicable|not_applicable|not_applicable|V6|

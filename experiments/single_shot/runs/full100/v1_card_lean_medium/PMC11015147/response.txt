@@ -1,0 +1,91 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text incl. Tables 1-6; references removed
+E|G1|gene|ACAN|ACAN;aggrecan;Aggrecan;ACNA|p|suspected_typo|human||
+E|G2|gene|SHOX|SHOX|r||human||
+E|G3|gene|NPR2|NPR2|r||human||
+E|G4|gene|tenascin-C|tenascin-C|r||human||
+E|D1|disease|short stature|short stature;Short stature|r||||
+E|D2|disease|familial short stature|familial short stature|r|||D1|
+E|D3|disease|isolated short stature|Isolated short stature|r|||D1|
+E|D4|disease|idiopathic short stature|idiopathic short stature;ISS|r|||D1|
+E|D5|disease|spondyloepiphyseal dysplasia, Kimberley type|spondyloepiphyseal dysplasia, Kimberley type;SEDK|r||||
+E|D6|disease|spondyloepimetaphyseal dysplasia|spondyloepimetaphyseal dysplasia;SEMD|r||||
+E|D7|disease|spondyloepimetaphyseal dysplasia, aggrecan type|spondyloepimetaphyseal dysplasia, aggrecan type;SEMDAG|r|||D6|
+E|D8|disease|early-onset osteoarthritis|early-onset osteoarthritis;Early-onset osteoarthritis;OA;early-onset OA;Early-onset OA|r||||
+E|D9|disease|secondary OA|secondary OA|r|||D8|
+E|D10|disease|osteochondritis dissecans|osteochondritis dissecans;Osteochondritis dissecans;OCD|r||||
+E|D11|disease|familial OCD|familial OCD|r|||D10|
+E|D12|disease|intervertebral disc diseases|intervertebral disc diseases;Intervertebral disc diseases;IDD|r||||
+E|D13|disease|small for gestational age|small for gestational age;Small for gestational age;SGA|p|other|||
+E|D14|disease|growth hormone deficiency|growth hormone deficiency;GHD|r||||
+E|D15|disease|Hodgkin lymphoma|Hodgkin lymphoma|r||||
+E|D16|disease|skeletal dysplasia|skeletal dysplasia|r||||
+E|D17|disease|dentinogenesis imperfecta|dentinogenesis imperfecta|r||||
+E|D18|disease|growth plate dysfunction|growth plate dysfunction|r||||
+E|D19|disease|disorders of linear growth|disorders of linear growth|r||||
+E|D20|disease|endocrine disorders|endocrine disorders|r||||
+E|D21|disease|arthritis|arthritis|r||||
+E|D22|disease|spontaneous osteonecrosis|spontaneous osteonecrosis|r||||
+E|S1|phenotype|brachydactyly|brachydactyly|r||||
+E|S2|phenotype|midfacial hypoplasia|midfacial hypoplasia|r||||
+E|S3|phenotype|early growth cessation|early growth cessation|r||||
+E|S4|phenotype|advanced BA|advanced BA|r||||
+E|S5|phenotype|precocious puberty|precocious puberty|r||||
+X|IGF-1|b0124|lab measurement, not gene endpoint
+X|IGFBP3|b0124|lab measurement, not gene endpoint
+X|rhGH|b0122|drug
+X|GnRHa|b0122|drug
+X|MIM 155760|b0012|identifier
+EV|V1|b0122.s1|ts|res|aff|eda
+EV|V2|b0125.s3+b0125.s4+b0125.s6|ts|res|aff|cs
+EV|V3|b0012.s7|bg|bgr|aff|ebr
+EV|V4|b0297.s6+b0297.s7|bg|bgr|aff|ebr
+EV|V5|b0297.s8|ts|int|hyp|ho
+EV|V6|b0298.s1|bg|bgr|aff|ebr
+EV|V7|b0013.s4|bg|bgr|aff|ebr
+EV|V8|b0188.s1|bg|bgr|aff|ebr
+EV|V9|b0311.s1|bg|bgr|aff|ebr
+EV|V10|b0078.s1+b0080.s1+b0088.s1+b0099.s1+b0115.s1|bg|bgr|aff|ebr
+EV|V11|b0301.s2+b0302.s1|bg|bgr|aff|ebr
+EV|V12|b0300.s4+b0300.s5+b0300.s9|bg|bgr|aff|ebr
+EV|V13|b0324.s1|ts|res|aff|rr
+EV|V14|b0305.s1|bg|bgr|aff|ebr
+EV|V15|b0304.s1|ts|int|hyp|ho
+EV|V16|b0307.s3+b0307.s4|bg|bgr|aff|ebr
+EV|V17|b0307.s5|ts|int|hyp|unc
+EV|V18|b0012.s6|bg|bgr|aff|ebr
+EV|V19|b0312.s6|ts|hyp|hyp|ho
+EV|V20|b0009.s2+b0302.s5+b0309.s6|ts|res|na|rr
+EV|V21|b0007.s7+b0283.s1|ts|res|na|rr
+EV|V22|b0286.s1+b0319.s1|ts|res|na|rr
+EV|V23|b0288.s1+b0294.s1+b0320.s2|ts|neg|na|rr
+EV|V24|b0147.s1+b0148.s1+b0153.s1+b0154.s1+b0160.s1|ts|co|na|do
+EV|V25|b0078.s1|bg|co|na|do
+EV|V26|b0227.s2+b0227.s3|bg|co|na|do
+EV|V27|b0298.s6|bg|hyp|hyp|ho
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2;sup:a:ts:V13|||Authors attribute familial short stature to variants
+P|G1|D2|sup|a|bg|sup:a:bg:V3|||Variant prevalence in familial short stature
+P|G1|D3|sup|c|bg|sup:c:bg:V6|||Background: short stature induced by ACAN
+P|G1|D4|sup|a|bg|sup:a:bg:V4;unc:c:ts:V5|hedged_claim||Cohort prevalence 1.1-1.4% in ISS
+P|G1|D5|sup|c|bg|sup:c:bg:V7;sup:a:bg:V8;unc:c:ts:V19|hedged_claim||Background: heterozygous variants lead to SEDK
+P|G1|D6|sup|a|bg|sup:a:bg:V10|||Table 1 cited SEMD variant rows
+P|G1|D7|sup|c|bg|sup:c:bg:V7+V9;unc:c:ts:V19|hedged_claim||SEMDAG caused by homozygous ACAN variants
+P|G1|D8|sup|c|bg|sup:c:bg:V7;sup:a:bg:V11;sup:a:ts:V13|||Background causal plus review association
+P|G1|D10|sup|c|bg|sup:c:bg:V7+V12;sup:a:ts:V13;unc:c:ts:V19|hedged_claim||Background causal; review association
+P|G1|D11|sup|a|bg|sup:a:bg:V12|||ACAN mutation-related familial OCD reported
+P|G1|D12|sup|a|both|sup:a:bg:V14;sup:a:ts:V13;unc:c:ts:V15|hedged_claim||Carriers diagnosed with IDD; review association
+P|G1|D13|sup|a|bg|sup:a:bg:V16;unc:a:ts:V17|hedged_claim||ACAN variants found in SGA cohorts
+P|G1|D14|nf|-|||||V27|Hypothesis concerns delayed BA, not ACAN-GHD
+P|G1|D15|nf|-|||||V25|Table co-occurrence only
+P|G1|D16|nf|-|||||V26|Prenatal suspicion co-occurrence only
+P|G2|D4|sup|a|bg|sup:a:bg:V18|||Variants reported in 2-4.2% of ISS
+P|G3|D4|sup|a|bg|sup:a:bg:V18|||Variants reported in 2% of ISS
+F|F1|group_comparison|height SDS before vs after rhGH|48 treated ACAN-variant children|significant|positive|available|V21|pooled literature data
+F|F2|group_comparison|height SDS treated children vs untreated adults|ACAN carriers, 44 untreated parents|significant|positive|available|V22|some not at adult height
+F|F3|group_comparison|rhGH+GnRHa vs rhGH-only efficacy|treated ACAN-variant children|not_significant|null|available|V23|
+F|F4|association|genotype vs phenotype|ACAN variant carriers|unknown|null|not_reported|V20|no formal test reported
+F|F5|descriptive|phenotype prevalence|314 heterozygous carriers|not_applicable|not_applicable|available|V24|
+C|C1|c.6229delG protein notation|b0007.s1+b0129.s10+b0095.s1|noncritical|unresolved|Tfs*1 vs Thrfs*14; nonsense vs frameshift
+C|C2|OCD-associated variant count|b0300.s5+b0154.s1|noncritical|unresolved|Text 8 variants; Table 1 lists 10
+C|C3|c.757+1G>A ACMG class|b0125.s5+b0182.s1|noncritical|unresolved|possible vs likely pathogenic
+R|SGA entity type|b0307|Birth status vs disease endpoint unclear|Kept as provisional disease to evaluate pair

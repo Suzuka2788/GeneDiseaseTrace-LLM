@@ -1,0 +1,31 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SGK1|SGK1;Serum- and glucocorticoid-inducible kinase 1|p|species_unresolved||||
+E|G2|gene|sgk1 (mouse)|sgk1;SGK1|p|species_unresolved|non-human|||
+E|D1|disease|nephrotic syndrome|nephrotic syndrome|r||||
+E|D2|disease|doxorubicin-induced nephropathy|Doxorubicin-induced nephropathy|r||||
+E|D3|disease|renal fibrosis|renal fibrosis|r||||
+E|D4|disease|uremia|uremia|r||||
+E|S1|phenotype|proteinuria|proteinuria|r||||
+E|S2|symptom|ascites|ascites|r||||
+E|S3|phenotype|lipidemia|lipidemia|r||||
+E|S4|phenotype|hypoalbuminemia|hypoalbuminemia|r||||
+E|S5|phenotype|volume retention|volume retention|r||||
+X|epithelial sodium channel (ENaC)|b0002|multi-subunit channel complex, not single-gene endpoint
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s9|ts|neg|neg|rr,cmp,mi
+EV|V3|b0002.s8|ts|res|aff|rr,cmp,mi
+EV|V4|b0002.s5|ts|neg|neg|rr,cmp,mi
+EV|V5|b0002.s3|ts|aim|q|none
+P|G1|D3|sup|c|bg|sup:c:bg:V1||V2|Background: SGK1 mediates renal fibrosis after mineralocorticoid excess
+P|G2|D3|neg|-|ts|neg:-:ts:V2|||SGK1 knockout not protected from fibrosis in nephrotic model
+P|G2|D1|neg|-|ts|neg:-:ts:V4|||Equal nephrotic syndrome incidence in both genotypes
+P|G2|D4|sup|c|ts|sup:c:ts:V3|||Knockout mice developed faster uremia; non-human model
+P|G1|D1|nf|-||||V5|Aim only in title and abstract
+F|F1|group_comparison|proteinuria incidence by genotype|doxorubicin-treated sgk1+/+ vs sgk1-/- mice|not_applicable|null|partial|V4|counts only, no test reported
+F|F2|group_comparison|urinary sodium excretion; body weight gain|nephrotic sgk1+/+ vs sgk1-/- mice|significant|positive|partial|V6|no p-values given
+F|F3|group_comparison|serum urea rise; median survival|nephrotic sgk1-/- vs sgk1+/+ mice|significant|negative|partial|V3|survival test not stated
+F|F4|descriptive|aldosterone; SGK1 protein expression|nephrotic mice|unknown|positive|not_reported|V7|
+EV|V6|b0002.s7|ts|res|na|rr,cmp
+EV|V7|b0002.s6|ts|res|na|do
+R|species|b0002.s2|Background SGK1 has no stated species; study gene is mouse|Split into unspecified-species G1 and non-human G2

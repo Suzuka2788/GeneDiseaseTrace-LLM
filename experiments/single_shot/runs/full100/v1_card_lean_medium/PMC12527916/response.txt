@@ -1,0 +1,119 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text and captions read; extended data figures and supplements unread
+E|g1|gene|ATM|ATM;ataxia telangiectasia mutated|r||human||
+E|g2|gene|RBBP8|CtIP;RBBP8|r||human||
+E|g3|gene|ERCC6L2|ERCC6L2;ERCC excision repair 6 like 2|r||human||
+E|g4|gene|RNF138|RNF138|r||human||
+E|g5|gene|MRE11|MRE11|r||human||
+E|g6|gene|RAD50|RAD50|r||human||
+E|g7|gene|NBS1|NBS1|r||human||
+E|g8|gene|EXO1|EXO1|r||human||
+E|g9|gene|DNA2|DNA2|r||human||
+E|g10|gene|BLM|BLM|r||human||
+E|g12|gene|H2AX|H2AX|r||human||
+E|g13|gene|RPA2|RPA2|r||human||
+E|g14|gene|RAD51|RAD51|r||human||
+E|g15|gene|BRCA1|BRCA1|r||human||
+E|g16|gene|FUS|FUS|r||human||
+E|g18|gene|53BP1|53BP1|r||human||
+E|g19|gene|Abraxas|Abraxas|r||human||
+E|g20|gene|BRCC36|BRCC36|r||human||
+E|g21|gene|Lamin B1|Lamin B1|r||human||
+E|g22|gene|GAPDH|GAPDH|r||human||
+E|g23|gene|β-actin|β-actin;β-Actin|r||human||
+E|g24|gene|SIAH1|SIAH1|r||human||
+E|g25|gene|RNF4|RNF4|r||human||
+E|g26|gene|KLHL15|KLHL15|r||human||
+E|g27|gene|FZR1|FZR1|r||human||
+E|g28|gene|ZMYND11|ZMYND11|r||human||
+E|g29|gene|ZEB2|ZEB2|r||human||
+E|g30|gene|TOPORS|TOPORS|r||human||
+E|g31|gene|UHRF2|UHRF2|r||human||
+E|g32|gene|ZMYND8|ZMYND8|r||human||
+E|g33|gene|RBX1|RBX1|r||human||
+E|g34|gene|RLIM|RLIM|r||human||
+E|g35|gene|Caspase-3|Caspase-3|r||human||
+E|g36|ambiguous_gene|MRI|MRI|u|undefined_abbreviation|human||
+E|d1|disease|cancer|cancer;cancers|r||||
+E|d2|disease|lung cancer|lung cancer|r|||d1|
+E|d3|disease|colorectal cancer|colorectal cancer;CRC|r|||d1|
+E|d4|disease|bone marrow failure syndrome|bone marrow failure syndrome|r||||
+E|d6|disease|ATM-deficient cancers|ATM-deficient cancers|r|||d1|
+E|d7|disease|Colon Cancer|Colon Cancer;COAD|r|||d1|
+E|d8|disease|Rectal Cancer|Rectal Cancer;READ|r|||d1|
+E|d9|disease|Bladder Cancer|Bladder Cancer;BLCA|r|||d1|
+E|d10|disease|Breast Cancer|Breast Cancer;BRCA|r|||d1|
+E|d11|disease|Glioblastoma|Glioblastoma;GBM|r||||
+E|d12|disease|Kidney Clear Cell Carcinoma|Kidney Clear Cell Carcinoma;KIRC|r||||
+E|d13|disease|Kidney Papillary Cell Carcinoma|Kidney Papillary Cell Carcinoma;KIRP|r||||
+E|d14|disease|Lung Squamous Cell Carcinoma|Lung Squamous Cell Carcinoma;LUSC|r||||
+E|d15|disease|Prostate Cancer|Prostate Cancer;PRAD|r|||d1|
+E|d16|disease|Thyroid Cancer|Thyroid Cancer;THCA|r|||d1|
+E|d17|disease|Endometrioid Cancer|Endometrioid Cancer;UCEC|r|||d1|
+E|d18|disease|Bile Duct Cancer|Bile Duct Cancer;CHOL|r|||d1|
+E|d19|disease|Stomach Cancer|Stomach Cancer;STAD|r|||d1|
+E|d20|disease|Cervical Cancer|Cervical Cancer;CESC|r|||d1|
+E|d21|disease|Kidney Chromophobe|Kidney Chromophobe;KICH|r||||
+E|d22|disease|Esophageal Cancer|Esophageal Cancer;ESCA|r|||d1|
+E|d23|disease|Head and Neck Cancer|Head and Neck Cancer;HNSC|r|||d1|
+E|d24|disease|Liver Cancer|Liver Cancer;LIHC|r|||d1|
+E|d25|disease|Lung Adenocarcinoma|Lung Adenocarcinoma;LUAD|r||||
+E|d26|disease|Pancreatic Cancer|Pancreatic Cancer;PAAD|r|||d1|
+E|d27|disease|Pheochromocytoma and Paraganglioma|Pheochromocytoma and Paraganglioma;PCPG|r||||
+E|d28|disease|Sarcoma|Sarcoma;SARC|r||||
+E|d29|disease|Thymoma|Thymoma;THYM|r||||
+E|ph1|phenotype|ATMi resistance|ATMi resistance|r||||
+X|ataxia telangiectasia|b0002|part of gene name ATM, not a disease mention
+X|Fanconi anaemia (FA) pathway|b0007|pathway name, not a disease mention
+X|MRN|b0006|protein complex, not a single gene
+X|Ku70/80|b0049|protein complex, not a single gene
+X|SWI/SNF family|b0008|protein family, not a single gene
+X|Ub|b0060|ubiquitin, multi-gene product used as a reagent
+X|H3|b0064|histone family loading control
+X|KU-60019|b0012|drug identifier
+X|Q5T890|b0126|UniProt identifier
+X|WRN9-13|b0006|gene name fused with citation numbers, no clean surface form
+X|SFPQ22,23,48|b0049|gene name fused with citation numbers, no clean surface form
+X|leukaemia18-20|b0008|disease name fused with citation numbers, no clean surface form
+EV|V1|b0008.s3|bg|bgr|q|ebr,unc
+EV|V2|b0002.s6+b0044.s8|ts|res|aff|rr,cmp
+EV|V3|b0009.s4|ts|res|aff|rr
+EV|V4|b0115.s1+b0115.s2+b0115.s4|ts|res|q|rr,unc
+EV|V5|b0046.s1|bg|bgr|aff|ebr
+EV|V6|b0044.s4+b0044.s5+b0045.s5+b0045.s7|ts|res|na|rr
+EV|V7|b0012.s3+b0012.s5|ts|res|na|rr
+P|g3|d1|sup|a|ts|sup:a:ts:V2+V3|||Downregulated in multiple cancer types per TCGA
+P|g3|d4|unc|-|bg|unc:-:bg:V1|scope||Implication may refer to the SWI/SNF family only
+P|g1|d1|sup|a|bg|sup:a:bg:V5|||ATM recurrently mutated across cancer types
+P|g3|d3|nf|-||||V6|Within-CRC gene-gene correlation only
+P|g2|d3|nf|-||||V6|Within-CRC gene-gene correlation only
+P|g3|d7|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d8|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d9|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d10|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d11|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d12|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d13|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d14|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d15|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d16|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d17|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d18|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d19|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d20|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d21|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d22|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d23|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d24|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d25|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d26|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d27|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d28|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+P|g3|d29|unc|-|ts|unc:-:ts:V4|missing_material,scope||Per-type result in unread Extended Data Fig. 8
+F|F1|group_comparison|ERCC6L2 mRNA tumour vs normal|TCGA pan-cancer, 23 types|unknown|negative|unread|V2+V4|Per-type significance not readable
+F|F2|correlation|ERCC6L2 vs CtIP IHC levels|CRC cohort n=127|significant|positive|partial|V6|r and P values not in text
+F|F3|group_comparison|ERCC6L2 KO vs control ATMi response|cell lines and DLD-1 xenografts|significant|positive|partial|V7|Phenotype outcome, not disease
+U|Extended Data Fig. 8|b0044.s8;b0115.s1|Figure panels not provided as text
+U|Supplementary Tables 1-5|b0012.s2;b0024.s3;b0092.s2|Supplementary files not provided
+R|unread per-type data|b0115.s4|A general downregulation claim exists, but per-type direction is unreadable|Set general cancer pair supported; each specific type uncertain (missing_material)
+R|citation-fused names|b0006.s2;b0008.s3;b0049.s1|WRN, SFPQ, leukaemia appear only fused with citation numbers|Entities omitted; ERCC6L2-leukaemia would be uncertain (scope), like d4

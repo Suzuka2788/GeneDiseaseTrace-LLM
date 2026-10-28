@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|EDN1|EDN1;ET-1;Endothelin-1;endothelin-1;preproET-1|r|||human||
+E|D1|disease|hypertension|hypertensive;hypertensives|p|other||||
+E|D2|disease|obesity|obesity|r|||||
+E|S1|phenotype|blood pressure|blood pressure||||||
+E|S2|phenotype|overweight|overweight||||||
+X|Lys198Asn|b0001|variant identifier
+X|-134delA|b0001|variant identifier
+X|3A/4A|b0002|variant genotype label
+X|big ET-1|b0002|peptide product, not separate gene
+EV|V1|b0002.s2+b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s8|ts|neg|neg|cmp
+EV|V3|b0002.s11|ts|hyp|hyp|ho
+EV|V4|b0002.s6+b0002.s7|ts|neg|neg|cmp
+EV|V5|b0002.s9|ts|res|aff|cmp
+P|G1|D1|nf|-|||||V2|Within-hypertensive ET-1 comparison; BP is phenotype only
+P|G1|D2|nf|-|||||V3|Obesity only a hypothetical interacting factor
+F|F1|association|EDN1 Lys198Asn vs blood pressure|overweight people|significant|positive|not_reported|V1|background report
+F|F2|group_comparison|Lys198Asn type vs ET-1/big ET-1 secretion|three transfected cell lines|not_significant|null|not_reported|V4|
+F|F3|group_comparison|Lys198Asn carrier vs plasma ET-1|hypertensive patients|not_significant|null|not_reported|V2|abstract only
+F|F4|group_comparison|-134delA 3A/3A vs 3A/4A plasma ET-1|study individuals|significant|unknown|not_reported|V5|direction not stated in abstract
+F|F5|hypothesis|LD variant or obesity interaction elevating BP|unspecified|not_applicable|not_applicable|not_applicable|V3|

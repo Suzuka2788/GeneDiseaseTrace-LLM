@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|glucocorticoid receptor|human glucocorticoid receptor;hGR;hGRalpha;glucocorticoid receptor|r||human||
+E|G2|gene|glucocorticoid receptor-interacting protein 1|glucocorticoid receptor-interacting protein 1|r||human||
+E|D1|disease|tissue-selective glucocorticoid hypersensitivity|tissue-selective glucocorticoid hypersensitivity|r||||
+E|D2|disease|obesity|obesity|r||||
+E|D3|disease|hypertension|hypertension|r||||
+E|D4|disease|metabolic syndrome|metabolic syndrome|r||||
+E|S1|phenotype|cortisol excess or deficiency|cortisol excess or deficiency|r||||
+X|mouse mammary tumor virus promoter|b0002|viral reporter promoter, not a disease
+X|D401H|b0002|variant ID
+X|glucocorticoid response elements|b0002|DNA element, not a gene
+EV|V1|b0002.s1|bg|hyp|hyp|ho
+EV|V2|b0002.s2+b0002.s3|ts|co|na|do
+EV|V3|b0002.s5+b0002.s7|ts|res|na|rr
+EV|V4|b0002.s8|ts|hyp|hyp|ho
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V3||hedged_claim|V1|Variant detected in patient; attribution only implied
+P|G1|D2|unc|-|ts|unc:-:ts:V4||hedged_claim||Authors state mutation may predispose
+P|G1|D3|unc|-|ts|unc:-:ts:V4||hedged_claim||Authors state mutation may predispose
+P|G1|D4|unc|-|ts|unc:-:ts:V4||hedged_claim||Authors state mutation may predispose
+F|F1|mechanism|hGRalphaD401H vs wild-type transactivation|in vitro cells, dexamethasone|unknown|positive|partial|V3|significance not stated in abstract

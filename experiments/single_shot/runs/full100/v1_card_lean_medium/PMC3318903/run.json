@@ -1,0 +1,166 @@
+{
+  "paper_id": "PMC3318903",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 76080,
+  "calls": [
+    {
+      "seconds": 145.1,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 33596,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 17318,
+        "output_tokens_details": {
+          "thinking_tokens": 10152
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 33596,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 17318,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 33596,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 33596
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.6159168,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 17318,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 33596,
+          "webSearchRequests": 0,
+          "costUSD": 0.6159168,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 10152,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 57.0,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 41812,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 7790,
+        "output_tokens_details": {
+          "thinking_tokens": 624
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 41812,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 7790,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 41812,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 41812
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.4910848,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 7790,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 41812,
+          "webSearchRequests": 0,
+          "costUSD": 0.4910848,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 624,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "E D2: duplicate id, bad type/identity or unknown unit",
+    "P G1-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G2-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G3-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G4-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G5-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G6-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G31-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G36-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G9-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G10-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G11-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G12-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G13-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G14-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G15-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G16-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G17-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G18-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G19-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G20-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G21-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G22-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G23-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G24-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G25-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G26-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G27-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G28-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G29-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G30-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G32-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G33-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G34-D2: endpoints must be a primary gene and a primary target in the same unit",
+    "P G35-D2: endpoints must be a primary gene and a primary target in the same unit"
+  ]
+}

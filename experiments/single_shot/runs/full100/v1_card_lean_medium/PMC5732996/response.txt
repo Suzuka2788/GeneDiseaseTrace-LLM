@@ -1,0 +1,170 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full review text, Table 1, Figure 1 caption; references removed
+E|G1|gene|SNCA|SNCA;alpha-synuclein;aS|r||human||
+E|G2|gene|parkin|parkin;Parkin|r||human||
+E|G3|gene|DJ-1|DJ-1|r||human||
+E|G4|gene|LRRK2|LRRK2|r||human||
+E|G5|gene|PINK1|PINK1|r||human||
+E|G6|gene|ATP13A2|ATP13A2|r||human||
+E|G7|gene|FBXO7|FBXO7|r||human||
+E|G8|gene|PLA2G6|PLA2G6|r||human||
+E|G9|gene|VPS35|VPS35;Vps35;Vacuolar protein sorting-associated protein 35|r||human||
+E|G10|gene|EIF4G1|EIF4G1|r||human||
+E|G11|gene|DNAJC6|DNAJC6|r||human||
+E|G12|gene|ATP6AP2|ATP6AP2;ATPase H+ Transporting Accessory Protein 2|r||human||
+E|G13|gene|COQ2|COQ2|r||human||
+E|G14|gene|SYNJ1|SYNJ1|r||human||
+E|G15|gene|DNAJC13|DNAJC13|r||human||
+E|G16|gene|GBA1|GBA1;glucocerebrosidase|r||human||
+E|G17|gene|TMEM175|TMEM175|r||human||
+E|G18|gene|SREBF1|SREBF1;sterol regulatory element binding transcription factor 1;SBERF1|p|suspected_typo|human||
+E|G19|gene|Tfam (mouse)|Tfam|r||non-human||
+E|G20|gene|MUL1|MUL1;Mitochondrial E3 Ubiquitin Protein Ligase 1|p|species_unresolved|||
+E|G21|gene|Mfn2|Mfn2;Mitofusin 2|p|species_unresolved|||
+E|G22|gene|DLP1|DLP1;dynamin-like protein 1|p|species_unresolved|||
+E|G23|gene|cathepsin D|cathepsin D;Cathepsin D|r||||
+E|G24|gene|p62|p62|p|other|||
+E|G25|gene|tau|tau|p|other|||
+E|G26|gene|TDP-43|TDP-43|p|other|||
+E|G27|gene|parkin (fly)|parkin|r||non-human||
+E|G28|gene|pink1 (fly)|pink1;PINK1|r||non-human||
+E|G29|gene|DJ-1 (fly)|DJ-1|r||non-human||
+E|G30|gene|vps35 (fly)|vps35;Vps35|r||non-human||
+E|G31|gene|iPLA2-VIA|iPLA2-VIA|r||non-human||
+E|G32|gene|Vps35 (mouse)|Vps35|r||non-human||
+E|G33|gene|GBA1 (mouse)|GBA1|r||non-human||
+E|D1|disease|Parkinson's disease|Parkinson's disease;PD|r||||
+E|D2|disease|familial PD|familial PD;familial forms of the disease;familial disease|r|||D1|
+E|D3|disease|sporadic PD|sporadic PD;sporadic forms of PD|r|||D1|
+E|D4|disease|genetic PD|genetic PD|r|||D1|
+E|D5|disease|autosomal dominant PD|autosomal dominant PD|r|||D1|
+E|D6|disease|autosomal recessive parkinsonism|autosomal recessive parkinsonism|r|||D7|
+E|D7|disease|parkinsonism|parkinsonism|r||||
+E|D8|disease|Kufor-Rakeb syndrome|Kufor-Rakeb syndrome|r|||D1|
+E|D9|disease|hereditary spastic paraplegia|hereditary spastic paraplegia|r||||
+E|D10|disease|X-linked parkinsonism with spasticity|parkinsonism with spasticity|r|||D7|
+E|D11|disease|PLA2G6-associated neurodegeneration|PLA2G6-associated neurodegeneration;PLAN|r||||
+E|D12|disease|dystonia-parkinsonism|dystonia-parkinsonism|r||||
+E|D13|disease|infantile neuroaxonal dystrophy|infantile neuroaxonal dystrophy|r|||D11|
+E|D14|disease|Parkinsonian-pyramidal syndrome|Parkinsonian-pyramidal syndrome|r||||
+E|D15|disease|Gaucher's disease|Gaucher's disease;GD|r|||D16|
+E|D16|disease|lysosomal storage disorders|lysosomal storage disorders;LSD|r||||
+E|D17|disease|early-onset PD|EO;early onset|r|||D1|
+E|D18|disease|late-onset PD|LO;late onset|r|||D1|
+E|D19|disease|juvenile-onset PD|JO;juvenile onset|r|||D1|
+E|S1|symptom|bradykinesia|bradykinesia|r||||
+E|S2|symptom|resting tremor|resting tremor|r||||
+E|S3|symptom|dementia|dementia|r||||
+E|S4|symptom|anosmia|anosmia|r||||
+E|S5|symptom|depression|depression|r||||
+E|S6|symptom|sleep disorders|sleep disorders|r||||
+E|S7|phenotype|Lewy bodies|Lewy bodies|r||||
+E|S8|phenotype|parkinsonian phenotype|parkinsonian phenotype|r||||
+E|S9|phenotype|iron accumulation|iron accumulation|r||||
+X|Aβ|b0017|peptide accumulation pathology, not a gene mention
+X|Rab-family|b0044|gene family, not single gene
+X|retromer|b0029|protein complex
+X|SCF|b0050|protein complex
+X|D620N|b0035|variant ID
+EV|V1|b0005.s2+b0006.s1|bg|bgr|aff|ebr
+EV|VT|b0006.s1+b0023.s1|bg|bgr|aff|ebr
+EV|T1|b0008.s1|bg|bgr|aff|ebr
+EV|T2|b0009.s1|bg|bgr|aff|ebr
+EV|T3|b0010.s1|bg|bgr|aff|ebr
+EV|T4|b0011.s1|bg|bgr|aff|ebr
+EV|T5|b0012.s1|bg|bgr|aff|ebr
+EV|T6|b0013.s1|bg|bgr|aff|ebr
+EV|T7|b0014.s1|bg|bgr|aff|ebr
+EV|T8|b0015.s1|bg|bgr|aff|ebr
+EV|T9|b0016.s1|bg|bgr|aff|ebr
+EV|T10|b0017.s1|bg|bgr|aff|ebr
+EV|T11|b0018.s1|bg|bgr|aff|ebr
+EV|T12|b0019.s1|bg|bgr|aff|ebr
+EV|T13|b0020.s1|bg|bgr|aff|ebr
+EV|T14|b0021.s1|bg|bgr|aff|ebr
+EV|T15|b0022.s1|bg|bgr|aff|ebr
+EV|V2|b0032.s6|bg|bgr|aff|ebr
+EV|V3|b0042.s1+b0042.s2|bg|bgr|aff|ebr
+EV|V4|b0028.s1|bg|bgr|aff|ebr
+EV|V5|b0032.s2|bg|bgr|aff|ebr
+EV|V6|b0024.s2|bg|bgr|aff|ebr
+EV|V7|b0044.s1|bg|bgr|aff|ebr
+EV|V8|b0032.s4|bg|bgr|aff|ebr
+EV|V9|b0038.s1|bg|bgr|aff|ebr
+EV|V10|b0039.s1|bg|bgr|aff|ebr
+EV|V11|b0032.s7|bg|bgr|aff|ebr
+EV|V12|b0049.s1|bg|bgr|aff|ebr
+EV|V13|b0049.s1+b0049.s3|bg|bgr|q|unc
+EV|V14|b0050.s1+b0050.s2|bg|bgr|aff|ebr
+EV|V15|b0053.s3|bg|bgr|aff|ebr
+EV|V16|b0053.s4|bg|bgr|aff|ebr
+EV|V17|b0054.s1|bg|bgr|aff|ebr,mi
+EV|V18|b0055.s1|bg|bgr|aff|ebr
+EV|V19|b0056.s1|bg|bgr|aff|ebr
+EV|V20|b0046.s1|bg|bgr|aff|ebr
+P|G1|D1|sup|c|bg|sup:c:bg:V1+T1;sup:a:bg:V20|||Table 1 causative gene; aS-associated PD
+P|G1|D5|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3|||mutations cause autosomal dominant PD
+P|G1|D2|sup|a|bg|sup:a:bg:V1+T1|||causative gene of familial disease
+P|G1|D17|sup|a|bg|sup:a:bg:VT+T1|||table PD form EO
+P|G1|D18|sup|a|bg|sup:a:bg:VT+T1|||table PD form LO
+P|G2|D1|sup|c|bg|sup:c:bg:V1+T2;sup:c:bg:V5|||mutations cause PD
+P|G2|D6|sup|c|bg|sup:c:bg:V4|||mutations cause AR parkinsonism
+P|G2|D2|sup|a|bg|sup:a:bg:V1+T2|||causative gene of familial disease
+P|G2|D17|sup|a|bg|sup:a:bg:VT+T2|||table PD form EO
+P|G3|D1|sup|c|bg|sup:c:bg:V1+T3;sup:c:bg:V5|||mutations cause PD
+P|G3|D6|sup|c|bg|sup:c:bg:V4|||mutations cause AR parkinsonism
+P|G3|D2|sup|a|bg|sup:a:bg:V1+T3|||causative gene of familial disease
+P|G3|D17|sup|a|bg|sup:a:bg:VT+T3|||table PD form EO
+P|G4|D1|sup|c|bg|sup:c:bg:V1+T4;sup:c:bg:V6;sup:a:bg:V20|||mutations cause PD
+P|G4|D5|sup|c|bg|sup:c:bg:V2|||mutations cause autosomal dominant PD
+P|G4|D4|sup|a|bg|sup:a:bg:V7|||accounts for 40% genetic PD cases
+P|G4|D2|sup|a|bg|sup:a:bg:V1+T4|||causative gene of familial disease
+P|G4|D18|sup|a|bg|sup:a:bg:VT+T4|||table PD form LO
+P|G5|D1|sup|c|bg|sup:c:bg:V1+T5;sup:c:bg:V5|||mutations cause PD
+P|G5|D6|sup|c|bg|sup:c:bg:V4|||mutations cause AR parkinsonism
+P|G5|D2|sup|a|bg|sup:a:bg:V1+T5|||causative gene of familial disease
+P|G5|D17|sup|a|bg|sup:a:bg:VT+T5|||table PD form EO
+P|G6|D1|sup|c|bg|sup:c:bg:V1+T6;sup:c:bg:V8|||mutations cause PD
+P|G6|D8|sup|c|bg|sup:c:bg:V9|||mutations cause Kufor-Rakeb syndrome
+P|G6|D9|sup|c|bg|sup:c:bg:V9|||mutations cause complicated HSP
+P|G6|D2|sup|a|bg|sup:a:bg:V1+T6|||causative gene of familial disease
+P|G6|D19|sup|a|bg|sup:a:bg:VT+T6|||table PD form JO
+P|G7|D1|sup|c|bg|sup:c:bg:V1+T7;sup:a:bg:V11|||Table 1 causative gene
+P|G7|D14|sup|c|bg|sup:c:bg:V14|||mutations cause Parkinsonian-pyramidal syndrome
+P|G7|D2|sup|a|bg|sup:a:bg:V1+T7|||causative gene of familial disease
+P|G7|D19|sup|a|bg|sup:a:bg:VT+T7|||table PD form JO
+P|G8|D1|sup|c|bg|sup:c:bg:V1+T8;sup:a:bg:V11|||Table 1 causative gene
+P|G8|D11|sup|a|bg|sup:a:bg:V12|||mutations associated with PLAN
+P|G8|D12|sup|a|bg|sup:a:bg:V12|||AR dystonia-parkinsonism among PLAN disorders
+P|G8|D13|unc|-||unc:-:bg:V13|scope||only via PLAN membership, hierarchy
+P|G8|D2|sup|a|bg|sup:a:bg:V1+T8|||causative gene of familial disease
+P|G8|D19|sup|a|bg|sup:a:bg:VT+T8|||table PD form JO
+P|G9|D1|sup|c|bg|sup:c:bg:V1+T9;sup:c:bg:V8|||mutations cause PD
+P|G9|D2|sup|a|bg|sup:a:bg:V1+T9|||causative gene of familial disease
+P|G9|D18|sup|a|bg|sup:a:bg:VT+T9|||table PD form LO
+P|G10|D1|sup|c|bg|sup:c:bg:V1+T10|||Table 1 causative gene
+P|G10|D2|sup|a|bg|sup:a:bg:V1+T10|||causative gene of familial disease
+P|G10|D18|sup|a|bg|sup:a:bg:VT+T10|||table PD form LO
+P|G11|D1|sup|c|bg|sup:c:bg:V1+T11|||Table 1 causative gene
+P|G11|D2|sup|a|bg|sup:a:bg:V1+T11|||causative gene of familial disease
+P|G11|D19|sup|a|bg|sup:a:bg:VT+T11|||table PD form JO
+P|G12|D1|sup|c|bg|sup:c:bg:V1+T12;sup:c:bg:V8|||mutations cause PD
+P|G12|D10|sup|c|bg|sup:c:bg:V10|||mutations cause X-linked parkinsonism with spasticity
+P|G12|D2|sup|a|bg|sup:a:bg:V1+T12|||causative gene of familial disease
+P|G12|D17|sup|a|bg|sup:a:bg:VT+T12|||table PD form JO or EO
+P|G12|D19|sup|a|bg|sup:a:bg:VT+T12|||table PD form JO or EO
+P|G13|D1|sup|c|bg|sup:c:bg:V1+T13|||Table 1 causative gene
+P|G13|D2|sup|a|bg|sup:a:bg:V1+T13|||causative gene of familial disease
+P|G13|D18|sup|a|bg|sup:a:bg:VT+T13|||table PD form LO
+P|G14|D1|sup|c|bg|sup:c:bg:V1+T14|||Table 1 causative gene
+P|G14|D2|sup|a|bg|sup:a:bg:V1+T14|||causative gene of familial disease
+P|G14|D19|sup|a|bg|sup:a:bg:VT+T14|||table PD form JO
+P|G15|D1|sup|c|bg|sup:c:bg:V1+T15|||Table 1 causative gene
+P|G15|D2|sup|a|bg|sup:a:bg:V1+T15|||causative gene of familial disease
+P|G15|D18|sup|a|bg|sup:a:bg:VT+T15|||table PD form LO
+P|G16|D1|sup|a|bg|sup:a:bg:V8;sup:a:bg:V15|||most common genetic risk factor for PD
+P|G16|D15|sup|c|bg|sup:c:bg:V16|||homozygous mutations cause Gaucher's disease
+P|G17|D1|sup|a|bg|sup:a:bg:V8;sup:a:bg:V18|||mutations are PD risk factors
+P|G18|D1|sup|a|bg|sup:a:bg:V19;sup:a:bg:V11|||mutations increase PD risk
+P|G33|D15|sup|a|bg|sup:a:bg:V17|||knockout mouse is a GD model; non-human
+R|Table 1 mode-of-inheritance column|b0007-b0022|AD/AR column values not explicitly tied to named inheritance disease entities|Mapped only PD-form column subtypes; inheritance used only from text

@@ -1,0 +1,18 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables.
+E|G1|gene|arylsulfatase A|arylsulfatase A;ARSA|r||human||
+E|D1|disease|metachromatic leukodystrophy|metachromatic leukodystrophy;MLD|r||||
+E|D2|disease|late-onset metachromatic leukodystrophy|Late-onset metachromatic leukodystrophy;late-onset metachromatic leukodystrophy;late-onset MLD|r|||D1|
+E|D3|disease|early-onset MLD|early-onset MLD|r|||D1|
+X|arylsulfatase gene family|b0002|gene family, not a single-gene endpoint
+X|arginine84 to glutamine substitution|b0002|variant description, not a gene
+EV|V1|b0002.s1+b0002.s2|ts|res|aff|eda,rr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s3|ts|res|aff|rr
+EV|V4|b0002.s4|both|res|aff|rr,cmp,ebr
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V3||V2|R84Q allele attributed to late-onset MLD
+P|G1|D3|sup|c|bg|sup:c:bg:V2|||Background: ARSA alleles cause early-onset MLD
+P|G1|D1|sup|a|both|sup:a:both:V4|||Residual ARSA activity underlies MLD phenotypic variation
+F|F1|descriptive|R84Q allele; residual ARSA activity|late-onset MLD siblings|not_applicable|not_applicable|not_reported|V3|abstract only
+F|F2|association|genotype, ARSA activity, clinical phenotype|4 carriers among 81 MLD patients|unknown|positive|not_reported|V4|no statistics in abstract
+R|case-report attribution vs causal definition|b0002.s1|"Causing" fits causal, but case attribution is not automatically causal.|Assigned association; there is no model intervention.

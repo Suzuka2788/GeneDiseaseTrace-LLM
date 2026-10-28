@@ -1,0 +1,50 @@
+META|Opus 5.5|seen: no
+SCOPE|Full review text, references removed; background-only evidence
+E|G1|gene|NOTCH3|NOTCH3;NOTCH 3;Notch3;Notch 3|r||human||
+E|G2|gene|calnexin|calnexin|r||human||
+E|G3|gene|TIMP-3|tissue inhibitor of metalloproteinases 3;TIMP-3|r||human||
+E|G4|gene|VTN|vitronectin;VTN|r||human||
+E|G5|gene|LTBP-1|latent TGF-β binding protein 1;LTBP-1|r||human||
+E|G6|gene|annexin 2|annexin 2|r||human||
+E|G7|gene|periostin|periostin|r||human||
+E|G8|gene|amyloid P|Amyloid P;amyloid P|r||human||
+E|G9|gene|SCF|stem cell factor;SCF|r||||
+E|G10|gene|G-CSF|granulocyte colony-stimulating factor;G-CSF|r||||
+E|G11|gene|caspase-3|caspase-3|r||||
+E|D1|disease|CADASIL|Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy;Cerebral Autosomal Dominant Arteriopathy With Subcortical Infarcts and Leukoencephalopathy;CADASIL|r||||
+E|D2|disease|sporadic cerebral small vessel disease|sporadic cerebral small vessel disease;sporadic SVD;sporadic cerebral SVD|r||||
+E|D3|disease|cerebral small-vessel disease|cerebral small-vessel disease;SVD;small vessel disease|r||||
+E|D4|disease|Alzheimer disease|Alzheimer disease;Alzheimer's|r||||
+E|D5|disease|migraine with aura|migraine with aura|r||||
+E|D6|clinical_event|stroke|stroke;strokes|r||||
+E|D7|clinical_event|ischemic stroke|ischemic stroke|r||||
+E|D8|clinical_event|hemorrhagic stroke|hemorrhagic stroke|r||||
+E|D9|disease|dementia|dementia|r||||
+E|D10|disease|myocardial infarction|myocardial infarction|r||||
+E|D11|disease|bipolar disorders|bipolar disorders|r||||
+E|D12|disease|schizophrenia|schizophrenia|r||||
+E|D13|disease|panic disorders|panic disorders|r||||
+E|D14|disease|hypertension|hypertension|r||||
+E|D15|disease|hypercholesterolemia|hypercholesterolemia|r||||
+E|D16|disease|Hyper-homocysteinemia|Hyper-homocysteinemia|r||||
+E|D17|disease|parkinsonism|parkinsonism|r||||
+E|S1|phenotype|white-matter hyperintensities|white-matter hyperintensities|r||||
+E|S2|phenotype|GOMs|GOMs|r||||
+EV|V1|b0004.s3+b0018.s1+b0039.s2+b0052.s3|bg|bgr|aff|ebr
+EV|V2|b0024.s5|bg|neg|neg|mi
+EV|V3|b0021.s8+b0021.s9|bg|hyp|hyp|ho
+EV|V4|b0050.s9+b0050.s10|bg|int|hyp|unc
+EV|V5|b0034.s5|bg|hyp|hyp|ho
+EV|V6|b0034.s4|bg|co|na|do
+EV|V7|b0042.s1+b0042.s4|bg|res|q|mi
+P|G1|D1|sup|c|bg|sup:c:bg:V1;neg:-:bg:V2||V2|Mutations explicitly cause CADASIL; loss-of-function null|
+P|G1|D2|unc|-|bg|unc:-:bg:V4|hedged_claim,scope||SNPs linked to WMH only; involvement hinted|
+P|G2|D1|unc|-|bg|unc:-:bg:V3|hedged_claim||Calnexin role speculative|
+P|G8|D1|unc|-|bg|unc:-:bg:V5|hedged_claim||May stabilize GOMs|
+P|G3|D1|nf|-|||||V6|GOM component only|
+P|G9|D1|nf|-|||||V7|Joint SCF+G-CSF intervention, not assignable|
+F|F1|group_comparison|EGFR1-6 vs 7-34 variants; stroke onset, survival|CADASIL patients|unknown|positive|not_reported|V1|cited, Rutten 2019|
+F|F2|group_comparison|EGFR10-11 vs EGFR2-5 mutations; phenotype|CADASIL patients|unknown|mixed|not_reported||cited, Joutel 2011|
+F|F3|association|NOTCH3 mutation site vs clinical phenotype|CADASIL patients|not_significant|null|not_reported||cited, Adib-Samii 2010|
+F|F4|association|NOTCH3 SNPs vs white-matter hyperintensities|Austrian hypertensive subjects|significant|positive|not_reported|V4|cited|
+C|C1|mutation site genotype-phenotype correlation|b0027.s10+b0028.s1|noncritical|unresolved|Different cited studies disagree

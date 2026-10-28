@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|AIP|aryl hydrocarbon receptor interacting protein;AIP|r||human||
+E|D1|disease|pituitary adenoma|pituitary adenomas;Pituitary adenomas;pituitary adenoma|r||||
+E|D2|disease|pituitary adenoma predisposition|Pituitary adenoma predisposition;PAP|r||||
+E|D3|disease|GH-secreting adenoma|GH-secreting adenoma;GH-secreting tumours|r|||D1|
+E|D4|disease|non-GH-secreting adenoma|non-GH-secreting adenoma|r|||D1|
+X|Y248del|b0002|variant ID
+X|c.742_744delTAC|b0002|variant ID
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s7+b0002.s8+b0002.s10|ts|res|q|rr,do
+EV|V3|b0002.s10|ts|neg|neg|rr
+EV|V4|b0002.s3+b0002.s12|ts|aim|na|none
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||background: germline AIP mutations associated with PAP
+P|G1|D3|unc|-|ts|unc:-:ts:V2|support_basis_unresolved||mutation and LOH found, no explicit attribution
+P|G1|D4|neg|-|ts|neg:-:ts:V3|||no AIP mutations in non-GH adenoma patients
+P|G1|D1|nf|-|ts|||V2+V4|1/36 detection only; aims; no attribution
+F|F1|descriptive|AIP germline mutation frequency|36 sporadic paediatric adenoma patients|not_applicable|not_applicable|partial|V2|abstract only; one carrier
+F|F2|descriptive|tumour LOH, wild-type allele loss|single GH-secreting adenoma carrier|not_applicable|not_applicable|not_applicable|V2|single case
+F|F3|descriptive|mutation carriers among relatives|first degree relatives|not_applicable|not_applicable|not_reported|V2|relatives clinically unaffected

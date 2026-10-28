@@ -1,0 +1,22 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|CCR5|CCR5|r||human||
+E|D1|disease|HIV-1 infection|HIV-1 infection|r||||
+E|D2|disease|AIDS|AIDS|r||||
+E|D3|disease|West Nile virus infection|West Nile virus pathogenesis|p|other|||
+E|D4|disease|imported infections|imported infections|p|other|||
+E|D5|disease|zoonoses|zoonoses|r||||
+X|CCR5-Delta32|b0001.s1|variant identifier, not a separate gene
+X|HIV|b0002.s4|pathogen name, used as selective force only
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s7|bg|bgr|aff|ebr
+EV|V3|b0002.s9|ts|hyp|hyp|ho
+EV|V4|b0002.s10|ts|hyp|hyp|ho
+EV|V5|b0002.s5|ts|res|na|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V5|Delta32 homozygotes resist HIV-1 infection
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Delta32 homozygotes show slower AIDS progression
+P|G1|D3|sup|a|bg|sup:a:bg:V2|||CCR5 antimicrobial role in West Nile pathogenesis
+P|G1|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Authors speculate vulnerability to imported infections
+P|G1|D5|unc|-|ts|unc:-:ts:V4|hedged_claim||Zoonoses only speculatively incriminated
+F|F1|correlation|Delta32 frequency vs colonization dates, frontier distance|European populations|unknown|negative|not_reported|V5|abstract only; no statistics given
+R|West Nile virus pathogenesis|b0002.s7|Disease named via pathogenesis phrase, not explicit disease name|Treated as provisional West Nile virus infection entity

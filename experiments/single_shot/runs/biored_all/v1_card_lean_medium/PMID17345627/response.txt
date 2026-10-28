@@ -1,0 +1,28 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|BMP4|BMP4;bone morphogenetic protein 4|r||human||
+E|G2|gene|BMP5|BMP5|r||human||
+E|G3|gene|bmp5 (murine)|bmp5;bone morphogenetic protein 5|p|species_unresolved|non-human||
+E|G4|gene|BMP2|BMP2|r||human||
+E|D1|disease|fibrodysplasia ossificans progressiva|fibrodysplasia ossificans progressiva;FOP|r||||
+E|D2|disease|murine short ear syndrome|murine short ear syndrome;short ear|r||||
+E|D3|disease|axial skeletal malformations|axial skeletal malformations;axial skeletal abnormalities;malformations of the axial skeleton|p|other|||
+E|D4|disease|heterotopic ossification|heterotopic ossification|r||||
+E|S1|symptom|malformed external ears|malformed external ears|r||||
+X|BMPs|b0002|gene family, not a single gene
+X|a new syndrome|b0001|unnamed disorder, no separate entity
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s6|ts|res|na|do
+EV|V4|b0002.s7|ts|int|hyp|ho
+EV|V5|b0001.s1|ts|co|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||Dysregulated BMP4 expression found in FOP patient cells
+P|G3|D2|sup|c|bg|sup:c:bg:V2|||Loss-of-function mutations cause short ear syndrome
+P|G3|D3|unc|-||unc:-:bg:V2|scope||Malformations are syndrome features, not directly attributed
+P|G1|D3|unc|-||unc:-:ts:V4|hedged_claim|V3+V5|Authors suggest association; single patient
+P|G2|D3|unc|-||unc:-:ts:V4|hedged_claim|V3+V5|Authors suggest association; single patient
+P|G1|D4|nf|-|||||V3+V5|Title co-occurrence only; conclusion omits HO
+P|G2|D4|nf|-|||||V3+V5|Title co-occurrence only; conclusion omits HO
+P|G4|D3|nf|-|||||V3|Unchanged expression in one patient; no disease claim
+F|F1|descriptive|BMP4, BMP5 mRNA and protein levels|patient transformed lymphocytes|unknown|positive|not_reported|V3|single patient, comparator not stated
+F|F2|descriptive|BMP2 mRNA level|patient transformed lymphocytes|unknown|null|not_reported|V3|single patient, comparator not stated

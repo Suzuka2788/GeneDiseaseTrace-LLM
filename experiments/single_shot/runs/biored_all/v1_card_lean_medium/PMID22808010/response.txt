@@ -1,0 +1,40 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|EPO|EPO|p|species_unresolved||||
+E|G2|gene|EPOR|EPOR|p|species_unresolved||||
+E|G3|gene|Bcl-x|Bcl-x|p|species_unresolved||||
+E|G4|gene|p85|p85|p|species_unresolved,ambiguous_mapping||||
+E|G5|gene|Erk1|Erk1|p|species_unresolved||||
+E|G6|gene|Lyl1|Lyl1|p|species_unresolved||||
+E|G7|gene|Gas5|Gas5|p|species_unresolved||||
+E|G8|gene|Pim3|Pim3|p|species_unresolved||||
+E|G9|gene|Pim1|Pim1|p|species_unresolved||||
+E|G10|gene|Bim|Bim|p|species_unresolved||||
+E|G11|gene|Trib3|Trib3|p|species_unresolved||||
+E|G12|gene|Serpina 3g|Serpina 3g|p|species_unresolved||||
+E|G13|gene|Cdc25a|Cdc25a|p|species_unresolved||||
+E|G14|gene|Btg3|Btg3|p|species_unresolved||||
+E|G15|gene|Cyclin-d2|Cyclin-d2|p|species_unresolved||||
+E|G16|gene|p27-kip1|p27-kip1|p|species_unresolved||||
+E|G17|gene|Cyclin-g2|Cyclin-g2|p|species_unresolved||||
+E|G18|gene|CyclinB1-IP-1|CyclinB1-IP-1|p|species_unresolved||||
+E|G19|gene|Socs3|Socs3|p|species_unresolved||||
+E|G20|gene|Socs2|Socs2|p|species_unresolved||||
+E|G21|gene|Spred2|Spred2|p|species_unresolved||||
+E|G22|gene|Spred1|Spred1|p|species_unresolved||||
+E|G23|gene|Eaf1|Eaf1|p|species_unresolved||||
+E|G24|gene|Jak2|Jak2|p|species_unresolved||||
+E|G25|gene|Stat5|Stat5|p|species_unresolved,ambiguous_mapping||||
+E|G26|gene|Tnfr-sf13c|Tnfr-sf13c|p|species_unresolved||||
+E|D1|disease|polycythemia|polycythemia|r|||||
+E|D2|disease|anemia|anemia|r|||||
+X|PI3K|b0002|gene family/complex, not single-gene endpoint
+EV|V1|b0002.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0002.s8|ts|res|q|rr,unc
+P|G2|D1|sup|c|bg|sup:c:bg:V1|||Truncated EPOR alleles reported to promote polycythemia
+P|G20|D2|unc|-||unc:-:ts:V2|coreference,scope||Parenthetical anemia link: antecedent unclear
+P|G2|D2|unc|-||unc:-:ts:V2|coreference,scope||Anemia relevance attaches to responses, unclear
+P|G24|D2|unc|-||unc:-:ts:V2|coreference,scope||Anemia relevance attaches to responses, unclear
+P|G25|D2|unc|-||unc:-:ts:V2|coreference,scope||Anemia relevance attaches to responses, unclear
+P|G4|D1|nf|-||||V1|p85 site absent; not attributed
+R|species|b0002.s2|Primary bone marrow cells; species never stated|Gene species empty, provisional species_unresolved

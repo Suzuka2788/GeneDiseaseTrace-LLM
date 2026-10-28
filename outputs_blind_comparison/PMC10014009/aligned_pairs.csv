@@ -1,0 +1,177 @@
+﻿gene,target,GPT-6_Astra,GPT-6_Astra_relation,GPT-6_Astra_reason,GPT-6.1_sol,GPT-6.1_sol_relation,GPT-6.1_sol_reason,Claude_Opus_5.5,Claude_Opus_5.5_relation,Claude_Opus_5.5_reason,agreement
+KRIT1,cerebral cavernous malformation,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+KRIT1,familial CCM,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+KRIT1,sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+KRIT1,spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+KRIT1,vascular malformation (general),uncertain,none,"[""hedged_claim"", ""support_basis_unresolved""]",absent,,,uncertain,none,"[""hedged_claim"", ""support_basis_unresolved""]",agree_where_present
+KRIT1,intracranial vascular malformation,not_found,none,[],absent,,,uncertain,none,"[""hedged_claim"", ""support_basis_unresolved""]",disagree
+KRIT1,non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+CCM2,cerebral cavernous malformation,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+CCM2,familial CCM,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+CCM2,sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+CCM2,spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+CCM2,vascular malformation (general),not_found,none,[],absent,,,uncertain,none,"[""support_basis_unresolved""]",disagree
+CCM2,intracranial vascular malformation,not_found,none,[],absent,,,uncertain,none,"[""support_basis_unresolved""]",disagree
+CCM2,non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+PDCD10,cerebral cavernous malformation,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+PDCD10,familial CCM,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+PDCD10,sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+PDCD10,spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+PDCD10,vascular malformation (general),not_found,none,[],absent,,,uncertain,none,"[""support_basis_unresolved""]",disagree
+PDCD10,intracranial vascular malformation,not_found,none,[],absent,,,uncertain,none,"[""support_basis_unresolved""]",disagree
+PDCD10,non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+ZPLD1,cerebral cavernous malformation,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,familial CCM,uncertain,none,"[""hedged_claim"", ""support_basis_unresolved""]",uncertain,none,"[""hedged_claim"", ""support_basis_unresolved""]",uncertain,none,"[""hedged_claim"", ""support_basis_unresolved""]",all_agree
+ZPLD1,sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+ZPLD1,spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+ZPLD1,vascular malformation (general),not_found,none,[],absent,,,not_found,none,[],agree_where_present
+ZPLD1,intracranial vascular malformation,not_found,none,[],absent,,,not_found,none,[],agree_where_present
+ZPLD1,non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+MAP3K3,cerebral cavernous malformation,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,familial CCM,uncertain,none,"[""hedged_claim"", ""coreference"", ""support_basis_unresolved""]",uncertain,none,"[""scope"", ""coreference"", ""support_basis_unresolved""]",uncertain,none,"[""hedged_claim"", ""coreference""]",all_agree
+MAP3K3,sporadic CCM,not_found,none,[],not_found,none,[],uncertain,none,"[""support_basis_unresolved""]",disagree
+MAP3K3,cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+MAP3K3,spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+MAP3K3,vascular malformation (general),not_found,none,[],absent,,,not_found,none,[],agree_where_present
+MAP3K3,intracranial vascular malformation,not_found,none,[],absent,,,not_found,none,[],agree_where_present
+MAP3K3,non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+Krit1 (animal),cerebral cavernous malformation,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+Krit1 (animal),familial CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+Krit1 (animal),spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Krit1 (animal),vascular malformation (general),not_found,none,[],absent,,,not_found,none,[],agree_where_present
+Krit1 (animal),intracranial vascular malformation,not_found,none,[],absent,,,not_found,none,[],agree_where_present
+Krit1 (animal),non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+Ccm2 (animal),cerebral cavernous malformation,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+Ccm2 (animal),familial CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+Ccm2 (animal),spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Ccm2 (animal),vascular malformation (general),not_found,none,[],absent,,,not_found,none,[],agree_where_present
+Ccm2 (animal),intracranial vascular malformation,not_found,none,[],absent,,,not_found,none,[],agree_where_present
+Ccm2 (animal),non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present
+Pdcd10 (animal),cerebral cavernous malformation,supported,causal,[],supported,causal,[],supported,causal,[],all_agree
+Pdcd10 (animal),familial CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),sporadic CCM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),cavernous malformation (generic CM),not_found,none,[],not_found,none,[],absent,,,agree_where_present
+Pdcd10 (animal),spinal CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),cutaneous CM,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),CASH,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),small vessel disease,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),diffuse axonal injury,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),intracerebral hemorrhage,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),developmental venous anomaly,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),tumor (generic),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),breast cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),thyroid cancer,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),diffuse midline glioma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),adrenal adenoma,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),ACA infarction,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),occipital lobe epilepsy,not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),PLE (undefined),not_found,none,[],not_found,none,[],not_found,none,[],all_agree
+Pdcd10 (animal),vascular malformation (general),not_found,none,[],absent,,,not_found,none,[],agree_where_present
+Pdcd10 (animal),intracranial vascular malformation,not_found,none,[],absent,,,not_found,none,[],agree_where_present
+Pdcd10 (animal),non-cerebral CM,not_found,none,[],absent,,,absent,,,agree_where_present

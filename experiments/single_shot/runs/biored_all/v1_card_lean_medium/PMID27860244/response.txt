@@ -1,0 +1,25 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or statistics
+E|G1|gene|PRMT5|protein arginine methyltransferase 5;PRMT5|r||human||
+E|G2|gene|IL-1b|IL-1b|r||human||
+E|G3|gene|TNF-a|TNF-a|r||human||
+E|G4|gene|IL-6|IL-6|r||human||
+E|G5|gene|IL-8|IL-8|r||human||
+E|G6|gene|IkB kinaseb|IkB kinaseb|r||human||
+E|G7|gene|IkBa|IkBa|r||human||
+E|G8|gene|p65|p65|p|ambiguous_mapping|human||
+E|G9|gene|AKT|AKT|p|ambiguous_mapping|human||
+E|D1|disease|rheumatoid arthritis|rheumatoid arthritis;RA|r||||
+E|D2|disease|osteoarthritis|osteoarthritis;OA|r||||
+E|S1|phenotype|synovial inflammation|synovial inflammation|r||||
+X|EPZ015666|b0002.s3|chemical inhibitor, not a gene
+X|NF-kB|b0002.s13|pathway/complex, not single-gene endpoint
+EV|V1|b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s10+b0002.s11+b0002.s13|ts|res|aff|rr
+EV|V3|b0002.s14|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V3|||Increased PRMT5 in RA synovial tissue and FLSs
+P|G1|D2|nf|-|||||V1|OA is a tissue source; no explicit PRMT5-OA claim
+F|F1|group_comparison|PRMT5 level in STs/FLSs|RA patients vs implied OA|unknown|positive|not_reported|V1|comparator not explicit in abstract
+F|F2|mechanism|IL-1b/TNF-a stimulation; PRMT5 level|RA FLSs|unknown|positive|not_reported|V1|in vitro only
+F|F3|mechanism|PRMT5 inhibition; IL-6, IL-8, proliferation, migration|RA FLSs|unknown|negative|not_reported|V2|cell phenotype; no disease link
+F|F4|mechanism|EPZ015666; IKKb/IkBa phosphorylation, p65/AKT|FLSs|unknown|negative|not_reported|V2|inhibitor only

@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IRF5|IRF5;Interferon regulatory factor 5|r|||human||
+E|G2|gene|HLA-DRB1|HLA-DRB1|r|||human||
+E|D1|disease|rheumatoid arthritis|rheumatoid arthritis;RA|r|||||
+E|D2|disease|systemic lupus erythaematosus|systemic lupus erythaematosus;SLE|r|||||
+E|D3|disease|autoimmune diseases|autoimmune diseases|r|||||
+X|IRF family|b0002|gene family, not single gene
+X|SE|b0002|HLA-DRB1 shared epitope; stratification variable
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s7+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|res|aff|rr,cmp
+EV|V4|b0002.s10|ts|int|aff|rr
+EV|V5|b0002.s2|bg|bgr|q|unc
+EV|V6|b0002.s5|ts|co|na|do
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background IRF5 polymorphisms associated with SLE
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3+V4|||Case-control rs729302 association with RA
+P|G1|D3|unc|-||unc:-:bg:V5|scope||Involvement in other autoimmune diseases stated uncertain
+P|G2|D1|nf|-|||||V6|SE used only as stratification variable
+F|F1|association|rs729302 A allele vs RA|Japanese RA cases and controls, 2 sets|significant|positive|available|V2|
+F|F2|association|rs729302 A allele vs RA by SE|SE-negative vs SE-positive RA patients|mixed|positive|available|V3|SE-positive not significant (p=0.24)

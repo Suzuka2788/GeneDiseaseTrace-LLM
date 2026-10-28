@@ -1,0 +1,42 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|VDR|vitamin D receptor;Vitamin D receptor;VDR|r|||||
+E|G2|gene|PIK3CA|PIK3CA|r||human||
+E|G3|gene|KRAS|KRAS|r||human||
+E|G4|gene|CACNA1G|CACNA1G|r||human||
+E|G5|gene|CDKN2A|CDKN2A;p16|r||human||
+E|G6|gene|CRABP1|CRABP1|r||human||
+E|G7|gene|IGF2|IGF2|r||human||
+E|G8|gene|MLH1|MLH1|r||human||
+E|G9|gene|NEUROG1|NEUROG1|r||human||
+E|G10|gene|RUNX3|RUNX3|r||human||
+E|G11|gene|SOCS1|SOCS1|r||human||
+E|G12|gene|BRAF|BRAF|r||human||
+E|G13|gene|p53|p53|r||human||
+E|G14|gene|p21|p21|r||human||
+E|G15|gene|beta-catenin|beta-catenin|r||human||
+E|G16|gene|cyclooxygenase-2|cyclooxygenase-2|r||human||
+E|D1|disease|colorectal cancer|colorectal cancer;colorectal cancers|r||||
+E|D2|disease|colon cancer|colon cancer|r||||
+E|D3|disease|cancers|cancers|r||||
+E|CE1|clinical_event|patient survival|patient survival|r||||
+E|PH1|phenotype|CpG island methylator phenotype|CpG island methylator phenotype|r||||
+E|PH2|phenotype|microsatellite instability|microsatellite instability|r||||
+X|RAS-mitogen-activated protein kinase (MAPK)|b0002|pathway, not single-gene endpoint
+X|phosphatidylinositol 3-kinase (PI3K)-AKT pathway|b0002|pathway, not single-gene endpoint
+X|LINE-1|b0002|repetitive element methylation marker, not gene
+EV|V1|b0002.s5|ts|co|na|do
+EV|V2|b0002.s9|ts|neg|neg|rr,cmp
+EV|V3|b0002.s7+b0002.s10|ts|res|na|rr,cmp
+EV|V4|b0002.s8|ts|neg|na|rr
+EV|V5|b0002.s1|bg|bgr|na|ebr
+P|G1|CE1|neg|-|ts|neg:-:ts:V2||V1|VDR expression not related to survival in CRC
+P|G1|D1|nf|-|||||V1+V4|Overexpression frequency only, no comparator
+P|G2|D1|nf|-|||||V3|Mutations analysed, no disease attribution
+P|G3|D1|nf|-|||||V3|Mutations analysed, no disease attribution
+P|G1|D2|nf|-|||||V5|Vitamin D, not VDR, linked to risk
+F|F1|association|VDR overexpression vs KRAS mutation|colorectal cancers, two cohorts|significant|positive|partial|V3|abstract only
+F|F2|association|VDR overexpression vs PIK3CA mutation|colorectal cancers, two cohorts|significant|positive|partial|V3|abstract only
+F|F3|association|VDR vs clinical, molecular features incl. BRAF|colorectal cancers|not_significant|null|not_reported|V4|independent association only
+F|F4|association|VDR expression vs patient survival|colorectal cancer patients|not_significant|null|not_reported|V2|
+F|F5|descriptive|VDR overexpression frequency|619 colorectal cancers|not_applicable|not_applicable|available|V1|

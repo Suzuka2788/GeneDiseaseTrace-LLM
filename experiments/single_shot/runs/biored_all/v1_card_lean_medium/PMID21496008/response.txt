@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ARX|ARX;Aristaless-related homeobox|r||human||
+E|D1|disease|intellectual disability|intellectual disability;ID|r|||||
+E|D2|disease|brain and genital malformations|brain and genital malformations|p|other|||
+X|human disorders|b0002|generic disease category, not a specific endpoint
+X|uc466|b0002|ultraconserved region identifier, not a gene
+X|c.1074G>T|b0002|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s8+b0002.s9|ts|res|aff|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2|||Background causal statement; ARX mutations found in ID cohort
+P|G1|D2|sup|c|bg|sup:c:bg:V1|||Background statement that ARX mutations cause malformations
+F|F1|descriptive|ARX mutation frequency|613 individuals with ID|not_applicable|not_applicable|available|V2|
+F|F2|correlation|ARX mislocalization vs pA2 length, severity|11 ARX variants in cells|unknown|positive|not_reported|V3|abstract only; severity not disease-specific
+R|disease surface|b0002.s1|D2 is a combined phrase covering brain and genital malformations|Kept as one provisional disease entity as written

@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|neuregulin-1|Neuregulin-1;neuregulin-1;NRG-1|r||||
+E|G2|gene|erbB3|erbB3|r||||
+E|G3|gene|erbB4|erbB4|r||||
+E|G4|gene|focal adhesion kinase|focal adhesion kinase|r||||
+E|G5|gene|beta(1)-integrin|beta(1)-integrin|r||||
+E|D1|disease|malignant peripheral nerve sheath tumor|malignant peripheral nerve sheath tumor;Malignant peripheral nerve sheath tumors;MPNSTs;MPNST|r|||D3|
+E|D2|disease|neurofibromatosis Type 1|neurofibromatosis Type 1;NF1|r||||
+E|D3|disease|sarcomas|sarcomas|r||||
+X|MEK 1/2|b0002|gene family, not a single gene
+X|SAPK/JNK|b0002|gene family, not a single gene
+X|PI-3 kinase|b0002|gene family, not a single gene
+X|Src family kinases|b0002|gene set, not a single gene
+X|ROCK-I/II|b0002|gene family, not a single gene
+X|Erk 1/2|b0002|gene family, not a single gene
+X|Akt|b0002|gene family, not a single gene
+X|erbB|b0002|receptor family label, not a single gene
+EV|V1|b0002.s4|ts|co|na|do
+EV|V2|b0002.s5+b0002.s7|ts|res|aff|rr
+EV|V3|b0002.s9|ts|res|neg|rr
+EV|V4|b0002.s11|ts|int|hyp|unc
+EV|V5|b0002.s6|ts|co|na|do
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V4|scope,hedged_claim|V1;V3|In vitro migration only; conclusion hedged
+P|G2|D1|nf|-||||V5|Receptor presence in invadopodia is descriptive
+P|G3|D1|nf|-||||V5|Receptor presence in invadopodia is descriptive
+F|F1|mechanism|NRG-1 beta vs MPNST cell migration/invasion|human and murine MPNST cell lines|unknown|positive|not_reported|V2|substrate-specific; laminin only
+F|F2|mechanism|NRG-1 alpha vs MPNST cell migration|MPNST cell lines|unknown|mixed|not_reported|V3|no effect or inhibition, line-dependent
+F|F3|descriptive|erbB3/erbB4 colocalization with beta(1)-integrin, FAK|MPNST invadopodia|not_applicable|not_applicable|not_applicable|V5|

@@ -1,0 +1,14 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CYP2C8|CYP2C8|r|||human||
+E|D1|disease|hypertension|hypertension;hypertensive|r|||||
+X|CYP|b0002|enzyme family abbreviation (cytochrome P450), not a single gene
+X|C35322C|b0002|variant genotype notation, not a gene
+EV|V1|b0002.s5+b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s10|ts|int|hyp|ho
+EV|V3|b0002.s12|ts|res|aff|rr,cmp
+EV|V4|b0002.s1+b0002.s2|bg|hyp|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V3;unc:-:ts:V2|hedged_claim|V4|C35322 genotype frequency differs between cases and controls
+F|F1|group_comparison|CYP2C8 C35322C genotype prevalence|hypertensive patients vs healthy controls|significant|negative|not_reported|V1|abstract only; no statistics shown
+F|F2|group_comparison|CYP2C8 variant frequencies|hypertensive patients vs healthy controls|unknown|mixed|not_reported|V1|pooled variant comparison
+F|F3|group_comparison|CYP2C8 C35322T SNP frequency|hypertensive patients vs controls|unknown|positive|not_reported|V3|significance not stated

@@ -1,0 +1,23 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FGG|fibrinogen gamma;FGG|r||human||
+E|G2|gene|FGA|fibrinogen alpha;FGA|r||human||
+E|G3|gene|FGB|fibrinogen beta;FGB|r||human||
+E|D1|disease|peripheral arterial disease|Peripheral Arterial Disease;peripheral arterial disease;PAD|r||||
+E|D2|disease|deep venous thrombosis|deep venous thrombosis|r||||
+E|D3|disease|myocardial infarction|myocardial infarction|r||||
+E|D4|disease|diabetes|diabetes|r||||
+E|D5|disease|arterial hypertension|arterial hypertension|r||||
+E|D6|disease|hypercholesterolemia|hypercholesterolemia|r||||
+X|fibrinogen|b0002|protein complex of three gene products, not single gene
+X|rs2066865|b0002|variant identifier
+X|FGG 10034C>T|b0002|variant name, mapped to FGG
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s7+b0002.s8+b0002.s10|ts|neg|neg|rr,cmp
+EV|V3|b0002.s9|ts|neg|neg|rr
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background: FGG 10034C>T associated with DVT
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||Background: FGG 10034C>T associated with MI
+P|G1|D1|neg|-|ts|neg:-:ts:V2+V3|||Case-control: T variant not associated with PAD
+F|F1|group_comparison|FGG genotype frequencies vs PAD status|891 PAD cases, 777 controls|not_significant|null|available|V2|
+F|F2|association|FGG 10034 T variant and PAD presence|multivariate adjusted logistic regression|not_significant|null|available|V2|OR 1.07, 95% CI 0.84-1.37
+F|F3|association|FGG 10034C>T and PAD onset age|PAD patients|not_significant|null|not_reported|V3|

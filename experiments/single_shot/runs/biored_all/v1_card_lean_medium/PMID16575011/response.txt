@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|thymidylate synthase|thymidylate synthase;TS|r||human||
+E|D1|disease|colorectal cancer|colorectal cancer|r||||
+E|PH1|phenotype|metachronic metastases|metachronic metastases|r||||
+X|1494del6|b0002|variant identifier, not a gene
+X|3R G > C single nucleotide polymorphism|b0002|variant identifier, not a gene
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s10|ts|res|aff|rr,cmp
+EV|V4|b0002.s8|ts|neg|neg|rr
+EV|V5|b0002.s12|ts|neg|neg|rr
+EV|V6|b0002.s13|ts|int|hyp|ho
+EV|V7|b0002.s11|ts|co|na|do
+P|G1|D1|sup|r|ts|sup:r:ts:V1+V2+V3;neg:-:ts:V4+V5;unc:-:ts:V6|||V7|TS genotype linked to survival within colorectal cancer
+F|F1|association|TS tumor 3R/3R genotype vs outcome|CRC adjuvant FU patients|significant|positive|available|V1|recessive model
+F|F2|association|TS 1494del6 deletion allele vs survival|CRC adjuvant FU patients|significant|positive|available|V2|additive model; protective
+F|F3|association|3R/-6bp vs 2R/+6bp haplotype survival|CRC adjuvant FU patients|significant|positive|available|V3|
+F|F4|association|3R G>C SNP vs prognosis|CRC adjuvant FU patients|not_significant|null|not_reported|V4|
+F|F5|association|TS protein immunostaining vs survival, genotypes|214 colorectal tumors|not_significant|null|not_reported|V5|
+F|F6|descriptive|TS point mutations|primary tumors and metastases|not_applicable|not_applicable|not_applicable|V7|
+F|F7|other|linkage disequilibrium enhancer and 1494del6|CRC patients|significant|positive|partial|V3|
+R|correlation definition|b0002.s7|Prognostic survival association within one disease; unclear if pair-level|Treated survival as disease variable; correlation, supported

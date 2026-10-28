@@ -1,0 +1,31 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text incl. tables; no genes present; viruses not genes
+E|D1|disease|COVID-19|COVID-19|r||||
+E|D2|disease|respiratory tract infections|Respiratory Tract Infections;respiratory tract infections;viral respiratory tract infections|r||||
+E|D3|disease|viral respiratory diseases|viral respiratory diseases;respiratory diseases|r||||
+E|D4|disease|respiratory infection|respiratory infection|r||||
+E|D5|disease|rhinovirus infection|rhinovirus infection;Rhinovirus infection|r||||
+E|D6|disease|influenza A virus infection|influenza A virus infection|r||||
+E|D7|disease|respiratory illnesses|respiratory illnesses|r||||
+X|RSV|b0007|virus organism, not gene
+X|HRE|b0007|virus organism, not gene
+X|ADV|b0020|virus organism, not gene
+X|HMPV|b0020|virus organism, not gene
+X|PIV|b0009|virus organism, not gene
+X|IA|b0045|virus organism abbreviation, not gene
+X|IB|b0045|virus organism abbreviation, not gene
+X|SARS-CoV-2|b0020|virus organism, not gene
+X|MERSCOV|b0020|virus organism, not gene
+X|coronavirus HKU1|b0020|virus organism, not gene
+X|Mycoplasma pneumonia|b0020|pathogen in test panel, not analysed disease
+X|Bordetella pertussis|b0020|pathogen in test panel, not disease
+X|CRP|b0020|lab test, not gene endpoint
+X|procalcitonin|b0020|lab test, not gene endpoint
+F|F1|group_comparison|RSV seasonal distribution; pre vs post COVID-19|hospitalised children <14 years|significant|unknown|partial|b0057.s4+b0061.s1|
+F|F2|group_comparison|HRE seasonal distribution; pre vs post COVID-19|hospitalised children <14 years|significant|unknown|partial|b0090.s3+b0067.s1|
+F|F3|group_comparison|PIV seasonal distribution; pre vs post COVID-19|hospitalised children <14 years|mixed|unknown|partial|b0079.s1+b0094.s5|p-value conflict 0.0297 vs 0.297
+F|F4|group_comparison|ADV, HMPV, IA, IB seasonal distribution|hospitalised children <14 years|not_significant|null|partial|b0064.s1+b0070.s1+b0073.s1+b0076.s1|
+C|C1|PIV seasonal p-value|b0079.s1+b0094.s5|undetermined|unresolved|table 0.0297, text 0.297
+C|C2|HRE seasonal percentages|b0067.s1+b0068.s1+b0090.s1|noncritical|unresolved|20.9 vs 26.9; 74 vs 75
+C|C3|ADV autumn post percentage|b0065.s1+b0089.s1|noncritical|unresolved|table 3%, text 5%
+R|gene matrix|whole paper|No gene entities; only viruses and diseases mentioned|No P records generated; viruses excluded as organisms

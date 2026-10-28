@@ -1,0 +1,15 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|5-HT(2C) receptor|5-HT(2C);serotonin 2C receptor|r||human||
+E|D1|disease|seasonal affective disorder|seasonal affective disorder;SAD|r||||
+E|S1|symptom|overeating|overeating|r||||
+E|S2|symptom|weight gain|weight gain|r||||
+E|S3|phenotype|seasonal appetite change|seasonal appetite change|r||||
+X|Cys 23 Ser|b0002.s3|variant identifier, not a gene
+EV|V1|b0002.s5+b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s6+b0002.s7+b0002.s8+b0002.s9+b0002.s10|ts|res|aff|rr
+EV|V3|b0002.s4|ts|hyp|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||V2+V3|Austrian case-control genotype distribution difference
+F|F1|group_comparison|Cys 23 Ser genotype vs SAD status|Austrian SAD females vs controls|significant|unknown|partial|V1|direction not reported in abstract
+F|F2|association|Cys 23 Ser vs weight, BMI, appetite change|Austrian SAD patients, atypical features|significant|negative|partial|V2|within-disease; Ser allele lowest values
+F|F3|association|Cys 23 Ser vs minimum lifetime BMI|Canadian SAD patients|significant|negative|partial|V2|within-disease; Ser/Ser lowest

@@ -1,0 +1,44 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables, captions; no genes mentioned anywhere
+E|D1|disease|end-stage renal disease|end-stage renal disease;ESRD|r||||
+E|D2|disease|diabetes mellitus|diabetes mellitus|r||||
+E|D3|disease|hypertension|hypertension|r||||
+E|D4|disease|glomerulonephritis|glomerulonephritis|r||||
+E|D5|disease|chronic kidney disease|chronic kidney disease|r||||
+E|D6|disease|cardiovascular disease|cardiovascular disease;CVD|r||||
+E|D7|disease|acute kidney injury|acute kidney injury|r||||
+E|D8|disease|multiple organ failure|multiple organ failure|r||||
+E|D9|disease|diabetic nephropathy|diabetic nephropathy;Diabetic nephropathy|r||||
+E|D10|disease|chronic glomerulonephritis|chronic glomerulonephritis;Chronic glomerulonephritis|r|||D4|
+E|D11|disease|hypertensive nephrosclerosis|hypertensive nephrosclerosis;Hypertensive nephrosclerosis|r||||
+E|D12|disease|hypertensive nephropathy|Hypertensive nephropathy|p|ambiguous_mapping|||
+E|D13|disease|kidney disease|kidney disease;kidney diseases;Other kidney disease|r||||
+E|D14|disease|diabetic retinopathy|diabetic retinopathy;Diabetic retinopathy|r||||
+E|D15|disease|heart failure|heart failure|r||||
+E|D16|disease|myocardial infarction|myocardial infarction|r||||
+E|D17|disease|acute myocardial infarction|acute myocardial infarction|r|||D16|
+E|D18|disease|valve diseases|valve diseases|r||||
+E|D19|disease|aortic disease|aortic disease|r||||
+E|D20|disease|arteriosclerosis obliterans|arteriosclerosis obliterans|r||||
+E|D21|disease|cerebrovascular disease|cerebrovascular disease|r||||
+E|D22|disease|cancer|cancer|r||||
+E|D23|disease|infectious disease|infectious disease|r||||
+E|D24|disease|stroke|stroke|r||||
+E|D25|disease|psychiatric disorder|psychiatric disorder|r||||
+E|D26|disease|malnutrition|malnutrition|r||||
+E|D27|disease|uremic complications|uremic complications|r||||
+E|CE1|clinical_event|cardiovascular event|cardiovascular event;cardiovascular events|r||||
+E|CE2|clinical_event|all-cause death|all-cause death|r||||
+E|S1|symptom|edema|edema|r||||
+E|S2|symptom|pulmonary edema|pulmonary edema|r||||
+E|S3|symptom|hemorrhagic diathesis|hemorrhagic diathesis|r||||
+E|S4|symptom|peripheral neuropathy|peripheral neuropathy|r||||
+X|Primary kidney disease|b0038|table_grouping_label
+X|angiotensin-converting enzyme inhibitor|b0028|drug class, not gene
+X|angiotensin II receptor blocker|b0028|drug class, not gene
+X|erythropoiesis-stimulating agent|b0028|drug class, not gene
+X|IGFR10-HD|b0003|study interval variable, not gene
+F|F1|correlation|diabetic nephropathy vs log IGFR10-HD|124 HD patients|significant|negative|available||single-center retrospective; R>0.20 criterion
+F|F2|association|diabetic retinopathy vs primary outcome HR|124 HD patients|significant|positive|available||univariate only
+F|F3|association|diabetic nephropathy vs primary outcome HR|124 HD patients|not_significant|positive|available||univariate only
+R|merging|b0098;b0144 vs b0041|Same table row named hypertensive nephropathy vs nephrosclerosis across tables|Kept separate entities; hypertensive nephropathy marked provisional ambiguous_mapping

@@ -1,0 +1,31 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat model; no full text
+E|G1|gene|inducible NO synthase|inducible NO synthase|r||non-human||
+E|G2|gene|neuronal NO synthase|neuronal NO synthase|r||non-human||
+E|G3|gene|bradykinin B2 receptor|B2 receptors;B2|r||non-human||
+E|G4|gene|bradykinin B1 receptor|B1 receptors;B1|r||non-human||
+E|G5|ambiguous_gene|constitutive NO synthase|constitutive NO synthase|u|ambiguous_mapping|non-human||
+E|D1|disease|diabetic neuropathy|diabetic neuropathy|r||||
+E|D2|disease|toxic neuropathy|toxic neuropathy|p|other|||
+E|D3|disease|neuropathic pain|neuropathic pain|r||||
+E|S1|phenotype|hyperalgesia|hyperalgesia|r||||
+X|bradykinin receptors|b0002|gene set, not a single gene
+X|bradykinin|b0002|peptide ligand, not a single gene endpoint
+X|NO synthase|b0002|enzyme family, not a single gene
+EV|V1|b0002.s3|ts|res|aff|rr,mi
+EV|V2|b0002.s3|ts|neg|neg|rr,mi
+EV|V3|b0002.s5|ts|res|aff|rr,mi
+EV|V4|b0002.s8|ts|int|hyp|ho
+EV|V5|b0002.s7|ts|int|hyp|ho
+EV|V6|b0002.s4+b0002.s6|ts|res|pre|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V4|||iNOS inhibition reduced diabetic hyperalgesia
+P|G2|D1|neg|-|ts|neg:-:ts:V2|||nNOS inhibition did not reduce diabetic hyperalgesia
+P|G1|D2|sup|a|ts|sup:a:ts:V3|||iNOS products involved in vincristine hyperalgesia
+P|G2|D2|sup|a|ts|sup:a:ts:V3;unc:-:ts:V4|||nNOS products involved in vincristine hyperalgesia
+P|G3|D1|unc|-|ts|unc:-:ts:V5|hedged_claim,scope|V1+V6|Conclusion only suggests; result is gene-set level
+P|G4|D1|unc|-|ts|unc:-:ts:V5|hedged_claim,scope|V1+V6|Conclusion only suggests; result is gene-set level
+P|G3|D2|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Engagement only suggested
+P|G4|D2|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Engagement only suggested
+F|F1|group_comparison|NOS inhibitor pretreatment x antagonist antihyperalgesia|streptozotocin diabetic rats|significant|positive|not_reported|V6|abstract only; pharmacological
+F|F2|group_comparison|NOS inhibitor pretreatment x antagonist antihyperalgesia|vincristine-treated rats|unknown|positive|not_reported|V6|abstract only; pharmacological
+R|pharmacological inhibition in animal model|b0002.s3|Drug inhibition, not gene alteration; causal fit unclear|Graded association, this study, non-human

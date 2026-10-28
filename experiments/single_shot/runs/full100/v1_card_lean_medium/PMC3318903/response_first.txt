@@ -1,0 +1,200 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables and figure captions read; figure images unavailable
+E|G1|gene|CTLA4|CTLA4;cytotoxic T lymphocyte antigen 4;Cytotoxic T-lymphocyte-associated protein 4|r||human||
+E|G2|gene|PSMD8|PSMD8|r||human||
+E|G3|gene|EIF4A2|EIF4A2;EIFA2;eukaryotic translation initiation factor 4A2;Eukaryotic translation initiation factor 4A2|p|suspected_typo|human||
+E|G4|gene|CCNT1|CCNT1;Cyclin T1|r||human||
+E|G5|gene|IL7R|IL7R;IL-7R;Interleukin 7 receptor|r||human||
+E|G6|gene|PRKAA1|PRKAA1|r||human||
+E|G7|gene|HSPA8|HSPA8|r||human||
+E|G8|gene|LSM6|LSM6|r||human||
+E|G9|gene|MMGT1|MMGT1|r||human||
+E|G10|gene|TDRD7|TDRD7|r||human||
+E|G11|gene|GTF3C6|GTF3C6|r||human||
+E|G12|gene|BCL2A1|BCL2A1|r||human||
+E|G13|gene|SLC4A7|SLC4A7|r||human||
+E|G14|gene|MRPL28|MRPL28|r||human||
+E|G15|gene|TRIM22|TRIM22|r||human||
+E|G16|gene|KLRAQ1|KLRAQ1|r||human||
+E|G17|gene|GBP3|GBP3|r||human||
+E|G18|gene|MIS12|MIS12|r||human||
+E|G19|gene|PDCD2|PDCD2|r||human||
+E|G20|gene|ATOX1|ATOX1|r||human||
+E|G21|gene|PIGB|PIGB|r||human||
+E|G22|gene|NPEPPS|NPEPPS|r||human||
+E|G23|gene|ZNF330|ZNF330|r||human||
+E|G24|gene|PLP2|PLP2|r||human||
+E|G25|gene|PTGES2|PTGES2|r||human||
+E|G26|gene|STMN3|STMN3|r||human||
+E|G27|gene|ABCC10|ABCC10|r||human||
+E|G28|gene|ELAC2|ELAC2|r||human||
+E|G29|gene|PLEKHA1|PLEKHA1|r||human||
+E|G30|gene|DCXR|DCXR|r||human||
+E|G31|gene|IL16|IL16;IL-16;Interleukin 16|r||human||
+E|G32|gene|GRAMD1B|GRAMD1B|r||human||
+E|G33|gene|LAGE3|LAGE3|r||human||
+E|G34|gene|TMEM80|TMEM80|r||human||
+E|G35|gene|SLIT3|SLIT3|r||human||
+E|G36|gene|CAMP|CAMP;cathelicidin antimicrobial peptide;Cathelicidin antimicrobial peptide|r||human||
+E|G37|gene|CCDC55|CCDC55|r||human||
+E|G38|gene|CD59|CD59|r||human||
+E|G39|gene|ASCC3|ASCC3|r||human||
+E|G40|gene|TMEM60|TMEM60|r||human||
+E|G41|gene|HSPA1A|HSPA1A|r||human||
+E|G42|gene|PARP9|PARP9|r||human||
+E|G43|gene|HIST1H1C|HIST1H1C|r||human||
+E|G44|gene|SLC43A3|SLC43A3|r||human||
+E|G45|gene|NCL|NCL;Nucleolin|r||human||
+E|G46|gene|LBH|LBH|r||human||
+E|G47|gene|PRKAB2|PRKAB2|r||human||
+E|G48|gene|CDK9|CDK9|r||human||
+E|G49|gene|IL-6|IL-6|r||human||
+E|G50|gene|CD80|CD80|r||human||
+E|G51|gene|SOCS1|SOCS1|r||human||
+E|G52|gene|TLR7|TLR7|r||human||
+E|G53|gene|TLR9|TLR9|r||human||
+E|G54|gene|FOXP3|FOXP3|r||human||
+E|G55|gene|IL2RG|IL2RG;interleukin 2 receptor gamma chain|r||human||
+E|G56|gene|IL7|IL7;interleukin 7|r||human||
+E|G57|gene|TNF-alpha|TNF-alpha;tumor necrosis factor alpha;tumor necrosis factor-alpha|r||human||
+E|G58|gene|IL1-beta|IL1-beta;interleukin 1 beta|r||human||
+E|G59|gene|TGF-beta|TGF-beta|p|ambiguous_mapping|human||
+E|G60|gene|IL-10|IL-10|r||human||
+E|G61|gene|STAT5|STAT5|p|ambiguous_mapping|human||
+E|G62|gene|CD4|CD4|r||human||
+E|G63|gene|Caspase 3|Caspase 3|r||human||
+E|G64|gene|Janus Kinase 3|Janus Kinase 3|r||human||
+E|G65|gene|CRP|CRP;C-reactive protein|r||human||
+E|G66|gene|APOE|APOE;apolipo-protein E|r||human||
+E|G67|gene|ECP|ECP;eosinophil cationic protein|p|ambiguous_mapping|human||
+E|G68|gene|AU-rich element RNA-binding protein 1|AU-rich element RNA-binding protein 1|r||human||
+E|G69|gene|EIF4A2 (rat)|EIF4A2|p|species_unresolved|non-human||
+E|G70|ambiguous_gene|human leukocyte antigen-DR genes|human leukocyte antigen-DR genes|u|ambiguous_mapping|human||
+E|D1|disease|rheumatoid arthritis|Rheumatoid Arthritis;Rheumatoid arthritis;rheumatoid arthritis;RA|r||||
+E|D2|disease|cold-pattern RA|cold-pattern RA;cold pattern;cold-pattern|r||||D1|
+E|D3|disease|heat-pattern RA|heat-pattern RA;heat pattern;heat-pattern;heat patten|p|suspected_typo||D1|
+E|D4|disease|autoimmune disease|autoimmune disease;autoimmune diseases|r||||
+E|D5|disease|severe combined immunodeficiency|severe combined immunodeficiency;SCID|r||||
+E|D6|disease|chronic nephritis|chronic nephritis|r||||
+E|D7|disease|Kidney deficiency syndrome|Kidney deficiency syndrome|r||||
+E|D8|disease|type 2 diabetes mellitus|type 2 diabetes mellitus;T2DM|r||||
+E|D9|disease|macroangiopathy|macroangiopathy|r||||
+E|D10|disease|Qi-Yin deficiency syndrome|Qi-Yin deficiency syndrome|r||||
+E|D11|disease|asthma|asthmatic|r||||
+E|D12|disease|TCM cold syndrome|cold syndrome|r||||
+E|D13|ambiguous_disease|hot syndromes in RA|hot syndromes|u|ambiguous_mapping|||
+E|D14|disease|qi vacuity|qi vacuity|r||||
+E|D15|disease|blood system diseases|blood system diseases|r||||
+E|S1|phenotype|rheumatoid articular inflammation|rheumatoid articular inflammation|r||||
+X|Autoimmune thyroid disease|b0153|KEGG pathway name, not disease claim
+X|Rheumatoid arthritis|b0156|KEGG pathway label hsa05323
+X|Primary immunodeficiency|b0164|KEGG pathway name
+X|Hypertrophic cardiomyopathy (HCM)|b0181|KEGG pathway name
+X|Prion diseases|b0183|KEGG pathway name
+X|Pathogenic Escherichia coli infection|b0184|KEGG pathway name
+X|HIV|b0062|pathogen, no disease named
+X|AMPK|b0066|protein complex
+X|p-TEFb|b0060|protein complex
+X|NF-κB|b0061|protein family/complex
+EV|V1|b0057.s5|bg|bgr|aff|ebr
+EV|V2|b0057.s4|bg|bgr|aff|ebr
+EV|V3|b0057.s3|bg|bgr|aff|ebr
+EV|V4|b0031.s1+b0018.s6+b0079.s1|ts|res|aff|rr,cmp
+EV|V5|b0032.s1+b0118.s1|ts|res|aff|rr,cmp
+EV|V6|b0033.s1+b0033.s2+b0143.s1|ts|res|aff|rr,cmp
+EV|V7|b0054.s4+b0054.s5+b0071.s1+b0071.s2|ts|int|aff|rr
+EV|V8|b0062.s7|bg|bgr|aff|ebr
+EV|V9|b0061.s9|bg|bgr|aff|ebr
+EV|V10|b0061.s7|bg|hyp|hyp|ho
+EV|V11|b0004.s4|bg|bgr|aff|ebr
+EV|V12|b0005.s7|bg|bgr|aff|ebr
+EV|V13|b0057.s9|ts|int|aff|rr
+EV|V14|b0057.s6|bg|bgr|na|do
+EV|V15|b0058.s2|ts|res|aff|rr,cmp
+EV|V16|b0062.s8|ts|res|aff|rr,cmp
+EV|V17|b0061.s11|ts|res|aff|rr,cmp
+EV|V18|b0060.s12|ts|res|aff|rr,cmp
+EV|V19|b0063.s3|ts|res|aff|rr,cmp
+EV|V20|b0065.s3|ts|res|aff|rr,cmp
+EV|V21|b0066.s4+b0066.s5|ts|res|aff|rr,cmp
+EV|V22|b0067.s12|ts|res|aff|rr,cmp
+EV|V23|b0067.s14|ts|res|aff|rr,cmp
+EV|V24|b0067.s5|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V2+V14|CTLA4 upregulated on T cells in RA
+P|G1|D2|sup|a|ts|sup:a:ts:V4+V6+V7+V13|||Upregulated vs healthy controls
+P|G1|D3|sup|a|ts|sup:a:ts:V5+V6+V7+V13|||Upregulated vs healthy controls
+P|G1|D4|sup|a|bg|sup:a:bg:V3|||Background: negative regulator in autoimmune diseases
+P|G2|D2|sup|a|ts|sup:a:ts:V4+V6+V7+V15|||Downregulated vs controls
+P|G2|D3|sup|a|ts|sup:a:ts:V5+V6+V7+V15|||Downregulated vs controls
+P|G3|D2|sup|a|ts|sup:a:ts:V4+V7+V19|||Downregulated; named cold biomarker
+P|G3|D3|neg|-|ts|neg:-:ts:V19|||Not altered in heat pattern
+P|G4|D2|sup|a|ts|sup:a:ts:V4+V7+V18|||Upregulated; named cold biomarker
+P|G4|D3|neg|-|ts|neg:-:ts:V18|||No change in heat pattern
+P|G5|D1|sup|r|bg|sup:r:bg:V9|||Expression associated with DAS28-CRP
+P|G5|D2|sup|a|ts|sup:a:ts:V4+V7+V17|||Downregulated; named cold biomarker
+P|G5|D3|neg|-|ts|neg:-:ts:V17|||Not changed in heat pattern
+P|G5|D5|unc|-|bg|unc:-:bg:V10|hedged_claim||Background says may be associated
+P|G6|D3|sup|a|ts|sup:a:ts:V5+V7+V21|||Upregulated; named heat biomarker
+P|G6|D2|neg|-|ts|neg:-:ts:V21|||Not in cold pattern
+P|G7|D3|sup|a|ts|sup:a:ts:V5+V7+V22|||Downregulated; named heat biomarker
+P|G8|D3|sup|a|ts|sup:a:ts:V5+V7+V23|||Upregulated; named heat biomarker
+P|G31|D1|sup|a|bg|sup:a:bg:V8|||Background: role in RA process
+P|G31|D2|sup|a|ts|sup:a:ts:V4+V16|||Downregulated vs controls
+P|G31|D3|neg|-|ts|neg:-:ts:V16|||Not changed in heat pattern
+P|G36|D3|sup|a|ts|sup:a:ts:V5+V20|||Upregulated 2.33-fold vs controls
+P|G36|D2|neg|-|ts|neg:-:ts:V20|||Not in cold pattern
+P|G41|D3|sup|a|ts|sup:a:ts:V5+V24|||Upregulated vs controls
+P|G9|D2|sup|a|ts|sup:a:ts:V4+V6|||Differentially expressed vs controls
+P|G9|D3|sup|a|ts|sup:a:ts:V5+V6|||Differentially expressed vs controls
+P|G10|D2|sup|a|ts|sup:a:ts:V4+V6|||Differentially expressed vs controls
+P|G10|D3|sup|a|ts|sup:a:ts:V5+V6|||Differentially expressed vs controls
+P|G11|D2|sup|a|ts|sup:a:ts:V4+V6|||Differentially expressed vs controls
+P|G11|D3|sup|a|ts|sup:a:ts:V5+V6|||Differentially expressed vs controls
+P|G12|D2|sup|a|ts|sup:a:ts:V4+V6|||Differentially expressed vs controls
+P|G12|D3|sup|a|ts|sup:a:ts:V5+V6|||Differentially expressed vs controls
+P|G13|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G14|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G15|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G16|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G17|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G18|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G19|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G20|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G21|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G22|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G23|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G24|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G25|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G26|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G27|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G28|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G29|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G30|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G32|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G33|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G34|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G35|D2|sup|a|ts|sup:a:ts:V4|||Table 1 differentially expressed
+P|G37|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G38|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G39|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G40|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G42|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G43|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G44|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G45|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G46|D3|sup|a|ts|sup:a:ts:V5|||Table 2 differentially expressed
+P|G70|D1|unc|-|bg|unc:-:bg:V11|identity||Gene family, single gene unresolved
+P|G65|D13|unc|-|bg|unc:-:bg:V12|identity,coreference||Hot syndromes vs heat pattern unclear
+P|G66|D10|sup|a|bg|sup:a:bg:V12|||APOE genotypes associated with syndrome
+P|G66|D8|unc|-|bg|unc:-:bg:V12|scope||Link is to T2DM syndrome subgroup
+P|G67|D11|unc|-|bg|unc:-:bg:V12|scope||Correlates with heat manifestations, not asthma
+F|F1|group_comparison|gene expression; cold pattern vs control|cold-pattern RA vs healthy females|significant|mixed|partial|V4|ratios only, no per-gene P
+F|F2|group_comparison|gene expression; heat pattern vs control|heat-pattern RA vs healthy females|significant|mixed|partial|V5|ratios only, no per-gene P
+F|F3|descriptive|six shared differentially expressed genes|both RA patterns|not_applicable|mixed|available|V6|
+F|F4|mechanism|KEGG/GO/PPI enrichment of DEGs|cold and heat RA patterns|mixed|not_applicable|partial|V7|Table 7 P>0.05; no PCR validation
+C|C1|TLR7 vs TLR9 in heat network|b0047.s3+b0057.s8|noncritical|unresolved|Same sentence pattern, different gene
+C|C2|IL-6 vs IL-16 in cold network|b0047.s2+b0057.s7|noncritical|unresolved|Partner lists differ
+C|C3|IL7R/EIF4A2 down vs up-regulated proliferation|b0061.s11+b0063.s3+b0071.s1|noncritical|unresolved|Process direction vs gene direction
+U|Figures 1-5 images|b0074-b0078|only captions provided
+R|Methods describe cell lines and sensitive/resistant conditions|b0021.s1-s2|Inconsistent with patient design|Ignored; used patient-group comparisons only
+R|TCM cold/heat patterns as RA subtypes|b0002.s1|Not standard diseases|Modelled as RA child entities; no propagation

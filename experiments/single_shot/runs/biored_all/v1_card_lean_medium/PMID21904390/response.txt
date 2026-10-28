@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PAX6|PAX6;paired box homeotic gene 6|r||human||
+E|G2|gene|DKFZ p686k1684|DKFZ p686k1684|p|other|human||
+E|D1|disease|Aniridia|Aniridia;AN|r||||
+E|D2|disease|anterior segment malformations|anterior segment malformations;anterior segment malformation|r||||
+E|D3|disease|Peters anomaly|Peters anomaly;peters anomaly|r|||D2|
+E|D4|disease|coloboma of iris and choroid|coloboma of iris and choroid;coloboma of iris and choroids|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s9|ts|res|aff|rr,do
+EV|V3|b0002.s12|ts|res|aff|rr,do
+EV|V4|b0002.s2|bg|bgr|aff|ebr
+EV|V5|b0002.s11|ts|res|aff|rr,eda
+EV|V6|b0002.s10|ts|res|aff|rr,do
+EV|V7|b0002.s13|ts|neg|neg|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||Background states PAX6 mutations cause aniridia
+P|G1|D2|sup|a|bg|sup:a:bg:V4||V6|Background involvement; this study's detection is descriptive
+P|G1|D3|sup|a|both|sup:a:bg:V4;sup:a:ts:V5|||Authors attribute Peters anomaly to p.S216P
+P|G1|D4|neg|-|ts|neg:a:ts:V7|||No PAX6 mutation or deletion in coloboma group
+P|G2|D1|nf|-|||||V3|Co-deleted gene detected; no disease attribution
+F|F1|descriptive|PAX6 mutations by phenotype group|Chinese families and sporadic patients|not_applicable|not_applicable|not_reported|V2+V3+V6+V7|Abstract only; counts partly unreported
+R|case-report attribution|b0002.s11|Authors say mutation "caused" Peters anomaly in one family|Coded as association per case-report attribution rule

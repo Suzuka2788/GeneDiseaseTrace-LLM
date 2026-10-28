@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|DMC1|DMC1;disrupted meiotic cDNA|r||human||
+E|G2|gene|MSH4|MSH4;MutS homolog|r||human||
+E|G3|gene|MSH5|MSH5|r||human||
+E|G4|gene|SPO11|SPO11;S. cerevisiae homolog|r||human||
+E|D1|disease|premature ovarian failure|premature ovarian failure;POF|r||||
+E|S1|symptom|infertility|infertility|r||||
+X|P29S|b0002.s6|variant ID
+X|M200V|b0002.s8|variant ID
+EV|V1|b0002.s1|ts|aim|q|ho|
+EV|V2|b0002.s4+b0002.s5+b0002.s7|ts|res|na|cmp,do|
+EV|V3|b0002.s8|ts|co|na|do|
+EV|V4|b0002.s9+b0002.s10|ts|int|hyp|ho|
+P|G3|D1|unc|-|ts|unc:-:ts:V2+V4|hedged_claim|V1|Variant in 2 cases not controls; attribution hedged
+P|G1|D1|unc|-|ts|unc:-:ts:V3+V4|hedged_claim|V1|Single case variant; only hedged attribution
+P|G2|D1|nf|-|||||V1|Aim only; no result reported
+P|G4|D1|nf|-|||||V1|Aim only; no result reported
+F|F1|descriptive|MSH5 P29S heterozygous carrier status|41 POF vs 36 controls|unknown|positive|not_reported|V2|2/41 cases, 0/36 controls; no test
+F|F2|descriptive|DMC1 M200V homozygous carrier status|one African-origin POF patient|not_applicable|not_applicable|not_applicable|V3|single case; control status not stated

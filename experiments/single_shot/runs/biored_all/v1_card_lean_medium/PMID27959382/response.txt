@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|Bach1|Bach1|p|species_unresolved||||
+E|G2|gene|TGF-b1|TGF-b1|p|species_unresolved||||
+E|G3|gene|heme oxygenase-1|heme oxygenase-1|p|species_unresolved||||
+E|G4|gene|glutathione peroxidase 1|glutathione peroxidase 1|p|species_unresolved||||
+E|G5|gene|interleukin-6|interleukin-6|p|species_unresolved||||
+E|D1|disease|pulmonary fibrosis|pulmonary fibrosis;PF|r||||
+E|D2|disease|bleomycin-induced pulmonary fibrosis|bleomycin-induced pulmonary fibrosis;BLM-induced PF|r|||D1|
+E|D3|disease|fibrosis|fibrosis|r||||
+E|S1|phenotype|oxidative stress|oxidative stress|r||||
+E|S2|phenotype|inflammation|inflammation|r||||
+EV|V1|b0002.s2|bg|hyp|hyp|ho
+EV|V2|b0001.s1+b0002.s9+b0002.s10+b0002.s11|ts|res|aff|mi,rr,cmp
+EV|V3|b0002.s12|ts|int|hyp|ho
+EV|V4|b0002.s8|ts|res|na|do
+P|G1|D2|sup|c|ts|sup:c:ts:V2|||Bach1 knockdown attenuates BLM-induced PF in mice
+P|G1|D1|unc|-|bg|unc:-:bg:V1;unc:-:ts:V3|hedged_claim||Only "potential target" and "may" statements
+P|G2|D2|nf|-|||||V4|Cell supernatant change only, no disease link
+F|F1|group_comparison|Bach1 siRNA vs BLM group lung pathology|BLM-induced PF mice|significant|negative|not_reported|V2|abstract only, non-human
+F|F2|group_comparison|Bach1 siRNA vs TGF-b1 alone, HO-1, GPx1, TGF-b1, IL-6|TGF-b1-treated mouse lung fibroblasts|unknown|mixed|not_reported|V4|cell phenotype only

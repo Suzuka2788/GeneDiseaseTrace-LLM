@@ -1,0 +1,4000 @@
+{
+  "variant": "v1_card_lean_medium",
+  "run_set": "biored_all",
+  "papers_scored": 419,
+  "papers_missing": [],
+  "strict": {
+    "precision": 0.894,
+    "recall": 0.43,
+    "f1": 0.581,
+    "ci95": {
+      "precision": [
+        0.855,
+        0.931
+      ],
+      "recall": [
+        0.386,
+        0.478
+      ],
+      "f1": [
+        0.538,
+        0.625
+      ]
+    }
+  },
+  "scope_adjusted": {
+    "precision": 0.894,
+    "recall": 0.468,
+    "f1": 0.614,
+    "ci95": {
+      "precision": [
+        0.852,
+        0.93
+      ],
+      "recall": [
+        0.414,
+        0.519
+      ],
+      "f1": [
+        0.565,
+        0.659
+      ]
+    }
+  },
+  "supported_or_uncertain": {
+    "precision": 0.814,
+    "recall": 0.577,
+    "f1": 0.676,
+    "ci95": {
+      "precision": [
+        0.777,
+        0.851
+      ],
+      "recall": [
+        0.526,
+        0.628
+      ],
+      "f1": [
+        0.636,
+        0.714
+      ]
+    }
+  },
+  "by_split": {
+    "Train": {
+      "papers": 275,
+      "gold": 1045,
+      "strict": {
+        "precision": 0.897,
+        "recall": 0.433,
+        "f1": 0.584,
+        "ci95": {
+          "precision": [
+            0.851,
+            0.938
+          ],
+          "recall": [
+            0.385,
+            0.486
+          ],
+          "f1": [
+            0.536,
+            0.633
+          ]
+        }
+      },
+      "supported_or_uncertain": {
+        "precision": 0.809,
+        "recall": 0.59,
+        "f1": 0.683,
+        "ci95": {
+          "precision": [
+            0.765,
+            0.852
+          ],
+          "recall": [
+            0.539,
+            0.644
+          ],
+          "f1": [
+            0.641,
+            0.725
+          ]
+        }
+      }
+    },
+    "Dev": {
+      "papers": 71,
+      "gold": 293,
+      "strict": {
+        "precision": 0.922,
+        "recall": 0.454,
+        "f1": 0.608,
+        "ci95": {
+          "precision": [
+            0.868,
+            0.964
+          ],
+          "recall": [
+            0.301,
+            0.608
+          ],
+          "f1": [
+            0.451,
+            0.738
+          ]
+        }
+      },
+      "supported_or_uncertain": {
+        "precision": 0.81,
+        "recall": 0.573,
+        "f1": 0.671,
+        "ci95": {
+          "precision": [
+            0.69,
+            0.911
+          ],
+          "recall": [
+            0.414,
+            0.736
+          ],
+          "f1": [
+            0.538,
+            0.793
+          ]
+        }
+      }
+    },
+    "Test": {
+      "papers": 73,
+      "gold": 295,
+      "strict": {
+        "precision": 0.853,
+        "recall": 0.397,
+        "f1": 0.542,
+        "ci95": {
+          "precision": [
+            0.725,
+            0.967
+          ],
+          "recall": [
+            0.301,
+            0.502
+          ],
+          "f1": [
+            0.444,
+            0.644
+          ]
+        }
+      },
+      "supported_or_uncertain": {
+        "precision": 0.833,
+        "recall": 0.536,
+        "f1": 0.652,
+        "ci95": {
+          "precision": [
+            0.747,
+            0.911
+          ],
+          "recall": [
+            0.434,
+            0.644
+          ],
+          "f1": [
+            0.565,
+            0.734
+          ]
+        }
+      }
+    }
+  },
+  "per_paper": {
+    "PMID1353340": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID1671881": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID2491010": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID6086495": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID7018927": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID7668252": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID7811247": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID7905839": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID8002973": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID8755918": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID9294109": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID9647766": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID10491763": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID10788334": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID11054569": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID12442272": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID14510914": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID14722929": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15000256": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID15018851": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15033202": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15041272": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15064320": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15069170": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15075188": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 7,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15086325": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15099351": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15111599": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15122708": {
+      "tp_gold": 4,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID15122711": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 2,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15145918": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15177686": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15191352": {
+      "tp_gold": 1,
+      "fn": 5,
+      "fn_symptom": 5,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15198485": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15200408": {
+      "tp_gold": 4,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15241482": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID15459183": {
+      "tp_gold": 4,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15459975": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15464247": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15485686": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15523499": {
+      "tp_gold": 0,
+      "fn": 6,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 6,
+      "uncertain_or_negative_in_gold": 6
+    },
+    "PMID15579441": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15599941": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15609295": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15623763": {
+      "tp_gold": 4,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15649253": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15668505": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID15673851": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15748645": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15749661": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15754732": {
+      "tp_gold": 3,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15755837": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15770495": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15807692": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15814629": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15818664": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15820770": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15824163": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15851735": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15858223": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15867855": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID15951966": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15970799": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID15983230": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 10,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID15987266": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16000134": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16001362": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16005363": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16018252": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16046395": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16051693": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16112787": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16120104": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16152606": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16157158": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16158428": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16160878": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 2,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16167916": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16181814": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16186368": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16252083": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16277682": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16288197": {
+      "tp_gold": 1,
+      "fn": 7,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID16288199": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16321363": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16330669": {
+      "tp_gold": 0,
+      "fn": 7,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID16391785": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID16410744": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16412238": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16418600": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16419642": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16428827": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16506214": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16541406": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16543197": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16575011": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16584858": {
+      "tp_gold": 8,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 8,
+      "tp_ours": 8,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16586083": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 7,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16611040": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16629641": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16725121": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16731636": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16737910": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16781314": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16786513": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16810074": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16822828": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16838170": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16840830": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16843501": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID16849419": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID16867246": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID16970763": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17000021": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17003357": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17003923": {
+      "tp_gold": 0,
+      "fn": 15,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID17006606": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17033686": {
+      "tp_gold": 6,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 7,
+      "tp_ours": 7,
+      "uncertain_or_negative": 6,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17033974": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17059986": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID17065198": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID17083016": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17166870": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17177139": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17185386": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17192049": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17221831": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17244258": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17250663": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17273972": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17286451": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17304550": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 4,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17318851": {
+      "tp_gold": 7,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 9,
+      "tp_ours": 7,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17327131": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17345627": {
+      "tp_gold": 2,
+      "fn": 14,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID17391797": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17395743": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17397547": {
+      "tp_gold": 22,
+      "fn": 7,
+      "fn_symptom": 2,
+      "our_supported": 24,
+      "tp_ours": 22,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID17439425": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17495183": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17511042": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17549393": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17595233": {
+      "tp_gold": 0,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17628794": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17634480": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17671735": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17683901": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17877751": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17910065": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17935240": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17943461": {
+      "tp_gold": 1,
+      "fn": 10,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID17951029": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17959715": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17962394": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID17968299": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18046082": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18050247": {
+      "tp_gold": 4,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 6,
+      "tp_ours": 6,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18083142": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18165598": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 3,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18166824": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 2,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID18179903": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 9,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18189233": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18235024": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18257781": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18262054": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18270997": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18366737": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18385794": {
+      "tp_gold": 4,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18397285": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18408250": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18410508": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18410548": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18439317": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18442015": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18457324": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18470323": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18483878": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18487244": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18507837": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID18541230": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18593936": {
+      "tp_gold": 0,
+      "fn": 12,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 6
+    },
+    "PMID18631865": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18672102": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18674790": {
+      "tp_gold": 0,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 14,
+      "uncertain_or_negative_in_gold": 5
+    },
+    "PMID18681856": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18699851": {
+      "tp_gold": 0,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 5
+    },
+    "PMID18752389": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18768591": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18772193": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18779591": {
+      "tp_gold": 2,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID18790087": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18791947": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18808529": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID18827003": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID18945288": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID18991055": {
+      "tp_gold": 6,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19037252": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19048115": {
+      "tp_gold": 4,
+      "fn": 6,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19067809": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19082493": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID19101703": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19110214": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19160446": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19207031": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19208385": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19218574": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID19276632": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19300402": {
+      "tp_gold": 0,
+      "fn": 12,
+      "fn_symptom": 7,
+      "our_supported": 3,
+      "tp_ours": 0,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID19306381": {
+      "tp_gold": 0,
+      "fn": 9,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID19353688": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19365571": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19370764": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19394258": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID19484664": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19508969": {
+      "tp_gold": 6,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 6,
+      "tp_ours": 6,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID19521089": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19536134": {
+      "tp_gold": 1,
+      "fn": 7,
+      "fn_symptom": 6,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19549709": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19565319": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 2,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19592582": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19672862": {
+      "tp_gold": 1,
+      "fn": 6,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19692487": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19696792": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19721134": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19759529": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19779499": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19789368": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19811499": {
+      "tp_gold": 0,
+      "fn": 10,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID19825989": {
+      "tp_gold": 2,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19880293": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID19881468": {
+      "tp_gold": 4,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID19918264": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID20005218": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20034406": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20080916": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20086182": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20105280": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20105310": {
+      "tp_gold": 0,
+      "fn": 8,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20126413": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20143913": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20335448": {
+      "tp_gold": 1,
+      "fn": 5,
+      "fn_symptom": 5,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20367983": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID20415560": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20428796": {
+      "tp_gold": 4,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20523265": {
+      "tp_gold": 4,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 12,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20534142": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 4,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20534762": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20540798": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20558148": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20579626": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20583543": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20588063": {
+      "tp_gold": 3,
+      "fn": 3,
+      "fn_symptom": 3,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20606392": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20621845": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID20648600": {
+      "tp_gold": 0,
+      "fn": 7,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20682662": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20705401": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20708777": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20709368": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20801104": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID20801540": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID20806042": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID20846357": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20854438": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID20859899": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID20949073": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21042587": {
+      "tp_gold": 6,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 8,
+      "tp_ours": 7,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID21054465": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21059483": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21070631": {
+      "tp_gold": 1,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID21080147": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID21126715": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21130517": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21135151": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID21163864": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21195121": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21219851": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21325775": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21405999": {
+      "tp_gold": 3,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID21496008": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21533187": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21615796": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21666969": {
+      "tp_gold": 0,
+      "fn": 5,
+      "fn_symptom": 4,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21682595": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21684788": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21695597": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID21699520": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21750150": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID21771880": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID21799811": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21810259": {
+      "tp_gold": 3,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID21879313": {
+      "tp_gold": 0,
+      "fn": 7,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21903317": {
+      "tp_gold": 4,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21904390": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21911891": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID21976953": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID22048266": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID22051099": {
+      "tp_gold": 3,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID22104738": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID22180037": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID22303482": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID22369755": {
+      "tp_gold": 0,
+      "fn": 8,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID22711886": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID22729903": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID22808010": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID22859398": {
+      "tp_gold": 5,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID23069675": {
+      "tp_gold": 2,
+      "fn": 5,
+      "fn_symptom": 5,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID23285048": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID23651211": {
+      "tp_gold": 13,
+      "fn": 7,
+      "fn_symptom": 0,
+      "our_supported": 13,
+      "tp_ours": 13,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID23791840": {
+      "tp_gold": 6,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 6,
+      "tp_ours": 6,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID24014394": {
+      "tp_gold": 4,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24055495": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID24126708": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24132704": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID24288432": {
+      "tp_gold": 6,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 6,
+      "tp_ours": 6,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24442316": {
+      "tp_gold": 9,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 9,
+      "tp_ours": 9,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24477591": {
+      "tp_gold": 1,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24587916": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24632946": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24768818": {
+      "tp_gold": 6,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 6,
+      "tp_ours": 6,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID24840785": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID24842192": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 2,
+      "our_supported": 4,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID24853300": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 2,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24914936": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 3,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID24971338": {
+      "tp_gold": 1,
+      "fn": 8,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25006961": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 3,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25054547": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25080425": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID25119790": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25218136": {
+      "tp_gold": 4,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 9,
+      "tp_ours": 4,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25277705": {
+      "tp_gold": 9,
+      "fn": 10,
+      "fn_symptom": 0,
+      "our_supported": 26,
+      "tp_ours": 13,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 3
+    },
+    "PMID25305591": {
+      "tp_gold": 5,
+      "fn": 11,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25550469": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25589620": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25622904": {
+      "tp_gold": 1,
+      "fn": 8,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID25874935": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25946186": {
+      "tp_gold": 3,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25979836": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID25983002": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID25986755": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID26027517": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID26102294": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID26110643": {
+      "tp_gold": 0,
+      "fn": 12,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID26270232": {
+      "tp_gold": 6,
+      "fn": 18,
+      "fn_symptom": 8,
+      "our_supported": 7,
+      "tp_ours": 6,
+      "uncertain_or_negative": 10,
+      "uncertain_or_negative_in_gold": 8
+    },
+    "PMID26411452": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID26449539": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID26516699": {
+      "tp_gold": 27,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 26,
+      "tp_ours": 26,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID26615423": {
+      "tp_gold": 5,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID26684240": {
+      "tp_gold": 0,
+      "fn": 42,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID26847345": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 4,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID26900322": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID26937641": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27014915": {
+      "tp_gold": 0,
+      "fn": 10,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27084744": {
+      "tp_gold": 0,
+      "fn": 15,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID27090298": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID27103577": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID27134166": {
+      "tp_gold": 0,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 3
+    },
+    "PMID27172902": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID27184800": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27248656": {
+      "tp_gold": 1,
+      "fn": 7,
+      "fn_symptom": 3,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27292643": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID27384305": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 7,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID27630165": {
+      "tp_gold": 0,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID27643404": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27663860": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27707793": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27729412": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27779699": {
+      "tp_gold": 1,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 4,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID27798239": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27807193": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27825100": {
+      "tp_gold": 3,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27840894": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27860244": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27866394": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 8,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27930654": {
+      "tp_gold": 0,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID27941998": {
+      "tp_gold": 8,
+      "fn": 4,
+      "fn_symptom": 2,
+      "our_supported": 4,
+      "tp_ours": 4,
+      "uncertain_or_negative": 9,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27959382": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27959387": {
+      "tp_gold": 0,
+      "fn": 11,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID27974047": {
+      "tp_gold": 8,
+      "fn": 11,
+      "fn_symptom": 0,
+      "our_supported": 8,
+      "tp_ours": 8,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 3
+    },
+    "PMID27999109": {
+      "tp_gold": 3,
+      "fn": 6,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28068934": {
+      "tp_gold": 0,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28075473": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 3,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28098423": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28101574": {
+      "tp_gold": 3,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID28148288": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28151486": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28204828": {
+      "tp_gold": 5,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28259923": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28260056": {
+      "tp_gold": 0,
+      "fn": 5,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28260110": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28346429": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28348168": {
+      "tp_gold": 0,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28368423": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28393239": {
+      "tp_gold": 2,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28398555": {
+      "tp_gold": 1,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28411266": {
+      "tp_gold": 2,
+      "fn": 0,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28416580": {
+      "tp_gold": 2,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28428256": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28468941": {
+      "tp_gold": 1,
+      "fn": 7,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 4
+    },
+    "PMID28472177": {
+      "tp_gold": 8,
+      "fn": 9,
+      "fn_symptom": 0,
+      "our_supported": 8,
+      "tp_ours": 8,
+      "uncertain_or_negative": 8,
+      "uncertain_or_negative_in_gold": 7
+    },
+    "PMID28481876": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28487437": {
+      "tp_gold": 1,
+      "fn": 4,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 6,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID28512644": {
+      "tp_gold": 11,
+      "fn": 7,
+      "fn_symptom": 0,
+      "our_supported": 21,
+      "tp_ours": 12,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28518143": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 3
+    },
+    "PMID28584052": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28650467": {
+      "tp_gold": 1,
+      "fn": 3,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID28660748": {
+      "tp_gold": 1,
+      "fn": 6,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28684635": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28687665": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28747658": {
+      "tp_gold": 1,
+      "fn": 10,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28777492": {
+      "tp_gold": 3,
+      "fn": 1,
+      "fn_symptom": 1,
+      "our_supported": 2,
+      "tp_ours": 2,
+      "uncertain_or_negative": 1,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28846666": {
+      "tp_gold": 19,
+      "fn": 20,
+      "fn_symptom": 0,
+      "our_supported": 19,
+      "tp_ours": 19,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 1
+    },
+    "PMID28851297": {
+      "tp_gold": 2,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 3,
+      "tp_ours": 3,
+      "uncertain_or_negative": 5,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID28883039": {
+      "tp_gold": 2,
+      "fn": 2,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID29045486": {
+      "tp_gold": 5,
+      "fn": 9,
+      "fn_symptom": 0,
+      "our_supported": 5,
+      "tp_ours": 5,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 2
+    },
+    "PMID29049388": {
+      "tp_gold": 5,
+      "fn": 2,
+      "fn_symptom": 2,
+      "our_supported": 9,
+      "tp_ours": 8,
+      "uncertain_or_negative": 0,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID29183288": {
+      "tp_gold": 1,
+      "fn": 1,
+      "fn_symptom": 0,
+      "our_supported": 1,
+      "tp_ours": 1,
+      "uncertain_or_negative": 14,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID30442153": {
+      "tp_gold": 3,
+      "fn": 17,
+      "fn_symptom": 17,
+      "our_supported": 5,
+      "tp_ours": 3,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 0
+    },
+    "PMID30836660": {
+      "tp_gold": 0,
+      "fn": 14,
+      "fn_symptom": 0,
+      "our_supported": 0,
+      "tp_ours": 0,
+      "uncertain_or_negative": 2,
+      "uncertain_or_negative_in_gold": 4
+    }
+  },
+  "counts": {
+    "tp_gold": 703,
+    "fn": 930,
+    "fn_symptom": 131,
+    "our_supported": 817,
+    "tp_ours": 730,
+    "uncertain_or_negative": 546,
+    "uncertain_or_negative_in_gold": 252
+  },
+  "novelty": {
+    "compared": 703,
+    "agree": 526
+  },
+  "fn_reasons": {
+    "gene not recorded by us": 93,
+    "our pair: uncertain": 240,
+    "our pair: not_found": 295,
+    "disease recorded by us as symptom/phenotype": 131,
+    "our pair: explicit_negative": 12,
+    "disease not recorded by us": 159
+  },
+  "fp_reasons": {
+    "gold has both concepts but no relation": 60,
+    "disease not a gold disease concept": 23,
+    "gene not a gold gene concept": 4
+  },
+  "relation_types_on_tp": {
+    "Association -> association": 491,
+    "Negative_Correlation -> association": 30,
+    "Negative_Correlation -> causal": 12,
+    "Association -> causal": 118,
+    "Positive_Correlation -> association": 29,
+    "Association -> correlation": 13,
+    "Positive_Correlation -> causal": 6,
+    "Positive_Correlation -> correlation": 4
+  }
+}

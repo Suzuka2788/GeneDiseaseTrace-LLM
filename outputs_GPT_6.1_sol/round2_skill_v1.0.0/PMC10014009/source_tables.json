@@ -1,0 +1,3284 @@
+[
+  {
+    "xml_id": "acn351728-tbl-0001",
+    "label": "Table 1",
+    "caption": "Clinical characteristics and imaging findings of the suspicious familial cerebral cavernous malformation patients with the CCM gene test.",
+    "rows": [
+      [
+        {
+          "text": "",
+          "rowspan": "2",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "All (n = 21)",
+          "rowspan": "2",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Mutation detected (n = 13)",
+          "rowspan": "1",
+          "colspan": "4",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Mutation not detected (n = 8)",
+          "rowspan": "2",
+          "colspan": "1",
+          "cell_tag": "th"
+        }
+      ],
+      [
+        {
+          "text": "KRIT1 (n = 9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "CCM2 (n = 2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "PDCD10 (n = 2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Total",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        }
+      ],
+      [
+        {
+          "text": "Mean Diagnosis Age, YO",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "36.8 (SD 18.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "43.6 (SD 16.0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "10.0 (SD 8.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "21.5 (SD 30.4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "35.0 (SD 21.1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "39.8 (SD 14.1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Mean Last Imaging Age, YO",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "45.0 (SD 18.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "52.9 (SD 13.6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "13.5 (SD 7.8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "27.5 (SD 37.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "42.9 (SD 22.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "48.4 (SD 9.4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Male, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "38.1 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "44.4 (4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "53.8 (7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "12.5 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Symptomatic, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "90.5 (19)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "88.9 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "92.3 (12)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "87.5(7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Headache, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "23.8 (5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "22.2 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "23.1 (3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Dizziness, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "9.5 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "11.1 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "15.4 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Weakness, Dysarthria, or Facial palsy, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "33.3 (7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "11.1 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "23.1 (3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Diplopia, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "14.3 (3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "22.2 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "15.4 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "12.5 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Visual symptoms, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "14.3 (3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "22.2 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "15.4 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "12.5 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Seizure, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "38.1 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "44.4 (4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "46.2 (6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Seizure onset, YO a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "34.5 (SD 19.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "39.5 (SD 12.7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "16.00 (SD n/a)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (SD n/a)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "29.0 (SD 19.7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "51.0 (SD 2.8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "CASH, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "52.4 (11)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "33.3 (3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "46.2 (6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "62.5 (5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Mean 1st CASH age, YO a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "29.4 (SD 18.8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "35.3 (SD 15.6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "10.0 (SD 8.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (SD n/a)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "21.0 (SD 19.3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "39.4 (SD 13.8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Mean number of CASH a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1.8 (SD 1.3)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "2.0 (SD 1.7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1.0 (SD 0.0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "4.0 (SD n/a)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "2.0 (SD 1.5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1.6 (SD 0.9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Surgery, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "33.3 (7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "22.2 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "38.5 (5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Spinal CM, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "9.5 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "11.1 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "15.4 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Cutaneous CM, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "4.8 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "7.7 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "FHx of suspicious CCM, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "42.9 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "66.7 (6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "61.5 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "12.5 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Tumor, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "28.6 (6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "44.4 (4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "30.8 (4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Multiplicity, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (21)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (13)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Location",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Brainstem, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "61.9 (13)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "84.6 (11)*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Cerebellum, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "81.0 (17)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "88.9 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "84.6 (11)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "75.0 (6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Cortex/Subcortex, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "85.7 (18)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "92.3 (12)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "75.0 (6)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Frontal, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "95.2 (20)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (13)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "87.5 (7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Temporal, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "76.2 (16)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (13)**",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "37.5 (3)**",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Lateral temporal, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "71.4 (15)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "88.9 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "92.3 (12)*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "37.5 (3)*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Medial temporal, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "52.4 (11)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "88.9 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "69.2 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Parietal, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "76.2 (16)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "92.3 (12)*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (4)*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Occipital, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "66.7 (14)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "88.9 (8)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "76.9 (10)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50.0 (4)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Basal ganglia, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "9.5 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "11.1 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "7.7 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "12.5 (1)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Thalamus, %",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "42.9 (9)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "55.6 (5)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0.0 (0)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "100.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "53.8 (7)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "25.0 (2)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ]
+    ],
+    "footnotes": "P-values were obtained from the comparison between Mutation detected group and Mutation not detected group.YO, year-old; CASH, cavernous angiomas with a symptomatic hemorrhage; CM, cavernous malformation; FHx, family history; SD, standard deviation; NA, not applicable. a Mean and standard deviation were calculated from the groups with seizure or CASH.* P-value < 0.05.** P-value < 0.005."
+  },
+  {
+    "xml_id": "acn351728-tbl-0002",
+    "label": "Table 2",
+    "caption": "Details about the familial cerebral cavernous malformation proband and the family members.",
+    "rows": [
+      [
+        {
+          "text": "Patient",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Gender",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "CCM diagnosis (YO)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Last F/U (YO)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Clinical manifestation",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Non-cerebral CM",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "First CASH (YO)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Total CASH events",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Surgery",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Family history",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Variant*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Novel",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "ACMG guideline classification",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        },
+        {
+          "text": "Tumor",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "th"
+        }
+      ],
+      [
+        {
+          "text": "KRIT1 variants",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "59",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "59",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Nonspecific headache → CCM in Brain MRI",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.22_26del, p.Glu8Cysfs*22",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Breast cancer",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K2",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "37",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "53",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "37",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "4",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Craniotomy",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.535C>T, p.Arg179*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Thyroid cancer",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K3",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "37",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "52",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Spinal (neck pain)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.815dup, p.Arg273Glufs*17,",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Diffuse midline glioma (52YO)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K4",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "59",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "61",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Left ACA infarction → incidental CCMs",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.815dup, p.Arg273Glufs*17",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Same as above",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Adrenal adenoma",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K5",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "52",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "FBTCS (50YO) ← CASH (motor cortex)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Craniotomy",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.1094_1098del, p.Gly365Alafs*3",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K6",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "36",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "50",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Sudden onset binocular diplopia (pons)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.1147-2A>G, p.?",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "2 PM (PVS1_Moderate + PM2) + 2 PP (PP1 + PP4) (LP)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K7",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "19",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "20",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Visual disturbance and dizziness ← CASH (occipital cortex)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "19",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Not done",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.1147-2A>G, p.?",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Same as above",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Mother",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "47",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "47",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Familial gene test, Nonspecific headache",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.1147-2A>G, p.?",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Same as above",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K8",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "67",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "68",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Transient positive visual symptom (29YO) → OLE",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.1961_1962del, p.Lys654fs*21",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "K9",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "28",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "61",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "FBTCS, 28YO",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.2124dup, p.Ile709Tyrfs*25",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "CCM2 variant",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "C1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "4",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "8",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Central vertigo ← CASH (cerebellum)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Cutaneous",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "4",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Craniotomy",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.55C>T, p.Arg19*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "C2",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "16",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "19",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Emotional seizure followed by drowsy mentality ← CASH (frontal cortex)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "16",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Craniotomy",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.638T>C, p.Leu213Pro",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "PDCD10 variant",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "P1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Female",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Decreased mentality ← CASH (brainstem)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "4",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Craniotomy",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.150+1dup, p.?",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "1 PS (PVS1_Strong) + 2PP (PP1 + PP4) (LP)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "Father",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "34",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "34",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Familial gene gest Asymptomatic (but GKS for medulla oblongata lesion)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "GKS",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.150+1dup, p.?",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Same as above",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "P2",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "43",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "54",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Nonspecific headache → Brain MRI",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Spinal (screen)",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.283C > T, p.Arg95*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "1st son",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "22",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "22",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Familial gene test, asymptomatic",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.283C > T, p.Arg95*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ],
+      [
+        {
+          "text": "2nd son",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Male",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "20",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "20",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Familial gene test, asymptomatic",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "0",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "n/a",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Yes",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "c.283C > T, p.Arg95*",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "No",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "Previously reported",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        },
+        {
+          "text": "None",
+          "rowspan": "1",
+          "colspan": "1",
+          "cell_tag": "td"
+        }
+      ]
+    ],
+    "footnotes": "YO, year-old; CM, cavernous malformation; No., number; CASH, cavernous angioma with symptomatic hemorrhage; OP, operation; ACMG, American College of Medical Genetics; MRI, magnetic resonance imaging; n/a, not applicable; PVS, pathogenic very strong; PS, pathogenic strong; PM, pathogenic moderate; PP, pathogenic supporting; LP, likely pathogenic; FIAS, focal impaired awareness seizure; FBTCS, focal to bilateral tonic-clonic seizure; GKS, gamma-knife surgery; ACA, anterior cerebral artery; CCM, cerebral cavernous malformation; OLE, occipital lobe epilepsy.*All variants were heterozygote."
+  }
+]

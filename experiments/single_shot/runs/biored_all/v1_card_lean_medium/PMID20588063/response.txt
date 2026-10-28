@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|nephrin|nephrin;Nephrin|r||non-human||
+E|G2|gene|a-actinin|a-actinin|r||non-human||
+E|G3|gene|dendrin|dendrin|r||non-human||
+E|G4|gene|plekhh2|plekhh2|r||non-human||
+E|G5|gene|ACE|ACE|r||non-human||
+E|D1|disease|puromycin aminonucleoside nephrosis|puromycin aminonucleoside nephrosis;PAN|r||||
+E|S1|symptom|proteinuria|proteinuria|r||||
+E|S2|phenotype|foot process effacement|foot process effacement|r||||
+EV|V1|b0002.s7+b0002.s10|ts|res|aff|rr,cmp
+EV|V2|b0002.s13|ts|int|hyp|ho
+EV|V3|b0002.s10+b0002.s14|ts|res|aff|rr,cmp
+EV|V4|b0002.s14|ts|int|hyp|ho
+EV|V5|b0002.s10+b0002.s14|ts|neg|neg|rr,cmp
+EV|V6|b0002.s5+b0002.s11|ts|neg|neg|mi
+EV|V7|b0002.s8|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||Nephrin reduced in PAN rat glomeruli
+P|G3|D1|sup|a|ts|sup:a:ts:V3;unc:-:ts:V4|hedged_claim|V7|Dendrin reduced by day 4; role hedged
+P|G4|D1|sup|a|ts|sup:a:ts:V3;unc:-:ts:V4|hedged_claim|V7|Plekhh2 reduced by day 4; role hedged
+P|G2|D1|neg|-|ts|neg:-:ts:V5|||Unchanged at day 4 in PAN; tested association
+P|G5|D1|neg|-|ts|neg:-:ts:V6|||ACE inhibition not protective; tested causal
+F|F1|group_comparison|nephrin amount|PAN rats day 2 and 4|unknown|negative|not_reported|V1|semiquantitative EM; abstract only
+F|F2|group_comparison|dendrin, plekhh2, a-actinin amounts|PAN rats day 2 and 4|unknown|mixed|not_reported|V3+V5+V7|semiquantitative; controls not described
+F|F3|group_comparison|ACE inhibition vs PAN outcomes|PAN rats|not_significant|null|not_reported|V6|outcome measures unspecified
+R|ACE inhibition treated as gene intervention|b0002.s11|Pharmacological inhibition, not genetic; card unclear about drug interventions|Recorded as explicit_negative, tested causal

@@ -1,0 +1,23 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|prolactin|prolactin;Prl|r||human||
+E|G2|gene|prolactin receptor|prolactin receptor;PrlR|r||human||
+E|G3|gene|signal transducer and activator of transcription 5|signal transducer and activator of transcription 5;STAT5|r||human||
+E|D1|disease|benign breast tumors|benign breast tumors|r||||
+E|D2|disease|multiple fibroadenomas|Multiple fibroadenomas;MFA|r|||D1|
+E|D3|disease|breast diseases|breast diseases|r||||
+X|genetic disease|b0002|generic non-specific disease term, not a named disease
+X|PrlR(I146L)|b0002|variant name, mapped to PrlR
+X|Ile(146)-->Leu|b0002|variant description, not an entity
+EV|V1|b0002.s4+b0002.s7|ts|res|aff|rr,eda
+EV|V2|b0001.s1|ts|res|aff|rr,eda
+EV|V3|b0002.s2|ts|hyp|hyp|ho
+EV|V4|b0002.s6|ts|res|na|do
+EV|V5|b0002.s1|bg|neg|neg|ebr
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||Mutation found in MFA patients; attributed to disease
+P|G2|D1|sup|a|ts|sup:a:ts:V2|||Title reports mutation in benign breast tumor patients
+P|G2|D3|unc|-|ts|unc:-:ts:V3|hedged_claim|||Authors' hypothesis only
+P|G1|D3|unc|-|ts|unc:-:ts:V3|hedged_claim|||Authors' hypothesis only
+P|G3|D2|nf|-||||V4|Increased signalling in one sample; no disease link
+F|F1|descriptive|PrlR I146L carrier status|74 MFA patients vs 170 controls|unknown|not_applicable|not_reported|V1|no case-control statistic in abstract
+F|F2|mechanism|PrlR I146L constitutive activity, STAT5 signalling|Ba/F3, HEK293, MCF-7 cells|unknown|positive|not_reported|V4|cell models; abstract only

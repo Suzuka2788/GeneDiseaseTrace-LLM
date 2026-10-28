@@ -1,0 +1,13 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FBN1|FBN1;fibrillin-1 gene|r||human||
+E|D1|disease|Marfan syndrome|Marfan syndrome;MFS|r||||
+X|c.3703T>C|b0002|variant ID
+X|p.S1235P|b0002|variant ID
+X|calcium binding epidermal growth factor-like#15 domain|b0002|protein domain, not a gene
+EV|V1|b0002.s11|ts|res|aff|eda,rr
+EV|V2|b0002.s8+b0002.s9|ts|res|aff|cs,rr
+EV|V3|b0002.s10|ts|int|hyp|ho
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2|||Authors name p.S1235P causative for MFS in family
+F|F1|descriptive|FBN1 p.S1235P carrier status vs affection|Chinese MFS family; 170 controls|not_applicable|positive|not_applicable|V2|abstract only; family size small
+F|F2|mechanism|S1235P conservation and predicted conformation change|in silico modeling|not_applicable|unknown|not_applicable|V3|hedged prediction

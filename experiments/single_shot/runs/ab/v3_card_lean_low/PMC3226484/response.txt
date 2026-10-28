@@ -1,0 +1,63 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text read; supplemental figures and tables unread
+E|G1|gene|Lmnb1|Lmnb1;lamin B1|p|species_unresolved||||
+E|G2|gene|Lmnb2|Lmnb2;lamin B2|p|species_unresolved||||
+E|G3|gene|LMNA|LMNA|r||human||
+E|G4|gene|Lmna|Lmna;lamin A/C|p|species_unresolved|non-human||
+E|G5|gene|LMNB1|LMNB1|r||human||
+E|G6|gene|LMNB2|LMNB2|r||human||
+E|G7|gene|LIS1|LIS1|r||||
+E|G8|gene|NDE1|NDE1|r||||
+E|G9|gene|NDEL1|NDEL1|r||||
+E|G10|gene|SUN1|SUN1|r||||
+E|G11|gene|SUN2|SUN2|r||||
+E|G12|gene|Syne-1|Syne-1;Nesprin 1|r||||
+E|G13|gene|Syne-2|Syne-2;Nesprin 2|r||||
+E|G14|gene|Reelin|Reelin|r||||
+E|G15|gene|TBR1|TBR1|r||||
+E|G16|gene|Otx1|Otx1|r||||
+E|G17|gene|Ctip2|Ctip2|r||||
+E|G18|gene|Sox2|Sox2|r||||
+E|G19|gene|TBR2|TBR2|r||||
+E|G20|gene|Cux1|Cux1|r||||
+E|G21|gene|Emx1|Emx1|r||||
+E|G22|gene|cyclin-dependent kinase 5|cyclin-dependent kinase 5|r||||
+E|G23|gene|Lap2β|Lap2β|r||||
+E|D1|disease|neurodevelopmental defects|neurodevelopmental defects;neurodevelopmental abnormalities|r||||
+E|D2|disease|cardiomyopathy|cardiomyopathy|r||||
+E|D3|disease|muscular dystrophy|muscular dystrophy|r||||
+E|D4|disease|lipodystrophy|lipodystrophy|r||||
+E|D5|disease|peripheral neuropathy|peripheral neuropathy|r||||
+E|D6|disease|progeria|progeria|r||||
+E|D7|disease|lissencephaly|lissencephaly|r||||
+E|D8|disease|epilepsy|epilepsy|r||||
+E|D9|disease|schizophrenia|schizophrenia|r||||
+E|D10|disease|autism|autism|r||||
+E|D11|disease|neurological diseases|neurological diseases|r||||
+E|D12|disease|CNS disease|CNS disease|r||||
+EV|V1|b0047.s1+b0043.s9|ts|res|aff|rr,mi
+EV|V2|b0003.s6+b0026.s2|ts|res|aff|rr,mi
+EV|V3|b0006.s6+b0006.s7|bg|bgr|aff|ebr,mi
+EV|V4|b0007.s5|bg|bgr|aff|ebr
+EV|V5|b0007.s4|bg|neg|neg|ebr
+EV|V6|b0007.s3|bg|bgr|aff|ebr,mi
+EV|V7|b0050.s9|ts|hyp|hyp|ho
+EV|V8|b0005.s4|bg|bgr|aff|ebr
+P|G1|D1|sup|c|ts|sup:c:ts:V1|||Knockout mouse models show neurodevelopmental defects
+P|G2|D1|sup|c|both|sup:c:ts:V2;sup:c:bg:V3|||Prior and current knockout data
+P|G3|D3|sup|c|bg|sup:c:bg:V4|||Background: LMNA mutations cause disease
+P|G3|D2|sup|c|bg|sup:c:bg:V4|||Background: LMNA mutations cause disease
+P|G3|D4|sup|c|bg|sup:c:bg:V4|||Background: some mutations cause disease
+P|G3|D5|sup|c|bg|sup:c:bg:V4|||Background: some mutations cause disease
+P|G3|D6|sup|c|bg|sup:c:bg:V4|||Background: some mutations cause disease
+P|G3|D1|neg|-|bg|neg:-:bg:V5|||No LMNA mutation linked to neurodevelopment
+P|G4|D2|sup|c|bg|sup:c:bg:V6|||Lmna-deficient mice succumb to cardiomyopathy
+P|G4|D3|sup|c|bg|sup:c:bg:V6|||Lmna-deficient mice succumb to muscular dystrophy
+P|G5|D11|unc|-|ts|unc:-:ts:V7|hedged_claim||Authors suspect future mutations found
+P|G6|D11|unc|-|ts|unc:-:ts:V7|hedged_claim||Authors suspect future mutations found
+P|G7|D1|sup|a|bg|sup:a:bg:V8|||Identified via human neurodevelopmental defects
+P|G8|D1|sup|a|bg|sup:a:bg:V8|||Identified via human neurodevelopmental defects
+P|G9|D1|sup|a|bg|sup:a:bg:V8|||Identified via human neurodevelopmental defects
+F|F1|group_comparison|cortex length; Lmnb1 forebrain knockout vs WT|4-mo mice|significant|negative|available|V1|n=3 per group
+F|F2|group_comparison|Sox2+ progenitors; Lmnb1Δ/Δ vs WT|E15.5 embryos|not_significant|negative|available||p=0.06 despite "clearly reduced"
+R|disease entity|b0003.s6|Neurodevelopmental defects are mouse phenotypes, not named human disease|Treated as disease, marked as non-human model evidence

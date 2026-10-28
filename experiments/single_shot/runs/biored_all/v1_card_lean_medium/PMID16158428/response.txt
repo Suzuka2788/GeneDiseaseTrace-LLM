@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|OPHN1|OPHN1|r||human||
+E|D1|disease|mental retardation|mental retardation|r||||
+E|D2|disease|non-specific mental retardation|non-specific mental retardation|r|||D1|
+E|D3|disease|X-linked mental retardation|X-linked mental retardation|r|||D1|
+E|D4|disease|cerebellar hypoplasia|cerebellar hypoplasia|r||||
+E|S1|phenotype|abnormalities of the posterior fossa|Abnormalities of the posterior fossa|r||||
+E|S2|phenotype|subtle facial changes|subtle facial changes|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s1|bg|bgr|neg|ebr
+EV|V3|b0002.s3|ts|res|aff|eda
+EV|V4|b0002.s6|ts|res|aff|rr
+EV|V5|b0002.s2|bg|bgr|aff|ebr
+EV|V6|b0002.s4|ts|res|aff|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V4||| OPHN1 mutations responsible for syndromic MR
+P|G1|D2|neg|-|bg|neg:-:bg:V2||| Syndromic rather than non-specific MR
+P|G1|D3|sup|a|ts|sup:a:ts:V3||| New family XLMR due to OPHN1 mutation
+P|G1|D4|sup|a|both|sup:a:bg:V5;sup:a:ts:V6||| Cerebellar hypoplasia confirmed as syndrome hallmark
+F|F1|descriptive|OPHN1 mutation; cerebellar hypoplasia; facial features|three families, affected males|not_applicable|not_applicable|not_reported|V6|abstract only
+F|F2|descriptive|OPHN1 carrier status; mild mental retardation|carrier females|not_applicable|not_applicable|not_reported|V4|"most" carriers; counts unreported
+R|D4 typing|b0002.s2|Cerebellar hypoplasia could be imaging finding or malformation disease|Treated as primary disease; named congenital malformation

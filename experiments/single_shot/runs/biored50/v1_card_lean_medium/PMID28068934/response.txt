@@ -1,0 +1,12 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PIK3CA|PIK3CA|r||human||
+E|D1|disease|esophageal squamous cell carcinoma|esophageal squamous cell carcinoma;ESCC|r||||
+X|E542K|b0002.s3|variant ID, not a gene
+X|H1047R|b0002.s3|variant ID, not a gene
+EV|V1|b0002.s1|bg|hyp|hyp|ho
+EV|V2|b0002.s3+b0002.s5|ts|co|na|do
+EV|V3|b0002.s9|ts|int|hyp|unc
+P|G1|D1|unc|-|unk|unc:-:bg:V1;unc:-:ts:V3|hedged_claim|V2|Therapeutic-target claim hedged; mutation detection descriptive only
+F|F1|descriptive|PIK3CA mutation frequency|181 resected ESCC patients|not_applicable|not_applicable|available|V2|hotspot mutations only
+F|F2|descriptive|PIK3CA status concordance biopsy vs resection|181 paired ESCC specimens|not_applicable|not_applicable|available|V3|three discordant cases

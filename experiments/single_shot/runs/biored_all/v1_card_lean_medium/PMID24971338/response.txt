@@ -1,0 +1,29 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|NGAL|NGAL|r||non-human||
+E|G2|gene|TGF-b|TGF-b;TGF- b|r||non-human||
+E|G3|gene|mTOR|mTOR|r||non-human||
+E|G4|gene|PCNA|PCNA|r||non-human||
+E|G5|gene|TP53|TP53|r||non-human||
+E|G6|gene|KIM-1|KIM-1|r||non-human||
+E|G7|gene|CTGF|CTGF|r||non-human||
+E|G8|gene|IL-7|IL-7|r||non-human||
+E|D1|disease|cyclosporine-induced nephropathy|cyclosporine-induced nephropathy;CsA-induced nephropathy|r||||
+E|D2|disease|renal impairment|renal impairment|r||||
+E|D3|disease|renal damage|renal damage|r||||
+E|S1|phenotype|proteinuria|proteinuria|r||||
+E|S2|phenotype|kidney lesions|kidney lesions|r||||
+X|NF- kb|b0002|complex or family, not a single-gene endpoint
+X|TBARs|b0002|lab measure, not a gene
+EV|V1|b0002.s6|ts|res|aff|rr
+EV|V2|b0002.s7|ts|co|na|do
+EV|V3|b0002.s8|ts|co|na|do
+EV|V4|b0002.s9|ts|int|hyp|ho
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||NGAL best marker of renal impairment, rat
+P|G2|D3|nf|-||||V3|changes co-occur with prolonged CsA damage only
+P|G8|D3|nf|-||||V3|serum change co-occurs with damage only
+P|G3|D3|nf|-||||V3|kidney change co-occurs with damage only
+F|F1|descriptive|gene/protein changes after short CsA|rat CsA group|unknown|unknown|not_reported|V2|abstract only
+F|F2|descriptive|serum TGF-b, IL-7, kidney mTOR|prolonged CsA rats|unknown|unknown|not_reported|V3|abstract only
+F|F3|hypothesis|NGAL serum vs urine as conversion biomarker|conversion group|unknown|unknown|not_reported|V4|hedged
+R|suspected typo|b0002.s1|"remain nuclear" likely means "unclear"; not an entity|ignored; no entity affected

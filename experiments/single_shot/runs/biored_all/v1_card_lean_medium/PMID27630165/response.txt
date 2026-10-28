@@ -1,0 +1,27 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or methods
+E|G1|gene|IL-10|IL-10|p|species_unresolved|||
+E|G2|gene|IFN-g|IFN-g|p|species_unresolved|||
+E|G3|gene|CD4|CD4|r||non-human||
+E|G4|gene|PD-1|PD-1|r||non-human||
+E|G5|gene|Lag-3|Lag-3|r||non-human||
+E|G6|gene|TIGIT|TIGIT|r||non-human||
+E|D1|disease|malaria|malaria|r||||
+E|S1|phenotype|cellular exhaustion|cellular exhaustion|r||||
+E|S2|phenotype|immune-mediated pathology|immune-mediated pathology|r||||
+X|Plasmodium spp.|b0002|pathogen genus, not a disease or gene
+X|YFP|b0002|reporter protein, not an endogenous gene
+X|GFP|b0002|reporter protein, not an endogenous gene
+EV|V1|b0002.s7|ts|res|q|rr,unc
+EV|V2|b0002.s8|ts|res|q|rr,unc
+EV|V3|b0002.s9|ts|hyp|hyp|ho
+EV|V4|b0002.s1|bg|bgr|q|ebr,unc
+EV|V5|b0002.s3+b0002.s4|ts|co|na|do
+P|G1|D1|unc|-|unk||scope,hedged_claim|V4|IL-10 responses within malaria only; no uninfected comparator
+P|G2|D1|nf|-|||||V5|Reporter-cell description only; no disease link
+P|G4|D1|nf|-|||||V5|Marker expression on cells; descriptive only
+F|F1|group_comparison|IL-10 response magnitude and kinetics|secondary vs primary malaria infection, mice|unknown|positive|not_reported|V1|abstract only; within-disease comparison
+F|F2|mechanism|IL-10 regulation of innate/CD4 T responses|primary and secondary malaria infection, mice|unknown|positive|not_reported|V2|abstract only
+F|F3|descriptive|PD-1, Lag-3, TIGIT expression|CD4+YFP+GFP+ T cells postinfection|unknown|positive|not_reported|V5|no comparator statistics
+F|F4|hypothesis|IL-10 and parasite control/pathology|repeated malaria infections|not_applicable|unknown|not_applicable|V3|
+R|Background IL-10 protective in Plasmodium infection|b0002.s1|Pathogen not linked to malaria in the text|Context only; not linked to the malaria entity

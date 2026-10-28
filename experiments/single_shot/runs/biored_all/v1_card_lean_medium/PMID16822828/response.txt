@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|CYP17|CYP17|r||human||
+E|E2|disease|17alpha-hydroxylase deficiency|17alpha-hydroxylase deficiency;17alpha-Hydroxylase deficiency|r|||E3|
+E|E3|disease|congenital adrenal hyperplasia|congenital adrenal hyperplasia|r||||
+X|V311fs|b0002|variant ID
+X|Y329fs|b0002|variant ID
+X|D487_S488_F489 deletion|b0002|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s2+b0002.s5+b0002.s9+b0002.s10|ts|res|aff|rr,eda
+EV|V3|b0002.s12+b0002.s13|both|int|hyp|ebr,ho
+EV|V4|b0002.s14+b0002.s15|ts|int|hyp|ho
+P|E1|E2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2|||Background causal statement; mutations found in patients
+P|E1|E3|unc|-|bg|unc:-:bg:V1|scope|V1|Causal statement concerns subtype, not CAH broadly
+F|F1|descriptive|CYP17 mutations V311fs, Y329fs, D487_S488_F489del|five Chinese 17OHD patients, four families|not_applicable|not_applicable|not_applicable|V2|abstract only
+F|F2|hypothesis|D487_S488_F489del prevalence; Y329fs founder effect|Chinese population|not_applicable|unknown|not_reported|V3+V4|speculative, small sample

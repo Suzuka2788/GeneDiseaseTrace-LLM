@@ -1,0 +1,34 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SLC2A2|SLC2A2;GLUT2|r||human||
+E|G2|gene|GCK|GCK|r||human||
+E|G3|gene|TCF1|TCF1;HNF-1alpha|r||human||
+E|G4|gene|HNF4A|HNF4A|r||human||
+E|G5|gene|GIP|GIP|r||human||
+E|G6|gene|GLP1R|GLP1R|r||human||
+E|D1|disease|type 2 diabetes|type 2 diabetes;diabetes|r|||||
+E|D2|disease|impaired glucose tolerance|impaired glucose tolerance;IGT|r|||||
+E|D3|clinical_event|conversion from IGT to type 2 diabetes|conversion from impaired glucose tolerance to type 2 diabetes;conversion to diabetes|r|||||
+E|S1|phenotype|impaired insulin secretion|Impaired insulin secretion|r|||||
+E|S2|phenotype|obese|obese|r|||||
+X|rs5393|b0002.s4|variant identifier
+EV|V1|b0002.s4+b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0001.s1+b0002.s6|ts|res|aff|rr
+EV|V3|b0002.s3|ts|neg|neg|rr,cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2|||rs5393 AA genotype increased type 2 diabetes risk
+P|G1|D3|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2|||SLC2A2 SNPs predicted conversion to diabetes
+P|G2|D1|neg|-|ts|neg:-:ts:V3|||Not associated with type 2 diabetes risk
+P|G3|D1|neg|-|ts|neg:-:ts:V3|||Not associated with type 2 diabetes risk
+P|G4|D1|neg|-|ts|neg:-:ts:V3|||Not associated with type 2 diabetes risk
+P|G5|D1|neg|-|ts|neg:-:ts:V3|||Not associated with type 2 diabetes risk
+P|G6|D1|neg|-|ts|neg:-:ts:V3|||Not associated with type 2 diabetes risk
+P|G2|D3|neg|-|ts|neg:-:ts:V3|||Not associated with conversion risk in IGT cohort
+P|G3|D3|neg|-|ts|neg:-:ts:V3|||Not associated with conversion risk in IGT cohort
+P|G4|D3|neg|-|ts|neg:-:ts:V3|||Not associated with conversion risk in IGT cohort
+P|G5|D3|neg|-|ts|neg:-:ts:V3|||Not associated with conversion risk in IGT cohort
+P|G6|D3|neg|-|ts|neg:-:ts:V3|||Not associated with conversion risk in IGT cohort
+P|G1|D2|nf|-||||V1|IGT is the study population, not the outcome
+F|F1|association|rs5393 AA genotype vs type 2 diabetes|entire IGT study population|significant|positive|available|V1|
+F|F2|association|rs5393 AA genotype vs type 2 diabetes|control group|significant|positive|available|V1|
+F|F3|association|rs5393 AA genotype vs type 2 diabetes|intervention group|not_significant|null|not_reported|V1|
+F|F4|association|GCK, TCF1, HNF4A, GIP, GLP1R SNPs vs T2D|IGT study participants|not_significant|null|not_reported|V3|abstract only

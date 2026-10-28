@@ -1,0 +1,68 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full review text, captions; no tables or attachments
+E|G1|gene|ZO-1|ZO-1;zonula occludens-1|r|||||
+E|G2|gene|ZO-2|ZO-2|r|||||
+E|G3|gene|ZO-3|ZO-3|r|||||
+E|G4|gene|dlg|dlg;lethal(1)discs-large;Discs-large;DlgA;dlgA|p|species_unresolved||||
+E|G5|gene|Scribble|Scribble;hScrib|r||human|||
+E|G6|gene|SAF-B|SAF-B;SAF-B/HET|r|||||
+E|G7|gene|hsp27|hsp27|r|||||
+E|G8|gene|cyclin D1|cyclin D1;CD1;CD-1|r|||||
+E|G9|gene|Myc|Myc|r|||||
+E|G10|gene|ZONAB|ZONAB;DbpA/Msy3|r|||||
+E|G11|gene|PCNA|PCNA|r|||||
+E|G12|gene|Cdk4|Cdk4;Cdk-4|r|||||
+E|G13|gene|symplekin|symplekin|r|||||
+E|G14|gene|ARVCF|ARVCF|r|||||
+E|G15|gene|p120 catenin|p120 catenin|r|||||
+E|G16|gene|Kaiso|Kaiso|r|||||
+E|G17|gene|M2PK|M2PK;pyruvate kinase M2|r|||||
+E|G18|gene|Oct-4|Oct-4|r|||||
+E|G19|gene|Tamou/Polychaetoid|Tamou/Polychaetoid|r||non-human|||
+E|G20|gene|emc|emc;extramacrochaetae|r||non-human|||
+E|G21|gene|Ras|Ras|r|||||
+E|G22|gene|AF-6|AF-6;afadin;AF6/afadin;AF-6/afadin|r|||||
+E|G23|gene|Rap-1|Rap-1|r|||||
+E|G24|gene|Dlg1|Dlg1|r|||||
+E|G25|gene|PATJ|PATJ|r|||||
+E|G26|gene|occludin|occludin|r|||||
+E|G27|gene|tricellulin|tricellulin|r|||||
+E|G28|gene|CAR|CAR|r|||||
+E|G29|gene|alpha-catenin|alpha-catenin|r|||||
+E|G30|gene|cortactin|cortactin|r|||||
+E|G31|gene|cingulin|cingulin|r|||||
+E|G32|gene|ZAK|ZAK|r|||||
+E|G33|gene|Apg-2|Apg-2|r|||||
+E|G34|gene|E-cadherin|E-cadherin|r|||||
+E|G35|gene|estrogen receptor alpha|estrogen receptor alpha|r|||||
+E|G36|gene|MAP1A|MAP1A|r|||||
+E|G37|gene|BEGAIN|BEGAIN|r|||||
+E|G38|gene|GAKIN|GAKIN|r|||||
+E|G39|gene|PSD95|PSD95/SAP90|r|||||
+E|G40|gene|SC-35|SC-35;SC35|r|||||
+E|D1|disease|breast cancer|breast cancer;breast carcinoma|r|||||
+E|D2|disease|carcinomas|carcinomas|r|||||
+E|D3|disease|epithelial cancers|epithelial cancers;epithelial cancer|r|||||
+E|D4|disease|velo-cardio-facial syndrome|velo-cardio-facial syndrome|r|||||
+E|D5|disease|mammary tumors|mammary tumors|r|||||
+E|D6|disease|virus-induced cancer|virus-induced cancer|r|||||
+E|S1|phenotype|tumorous overgrowth|tumorous overgrowth|r|||||
+E|S2|phenotype|reduced fertility|reduced fertility|r|||||
+X|JAM|b0008|transmembrane protein family, not single gene
+X|claudins|b0008|gene family, not single gene
+X|ZO proteins|b0002|gene family label
+EV|V1|b0043.s7|bg|bgr|aff|ebr
+EV|V2|b0049.s1|bg|bgr|aff|ebr
+EV|V3|b0055.s1|bg|bgr|aff|ebr
+EV|V4|b0043.s6|bg|res|aff|ebr
+EV|V5|b0054.s1|bg|bgr|aff|ebr
+EV|V6|b0053.s2|bg|hyp|hyp|ho
+P|G7|D1|sup|a|bg|sup:a:bg:V1|||hsp27 bad prognostic marker in breast cancer
+P|G14|D4|sup|a|bg|sup:a:bg:V2|||gene deleted in VCFS
+P|G21|D3|sup|a|bg|sup:a:bg:V3|||Ras mutations related to epithelial cancers
+P|G6|D1|unc|-|bg|unc:-:bg:V4|scope||correlation with cell proliferation only
+P|G1|D2|unc|-|bg|unc:-:bg:V5|scope||ZO family-level, members not individualised
+P|G2|D2|unc|-|bg|unc:-:bg:V5|scope||ZO family-level, members not individualised
+P|G3|D2|unc|-|bg|unc:-:bg:V5|scope||ZO family-level, members not individualised
+P|G1|D3|nf|-||||V6|homology-based undefined role only
+F|F1|correlation|SAF-B/HET levels vs proliferation|breast cancer cells|unknown|negative|not_reported|V4|background cell-level claim

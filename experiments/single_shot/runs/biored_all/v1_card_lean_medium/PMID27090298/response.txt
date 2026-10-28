@@ -1,0 +1,24 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|fatty acid synthase|FASN;fatty acid synthase;Fatty Acid Synthase|r||human||
+E|G2|gene|insulin|insulin|r||human||
+E|G3|gene|adiponectin|HMW-adiponectin|p|other|human||
+E|D1|disease|hypertension|hypertension|r||||
+E|D2|disease|metabolic dysfunction|metabolic dysfunction|p|other|||
+E|S1|phenotype|systolic blood pressure|SBP|r||||
+E|S2|phenotype|insulin resistance|HOMA-IR|r||||
+E|S3|phenotype|birth weight|birth weight|r||||
+X|C-peptide|b0002|lab marker, insulin cleavage peptide; not a separate gene endpoint
+X|HbAc1|b0002|lab measure, not a gene or disease
+EV|V1|b0002.s1|bg|bgr|hyp|ho
+EV|V2|b0002.s7|ts|res|aff|rr
+EV|V3|b0002.s8|ts|res|aff|rr
+EV|V4|b0002.s9+b0002.s10|ts|int|hyp|ho
+P|G1|D1|unc|-|bg|unc:-:bg:V1|hedged_claim|V2|Only "potentially related"; SBP is a phenotype, not hypertension
+P|G1|D2|unc|-|bg|unc:-:bg:V1|hedged_claim|V2|Hedged background link only
+F|F1|correlation|circulating FASN vs SBP|115 healthy pregnant women|significant|negative|partial|V2|only p-value ranges reported
+F|F2|correlation|circulating FASN vs glucose, insulin, HOMA-IR, C-peptide|115 healthy pregnant women|significant|negative|partial|V2|only p-value ranges reported
+F|F3|correlation|circulating FASN vs placental, birth weight|115 healthy pregnant women|significant|negative|partial|V2|only p-value ranges reported
+F|F4|correlation|placental FASN vs circulating FASN|80 placentas|significant|positive|partial|V3|
+F|F5|correlation|placental FASN vs placental weight|80 placentas|significant|negative|partial|V3|
+F|F6|hypothesis|placental FASN role in growth, insulin sensitivity|pregnant women|not_applicable|not_applicable|not_applicable|V4|future studies

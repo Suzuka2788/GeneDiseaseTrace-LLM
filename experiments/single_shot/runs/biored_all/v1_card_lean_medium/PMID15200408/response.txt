@@ -1,0 +1,28 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|uroplakin III (mouse)|uroplakin (UP) III;UP III|p|species_unresolved|non-human||
+E|G2|gene|uroplakin III (human)|UP III|r||human||
+E|G3|gene|uroplakin Ia (human)|UP Ia|r||human||
+E|D1|disease|primary vesicoureteral reflux|Primary vesicoureteral reflux;primary VUR;VUR;vesicoureteral reflux|r||||
+E|D2|disease|hydronephrosis|hydronephrosis|r||||
+E|D3|disease|nephropathy|nephropathy|r||||
+E|D4|disease|end-stage renal failure|end-stage renal failure|r||||
+E|D5|clinical_event|neonatal death|neonatal death|r||||
+X|uroplakin genes|b0002.s11|gene set, not single-gene endpoint
+X|UP genes|b0002.s5|gene set, not single-gene endpoint
+X|complex polygenic disease|b0002.s11|generic disease class, not specific endpoint
+EV|V1|b0002.s4|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s10|ts|res|aff|rr,cmp
+EV|V3|b0002.s9|ts|res|q|rr,cmp
+EV|V4|b0002.s12|bg|bgr|aff|ebr,mi
+EV|V5|b0002.s11|ts|int|neg|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V4|||mouse UPIII ablation causes VUR
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:a:bg:V4|||mouse UPIII ablation causes hydronephrosis
+P|G1|D5|sup|a|bg|sup:a:bg:V4|||knockout litters show neonatal death
+P|G2|D1|sup|a|ts|sup:a:ts:V2;unc:-:ts:V3||V5|SNP7 weakly associated with VUR, P=0.036
+P|G3|D1|unc|-|ts|unc:-:ts:V3|support_basis_unresolved||SNP1 only marginal association, P=0.08
+F|F1|association|UP III SNP7 vs VUR|combined VUR cases vs 90 controls|significant|positive|partial|V2|weak; adjusted P only
+F|F2|association|UP Ia SNP1 vs VUR|76 VUR patients vs 90 controls|not_significant|positive|partial|V3|marginal P=0.08
+F|F3|association|18 UP gene SNPs vs VUR|76 VUR patients vs 90 controls|not_significant|null|not_reported|V3|per-SNP results not shown
+F|F4|descriptive|UP gene truncation/frameshift mutations|VUR patients|not_applicable|not_applicable|not_applicable|V4|
+R|gene-set conclusion|b0002.s11|Hedged negative conclusion applies to uroplakin genes collectively|Kept as context for G2-D1; not assigned to members

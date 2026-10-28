@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only (b0001-b0002); no full text
+E|G1|gene|POLG|POLG;mitochondrial DNA polymerase gamma|r||human||
+E|D1|disease|Alpers' syndrome|Alpers' syndrome|r|||D2|
+E|D2|disease|mitochondrial DNA depletion disorder|mitochondrial DNA depletion|r||||
+E|D3|disease|liver disease|liver disease|r||||
+E|S1|symptom|refractory seizures|refractory seizures|r||||
+E|S2|phenotype|neurodegeneration|neurodegeneration|r||||
+X|neurogenetic disorder|b0002|generic disease category, not a specific endpoint
+EV|V1|b0001.s1|ts|res|aff|rr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s3+b0002.s4|ts|res|aff|rr,eda
+P|G1|D1|sup|a|both|sup:a:bg:V2;sup:a:ts:V1+V3|||POLG deficiency characterizes Alpers; mutations in affected children
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||title reports POLG mutations associated with mtDNA depletion
+P|G1|D3|nf|-||||V2|liver disease listed as Alpers feature only
+F|F1|descriptive|POLG Glu873Stop homozygous; Ala467Thr heterozygous|affected children, two Alpers pedigrees|not_applicable|not_applicable|not_reported|V3|abstract only; segregation details not reported

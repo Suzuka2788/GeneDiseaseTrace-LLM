@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|puratrophin-1|puratrophin-1;Puratrophin-1;DKFZP434I216|r||human||
+E|G2|ambiguous_gene|spectrin|spectrin|u|ambiguous_mapping|||
+E|D1|disease|autosomal dominant cerebellar ataxia|Autosomal dominant cerebellar ataxia;autosomal dominant cerebellar ataxia;ADCA|r||||
+E|D2|disease|chromosome 16q22.1-linked ADCA|chromosome 16q22.1-linked ADCA;autosomal dominant cerebellar ataxia linked to chromosome 16q22.1|r|||D1|
+E|D3|disease|degenerative ataxia|degenerative ataxia|r||||
+E|D4|disease|neurodegenerative disorders|neurodegenerative disorders|r||||
+E|D5|disease|cerebellar degeneration|cerebellar degeneration|r||||
+E|S1|symptom|sensorineural hearing impairment|sensorineural hearing impairment|r||||
+E|S2|phenotype|progressive pure cerebellar ataxia|progressive pure cerebellar ataxia|r||||
+X|Rho GTPases|b0002|gene family, not single gene
+X|guanine-nucleotide exchange factor (GEF)|b0002|protein domain/class, not single gene
+X|Golgi-apparatus membrane protein|b0002|unnamed protein, not identifiable gene
+X|Dbl-homologous domain|b0002|protein domain
+EV|V1|b0001.s1+b0002.s2+b0002.s4|ts|res|aff|rr,eda
+EV|V2|b0002.s6|ts|res|aff|rr,do
+EV|V3|b0002.s8|ts|int|hyp|unc
+EV|V4|b0002.s7|ts|co|na|do
+P|G1|D2|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2|||Substitution in all patients; aggregation in patient Purkinje cells
+P|G1|D5|unc|-|ts|unc:-:ts:V3|coreference,hedged_claim||GEF protein interpretation; referent unclear
+P|G1|D1|nf|-||||||Linked only to 16q22.1 subtype; no propagation
+P|G2|D2|nf|-|||||V4|Aggregation co-observed only
+F|F1|descriptive|5' UTR C-->T substitution carrier status|patients from 52 Japanese families|not_applicable|positive|not_reported|V1|abstract only; no control frequency
+F|F2|descriptive|puratrophin-1 aggregation in Purkinje cells|16q22.1-linked ADCA brains|not_applicable|positive|not_applicable|V2|
+F|F3|descriptive|spectrin and Golgi protein aggregates|16q22.1-linked ADCA Purkinje cells|not_applicable|positive|not_applicable|V4|

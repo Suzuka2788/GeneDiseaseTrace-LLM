@@ -1,0 +1,466 @@
+{
+  "paper_id": "PMC10014009",
+  "nodes": [
+    {
+      "id": "G01",
+      "label": "KRIT1",
+      "bipartite": 0,
+      "species": "Homo sapiens",
+      "entity_type": "gene",
+      "ambiguity": "KRTI1 是原文拼写，按同一三基因检测面板上下文判为 KRIT1 的疑似排字错误，不作独立基因。"
+    },
+    {
+      "id": "G02",
+      "label": "CCM2",
+      "bipartite": 0,
+      "species": "Homo sapiens",
+      "entity_type": "gene",
+      "ambiguity": ""
+    },
+    {
+      "id": "G03",
+      "label": "PDCD10",
+      "bipartite": 0,
+      "species": "Homo sapiens",
+      "entity_type": "gene",
+      "ambiguity": ""
+    },
+    {
+      "id": "G04",
+      "label": "ZPLD1",
+      "bipartite": 0,
+      "species": "人类患者语境；原句未另标物种",
+      "entity_type": "gene",
+      "ambiguity": "只有讨论中转述他人提出的关联，本研究未测定此基因。"
+    },
+    {
+      "id": "G05",
+      "label": "MAP3K3",
+      "bipartite": 0,
+      "species": "人类散发 CCM 患者语境",
+      "entity_type": "gene",
+      "ambiguity": "MEKK3 为蛋白产物名称，不是另一个已明确出现的基因。"
+    },
+    {
+      "id": "G06",
+      "label": "Krit1",
+      "bipartite": 0,
+      "species": "动物模型；所给原文未指明具体物种",
+      "entity_type": "gene",
+      "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。"
+    },
+    {
+      "id": "G07",
+      "label": "Ccm2",
+      "bipartite": 0,
+      "species": "动物模型；所给原文未指明具体物种",
+      "entity_type": "gene",
+      "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。"
+    },
+    {
+      "id": "G08",
+      "label": "Pdcd10",
+      "bipartite": 0,
+      "species": "动物模型；所给原文未指明具体物种",
+      "entity_type": "gene",
+      "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。"
+    },
+    {
+      "id": "D01",
+      "label": "cerebral cavernous malformation",
+      "bipartite": 1,
+      "species": "人类；动物模型另有语境",
+      "entity_type": "disease",
+      "ambiguity": "CMM 仅 b0099 出现一次，按相邻治疗 CCM 语境视为疑似笔误；保留原文。"
+    },
+    {
+      "id": "D02",
+      "label": "familial cerebral cavernous malformation",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D03",
+      "label": "sporadic cerebral cavernous malformation",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D04",
+      "label": "spinal cavernous malformation",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D05",
+      "label": "cutaneous cavernous malformation",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D06",
+      "label": "cavernous angioma with symptomatic hemorrhage",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": "病变伴症状性出血的复合临床事件，作为条件节点保留；不与所有 CCM 合并。"
+    },
+    {
+      "id": "D07",
+      "label": "small vessel disease",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D08",
+      "label": "diffuse axonal injury",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D09",
+      "label": "intracerebral hemorrhage",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": "原文指无 CCM 病灶的多发复发脑内出血，不与 CASH 合并。"
+    },
+    {
+      "id": "D10",
+      "label": "developmental venous anomaly",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": "本队列明确无人患此畸形；这不是基因—疾病关联阴性试验。"
+    },
+    {
+      "id": "D11",
+      "label": "tumor",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": "宽泛疾病家族；表2的具体肿瘤不并入此节点。"
+    },
+    {
+      "id": "D12",
+      "label": "breast cancer",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D13",
+      "label": "thyroid cancer",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D14",
+      "label": "diffuse midline glioma",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D15",
+      "label": "adrenal adenoma",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D16",
+      "label": "left anterior cerebral artery infarction",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D17",
+      "label": "occipital lobe epilepsy",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": ""
+    },
+    {
+      "id": "D18",
+      "label": "PLE",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "ambiguous",
+      "ambiguity": "表2 K3 临床表现出现 PLE，正文及脚注未定义，不能按常识补为某种癫痫。"
+    },
+    {
+      "id": "D19",
+      "label": "cavernous malformation",
+      "bipartite": 1,
+      "species": "人类",
+      "entity_type": "disease",
+      "ambiguity": "一般 CM 上位名称；不自动合并为脑 CCM 或脊髓/皮肤亚型。"
+    },
+    {
+      "id": "D20",
+      "label": "vascular malformation",
+      "bipartite": 1,
+      "species": "人类；机制描述",
+      "entity_type": "disease",
+      "ambiguity": "宽泛畸形表述；b0100 是 KRIT1 蛋白组分功能推测，不足以支持对该宽泛家族的基因因果关系。"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E01",
+      "paper_id": "PMC10014009",
+      "gene_id": "G01",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+          "location": "b0011",
+          "section": "Body / Introduction"
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "正文直接针对 CCM 描述三个基因的失功能致病机制；不是把家族性亚型关系自动向上推广。",
+      "conditions": "背景机制陈述；不推及每一种散发病例或所有变异。"
+    },
+    {
+      "edge_id": "E02",
+      "paper_id": "PMC10014009",
+      "gene_id": "G01",
+      "disease_id": "D02",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "两者兼有",
+      "evidence": [
+        {
+          "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+          "location": "b0003",
+          "section": "Abstract / Objective"
+        },
+        {
+          "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1).",
+          "location": "b0028",
+          "section": "Body / Result / Study population"
+        }
+      ],
+      "location": [
+        "b0003",
+        "b0028"
+      ],
+      "reason": "背景明确将三个基因的失功能变异归为 FCCM 病因；本研究检出对应患者变异。causal 来自背景陈述，本研究为观察性结果，不是新的因果验证。",
+      "conditions": "限原文所述致病变异，不指任意变异均致病；8例未检出不能解释为排除基因关联。"
+    },
+    {
+      "edge_id": "E03",
+      "paper_id": "PMC10014009",
+      "gene_id": "G02",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+          "location": "b0011",
+          "section": "Body / Introduction"
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "正文直接针对 CCM 描述三个基因的失功能致病机制；不是把家族性亚型关系自动向上推广。",
+      "conditions": "背景机制陈述；不推及每一种散发病例或所有变异。"
+    },
+    {
+      "edge_id": "E04",
+      "paper_id": "PMC10014009",
+      "gene_id": "G02",
+      "disease_id": "D02",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "两者兼有",
+      "evidence": [
+        {
+          "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+          "location": "b0003",
+          "section": "Abstract / Objective"
+        },
+        {
+          "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1).",
+          "location": "b0028",
+          "section": "Body / Result / Study population"
+        }
+      ],
+      "location": [
+        "b0003",
+        "b0028"
+      ],
+      "reason": "背景明确将三个基因的失功能变异归为 FCCM 病因；本研究检出对应患者变异。causal 来自背景陈述，本研究为观察性结果，不是新的因果验证。",
+      "conditions": "限原文所述致病变异，不指任意变异均致病；8例未检出不能解释为排除基因关联。"
+    },
+    {
+      "edge_id": "E05",
+      "paper_id": "PMC10014009",
+      "gene_id": "G03",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+          "location": "b0011",
+          "section": "Body / Introduction"
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "正文直接针对 CCM 描述三个基因的失功能致病机制；不是把家族性亚型关系自动向上推广。",
+      "conditions": "背景机制陈述；不推及每一种散发病例或所有变异。"
+    },
+    {
+      "edge_id": "E06",
+      "paper_id": "PMC10014009",
+      "gene_id": "G03",
+      "disease_id": "D02",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "两者兼有",
+      "evidence": [
+        {
+          "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+          "location": "b0003",
+          "section": "Abstract / Objective"
+        },
+        {
+          "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1).",
+          "location": "b0028",
+          "section": "Body / Result / Study population"
+        }
+      ],
+      "location": [
+        "b0003",
+        "b0028"
+      ],
+      "reason": "背景明确将三个基因的失功能变异归为 FCCM 病因；本研究检出对应患者变异。causal 来自背景陈述，本研究为观察性结果，不是新的因果验证。",
+      "conditions": "限原文所述致病变异，不指任意变异均致病；8例未检出不能解释为排除基因关联。"
+    },
+    {
+      "edge_id": "E07",
+      "paper_id": "PMC10014009",
+      "gene_id": "G05",
+      "disease_id": "D03",
+      "status": "supported",
+      "relation_type": "association",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients.",
+          "location": "b0098",
+          "section": "Body / Discussion"
+        },
+        {
+          "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3.",
+          "location": "b0098",
+          "section": "Body / Discussion"
+        }
+      ],
+      "location": [
+        "b0098",
+        "b0098"
+      ],
+      "reason": "联合疾病患者中确认的功能获得突变、与CCM基因失功能的互斥模式及相关机制讨论，支持背景关联，超过单纯名称共现；保守不升级为因果。",
+      "conditions": ""
+    },
+    {
+      "edge_id": "E08",
+      "paper_id": "PMC10014009",
+      "gene_id": "G06",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+          "location": "b0099",
+          "section": "Body / Discussion"
+        }
+      ],
+      "location": [
+        "b0099"
+      ],
+      "reason": "正文将各基因的杂合缺失与诱导 CCM 动物模型直接相连；模型因果证据与人类节点分开保留。",
+      "conditions": "动物模型、出生后早期杂合缺失；具体物种未注明，不等同人类疾病因果。"
+    },
+    {
+      "edge_id": "E09",
+      "paper_id": "PMC10014009",
+      "gene_id": "G07",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+          "location": "b0099",
+          "section": "Body / Discussion"
+        }
+      ],
+      "location": [
+        "b0099"
+      ],
+      "reason": "正文将各基因的杂合缺失与诱导 CCM 动物模型直接相连；模型因果证据与人类节点分开保留。",
+      "conditions": "动物模型、出生后早期杂合缺失；具体物种未注明，不等同人类疾病因果。"
+    },
+    {
+      "edge_id": "E10",
+      "paper_id": "PMC10014009",
+      "gene_id": "G08",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+          "location": "b0099",
+          "section": "Body / Discussion"
+        }
+      ],
+      "location": [
+        "b0099"
+      ],
+      "reason": "正文将各基因的杂合缺失与诱导 CCM 动物模型直接相连；模型因果证据与人类节点分开保留。",
+      "conditions": "动物模型、出生后早期杂合缺失；具体物种未注明，不等同人类疾病因果。"
+    }
+  ],
+  "policy": "Only supported pairs are edges. All entity nodes retained, including unresolved disease candidate PLE."
+}

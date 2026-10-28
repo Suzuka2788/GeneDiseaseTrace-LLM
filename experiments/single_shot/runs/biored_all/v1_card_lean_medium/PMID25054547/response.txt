@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|BCHE|BCHE;BChE;butyrylcholinesterase|r||human||
+E|D1|disease|Butyrylcholinesterase deficiency|Butyrylcholinesterase deficiency|r||||
+E|D2|clinical_event|prolonged apnea|prolonged apnea|r||||
+E|D3|clinical_event|prolonged neuromuscular block|prolonged neuromuscular block|r||||
+E|S1|phenotype|silent phenotype|"silent" phenotype|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1|ts|res|aff|eda,rr
+EV|V3|b0002.s2|ts|co|na|do
+EV|V4|b0002.s4+b0002.s6+b0002.s7|ts|res|aff|rr
+EV|V5|b0002.s8+b0002.s9+b0002.s10|ts|int|aff|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||Background: BCHE mutations underlie deficiency
+P|G1|D2|sup|c|ts|sup:c:ts:V2;sup:a:bg:V1|||Title attributes apnea to p.Val204Asp
+P|G1|D3|nf|-||||V3|Variant found after event; no attribution stated
+F|F1|mechanism|p.Val204Asp vs catalytic triad geometry|MD simulation of mutant enzyme|unknown|not_applicable|partial|V5|simulation only
+F|F2|descriptive|mutant BChE kinetics (Km, Vmax)|patient plasma enzyme|not_applicable|unknown|partial|V4|no statistical test reported
+F|F3|descriptive|plasma BChE oligomeric forms|proband and his mother|not_applicable|negative|not_reported|V4+V5|qualitative electrophoresis
+C|C1|variant name p.Val204Asp vs p.Ala204Asp|b0002.s8+b0002.s10|noncritical|resolved|likely typo; same variant context

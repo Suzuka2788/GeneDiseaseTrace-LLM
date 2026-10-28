@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ALD|ALD|r|||human||
+E|D1|disease|X-linked adrenoleukodystrophy|X-linked adrenoleukodystrophy;adrenoleukodystrophy;ALD|r||||
+E|D2|disease|adolescent ALD|adolescent ALD|r|||D1|
+E|D3|disease|cerebral ALD|cerebral ALD|r|||D1|
+E|D4|disease|adrenomyeloneuropathy|adrenomyeloneuropathy|r||||
+E|D5|disease|Addison|Addison|p|other|||
+E|S1|phenotype|accumulating very long chain fatty acids|very long chain fatty acids|r||||
+EV|V1|b0002.s2+b0002.s3|ts|res|aff|rr,cs,cmp
+EV|V2|b0002.s4|ts|int|hyp|ho
+EV|V3|b0002.s3+b0002.s4|ts|res|aff|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V2|hedged_claim||Mutation co-segregates in affected members, absent in controls
+P|G1|D2|unc|-|ts|unc:-:ts:V3|scope|V1|Proband carries mutation; phenotype attributed to other factors
+P|G1|D3|unc|-|ts|unc:-:ts:V3|scope|V1|Carriers had cerebral ALD; subtype link not attributed
+P|G1|D4|unc|-|ts|unc:-:ts:V3|scope|V1|Carrier had AMN; subtype link not attributed
+P|G1|D5|unc|-|ts|unc:-:ts:V3|scope|V1|Carrier Addison-only; subtype link not attributed
+F|F1|association|P484R carrier status vs affection|family members, unrelated ALD patients, controls|not_applicable|positive|not_applicable|V1|no statistical test; single family
+F|F2|hypothesis|mutation causes disease and metabolic defect|ALD family|not_applicable|positive|not_applicable|V2|authors' proposal only
+R|surface sharing|b0002.s1|"ALD" names both the gene and the disease|listed ALD as a surface form of both G1 and D1

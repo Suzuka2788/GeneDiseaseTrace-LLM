@@ -1,0 +1,642 @@
+[
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G01",
+    "entity_type": "gene",
+    "canonical_name": "KRIT1",
+    "original_names": [
+      "KRIT1",
+      "KRTI1"
+    ],
+    "species": "Homo sapiens",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0073",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "ambiguity": "KRTI1 是原文拼写，按同一三基因检测面板上下文判为 KRIT1 的疑似排字错误，不作独立基因。",
+    "merge_basis": "b0003、b0014、b0019 的检测面板均为 KRIT1/CCM2/PDCD10；仅 b0005 写 KRTI1。b0100 的 KRIT1 protein 是同一基因产物，角色另记。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G02",
+    "entity_type": "gene",
+    "canonical_name": "CCM2",
+    "original_names": [
+      "CCM2"
+    ],
+    "species": "Homo sapiens",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0084",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G03",
+    "entity_type": "gene",
+    "canonical_name": "PDCD10",
+    "original_names": [
+      "PDCD10"
+    ],
+    "species": "Homo sapiens",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0019",
+      "b0028",
+      "b0031",
+      "b0070",
+      "b0087",
+      "b0094",
+      "b0095",
+      "b0098",
+      "b0100",
+      "b0101",
+      "b0104"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G04",
+    "entity_type": "gene",
+    "canonical_name": "ZPLD1",
+    "original_names": [
+      "ZPLD1"
+    ],
+    "species": "人类患者语境；原句未另标物种",
+    "location": [
+      "b0098"
+    ],
+    "ambiguity": "只有讨论中转述他人提出的关联，本研究未测定此基因。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G05",
+    "entity_type": "gene",
+    "canonical_name": "MAP3K3",
+    "original_names": [
+      "MAP3K3",
+      "MEKK3"
+    ],
+    "species": "人类散发 CCM 患者语境",
+    "location": [
+      "b0098"
+    ],
+    "ambiguity": "MEKK3 为蛋白产物名称，不是另一个已明确出现的基因。",
+    "merge_basis": "b0098 明写 MAP3K3, encoding MEKK3；并入同一基因产物节点，mentions.csv 保留 gene/protein 角色。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G06",
+    "entity_type": "gene",
+    "canonical_name": "Krit1",
+    "original_names": [
+      "Krit1"
+    ],
+    "species": "动物模型；所给原文未指明具体物种",
+    "location": [
+      "b0099"
+    ],
+    "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+    "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G07",
+    "entity_type": "gene",
+    "canonical_name": "Ccm2",
+    "original_names": [
+      "Ccm2"
+    ],
+    "species": "动物模型；所给原文未指明具体物种",
+    "location": [
+      "b0099"
+    ],
+    "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+    "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "G08",
+    "entity_type": "gene",
+    "canonical_name": "Pdcd10",
+    "original_names": [
+      "Pdcd10"
+    ],
+    "species": "动物模型；所给原文未指明具体物种",
+    "location": [
+      "b0099"
+    ],
+    "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+    "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D01",
+    "entity_type": "disease",
+    "canonical_name": "cerebral cavernous malformation",
+    "original_names": [
+      "Cerebral cavernous malformation",
+      "cerebral cavernous malformation",
+      "CCM",
+      "CCMs",
+      "cerebral cavernous malformations",
+      "CMM"
+    ],
+    "species": "人类；动物模型另有语境",
+    "location": [
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0011",
+      "b0014",
+      "b0016",
+      "b0017",
+      "b0021",
+      "b0026",
+      "b0027",
+      "b0028",
+      "b0029",
+      "b0049",
+      "b0068",
+      "b0070",
+      "b0072",
+      "b0074",
+      "b0075",
+      "b0076",
+      "b0077",
+      "b0093",
+      "b0094",
+      "b0095",
+      "b0097",
+      "b0098",
+      "b0099",
+      "b0101",
+      "b0102",
+      "b0104"
+    ],
+    "ambiguity": "CMM 仅 b0099 出现一次，按相邻治疗 CCM 语境视为疑似笔误；保留原文。",
+    "merge_basis": "b0011 和图注明确定义 CCM；CCMs 为复数。CMM 的合并为上下文判断。",
+    "entity_subtype": "疾病家族/上位疾病",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D02",
+    "entity_type": "disease",
+    "canonical_name": "familial cerebral cavernous malformation",
+    "original_names": [
+      "familial cerebral cavernous malformation",
+      "Familial cerebral cavernous malformation",
+      "Familial CCM",
+      "familial CCM",
+      "FCCM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0001",
+      "b0003",
+      "b0005",
+      "b0007",
+      "b0009",
+      "b0011",
+      "b0014",
+      "b0023",
+      "b0026",
+      "b0027",
+      "b0029",
+      "b0069",
+      "b0070",
+      "b0071",
+      "b0094",
+      "b0095",
+      "b0097",
+      "b0098",
+      "b0099",
+      "b0100",
+      "b0101",
+      "b0102",
+      "b0104",
+      "b0114",
+      "b0115",
+      "b0116"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0003、b0011 显式定义 FCCM；保留为 CCM 的家族性亚型节点，不与上位 CCM 合并。",
+    "entity_subtype": "疾病亚型",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D03",
+    "entity_type": "disease",
+    "canonical_name": "sporadic cerebral cavernous malformation",
+    "original_names": [
+      "sporadic CCM",
+      "sporadic CCMs"
+    ],
+    "species": "人类",
+    "location": [
+      "b0011",
+      "b0026",
+      "b0098"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0011 明确区分 sporadic 与 familial；不向另一个亚型传播证据。",
+    "entity_subtype": "疾病亚型",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D04",
+    "entity_type": "disease",
+    "canonical_name": "spinal cavernous malformation",
+    "original_names": [
+      "spinal cavernous malformation",
+      "spinal CM",
+      "Spinal CM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0047",
+      "b0070",
+      "b0076",
+      "b0090"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0016 定义 CM；spinal 明确限定脊髓部位。表2 Spinal 为同列的简写。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D05",
+    "entity_type": "disease",
+    "canonical_name": "cutaneous cavernous malformation",
+    "original_names": [
+      "cutaneous CM",
+      "Cutaneous CM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0048",
+      "b0070",
+      "b0085"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0016 的 CM 定义及表1、表2 的 non-cerebral CM 语境。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D06",
+    "entity_type": "disease",
+    "canonical_name": "cavernous angioma with symptomatic hemorrhage",
+    "original_names": [
+      "cavernous angioma with symptomatic hemorrhage",
+      "cavernous angioma with a symptomatic hemorrhage",
+      "cavernous angiomas with the occurrence of symptomatic hemorrhage",
+      "cavernous angiomas with a symptomatic hemorrhage",
+      "CASH"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0021",
+      "b0028",
+      "b0043",
+      "b0044",
+      "b0045",
+      "b0064",
+      "b0070",
+      "b0072",
+      "b0075",
+      "b0078",
+      "b0080",
+      "b0085",
+      "b0086",
+      "b0088",
+      "b0093",
+      "b0094",
+      "b0097",
+      "b0100",
+      "b0101",
+      "b0115",
+      "b0116"
+    ],
+    "ambiguity": "病变伴症状性出血的复合临床事件，作为条件节点保留；不与所有 CCM 合并。",
+    "merge_basis": "b0016、b0064、b0093 明确 CASH 的展开。",
+    "entity_subtype": "疾病伴并发事件",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D07",
+    "entity_type": "disease",
+    "canonical_name": "small vessel disease",
+    "original_names": [
+      "small vessel disease"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D08",
+    "entity_type": "disease",
+    "canonical_name": "diffuse axonal injury",
+    "original_names": [
+      "diffuse axonal injury"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "损伤",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D09",
+    "entity_type": "disease",
+    "canonical_name": "intracerebral hemorrhage",
+    "original_names": [
+      "intracerebral hemorrhages"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "原文指无 CCM 病灶的多发复发脑内出血，不与 CASH 合并。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "出血性病症",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D10",
+    "entity_type": "disease",
+    "canonical_name": "developmental venous anomaly",
+    "original_names": [
+      "developmental venous anomaly"
+    ],
+    "species": "人类",
+    "location": [
+      "b0026"
+    ],
+    "ambiguity": "本队列明确无人患此畸形；这不是基因—疾病关联阴性试验。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D11",
+    "entity_type": "disease",
+    "canonical_name": "tumor",
+    "original_names": [
+      "tumor",
+      "tumors",
+      "Tumor",
+      "tumorous condition"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0050",
+      "b0070",
+      "b0072"
+    ],
+    "ambiguity": "宽泛疾病家族；表2的具体肿瘤不并入此节点。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "疾病家族",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D12",
+    "entity_type": "disease",
+    "canonical_name": "breast cancer",
+    "original_names": [
+      "Breast cancer"
+    ],
+    "species": "人类",
+    "location": [
+      "b0074"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D13",
+    "entity_type": "disease",
+    "canonical_name": "thyroid cancer",
+    "original_names": [
+      "Thyroid cancer"
+    ],
+    "species": "人类",
+    "location": [
+      "b0075"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D14",
+    "entity_type": "disease",
+    "canonical_name": "diffuse midline glioma",
+    "original_names": [
+      "diffuse midline glioma",
+      "Diffuse midline glioma"
+    ],
+    "species": "人类",
+    "location": [
+      "b0070",
+      "b0076"
+    ],
+    "ambiguity": "",
+    "merge_basis": "正文活检与表2均指 K3，WHO grade IV 为分级，不是另一肿瘤节点。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D15",
+    "entity_type": "disease",
+    "canonical_name": "adrenal adenoma",
+    "original_names": [
+      "Adrenal adenoma"
+    ],
+    "species": "人类",
+    "location": [
+      "b0077"
+    ],
+    "ambiguity": "",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D16",
+    "entity_type": "disease",
+    "canonical_name": "left anterior cerebral artery infarction",
+    "original_names": [
+      "Left ACA infarction"
+    ],
+    "species": "人类",
+    "location": [
+      "b0077",
+      "b0093"
+    ],
+    "ambiguity": "",
+    "merge_basis": "b0093 明确 ACA 为 anterior cerebral artery；不推断具体梗死病因。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D17",
+    "entity_type": "disease",
+    "canonical_name": "occipital lobe epilepsy",
+    "original_names": [
+      "occipital lobe epilepsy",
+      "OLE"
+    ],
+    "species": "人类",
+    "location": [
+      "b0082",
+      "b0093"
+    ],
+    "ambiguity": "",
+    "merge_basis": "表2脚注明确定义 OLE。",
+    "entity_subtype": "",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D18",
+    "entity_type": "ambiguous",
+    "canonical_name": "PLE",
+    "original_names": [
+      "PLE"
+    ],
+    "species": "人类",
+    "location": [
+      "b0076"
+    ],
+    "ambiguity": "表2 K3 临床表现出现 PLE，正文及脚注未定义，不能按常识补为某种癫痫。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "未解决的疾病/诊断缩写候选",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D19",
+    "entity_type": "disease",
+    "canonical_name": "cavernous malformation",
+    "original_names": [
+      "cavernous malformation",
+      "CM"
+    ],
+    "species": "人类",
+    "location": [
+      "b0016",
+      "b0064",
+      "b0070",
+      "b0072",
+      "b0093"
+    ],
+    "ambiguity": "一般 CM 上位名称；不自动合并为脑 CCM 或脊髓/皮肤亚型。",
+    "merge_basis": "b0064、b0093 定义 CM；限定部位的名称分别入 D01/D04/D05。",
+    "entity_subtype": "疾病家族",
+    "database_id": ""
+  },
+  {
+    "paper_id": "PMC10014009",
+    "entity_id": "D20",
+    "entity_type": "disease",
+    "canonical_name": "vascular malformation",
+    "original_names": [
+      "vascular malformation",
+      "intracranial vascular malformation"
+    ],
+    "species": "人类；机制描述",
+    "location": [
+      "b0011",
+      "b0100"
+    ],
+    "ambiguity": "宽泛畸形表述；b0100 是 KRIT1 蛋白组分功能推测，不足以支持对该宽泛家族的基因因果关系。",
+    "merge_basis": "原文名称；未进行数据库映射。",
+    "entity_subtype": "疾病家族",
+    "database_id": ""
+  }
+]

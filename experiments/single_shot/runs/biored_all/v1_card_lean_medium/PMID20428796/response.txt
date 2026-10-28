@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TGF-beta1|TGF-beta1|r||human||
+E|G2|gene|TGF-beta2|TGF-beta2|r||human||
+E|G3|gene|TGF-beta3|TGF-beta3|r||human||
+E|G4|gene|TGF-beta receptor type I|TGF-betaRI|r||human||
+E|G5|gene|TGF-beta receptor type II|TGF-betaRII|r||human||
+E|G6|ambiguous_gene|TGF-beta|TGF-beta|u|ambiguous_mapping|human||
+E|D1|disease|keloid disease|keloid scars;keloid;Keloid disease;keloid disease|r||||
+E|S1|phenotype|excessive scar formation|excessive scar formation|r||||
+X|dermal fibroproliferative tumor|b0002|descriptive characterisation of keloid, not a separate disease
+X|type I and type II TGF-beta receptors|b0002|generic receptor class; mapped via TGF-betaRI/RII
+EV|V1|b0002.s4|bg|bgr|aff|ebr
+EV|V2|b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0002.s9|ts|res|aff|rr
+EV|V4|b0002.s10+b0002.s11+b0002.s12|ts|res|na|rr
+EV|V5|b0002.s14+b0002.s15|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2||V3|Higher expression in KFs than NFs
+P|G2|D1|sup|a|ts|sup:a:ts:V2||V3+V4|Higher expression in KFs than NFs
+P|G3|D1|sup|a|ts|sup:a:ts:V2||V4|Significantly lower expression in KFs than NFs
+P|G5|D1|sup|a|ts|sup:a:ts:V2||V4|Significantly lower expression in KFs than NFs
+P|G4|D1|nf|-||||V4|Only antisense time course; no KF-NF comparison
+P|G6|D1|unc|-|bg|unc:a:bg:V1|identity|V5|Generic TGF-beta; isoform unresolved
+F|F1|group_comparison|TGF-beta isoforms and TGF-betaRII expression|keloid vs normal fibroblasts|mixed|mixed|not_reported|V2|significance stated only for beta3 and RII
+F|F2|group_comparison|TGF-beta1 antisense vs TGF-beta1/beta2 protein|keloid fibroblasts|significant|negative|partial|V3|
+F|F3|mechanism|TGF-beta1 antisense vs isoform/receptor mRNA|keloid fibroblasts|unknown|mixed|not_reported|V4|beta3 response inconsistent across patients

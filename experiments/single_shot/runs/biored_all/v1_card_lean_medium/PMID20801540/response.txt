@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|ceruloplasmin|Ceruloplasmin;ceruloplasmin|r||human||
+E|G2|gene|hepcidin|hepcidin|r||human||
+E|G3|gene|transferrin|transferrin|r||human||
+E|D1|disease|aceruloplasminemia|Aceruloplasminemia;aceruloplasminemia|r|||D2|
+E|D2|disease|neurodegenerative disease|neurodegenerative disease|r||||
+E|D3|disease|movement disorders|movement disorders|r||||
+E|D4|disease|retinal degeneration|retinal degeneration|r||||
+E|D5|disease|diabetes mellitus|diabetes mellitus;diabetes|p|other|||
+E|S1|phenotype|iron overload|iron overload|r||||
+E|S2|phenotype|iron accumulation|iron accumulation|r||||
+X|deferasirox|b0001|drug name, not gene or disease
+EV|V1|b0002.s3|ts|res|aff|rr,eda
+EV|V2|b0002.s5+b0002.s6|ts|res|aff|rr
+EV|V3|b0002.s11|ts|int|aff|unc
+EV|V4|b0002.s7|ts|res|aff|rr
+EV|V5|b0002.s2|bg|bgr|na|do
+P|G1|D1|sup|c|ts|sup:c:ts:V1|||Homozygous CP mutation identified as cause in siblings
+P|G2|D1|unc|-|ts|unc:-:ts:V4|scope||Hepcidin increased; no explicit comparator; tracks iron overload
+P|G1|D5|nf|-|||||V1|Diabetes is presenting feature only; no direct link
+P|G3|D1|nf|-|||||V5|Transferrin only in ceruloplasmin function description
+F|F1|correlation|hepatic hepcidin mRNA vs iron overload degree|aceruloplasminemia patients|unknown|positive|not_reported|V4|Small case series
+F|F2|mechanism|c.2554+1G>T splicing, exon 14 skipping|affected siblings|not_applicable|not_applicable|not_applicable|V2|
+F|F3|mechanism|defective cellular iron export|aceruloplasminemia|not_applicable|not_applicable|not_applicable|V3|Interpretive conclusion
+R|merge|b0002.s4|"diabetes" vs "diabetes mellitus" shortened form, co-reference implied|Merged as provisional surface form of D5

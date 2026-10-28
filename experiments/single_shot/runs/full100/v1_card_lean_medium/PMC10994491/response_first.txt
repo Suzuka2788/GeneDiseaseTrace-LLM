@@ -1,0 +1,349 @@
+META|Opus 5.5|seen: no
+SCOPE|Full abstract booklet read; only units with gene mentions output
+UNIT|u1|CO-1 TEP signature multiple myeloma|b0004-b0010
+UNIT|u2|CO-2 PARP/CHK1 inhibition AML|b0011-b0017
+UNIT|u3|CO-3 SNP array pediatric ALL|b0018-b0026
+UNIT|u4|CO-4 lung fibroblasts osteosarcoma|b0027-b0033
+UNIT|u5|CO-5 dedifferentiated gingival fibroblasts|b0034-b0040
+UNIT|u8|CO-8 GBM aCGH landscape|b0061-b0073
+UNIT|u9|CO-9 CD39/CD73 bladder cancer|b0074-b0082
+UNIT|u10|PH-1 telaglenastat CML|b0092-b0097
+UNIT|u12|PH-2 CD20+ T cells MBL/CLL|b0098-b0104
+UNIT|u13|PH-4 myeloid NGS fusion panel|b0113-b0121
+UNIT|u14|PH-5 oral cancer epigenomics cfDNA|b0122-b0128
+UNIT|u17|Zinc in AML|b0145-b0151
+UNIT|u20|PSMA metalloconjugates prostate|b0224-b0231
+UNIT|u22|p16/Ki67 cervical screening|b0288-b0296
+UNIT|u24|IMMP2L deletions array-CGH|b0338-b0345
+UNIT|u25|Primary glioblastoma cultures|b0346-b0352
+UNIT|u26|NRXN1 intragenic deletions|b0353-b0359
+UNIT|u27|BRCA1 variant ovarian cancer case|b0360-b0369
+UNIT|u28|Essential thrombocythemia 3p deletion|b0370-b0378
+UNIT|u30|SNHG1 in HCC review|b0394-b0401
+UNIT|u31|CLEC7A variants fungal infections|b0402-b0408
+E|G1|gene|HBD|HBD|r||human||u1
+E|G2|gene|CA1|CA1|r||human||u1
+E|G3|gene|GZMH|GZMH|r||human||u1
+E|G4|gene|IFI27|IFI27|r||human||u1
+E|G5|gene|LY6E|LY6E|r||human||u1
+E|G6|gene|ITGB7|ITGB7|r||human||u1
+E|G7|gene|ITGAL|ITGAL|r||human||u1
+E|G8|gene|NKG7|NKG7|r||human||u1
+E|G9|gene|RAD23A|RAD23A|r||human||u1
+E|G10|gene|NADSYN1|NADSYN1|r||human||u1
+E|G11|gene|DUSP2|DUSP2|r||human||u1
+E|G12|gene|PAXX|PAXX|r||human||u1
+E|G13|gene|GZMB|GZMB|r||human||u1
+E|G14|gene|TCIRG1|TCIRG1|r||human||u1
+E|G15|gene|OSBPL5|OSBPL5|r||human||u1
+E|G16|gene|WDR11-DT|WDR11-DT|r||human||u1
+E|G17|gene|ZNF385D|ZNF385D|r||human||u1
+E|G18|gene|GRHL1|GRHL1|r||human||u1
+E|G19|gene|HSD17B3|HSD17B3|r||human||u1
+E|G20|gene|EFHD2|EFHD2|r||human||u1
+E|G21|gene|CMTM6|CMTM6|r||human||u1
+E|G22|gene|ARPC5L|ARPC5L|r||human||u1
+E|G23|gene|TNNC2|TNNC2|r||human||u1
+E|G24|gene|GSTP1|GSTP1|r||human||u1
+E|G25|gene|RASAL3|RASAL3|r||human||u1
+E|G26|gene|GAK|GAK|r||human||u1
+E|G27|gene|ANGPT1|ANGPT1|r||human||u1
+E|G28|gene|DNAJC7|DNAJC7|r||human||u1
+E|G29|gene|PLAAT4|PLAAT4|r||human||u1
+E|G30|gene|TLR5|TLR5|r||human||u1
+E|D1|disease|multiple myeloma|multiple myeloma;Multiple myeloma;MM|r||||u1
+E|D2|disease|hematological neoplasias|hematological neoplasias|r||||u1
+E|G31|gene|PARP1|PARP1|r||human||u2
+E|G32|gene|CHK1|CHK1|r||human||u2
+E|D3|disease|acute myeloblastic leukemia|acute myeloblastic leukemia;AML|r||||u2
+E|G33|gene|BTG1|BTG1|r||human||u3
+E|G34|gene|CDKN2A|CDKN2A|r||human||u3
+E|G35|gene|EBF1|EBF1|r||human||u3
+E|G36|gene|ETV6|ETV6|r||human||u3
+E|G37|gene|IKZF1|IKZF1|r||human||u3
+E|G38|gene|PAX5|PAX5|r||human||u3
+E|G39|gene|RB1|RB1|r||human||u3
+E|G40|gene|CRLF2|CRLF2|r||human||u3
+E|D4|disease|acute lymphoblastic leukemia|Acute Lymphoblastic Leukemia;ALL|r||||u3
+E|D5|disease|pediatric acute lymphoblastic leukemia|pediatric ALL;pediatric Acute Lymphoblastic Leukemias|r|||D4|u3
+E|G41|gene|alpha-SMA|α-SMA|r||non-human||u4
+E|G42|gene|fibronectin|fibronectin|p|other|non-human||u4
+E|G43|gene|FAP|FAP|r||non-human||u4
+E|G44|gene|PDGFR|PDGFR|p|ambiguous_mapping|non-human||u4
+E|G45|gene|SOX2|SOX2|r||human||u4
+E|G46|gene|KLF4|KLF4|r||human||u4
+E|G47|gene|NR2F1|NR2F1|r||human||u4
+E|G48|gene|integrin-beta1|integrin-β1|r||human||u4
+E|D6|disease|osteosarcoma|osteosarcoma;OS|r||||u4
+E|CE1|clinical_event|lung metastasis|Lung metastasis;lung metastasis|r||||u4
+E|G49|gene|CD11b|CD11b|r||non-human||u5
+E|G50|gene|CD45|CD45|r||non-human||u5
+E|G51|gene|CD90|CD90|r||non-human||u5
+E|G52|gene|CD105|CD105|r||non-human||u5
+E|G53|gene|CD106|CD106|r||non-human||u5
+E|G54|gene|TERT|telomerase reverse transcriptase;TERT|r||non-human||u5
+E|G55|gene|ALP|alkaline phosphatase;ALP|p|ambiguous_mapping|non-human||u5
+E|G56|gene|Oct-3/4|Oct-3/4|r||non-human||u5
+E|G57|gene|Nanog|Nanog|r||non-human||u5
+E|A1|ambiguous_gene|CD145|CD145|u|other|non-human||u5
+E|G58|gene|EGFR|EGFR|r||human||u8
+E|G59|gene|MET|MET|r||human||u8
+E|G60|gene|CDKN2A|CDKN2A|r||human||u8
+E|G61|gene|PTEN|PTEN|r||human||u8
+E|G62|gene|RB1|RB1|r||human||u8
+E|G63|gene|NF1|NF1|r||human||u8
+E|D7|disease|glioblastoma multiforme|Glioblastoma multiforme;glioblastoma multiforme;GBM;glioblastoma;Glioblastoma Multiforme|r||||u8
+E|G64|gene|CD39|CD39|r||human||u9
+E|G65|gene|CD73|CD73|r||human||u9
+E|G66|gene|CD4|CD4|r||human||u9
+E|G67|gene|CD8|CD8|r||human||u9
+E|G68|gene|CD25|CD25|r||human||u9
+E|G69|gene|CD127|CD127|r||human||u9
+E|D8|disease|bladder cancer|bladder cancer;BC|r||||u9
+E|D9|disease|urothelial carcinoma of the bladder|urothelial carcinoma of the bladder|r||||u9
+E|G70|gene|glutaminase|glutaminase|p|ambiguous_mapping|human||u10
+E|D10|disease|chronic myeloid leukemia|chronic myeloid leukemia;CML|r||||u10
+E|G71|gene|CD20|CD20|r||human||u12
+E|G72|gene|TP53|TP53|r||human||u12
+E|G73|gene|IGHV|immunoglobulin heavy chain variable region;IGHV;IGVH|p|suspected_typo|human||u12
+E|G74|gene|CD8|CD8|r||human||u12
+E|G75|gene|CD4|CD4|r||human||u12
+E|D11|disease|monoclonal B cell lymphocytosis|Monoclonal B Lymphocytosis;MBL;monoclonal B cell lymphocytosis|r||||u12
+E|D12|disease|chronic lymphocytic leukemia|Chronic Lymphocytic Leukemia;CLL;chronic lymphocytic leukemia|r||||u12
+E|D13|disease|CLL-like MBL|CLL-like MBL;MBL type CLL|p|other||D11|u12
+E|D14|disease|autoimmune diseases|autoimmune diseases|r||||u12
+E|G76|gene|KMT2A|KMT2A|r||human||u13
+E|G77|gene|ETV6|ETV6|r||human||u13
+E|G78|gene|MECOM|MECOM|r||human||u13
+E|G79|gene|CREBBP|CREBBP|r||human||u13
+E|G80|gene|FIP1L1|FIP1L1|r||human||u13
+E|G81|gene|PDGFRA|PDGFRA|r||human||u13
+E|D15|disease|acute myeloid leukaemia|Acute Myeloid Leukaemia;AML|r||||u13
+E|D16|disease|AML with KMT2A rearrangement|AML with KMT2A rearrangement;AML@KMT2A|r|||D15|u13
+E|D17|disease|AML with MECOM rearrangement|AML with MECOM rearrangement|r|||D15|u13
+E|D18|disease|eosinophilia|eosinophilias|p|other|||u13
+E|D19|disease|haematologic neoplasms|haematologic neoplasms|r||||u13
+E|G82|gene|ADAM6|ADAM6|r||human||u14
+E|G83|gene|ZIC4|ZIC4|r||human||u14
+E|G84|gene|RAD17|RAD17|r||human||u14
+E|G85|gene|CCNB1|CCNB1|r||human||u14
+E|G86|gene|TP53|TP53|r||human||u14
+E|G87|gene|PIK3CA|PIK3CA|r||human||u14
+E|D20|disease|oral cancer|Oral cancer;OC;oral cancer|r||||u14
+E|G88|gene|PARP1|PARP1|r||human||u17
+E|G89|gene|XRCC6|XRCC6|r||human||u17
+E|G90|gene|caspase-3|caspase-3|r||human||u17
+E|D21|disease|acute myeloblastic leukemia|acute myeloblastic leukemia;acute myelobastic leukemia;AML|p|suspected_typo|||u17
+E|G91|gene|PSMA|prostate-specific membrane antigen;PSMA|r||human||u20
+E|G92|gene|cathepsin B|cathepsin B|p|other|||u20
+E|D22|disease|prostate cancer|prostate cancers;prostate cancer|r||||u20
+E|D23|disease|metastatic castration-resistant prostate cancer|metastatic castration-resistant prostate cancer|r|||D22|u20
+E|G93|gene|p16|p16|p|ambiguous_mapping|human||u22
+E|G94|gene|Ki67|Ki67;ki67|r||human||u22
+E|D24|disease|cervical cancer|cervical cancer|r||||u22
+E|D25|disease|HPV infection|HPV infection|r||||u22
+E|G95|gene|IMMP2L|IMMP2L|r||human||u24
+E|G96|gene|Immp2l|Immp2l|r||non-human||u24
+E|D26|disease|Tourette syndrome|Tourette syndrome|r||||u24
+E|D27|disease|autism spectrum disorder|autism spectrum disorder;ASD|r||||u24
+E|D28|disease|neurodevelopmental disorders|neurodevelopmental disorders|r||||u24
+E|D29|disease|attention-deficit hyperactivity|attention-deficit hyperactivity|p|other|||u24
+E|D30|disease|speech-language delay|speech-language delay|r||||u24
+E|D31|disease|developmental delays|developmental delays|r||||u24
+E|D32|disease|intellectual disability|intellectual disability|r||||u24
+E|D33|disease|language delay|language delay|r||||u24
+E|D34|disease|global developmental delay|global developmental delay|r||||u24
+E|D35|disease|ischemic brain damage|ischemic brain damage|r||||u24
+E|G97|gene|EGFR|EGFR|r||human||u25
+E|G98|gene|PTEN|PTEN|r||human||u25
+E|D36|disease|glioblastoma|Glioblastomas;glioblastomas;glioblastoma|r||||u25
+E|G99|gene|NRXN1|Neurexin 1;NRXN1|r||human||u26
+E|D37|disease|neurodevelopmental disorders|neurodevelopmental disorders|r||||u26
+E|D38|disease|autism spectrum disorder|autism spectrum disorder;ASD|r||||u26
+E|D39|disease|intellectual disability|intellectual disability;ID|r||||u26
+E|D40|disease|schizophrenia|schizophrenia|r||||u26
+E|D41|disease|bipolar disorder|bipolar disorder|r||||u26
+E|D42|disease|developmental delay|developmental delay;DD|r||||u26
+E|S1|symptom|seizures|seizures|r||||u26
+E|G100|gene|BRCA1|BRCA1|r||human||u27
+E|G101|gene|BRCA2|BRCA2|r||human||u27
+E|G102|gene|TP53|TP53|r||human||u27
+E|D43|disease|hereditary breast and ovarian cancer|Hereditary breast and ovarian cancer;HBOC;HBOC syndrome|r||||u27
+E|D44|disease|ovarian cancer|ovarian cancer|r||||u27
+E|D45|disease|Li-Fraumeni syndrome|Li-Fraumeni syndrome|r||||u27
+E|G103|gene|JAK2|JAK2|r||human||u28
+E|G104|gene|CALR|CALR|r||human||u28
+E|G105|gene|MPL|MPL|r||human||u28
+E|D46|disease|essential thrombocythemia|Essential thrombocythemia;ET|r|||D47|u28
+E|D47|disease|chronic myeloproliferative neoplasm|chronic myeloproliferative neoplasm|r||||u28
+E|D48|disease|hematologic malignancies|hematologic malignancies|r||||u28
+E|S2|symptom|thrombocytosis|thrombocytosis|r||||u28
+E|G106|gene|SNHG1|SNHG1|r||human||u30
+E|G107|gene|p53|p53|r||human||u30
+E|G108|gene|BAX|BAX|r||human||u30
+E|G109|gene|FAS|FAS|r||human||u30
+E|G110|gene|AFP|alpha-fetoprotein;AFP|r||human||u30
+E|D49|disease|hepatocellular carcinoma|Hepatocellular carcinoma;HCC;Hepatocellular Carcinoma|r||||u30
+E|G111|gene|CLEC7A|CLEC7A;C-Type Lectin Domain Containing 7A;dectin-1|r||human||u31
+E|D50|disease|opportunistic fungal infections|Opportunistic fungal infections;opportunistic fungal infections|r||||u31
+E|D51|disease|HIV|HIV|p|other|||u31
+E|D52|disease|oropharyngeal candidiasis|oropharyngeal candidiasis|r||||u31
+E|D53|disease|Pneumocystis jiroveccii pneumonia|Pneumocystis jiroveccii pneumonia|r||||u31
+E|D54|disease|cryptococcosis|cryptococcosis|r||||u31
+E|D55|disease|Pneumocystis jiroveccii infection|Pneumocystis jiroveccii infection|r||||u31
+X|iAMP21|b0022|chromosomal amplification, not a single gene
+X|p38high/pERKlow|b0032|signalling ratio phenotype, not gene endpoint
+X|ETV6::MECOM|b0119|fusion gene, not single-gene endpoint
+X|FIP1L1::PDGFRA|b0119|fusion gene, not single-gene endpoint
+X|PI3K-Akt|b0127|pathway, not single gene
+X|CINtec®PLUS|b0288|dual-stain assay, not gene
+X|Vβ 5.1|b0103|TCR gene family, not single gene
+X|neuroligins|b0356|gene family, not single gene
+EV|V1|b0009.s1+b0009.s2+b0009.s3|ts|res|aff|rr,cmp
+EV|V2|b0009.s5+b0009.s6|ts|res|aff|rr
+EV|V3|b0010.s2|ts|int|hyp|ho
+EV|V4|b0022.s4|bg|bgr|pre|unc
+EV|V5|b0025.s3|ts|co|na|do
+EV|V6|b0072.s3|ts|co|na|do
+EV|V7|b0072.s4|ts|int|pre|unc
+EV|V8|b0081.s1|ts|res|aff|cmp
+EV|V9|b0081.s3|ts|neg|neg|rr
+EV|V10|b0082.s2|ts|int|hyp|ho
+EV|V11|b0103.s1+b0103.s3|ts|res|aff|cmp
+EV|V12|b0104.s1|ts|int|hyp|ho
+EV|V13|b0101.s5|bg|bgr|hyp|ho
+EV|V14|b0118.s1|ts|res|aff|eda
+EV|V15|b0119.s2+b0120.s2|ts|res|aff|eda
+EV|V16|b0119.s3+b0120.s3|ts|co|na|do
+EV|V18|b0127.s6|ts|co|na|do
+EV|V19|b0227.s1|bg|bgr|aff|ebr
+EV|V20|b0227.s2|bg|bgr|pre|unc
+EV|V21|b0295.s1+b0295.s2|ts|res|aff|cmp
+EV|V22|b0341.s1|bg|bgr|hyp|ho
+EV|V23|b0341.s3+b0345.s1|bg|int|q|unc
+EV|V24|b0344.s3|bg|neg|neg|ebr
+EV|V25|b0344.s2|bg|bgr|aff|ebr,mi
+EV|V26|b0343.s1|ts|co|na|do
+EV|V27|b0352.s2|bg|bgr|pre|unc
+EV|V28|b0356.s2|bg|bgr|aff|ebr
+EV|V29|b0359.s1|bg|bgr|aff|ebr
+EV|V30|b0359.s1|ts|co|na|do
+EV|V31|b0363.s1|bg|bgr|aff|ebr
+EV|V32|b0363.s2+b0369.s1|bg|bgr|aff|ebr
+EV|V33|b0366.s1|bg|bgr|aff|ebr
+EV|V34|b0368.s1|ts|res|aff|eda
+EV|V35|b0365.s3+b0366.s2|ts|co|na|do
+EV|V36|b0375.s3|ts|co|na|do
+EV|V37|b0376.s1+b0376.s3|bg|bgr|pre|unc
+EV|V38|b0400.s1|bg|bgr|aff|ebr
+EV|V39|b0401.s1|bg|bgr|aff|ebr
+EV|V40|b0397.s2|bg|bgr|pre|unc
+EV|V41|b0407.s2|bg|neg|neg|rr
+EV|V42|b0407.s3|bg|res|aff|cmp
+EV|V43|b0407.s4|bg|res|hyp|unc
+EV|V44|b0407.s2+b0408.s1|bg|int|q|unc
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G2|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G3|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G4|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G5|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G6|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G7|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G8|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G9|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G10|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G11|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G12|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G13|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G14|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G15|D1|sup|a|ts|sup:a:ts:V1|||Upregulated in MM vs healthy donor platelets
+P|G16|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in MM vs healthy donor platelets
+P|G17|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in MM vs healthy donor platelets
+P|G18|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in MM vs healthy donor platelets
+P|G19|D1|sup|a|ts|sup:a:ts:V1|||Downregulated in MM vs healthy donor platelets
+P|G20|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G21|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G22|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G23|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G24|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G25|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G26|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G27|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G28|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G29|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G30|D1|sup|r|ts|sup:r:ts:V2|||Expression correlated with MM survival, HR>1.5
+P|G33|D4|unc|-|bg|unc:-:bg:V4|presupposed_only||Key ALLTogether gene; no explicit ALL relation
+P|G34|D4|unc|-|bg|unc:-:bg:V4|presupposed_only|V5|Key gene; cohort deletions descriptive only
+P|G35|D4|unc|-|bg|unc:-:bg:V4|presupposed_only||Key ALLTogether gene; no explicit ALL relation
+P|G36|D4|unc|-|bg|unc:-:bg:V4|presupposed_only|V5|Key gene; cohort deletions descriptive only
+P|G37|D4|unc|-|bg|unc:-:bg:V4|presupposed_only||Key ALLTogether gene; no explicit ALL relation
+P|G38|D4|unc|-|bg|unc:-:bg:V4|presupposed_only|V5|Key gene; cohort deletions descriptive only
+P|G39|D4|unc|-|bg|unc:-:bg:V4|presupposed_only||Key ALLTogether gene; no explicit ALL relation
+P|G40|D4|unc|-|bg|unc:-:bg:V4|presupposed_only||Key ALLTogether gene; no explicit ALL relation
+P|G58|D7|unc|-|ts|unc:-:ts:V7|support_basis_unresolved|V6|Frequent duplication in GBM; pathway-level link only
+P|G59|D7|unc|-|ts|unc:-:ts:V7|support_basis_unresolved|V6|Frequent duplication in GBM; pathway-level link only
+P|G60|D7|unc|-|ts|unc:-:ts:V7|support_basis_unresolved|V6|Deletion in GBM; pathway-level link only
+P|G61|D7|unc|-|ts|unc:-:ts:V7|support_basis_unresolved|V6|Deletion in GBM; pathway-level link only
+P|G62|D7|unc|-|ts|unc:-:ts:V7|support_basis_unresolved|V6|Deletion in GBM; pathway-level link only
+P|G63|D7|unc|-|ts|unc:-:ts:V7|support_basis_unresolved|V6|Deletion in GBM; pathway-level link only
+P|G65|D8|unc|-|ts|unc:-:ts:V8;neg:-:ts:V9;unc:-:ts:V10|scope,hedged_claim||Cell-subset frequency; survival null; role hedged
+P|G64|D8|unc|-|ts|unc:-:ts:V8|scope||Only CD39+CD73+CD4+ cell frequency higher
+P|G71|D12|unc|-|ts|unc:-:ts:V11+V12|scope,hedged_claim||CD20+ T-cell changes; involvement only suggested
+P|G71|D11|unc|-|ts|unc:-:ts:V11+V12|scope,hedged_claim||CD20+ T-cell changes; involvement only suggested
+P|G71|D14|unc|-|bg|unc:-:bg:V13|scope,hedged_claim||CD20+ T cells appear involved
+P|G76|D16|sup|a|ts|sup:a:ts:V14|||Subtype defined by KMT2A rearrangement
+P|G78|D17|sup|a|ts|sup:a:ts:V15|||ETV6::MECOM reclassified case per WHO2022
+P|G77|D17|unc|-|ts|unc:-:ts:V15|scope||Fusion partner; classification named by MECOM
+P|G78|D15|nf|-||||V15|Relation stated for subtype only
+P|G79|D16|nf|-||||V16|Fusion partner detected, no attribution
+P|G80|D18|nf|-||||V16|Fusion detected in one case only
+P|G81|D18|nf|-||||V16|Fusion detected in one case only
+P|G86|D20|nf|-||||V18|ctDNA mutations detected, no attribution
+P|G87|D20|nf|-||||V18|ctDNA mutations detected, no attribution
+P|G91|D22|sup|a|bg|sup:a:bg:V19|||Overexpressed in over 80% of prostate cancers
+P|G91|D23|unc|-|bg|unc:-:bg:V20|presupposed_only||PSMA-targeted therapy approval presupposes relation
+P|G93|D25|nf|-||||V21|Dual-stain result not assignable to member
+P|G94|D25|nf|-||||V21|Dual-stain result not assignable to member
+P|G95|D27|neg|-|bg|unc:-:bg:V22+V23;neg:-:bg:V24|||V26|Meta-analysis found no ASD association
+P|G95|D26|unc|-|bg|unc:-:bg:V22+V23|hedged_claim,conflict||Candidate gene only; controversial literature
+P|G95|D28|unc|-|bg|unc:-:bg:V22+V23|hedged_claim,conflict||Candidate gene only; controversial literature
+P|G95|D29|unc|-|bg|unc:-:bg:V22+V23|hedged_claim,conflict||Candidate gene only; controversial literature
+P|G95|D30|unc|-|bg|unc:-:bg:V22+V23|hedged_claim,conflict||Candidate gene only; controversial literature
+P|G95|D31|unc|-|bg|unc:-:bg:V22+V23|hedged_claim,conflict||Candidate gene only; controversial literature
+P|G96|D35|sup|a|bg|sup:a:bg:V25|||Heterozygous mice show increased ischemic brain damage
+P|G97|D36|unc|-|bg|unc:-:bg:V27|presupposed_only||Marker rationale presupposes EGFR amplification
+P|G98|D36|unc|-|bg|unc:-:bg:V27|presupposed_only||Marker rationale presupposes PTEN loss
+P|G99|D38|sup|a|bg|sup:a:bg:V28+V29||V30|Reported deletion-associated phenotype
+P|G99|D39|sup|a|bg|sup:a:bg:V28+V29|||Reported deletion-associated phenotype
+P|G99|D40|sup|a|bg|sup:a:bg:V28|||Reported deletion-associated phenotype
+P|G99|D41|sup|a|bg|sup:a:bg:V28|||Reported deletion-associated phenotype
+P|G99|D42|sup|a|bg|sup:a:bg:V29|||Exonic deletions identified in DD patients
+P|G100|D43|sup|c|bg|sup:c:bg:V31+V33;sup:a:ts:V34|||Background cause; case diagnosed with variant
+P|G101|D43|sup|c|bg|sup:c:bg:V31|||HBOC usually caused by BRCA2 variants
+P|G102|D45|sup|c|bg|sup:c:bg:V33|||Germline TP53 variants responsible for LFS
+P|G100|D44|sup|a|bg|sup:a:bg:V32||V35|Carriers have increased ovarian tumor risk
+P|G101|D44|sup|a|bg|sup:a:bg:V32|||Carriers have increased ovarian tumor risk
+P|G102|D44|nf|-||||V35|Tumor variant detected, no attribution
+P|G103|D46|unc|-|bg|unc:-:bg:V37|presupposed_only|V36|JAK2 mutation presupposed in ET context
+P|G106|D49|sup|c|bg|sup:c:bg:V38+V39;sup:r:bg:V38|||Review: promotes HCC progression, correlates with stage
+P|G110|D49|unc|-|bg|unc:-:bg:V40|presupposed_only||AFP diagnostic use presupposes relation
+P|G111|D52|neg|-|bg|neg:-:bg:V41;unc:-:bg:V43|||rs16910526 null; rs16910527 protection hedged
+P|G111|D53|neg|-|bg|neg:-:bg:V41|||rs16910526 no effect on PJP
+P|G111|D54|neg|-|bg|neg:-:bg:V41|||rs16910526 no effect on cryptococcosis
+P|G111|D55|unc|-|bg|sup:a:bg:V42;unc:-:bg:V44|conflict||Single-study risk; authors note inconsistency
+P|G111|D50|unc|-|bg|unc:-:bg:V44|conflict||Inconsistent, scarce evidence across studies
+F|F1|group_comparison|platelet gene expression; MM status|MM patients vs healthy donors|significant|mixed|partial|V1|public dataset; 22 MM cases
+F|F2|correlation|TEP signature genes vs survival|559 MM patients|significant|unknown|partial|V2|
+F|F3|descriptive|deletion frequencies of key genes|103 ALL samples|not_applicable|not_applicable|not_reported|V5|
+F|F4|descriptive|EGFR/MET duplications; suppressor deletions|35 GBM samples|not_applicable|not_applicable|not_reported|V6|
+F|F5|group_comparison|CD73+/CD39+CD73+ T-cell frequency|BC patients vs controls|significant|positive|available|V8|cell subsets, not gene status
+F|F6|association|CD73+ GD frequency vs survival|BC patients|not_significant|null|not_reported|V9|
+F|F7|group_comparison|CD20+ T-cell frequency|MBL, CLL vs controls|unknown|negative|not_reported|V11|
+F|F8|mechanism|PARP1, XRCC6 expression after Zn combination|AML cell lines|significant|positive|partial|b0150.s8 not cited as EV|
+F|F9|association|CINtec positivity vs HPV, cytology lesion|201 screening cases|significant|positive|partial|V21|joint dual stain
+F|F10|descriptive|IMMP2L partial deletions|over 4000 NDD patients|not_applicable|not_applicable|not_applicable|V26|pooled indications
+F|F11|descriptive|NRXN1 intragenic deletions|33 probands|not_applicable|not_applicable|not_applicable|V30|
+F|F12|correlation|SNHG1 vs tumor size, stage, survival|HCC patients (literature)|significant|positive|not_reported|V38|review summary
+C|C1|rs16910526 effect on Pneumocystis outcomes|b0407.s2+b0407.s3|undetermined|unresolved|null for PJP vs risk for infection
+R|slash gene notation|b0014.s2; b0022.s4|PARP1/2, CHK1/2, CDKN2A/B: second gene not written verbatim|Entity created only for verbatim first member
+R|multi-study scope|whole file|Many units have no gene mentions|Units without genes omitted from UNIT/E records

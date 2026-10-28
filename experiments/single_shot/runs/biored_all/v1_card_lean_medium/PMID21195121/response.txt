@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|ambiguous_gene|NOS|NO syntheses;NOS|p|ambiguous_mapping,species_unresolved,suspected_typo||||
+E|D1|disease|convulsions|convulsions;convulsion|r||||
+E|D2|disease|epilepsy|epilepsy;epileptogenesis|r||||
+E|D3|disease|lindane-induced epilepsy|lindane-induced epilepsy|r|||D2|
+E|D4|disease|lindane seizures|lindane seizures;seizures|p|other|||
+X|GABA(A) receptors|b0002|receptor complex, not single-gene endpoint
+X|nitric oxide|b0001|small molecule, not gene
+X|L-NAME|b0002|chemical NOS inhibitor, not gene
+EV|V1|b0002.s3|bg|bgr|q|unc
+EV|V2|b0002.s6|ts|res|aff|rr,mi
+EV|V3|b0002.s7|ts|res|aff|rr,mi
+EV|V4|b0002.s8|ts|int|aff|rr
+P|G1|D1|unc|-|ts|unc:-:ts:V2|identity,scope|V1|NOS family; evidence is pharmacological inhibition only
+P|G1|D3|unc|-|ts|unc:-:ts:V3|identity,scope|V1+V4|NOS family; conclusion attributed to NO, not gene
+P|G1|D2|unc|-|bg|unc:-:bg:V1|identity,hedged_claim||contradictory role; family-level, no direction
+F|F1|group_comparison|L-NAME pretreatment vs convulsion incidence, severity|male Wistar rats, lindane 8 mg/kg|unknown|negative|not_reported|V2|abstract only; significance not stated
+F|F2|group_comparison|L-NAME vs ictal period number on EEG|male Wistar rats, lindane-treated|unknown|negative|not_reported|V3|abstract only
+R|gene family|b0002.s3|NOS is an enzyme family named via chemical inhibitor only|kept as ambiguous_gene; pairs uncertain for identity and scope

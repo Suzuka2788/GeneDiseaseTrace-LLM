@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|caveolin-1|caveolin-1|r|||human||
+E|G2|gene|caveolin-1 (mouse)|caveolin-1|p|other|non-human||
+E|G3|gene|Smad1/5/8|Smad1/5/8|p|other|human||
+E|G4|gene|ALK1/2/3/6|ALK1/2/3/6|p|other|human||
+E|D1|disease|heritable pulmonary arterial hypertension|heritable pulmonary arterial hypertension;PAH|r||||
+E|D2|disease|pulmonary hypertension|pulmonary hypertension|r||||
+X|c.474delA|b0001|variant identifier
+X|type I TGFb receptors|b0002|receptor family, not single gene
+X|Smad signaling|b0002|pathway, not single gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0002.s10|ts|hyp|hyp|ho
+EV|V3|b0001.s1|ts|int|pre|unc
+EV|V4|b0002.s7+b0002.s8|ts|res|na|rr,cmp
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2|||c.474delA identified in heritable PAH family
+P|G3|D1|unc|-|ts|unc:-:ts:V2|hedged_claim||Smad role only suggested
+P|G1|D2|unc|-|ts|unc:-:ts:V3|presupposed_only,hedged_claim||title mechanism perspective only
+F|F1|group_comparison|proliferation rate by c.474delA status|patient fibroblasts|unknown|positive|not_reported|V4|twofold increase; no statistics given
+F|F2|group_comparison|Smad1/5/8 phosphorylation by mutation status|patient fibroblasts|unknown|positive|not_reported|V4|
+F|F3|mechanism|ALK1/2/3/6 inhibition vs hyperproliferation|c.474delA fibroblasts|unknown|negative|not_reported|V4|
+F|F4|mechanism|mutant caveolin-1 caveolae formation|caveolin-1-null mouse fibroblasts|not_applicable|not_applicable|not_applicable|V4|ER retention; rescued by wild-type
+R|gene groups|b0002.s7;b0002.s9|Slash-joined family names (Smad1/5/8, ALK1/2/3/6) cannot be split verbatim|Kept as single provisional gene-group nodes; no member assignment

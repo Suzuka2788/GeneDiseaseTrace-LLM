@@ -1,0 +1,9 @@
+{
+  "input_dir": ".Input/100papers",
+  "output_dir": "outputs",
+  "cache_dir": "cache",
+  "include_references": false,
+  "pubtator_request_interval": 0.55,
+  "http_timeout": 45,
+  "max_retries": 2
+}

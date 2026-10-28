@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="958" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="250" y="30" text-anchor="end" font-weight="bold">Genes</text>
+<text x="700" y="30" font-weight="bold">Diseases / phenotypes</text>
+<text x="500" y="30" text-anchor="middle" fill="#555">edges: supported only</text>
+<line x1="270" y1="60.0" x2="680" y2="60.0" stroke="#b8860b" stroke-width="2"><title>KRIT1 — cerebral cavernous malformation (CCM) | causal | background | b0011 (Body / Introduction; chars 640-844) / b0098 (Body / Discussion; chars 1199-1396)</title></line>
+<line x1="270" y1="60.0" x2="680" y2="82.0" stroke="#1f6f8b" stroke-width="2"><title>KRIT1 — familial cerebral cavernous malformation (FCCM) | causal | both | b0011 (Body / Introduction; chars 201-315) / b0028 (Body / Result / Study population; chars 0-55) / b0070 (Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients; chars 154-441) / b0104 (Body / Conclusion; chars 372-468)</title></line>
+<line x1="270" y1="179.4" x2="680" y2="60.0" stroke="#b8860b" stroke-width="2"><title>CCM2 — cerebral cavernous malformation (CCM) | causal | background | b0011 (Body / Introduction; chars 640-844) / b0098 (Body / Discussion; chars 1199-1396)</title></line>
+<line x1="270" y1="179.4" x2="680" y2="82.0" stroke="#1f6f8b" stroke-width="2"><title>CCM2 — familial cerebral cavernous malformation (FCCM) | causal | both | b0011 (Body / Introduction; chars 201-315) / b0028 (Body / Result / Study population; chars 57-79) / b0070 (Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients; chars 838-933)</title></line>
+<line x1="270" y1="298.9" x2="680" y2="60.0" stroke="#b8860b" stroke-width="2"><title>PDCD10 — cerebral cavernous malformation (CCM) | causal | background | b0011 (Body / Introduction; chars 640-844) / b0098 (Body / Discussion; chars 1199-1396)</title></line>
+<line x1="270" y1="298.9" x2="680" y2="82.0" stroke="#1f6f8b" stroke-width="2"><title>PDCD10 — familial cerebral cavernous malformation (FCCM) | causal | both | b0011 (Body / Introduction; chars 201-315) / b0028 (Body / Result / Study population; chars 81-105) / b0070 (Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients; chars 154-441) / b0101 (Body / Discussion; chars 871-946)</title></line>
+<line x1="270" y1="418.3" x2="680" y2="82.0" stroke="#b8860b" stroke-width="2"><title>ZPLD1 — familial cerebral cavernous malformation (FCCM) | association | background | b0098 (Body / Discussion; chars 1032-1112)</title></line>
+<line x1="270" y1="537.7" x2="680" y2="104.0" stroke="#b8860b" stroke-width="2"><title>MAP3K3 — sporadic cerebral cavernous malformation | association | background | b0098 (Body / Discussion; chars 1397-1515) / b0098 (Body / Discussion; chars 1516-1655)</title></line>
+<line x1="270" y1="657.1" x2="680" y2="60.0" stroke="#b8860b" stroke-width="2" stroke-dasharray="6 4"><title>Krit1 (animal model) — cerebral cavernous malformation (CCM) | causal | background | b0099 (Body / Discussion; chars 280-486)</title></line>
+<line x1="270" y1="776.6" x2="680" y2="60.0" stroke="#b8860b" stroke-width="2" stroke-dasharray="6 4"><title>Ccm2 (animal model) — cerebral cavernous malformation (CCM) | causal | background | b0099 (Body / Discussion; chars 280-486)</title></line>
+<line x1="270" y1="896.0" x2="680" y2="60.0" stroke="#b8860b" stroke-width="2" stroke-dasharray="6 4"><title>Pdcd10 (animal model) — cerebral cavernous malformation (CCM) | causal | background | b0099 (Body / Discussion; chars 280-486)</title></line>
+<circle cx="270" cy="60.0" r="6" fill="#1f6f8b"/><text x="258" y="64.0" text-anchor="end">G01  KRIT1</text>
+<circle cx="270" cy="179.4" r="6" fill="#1f6f8b"/><text x="258" y="183.4" text-anchor="end">G02  CCM2</text>
+<circle cx="270" cy="298.9" r="6" fill="#1f6f8b"/><text x="258" y="302.9" text-anchor="end">G03  PDCD10</text>
+<circle cx="270" cy="418.3" r="6" fill="#1f6f8b"/><text x="258" y="422.3" text-anchor="end">G04  ZPLD1</text>
+<circle cx="270" cy="537.7" r="6" fill="#1f6f8b"/><text x="258" y="541.7" text-anchor="end">G05  MAP3K3</text>
+<circle cx="270" cy="657.1" r="6" fill="#1f6f8b"/><text x="258" y="661.1" text-anchor="end">G06  Krit1 (animal model)</text>
+<circle cx="270" cy="776.6" r="6" fill="#1f6f8b"/><text x="258" y="780.6" text-anchor="end">G07  Ccm2 (animal model)</text>
+<circle cx="270" cy="896.0" r="6" fill="#1f6f8b"/><text x="258" y="900.0" text-anchor="end">G08  Pdcd10 (animal model)</text>
+<rect x="674" y="54.0" width="12" height="12" fill="#8b3a62"/><text x="694" y="64.0">D01  cerebral cavernous malformation (CCM)</text>
+<rect x="674" y="76.0" width="12" height="12" fill="#8b3a62"/><text x="694" y="86.0">D02  familial cerebral cavernous malformation (FCCM)</text>
+<rect x="674" y="98.0" width="12" height="12" fill="#8b3a62"/><text x="694" y="108.0">D03  sporadic cerebral cavernous malformation</text>
+<rect x="674" y="120.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="130.0">D04  cavernous malformation (CM, any site)</text>
+<rect x="674" y="142.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="152.0">D05  spinal cavernous malformation</text>
+<rect x="674" y="164.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="174.0">D06  cutaneous cavernous malformation</text>
+<rect x="674" y="186.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="196.0">D07  cavernous angioma with symptomatic hemorrhage (CASH)</text>
+<rect x="674" y="208.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="218.0">D08  intracranial vascular malformation</text>
+<rect x="674" y="230.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="240.0">D09  vascular malformation</text>
+<rect x="674" y="252.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="262.0">D10  cerebral microbleeds</text>
+<rect x="674" y="274.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="284.0">D11  small vessel disease</text>
+<rect x="674" y="296.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="306.0">D12  diffuse axonal injury</text>
+<rect x="674" y="318.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="328.0">D13  intracerebral hemorrhage</text>
+<rect x="674" y="340.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="350.0">D14  developmental venous anomaly</text>
+<rect x="674" y="362.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="372.0">D15  tumor (unspecified)</text>
+<rect x="674" y="384.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="394.0">D16  breast cancer</text>
+<rect x="674" y="406.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="416.0">D17  thyroid cancer</text>
+<rect x="674" y="428.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="438.0">D18  diffuse midline glioma</text>
+<rect x="674" y="450.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="460.0">D19  adrenal adenoma</text>
+<rect x="674" y="472.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="482.0">D20  anterior cerebral artery (ACA) infarction</text>
+<rect x="674" y="494.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="504.0">D21  seizure</text>
+<rect x="674" y="516.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="526.0">D22  focal impaired awareness seizure (FIAS)</text>
+<rect x="674" y="538.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="548.0">D23  focal to bilateral tonic-clonic seizure (FBTCS)</text>
+<rect x="674" y="560.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="570.0">D24  emotional seizure</text>
+<rect x="674" y="582.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="592.0">D25  occipital lobe epilepsy (OLE)</text>
+<rect x="674" y="604.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="614.0">D26  PLE (undefined abbreviation)</text>
+<rect x="674" y="626.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="636.0">D27  headache</text>
+<rect x="674" y="648.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="658.0">D28  neck pain</text>
+<rect x="674" y="670.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="680.0">D29  dizziness</text>
+<rect x="674" y="692.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="702.0">D30  weakness</text>
+<rect x="674" y="714.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="724.0">D31  dysarthria</text>
+<rect x="674" y="736.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="746.0">D32  facial palsy</text>
+<rect x="674" y="758.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="768.0">D33  diplopia</text>
+<rect x="674" y="780.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="790.0">D34  visual symptoms</text>
+<rect x="674" y="802.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="812.0">D35  visual disturbance</text>
+<rect x="674" y="824.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="834.0">D36  central vertigo</text>
+<rect x="674" y="846.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="856.0">D37  drowsy mentality</text>
+<rect x="674" y="868.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="878.0">D38  decreased mentality</text>
+<rect x="674" y="890.0" width="12" height="12" fill="#e3cfd9"/><text x="694" y="900.0">D39  neurological sequelae</text>
+<text x="20" y="940" fill="#555">Line colour: blue = background + this study, amber = background only; dashed = animal-model gene. Pale nodes have no supported edge.</text></svg>

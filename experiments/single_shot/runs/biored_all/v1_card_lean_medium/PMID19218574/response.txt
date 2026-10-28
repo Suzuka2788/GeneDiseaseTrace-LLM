@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PIK3R1 (PI3-kinase p85alpha regulatory subunit)|p85alpha;PI3-kinase|p|ambiguous_mapping|human||
+E|G2|gene|insulin|insulin|p|other|human||
+E|D1|disease|polycystic ovary syndrome|polycystic ovary syndrome;PCOS|r||||
+E|S1|phenotype|insulin resistance|Insulin resistance|r||||
+X|Phosphatidylinositol (PI) 3-kinase|b0002|enzyme complex, not a single-gene endpoint
+X|Met326Ile|b0002|variant identifier
+X|17-hydroxyprogesterone|b0002|hormone, not a gene
+EV|V1|b0002.s4+b0002.s6|ts|neg|neg|cmp,rr
+EV|V2|b0002.s9|ts|int|neg|ho
+EV|V3|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V4|b0002.s1+b0002.s2|bg|co|na|do
+P|G1|D1|neg|-|ts|neg:-:ts:V1+V2||V3|Met326Ile genotype distribution same in cases and controls
+F|F1|group_comparison|Met326Ile genotype vs PCOS status|256 PCOS vs 283 controls|not_significant|null|available|V1|abstract only
+F|F2|group_comparison|Met326Ile genotype vs 17-OHP, free testosterone|PCOS patients by 326Ile carriage|significant|mixed|available|V3|within-disease; Met326Met higher levels
+R|co-reference|b0002.s9|"PI3-kinase gene" names the enzyme but refers to the p85alpha variant|Merged into G1 via Met326Ile path; enzyme mention excluded
+R|insulin gene|b0002.s1|Insulin appears as a hormone in signalling context; it is not a variant locus|Kept as provisional gene; no pairs

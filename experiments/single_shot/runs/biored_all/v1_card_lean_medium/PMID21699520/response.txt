@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PTCH1|PTCH1|r||human||
+E|G2|gene|PTCH2|PTCH2|r||human||
+E|D1|disease|basal cell carcinoma|basal cell carcinomas;Basal cell carcinomas;BCCs;BCC|r||||
+E|D2|disease|sporadic basal cell carcinoma|sporadic BCC|r|||D1|
+E|D3|disease|inherited basal cell carcinoma|inherited BCCs|r|||D1|
+E|D4|disease|Gorlin syndrome|Gorlin syndrome|r||||
+E|D5|disease|cancer|cancer|r||||
+X|D9S180|b0001|microsatellite marker, not gene
+X|IVS9 + 217T|b0002|intronic variant identifier
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|q|unc
+EV|V3|b0002.s8|ts|res|na|do
+EV|V4|b0002.s9|ts|res|na|do
+EV|V5|b0002.s11|ts|int|hyp|ho
+EV|V6|b0002.s7|ts|res|na|do
+EV|V7|b0002.s10|ts|res|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V5|hedged_claim|V3+V4|Background association; own conclusion hedged
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||V3|Background statement names sporadic BCCs
+P|G1|D3|sup|a|bg|sup:a:bg:V1||||Background statement names inherited BCCs
+P|G1|D4|nf|-|||||V4|Variant detected in patient; no attribution
+P|G2|D1|unc|-|bg|unc:-:bg:V2|hedged_claim||Role explicitly stated uncertain
+F|F1|descriptive|LOH at D9S180 near PTCH genes|two sporadic, one inherited BCC|unknown|not_applicable|not_reported|V6|Abstract only
+F|F2|descriptive|PTCH1 exon 17 mutations|one sporadic BCC; one Gorlin patient|not_applicable|not_applicable|not_applicable|V3+V4|
+F|F3|descriptive|PTCH1 IVS9+217T|all control and tumor samples|not_applicable|not_applicable|not_applicable|V7|

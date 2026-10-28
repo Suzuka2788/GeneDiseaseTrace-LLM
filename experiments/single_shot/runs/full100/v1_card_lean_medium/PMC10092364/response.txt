@@ -1,0 +1,79 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables and captions; supplementary tables and figure unread
+E|G1|gene|COL3A1|COL3A1|r||human||
+E|G2|gene|COL5A1|COL5A1|r||human||
+E|G3|gene|TGFBR1|TGFBR1|r||human||
+E|G4|gene|TGFBR2|TGFBR2|r||human||
+E|G5|gene|FBN1|FBN1|r||human||
+E|D1|disease|hereditary connective tissue disorder|hereditary connective tissue disorder;hereditary connective tissue disorders;HCTD;HCTDs|r||||
+E|D2|disease|Ehlers-Danlos syndromes|Ehlers-Danlos syndromes;EDS;EDSs|r|||D1|
+E|D3|disease|vascular Ehlers-Danlos syndrome|Vascular Ehlers-Danlos syndrome;vascular Ehlers-Danlos syndrome;vEDS|r|||D2|
+E|D4|disease|classical EDS|classical EDS;cEDS|r|||D2|
+E|D5|disease|Loeys-Dietz syndrome|Loeys-Dietz syndrome;LDS|r||||
+E|D6|disease|Marfan syndrome|Marfan syndrome;MFS|r||||
+E|D7|disease|familial thoracic aortic aneurysm and dissection|familial thoracic aortic aneurysm and dissection;FTAAD|r||||
+E|D8|disease|osteogenesis imperfecta|osteogenesis imperfecta|r||||
+E|D9|disease|congenital hearing loss|congenital hearing loss|r||||
+E|D10|disease|diverticular disease|diverticular disease|r||||
+E|D11|disease|hypoxic ischemic encephalopathy|hypoxic ischemic encephalopathy|r||||
+E|D12|disease|keratoconus|keratoconus;Keratoconus|r||||
+E|D13|disease|cryptorchidism|cryptorchidism|r||||
+E|D14|disease|talipes equinovarus|talipes equinovarus;Talipes equinovarus|r||||
+E|D15|disease|congenital hip dislocation|Congenital hip dislocation|r||||
+E|D16|disease|pulmonary valve stenosis|pulmonary valve stenosis|r||||
+E|D17|disease|aortic aneurysm|aortic aneurysm;Aortic aneurysm|r||||
+E|D18|disease|aortic disease|aortic disease|r||||
+E|D19|disease|subarachnoid hemorrhage|subarachnoid hemorrhage|r||||
+E|D20|disease|subclavian artery aneurysm|subclavian artery aneurysm|r||||
+E|D21|disease|cancer|cancer|r||||
+E|D22|disease|early onset varicose veins|Early onset varicose veins|r||||
+E|CE1|clinical_event|carotid-cavernous sinus fistula|carotid-cavernous sinus fistula;Carotid-cavernous sinus fistula|r||||
+E|CE2|clinical_event|aortic dissection|aortic dissection;Aortic dissection|r||||
+E|CE3|clinical_event|arterial rupture|arterial rupture;Arterial rupture|r||||
+E|CE4|clinical_event|uterine rupture|uterine rupture;Uterine rupture|r||||
+E|CE5|clinical_event|sigmoid colon perforation|sigmoid colon perforation;Sigmoid colon perforation|r||||
+E|CE6|clinical_event|spontaneous pneumothorax|spontaneous pneumothorax;Spontaneous pneumothorax|r||||
+E|S1|symptom|easy bruising|easy bruising|r||||
+E|S2|phenotype|joint hypermobility|joint hypermobility|r||||
+X|Uracil DNA Glycosylase (UDG)|b0020|laboratory reagent enzyme, not a studied gene
+X|NM_000090.3|b0014|reference transcript identifier
+X|OMIM#130030|b0004|database identifier
+X|SALSA MLPA Kit P155-D2|b0018|assay kit name
+EV|V1|b0004.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0004.s6|bg|bgr|aff|ebr
+EV|V3|b0002.s4+b0031.s2|ts|res|aff|rr,eda
+EV|V4|b0132.s5+b0132.s7+b0144.s3+b0151.s1|ts|res|aff|eda
+EV|V5|b0005.s2+b0005.s4|bg|bgr|aff|ebr
+EV|V6|b0005.s3|bg|bgr|aff|ebr
+EV|V7|b0031.s2+b0147.s4|ts|res|aff|eda
+EV|V8|b0147.s7|bg|bgr|aff|ebr
+EV|V9|b0031.s2+b0147.s3|ts|res|q|unc
+EV|V10|b0031.s3+b0147.s2|ts|co|na|do
+EV|V11|b0148.s10|bg|res|aff|cmp
+EV|V12|b0148.s4|bg|res|aff|cmp
+P|G1|D3|sup|c|bg|sup:c:bg:V1;sup:a:bg:V2+V5+V6;sup:a:ts:V3+V4|||Background causal statement; cohort genetic diagnoses
+P|G1|D4|nf|-||||V5+V6|Suspected cEDS patients reclassified as vEDS
+P|G1|D5|nf|-||||V10|Clinical LDS label; patient rediagnosed vEDS
+P|G1|D7|nf|-||||V10|Clinical FTAAD label; patients rediagnosed vEDS
+P|G1|D18|nf|-||||V11|Within-vEDS genotype comparison only
+P|G2|D4|sup|a|both|sup:a:bg:V6;sup:a:ts:V7|||COL5A1 variants define cEDS diagnosis
+P|G2|D2|sup|a|bg|sup:a:bg:V8|||Reported COL5A1 variants in EDS patients
+P|G2|D3|nf|-||||V6+V8|Suspected vEDS reclassified as cEDS
+P|G3|D5|unc|-|||scope,identity||V9|Grouped LDS-or-MFS label; VUS; unmapped
+P|G3|D6|unc|-|||scope,identity||V9|Grouped LDS-or-MFS label; VUS; unmapped
+P|G4|D5|unc|-|||scope,identity||V9|Grouped LDS-or-MFS label; VUS; unmapped
+P|G4|D6|unc|-|||scope,identity||V9|Grouped LDS-or-MFS label; VUS; unmapped
+P|G5|D5|unc|-|||scope,identity||V9|Grouped LDS-or-MFS label; not mapped per gene
+P|G5|D6|unc|-|||scope,identity||V9|Grouped LDS-or-MFS label; not mapped per gene
+F|F1|descriptive|COL3A1 variant detection rate|101 suspected vEDS patients|not_applicable|not_applicable|available|V3|recruitment not systematic
+F|F2|descriptive|COL3A1 variant type distribution|35 index patients|not_applicable|not_applicable|available|V3|
+F|F3|group_comparison|haploinsufficiency vs Gly substitution, survival|vEDS patients (Pepin 2014)|significant|positive|not_reported|V12|background; within-disease
+F|F4|group_comparison|haploinsufficiency vs dominant-negative, aortic disease|vEDS patients (Shalhub 2014)|significant|positive|not_reported|V11|background; within-disease
+F|F5|descriptive|type III collagen production|COL3A1 variant carriers|unknown|negative|partial|V4|subset of patients measured
+C|C1|Patient 6 protein change notation|b0058.s1+b0138.s5+b0148.s8|noncritical|unresolved|Gln200* in table vs Glu200* in text
+C|C2|Patient 20 variant notation|b0072.s1+b0113.s1|noncritical|unresolved|1556_1557delinsTT vs 1556G>T
+C|C3|Detection rate percentage|b0002.s4+b0031.s2|noncritical|unresolved|33/101 is 32.7%, not 32.4%
+U|Table S1|b0013.s3|supplementary file not provided
+U|Table S2|b0148.s7|supplementary file not provided
+U|Table S3|b0140.s4+b0149.s1|supplementary file not provided
+U|Figure S1|b0140.s6+b0144.s4|supplementary file not provided

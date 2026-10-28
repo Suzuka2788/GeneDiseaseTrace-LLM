@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FMR1|FMR1|r||human||
+E|D1|disease|fragile X syndrome|Fragile X syndrome;fragile X syndrome|r||||
+E|D2|disease|mental retardation|mental retardation;mentally retarded|r||||
+E|D3|disease|autism|autism;autistic|r||||
+EV|V1|b0002.s1+b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s4|ts|res|na|do
+EV|V3|b0002.s5+b0002.s6+b0002.s7|ts|res|na|rr,do
+EV|V4|b0002.s8|ts|int|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||Background: FMR1 repeat expansion causes fragile X
+P|G1|D2|unc|-|ts|unc:-:ts:V4|hedged_claim,scope|V2+V3|Only hedged "may be a cause"; patient diagnosis unspecified
+P|G1|D3|unc|-|ts|unc:-:ts:V4|hedged_claim,scope|V2+V3|Only hedged "may be a cause"; patient diagnosis unspecified
+F|F1|descriptive|FMR1 exon mutations by SSCP|76 male autistic/MR patients|not_applicable|null|not_applicable|V2|Screening only; no comparator
+F|F2|descriptive|FMR1 exon 9 A>C substitution|one female patient; 50 controls|not_applicable|not_applicable|not_applicable|V3|Single case; diagnosis not specified
+F|F3|mechanism|aberrant splicing of mutant transcripts|female mutation carrier|not_applicable|not_applicable|not_reported|V3|RT-PCR; no disease link tested

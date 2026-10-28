@@ -1,0 +1,25 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GUCA1A|GUCA1A|r||human||
+E|G2|gene|GUCA1B|GUCA1B;GCAP2|p|other|human||
+E|D1|disease|autosomal dominant cone dystrophy|autosomal dominantly inherited cone dystrophy|r|||D2|
+E|D2|disease|cone dystrophy|cone dystrophy|r||||
+E|D3|disease|cone rod dystrophy|cone rod dystrophy|r||||
+E|D4|disease|macular dystrophy|macular dystrophy|r||||
+E|D5|disease|inherited retinal disease|inherited retinal disease|r||||
+E|D6|disease|retinal degenerations|retinal degenerations|r||||
+X|c.465G>T|b0002|variant identifier
+X|p.Glu155Asp|b0002|variant identifier
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|q|unc
+EV|V3|b0002.s4+b0002.s6+b0002.s8+b0002.s9|ts|neg|neg|rr
+EV|V4|b0002.s9|ts|int|pre|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1||||Background: heterozygous GUCA1A mutations cause AD cone dystrophy
+P|G1|D3|sup|c|bg|sup:c:bg:V1||||Background: GUCA1A mutations cause cone rod dystrophy
+P|G1|D4|sup|c|bg|sup:c:bg:V1||||Background: GUCA1A mutations cause macular dystrophy
+P|G2|D1|neg|-|ts|neg:a:ts:V3||||No pathogenic mutations in European/North-American AD patients
+P|G2|D3|neg|-|ts|neg:a:ts:V3||||No pathogenic mutations in AD cone rod dystrophy patients
+P|G2|D5|unc|-|bg|unc:a:bg:V2|conflict|||Role described as controversial
+P|G2|D6|unc|-|ts|unc:a:ts:V4|hedged_claim,presupposed_only|||Suggests minor cause; hedged, presupposed
+F|F1|descriptive|GUCA1B sequence variants|24 AD cone/cone rod dystrophy patients|not_applicable|null|not_applicable|V3|variants previously seen in healthy subjects
+R|merging|b0002.s7|GCAP2 linked to GUCA1B only by variant encoding statement|merged as co-reference, provisional with other issue

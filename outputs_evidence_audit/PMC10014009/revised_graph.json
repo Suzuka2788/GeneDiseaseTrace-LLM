@@ -1,0 +1,1101 @@
+{
+  "paper_id": "PMC10014009",
+  "nodes": [
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G01",
+      "entity_type": "gene",
+      "canonical_name": "KRIT1",
+      "original_names": [
+        "KRIT1",
+        "KRTI1"
+      ],
+      "species": "Homo sapiens",
+      "location": [
+        "b0003",
+        "b0005",
+        "b0007",
+        "b0011",
+        "b0014",
+        "b0019",
+        "b0028",
+        "b0031",
+        "b0070",
+        "b0073",
+        "b0094",
+        "b0095",
+        "b0098",
+        "b0100",
+        "b0101",
+        "b0104"
+      ],
+      "ambiguity": "KRTI1 是原文拼写，按同一三基因检测面板上下文判为 KRIT1 的疑似排字错误，不作独立基因。",
+      "merge_basis": "b0003、b0014、b0019 的检测面板均为 KRIT1/CCM2/PDCD10；仅 b0005 写 KRTI1。b0100 的 KRIT1 protein 是同一基因产物，角色另记。",
+      "entity_subtype": "gene_with_product_mentions",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [
+        "NG_012964.1",
+        "NC_000007.14"
+      ],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G02",
+      "entity_type": "gene",
+      "canonical_name": "CCM2",
+      "original_names": [
+        "CCM2"
+      ],
+      "species": "Homo sapiens",
+      "location": [
+        "b0003",
+        "b0005",
+        "b0011",
+        "b0014",
+        "b0019",
+        "b0028",
+        "b0031",
+        "b0070",
+        "b0084",
+        "b0094",
+        "b0095",
+        "b0098",
+        "b0100",
+        "b0101",
+        "b0104"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "gene",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [
+        "NG_016295.1",
+        "NC_000007.14"
+      ],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G03",
+      "entity_type": "gene",
+      "canonical_name": "PDCD10",
+      "original_names": [
+        "PDCD10"
+      ],
+      "species": "Homo sapiens",
+      "location": [
+        "b0003",
+        "b0005",
+        "b0007",
+        "b0011",
+        "b0014",
+        "b0019",
+        "b0028",
+        "b0031",
+        "b0070",
+        "b0087",
+        "b0094",
+        "b0095",
+        "b0098",
+        "b0100",
+        "b0101",
+        "b0104"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "gene",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [
+        "NG_008158.1",
+        "NC_000003.12"
+      ],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G04",
+      "entity_type": "gene",
+      "canonical_name": "ZPLD1",
+      "original_names": [
+        "ZPLD1"
+      ],
+      "species": "人类患者语境；原句未另标物种",
+      "location": [
+        "b0098"
+      ],
+      "ambiguity": "只有讨论中转述他人提出的关联，本研究未测定此基因。",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "gene",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G05",
+      "entity_type": "gene",
+      "canonical_name": "MAP3K3",
+      "original_names": [
+        "MAP3K3",
+        "MEKK3"
+      ],
+      "species": "人类散发 CCM 患者语境",
+      "location": [
+        "b0098"
+      ],
+      "ambiguity": "MEKK3 为蛋白产物名称，不是另一个已明确出现的基因。",
+      "merge_basis": "b0098 明写 MAP3K3, encoding MEKK3；并入同一基因产物节点，mentions.csv 保留 gene/protein 角色。",
+      "entity_subtype": "gene_with_product_mentions",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G06",
+      "entity_type": "gene",
+      "canonical_name": "Krit1",
+      "original_names": [
+        "Krit1"
+      ],
+      "species": "动物模型；所给原文未指明具体物种",
+      "location": [
+        "b0099"
+      ],
+      "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+      "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+      "entity_subtype": "gene",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G07",
+      "entity_type": "gene",
+      "canonical_name": "Ccm2",
+      "original_names": [
+        "Ccm2"
+      ],
+      "species": "动物模型；所给原文未指明具体物种",
+      "location": [
+        "b0099"
+      ],
+      "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+      "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+      "entity_subtype": "gene",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "G08",
+      "entity_type": "gene",
+      "canonical_name": "Pdcd10",
+      "original_names": [
+        "Pdcd10"
+      ],
+      "species": "动物模型；所给原文未指明具体物种",
+      "location": [
+        "b0099"
+      ],
+      "ambiguity": "与对应人类基因分开保留；动物物种未解决。不能仅凭大小写推断为小鼠。",
+      "merge_basis": "b0099 明确为 CCM animal model；不同于本研究人类血样基因检测语境。",
+      "entity_subtype": "gene",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D01",
+      "entity_type": "disease",
+      "canonical_name": "cerebral cavernous malformation",
+      "original_names": [
+        "Cerebral cavernous malformation",
+        "cerebral cavernous malformation",
+        "CCM",
+        "CCMs",
+        "cerebral cavernous malformations",
+        "CMM"
+      ],
+      "species": "人类；动物模型另有语境",
+      "location": [
+        "b0003",
+        "b0005",
+        "b0007",
+        "b0011",
+        "b0014",
+        "b0016",
+        "b0017",
+        "b0021",
+        "b0026",
+        "b0027",
+        "b0028",
+        "b0029",
+        "b0049",
+        "b0068",
+        "b0070",
+        "b0072",
+        "b0074",
+        "b0075",
+        "b0076",
+        "b0077",
+        "b0093",
+        "b0094",
+        "b0095",
+        "b0097",
+        "b0098",
+        "b0099",
+        "b0101",
+        "b0102",
+        "b0104"
+      ],
+      "ambiguity": "CMM 仅 b0099 出现一次，按相邻治疗 CCM 语境视为疑似笔误；保留原文。",
+      "merge_basis": "b0011 和图注明确定义 CCM；CCMs 为复数。CMM 的合并为上下文判断。",
+      "entity_subtype": "疾病家族/上位疾病",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D02",
+      "entity_type": "disease",
+      "canonical_name": "familial cerebral cavernous malformation",
+      "original_names": [
+        "familial cerebral cavernous malformation",
+        "Familial cerebral cavernous malformation",
+        "Familial CCM",
+        "familial CCM",
+        "FCCM"
+      ],
+      "species": "人类",
+      "location": [
+        "b0001",
+        "b0003",
+        "b0005",
+        "b0007",
+        "b0009",
+        "b0011",
+        "b0014",
+        "b0023",
+        "b0026",
+        "b0027",
+        "b0029",
+        "b0069",
+        "b0070",
+        "b0071",
+        "b0094",
+        "b0095",
+        "b0097",
+        "b0098",
+        "b0099",
+        "b0100",
+        "b0101",
+        "b0102",
+        "b0104",
+        "b0114",
+        "b0115",
+        "b0116"
+      ],
+      "ambiguity": "",
+      "merge_basis": "b0003、b0011 显式定义 FCCM；保留为 CCM 的家族性亚型节点，不与上位 CCM 合并。",
+      "entity_subtype": "疾病亚型",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D03",
+      "entity_type": "disease",
+      "canonical_name": "sporadic cerebral cavernous malformation",
+      "original_names": [
+        "sporadic CCM",
+        "sporadic CCMs"
+      ],
+      "species": "人类",
+      "location": [
+        "b0011",
+        "b0026",
+        "b0098",
+        "b0099"
+      ],
+      "ambiguity": "",
+      "merge_basis": "b0011 明确区分 sporadic 与 familial；不向另一个亚型传播证据。",
+      "entity_subtype": "疾病亚型",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D04",
+      "entity_type": "disease",
+      "canonical_name": "spinal cavernous malformation",
+      "original_names": [
+        "spinal cavernous malformation",
+        "spinal CM",
+        "Spinal CM"
+      ],
+      "species": "人类",
+      "location": [
+        "b0016",
+        "b0047",
+        "b0070",
+        "b0076",
+        "b0090"
+      ],
+      "ambiguity": "",
+      "merge_basis": "b0016 定义 CM；spinal 明确限定脊髓部位。表2 Spinal 为同列的简写。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D05",
+      "entity_type": "disease",
+      "canonical_name": "cutaneous cavernous malformation",
+      "original_names": [
+        "cutaneous CM",
+        "Cutaneous CM"
+      ],
+      "species": "人类",
+      "location": [
+        "b0016",
+        "b0048",
+        "b0070",
+        "b0085"
+      ],
+      "ambiguity": "",
+      "merge_basis": "b0016 的 CM 定义及表1、表2 的 non-cerebral CM 语境。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D06",
+      "entity_type": "disease",
+      "canonical_name": "cavernous angioma with symptomatic hemorrhage",
+      "original_names": [
+        "cavernous angioma with symptomatic hemorrhage",
+        "cavernous angioma with a symptomatic hemorrhage",
+        "cavernous angiomas with the occurrence of symptomatic hemorrhage",
+        "cavernous angiomas with a symptomatic hemorrhage",
+        "CASH"
+      ],
+      "species": "人类",
+      "location": [
+        "b0016",
+        "b0021",
+        "b0028",
+        "b0043",
+        "b0044",
+        "b0045",
+        "b0064",
+        "b0070",
+        "b0072",
+        "b0075",
+        "b0078",
+        "b0080",
+        "b0085",
+        "b0086",
+        "b0088",
+        "b0093",
+        "b0094",
+        "b0097",
+        "b0100",
+        "b0101",
+        "b0115",
+        "b0116"
+      ],
+      "ambiguity": "病变伴症状性出血的复合临床事件，作为条件节点保留；不与所有 CCM 合并。",
+      "merge_basis": "b0016、b0064、b0093 明确 CASH 的展开。",
+      "entity_subtype": "疾病伴并发事件",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D07",
+      "entity_type": "disease",
+      "canonical_name": "small vessel disease",
+      "original_names": [
+        "small vessel disease"
+      ],
+      "species": "人类",
+      "location": [
+        "b0026"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D08",
+      "entity_type": "disease",
+      "canonical_name": "diffuse axonal injury",
+      "original_names": [
+        "diffuse axonal injury"
+      ],
+      "species": "人类",
+      "location": [
+        "b0026"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "损伤",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D09",
+      "entity_type": "disease",
+      "canonical_name": "intracerebral hemorrhage",
+      "original_names": [
+        "intracerebral hemorrhages"
+      ],
+      "species": "人类",
+      "location": [
+        "b0026"
+      ],
+      "ambiguity": "原文指无 CCM 病灶的多发复发脑内出血，不与 CASH 合并。",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "出血性病症",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D10",
+      "entity_type": "disease",
+      "canonical_name": "developmental venous anomaly",
+      "original_names": [
+        "developmental venous anomaly"
+      ],
+      "species": "人类",
+      "location": [
+        "b0026"
+      ],
+      "ambiguity": "本队列明确无人患此畸形；这不是基因—疾病关联阴性试验。",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D11",
+      "entity_type": "disease",
+      "canonical_name": "tumor",
+      "original_names": [
+        "tumor",
+        "tumors",
+        "Tumor",
+        "tumorous condition"
+      ],
+      "species": "人类",
+      "location": [
+        "b0016",
+        "b0050",
+        "b0070",
+        "b0072"
+      ],
+      "ambiguity": "宽泛疾病家族；表2的具体肿瘤不并入此节点。",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "疾病家族",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D12",
+      "entity_type": "disease",
+      "canonical_name": "breast cancer",
+      "original_names": [
+        "Breast cancer"
+      ],
+      "species": "人类",
+      "location": [
+        "b0074"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D13",
+      "entity_type": "disease",
+      "canonical_name": "thyroid cancer",
+      "original_names": [
+        "Thyroid cancer"
+      ],
+      "species": "人类",
+      "location": [
+        "b0075"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D14",
+      "entity_type": "disease",
+      "canonical_name": "diffuse midline glioma",
+      "original_names": [
+        "diffuse midline glioma",
+        "Diffuse midline glioma"
+      ],
+      "species": "人类",
+      "location": [
+        "b0070",
+        "b0076"
+      ],
+      "ambiguity": "",
+      "merge_basis": "正文活检与表2均指 K3，WHO grade IV 为分级，不是另一肿瘤节点。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D15",
+      "entity_type": "disease",
+      "canonical_name": "adrenal adenoma",
+      "original_names": [
+        "Adrenal adenoma"
+      ],
+      "species": "人类",
+      "location": [
+        "b0077"
+      ],
+      "ambiguity": "",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D16",
+      "entity_type": "disease",
+      "canonical_name": "left anterior cerebral artery infarction",
+      "original_names": [
+        "Left ACA infarction"
+      ],
+      "species": "人类",
+      "location": [
+        "b0077"
+      ],
+      "ambiguity": "",
+      "merge_basis": "b0093 明确 ACA 为 anterior cerebral artery；不推断具体梗死病因。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D17",
+      "entity_type": "disease",
+      "canonical_name": "occipital lobe epilepsy",
+      "original_names": [
+        "occipital lobe epilepsy",
+        "OLE"
+      ],
+      "species": "人类",
+      "location": [
+        "b0082",
+        "b0093"
+      ],
+      "ambiguity": "",
+      "merge_basis": "表2脚注明确定义 OLE。",
+      "entity_subtype": "",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D18",
+      "entity_type": "ambiguous",
+      "canonical_name": "PLE",
+      "original_names": [
+        "PLE"
+      ],
+      "species": "人类",
+      "location": [
+        "b0076"
+      ],
+      "ambiguity": "表2 K3 临床表现出现 PLE，正文及脚注未定义，不能按常识补为某种癫痫。",
+      "merge_basis": "原文名称；未进行数据库映射。",
+      "entity_subtype": "未解决的疾病/诊断缩写候选",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D19",
+      "entity_type": "disease",
+      "canonical_name": "cavernous malformation",
+      "original_names": [
+        "cavernous malformation",
+        "CM"
+      ],
+      "species": "人类",
+      "location": [
+        "b0016",
+        "b0064",
+        "b0070",
+        "b0072",
+        "b0093"
+      ],
+      "ambiguity": "一般 CM 上位名称；不自动合并为脑 CCM 或脊髓/皮肤亚型。",
+      "merge_basis": "b0064、b0093 定义 CM；限定部位的名称分别入 D01/D04/D05。",
+      "entity_subtype": "疾病家族",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D20",
+      "entity_type": "disease",
+      "canonical_name": "vascular malformation",
+      "original_names": [
+        "vascular malformation"
+      ],
+      "species": "人类；机制描述",
+      "location": [
+        "b0011",
+        "b0100"
+      ],
+      "ambiguity": "机制背景指代尚需审慎；与颅内子类D21分开。",
+      "merge_basis": "宽泛类别；不把 intracranial vascular malformation 当作同义词。b0011 的抑制机制语句与 b0100 属此范围。",
+      "entity_subtype": "疾病家族",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    },
+    {
+      "paper_id": "PMC10014009",
+      "entity_id": "D21",
+      "entity_type": "disease",
+      "canonical_name": "intracranial vascular malformation",
+      "original_names": [
+        "intracranial vascular malformation"
+      ],
+      "species": "人类疾病定义语境",
+      "location": [
+        "b0011"
+      ],
+      "ambiguity": "CCM的上位类别，但不是所有 vascular malformation 的同义词。",
+      "merge_basis": "b0011 的原文定义；独立于 D20，不自动继承基因边。",
+      "entity_subtype": "疾病家族/部位限定子类",
+      "database_id": "",
+      "in_primary_matrix": true,
+      "reference_sequences_from_text": [],
+      "review_state": "reviewed_with_limitations"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "R01",
+      "paper_id": "PMC10014009",
+      "gene_id": "G01",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0011",
+          "section": "Body / Introduction",
+          "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+          "start": 640,
+          "end": 844
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "正文直接针对 CCM 描述三个基因的失功能致病机制；不是把家族性亚型关系自动向上推广。",
+      "conditions": "背景机制陈述；不推及每一种散发病例或所有变异。",
+      "gene_name": "KRIT1",
+      "disease_name": "cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    },
+    {
+      "edge_id": "R02",
+      "paper_id": "PMC10014009",
+      "gene_id": "G01",
+      "disease_id": "D02",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0011",
+          "section": "Body / Introduction",
+          "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+          "start": 201,
+          "end": 315
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "因果主张直接来自背景；本研究只提供检测到变异及家系病灶等观察，不作新的因果验证。",
+      "conditions": "限原文所述致病变异，不指任意变异均致病；8例未检出不能解释为排除基因关联。",
+      "gene_name": "KRIT1",
+      "disease_name": "familial cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [
+        {
+          "location": "b0028",
+          "section": "Body / Result / Study population",
+          "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1). In Table 1, clinical characteristics and imaging findings are described according to All, KRIT1, CCM2, PDCD10, Mutation detected, and Mutation not detected groups. The mean diagnosis ages of the overall and the last brain MRI were 36.8 (standard deviation, SD 18.5) and 45.0 (SD 18.5) years old, respectively. There was a slight female predominance (male: female = 38.1:61.9). A total of 90.5% of the patients were symptomatic, and seizures were the most common manifestation. Moreover, the mean age of seizure onset was 34.5 (SD 19.5) years. CASH occurred in 52.4% of the patients overall; the mean age of CASH was 29.4 (SD 18.8) years old, and the mean number of CASH events was 1.8 (SD 1.3). Overall, 33.3% of the patients underwent surgery for CASH or enlarged symptomatic CCM lesions. A total of 42.9% of the overall patients had a family history. However, the rate was inaccurate because the family history of CCM was usually obtained by history taking. Meanwhile, the lesions were distributed over various locations. The frequencies were lower in the basal ganglia (9.5%) and thalamus (42.9%) than in the other sites.",
+          "start": 0,
+          "end": 1283
+        },
+        {
+          "location": "b0070",
+          "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients",
+          "quote": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV.",
+          "start": 0,
+          "end": 1693
+        }
+      ],
+      "review_issues": [
+        "I38"
+      ]
+    },
+    {
+      "edge_id": "R03",
+      "paper_id": "PMC10014009",
+      "gene_id": "G02",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0011",
+          "section": "Body / Introduction",
+          "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+          "start": 640,
+          "end": 844
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "正文直接针对 CCM 描述三个基因的失功能致病机制；不是把家族性亚型关系自动向上推广。",
+      "conditions": "背景机制陈述；不推及每一种散发病例或所有变异。",
+      "gene_name": "CCM2",
+      "disease_name": "cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    },
+    {
+      "edge_id": "R04",
+      "paper_id": "PMC10014009",
+      "gene_id": "G02",
+      "disease_id": "D02",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0011",
+          "section": "Body / Introduction",
+          "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+          "start": 201,
+          "end": 315
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "因果主张直接来自背景；本研究只提供检测到变异及家系病灶等观察，不作新的因果验证。",
+      "conditions": "限原文所述致病变异，不指任意变异均致病；8例未检出不能解释为排除基因关联。",
+      "gene_name": "CCM2",
+      "disease_name": "familial cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [
+        {
+          "location": "b0028",
+          "section": "Body / Result / Study population",
+          "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1). In Table 1, clinical characteristics and imaging findings are described according to All, KRIT1, CCM2, PDCD10, Mutation detected, and Mutation not detected groups. The mean diagnosis ages of the overall and the last brain MRI were 36.8 (standard deviation, SD 18.5) and 45.0 (SD 18.5) years old, respectively. There was a slight female predominance (male: female = 38.1:61.9). A total of 90.5% of the patients were symptomatic, and seizures were the most common manifestation. Moreover, the mean age of seizure onset was 34.5 (SD 19.5) years. CASH occurred in 52.4% of the patients overall; the mean age of CASH was 29.4 (SD 18.8) years old, and the mean number of CASH events was 1.8 (SD 1.3). Overall, 33.3% of the patients underwent surgery for CASH or enlarged symptomatic CCM lesions. A total of 42.9% of the overall patients had a family history. However, the rate was inaccurate because the family history of CCM was usually obtained by history taking. Meanwhile, the lesions were distributed over various locations. The frequencies were lower in the basal ganglia (9.5%) and thalamus (42.9%) than in the other sites.",
+          "start": 0,
+          "end": 1283
+        }
+      ],
+      "review_issues": [
+        "I38"
+      ]
+    },
+    {
+      "edge_id": "R05",
+      "paper_id": "PMC10014009",
+      "gene_id": "G03",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0011",
+          "section": "Body / Introduction",
+          "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+          "start": 640,
+          "end": 844
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "正文直接针对 CCM 描述三个基因的失功能致病机制；不是把家族性亚型关系自动向上推广。",
+      "conditions": "背景机制陈述；不推及每一种散发病例或所有变异。",
+      "gene_name": "PDCD10",
+      "disease_name": "cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    },
+    {
+      "edge_id": "R06",
+      "paper_id": "PMC10014009",
+      "gene_id": "G03",
+      "disease_id": "D02",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0011",
+          "section": "Body / Introduction",
+          "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+          "start": 201,
+          "end": 315
+        }
+      ],
+      "location": [
+        "b0011"
+      ],
+      "reason": "因果主张直接来自背景；本研究只提供检测到变异及家系病灶等观察，不作新的因果验证。",
+      "conditions": "限原文所述致病变异，不指任意变异均致病；8例未检出不能解释为排除基因关联。",
+      "gene_name": "PDCD10",
+      "disease_name": "familial cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [
+        {
+          "location": "b0028",
+          "section": "Body / Result / Study population",
+          "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1). In Table 1, clinical characteristics and imaging findings are described according to All, KRIT1, CCM2, PDCD10, Mutation detected, and Mutation not detected groups. The mean diagnosis ages of the overall and the last brain MRI were 36.8 (standard deviation, SD 18.5) and 45.0 (SD 18.5) years old, respectively. There was a slight female predominance (male: female = 38.1:61.9). A total of 90.5% of the patients were symptomatic, and seizures were the most common manifestation. Moreover, the mean age of seizure onset was 34.5 (SD 19.5) years. CASH occurred in 52.4% of the patients overall; the mean age of CASH was 29.4 (SD 18.8) years old, and the mean number of CASH events was 1.8 (SD 1.3). Overall, 33.3% of the patients underwent surgery for CASH or enlarged symptomatic CCM lesions. A total of 42.9% of the overall patients had a family history. However, the rate was inaccurate because the family history of CCM was usually obtained by history taking. Meanwhile, the lesions were distributed over various locations. The frequencies were lower in the basal ganglia (9.5%) and thalamus (42.9%) than in the other sites.",
+          "start": 0,
+          "end": 1283
+        },
+        {
+          "location": "b0070",
+          "section": "Body / Result / Detailed clinical, genetic data, and age-related disease burden of gene-confirmed FCCM patients",
+          "quote": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV.",
+          "start": 0,
+          "end": 1693
+        }
+      ],
+      "review_issues": [
+        "I38",
+        "I38"
+      ]
+    },
+    {
+      "edge_id": "R07",
+      "paper_id": "PMC10014009",
+      "gene_id": "G05",
+      "disease_id": "D03",
+      "status": "supported",
+      "relation_type": "association",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0098",
+          "section": "Body / Discussion",
+          "quote": "Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients.",
+          "start": 1397,
+          "end": 1512
+        },
+        {
+          "location": "b0098",
+          "section": "Body / Discussion",
+          "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3.",
+          "start": 1516,
+          "end": 1655
+        }
+      ],
+      "location": [
+        "b0098"
+      ],
+      "reason": "联合疾病患者中确认的功能获得突变、与CCM基因失功能的互斥模式及相关机制讨论，支持背景关联，超过单纯名称共现；保守不升级为因果。",
+      "conditions": "",
+      "gene_name": "MAP3K3",
+      "disease_name": "sporadic cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    },
+    {
+      "edge_id": "R08",
+      "paper_id": "PMC10014009",
+      "gene_id": "G06",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0099",
+          "section": "Body / Discussion",
+          "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+          "start": 280,
+          "end": 478
+        }
+      ],
+      "location": [
+        "b0099"
+      ],
+      "reason": "正文将各基因的杂合缺失与诱导 CCM 动物模型直接相连；模型因果证据与人类节点分开保留。",
+      "conditions": "动物模型、出生后早期杂合缺失；具体物种未注明，不等同人类疾病因果。",
+      "gene_name": "Krit1",
+      "disease_name": "cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    },
+    {
+      "edge_id": "R09",
+      "paper_id": "PMC10014009",
+      "gene_id": "G07",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0099",
+          "section": "Body / Discussion",
+          "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+          "start": 280,
+          "end": 478
+        }
+      ],
+      "location": [
+        "b0099"
+      ],
+      "reason": "正文将各基因的杂合缺失与诱导 CCM 动物模型直接相连；模型因果证据与人类节点分开保留。",
+      "conditions": "动物模型、出生后早期杂合缺失；具体物种未注明，不等同人类疾病因果。",
+      "gene_name": "Ccm2",
+      "disease_name": "cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    },
+    {
+      "edge_id": "R10",
+      "paper_id": "PMC10014009",
+      "gene_id": "G08",
+      "disease_id": "D01",
+      "status": "supported",
+      "relation_type": "causal",
+      "source_scope": "背景引用",
+      "evidence": [
+        {
+          "location": "b0099",
+          "section": "Body / Discussion",
+          "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+          "start": 280,
+          "end": 478
+        }
+      ],
+      "location": [
+        "b0099"
+      ],
+      "reason": "正文将各基因的杂合缺失与诱导 CCM 动物模型直接相连；模型因果证据与人类节点分开保留。",
+      "conditions": "动物模型、出生后早期杂合缺失；具体物种未注明，不等同人类疾病因果。",
+      "gene_name": "Pdcd10",
+      "disease_name": "cerebral cavernous malformation",
+      "A_status": "supported",
+      "B_status": "supported",
+      "observational_context": [],
+      "review_issues": []
+    }
+  ]
+}

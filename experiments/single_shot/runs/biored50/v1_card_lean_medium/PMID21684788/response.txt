@@ -1,0 +1,23 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ALDH3A2|ALDH3A2;fatty aldehyde dehydrogenase|r||human||
+E|G2|gene|ALDH3A1|ALDH3A1|r||human||
+E|D1|disease|Sjogren-Larsson syndrome|Sjogren-Larsson syndrome;SLS|r||||
+E|D2|disease|corneal disease|corneal disease|r||||
+E|D3|disease|inborn errors of metabolism|inborn errors of metabolism|r||||
+E|S1|symptom|ichthyosis|ichthyosis|r||||
+E|S2|symptom|mental retardation|mental retardation|r||||
+E|S3|symptom|spasticity|spasticity|r||||
+E|S4|phenotype|loss of ambulation|loss of ambulation|r||||
+X|17p11.2|b0002|genomic locus, not a gene
+X|c.407C>T, P136L|b0002|variant identifier
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s3|ts|res|aff|eda,rr
+EV|V4|b0002.s5|ts|co|na|do
+EV|V5|b0002.s7|ts|res|aff|eda
+EV|V6|b0002.s6|ts|int|pre|unc
+P|G1|D1|sup|c|ts|sup:a:bg:V1+V2;sup:c:ts:V3;sup:a:ts:V5||||ALDH3A2 deletions stated to cause SLS
+P|G2|D1|nf|-||||V4|ALDH3A1 only co-deleted; no attribution
+P|G2|D2|unc|-|||presupposed_only|V4+V6|Absence of corneal disease presupposes ALDH3A1 link
+F|F1|descriptive|large ALDH3A2 deletions; mutant allele fraction|SLS patients|not_applicable|not_applicable|not_reported|V3|hedged estimate up to 5%

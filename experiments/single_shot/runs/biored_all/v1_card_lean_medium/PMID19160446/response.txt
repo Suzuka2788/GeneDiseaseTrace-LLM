@@ -1,0 +1,31 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|P2RX7|P2RX7|r||human||
+E|D1|disease|bipolar disorder|bipolar disorder;bipolar|r||||
+E|D2|disease|bipolar I disorder|bipolar I disorder|r|||D1|
+E|D3|disease|unipolar mood disorder|unipolar mood disorder|r||||
+E|D4|disease|unipolar depression|unipolar depression|r||||
+E|D5|disease|unipolar recurrent major depression|unipolar recurrent major depression|r||||
+E|D6|disease|unipolar disorder|unipolar disorder|p|ambiguous_mapping|||
+E|D7|disease|mood disorder|mood disorder;mood disorders|r||||
+E|D8|disease|Darier's disease|Darier's disease;Darier|r||||
+X|rs2230912|b0002.s3|variant ID, not gene
+X|Q460R|b0002.s3|amino-acid polymorphism, not gene
+X|12q24|b0002.s1|chromosomal region, not gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s4+b0002.s5|ts|neg|neg|cmp
+EV|V4|b0002.s6|ts|neg|neg|rr
+EV|V5|b0002.s7|ts|int|neg|cmp
+EV|V6|b0002.s1|bg|co|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1+V2;neg:-:ts:V3+V4||V6|Background susceptibility report; not replicated here
+P|G1|D4|sup|a|bg|sup:a:bg:V1+V2|||Background report of susceptibility gene
+P|G1|D2|neg|-|ts|neg:-:ts:V3|||No association in bipolar I case-control sample
+P|G1|D5|neg|-|ts|neg:-:ts:V3|||No association in recurrent depression sample
+P|G1|D6|neg|-|ts|neg:-:ts:V3|||No association specifically with unipolar disorder
+P|G1|D7|neg|-|ts|neg:-:ts:V3+V5|||No association with mood disorder in general
+P|G1|D8|unc|-|ts|unc:-:ts:V4|scope||No rare variants; linkage phenotype unclear
+P|G1|D3|nf|-|||||V6|Only regional linkage, gene not linked
+F|F1|association|rs2230912 and 8 P2RX7 SNPs vs case status|UK bipolar I, unipolar, controls|not_significant|null|not_reported|V3|abstract only
+F|F2|descriptive|P2RX7 rare variants by sequencing|two bipolar-Darier linked families|not_applicable|null|not_applicable|V4|
+C|C1|P2RX7 association with mood disorders|b0002.s2+b0002.s5|noncritical|resolved|Background positive vs this study's null replication

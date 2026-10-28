@@ -1,0 +1,38 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|IL10|IL10;IL-10;interleukin-10|r||human||
+E|G2|gene|CRP|CRP|r||human||
+E|G3|gene|GPX1|GPX1|r||human||
+E|G4|gene|GSR|GSR|r||human||
+E|G5|gene|GSTP1|GSTP1|r||human||
+E|G6|gene|hOGG1|hOGG1|r||human||
+E|G7|gene|IL1B|IL1B|r||human||
+E|G8|gene|IL1RN|IL1RN|r||human||
+E|G9|gene|IL6|IL6|r||human||
+E|G10|gene|IL8|IL8|r||human||
+E|G11|gene|MPO|MPO|r||human||
+E|G12|gene|NOS2|NOS2|r||human||
+E|G13|gene|NOS3|NOS3|r||human||
+E|G14|gene|SOD1|SOD1|r||human||
+E|G15|gene|SOD2|SOD2|r||human||
+E|G16|gene|SOD3|SOD3|r||human||
+E|G17|gene|TLR4|TLR4|r||human||
+E|G18|gene|TNF|TNF|r||human||
+E|D2|disease|localized prostate cancer|localized prostate cancer|r||||
+E|D3|clinical_event|prostate cancer recurrence|prostate cancer recurrence;recurrence|r||||
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s9|ts|res|aff|rr
+EV|V3|b0002.s10|ts|res|aff|rr
+EV|V4|b0002.s8|ts|res|aff|rr
+EV|V5|b0002.s11|ts|int|aff|unc
+P|G1|D3|sup|a|ts|sup:a:ts:V1+V2+V3|||IL10 SNPs and haplotype associated with recurrence
+P|G2|D3|sup|a|ts|sup:a:ts:V4+V3||V5|CRP candidate SNPs associated with recurrence
+P|G5|D3|sup|a|ts|sup:a:ts:V4+V3||V5|GSTP1 candidate SNPs associated with recurrence
+P|G7|D3|sup|a|ts|sup:a:ts:V4+V3||V5|IL1B candidate SNPs associated with recurrence
+P|G12|D3|sup|a|ts|sup:a:ts:V2+V3||V5|NOS2 haplotypes associated with recurrence
+P|G1|D2|nf|-||||V3|Recurrence association not propagated to disease occurrence
+F|F1|association|IL10 rs1800872 minor allele vs recurrence|484 matched case-control pairs|significant|positive|available|V1|CI lower bound exactly 1.00
+F|F2|association|IL10 rs1800896 minor allele vs recurrence|484 matched case-control pairs|significant|negative|available|V1|
+F|F3|association|IL10 and NOS2 haplotypes vs recurrence|484 matched case-control pairs|significant|unknown|not_reported|V2|abstract lacks haplotype statistics
+F|F4|association|CRP, GSTP1, IL1B candidate SNPs vs recurrence|484 matched case-control pairs|significant|unknown|not_reported|V4|abstract lacks statistics
+R|hierarchy|b0002.s10|Bare prostate cancer appears only within longer names; genes linked to recurrence|No standalone prostate cancer entity; recurrence event linked, disease pairs nf

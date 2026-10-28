@@ -1,0 +1,56 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text incl. captions, SI legends; SI figures unread
+E|g1|gene|TIN2|TIN2;TINF2;TIN2S;TIN2L;Tin2|r||human||
+E|g2|gene|TPP1|TPP1|r||human||
+E|g3|gene|TRF1|TRF1|r||human||
+E|g4|gene|TRF2|TRF2|r||human||
+E|g5|gene|POT1|POT1|r||human||
+E|g6|gene|TERT|TERT;hTERT|r||human||
+E|g7|gene|TER|TER;hTER|r||human||
+E|g8|gene|Dyskerin|Dyskerin|r||human||
+E|g9|gene|NHP2|NHP2|r||human||
+E|g10|gene|NOP10|NOP10|r||human||
+E|g11|gene|TCAB1|TCAB1|r||human||
+E|g12|gene|RTEL1|RTEL1|r||human||
+E|g13|gene|CTC1|CTC1|r||human||
+E|g14|gene|HP1γ|HP1γ|r||human||
+E|g15|gene|Rap1|Rap1|r||human||
+E|g16|gene|53BP1|53BP1|r||human||
+E|g17|gene|GAPDH|GAPDH|r||human||
+E|g18|gene|p84|p84|r||human||
+E|g19|gene|TIN2 (mouse)|TIN2|r||non-human||
+E|d1|disease|Dyskeratosis Congenita|Dyskeratosis Congenita;DC|r||||
+E|d2|disease|bone marrow failure|bone marrow failure|r||||
+E|d3|disease|pulmonary fibrosis|pulmonary fibrosis|r||||
+E|d4|disease|cancers|cancers|r||||
+E|d5|disease|telomere syndromes|telomere syndromes|r||||
+E|d6|disease|colon carcinoma|colon carcinoma|r||||
+X|DN-hTERT|b0022|engineered dominant-negative construct of TERT, not separate gene
+X|47A-hTER|b0026|mutant template construct of TER, not separate gene
+X|HCT116|b0013|cell line identifier
+EV|V1|b0008.s5|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0003.s4+b0034.s1|bg|bgr|aff|ebr,eda
+EV|V3|b0008.s6|bg|bgr|aff|ebr
+EV|V4|b0008.s4|bg|bgr|aff|ebr
+EV|V5|b0003.s3|bg|bgr|aff|ebr
+EV|V6|b0036.s3|ts|hyp|hyp|ho
+EV|V7|b0037.s1+b0037.s2|bg|bgr|na|do
+P|g1|d1|sup|c|bg|sup:c:bg:V1+V2;sup:r:bg:V3;unc:-:ts:V6||V5|Background DC-causative TIN2 mutations; correlation with onset
+P|g2|d1|sup|c|bg|sup:c:bg:V1||V5|Background DC-causative TPP1 mutations
+P|g12|d1|sup|c|bg|sup:c:bg:V1|||Background DC-causative mutations
+P|g13|d1|sup|c|bg|sup:c:bg:V1|||Background DC-causative mutations
+P|g6|d1|sup|c|bg|sup:c:bg:V4|||Background DC-causative mutations
+P|g7|d1|sup|c|bg|sup:c:bg:V4|||Background DC-causative mutations
+P|g8|d1|sup|c|bg|sup:c:bg:V4|||Background DC-causative mutations
+P|g9|d1|sup|c|bg|sup:c:bg:V4|||Background DC-causative mutations
+P|g10|d1|sup|c|bg|sup:c:bg:V4|||Background DC-causative mutations
+P|g11|d1|sup|c|bg|sup:c:bg:V4|||Background DC-causative mutations
+P|g5|d1|nf|-|||||V5|Only shelterin gene-set statement
+P|g19|d1|nf|-|||||V7|Mouse knock-in cell phenotype, no disease model
+F|F1|group_comparison|TIN2 R282H vs WT; telomere length|HCT116 knock-in clones|unknown|negative|unread|V2|Fig 1A, no test reported
+F|F2|group_comparison|TIN2 R282H vs WT; TIF count|HCT116 knock-in clones|not_significant|null|unread||b0019.s3; not DC outcome
+F|F3|group_comparison|TIN2 R282H; telomere extension frequency|HCT116 knock-in clones|significant|negative|partial||b0029.s2, b0027.s26
+F|F4|group_comparison|TIN2 R282H; extension length per telomere|HCT116 knock-in clones|unknown|null|unread||b0029.s5
+F|F5|group_comparison|TIN2 R282H; hTER-telomere co-localization|HCT116 knock-in clones|significant|negative|partial||b0031.s6, b0032.s11
+F|F6|group_comparison|TIN2 R282H; shortening rate under DN-hTERT|HCT116 knock-in clones|unknown|null|unread||b0022.s5
+U|S1-S5 Fig|b0014,b0025,b0026,b0028|supplementary images not provided

@@ -1,0 +1,24 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|alpha-synuclein|alpha-synuclein;alpha-syn|r||human||
+E|G2|gene|ENT3|ENT3;Ent3p|r||non-human||
+E|G3|gene|IDP3|IDP3|r||non-human||
+E|G4|gene|JEM1|JEM1|r||non-human||
+E|G5|gene|ARG2|ARG2|r||non-human||
+E|G6|gene|HSP82|HSP82|r||non-human||
+E|G7|gene|epsinR|epsinR|r||human||
+E|D1|disease|Parkinson's disease|Parkinson's disease|r||||
+E|D2|disease|neurodegeneration|neurodegeneration|r||||
+E|S1|phenotype|reactive oxygen species accumulation|reactive oxygen species|r||||
+X|A30P|b0002|variant ID
+X|A53T|b0002|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s1|bg|bgr|pre|unc
+EV|V3|b0002.s5|ts|res|aff|rr,mi
+EV|V4|b0002.s6+b0002.s7|ts|res|aff|rr,cmp
+EV|V5|b0002.s8+b0002.s9|ts|int|hyp|rr,ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1||| "Parkinson's disease-related protein" background attribution
+P|G1|D2|unc|-|bg|unc:-:bg:V2|presupposed_only||Causation presupposed; mechanism said unknown
+F|F1|mechanism|ENT3/IDP3/JEM1/ARG2/HSP82 deletion vs alpha-syn toxicity|yeast expressing alpha-syn|unknown|positive|not_reported|V3|yeast growth only; no disease outcome
+F|F2|group_comparison|four genes protection, WT vs A30P/A53T|yeast expressing alpha-syn variants|unknown|not_applicable|not_reported|V4|abstract only
+F|F3|mechanism|Ent3p overexpression vs alpha-syn localization|yeast cells|not_applicable|not_applicable|not_reported|V5|vacuolar transport is interpretation

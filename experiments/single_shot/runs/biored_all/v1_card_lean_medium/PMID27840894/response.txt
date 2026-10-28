@@ -1,0 +1,18 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PHEX|PHEX;phosphate-regulating gene with homologies to endopeptidase on the X chromosome|r||human||
+E|G2|gene|FGF23|FGF23;fibroblast growth factor 23|r||human||
+E|D1|disease|hypophosphatemic rickets|hypophosphatemic rickets|r||||
+E|D2|disease|X-linked hypophosphatemic rickets|X-linked hypophosphatemic rickets;XLH|r|||D1|
+X|OMIM 307800|b0002|database identifier
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0002.s3+b0002.s5+b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|neg|neg|cmp
+EV|V4|b0002.s10|ts|int|neg|cmp
+EV|V5|b0002.s9|ts|int|hyp|ho
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2+V3||V5|Background causal statement; patients with mutations called XLH
+P|G1|D1|sup|a|ts|sup:a:ts:V2|||Mutations found in patients, none in controls
+P|G2|D2|neg|-|ts|neg:-:ts:V3+V4|||Serum FGF23 not different from controls
+F|F1|group_comparison|serum FGF23 level|XLH patients vs 250 healthy controls|not_significant|null|not_reported|V3+V4|abstract only
+F|F2|association|PHEX mutation carriage|hypophosphatemic rickets patients vs controls|unknown|positive|partial|V2|no test statistic given
+R|tested_relation_type for neg pair|P G2-D2|Output format has no tested_relation_type field|Recorded tested association only implicitly in the reason

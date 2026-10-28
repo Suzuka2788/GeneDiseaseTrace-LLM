@@ -1,0 +1,16 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|COX-2|COX-2|r||human||
+E|D1|disease|prostate cancer|prostate cancer|r||||
+E|S1|phenotype|inflammation|inflammation|r||||
+X|cancer prostate in Sweden (CAPS)|b0002|study name, not disease entity
+X|+3100 T/G|b0002|variant ID
+X|+8365 C/T|b0002|variant ID
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0002.s9|ts|res|aff|rr,cmp
+EV|V4|b0002.s10|ts|int|aff|rr
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2+V3+V4|||Background overexpression plus case-control SNP association
+F|F1|association|+3100 T/G allele vs prostate cancer risk|CAPS 1378 cases, 782 controls|significant|negative|available|V2|
+F|F2|association|+8365 C/T allele vs prostate cancer risk|CAPS 1378 cases, 782 controls|significant|negative|available|V2|
+F|F3|association|haplotype with both variant alleles vs risk|CAPS cases and controls|significant|negative|partial|V3|haplotype frequency 3%

@@ -1,0 +1,311 @@
+{
+  "source": "BIORED.zip (https://ftp.ncbi.nlm.nih.gov/pub/lu/BioRED/), Test.BioC.JSON",
+  "zip_sha256": "c3032230bd89d22a0923d0df6ae943bc8ea37fba7e42dafa7a8dec21bac02d47",
+  "test_sha256": "35ec8aad0c62032689b4a957220c7532eb067dc7e159d70cc42e6d40e6c447c6",
+  "criteria": "test abstracts with >= 1 gold gene-disease relation",
+  "seed": 20261028,
+  "test_abstracts": 100,
+  "eligible": 73,
+  "papers": [
+    {
+      "paper_id": "PMID15000256",
+      "pmid": "15000256",
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15459975",
+      "pmid": "15459975",
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15464247",
+      "pmid": "15464247",
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID15485686",
+      "pmid": "15485686",
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID15668505",
+      "pmid": "15668505",
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID15818664",
+      "pmid": "15818664",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID15824163",
+      "pmid": "15824163",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16112787",
+      "pmid": "16112787",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16186368",
+      "pmid": "16186368",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID16731636",
+      "pmid": "16731636",
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID17003923",
+      "pmid": "17003923",
+      "gold_gene_disease": 15,
+      "gold_novel": 13
+    },
+    {
+      "paper_id": "PMID17059986",
+      "pmid": "17059986",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID17166870",
+      "pmid": "17166870",
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID17935240",
+      "pmid": "17935240",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID18179903",
+      "pmid": "18179903",
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18457324",
+      "pmid": "18457324",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID18507837",
+      "pmid": "18507837",
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID18991055",
+      "pmid": "18991055",
+      "gold_gene_disease": 6,
+      "gold_novel": 6
+    },
+    {
+      "paper_id": "PMID19207031",
+      "pmid": "19207031",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19208385",
+      "pmid": "19208385",
+      "gold_gene_disease": 5,
+      "gold_novel": 5
+    },
+    {
+      "paper_id": "PMID19276632",
+      "pmid": "19276632",
+      "gold_gene_disease": 4,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19484664",
+      "pmid": "19484664",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID19565319",
+      "pmid": "19565319",
+      "gold_gene_disease": 4,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID19789368",
+      "pmid": "19789368",
+      "gold_gene_disease": 4,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID20705401",
+      "pmid": "20705401",
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID20709368",
+      "pmid": "20709368",
+      "gold_gene_disease": 2,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21126715",
+      "pmid": "21126715",
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21219851",
+      "pmid": "21219851",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID21405999",
+      "pmid": "21405999",
+      "gold_gene_disease": 7,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID21684788",
+      "pmid": "21684788",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21750150",
+      "pmid": "21750150",
+      "gold_gene_disease": 4,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID21879313",
+      "pmid": "21879313",
+      "gold_gene_disease": 7,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID21976953",
+      "pmid": "21976953",
+      "gold_gene_disease": 1,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID22369755",
+      "pmid": "22369755",
+      "gold_gene_disease": 8,
+      "gold_novel": 8
+    },
+    {
+      "paper_id": "PMID22729903",
+      "pmid": "22729903",
+      "gold_gene_disease": 2,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID23069675",
+      "pmid": "23069675",
+      "gold_gene_disease": 7,
+      "gold_novel": 7
+    },
+    {
+      "paper_id": "PMID24442316",
+      "pmid": "24442316",
+      "gold_gene_disease": 9,
+      "gold_novel": 9
+    },
+    {
+      "paper_id": "PMID25006961",
+      "pmid": "25006961",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID25277705",
+      "pmid": "25277705",
+      "gold_gene_disease": 19,
+      "gold_novel": 18
+    },
+    {
+      "paper_id": "PMID25874935",
+      "pmid": "25874935",
+      "gold_gene_disease": 3,
+      "gold_novel": 1
+    },
+    {
+      "paper_id": "PMID26110643",
+      "pmid": "26110643",
+      "gold_gene_disease": 12,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID26615423",
+      "pmid": "26615423",
+      "gold_gene_disease": 5,
+      "gold_novel": 4
+    },
+    {
+      "paper_id": "PMID26847345",
+      "pmid": "26847345",
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID26900322",
+      "pmid": "26900322",
+      "gold_gene_disease": 3,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID26937641",
+      "pmid": "26937641",
+      "gold_gene_disease": 3,
+      "gold_novel": 3
+    },
+    {
+      "paper_id": "PMID27384305",
+      "pmid": "27384305",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID27959387",
+      "pmid": "27959387",
+      "gold_gene_disease": 11,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID28068934",
+      "pmid": "28068934",
+      "gold_gene_disease": 1,
+      "gold_novel": 0
+    },
+    {
+      "paper_id": "PMID28684635",
+      "pmid": "28684635",
+      "gold_gene_disease": 2,
+      "gold_novel": 2
+    },
+    {
+      "paper_id": "PMID28846666",
+      "pmid": "28846666",
+      "gold_gene_disease": 39,
+      "gold_novel": 39
+    }
+  ]
+}

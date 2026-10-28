@@ -1,0 +1,142 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text and both tables; references removed
+E|G1|gene|BRCA1|BRCA1;FANCS|r||human||
+E|G2|gene|BRCA2|BRCA2;FANCD1|r||human||
+E|G3|gene|TP53|TP53;p53;TP|p|suspected_typo|human||
+E|G4|gene|ATM|ATM|r||human||
+E|G5|gene|BARD1|BARD1|r||human||
+E|G6|gene|FANCD2|FANCD2|r||human||
+E|G7|gene|NBN|NBN;nibrin;Nibrin|r||human||
+E|G8|gene|PALB2|PALB2;FANCN|r||human||
+E|G9|gene|RAD51C|RAD51C|r||human||
+E|G10|gene|FANCA|FANCA|r||human||
+E|G11|gene|FANCC|FANCC|r||human||
+E|G12|gene|RAD51|RAD51|r||human||
+E|G13|gene|CHEK2|CHEK2|r||human||
+E|G14|gene|ATR|ATR|r||human||
+E|G15|gene|DNA-PKcs|DNA-PKcs|p|ambiguous_mapping|human||
+E|G16|gene|PARP|PARP;poly(ADP-Ribose) polymerase|p|ambiguous_mapping|human||
+E|G17|gene|ER|ER;estrogen receptor|p|ambiguous_mapping|human||
+E|G18|gene|PR|PR;progesterone receptor|p|ambiguous_mapping|human||
+E|G19|gene|HER2|HER2;Her2;human epidermal growth factor receptor 2|r||human||
+E|G20|gene|Ki-67|Ki-67;Ki67|p|ambiguous_mapping|human||
+E|D1|disease|breast cancer|breast cancer;BC;Breast cancer|r||||
+E|D2|disease|OVC|OVC|p|undefined_abbreviation|||
+E|D3|disease|ovarian cancer|ovarian;Ovarian|p|other|||
+E|D4|disease|HBOC|hereditary breast and ovarian cancer syndrome;HBOC|r||||
+E|D5|disease|prostate cancer|prostate cancer;Prostate ca;prostate|r||||
+E|D6|disease|pancreatic cancer|pancreatic cancer;Pancreatic ca;pancreatic ca;Pancreatic;pancreatic|r||||
+E|D7|disease|melanoma|Melanoma;melanoma|r||||
+E|D8|disease|Fanconi Anemia|Fanconi Anemia;FA|r||||
+E|D9|disease|Nijemen breakage syndrome|Nijemen breakage syndrome|p|other|||
+E|D10|disease|triple-negative breast cancer|TNBC;TNBCs|r||||
+E|D11|disease|invasive breast carcinoma of no special type|invasive breast carcinoma of no special type;IBC NST;IBCNST|r||||
+E|D12|disease|ductal carcinoma in situ|ductal carcinoma in situ;DCIS|r||||
+E|D13|disease|multiple myeloma|multiple myeloma;MM|r||||
+E|D14|disease|male BC|male BC|r|||D1|
+E|D15|disease|soft tissue sarcoma|Soft tissue sarcoma|r||||
+E|D16|disease|osteosarcoma|osteosarcoma|r||||
+E|D17|disease|CNS tumor|CNS tumor|r||||
+E|D18|disease|adrenocortical carcinoma|adrenocortical carcinoma;ACC|r||||
+E|D19|disease|colorectal cancer|colorectal|p|other|||
+E|D20|disease|gastric cancer|gastric|p|other|||
+E|D21|disease|cancer|cancer|r||||
+E|D22|disease|second malignant neoplasms|second malignant neoplasms|r||||
+E|D23|disease|colon cancer|Colon ca|r||||
+E|D24|disease|thyroid cancer|Thyroid|p|ambiguous_mapping|||
+E|D25|disease|cervical cancer|Cervical|p|ambiguous_mapping|||
+E|D26|disease|mouth cancer|Mouth|p|ambiguous_mapping|||
+E|D27|disease|stomach cancer|Stomach|p|ambiguous_mapping|||
+E|S1|phenotype|aplastic anemia|aplastic anemia|r||||
+E|S2|symptom|palpable lump|Palpable lump|r||||
+X|BRCA genes|b0012|gene set
+X|MRN complex|b0093|protein complex, not single gene
+X|HRR|b0011|pathway name
+X|Bone Marrow Failure Syndrome|b0089|cohort name
+X|Other cancer types|b0046|table_grouping_label
+X|Breast cancer diagnosis|b0025|table_grouping_label
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0011.s3|bg|bgr|aff|ebr
+EV|V3|b0079.s1|bg|bgr|aff|ebr
+EV|V4|b0107.s1|bg|bgr|aff|ebr
+EV|V5|b0108.s1|bg|bgr|aff|ebr
+EV|V6|b0109.s1|bg|bgr|aff|ebr
+EV|V7|b0110.s1|bg|bgr|aff|ebr
+EV|V8|b0111.s1|bg|bgr|aff|ebr
+EV|V9|b0112.s1|bg|bgr|q|unc
+EV|V10|b0113.s1|bg|bgr|q|unc
+EV|V11|b0075.s2|bg|bgr|aff|ebr
+EV|V12|b0087.s1|bg|bgr|aff|ebr
+EV|V13|b0088.s1+b0088.s2|bg|res|aff|rr
+EV|V14|b0089.s3|bg|neg|neg|rr,cmp
+EV|V15|b0089.s4+b0089.s5|bg|res|aff|rr,cmp
+EV|V16|b0090.s1+b0090.s2|bg|res|aff|rr
+EV|V17|b0091.s2+b0104.s8|bg|int|q|unc
+EV|V18|b0086.s4|ts|int|hyp|ho
+EV|V19|b0094.s1|bg|bgr|aff|ebr
+EV|V20|b0094.s2+b0094.s3|bg|res|aff|rr
+EV|V21|b0094.s4+b0094.s5+b0094.s6|bg|neg|neg|rr
+EV|V22|b0094.s8|ts|hyp|hyp|ho
+EV|V23|b0019.s5|ts|co|pre|do
+EV|V24|b0088.s1|bg|co|pre|unc
+EV|V25|b0090.s1|bg|bgr|aff|ebr
+EV|V26|b0104.s3|bg|bgr|aff|ebr
+EV|V27|b0019.s7|ts|int|pre|do
+EV|V28|b0007.s1+b0019.s1|ts|res|na|do
+EV|V29|b0084.s1+b0089.s1|bg|co|pre|unc
+EV|V30|b0088.s3|bg|res|na|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V2;sup:a:bg:V1+V3+V4+V12+V25|||BC predisposition attributed to BRCA1 variants
+P|G2|D1|sup|c|bg|sup:c:bg:V2;sup:a:bg:V1+V3+V5+V12+V15|||BC predisposition attributed to BRCA2 variants
+P|G1|D2|sup|a|bg|sup:a:bg:V3|||Confirmed association with OVC
+P|G2|D2|sup|a|bg|sup:a:bg:V3|||Confirmed association with OVC
+P|G1|D3|sup|a|bg|sup:a:bg:V4|||NCCN table lists ovarian cancer
+P|G2|D3|sup|a|bg|sup:a:bg:V5|||NCCN table lists ovarian cancer
+P|G1|D5|sup|a|bg|sup:a:bg:V3+V4|||Background involvement in prostate cancer
+P|G2|D5|sup|a|bg|sup:a:bg:V3+V5|||Background involvement in prostate cancer
+P|G1|D6|sup|a|bg|sup:a:bg:V3+V4|||Background involvement in pancreatic cancer
+P|G2|D6|sup|a|bg|sup:a:bg:V3+V5|||Background involvement in pancreatic cancer
+P|G1|D14|sup|a|bg|sup:a:bg:V4|||Table lists male BC
+P|G2|D14|sup|a|bg|sup:a:bg:V5|||Table lists male BC
+P|G2|D7|sup|a|bg|sup:a:bg:V5|||Table lists melanoma
+P|G2|D21|sup|a|bg|sup:a:bg:V15|||Cited O/E for all cancers
+P|G1|D4|unc|-|ts|unc:-:ts:V23|presupposed_only|||Only "as expected for HBOC" presupposition
+P|G2|D4|unc|-|ts|unc:-:ts:V23|presupposed_only|||Only "as expected for HBOC" presupposition
+P|G3|D1|sup|a|bg|sup:a:bg:V6|||Table gives BC absolute risk
+P|G3|D15|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D16|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D17|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D18|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D7|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D19|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D5|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D20|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D6|sup|a|bg|sup:a:bg:V6|||Listed associated cancer
+P|G3|D21|unc|-|ts|unc:-:ts:V27|presupposed_only|||Only "as expected" family-history remark
+P|G4|D1|sup|a|bg|sup:a:bg:V7+V26|||Moderate-penetrance BC gene, risk given
+P|G4|D6|sup|a|bg|sup:a:bg:V7|||Table lists pancreatic cancer
+P|G4|D5|sup|a|bg|sup:a:bg:V7|||Table lists prostate cancer
+P|G4|D3|sup|a|bg|sup:a:bg:V7|||Table lists ovarian cancer
+P|G5|D1|sup|a|bg|sup:a:bg:V8+V11|||Variant associated with BC history
+P|G5|D2|sup|a|bg|sup:a:bg:V11|||Variant associated with OVC history
+P|G8|D1|sup|a|bg|sup:a:bg:V12|||Called a recognized BC gene
+P|G9|D1|unc|-|bg|unc:-:bg:V24|presupposed_only|||Implied confirmed BC gene only
+P|G10|D1|sup|a|bg|sup:a:bg:V13|||Mutations found in high-risk BC patients
+P|G10|D21|neg|-|bg|neg:-:bg:V14||||Excluded as cancer risk gene
+P|G11|D21|neg|-|bg|neg:-:bg:V14||||Excluded as cancer risk gene
+P|G6|D1|sup|r|bg|sup:r:bg:V16;sup:a:bg:V13+V15||V9+V17|Expression correlates with BC features; cited risk
+P|G6|D21|sup|a|bg|sup:a:bg:V15;unc:-:ts:V18|||Cited O/E cancer risk elevated
+P|G6|D8|unc|-|bg|unc:-:bg:V29|presupposed_only|||Pathway membership and FA cohort only
+P|G7|D9|sup|c|bg|sup:c:bg:V19|||Disruptive NBN variants lead to syndrome
+P|G7|D1|unc|-|bg|sup:a:bg:V20;neg:-:bg:V21;unc:-:ts:V22|conflict|V10+V17|Suggested association versus proven neutral
+F|F1|descriptive|DH for two LP/PVs|1600 patients tested|not_applicable|not_applicable|not_reported|V28|
+F|F2|descriptive|BRCA1/2 share of DH variants|six DH cases|not_applicable|not_applicable|available|V23|
+F|F3|group_comparison|FA gene carriers vs non-carriers clinicopathology|Chinese high-risk BC patients|not_significant|unknown|not_reported|V30|cited; small sample
+F|F4|association|FA heterozygosity and cancer risk O/E|relatives of FA patients|mixed|mixed|partial|V14+V15|cited study
+F|F5|correlation|FANCD2 expression vs tumor features, survival|breast tumors|unknown|unknown|not_reported|V16|cited studies
+C|C1|BRCA2 c.7934del protein notation|b0024.s1+b0078.s1|noncritical|unresolved|Asp2645 vs Arg2645
+C|C2|BRCA1 c.1374del protein notation|b0023.s1+b0078.s1|noncritical|unresolved|Glufs vs Glusfs
+C|C3|Case 5 bilateral BC timing|b0029.s1+b0068.s2+b0101.s1|noncritical|unresolved|metachronous vs synchronous
+C|C4|FANCD2 BC risk vs guideline|b0089.s5+b0112.s1+b0104.s8|noncritical|resolved|guideline insufficiency, not negation
+C|C5|NBN BC association|b0094.s2+b0094.s4+b0094.s6|status_critical|unresolved|suggested risk vs neutral PVs
+R|undefined abbreviation|b0075.s2|OVC never expanded; ovarian cancer only implied|kept OVC separate from ovarian cancer entity
+R|gene shorthand|b0003.s1|BRCA1/2 shorthand covers two genes|applied to BRCA1 and BRCA2 individually

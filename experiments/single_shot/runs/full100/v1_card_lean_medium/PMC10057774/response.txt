@@ -1,0 +1,133 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, Tables 1-2 read; supplementary Tables S1-S2 unavailable
+E|G1|gene|TTN|TTN|r||human||
+E|G2|gene|LMNA|LMNA|r||human||
+E|G3|gene|BAG3|BAG3|r||human||
+E|G4|gene|RBM20|RBM20NM_001134363.3|p|other|human||
+E|G5|gene|NKX2-5|NKX2-5NM_004387.4|p|other|human||
+E|G6|gene|TNNT2|TNNT2NM_001276345.2|p|other|human||
+E|G7|gene|GATA5|GATA5NM_001276345.2|p|other|human||
+E|G8|gene|TNNI3|TNNI3NM_000363.5|p|other|human||
+E|G9|gene|ACTN2|ACTN2NM_001103.4|p|other|human||
+E|G10|gene|PKP2|PKP2NM_001005242.3|p|other|human||
+E|G11|gene|MYH7|MYH7|r||human||
+E|G12|gene|MYBPC3|MYBPC3NM_000256.3|p|other|human||
+E|D1|disease|atrial fibrillation|AF;Atrial fibrillation;atrial fibrillation|r||||
+E|D2|disease|early-onset AF|early-onset AF;Early-onset AF;Early Onset Atrial Fibrillation|r|||D1|
+E|D3|disease|early-onset AF without risk factors|early-onset AF without risk factors;EOAF|r|||D2|
+E|D4|disease|lone AF|lone AF|r|||D1|
+E|D5|disease|familial AF|Familial AF|r|||D1|
+E|D6|disease|monogenic AF|monogenic AF;Monogenic AF;monogenic EOAF|r|||D1|
+E|D7|disease|TTNtv-related AF|TTNtv-related AF|r|||D1|
+E|D8|disease|LMNA-related AF|LMNA-related AF|r|||D1|
+E|D9|disease|arrhythmia|arrhythmia;cardiac arrhythmia|r||||
+E|D10|disease|cardiomyopathy|cardiomyopathy;cardiomyopathies|r||||
+E|D11|disease|dilated cardiomyopathy|dilated cardiomyopathy;DCM|r|||D10|
+E|D12|disease|arrhythmogenic cardiomyopathy|arrhythmogenic cardiomyopathy;ACM|r|||D10|
+E|D13|disease|atrial cardiomyopathy|atrial cardiomyopathy|r|||D10|
+E|D14|disease|congenital heart disease|congenital heart disease|r||||
+E|D15|disease|structural heart disease|structural heart disease|r||||
+E|D16|disease|primary electrical disorders of the heart|primary electrical disorders of the heart|r||||
+E|D17|disease|hereditary cardiac disorders|hereditary cardiac disorders;hereditary cardiac disorder|r||||
+E|D18|disease|inherited cardiac disorders|inherited cardiac disorders|r||||
+E|D19|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|D20|disease|coronary heart disease|coronary heart disease;Coronary heart disease|r||||
+E|D21|disease|heart failure|heart failure|r||||
+E|D22|disease|hypertension|hypertension|r||||
+E|D23|disease|diabetes|diabetes|r||||
+E|D24|disease|thyroid dysfunction|thyroid dysfunction|r||||
+E|D25|disease|hyperthyroidism|hyperthyroidism|r|||D24|
+E|D26|disease|hypothyroidism|hypothyroidism|r|||D24|
+E|D27|disease|chronic kidney disease|chronic kidney disease|r||||
+E|D28|disease|valvular heart disease|valvular heart disease|r||||
+E|D29|disease|chronic obstructive pulmonary disease|chronic obstructive pulmonary disease|r||||
+E|D30|disease|systemic disease|systemic disease|r||||
+E|D31|disease|malignancy|malignancy|r||||
+E|D32|disease|alcohol abuse|alcohol abuse|r||||
+E|D33|disease|neuropathies|neuropathies|r||||
+E|D34|disease|sex chromosome aneuploidy|sex chromosome aneuploidy|r||||
+E|CE1|clinical_event|sudden cardiac death|sudden cardiac death|r||||
+E|CE2|clinical_event|stroke|stroke|r||||
+E|CE3|clinical_event|mortality|mortality|r||||
+E|S1|phenotype|ventricular dilation|ventricular dilation|r||||
+E|S2|phenotype|fibrosis|fibrosis|r||||
+X|TTNtvs|b0002.s8|variant class (TTN truncating variants), not a separate gene
+X|NM_001267550.2|b0024.s1|transcript identifier
+X|sedentary lifestyle|b0008.s7|exclusion criterion, not a disease
+EV|V1|b0032.s2|bg|bgr|aff|ebr
+EV|V2|b0032.s4|bg|bgr|aff|ebr
+EV|V3|b0032.s3+b0032.s6|bg|bgr|aff|ebr
+EV|V4|b0032.s1+b0032.s10|bg|bgr|aff|ebr
+EV|V5|b0022.s1+b0023.s3|ts|res|aff|rr,eda
+EV|V6|b0024.s7+b0030.s6+b0035.s2|ts|hyp|hyp|ho
+EV|V7|b0024.s2+b0024.s3|ts|co|na|do
+EV|V8|b0033.s2|bg|bgr|aff|ebr
+EV|V9|b0022.s1+b0048.s1+b0033.s4|ts|res|aff|rr,eda
+EV|V10|b0022.s1+b0086.s1|ts|res|aff|rr,eda
+EV|V11|b0022.s1+b0087.s1|ts|res|aff|rr,eda
+EV|V12|b0022.s1+b0088.s1|ts|res|aff|rr,eda
+EV|V13|b0026.s4+b0101.s1+b0103.s1|ts|res|aff|rr,eda
+EV|V14|b0026.s4+b0101.s1+b0105.s1|ts|res|aff|rr,eda
+EV|V15|b0026.s4+b0101.s1+b0106.s1|ts|res|aff|rr,eda
+EV|V16|b0026.s4+b0101.s1+b0107.s1|ts|res|aff|rr,eda
+EV|V17|b0026.s4+b0101.s1+b0109.s1|ts|res|aff|rr,eda
+EV|V18|b0026.s4+b0101.s1+b0110.s1|ts|res|aff|rr,eda
+EV|V19|b0026.s4+b0101.s1+b0111.s1|ts|res|aff|rr,eda
+EV|V20|b0026.s4+b0101.s1+b0104.s1+b0108.s1|ts|res|aff|rr,eda
+EV|V21|b0023.s1+b0002.s7|bg|bgr|aff|unc
+EV|V22|b0002.s11+b0002.s13|ts|res|aff|unc
+EV|V23|b0028.s2+b0028.s3+b0028.s4+b0033.s3|ts|res|na|do
+EV|V24|b0023.s2+b0030.s3|ts|neg|neg|rr
+EV|V25|b0024.s4+b0024.s6|ts|res|na|do
+EV|V26|b0022.s2|ts|res|na|cmp
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V2;unc:-:ts:V6|hedged_claim||Background states TTNtv causality in AF
+P|G1|D2|sup|a|bg|sup:a:bg:V3|||Cited early-onset AF cohort association
+P|G1|D3|sup|a|ts|sup:a:ts:V5;sup:a:ts:V20;unc:-:bg:V3|scope||LP TTNtvs causative in EOAF cohorts
+P|G1|D6|sup|a|ts|sup:a:ts:V5|||TTN carriers labelled monogenic AF
+P|G1|D7|sup|a|bg|sup:a:bg:V8|||Background TTNtv-related AF reports
+P|G1|D10|sup|a|bg|sup:a:bg:V4|||TTNtvs known associated with cardiomyopathies
+P|G1|D11|sup|a|bg|sup:a:bg:V4;unc:-:ts:V6|hedged_claim|V7|Background DCM association; own causation hedged
+P|G1|D12|unc|-|ts|unc:-:ts:V6|hedged_claim|V7|Only suggested founder variant causation
+P|G2|D3|sup|a|ts|sup:a:ts:V9|||P/LP LMNA variant in EOAF patient
+P|G2|D6|sup|a|ts|sup:a:ts:V9|||LMNA carrier labelled monogenic AF
+P|G2|D8|sup|a|ts|sup:a:ts:V9|||Authors name LMNA-related AF
+P|G4|D3|sup|a|ts|sup:a:ts:V10|||P/LP RBM20 variant in EOAF patient
+P|G4|D6|sup|a|ts|sup:a:ts:V10|||RBM20 carrier labelled monogenic AF
+P|G3|D3|sup|a|ts|sup:a:ts:V11|||P/LP BAG3 variant in EOAF patient
+P|G3|D6|sup|a|ts|sup:a:ts:V11|||BAG3 carrier labelled monogenic AF
+P|G5|D3|sup|a|ts|sup:a:ts:V12|||P/LP NKX2-5 variant in EOAF patient
+P|G5|D6|sup|a|ts|sup:a:ts:V12|||NKX2-5 carrier labelled monogenic AF
+P|G6|D3|sup|a|ts|sup:a:ts:V13|||UKB monogenic cause in EOAF
+P|G7|D3|sup|a|ts|sup:a:ts:V14|||UKB monogenic cause in EOAF
+P|G8|D3|sup|a|ts|sup:a:ts:V15|||UKB monogenic cause in EOAF
+P|G9|D3|sup|a|ts|sup:a:ts:V16|||UKB monogenic cause in EOAF
+P|G10|D3|sup|a|ts|sup:a:ts:V17|||UKB monogenic cause in EOAF
+P|G11|D3|sup|a|ts|sup:a:ts:V18|||UKB monogenic cause in EOAF
+P|G12|D3|sup|a|ts|sup:a:ts:V19|||UKB monogenic cause in EOAF
+P|G2|D10|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G3|D10|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G4|D10|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G5|D10|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G2|D14|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G3|D14|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G4|D14|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G5|D14|unc|-|bg|unc:-:bg:V21|scope||Collective gene-group role only
+P|G6|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+P|G7|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+P|G8|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+P|G9|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+P|G10|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+P|G11|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+P|G12|D10|unc|-|ts|unc:-:ts:V22|scope||Set label cardiomyopathy-associated genes only
+F|F1|group_comparison|sex, family history, age at onset|P/LP carriers vs non-carriers EOAF|not_significant|null|partial|V26|p=0.05 reported as non-significant
+F|F2|descriptive|P/LP yield; TTNtv 9/54|54 Latvian EOAF patients|not_applicable|not_applicable|available|V5|
+F|F3|descriptive|P/LP yield 9/107|UK Biobank EOAF cases|not_applicable|not_applicable|available|V13+V20|yield percentage inconsistent
+F|F4|descriptive|ventricular dilation on CMR|13 P/LP carriers (TTN, LMNA)|not_applicable|not_applicable|available|V23|no non-carrier imaging
+F|F5|descriptive|P/LP in arrhythmia-related genes|Latvian EOAF cohort|not_applicable|null|not_applicable|V24|
+F|F6|descriptive|TTN founder haplotype sharing|AF and in-house cardiomyopathy patients|not_applicable|not_applicable|not_reported|V25+V7|phasing from exome suboptimal
+C|C1|UKB diagnostic yield 8% vs 10%|b0002.s10+b0026.s4+b0031.s5|noncritical|unresolved|9/107 is 8%; discussion says 10%
+C|C2|GATA5 and TNNT2 share transcript ID|b0103.s1+b0105.s1|noncritical|unresolved|GATA5 variant transcript likely erroneous
+U|Supplementary Table S1|b0010.s2;b0018.s2;b0037.s1|not provided
+U|Supplementary Table S2|b0015.s3;b0037.s1|not provided
+R|surface forms|b0086.s1-b0111.s1|Gene symbols fused to transcript IDs; no whole-word gene symbol|Used fused token as surface; canonical symbol; identity provisional
+R|cited EOAF scope|b0032.s3|Cited cohort called EOAF but defined only by onset age|Supported for early-onset AF; uncertain scope claim for EOAF

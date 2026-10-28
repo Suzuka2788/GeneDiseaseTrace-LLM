@@ -1,0 +1,107 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full commentary text and Table 1; references removed
+E|G1|gene|SHANK3|SHANK3|r||human||
+E|G2|gene|Shank3 (mouse)|Shank3|p|species_unresolved|non-human||
+E|G3|gene|PNPLA3|PNPLA3;PNPAL3|p|suspected_typo|human||
+E|G4|gene|PPARA|PPARA|r||human||
+E|G5|gene|Ppara (mouse)|Ppara|p|species_unresolved|non-human||
+E|G6|gene|SCO2|SCO2|r||human||
+E|G7|gene|TYMP|TYMP|r||human||
+E|G8|gene|SULT4A1|SULT4A1|r||human||
+E|G9|gene|Sult4a1 (mouse)|Sult4a1|p|species_unresolved|non-human||
+E|G10|gene|SULT1A1|SULT1A1|r||human||
+E|G11|gene|SULT1A3|SULT1A3|r||human||
+E|G12|gene|TRPV4|TRPV4|r||human||
+E|G13|gene|Trpv4 (mouse)|Trpv4|p|species_unresolved|non-human||
+E|G14|gene|BRD1|BRD1|r||human||
+E|G15|gene|Brd1 (mouse)|Brd1|p|species_unresolved|non-human||
+E|G16|gene|CYP2D6|CYP2D6|r||human||
+E|G17|gene|CYP2C9|CYP2C9|r||human||
+E|G18|gene|CYP2C19|CYP2C19|r||human||
+E|G19|gene|CYP3A4|CYP3A4|r||human||
+E|G20|gene|CYP3A5|CYP3A5|r||human||
+E|G21|gene|PHF21B|PHF21B|r||human||
+E|G22|gene|Nrf2|Nrf2|p|other|||
+E|D1|disease|Phelan-McDermid syndrome|Phelan-McDermid syndrome;Phelan-McDermid Syndrome;PMS|r||||
+E|D2|disease|PMS-SHANK3 related|PMS-SHANK3 related|r|||D1|
+E|D3|disease|PMS-SHANK3 unrelated|PMS-SHANK3 unrelated|r|||D1|
+E|D4|disease|autism spectrum disorder|autism spectrum disorder;ASD|r||||
+E|D5|disease|autism|autism|r||||
+E|D6|disease|schizophrenia|schizophrenia|r||||
+E|D7|disease|Rett syndrome-like phenotype|Rett syndrome-like phenotype|p|other|||
+E|D8|disease|intellectual disability|intellectual disability|r||||
+E|D9|disease|liver disease|liver disease;Liver Disease|r||||
+E|D10|disease|alcoholic liver disease|alcoholic|p|other||D9|
+E|D11|disease|non-alcoholic liver disease|non-alcoholic liver disease|r|||D9|
+E|D12|disease|steatohepatitis|steatohepatitis|r||||
+E|D13|disease|hepatic fibrosis|hepatic fibrosis|r||||
+E|D14|disease|non-alcoholic fatty liver disease|non-alcoholic fatty liver disease|r||||
+E|D15|disease|liver injury|liver injury|r||||
+E|D16|disease|sepsis|sepsis|r||||
+E|D17|disease|autosomal dominant myopia|autosomal dominant myopia|r||||
+E|D18|disease|fatal infantile cardioencephalomyopathy|fatal infantile cardioencephalomyopathy|r||||
+E|D19|disease|mitochondrial DNA depletion syndrome 1|mitochondrial DNA depletion syndrome 1|r||||
+E|D20|disease|neurobehavioral disorders|neurobehavioral disorders|r||||
+E|D21|disease|neurodevelopmental disorders|neurodevelopmental disorders|r||||
+E|D22|disease|mental illness|mental illness|r||||
+E|D23|disease|sleep disorders|sleep disorders|r||||
+E|D24|disease|renal disorders|renal disorders|r||||
+E|S1|symptom|seizures|seizures|r||||
+E|S2|phenotype|macrovesicular steatosis|macrovesicular steatosis|r||||
+E|S3|phenotype|mitochondrial dysfunction|mitochondrial dysfunction|r||||
+E|S4|phenotype|failure to thrive|failure to thrive|r||||
+X|MOZ/MORF complex|b0025|protein complex, not single gene
+X|Cytochrome p450 proteins (CYP)|b0030|gene superfamily, not single gene
+X|SHANK proteins|b0021|protein family, not single gene
+X|p.Ile148Met|b0011|variant identifier
+X|OMIM #606232|b0004|database identifier
+EV|V1|b0002.s2+b0004.s6|bg|bgr|aff|ebr
+EV|V2|b0004.s9|bg|bgr|aff|ebr
+EV|V3|b0020.s1|bg|bgr|aff|ebr
+EV|V4|b0026.s5|unk|hyp|hyp|ho
+EV|V5|b0021.s3|bg|bgr|aff|unc
+EV|V6|b0011.s1|bg|bgr|aff|ebr
+EV|V7|b0011.s2|bg|bgr|aff|ebr,eda
+EV|V8|b0046.s1+b0014.s1|unk|int|hyp|unc
+EV|V9|b0013.s1|bg|res|aff|mi
+EV|V10|b0013.s2|bg|res|aff|mi
+EV|V11|b0016.s1|bg|hyp|hyp|ho
+EV|V12|b0016.s3|bg|bgr|aff|ebr
+EV|V13|b0016.s5+b0016.s6|bg|bgr|aff|ebr
+EV|V14|b0017.s4|bg|bgr|aff|ebr
+EV|V15|b0025.s2|bg|bgr|aff|ebr
+EV|V16|b0026.s1|bg|res|aff|rr
+EV|V17|b0026.s2|bg|int|hyp|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||SHANK3 pathogenic variants cause PMS
+P|G1|D2|sup|a|bg|sup:a:bg:V2+V3|||Subtype defined by SHANK3 alterations
+P|G1|D3|nf|-||||V2|Defined by SHANK3 preservation
+P|G1|D4|sup|a|bg|sup:a:bg:V3|||Background association with ASD
+P|G1|D6|sup|a|bg|sup:a:bg:V3|||Background association with schizophrenia
+P|G1|D7|sup|a|bg|sup:a:bg:V3|||Background association with Rett-like phenotype
+P|G1|D8|sup|a|bg|sup:a:bg:V3|||Background association with intellectual disability
+P|G2|D4|unc|-||unc:a:bg:V5|scope|V4|Mouse-context gene; human disease link generic
+P|G2|D20|unc|-||unc:a:bg:V5|scope||Mouse-context gene; generic disorder link
+P|G3|D10|sup|a|bg|sup:a:bg:V6|||Variants associated with alcoholic liver disease
+P|G3|D11|sup|a|bg|sup:a:bg:V6|||Variants associated with non-alcoholic liver disease
+P|G3|D12|sup|c|bg|sup:c:bg:V7|||Hemizygous variants lead to steatohepatitis
+P|G3|D13|sup|c|bg|sup:c:bg:V7|||Hemizygous variants lead to hepatic fibrosis
+P|G3|D9|unc|-||unc:c:unk:V8|scope,hedged_claim|V6|Joint table row; risk advice only
+P|G3|D1|unc|-||unc:a:unk:V8|hedged_claim|V7|Detected in PMS; contribution only possible
+P|G4|D9|unc|-||unc:c:unk:V8+V9|hedged_claim,scope||Similar mechanism only proposed for human gene
+P|G4|D14|unc|-||unc:c:bg:V9|scope||Evidence is mouse Ppara deficiency
+P|G5|D14|sup|c|bg|sup:c:bg:V9|||Mouse Ppara deficiency leads to NAFLD
+P|G5|D12|sup|c|bg|sup:c:bg:V10|||Lack of Ppara promotes steatohepatitis progression
+P|G5|D16|unc|-||unc:a:bg:V10|coreference||Subject may be lipid peroxidation, not Ppara
+P|G6|D17|sup|c|bg|sup:c:bg:V12|||Pathogenic variants cause dominant myopia
+P|G6|D18|sup|c|bg|sup:c:bg:V12|||Pathogenic variants cause cardioencephalomyopathy
+P|G6|D1|unc|-||unc:a:bg:V11+V17|hedged_claim||Studies suggested haploinsufficiency may contribute
+P|G7|D19|sup|c|bg|sup:c:bg:V13|||Enzyme deficiency causes MDDS1
+P|G7|D1|unc|-||unc:a:bg:V11|hedged_claim||Studies suggested haploinsufficiency may contribute
+P|G8|D3|sup|a|bg|sup:a:bg:V14|||Copy loss implicated in SHANK3-unrelated cases
+P|G8|D2|unc|-||unc:a:bg:V14|hedged_claim||Only may occur in large deletions
+P|G8|D1|unc|-||unc:a:bg:V11|hedged_claim||Studies suggested haploinsufficiency may contribute
+P|G14|D6|sup|a|bg|sup:a:bg:V15|||Pathogenic variants associated with schizophrenia
+P|G14|D1|unc|-||unc:a:bg:V16|scope||Methylation change in PMS, not disease attribution
+P|G14|D22|nf|-||||V15|Pathway-level link to mental illness only
+F|F1|mechanism|BRD1 copy loss; genome-wide methylation|individuals with PMS|significant|unknown|not_reported|V16|background-reported; no statistics shown
+R|Table 1 joint gene rows|b0046.s1|Row mechanism mixes PNPLA3 variants and PPARA protein loss|Not assigned to members individually; marked uncertain

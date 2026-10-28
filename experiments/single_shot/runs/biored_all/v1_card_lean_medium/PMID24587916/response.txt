@@ -1,0 +1,16 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|lactoferrin|Lactoferrin;LF;lactoferrin|r||non-human||
+E|D1|disease|dexamethasone-induced hypertension|dexamethasone-induced hypertension;Dex-induced hypertension|r|||D2|
+E|D2|disease|hypertension|hypertension|r||||
+E|S1|phenotype|oxidative stress|oxidative stress|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s11|ts|res|aff|rr,cmp,mi
+EV|V3|b0002.s13|ts|res|aff|rr
+EV|V4|b0002.s13|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3|||Oral bovine LF lowered and prevented Dex-induced hypertension
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background: LF has antihypertensive properties
+F|F1|group_comparison|LF treatment vs SBP (reversal)|Dex-treated Wistar rats|significant|negative|partial|V2|P value only; abstract
+F|F2|group_comparison|LF dose vs SBP (prevention)|Dex-treated Wistar rats|significant|negative|partial|V2|Dose-dependent; P value only
+F|F3|hypothesis|LF antioxidant action as antihypertensive mechanism|Dex-induced hypertensive rats|not_applicable|not_applicable|not_applicable|V4|Authors' suggestion
+R|exogenous protein as treatment|b0002.s5|Gene product given as a drug, not a gene alteration|Treated the treatment effect as association, not causal

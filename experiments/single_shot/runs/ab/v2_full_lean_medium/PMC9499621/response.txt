@@ -1,0 +1,72 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, Tables 1-2, captions; no figure images or supplements
+E|G1|gene|CFTR|CFTR;cystic fibrosis transmembrane conductance regulator;CTFR|r|suspected_typo|human||
+E|D1|disease|cystic fibrosis|cystic fibrosis;Cystic fibrosis;CF|r||||
+E|D2|disease|CFTR-associated disorders|CFTR-associated disorders;CFTR-associated disease;CFTR-associated diseases|r||||
+E|D3|disease|allergic bronchopulmonary aspergillosis|allergic bronchopulmonary aspergillosis;ABPA|r||||
+E|D4|disease|distal intestinal obstruction syndrome|distal intestinal obstruction syndrome;DIOS|r||||
+E|D5|disease|salt wasting syndrome|salt wasting syndrome;SWS|r||||
+E|D6|disease|Pseudo-Bartter syndrome|Pseudo-Bartter syndrome|r||||
+E|D7|disease|pneumothorax|pneumothorax;Pneumothorax|r||||
+E|D8|disease|liver disease|liver disease;Liver disease|r||||
+E|D9|disease|cirrhosis|cirrhosis|r|||D8|
+E|D10|disease|steatosis|steatosis|r|||D8|
+E|D11|disease|viral hepatitis|viral hepatitis|r|||D8|
+E|D12|disease|portal hypertension|portal hypertension|r||||
+E|D13|disease|upper respiratory tract polyposis|upper respiratory tract polyposis;Upper respiratory tract polyposis|r||||
+E|D14|clinical_event|pulmonary hemorrhage|pulmonary hemorrhage|r||||
+E|D15|disease|osteoporosis|osteoporosis;Osteoporosis|r||||
+E|D16|disease|amyloidosis|amyloidosis;Amyloidosis|r||||
+E|D17|disease|malignant tumors|malignant tumors;malignancy|p|ambiguous_mapping|||
+E|D18|disease|CF-related diabetes|CF-related diabetes;CFRD;Diabetes;diabetes|p|ambiguous_mapping|||
+E|D19|disease|meconium ileus|meconium ileus;Meconium ileus|r||||
+E|D20|disease|chronic Pseudomonas aeruginosa infection|chronic Pseudomonas aeruginosa infection;Chronic P.aeruginosa|r||||
+E|S1|symptom|Hemoptysis|Hemoptysis|r||||
+E|S2|phenotype|lung inflammation|lung inflammation|r||||
+E|S3|phenotype|polyorganic failure|polyorganic failure|r||||
+E|S4|symptom|exercise-induced asthma|exercise-induced asthma|r||||
+E|S5|symptom|coughing|coughing|r||||
+X|Disease complications in the reporting year|b0114|table_grouping_label
+X|class I/class I|b0019|CFTR mutation class group, not entity
+X|VX-770|b0023|drug code, not gene
+X|MRSA|b0108|microbial organism, not disease entity
+EV|V1|b0004.s1|bg|bgr|aff|ebr
+EV|V2|b0031.s3|bg|bgr|aff|ebr
+EV|V3|b0031.s2|bg|bgr|aff|ebr
+EV|V4|b0036.s5|bg|bgr|aff|ebr
+EV|V5|b0035.s1+b0015.s1+b0081.s1|ts|neg|neg|cmp
+EV|V6|b0115.s1|ts|neg|neg|cmp
+EV|V7|b0116.s1|ts|neg|neg|cmp
+EV|V8|b0117.s1|ts|neg|neg|cmp
+EV|V9|b0118.s1|ts|neg|neg|cmp
+EV|V10|b0121.s1|ts|neg|neg|cmp
+EV|V11|b0122.s1|ts|neg|neg|cmp
+EV|V12|b0125.s1+b0126.s1|ts|neg|neg|cmp
+EV|V13|b0130.s1+b0131.s1+b0132.s1+b0133.s1|ts|neg|neg|cmp
+EV|V14|b0096.s1|ts|neg|neg|cmp
+EV|V15|b0100.s1+b0054.s1|ts|neg|neg|cmp
+EV|V16|b0036.s1+b0002.s6+b0071.s2|ts|int|neg|cmp
+EV|V17|b0020.s1+b0019.s2+b0164.s1|ts|res|aff|cmp
+EV|V18|b0041.s1+b0024.s2+b0025.s1|ts|res|aff|cmp
+EV|V19|b0014.s1|ts|co|na|do
+EV|V20|b0036.s4|bg|bgr|hyp|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;neg:a:ts:V16||V5|CF caused by CFTR mutations; severity unaffected
+P|G1|D2|sup|c|bg|sup:c:bg:V2+V3+V4||V20|Cited CFTR variants cause CFTR-associated disorders
+P|G1|D3|neg|-|ts|neg:a:ts:V5+V6|||Complex allele vs F508del homozygotes, p=0.923
+P|G1|D4|neg|-|ts|neg:a:ts:V5+V7|||Complex allele vs F508del homozygotes, p=0.905
+P|G1|D6|neg|-|ts|neg:a:ts:V5+V8|||Complex allele vs F508del homozygotes, p=0.550
+P|G1|D7|neg|-|ts|neg:a:ts:V5+V9|||Complex allele vs F508del homozygotes, p=0.581
+P|G1|D15|neg|-|ts|neg:a:ts:V5+V10|||Complex allele vs F508del homozygotes, p=0.388
+P|G1|D13|neg|-|ts|neg:a:ts:V5+V11|||Complex allele vs F508del homozygotes, p=0.639
+P|G1|D18|neg|-|ts|neg:a:ts:V5+V12|||Complex allele vs F508del homozygotes, p=0.709
+P|G1|D8|neg|-|ts|neg:a:ts:V5+V13|||Complex allele vs F508del homozygotes, p=0.055
+P|G1|D19|neg|-|ts|neg:a:ts:V5+V14|||Complex allele vs F508del homozygotes, p=0.493
+P|G1|D20|neg|-|ts|neg:a:ts:V5+V15|||Complex allele vs F508del homozygotes, p=0.570
+P|G1|D16|nf|-||||V5|0/0 in both groups; no test
+F|F1|group_comparison|complex allele genotype vs clinical course, complications|Russian CF F508del homozygotes, 50 vs 479|not_significant|unknown|available|V5+V6+V7+V8+V9+V10+V11+V12+V13+V14+V15|registry data; unequal group sizes
+F|F2|hypothesis|complex allele vs CF severity|Russian CF patients|unknown|unknown|not_reported|V16|interpretation hedged ("probably")
+F|F3|group_comparison|genotype vs ICM forskolin chloride current|3 complex-allele vs 3 F508del homozygotes|significant|negative|partial|V17|n=3; no p-value reported
+F|F4|group_comparison|genotype vs organoid FIS modulator response|3 organoid cultures vs 1 control|unknown|negative|partial|V18|no statistical test reported
+F|F5|descriptive|[L467F;F508del] frequency|810 Russian F508del homozygous CF patients|not_applicable|not_applicable|available|V19|
+C|C1|Table 1 allele label omits F|b0082.s1+b0081.s1|noncritical|resolved|Typo L467 for L467F; same group
+R|R5|b0035.s1;Table 1|Comparator is another CFTR genotype in CF patients, not non-carriers|Treated CFTR genotype contrast as gene state; explicit_negative limited to CF patients

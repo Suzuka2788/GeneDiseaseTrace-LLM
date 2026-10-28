@@ -1,0 +1,43 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|Hsp90beta|Hsp90beta|r||non-human||
+E|G2|gene|TGF-beta|TGF-beta|r||non-human||
+E|G3|gene|HIF-1alpha|HIF-1alpha|r||non-human||
+E|G4|gene|TNF-alpha|TNF-alpha|r||non-human||
+E|G5|gene|IL-6|IL-6|r||non-human||
+E|G6|gene|MCP-1|MCP-1|r||non-human||
+E|G7|gene|p38|p38|p|ambiguous_mapping|non-human||
+E|G8|gene|Bcl-2|Bcl-2|r||non-human||
+E|G9|gene|mTOR|mTOR|r||non-human||
+E|G10|gene|TAK1|TAK1|r||non-human||
+E|G11|gene|AMPKalpha|AMPKalpha|p|ambiguous_mapping|non-human||
+E|G12|ambiguous_gene|IKKalpha/beta|IKKalpha/beta|u|ambiguous_mapping|non-human||
+E|G13|gene|Raptor|Raptor|r||non-human||
+E|D1|disease|high salt-diet-induced nephropathy|high salt-diet-induced nephropathy;nephropathy|r||||
+E|D2|disease|renal damage|renal damage|p|other|||
+E|D3|disease|renal dysfunction|renal dysfunction|p|other|||
+E|S1|phenotype|proteinuria|proteinuria|r||||
+E|S2|phenotype|renal inflammation|renal inflammation|r||||
+E|S3|phenotype|fibrosis|fibrosis|r||||
+E|S4|phenotype|tubular epithelial cell apoptosis|tubular epithelial cell apoptosis|r||||
+E|S5|phenotype|renal hypoxia|renal hypoxia|r||||
+E|S6|phenotype|oxidative stress|oxidative stress|r||||
+X|NF-kappaB|b0002|complex, not single gene
+X|spontaneous hypertensive|b0002|rat strain name, not analysed disease
+X|17-DMAG|b0002|drug, not gene
+EV|V1|b0002.s7|ts|res|aff|mi,rr
+EV|V2|b0002.s11|ts|int|aff|mi
+EV|V3|b0002.s5|ts|hyp|hyp|ho
+EV|V4|b0002.s1+b0002.s4|ts|co|na|do
+EV|V5|b0002.s8|ts|res|na|rr
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2;unc:-:ts:V3||V5|knockdown alleviated salt-induced nephropathy in rats
+P|G1|D2|sup|c|ts|sup:c:ts:V1|||knockdown alleviated renal damage in rats
+P|G2|D1|unc|-|ts|unc:-:ts:V4|scope||expression raised by salt loading only
+P|G3|D1|unc|-|ts|unc:-:ts:V4|scope|V5|expression raised by salt loading only
+P|G4|D1|unc|-|ts|unc:-:ts:V4|scope||expression raised by salt loading only
+P|G5|D1|unc|-|ts|unc:-:ts:V4|scope||expression raised by salt loading only
+P|G6|D1|unc|-|ts|unc:-:ts:V4|scope||expression raised by salt loading only
+F|F1|other|Hsp90beta knockdown/17-DMAG vs proteinuria, renal damage|WKY/SHR rats on high-salt diet|unknown|negative|not_reported|V1|abstract only
+F|F2|descriptive|Hsp90beta, TGF-beta, HIF-1alpha, TNF-alpha, IL-6, MCP-1 expression|salt-loaded WKY/SHR rats|unknown|positive|not_reported|V4|comparator unstated
+F|F3|mechanism|Hsp90beta binds TAK1, AMPKalpha, IKK, HIF-1alpha, Raptor|rat renal tissue (Co-IP)|not_applicable|not_applicable|not_applicable|V5|
+R|nonhuman species|b0002|Rat context explicit, gene species stated by model only|Marked non-human, not species_unresolved

@@ -1,0 +1,24 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|IL12B|interleukin 12B;IL12B|r||human||
+E|E2|disease|hepatitis C virus infection|hepatitis C virus infection;HCV infection;HCV-infection|r||||
+E|E3|disease|chronic HCV infection|chronically HCV infected|p|other|||E2|
+E|E4|disease|self-limited HCV infection|self-limited HCV infection|r|||E2|
+E|E5|clinical_event|spontaneous HCV clearance|spontaneous HCV clearance|r||||
+E|E6|clinical_event|sustained virologic response|sustained virologic response;SVR|r||||
+E|E7|clinical_event|relapse|relapse|r||||
+X|Interleukin-12|b0002|cytokine complex, not single-gene endpoint (also IL-12)
+X|HCV genotype 1|b0002|viral genotype, not a disease entity
+EV|V1|b0002.s5|ts|neg|neg|rr,cmp
+EV|V2|b0002.s8|ts|neg|neg|rr
+EV|V3|b0002.s6|ts|res|aff|rr,cmp
+EV|V4|b0002.s7|ts|int|hyp|ho
+P|E1|E2|neg|-|ts|neg:-:ts:V1+V2||V4|No genotype difference between HCV cohorts and controls
+P|E1|E3|neg|-|ts|neg:-:ts:V1|||Chronic cohort genotype proportions not different
+P|E1|E4|neg|-|ts|neg:-:ts:V2|||No association with self-limited infection stated
+P|E1|E5|neg|-|ts|neg:-:ts:V1|||Clearance cohort genotypes not different
+P|E1|E6|sup|a|ts|sup:a:ts:V3||V4|1188-C carriers higher SVR in genotype-1 high-viremia
+P|E1|E7|sup|a|ts|sup:a:ts:V3||V4|C-allele linked to lower relapse rates in subgroup
+F|F1|group_comparison|IL12B promoter and 3'-UTR genotype proportions|clearance, chronic HCV, healthy controls|not_significant|null|not_reported|V1+V2|abstract only
+F|F2|association|IL12B 1188-C allele vs SVR rate|HCV genotype 1, high viremia patients|significant|positive|partial|V3|subgroup only; no p-values
+F|F3|association|IL12B 1188-C allele vs relapse rate|HCV genotype 1, high viremia patients|unknown|negative|partial|V3|significance not stated for relapse

@@ -1,0 +1,15 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|FGFR2|FGFR2;FGF receptor 2|r||non-human||
+E|G2|gene|SOX2|SOX2|r||non-human||
+E|D1|disease|cancer|cancer|r||||
+E|D2|disease|degenerative disease|degenerative disease|r||||
+X|receptor tyrosine kinase|b0002|gene family, not single gene
+EV|V1|b0002.s5|ts|int|hyp|ho
+EV|V2|b0002.s2|bg|hyp|hyp|ho
+EV|V3|b0002.s3|ts|res|na|mi
+EV|V4|b0002.s4|ts|res|na|rr
+P|G1|D1|unc|-|ts|unc:-:ts:V1|hedged_claim|V2|Authors speculate RTK changes may explain cancer
+P|G1|D2|nf|-|||||V2|Only generic regulator mutations hypothesised
+F|F1|mechanism|Fgfr2 heterozygous deletion; basal cell phenotypes|adult mouse airway basal cells|unknown|unknown|not_reported|V3|abstract only; no disease outcome
+F|F2|correlation|FGFR2 signalling vs SOX2 expression|mouse airway basal cells|unknown|positive|not_reported|V4|abstract only

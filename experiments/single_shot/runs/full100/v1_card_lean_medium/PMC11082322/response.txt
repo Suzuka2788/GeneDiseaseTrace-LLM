@@ -1,0 +1,230 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full review text with Tables 1-2; supplementary material unread
+E|D1|disease|Sjögren's syndrome|Sjögren's syndrome;SS;Sjögren syndrome|r||||
+E|D2|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r||||
+E|D3|disease|rheumatoid arthritis|rheumatoid arthritis;RA|r||||
+E|D4|disease|Behcet disease|Behcet disease|r||||
+E|D5|disease|non-Hodgkin's lymphoma|non-Hodgkin's lymphoma;NHL|r||||
+E|D6|disease|lymphoma|lymphoma|r||||
+E|D7|disease|MALT lymphoma|MALT lymphoma|r||||
+E|D8|disease|multiple sclerosis|multiple sclerosis|r||||
+E|D9|disease|Crohn's disease|Crohn's disease|r||||
+E|D10|disease|autoimmune thyroiditis|autoimmune thyroiditis|r||||
+E|D11|disease|interstitial lung disease|interstitial lung disease;ILD|r||||
+E|D12|disease|interstitial nephritis|interstitial nephritis|r||||
+E|D13|disease|annular erythema|annular erythema|r||||
+E|D14|disease|primary biliary cirrhosis|primary biliary cirrhosis|r||||
+E|D15|disease|arthritis|arthritis|r||||
+E|D16|disease|SS-associated arthritis|SS-associated arthritis|r|||D15|
+E|D17|disease|Sjögren's-like disease|Sjögren's-like disease|r||||
+E|D18|disease|SS-like exocrinopathy|SS-like exocrinopathy|r||||
+E|D19|disease|SS-like liver lesions|SS-like liver lesions|r||||
+E|D20|disease|autoimmune lacrimal gland disease|autoimmune lacrimal gland disease|r||||
+E|D21|disease|autoimmune diseases|autoimmune diseases|r||||
+E|D22|disease|pSS|pSS|p|undefined_abbreviation|||
+E|S1|symptom|Raynaud's phenomenon|Raynaud's phenomenon|r||||
+E|S2|symptom|lymphadenopathy|lymphadenopathy|r||||
+E|G1|gene|L-selectin|L-selectin|r||human||
+E|G2|gene|P-selectin|P-selectin|r||human||
+E|G3|gene|E-selectin|E-selectin|r||human||
+E|G4|gene|MAdCAM-1|MAdCAM-1;MadCAM-1;mucosal addressin cell adhesion molecule-1;MAdCAM|r||human||
+E|G5|gene|ICAM-1|ICAM-1;intercellular cell adhesion molecule-1|r||human||
+E|G6|gene|VCAM-1|VCAM-1;vascular cell adhesion molecule|r||human||
+E|G7|gene|CXCL13|CXCL13;B cell-attracting chemokine-1;BCA-1;B lymphocyte chemoattractant;BLC|r||human||
+E|G8|gene|CXCR5|CXCR5|r||human||
+E|G9|gene|CCL25|CCL25;thymus-expressed chemokine;TECK|r||human||
+E|G10|gene|CCR9|CCR9|r||human||
+E|G11|gene|CX3CL1|CX3CL1;Fractalkine|r||human||
+E|G12|gene|CX3CR1|CX3CR1|r||human||
+E|G13|gene|TNF-α|TNF-α;tumor necrosis factor-α|r||human||
+E|G14|gene|TNF|TNF;tumor necrosis factor|p|ambiguous_mapping|human||
+E|G15|gene|IFN-β|IFN-β|r||human||
+E|G16|gene|IFN-γ|IFN-γ|r||human||
+E|G17|gene|BAFF|BAFF;B cell activating factor;B cell-activating factor;B lymphocyte-stimulating factor|r||human||
+E|G18|gene|IL-7|IL-7|r||human||
+E|G19|gene|IL-17|IL-17|r||human||
+E|G20|gene|CCL19|CCL19;ELC|r||human||
+E|G21|gene|CXCL8|CXCL8;IL-8|r||human||
+E|G22|gene|CXCL9|CXCL9;MIG|r||human||
+E|G23|gene|CXCL10|CXCL10;IP-10|r||human||
+E|G24|gene|CXCL11|CXCL11;I-TAC|r||human||
+E|G25|gene|CXCL17|CXCL17;DMC|r||human||
+E|G26|gene|CCL5|CCL5;RANTES|r||human||
+E|G27|gene|CCL17|CCL17;TARC|r||human||
+E|G28|gene|CCL21|CCL21;exodus-2;secondary lymphoid chemokine;SLC|r||human||
+E|G29|gene|CCL22|CCL22;MDC|r||human||
+E|G30|gene|CXCL1|CXCL1;GRO-α|r||human||
+E|G31|gene|CXCL12|CXCL12;stromal cell-derived factor-1;SDF-1|r||human||
+E|G32|gene|CXCR4|CXCR4|r||human||
+E|G33|gene|CCR7|CCR7|r||human||
+E|G34|gene|CCL20|CCL20|r||human||
+E|G35|gene|CCL28|CCL28;MEC|r||human||
+E|G36|gene|CCR1|CCR1|r||human||
+E|G37|gene|CXCR2|CXCR2|r||human||
+E|G38|gene|CCL2|CCL2;MCP-1|r||human||
+E|G39|gene|CXCR3|CXCR3|r||human||
+E|G40|gene|CCR4|CCR4|r||human||
+E|G41|gene|CCL3|CCL3|r||human||
+E|G42|gene|CCL11|CCL11;Eotaxin-1|r||human||
+E|G43|gene|CCR2|CCR2|r||human||
+E|G44|gene|CCR5|CCR5|r||human||
+E|G45|gene|CCR3|CCR3|r||human||
+E|G46|gene|CCR10|CCR10|r||human||
+E|G47|gene|CXCR1|CXCR1|r||human||
+E|G48|gene|CXCR8|CXCR8|r||human||
+E|G49|gene|IL-21|IL-21|r||human||
+E|G50|gene|cathepsin S|cathepsin S|r||human||
+E|G51|gene|LTBR|LTBR;lymphotoxin-β receptor;lymphotoxin-beta receptor|r||human||
+E|G52|gene|LTB|LTB|r||human||
+E|G53|gene|CD20|CD20|r||human||
+E|G54|gene|A20|A20|p|species_unresolved|||
+E|G55|gene|NF-κB2|NF-κB2|r||||
+E|G56|gene|NF-κB1|NF-κB1|r||||
+E|G57|gene|JAK1|JAK1|r||human||
+E|G58|gene|JAK2|JAK2|r||human||
+E|G59|gene|JAK3|JAK3|r||human||
+E|G60|gene|tyrosine kinase 2|tyrosine kinase 2|r||human||
+E|G61|gene|STAT1|STAT1|r||human||
+E|G62|gene|ADAM17|ADAM17;disintegrin and metalloproteinase-17|r||human||
+E|G63|gene|PARP-9|PARP-9;poly (ADP-ribose) polymerase family member 9|r||human||
+E|G64|gene|miR-744-5p|miR-744-5p|r||human||
+E|G65|gene|CTLA4|CTLA4|r||human||
+E|G66|gene|CD80|CD80|r||human||
+E|G67|gene|CD11a|CD11a|r||human||
+E|G68|gene|CD18|CD18|r||human||
+E|G69|gene|CD49d|CD49d|r||human||
+E|G70|gene|CD29|CD29|r||human||
+E|G71|gene|IL-4|IL-4|r||||
+E|G72|gene|IL-12|IL-12|r||||
+E|G73|gene|IL-18|IL-18|r||||
+E|G74|gene|CCL12|CCL12;MCP-5|r||non-human||
+E|G75|gene|CCX-CKR|CCX-CKR|r||non-human||
+E|G76|gene|BAFFR|BAFFR;BAFF receptor|r||non-human||
+E|G77|gene|CXCL13 (mouse)|CXCL13|r||non-human||
+E|G78|gene|TNF-α (mouse)|TNF-α|r||non-human||
+E|G79|ambiguous_gene|E calreticulin|E calreticulin|u|ambiguous_mapping|||
+E|G80|ambiguous_gene|PNAD|PNAD;peripheral node addressin;PNAd;PAND|p|suspected_typo,ambiguous_mapping|||
+E|G81|ambiguous_gene|mucosal vascular addressin|mucosal vascular addressin;Mad|u|ambiguous_mapping|||
+X|α4β7|b0007|integrin heterodimer complex, not a single gene
+X|VLA-4|b0007|integrin heterodimer complex
+X|LFA-1|b0007|integrin heterodimer complex
+X|IFN-α|b0002|gene family
+X|NF-κB|b0002|transcription factor family/complex
+X|TGF-β|b0054|gene family
+X|MMPs|b0012|gene family
+X|CCL3/4|b0040|combined notation; CCL4 has no standalone surface form
+X|CD4+ T|b0004|cell-type label
+X|anti-Ro/SSA|b0031|autoantibody, not gene
+EV|V1|b0018.s4|bg|bgr|aff|ebr
+EV|V2|b0018.s5|bg|bgr|aff|ebr
+EV|V3|b0024.s5|bg|bgr|aff|ebr
+EV|V4|b0072.s8|bg|bgr|aff|ebr
+EV|V5|b0072.s7|bg|co|q|do
+EV|V6|b0024.s6+b0022.s4|bg|int|hyp|unc
+EV|V7|b0013.s3|bg|bgr|aff|ebr
+EV|V8|b0027.s5|bg|bgr|aff|ebr
+EV|V9|b0027.s8|bg|bgr|aff|ebr
+EV|V10|b0027.s6|bg|bgr|aff|ebr
+EV|V11|b0013.s2|bg|bgr|aff|ebr
+EV|V12|b0036.s6+b0044.s1|bg|bgr|aff|ebr,cmp
+EV|V13|b0031.s5+b0045.s1|bg|bgr|aff|ebr
+EV|V14|b0031.s7|bg|int|hyp|ho
+EV|V15|b0033.s5+b0033.s6|bg|bgr|aff|ebr
+EV|V16|b0035.s8+b0035.s9|bg|bgr|aff|ebr
+EV|V17|b0035.s3|bg|bgr|aff|ebr
+EV|V18|b0036.s1+b0048.s1|bg|bgr|aff|ebr
+EV|V19|b0036.s2+b0039.s1|bg|bgr|aff|ebr
+EV|V20|b0036.s4+b0051.s1|bg|bgr|aff|ebr
+EV|V21|b0036.s5+b0043.s1+b0046.s1|bg|bgr|aff|ebr
+EV|V22|b0037.s1+b0040.s1|bg|bgr|aff|ebr
+EV|V23|b0037.s1+b0042.s1|bg|bgr|aff|ebr
+EV|V24|b0029.s5+b0054.s1|bg|bgr|aff|ebr
+EV|V25|b0029.s4|bg|bgr|aff|unc
+EV|V26|b0079.s1+b0079.s2|bg|bgr|aff|ebr,eda
+EV|V27|b0079.s4|bg|bgr|aff|ebr
+EV|V28|b0081.s1+b0081.s3|bg|bgr|aff|ebr
+EV|V29|b0083.s2|bg|bgr|aff|ebr
+EV|V30|b0075.s3|bg|bgr|aff|ebr,cmp
+EV|V31|b0072.s6|bg|bgr|aff|mi
+EV|V32|b0083.s4|bg|bgr|aff|mi
+EV|V33|b0036.s3+b0063.s1|bg|bgr|aff|ebr
+EV|V34|b0059.s1+b0068.s1|bg|bgr|aff|ebr
+EV|V35|b0079.s6|bg|bgr|aff|ebr
+EV|V36|b0079.s9+b0079.s7|bg|int|hyp|ho
+EV|V37|b0083.s6|bg|int|hyp|ho
+EV|V38|b0086.s2|bg|bgr|aff|ebr
+EV|V39|b0072.s11|bg|bgr|aff|ebr,cmp
+EV|V40|b0036.s1|bg|bgr|aff|ebr
+EV|V41|b0041.s1|bg|bgr|aff|ebr
+EV|V42|b0086.s2|bg|bgr|pre|unc
+EV|V43|b0086.s2|bg|hyp|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1||||Salivary soluble L-selectin higher in SS
+P|G1|D10|sup|a|bg|sup:a:bg:V2||||Higher L-selectin linked to autoimmune thyroiditis in SS
+P|G18|D1|sup|a|bg|sup:a:bg:V1||||Salivary IL-7 higher in SS
+P|G5|D1|sup|a|bg|sup:a:bg:V3|||V6|ICAM-1 upregulated in SS salivary gland
+P|G5|D16|sup|a|bg|sup:a:bg:V4||||Higher ICAM-1 in SS-associated arthritis joint fluid
+P|G5|D13|unc|-|bg|unc:-:bg:V5|scope|||Strong expression described, no comparator
+P|G6|D1|unc|-|bg|unc:-:bg:V6|hedged_claim|||Upregulation only suggested; may wording
+P|G7|D1|sup|r|bg|sup:r:bg:V8;sup:a:bg:V7||||Correlates with disease activity; elevated serum
+P|G7|D5|sup|r|bg|sup:r:bg:V9||||Serum CXCL13 correlated with NHL risk
+P|G8|D1|sup|a|bg|sup:a:bg:V10||||More CXCR5-expressing cells in SS glands
+P|G9|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V15||||CCL25 increased in SS salivary glands
+P|G10|D1|sup|a|bg|sup:a:bg:V15||||CCR9-expressing Th cells increased in SS
+P|G11|D1|sup|a|bg|sup:a:bg:V7;sup:a:bg:V16||||CX3CL1 elevated in SS serum and glands
+P|G12|D1|sup|a|bg|sup:a:bg:V16||||CX3CR1 upregulated in SS B cells, glands
+P|G13|D1|sup|c|bg|sup:c:bg:V26;sup:a:bg:V27||||TNF-α leads to development of SS
+P|G13|D3|sup|c|bg|sup:c:bg:V26||||TNF-α leads to development of RA
+P|G13|D9|sup|c|bg|sup:c:bg:V26||||TNF-α leads to development of Crohn's
+P|G15|D1|sup|a|bg|sup:a:bg:V28||||Type I IFN central in SS pathogenesis
+P|G16|D1|sup|a|bg|sup:a:bg:V28||||IFN-γ central in SS pathogenesis
+P|G17|D1|sup|a|bg|sup:a:bg:V29||||BAFF elevated in SS
+P|G19|D1|sup|a|bg|sup:a:bg:V30||||Higher serum IL-17 vs controls
+P|G20|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V12||||CCL19 increased in SS vs non-SS
+P|G21|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V19||||CXCL8 high in SS tears/saliva
+P|G22|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V20||||CXCL9 increased in SS
+P|G23|D1|sup|r|bg|sup:r:bg:V20;sup:a:bg:V11+V39||||Correlates with ocular symptoms; elevated in SS
+P|G24|D1|sup|r|bg|sup:r:bg:V20;sup:a:bg:V11||||Correlates with ocular symptoms; elevated in SS
+P|G25|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V19||||CXCL17 high in SS tears/saliva
+P|G26|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V40||||CCL5 upregulated in SS glands
+P|G26|D22|sup|a|bg|sup:a:bg:V41||||CCL5 mRNA up in pSS B cells
+P|G27|D1|sup|a|bg|sup:a:bg:V11+V21||||CCL17 upregulated in SS glands
+P|G28|D1|sup|r|bg|sup:r:bg:V13;sup:a:bg:V11+V40||||CCL21 linked to ESR, ESSDAI in SS
+P|G28|D6|unc|-|bg|unc:-:bg:V14|hedged_claim|||Role in lymphomagenesis only suggested
+P|G29|D1|sup|a|bg|sup:a:bg:V11+V21||||CCL22 upregulated in SS glands
+P|G30|D1|sup|a|bg|sup:a:bg:V11;sup:a:bg:V40||||CXCL1 upregulated in SS glands
+P|G31|D1|sup|a|bg|sup:a:bg:V11||||CXCL12 upregulated in SS glands
+P|G31|D7|sup|a|bg|sup:a:bg:V24||||CXCL12 elevated in MALT lymphoma
+P|G32|D7|unc|-|bg|unc:-:bg:V25|scope|||Axis-level role only, not CXCR4 individually
+P|G33|D1|sup|r|bg|sup:r:bg:V13;sup:a:bg:V12||||CCR7 expression linked to SS activity measures
+P|G35|D1|sup|a|bg|sup:a:bg:V18||||Reduced CCL28 in SS
+P|G36|D1|sup|a|bg|sup:a:bg:V40||||CCR1 increased in SS glands
+P|G36|D22|sup|a|bg|sup:a:bg:V41||||CCR1 mRNA up in pSS B cells
+P|G37|D1|sup|a|bg|sup:a:bg:V40||||CXCR2 increased in SS glands
+P|G38|D1|sup|a|bg|sup:a:bg:V19||||Low CCL2 in SS tears
+P|G39|D1|sup|a|bg|sup:a:bg:V20||||CXCR3 increased in SS tear film
+P|G40|D1|sup|a|bg|sup:a:bg:V21||||CCR4 infiltration increased in SS glands
+P|G41|D1|sup|a|bg|sup:a:bg:V22||||CCL3 protein increased in SS
+P|G42|D1|sup|a|bg|sup:a:bg:V23||||Serum CCL11 linked to GC-like structures
+P|G50|D1|sup|a|bg|sup:a:bg:V17||||Cathepsin S activity increased in SS tears
+P|G51|D1|unc|-|bg|unc:-:bg:V37|hedged_claim|||Required for ELSs; may be target
+P|G63|D1|sup|a|bg|sup:a:bg:V38||||Regulator of infiltration in SS progression
+P|G62|D1|unc|-|bg|unc:-:bg:V42|presupposed_only|||Inhibitor effect presupposes role
+P|G64|D1|unc|-|bg|unc:-:bg:V43|hedged_claim|||May be therapeutic target only
+P|G74|D17|sup|r|bg|sup:r:bg:V33||||CCL12 ratio rises with disease extent
+P|G75|D19|sup|c|bg|sup:c:bg:V31||||Knockout mice show more SS-like liver lesions
+P|G76|D1|sup|c|bg|sup:c:bg:V32||||Blocking BAFFR attenuates SS in NOD mice
+P|G77|D17|sup|a|bg|sup:a:bg:V34||||CXCL13 rises with murine disease progression
+P|G78|D18|sup|a|bg|sup:a:bg:V35||||TNF-α rises with SS-like exocrinopathy
+P|G78|D1|unc|-|bg|unc:-:bg:V36|hedged_claim|||Anti-TNF benefit only suggested in mice
+F|F1|correlation|CXCL13 vs SS disease activity|SS patients|unknown|positive|not_reported|V8|cited, no statistics
+F|F2|correlation|serum CXCL13 vs NHL risk|SS patients|unknown|positive|not_reported|V9|cited, no statistics
+F|F3|correlation|CCL21/CCR7 vs ESR, ESSDAI, titers|SS salivary glands|unknown|positive|not_reported|V13|cited
+F|F4|correlation|CXCL10/CXCL11 vs ocular symptoms|SS patients|unknown|positive|not_reported|V20|cited
+F|F5|group_comparison|serum CX3CL1, extra-glandular vs none|SS patients|significant|positive|not_reported|V16|cited
+F|F6|group_comparison|CCL19/CCR7 expression SS vs non-SS|salivary glands|unknown|positive|not_reported|V12|cited
+F|F7|correlation|CCL2/CCL12 ratio vs age, disease extent|MRL/MpJ mice|unknown|positive|not_reported|V33|cited
+C|C1|CCL28 sample type|b0036.s1+b0048.s1|noncritical|resolved|Text glandular mRNA; table serum; same direction
+C|C2|CCL5/CCR1 compartment|b0036.s1+b0041.s1|noncritical|resolved|Glands vs circulating pSS B cells
+U|Supplementary Material|b0097.s1|online only, not provided
+R|Table 2 murine rows|b0060-b0069|Duplicating every murine chemokine as non-human node is unbounded|Created mouse nodes only where disease-linked statements exist
+R|axis notation X/Y|b0029.s4|Ligand/receptor axis roles vs member-level expression unclear|Expression statements assigned to members; axis function claims left uncertain

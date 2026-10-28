@@ -1,0 +1,15 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CYP1A1|Cytochrome p4501A1;CYP1A1|r||human||
+E|D1|disease|prostate cancer|prostate cancer|r||||
+E|S1|phenotype|age of onset|age of onset|r||||
+E|S2|phenotype|tumor grade|tumor grade|r||||
+EV|V1|b0002.s1|bg|hyp|hyp|ho
+EV|V2|b0002.s2+b0002.s3|ts|res|aff|rr,cmp
+EV|V3|b0002.s5|ts|int|aff|rr
+EV|V4|b0002.s4|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3;unc:-:bg:V1||V1|Case-control genotype ORs significant, both risk directions
+F|F1|association|CYP1A1 3'UTR w1/m1 genotype vs prostate cancer|South Indian case-control, 100 individuals|significant|positive|available|V2|small sample
+F|F2|association|CYP1A1 exon7 Ile/Val w2/m2 vs prostate cancer|South Indian case-control, 100 individuals|significant|negative|available|V2|wide CI
+F|F3|association|w1/m1 genotype vs early onset age|prostate cancer cases|significant|positive|not_reported|V4|
+F|F4|association|variant genotypes vs tumor grade|prostate cancer cases|not_significant|null|not_reported|V4|

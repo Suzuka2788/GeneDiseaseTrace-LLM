@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|COX-2|COX-2|r||human||
+E|G2|gene|COX-1|COX-1|r||human||
+E|D1|disease|impacted third molars|impacted third molars|r||||
+E|D2|disease|tissue injury|tissue injury|p|other|||
+E|S1|symptom|pain|pain|r||||
+E|S2|phenotype|inflammation|inflammation|r||||
+X|cyclooxygenase (COX)|b0002|gene family, not single-gene endpoint
+X|PGE2|b0002|metabolite (prostaglandin E2), not gene
+X|TXB2|b0002|metabolite (thromboxane B2), not gene
+EV|V1|b0002.s8|ts|res|na|rr,cmp
+EV|V2|b0002.s9|ts|int|na|unc
+EV|V3|b0002.s10|ts|int|na|unc
+EV|V4|b0002.s3|ts|co|na|do
+P|G1|D2|nf|-||||V3|Drug induces COX-2 after injury; no gene-disease link
+P|G1|D1|nf|-||||V1+V4|Study population only; co-occurrence
+F|F1|group_comparison|bupivacaine vs lidocaine; COX-2 expression|third molar extraction subjects|significant|positive|not_reported|V1|abstract only, 48 h biopsies
+F|F2|mechanism|TXB2 levels; COX-1 vs COX-2 involvement|all four treatment groups|not_significant|null|not_reported|V2|inference from TXB2, not direct
+F|F3|association|COX-2 expression; PGE2 and pain|bupivacaine/placebo group|unknown|positive|not_reported|V3|authors' suggestion

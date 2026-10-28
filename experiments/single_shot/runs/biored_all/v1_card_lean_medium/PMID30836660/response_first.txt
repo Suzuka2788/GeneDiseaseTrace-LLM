@@ -1,0 +1,31 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TLR4|TLR4|p|species_unresolved||||
+E|G2|gene|IkappaBalpha|p-IkappaBalpha|p|species_unresolved||||
+E|G3|gene|TGF-beta1|transforming growth factor (TGF)-beta1;TGF-beta1|p|species_unresolved||||
+E|G4|gene|alpha-SMA|alpha-SMA|p|species_unresolved||||
+E|G5|gene|vimentin|vimentin|p|species_unresolved||||
+E|G6|gene|snail|snail|p|species_unresolved||||
+E|G7|gene|slug|slug|p|species_unresolved||||
+E|G8|gene|E-cadherin|E-cadherin|p|species_unresolved||||
+E|G9|gene|IL-1beta|IL-1beta|p|species_unresolved||||
+E|G10|gene|IL-6|IL-6|p|species_unresolved||||
+E|G11|gene|TNF-alpha|TNF-alpha|p|species_unresolved||||
+E|G12|gene|collagen I|collagen I|p|ambiguous_mapping,species_unresolved||||
+E|G13|ambiguous_gene|collagen SH|collagen SH|u|ambiguous_mapping,other||||
+E|D1|disease|renal interstitial fibrosis|Renal Interstitial Fibrosis;renal interstitial fibrosis;RIF|r|||||
+E|D2|disease|renal fibrosis|renal fibrosis|r|||||
+E|D3|disease|tubular injury|tubular injury|p|other||||
+E|D4|disease|renal damage|renal damage|p|other||||
+X|NF-kappaB|b0002.s11|complex/family, not single-gene endpoint
+X|MAPK|b0002.s11|kinase family, not single-gene endpoint
+X|unilateral ureteric obstruction|b0002.s4|experimental model procedure, not analysed disease
+X|HK-2|b0002.s4|cell line identifier
+EV|V1|b0002.s11|ts|int|q|unc
+EV|V2|b0002.s1+b0002.s13|ts|res|na|do
+P|G1|D1|unc|-|unc|unc:-:ts:V1|hedged_claim,presupposed_only||Drug effect linked to lower TLR4 expression only
+P|G2|D1|unc|-|unc|unc:-:ts:V1|hedged_claim,presupposed_only||Drug effect linked to lower p-IkappaBalpha only
+F|F1|group_comparison|EMT markers alpha-SMA, vimentin, TGF-beta1, snail, slug, E-cadherin|Sal-treated RIF mice, HK-2 cells|significant|negative|not_reported|V2|Direction mixed; E-cadherin restored
+F|F2|group_comparison|TLR4, p-IkappaBalpha expression vs Sal|Sal-treated UUO/FA mice, HK-2 cells|unknown|negative|not_reported|V1|Abstract only
+F|F3|group_comparison|serum IL-1beta, IL-6, TNF-alpha vs Sal|Sal-treated RIF mice|unknown|negative|not_reported|V2|Abstract only
+R|species|b0002.s4|Same markers measured in mice and human HK-2 cells|Single node per gene, species empty, species_unresolved

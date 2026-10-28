@@ -1,0 +1,14 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|purine nucleoside phosphorylase|purine nucleoside phosphorylase;PNP|r||human||
+E|D1|disease|Alzheimer's disease|Alzheimer's disease;AD;neurodegenerative disorder|r|||||
+E|S1|phenotype|cognitive decline|cognitive decline|r|||||
+X|G51S|b0002.s5|variant identifier, not gene
+X|neurodegenerative processes|b0002.s4|general process, not a named disease
+EV|V1|b0002.s5+b0002.s6|ts|neg|neg|cmp
+EV|V2|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0001.s1+b0002.s9|ts|int|aff|rr
+P|G1|D1|sup|r|ts|sup:r:ts:V2+V3;neg:-:ts:V1|||AA genotype linked to faster decline; no susceptibility difference
+F|F1|group_comparison|PNP G51S genotype distribution|AD 321 vs controls 208|not_significant|null|not_reported|V1|abstract only
+F|F2|group_comparison|PNP AA genotype vs decline rate|AD fast vs slow decliners|unknown|positive|not_reported|V2|no p-value in abstract
+C|C1|G51S substitution direction stated|b0002.s5|noncritical|unresolved|G51S vs "serine to glycine" wording

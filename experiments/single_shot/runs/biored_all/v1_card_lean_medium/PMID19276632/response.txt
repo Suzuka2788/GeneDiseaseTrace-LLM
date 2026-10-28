@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|FOXF2|FOXF2|r||human||
+E|G2|gene|Foxf2|Foxf2|p|species_unresolved|non-human||
+E|D1|disease|disorders of sex development|disorders of sex development;DSD|r||||
+E|D2|disease|cleft palate|cleft palate|r||||
+E|D3|disease|disorders of sexual differentiation|disorders of sexual differentiation|r||||
+E|S1|phenotype|hypoplasia of the genital tubercle|hypoplasia of the genital tubercle|r||||
+X|Ala88Thr|b0002.s8|variant identifier
+EV|V1|b0002.s3|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s4|ts|hyp|hyp|ho
+EV|V3|b0002.s7+b0002.s8+b0002.s9|ts|co|na|do
+EV|V4|b0002.s10|ts|int|neg|unc
+EV|V5|b0002.s11|ts|int|hyp|ho
+P|G2|D2|sup|c|bg|sup:c:bg:V1||V2|Knockout mice show cleft palate; non-human model
+P|G1|D1|unc|-||unc:-:ts:V3+V4+V5|hedged_claim|V2|Variants found but relevance only hedged
+P|G1|D2|unc|-||unc:-:ts:V3+V4+V5|hedged_claim|V2|Variants found but relevance only hedged
+F|F1|descriptive|FOXF2 sequence variants|18 DSD plus cleft palate patients|not_applicable|not_applicable|not_reported|V3|no statistical test
+F|F2|group_comparison|FOXF2 variant presence, patients vs controls|18 patients vs 20 controls|unknown|null|not_reported|V3+V4|small sample; no test reported
+R|cohort definition|b0002.s5|The cohort is defined by a combined phenotype, DSD plus cleft palate|Evaluated FOXF2 separately against D1 and D2

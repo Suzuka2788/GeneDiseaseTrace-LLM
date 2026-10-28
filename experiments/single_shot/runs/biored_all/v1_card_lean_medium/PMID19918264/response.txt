@@ -1,0 +1,17 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FGFR4|FGFR4;Fibroblast growth factor receptor 4|r||human||
+E|D1|disease|prostate cancer|prostate cancer|r||||
+E|D2|disease|BPH|BPH|p|undefined_abbreviation|||
+X|fibroblast growth receptor family|b0002|gene family, not a single-gene endpoint
+X|Gly388Arg|b0001|variant identifier
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s1|bg|bgr|aff|ebr
+EV|V3|b0002.s5+b0002.s7|ts|neg|neg|rr,cmp
+EV|V4|b0002.s6|ts|res|aff|rr,cmp
+EV|V5|b0002.s8|ts|int|q|unc
+P|G1|D1|unc|-|unk|sup:a:bg:V1;neg:-:ts:V3;unc:-:ts:V4|conflict|V2+V5|Prior positive association contradicted by this study's null
+P|G1|D2|nf|-||||V4|BPH only a comparator group
+F|F1|association|FGFR4 Arg allele vs prostate cancer|Scottish cancer cases vs BPH and controls|not_significant|null|partial|V3|abstract only
+F|F2|group_comparison|ArgGly genotype frequency|cancer vs BPH+controls; vs BPH; vs controls|mixed|positive|partial|V4|subgroup analysis; only P<0.05 reported
+C|C1|FGFR4-prostate cancer prior vs current results|b0002.s2+b0002.s5+b0002.s7+b0002.s8|status_critical|unresolved|population differences possible; not resolved in text

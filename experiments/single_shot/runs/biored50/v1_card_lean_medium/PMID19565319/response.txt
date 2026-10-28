@@ -1,0 +1,20 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|ADORA2A|ADORA2A;adenosine A(2A) receptor gene;Adenosine A(2A) receptor gene;adenosine A(2A) receptor|r||human||
+E|D1|disease|autism spectrum disorder|autism spectrum disorder;Autism spectrum disorders;ASDs;ASD|r||||
+E|D2|disease|panic disorder|panic disorder|r||||
+E|D3|disease|22q11.2 deletion syndrome|22q11.2 deletion syndrome|r||||
+E|S1|phenotype|anxiety|anxiety|r||||
+E|S2|symptom|autistic symptoms|autistic symptoms|r||||
+X|rs2236624|b0002|variant ID
+X|22q11.23|b0002|chromosomal location, not entity
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0001.s1+b0002.s7|ts|int|hyp|ho
+EV|V4|b0002.s4|ts|co|na|do
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||Background statement of association
+P|G1|D1|sup|a|ts|sup:a:ts:V2;unc:-:ts:V3|hedged_claim||Nominal case-control association rs2236624-CC; mediating role hedged
+P|G1|D3|nf|-|||||V4|Chromosomal co-location only, no relation
+F|F1|association|ADORA2A rs2236624-CC vs ASD status|98 ASD vs 234 controls|significant|positive|not_reported|V2|nominal significance only
+F|F2|association|rs3761422, rs5751876, rs35320474 vs ASD symptoms|98 ASD individuals|significant|unknown|not_reported|V2|within-disease phenotype variability
+F|F3|association|ADORA2A variants vs anxiety|ASD individuals|significant|unknown|not_reported|b0002.s6|replication; statistics not in abstract

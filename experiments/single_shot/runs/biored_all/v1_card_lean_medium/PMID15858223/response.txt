@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|alpha-glutathione S-transferase|alpha-glutathione S-transferase;alpha-GST|p|species_unresolved|non-human||
+E|D1|disease|hepatotoxicity|hepatotoxicity;Liver toxicity;liver toxicity|r|||||
+E|D2|disease|inflammation of the liver capsule|inflammation of the liver capsule|r|||||
+E|D3|disease|necrosis|necrosis|r|||||
+E|D4|disease|steatosis|steatosis|r|||||
+E|S1|phenotype|oxidative stress|oxidative stress|r|||||
+X|antiepileptic|b0002|adjective drug class; no disease named
+X|15-F(2t)-IsoP|b0002|lipid peroxidation biomarker, not a gene
+EV|V1|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s10|ts|int|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V2|Serum alpha-GST rise corresponded to VPA hepatotoxicity
+P|G1|D3|nf|-||||V1+V2|Listed histology outcome; no gene-specific link
+P|G1|D4|nf|-||||V1+V2|Listed histology outcome; no gene-specific link
+F|F1|group_comparison|serum alpha-GST level|VPA-treated vs saline rats|significant|positive|partial|V1|abstract only; timing by day 4
+R|species|G1|Rat gene implied by rat study, species not stated for gene|Marked non-human, provisional species_unresolved

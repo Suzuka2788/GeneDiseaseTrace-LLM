@@ -1,0 +1,67 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full case report text incl. Table 1 and Figure 1 caption
+E|G1|gene|IKZF1|IKZF1;IKAROS|r||human||
+E|G2|gene|IKZF1 (mouse)|IKZF1|p|species_unresolved|non-human||
+E|G3|gene|CD22|CD22|r||human||
+E|D1|disease|immune thrombocytopenia|immune thrombocytopenia;ITP|r||||
+E|D2|disease|familial immune thrombocytopenia|Familial Immune Thrombocytopenia;familial immune thrombocytopenia;Familial ITP|r|||D1|
+E|D3|disease|treatment-refractory immune thrombocytopenia|treatment-refractory immune thrombocytopenia|r|||D1|
+E|D4|disease|IKAROS haploinsufficiency|IKAROS haploinsufficiency|r||||
+E|D5|disease|IKAROS deficiency|IKAROS deficiency|p|other|||
+E|D6|disease|leukemia|leukemia|r||||
+E|D7|disease|B-progenitor acute lymphoblastic leukemia|B-progenitor acute lymphoblastic leukemia;B-ALL|r||||
+E|D8|disease|T-ALL|T-ALL|p|undefined_abbreviation|||
+E|D9|disease|T cell malignancies|T cell malignancies|r||||
+E|D10|disease|common variable immunodeficiency|common variable immunodeficiency;CVID|r||||
+E|D11|disease|combined immunodeficiency|combined immunodeficiency|r||||
+E|D12|disease|autosomal dominant antibody deficiencies|antibody deficiencies|r||||
+E|D13|disease|primary immunodeficiency|primary immunodeficiency|r||||
+E|D14|disease|autoimmunity|autoimmunity|r||||
+E|D15|disease|autoimmune diseases|autoimmune diseases|r||||
+E|D16|disease|otitis|otitis|r||||
+E|D17|disease|ischemic stroke|ischemic stroke|r||||
+E|D18|disease|vertebral artery thrombosis|thrombosis|r||||
+E|D19|disease|coagulopathy|coagulopathy|r||||
+E|S1|phenotype|thrombocytopenia|thrombocytopenia|r||||
+E|S2|symptom|infections|infections|r||||
+E|S3|phenotype|dysgammaglobulinemia|dysgammaglobulinemia|r||||
+E|S4|phenotype|cytopenias|cytopenias|r||||
+E|S5|phenotype|B-cell lymphopenia|B-cell lymphopenia|r||||
+E|S6|phenotype|aberrant hematopoiesis|aberrant hematopoiesis|r||||
+X|Nucleosome Remodeling and histone Deacetylase (NuRD) complex|b0038|complex, not a single gene
+X|CD19|b0022|cell-surface marker for lymphocyte subset
+X|CD4/CD8 ratio|b0030|lab finding of cell subsets
+X|NM_006060|b0036|transcript identifier
+X|1P47|b0036|PDB identifier
+X|H167R|b0036|variant ID
+EV|V1|b0001.s1+b0002.s1+b0045.s1|ts|res|aff|eda
+EV|V2|b0002.s5+b0045.s2|ts|res|aff|eda,rr
+EV|V3|b0035.s2+b0035.s3+b0036.s2|ts|co|na|do
+EV|V4|b0002.s4+b0043.s6|ts|res|aff|eda
+EV|V5|b0040.s2+b0040.s4|bg|bgr|aff|ebr
+EV|V6|b0038.s4+b0038.s5+b0036.s10|ts|res|aff|rr
+EV|V7|b0002.s4+b0045.s5|bg|bgr|aff|ebr
+EV|V8|b0040.s3|bg|bgr|aff|ebr
+EV|V9|b0040.s5+b0040.s7+b0042.s3|bg|bgr|aff|ebr
+EV|V10|b0041.s2|bg|bgr|aff|ebr
+EV|V11|b0040.s6|bg|hyp|hyp|ho
+EV|V12|b0035.s1|ts|co|pre|unc
+EV|V13|b0041.s7+b0045.s5|ts|int|aff|eda
+P|G1|D1|sup|a|ts|sup:a:ts:V2|||ITP reported as IKZF1 haploinsufficiency manifestation
+P|G1|D2|sup|a|ts|sup:a:ts:V1||V3|Title and abstract attribute familial ITP to variant
+P|G1|D4|sup|a|both|sup:a:ts:V4;sup:a:bg:V5||V6|Genetic diagnosis via IKZF1 variant
+P|G1|D5|sup|a|ts|sup:a:ts:V13|||Carriers described as IKAROS deficiency cases
+P|G1|D6|sup|a|bg|sup:a:bg:V7|||Leukemia known presentation of IKAROS haploinsufficiency
+P|G1|D7|sup|a|bg|sup:a:bg:V8+V9|||Somatic and germline IKZF1 mutations linked B-ALL
+P|G1|D8|sup|a|bg|sup:a:bg:V9|||Familial IKZF1 carrier with T-ALL reported
+P|G1|D11|sup|a|bg|sup:a:bg:V9|||DN mutations linked to combined immunodeficiency
+P|G1|D12|sup|a|bg|sup:a:bg:V5|||LOF variants present antibody deficiencies
+P|G1|D14|sup|a|bg|sup:a:bg:V5+V10|||Background reports autoimmunity in IKZF1 variants
+P|G1|D13|unc|-|unk|unc:-:ts:V12|presupposed_only|||Only panel name implies PID association
+P|G2|D9|sup|c|bg|sup:c:bg:V8|||Mouse germline mutations lead to T cell malignancies
+P|G3|D14|unc|-|bg|unc:-:bg:V11|hedged_claim|||CD22 explanation stated as might
+F|F1|descriptive|IKZF1 p.His195Arg carrier status and ITP|proband, mother, grandfather|not_applicable|not_applicable|not_applicable|V3|grandfather carrier unaffected, incomplete penetrance
+F|F2|mechanism|H195R IKAROS nuclear staining|NIH3T3 cells|not_applicable|negative|not_applicable|V6|in vitro only, no disease link
+F|F3|descriptive|presentation frequency in IKZF1 carriers|~60 reported carriers|not_applicable|not_applicable|partial|V2|pooled literature, no statistics
+C|C1|carrier grandfather called affected|b0036.s1+b0035.s3|noncritical|resolved|text states grandfather unaffected
+R|gene-defined disorder|b0002.s5|ITP linked to IKAROS haploinsufficiency, not directly IKZF1|treated as IKZF1 link since disorder defined by gene

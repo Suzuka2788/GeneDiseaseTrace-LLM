@@ -1,0 +1,15 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PEMT|phosphatidylethanolamine N-methyltransferase;PEMT|r|||human||
+E|D1|disease|nonalcoholic steatohepatitis|nonalcoholic steatohepatitis;NASH|r|||||
+E|S1|phenotype|body mass index|body mass index|r|||||
+E|S2|phenotype|non-obese|non-obese|r|||||
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0001.s1|ts|int|aff|eda
+EV|V3|b0002.s7|ts|int|hyp|ho
+EV|V4|b0002.s6|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V2+V3||V4|Case-control: Val175Met more frequent in NASH
+F|F1|group_comparison|Val175Met allele frequency|NASH 107 vs controls 150|significant|positive|partial|V1|only p-values in abstract
+F|F2|group_comparison|Val175Met carrier frequency|NASH 107 vs controls 150|significant|positive|partial|V1|only p-values in abstract
+F|F3|group_comparison|BMI and non-obese proportion by genotype|NASH patients, carriers vs wild type|significant|negative|partial|V4|within-disease; BMI lower in carriers
+R|causal title vs hedged conclusion|b0001.s1;b0002.s7|Title says confers susceptibility; conclusion says candidate|kept association from case-control; title claim uncertain

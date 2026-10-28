@@ -1,0 +1,8 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|cystic fibrosis transmembrane conductance regulator|cystic fibrosis transmembrane conductance regulator|r||human||
+E|D3|disease|inherited disorders|inherited disorders;inherited diseases|r||||
+E|D1|disease|cystic fibrosis|Cystic fibrosis;CF|r|||D3|
+E|D2|disease|cystic fibrosis airway disease|cystic fibrosis airway disease|r|||D1|
+EV|V1|b0002.s2|bg|bgr|pre|unc
+P|G1|D1|unc|-|bg|unc:-:bg:V1|presupposed_only||Gene cloning tied to CF therapy; no explicit attribution

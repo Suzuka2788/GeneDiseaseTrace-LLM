@@ -1,0 +1,20 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|CBR3|carbonyl reductase 3;CBR3|r||human||
+E|G2|gene|NQO1|NQO1;NAD(P)H:quinone oxidoreductase 1|r||human||
+E|D1|disease|congestive heart failure|congestive heart failure;CHF|r||||
+E|D2|disease|anthracycline-related congestive heart failure|anthracycline-related CHF|r|||D1|
+E|D3|disease|childhood cancer|childhood cancer;cancer|r||||
+X|NQO1*2|b0002.s5|allele label, not a gene
+X|V244M|b0002.s5|variant designation
+EV|V1|b0002.s7+b0002.s8|ts|neg|neg|rr,cmp
+EV|V2|b0002.s7+b0002.s9|ts|res|q|rr,cmp
+EV|V3|b0002.s10|ts|res|na|rr
+EV|V4|b0002.s11|ts|hyp|hyp|ho
+P|G2|D2|neg|-|ts|neg:-:ts:V1||||Explicit no association reported
+P|G2|D1|neg|-|ts|neg:-:ts:V1||||Same analysis outcome
+P|G1|D2|unc|-|ts|unc:-:ts:V2+V4|hedged_claim|V3|Non-significant trend; hedged conclusion
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V4|hedged_claim|V3|Non-significant trend only
+F|F1|association|NQO1*2 genotype, CHF risk|30 cases, 115 controls|not_significant|null|partial|V1|
+F|F2|association|CBR3 V244M genotype, CHF risk|30 cases, 115 controls|not_significant|positive|partial|V2|Trend only
+F|F3|mechanism|CBR3 isoform doxorubicinol synthesis|recombinant enzyme assay|significant|positive|partial|V3|No disease endpoint

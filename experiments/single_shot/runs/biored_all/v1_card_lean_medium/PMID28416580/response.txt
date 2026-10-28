@@ -1,0 +1,27 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TSPO (human)|TSPO;18-kDa translocator protein|r||human||
+E|G2|gene|TSPO (mouse)|TSPO|r||non-human||
+E|G3|gene|Iba1|Iba1|r||human||
+E|G4|gene|CD11b|CD11b|r||non-human||
+E|G5|gene|CD45|CD45|r||non-human||
+E|G6|gene|IL-6|IL-6|r||non-human||
+E|G7|gene|TNF-a|TNF-a|r||non-human||
+E|G8|gene|colony-stimulating factor 1 receptor|colony-stimulating factor 1 receptor|r||non-human||
+E|D1|disease|intracerebral hemorrhage|intracerebral hemorrhage;Intracerebral hemorrhage;ICH|r||||
+E|D2|disease|brain injury|brain injury|r||||
+E|D3|disease|CNS injury|CNS injury|r||||
+E|S1|phenotype|perihematomal brain edema|perihematomal brain edema|r||||
+E|S2|symptom|neurodeficits|neurodeficits|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s5|ts|res|aff|rr,cmp
+EV|V4|b0002.s7|ts|res|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V2|||TSPO up-regulated in Iba1+ cells of ICH patients
+P|G2|D1|sup|a|ts|sup:a:ts:V3||V1|TSPO up-regulated in mouse cells after collagenase ICH
+P|G2|D2|nf|-|||||Ligand drug effect, not gene alteration
+P|G6|D1|nf|-||||V4|Cytokine reduction is drug effect only
+P|G7|D1|nf|-||||V4|Cytokine reduction is drug effect only
+F|F1|group_comparison|TSPO expression; ICH|ICH patients; collagenase-ICH mice|unknown|positive|not_reported|V2+V3|abstract only
+F|F2|group_comparison|etifoxine; IL-6, TNF-a production|collagenase-ICH mice|unknown|negative|not_reported|V4|drug effect, not gene-disease
+R|species split|b0002.s5|Same surface TSPO used for human and mouse contexts|Split into human and mouse nodes; V1 species unclear, kept as context

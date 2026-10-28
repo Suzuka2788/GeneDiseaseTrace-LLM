@@ -1,0 +1,19 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|angiotensinogen|angiotensinogen;AGT|r||human||
+E|D1|disease|hypertrophic cardiomyopathy|Hypertrophic cardiomyopathy;hypertrophic cardiomyopathy;HCM|r||||
+E|D2|disease|sporadic hypertrophic cardiomyopathy|sporadic hypertrophic cardiomyopathy;SHCM|r|||D1|
+E|D3|disease|familial hypertrophic cardiomyopathy|familial hypertrophic cardiomyopathy;FHCM|r|||D1|
+E|D4|disease|hypertension|hypertension|r||||
+E|S1|phenotype|left ventricular hypertrophy|left ventricular hypertrophy|r||||
+X|M235T|b0001|variant identifier
+X|T704C|b0002|variant identifier
+X|SfaNI|b0002|restriction enzyme, not gene
+EV|V1|b0002.s7+b0002.s9|ts|res|aff|rr,cmp
+EV|V2|b0002.s8+b0002.s10|ts|neg|neg|rr,cmp
+EV|V3|b0002.s2|ts|aim|q|none
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||T allele associated with SHCM vs controls
+P|G1|D3|neg|-|ts|neg:-:ts:V2|||No association of M235T with FHCM
+P|G1|D1|nf|-||||V3|Aim only; no pooled HCM result reported
+F|F1|group_comparison|AGT M235T genotype and allele frequency|SHCM patients vs controls|significant|positive|partial|V1|p-values only; abstract
+F|F2|group_comparison|AGT M235T genotype and allele frequency|FHCM patients vs controls|not_significant|null|not_reported|V2|abstract only

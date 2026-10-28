@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|ambiguous_gene|NMDA receptor|NMDA receptors;glutamate NMDA receptor;NMDA receptor|p|ambiguous_mapping,species_unresolved|non-human||
+E|G2|ambiguous_gene|dopamine receptor|dopamine receptor|p|ambiguous_mapping,species_unresolved|non-human||
+E|D1|disease|catalepsy|catalepsy;haloperidol-induced catalepsy;Haloperidol-induced catalepsy|r||||
+E|S1|symptom|immobility|immobility|r||||
+E|S2|symptom|freezing|freezing|r||||
+X|N-methyl-d-aspartate|b0002.s5|chemical agonist, not a gene
+X|MK-801|b0002.s5|drug antagonist identifier
+X|AP7|b0002.s5|drug antagonist, gene-like name
+EV|V1|b0002.s5+b0002.s6+b0002.s7|ts|res|aff|rr,mi
+EV|V2|b0001.s1+b0002.s8|ts|int|hyp|ho
+EV|V3|b0002.s4|ts|co|na|do
+P|G1|D1|unc|-|ts|unc:c:ts:V1+V2|identity,hedged_claim,scope||Receptor family pharmacology in rats; conclusion hedged
+P|G2|D1|nf|-|||||V3|Drug blocker induces catalepsy; no gene link
+F|F1|mechanism|NMDA antagonists vs haloperidol catalepsy latency|rats, intracollicular microinjection|significant|negative|not_reported|V1|abstract only; pharmacological, not genetic
+F|F2|mechanism|NMDA agonist vs step-down latency|rats, intracollicular microinjection|unknown|positive|not_reported|V1|significance not stated
+R|gene sets|b0002.s5|Receptor complex manipulated pharmacologically; not single-gene intervention|Kept as ambiguous_gene; pair uncertain, not supported

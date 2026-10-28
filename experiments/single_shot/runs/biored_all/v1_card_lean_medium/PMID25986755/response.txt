@@ -1,0 +1,27 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|angiotensin II receptor type 2|AT2R;angiotensin II receptor type 2|r||non-human||
+E|G2|gene|angiotensin II receptor type 1a|AT1aR;angiotensin II receptor type 1a|r||non-human||
+E|G3|gene|nephrin|nephrin|r||non-human||
+E|G4|gene|podocin|podocin|r||non-human||
+E|G5|gene|glial-cell-line-derived neurotrophic factor|GDNF;glial-cell-line-derived neurotrophic factor|r||non-human||
+E|G6|gene|c-Ret|c-Ret;tyrosine kinase receptor|r||non-human||
+E|D1|disease|glomerulosclerosis|glomerulosclerosis|r||||
+E|D2|disease|intrauterine growth retardation|intrauterine growth retardation;IUGR|r||||
+E|D3|disease|interstitial fibrosis|interstitial fibrosis|r||||
+E|D4|disease|dysplasia of fetal kidneys|dysplasia|p|other|||
+E|S1|phenotype|elevated serum creatinine|serum creatinine|r||||
+E|S2|phenotype|urine protein|urine protein|r||||
+E|S3|phenotype|podocyte structural damage|podocytes|r||||
+X|prenatal caffeine exposure|b0002|exposure, not a disease
+X|GDNF/c-Ret signaling pathway|b0002|pathway, not a single gene
+EV|V1|b0001.s1|ts|int|aff|unc
+EV|V2|b0002.s11|ts|hyp|hyp|ho
+EV|V3|b0002.s7|ts|res|na|do
+EV|V4|b0002.s10|ts|res|na|do
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V2|hedged_claim|V3|Title asserts mediation; abstract hedges with might
+P|G2|D1|nf|-|||||V3|Ratio change co-occurs only; no tested link
+P|G1|D4|nf|-|||||V4|Fetal AT2R reduction co-occurs with dysplasia only
+F|F1|group_comparison|renal AT2R expression; AT1aR/AT2R ratio|adult rat offspring PCE vs control|unknown|negative|not_reported|V3|ratio increased; abstract only
+F|F2|group_comparison|fetal AT2R, GDNF, c-Ret expression|fetal rat kidneys PCE vs control|unknown|negative|not_reported|V4|abstract only
+F|F3|group_comparison|nephrin and podocin expression|fetal rat kidneys PCE vs control|unknown|negative|not_reported||abstract only; sentence b0002.s9

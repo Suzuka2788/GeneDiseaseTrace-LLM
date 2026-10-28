@@ -1,0 +1,13 @@
+﻿paper_id,note,genes_both,genes_pubtator_only,genes_ours_only,diseases_both,diseases_pubtator_only,diseases_ours_only,pubtator_disease_is_our_symptom_or_phenotype,relations_both,relations_pubtator_only,relations_ours_only,our_uncertain,our_explicit_negative
+PMC8626062,Spanish full text: PubTator found no genes and could not align 55 of its annotations,0,0,5,12,14,12,2,0,0,5,0,0
+PMC10085737,,2,4,0,6,3,0,3,0,0,1,0,0
+PMC3776720,,10,13,0,13,32,0,5,2,2,10,1,0
+PMC11202044,,21,13,1,13,19,0,1,0,0,2,0,0
+PMC9499621,,1,0,0,17,8,2,4,1,0,1,0,10
+PMC3226484,,18,12,0,13,7,0,2,2,1,10,2,1
+PMC4068974,,15,16,7,8,18,0,2,0,1,5,6,0
+PMC10096224,,11,0,4,4,4,1,6,0,2,1,0,0
+PMC7437939,,23,3,0,8,20,0,6,1,5,0,1,0
+PMC2836178,,51,6,15,3,2,0,0,0,0,2,6,0
+PMC7082755,,8,12,1,11,60,0,3,1,1,0,2,0
+PMC3399778,,6,3,0,11,22,0,2,4,0,5,2,0

@@ -1,0 +1,14 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or figures
+E|G1|gene|M3-muscarinic acetylcholine receptor|M(3)-muscarinic acetylcholine receptor;mAChR;M(3)-mAChR|p|species_unresolved|non-human||
+E|D1|disease|arrhythmia|arrhythmias;arrhythmia|r||||
+E|D2|disease|ventricular tachycardia|ventricular tachycardia|r||||
+E|D3|disease|ventricular fibrillation|fibrillation|p|ambiguous_mapping|||
+E|S1|phenotype|intracellular calcium overload|[Ca(2+)](i) overload|r||||
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0002.s6|ts|int|hyp|ho
+P|G1|D1|unc|-|ts|unc:a:ts:V1+V2|hedged_claim,support_basis_unresolved|V1|Pharmacological antagonist data only; authors' conclusion only suggested
+P|G1|D2|nf|-||||||M3 link stated only for arrhythmia overall
+P|G1|D3|nf|-||||||M3 link stated only for arrhythmia overall
+F|F1|mechanism|4-DAMP blockade vs pilocarpine antiarrhythmic effect|aconitine rats; ouabain guinea pigs|unknown|negative|not_reported|V1|abstract only; partial abolition
+R|pharmacological receptor antagonism|b0002.s5|Drug blockade, not gene alteration; model-intervention rule unclear|Kept uncertain, not causal

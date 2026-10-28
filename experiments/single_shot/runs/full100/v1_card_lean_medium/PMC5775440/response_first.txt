@@ -1,0 +1,33 @@
+META|Opus 5.5|seen: no
+SCOPE|Full case report text; references removed; figures not viewed
+E|G1|gene|KCNQ1|KCNQ1;KvLQT1|r||human||
+E|D1|disease|long QT syndrome|Long QT syndrome;LQTS;long QT syndrome|r||||
+E|D2|disease|long QT syndrome type 1|LQTS type 1;LQT1;long QT1|r||||D1|
+E|D3|disease|autosomal dominant LQTS|autosomal dominant LQTS|r||||D1|
+E|D4|disease|Jervell and Lange-Nielsen syndrome|Jervell and Lange-Nielsen syndrome|r||||
+E|D5|disease|anxiety disorder|anxiety disorder|r||||
+E|D6|disease|psychosis|psychosis|r||||
+E|D7|disease|myocardial infarct|myocardial infarct;MI|r||||
+E|D8|disease|depression|depression|r||||
+E|CE1|clinical_event|sudden cardiac death|sudden cardiac death|r||||
+E|CE2|clinical_event|cardiac arrest|cardiac arrest|r||||
+E|S1|symptom|syncope|syncope|r||||
+X|Kv7.1|b0015|channel complex, not single-gene endpoint
+X|inherited cardiac arrhythmia disorder|b0004|descriptive category for LQTS
+EV|V1|b0015.s1|bg|bgr|aff|ebr
+EV|V2|b0004.s2|bg|bgr|aff|ebr
+EV|V3|b0015.s3|bg|bgr|aff|ebr
+EV|V4|b0006.s3+b0004.s2+b0007.s2|ts|res|aff|eda
+EV|V5|b0015.s4|bg|res|na|cmp
+EV|V6|b0014.s3|bg|res|na|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V3|||Truncating KCNQ1 variants stated pathogenic mechanism in LQTS
+P|G1|D2|sup|a|both|sup:a:bg:V2;sup:a:ts:V4|||LQT1 related to KvLQT1; proband genetic diagnosis
+P|G1|D3|sup|a|bg|sup:a:bg:V3|||Variant seen heterozygous in autosomal dominant LQTS
+P|G1|D4|sup|a|bg|sup:a:bg:V3|||Variant seen homozygous/compound heterozygous in JLNS
+P|G1|CE2|nf|-||||V5|Comparison among KCNQ1 variants, no gene comparator
+P|G1|CE1|nf|-||||| Deceased relatives not genotyped
+F|F1|descriptive|QTc in R518X heterozygotes|86 Swedish heterozygous carriers|not_applicable|not_applicable|partial|V6|background study
+F|F2|group_comparison|cardiac arrest rate R518X vs other KCNQ1|KCNQ1 variant carriers with LQTS|unknown|negative|partial|V5|background; no test reported
+F|F3|mechanism|R518X co-assembly, trafficking|functional studies|not_applicable|not_applicable|not_reported|V5|background functional studies
+F|F4|descriptive|exercise-recovery QTc on vs off nadolol|proband|not_applicable|not_applicable|unread|V4|single patient; figure unread
+U|Figure 3|b0011.s1|image not provided

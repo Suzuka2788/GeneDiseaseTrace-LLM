@@ -1,0 +1,49 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|Arg1|arginase1;ARG1;Arg1|r||non-human||
+E|G2|ambiguous_gene|arginase|arginase|u|ambiguous_mapping|||
+E|G3|gene|Arg2|Arg2|r||non-human||
+E|G4|gene|Nos2|Nos2|r||non-human||
+E|G5|gene|Slc7a1|Slc7a1|r||non-human||
+E|G6|gene|Slc7a2|Slc7a2|r||non-human||
+E|G7|gene|Slc7a7|Slc7a7|r||non-human||
+E|G8|gene|Il4|Il4;IL-4|r||non-human||
+E|G9|gene|Il5|Il5;IL-5|r||non-human||
+E|G10|gene|Il13|Il13;IL-13|r||non-human||
+E|G11|gene|Ccl2|Ccl2|r||non-human||
+E|G12|gene|Ccl11|Ccl11|r||non-human||
+E|G13|gene|Ifng|Ifng;IFNgamma|r||non-human||
+E|G14|gene|Clca3|Clca3|r||non-human||
+E|G15|gene|Muc5ac|Muc5ac|r||non-human||
+E|G16|gene|IL-10|IL-10|r||non-human||
+E|G17|gene|TNFalpha|TNFalpha|r||non-human||
+E|D1|disease|allergic asthma|allergic asthma|r||||
+E|D2|disease|airway hyperresponsiveness|airway hyperresponsiveness;AHR|r||||
+E|S1|phenotype|lung inflammation|lung inflammation|r||||
+X|Tie2Cre|b0002|transgenic Cre driver line, not a gene endpoint
+X|IgE|b0002|antibody measure, not a gene endpoint
+EV|V1|b0001.s1+b0002.s3+b0002.s6+b0002.s11|ts|res|aff|rr,mi
+EV|V2|b0002.s6|ts|neg|neg|rr,mi,cmp
+EV|V3|b0002.s6|ts|res|pre|unc
+EV|V4|b0002.s1|bg|hyp|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||Arg1 deletion alters inflammatory response in mouse asthma
+P|G1|D2|neg|-|ts|neg:-:ts:V2|||Arg1 ablation did not affect OVA-induced AHR
+P|G3|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G4|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G5|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G6|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G7|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G8|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G9|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G10|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G11|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G12|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G13|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G14|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+P|G15|D1|unc|-|ts|unc:-:ts:V3|presupposed_only|||OVA-induced increase presupposed, not tested
+F|F1|group_comparison|Arg1 ablation vs AHR to methacholine|OVA/OVA female mice|not_significant|null|not_reported|V2|abstract only
+F|F2|group_comparison|Arg1 ablation vs OVA-induced gene expression|OVA/OVA female mice|unknown|negative|not_reported|V1|abstract only
+F|F3|group_comparison|Arg1 ablation vs pulmonary IL-10 protein|OVA/OVA female mice|unknown|positive|not_reported|V1|abstract only
+F|F4|group_comparison|Arg1 ablation vs IL-4/IL-5/IL-13/TNFalpha/IFNgamma protein|OVA/OVA female mice|not_significant|null|not_reported|V1|abstract only
+F|F5|group_comparison|sex differences in Arg1-deficient responses|OVA/OVA female vs male mice|unknown|mixed|not_reported|V1|abstract only
+R|animal model link|b0001.s1|Knockout alters disease features but does not induce the disease|Recorded as association from model intervention, non-human

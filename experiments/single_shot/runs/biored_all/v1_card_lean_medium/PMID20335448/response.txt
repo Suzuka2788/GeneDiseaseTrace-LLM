@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|glucocorticoid receptor|glucocorticoid receptor;GR;GR alpha|r||human||
+E|D1|disease|generalized glucocorticoid resistance syndrome|Generalized glucocorticoid resistance syndrome;generalized glucocorticoid resistance syndrome;generalized glucocorticoid resistance|r||||
+E|S1|symptom|seizure|seizure|r||||
+E|S2|symptom|hypoglycemia|hypoglycemia|r||||
+E|S3|symptom|hypokalemia|hypokalemia|r||||
+E|S4|symptom|hypertension|hypertension|r||||
+E|S5|symptom|premature pubarche|premature pubarche|r||||
+E|PH1|phenotype|mineralocorticoid excess|mineralocorticoid|r||||
+E|PH2|phenotype|partial insensitivity to glucocorticoids|insensitivity to glucocorticoids|r||||
+X|p160 nuclear receptor coactivator|b0002|gene family, not a single gene
+X|adrenocorticotropic hormone|b0002|hormone, not named as gene
+X|LXXLL|b0002|protein motif, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s3+b0002.s6|ts|res|aff|eda,rr
+EV|V3|b0002.s7+b0002.s8+b0002.s9|ts|res|aff|rr
+P|G1|D1|sup|c|both|sup:c:bg:V1;sup:c:ts:V2+V3|||GR mutations cause syndrome; novel R714Q attributed
+F|F1|mechanism|R714Q GR transactivation, ligand affinity|patient TJ mutant receptor|unknown|negative|not_reported|V3|abstract only; statistics unreadable
+F|F2|mechanism|R714Q structure, coactivator binding|computer model of GR LBD|not_applicable|negative|not_applicable|V3|computational analysis

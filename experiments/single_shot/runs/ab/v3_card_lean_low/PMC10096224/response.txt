@@ -1,0 +1,34 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text provided; supplementary figures and tables unread
+E|G1|gene|D2HGDH|D2HGDH;D-2-hydroxyglutarate dehydrogenase;D-2HG dehydrogenase|r||human||
+E|G2|gene|dhgd-1|dhgd-1;DHGD-1;Dhgd-1;F54D5.12|r||non-human||
+E|G3|gene|hphd-1|hphd-1;HPHD-1;hpdh-1|p|suspected_typo|non-human||
+E|G4|gene|ADHFE1|ADHFE1|r||human||
+E|G5|gene|IDH1|IDH1|r||human||
+E|G6|gene|IDH2|IDH2|r||human||
+E|G7|gene|PHGDH|PHGDH|r||human||
+E|G8|gene|IMMT-1|IMMT-1|r||non-human||
+E|G9|gene|aass-1|aass-1|r||non-human||
+E|G10|gene|mccc-1|mccc-1|r||non-human||
+E|G11|gene|acdh-1|acdh-1|r||non-human||
+E|G12|gene|nhr-68|nhr-68|r||non-human||
+E|G13|gene|emb-27|emb-27|r||non-human||
+E|D1|disease|D-2-hydroxyglutaric aciduria|D-2-hydroxyglutaric aciduria|r||||
+E|D2|disease|L-2-hydroxyglutaric aciduria|L-|p|other|||
+E|D3|disease|propionic acidemia|propionic acidemia|r||||
+E|D4|disease|2HG-associated diseases|2HG-associated diseases|r||||
+E|S1|symptom|seizures|seizures|r||||
+E|S2|symptom|ataxia|ataxia|r||||
+E|PH1|phenotype|embryonic lethality|embryonic lethality|r||||
+E|PH2|phenotype|mitochondrial defects|mitochondrial defects|r||||
+X|BCAT|b0007|enzyme family name, not a single gene
+X|tm6671|b0014|allele identifier
+EV|V1|b0007.s1+b0007.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s1+b0003.s1|bg|bgr|aff|ebr
+EV|V3|b0014.s5+b0016.s1|ts|res|na|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||Mutations in D-2HG dehydrogenase cause D-2HG aciduria
+P|G1|D4|nf|-|||||V2|Abstract links mutations to symptoms only
+P|G2|D1|nf|-||||||Worm ortholog; only lethality phenotypes are studied
+F|F1|group_comparison|dhgd-1 deletion vs WT; 2HG, lethality|C. elegans|significant|positive|unread|V3|Figures and supplementary data unread
+C|C1|hphd-1 spelled hpdh-1|b0023.s1+b0022.s5|noncritical|resolved|Same RNAi experiment; treated as typo
+R|ambiguous surface|b0007.s2|L-2-hydroxyglutaric aciduria is only written in elided form "L-"|Recorded the disease with provisional identity

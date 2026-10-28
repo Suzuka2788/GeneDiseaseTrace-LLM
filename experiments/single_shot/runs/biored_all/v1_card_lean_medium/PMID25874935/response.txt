@@ -1,0 +1,24 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures.
+E|G1|gene|neuroserpin|Neuroserpin;neuroserpin;NSP|p|species_unresolved||||
+E|G2|gene|TNF-alpha|TNF-alpha|r||non-human||
+E|G3|gene|IKKBalpha/beta|IKKBalpha|p|ambiguous_mapping|non-human||
+E|G4|gene|P65|P65|p|undefined_abbreviation|non-human||
+E|G5|gene|ERK1|ERK1|r||non-human||
+E|G6|gene|ERK2|ERK2|r||non-human||
+E|G7|gene|AKT|AKT;Akt|r||non-human||
+E|G8|gene|lactate dehydrogenase|lactate dehydrogenase;LDH|p|ambiguous_mapping|non-human||
+E|D1|disease|cerebral ischemia|cerebral ischemic|r||||
+X|NF-kappaB|b0002|complex/pathway, not single gene
+X|PI3K|b0002|pathway label, not single gene
+X|MAPK|b0002|pathway family, not single gene
+X|sc3060|b0002|inhibitor identifier
+X|OGD/R|b0002|in vitro ischemia model, not disease
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s8+b0002.s12|ts|res|aff|rr,cmp
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2|scope|V2|Background reports neuroprotection in cerebral ischemia
+F|F1|group_comparison|NSP vs survival, LDH release|OGD/R rat astrocytes|significant|positive|not_reported|V2|cell model only
+F|F2|group_comparison|NSP vs NO/TNF-alpha release|OGD/R rat astrocytes|unknown|negative|not_reported|b0002.s9|cell model only
+F|F3|mechanism|NSP vs p-IKK, P65 levels|OGD/R rat astrocytes|significant|negative|not_reported|b0002.s10+b0002.s11|reversed by sc3060
+F|F4|group_comparison|NSP vs p-ERK1/2, p-AKT|OGD/R rat astrocytes|not_significant|null|not_reported|b0002.s11+b0002.s14|
+R|species|b0002.s1|NSP mentioned for patients and in rat cells; species of administered NSP unstated.|Single NSP node, species empty, provisional.

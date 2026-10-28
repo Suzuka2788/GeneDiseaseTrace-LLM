@@ -1,0 +1,59 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, captions, tables; reference list removed
+E|G1|gene|CAT|catalase;Catalase|r||human||
+E|G2|gene|SOD1|superoxide dismutase;SOD;SOD 1;Superoxide Dismutase|p|ambiguous_mapping|human||
+E|G3|gene|ACE2|angiotensin-converting enzyme 2;ACE2|r||human||
+E|G4|gene|CD147|CD147|r||||
+E|G5|gene|NLRP3|NLRP3|r||||
+E|G6|gene|caspase-1|caspase-1|r||||
+E|G7|ambiguous_gene|IL-1|IL-1|p|ambiguous_mapping|||
+E|G8|gene|C-Raf-1|C-Raf-1|r||||
+E|G9|gene|K-ras|K-ras|r||||
+E|G10|gene|3CLpro|3CLpro|p|undefined_abbreviation|non-human||
+E|D1|disease|diabetes|diabetes;diabetes mellitus|r||||
+E|D2|disease|COVID-19|COVID-19;COVID;SARS-CoV-2 infection;SARS-COV-2 infection|r||||
+E|D3|disease|SARS-CoV infection|SARS-CoV infection;SARS-CoV|p|ambiguous_mapping|||
+E|D4|disease|diabetic complications|diabetic complications|r|||D1|
+E|D5|disease|atherosclerosis|premature atherosclerosis|r||||
+E|D6|disease|myocardial infarction|myocardial infarctions|r||||
+E|D7|disease|peripheral vascular disease|peripheral vascular disease|r||||
+E|D8|disease|nephropathy|nephropathy|r||||
+E|D9|disease|neuropathy|neuropathy|r||||
+E|D10|disease|retinopathy|retinopathy|r||||
+E|D11|disease|neurodegeneration|neurodegeneration|r||||
+E|D12|disease|cancer|cancer|r||||
+E|D13|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|D14|disease|hypertension|hypertension|r||||
+E|D15|disease|inflammatory conditions|inflammatory conditions;inflammatory diseases|p|other|||
+E|S1|phenotype|hyperglycemia|hyperglycemia|r||||
+E|S2|phenotype|insulin resistance|Insulin resistance|r||||
+E|S3|phenotype|oxidative stress|oxidative stress|r||||
+X|NF-κB|b0113|pathway/complex, not single gene
+X|metalloproteinases|b0109|enzyme family, not single gene
+X|trypsin|b0016|reagent enzyme
+X|BSA|b0032|reagent protein
+X|1DGH|b0005|PDB identifier
+X|5YTU|b0005|PDB identifier
+X|Klebsiella pneumonia|b0054|bacterial strain, not disease
+X|arthritic reactions|b0085|reaction description, not named disease
+EV|V1|b0109.s1|bg|bgr|aff|ebr
+EV|V2|b0109.s2|bg|hyp|hyp|ho
+EV|V3|b0110.s1|bg|hyp|hyp|ho
+EV|V4|b0109.s6|bg|bgr|aff|ebr
+EV|V5|b0107.s3|bg|bgr|aff|ebr
+EV|V6|b0111.s6+b0111.s7|bg|bgr|pre|unc
+EV|V7|b0009.s3|bg|hyp|hyp|ho
+EV|V8|b0113.s2|bg|hyp|hyp|ho
+EV|V9|b0112.s4+b0112.s5|bg|bgr|aff|ebr
+EV|V10|b0112.s10+b0112.s11+b0112.s12|ts|int|hyp|ho
+P|G3|D1|unc|-|unk|unc:-:bg:V1|scope||Expression rise conditioned on ACEi/ARB treatment
+P|G3|D14|unc|-|unk|unc:-:bg:V1|scope||Expression rise conditioned on ACEi/ARB treatment
+P|G3|D2|unc|-|bg|unc:-:bg:V2+V3|hedged_claim||Proposed/suggested by others only
+P|G4|D2|unc|-|bg|unc:-:bg:V4|coreference||"the virus" not explicitly named
+P|G8|D12|unc|-|bg|unc:-:bg:V6|presupposed_only||Oncogene label only presupposes cancer link
+P|G9|D12|unc|-|bg|unc:-:bg:V6|presupposed_only||Oncogene label only presupposes cancer link
+P|G2|D4|unc|-|bg|unc:-:bg:V7|hedged_claim||"can disrupt"; SOD given as example
+P|G10|D2|unc|-|bg|unc:-:bg:V8|hedged_claim||Supposed mechanism of herbal compounds
+P|G5|D15|nf|-|||||V5|Inflammasome complex function, not single gene
+P|G2|D1|nf|-|||||V9|Beta-cell damage, diabetes not stated
+F|F1|mechanism|Ajwa ligands binding CAT/SOD1|in silico docking|not_applicable|not_applicable|partial|V10|No disease outcome; in silico only

@@ -1,0 +1,46 @@
+META|Claude Opus 5.5|seen: no
+SCOPE|Full review text, figure caption, Table 1; references removed
+E|G1|gene|E-cadherin|E-cadherin|r||human||
+E|G2|gene|IL-6|IL-6|r||human||
+E|G3|gene|STAT3|STAT3|r||human||
+E|G4|gene|IL-12|IL-12|p|ambiguous_mapping|human||
+E|G5|gene|CCR9|CCR9|r||human||
+E|G6|gene|CXCR3|CXCR3|r||human||
+E|G7|gene|IFN-γ|IFN-γ|r||human||
+E|G8|gene|PD-1|PD-1;programmed cell death protein 1|r||human||
+E|G9|gene|PD-L1|PD-L1|r||human||
+E|G10|gene|CTLA-4|CTLA-4;CTLA4;cytotoxic T lymphocyte-associated protein 4|r||human||
+E|G11|gene|TLR4|TLR4|r||human||
+E|G12|gene|mTOR|mTOR|r||human||
+E|G13|gene|CTLA-4 (mouse model)|CTLA-4|p|species_unresolved|||
+E|G14|gene|PD-1 (mouse model)|PD-1|p|species_unresolved|||
+E|D1|disease|colorectal cancer|Colorectal Carcinoma;colorectal cancer;CRC|r||||
+E|D2|disease|dMMR/MSI-H colorectal cancer|dMMR/MSI-H|r|||D1|
+E|D3|disease|colon cancer|colon cancer|r||||
+E|D4|disease|cancer|cancer;cancers|r||||
+E|D5|disease|malignant melanoma|malignant melanoma;Malignant melanoma;melanoma|r||||
+E|D6|disease|non-small cell lung cancer|non-small cell lung cancer;NSCLC|r||||
+E|D7|disease|renal cell cancer|renal cell cancer;RCC;renal cancer|r||||
+E|D8|disease|urothelial carcinoma|urothelial carcinoma;urothelial cancer|r||||
+E|D9|disease|gastric cancer|Gastric cancer|r||||
+E|D10|disease|gastrointestinal carcinomas|gastrointestinal carcinomas;gastrointestinal tumors|r||||
+E|D11|disease|adenoma|adenoma|r||||
+E|D12|disease|sepsis|sepsis|r||||
+E|D13|disease|solid tumor|solid tumor|r||||
+E|CE1|clinical_event|progression-free survival|progression-free survival;PFS|r||||
+E|CE2|clinical_event|overall survival|overall survival;OS|r||||
+E|S1|phenotype|inflammation|inflammation|r||||
+X|NF-kB|b0017|protein complex/pathway, not single gene
+X|toll-like receptor|b0021|receptor family, not single gene
+X|serrated carcinoma pathway|b0013|pathway label, not disease entity
+X|MSI|b0048|biomarker status, not gene
+EV|V1|b0014.s5|bg|int|hyp|ho
+EV|V2|b0017.s2|bg|hyp|hyp|ho
+EV|V3|b0014.s3+b0014.s4|bg|co|na|do
+EV|V4|b0017.s1|bg|res|na|do
+P|G2|D1|unc|-|bg|unc:-:bg:V1|hedged_claim|V3|tumor promoter role only suggested
+P|G12|D1|unc|-|bg|unc:-:bg:V2|hedged_claim||bacterial mechanism via mTOR hedged by could
+P|G3|D1|nf|-|||||V3|biofilm activation, not CRC link
+P|G1|D1|nf|-|||||V3|biofilm expression change, not CRC link
+P|G13|D1|nf|-|||||V4|antibody treatment efficacy, not gene-disease relation
+R|authors' own prior work cited (we established)|b0014.s5|own cited prior study vs this review's results|treated as background (bg)

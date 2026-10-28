@@ -1,0 +1,400 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full main text; supplementary figures, tables and methods unread
+E|G1|gene|TSC1|TSC1;hamartin|r||human||
+E|G2|gene|TSC2|TSC2;tuberin|r||human||
+E|G3|gene|CHD8|CHD8|r||human||
+E|G4|gene|CRISPLD1|CRISPLD1|r||human||
+E|G5|gene|EPB41L4A|EPB41L4A|r||human||
+E|G6|gene|GNA11|GNA11|r||human||
+E|G7|gene|NOTCH3|NOTCH3|r||human||
+E|G8|gene|PBRM1|PBRM1|r||human||
+E|G9|gene|PTPRU|PTPRU|r||human||
+E|G10|gene|RGS12|RGS12|r||human||
+E|G11|gene|SETBP1|SETBP1|r||human||
+E|G12|gene|SMARCA4|SMARCA4|r||human||
+E|G13|gene|STMN1|STMN1|r||human||
+E|G14|gene|ZNRF3|ZNRF3|r||human||
+E|G15|gene|IWS1|IWS1|r||human||
+E|G16|gene|ALK|ALK|r||human||
+E|G17|gene|CRLF2|CRLF2|r||human||
+E|G18|gene|CDH1|CDH1|r||human||
+E|G19|gene|MAP3K1|MAP3K1|r||human||
+E|G20|gene|RUNX1|RUNX1|r||human||
+E|G21|gene|SDHB|SDHB|r||human||
+E|G22|gene|PROS1|PROS1|r||human||
+E|G23|gene|NPFFR2|NPFFR2|r||human||
+E|G24|gene|TLL2|TLL2|r||human||
+E|G25|gene|RASA1|RASA1|r||human||
+E|G26|gene|AHNAK2|AHNAK2|r||human||
+E|G27|gene|CUBN|CUBN|r||human||
+E|G28|gene|AFF3|AFF3|r||human||
+E|G29|gene|CDC27|CDC27|r||human||
+E|G30|gene|DSPP|DSPP|r||human||
+E|G31|gene|PRODH|PRODH|r||human||
+E|G32|gene|TTN|TTN|r||human||
+E|G33|gene|YLPM1|YLPM1|r||human||
+E|G34|gene|ZNF598|ZNF598|r||human||
+E|G35|gene|KMT2C|KMT2C|r||human||
+E|G36|gene|MUC2|MUC2|r||human||
+E|G37|gene|FH|FH|r||human||
+E|G38|gene|TG|TG|r||human||
+E|G39|gene|USP34|USP34|r||human||
+E|G40|gene|NDE1|NDE1|r||human||
+E|G41|gene|APC|APC|r||human||
+E|G42|gene|mTOR|mTOR|r||human||
+E|G43|gene|β-catenin|β-catenin|r||human||
+E|G44|gene|c-kit|c-kit|r||human||
+E|G45|gene|CD10|CD10|r||human||
+E|G46|gene|CK7|CK7|r||human||
+E|G47|gene|Melan A|Melan A|r||human||
+E|D1|disease|TSC-associated renal cell carcinoma|Tuberous sclerosis complex-associated renal cell carcinoma;Tuberous Sclerosis Complex-Associated Renal Cell Carcinoma;Tuberous sclerosis complex-associated RCC;TSC-RCC;TSC-RCCs|r|||D3|
+E|D2|disease|tuberous sclerosis complex|Tuberous sclerosis complex;TSC;tuberous sclerosis|r||||
+E|D3|disease|renal cell carcinoma|Renal cell carcinoma;renal cell carcinoma;RCC;RCCs|r||||
+E|D4|disease|renal cancer|renal cancers;kidney cancer;kidney cancers|r||||
+E|D5|disease|clear cell RCC|clear cell RCC;CCRCC;Clear cell renal cell carcinoma;clear cell renal cell carcinoma|r|||D3|
+E|D6|disease|papillary RCC|papillary RCC;PRCC|r|||D3|
+E|D7|disease|chromophobe RCC|chromophobe RCC;ChRCC|r|||D3|
+E|D8|disease|MiT family translocation RCC|MiT family translocation RCC|r|||D3|
+E|D9|disease|clear cell papillary RCC|clear cell papillary RCC|r|||D3|
+E|D10|disease|Von Hippel-Lindau syndrome|Von Hippel-Lindau syndrome|r||||
+E|D11|disease|hereditary papillary RCC|hereditary papillary RCC|r||||
+E|D12|disease|syndrome-associated hereditary renal cell tumors|syndrome-associated hereditary renal cell tumors|r||||
+E|D13|disease|genitourinary tumors|genitourinary tumors|r||||
+E|D14|disease|epilepsy|epilepsy|r||||
+E|D15|disease|cortical dysplasias|cortical dysplasias|r||||
+E|D16|disease|lymphangioleiomyomatosis|lymphangioleiomyomatosis;Lymphangioleiomyomatosis|r||||
+E|D17|disease|sporadic pulmonary lymphangioleiomyomatosis|sporadic pulmonary lymphangioleiomyomatosis|r|||D16|
+E|D18|disease|angiomyolipoma|angiomyolipoma;AML|r||||
+E|D19|disease|renal angiomyolipoma|renal angiomyolipoma;renal AMLs|r|||D18|
+E|D20|disease|epithelioid AML|epithelioid AML|r|||D18|
+E|D21|disease|angiofibroma|angiofibromas;angiofibroma|r||||
+E|D22|disease|RAT-like RCC|renal angiomyoadenomatous tumor;RAT-like|r|||D1|
+E|D23|disease|TSC-associated papillary RCC|TSC-associated papillary RCC|r|||D1|
+E|D24|disease|chromophobe-like RCC|chromophobe-like RCC;chromophobe-like|r|||D1|
+E|D25|disease|hybrid oncocytic/chromophobe tumor|hybrid oncocytic/chromophobe tumor;HOCT|r|||D1|
+E|D26|disease|eosinophilic/macrocystic RCC|eosinophilic/macrocystic RCC;RCC with eosinophilic/macrocystic feature|r||||
+E|D27|disease|unclassified RCC|unclassified RCC|r|||D3|
+E|D28|disease|RCC with (angio)leiomyomatous stroma|RCC with (angio)leiomyomatous stroma|r||||
+E|D29|disease|malignant melanoma|malignant melanoma|r|||D30|
+E|D30|disease|melanoma|Melanoma;melanoma|r||||
+E|D31|disease|cutaneous malignant melanoma|cutaneous malignant melanoma|r|||D29|
+E|D32|disease|urothelial carcinoma of urinary bladder|urothelial carcinoma of urinary bladder|r||||
+E|D33|disease|hepatocellular carcinoma|hepatocellular carcinoma|r||||
+E|D34|disease|prostate adenocarcinoma|prostate adenocarcinoma|r||||
+E|D35|disease|esophageal carcinoma|esophageal carcinoma|r||||
+E|D36|disease|esophagus-stomach cancer|esophagus-stomach cancer|r||||
+E|D37|disease|hematopoietic neoplasm|hematopoietic neoplasm|r||||
+E|D38|disease|colorectal adenocarcinoma|colorectal adenocarcinoma|r||||
+E|D39|disease|lung cancer|lung cancer|r||||
+E|D40|disease|hematopoietic malignancy|Hematopoietic malignancy|r||||
+E|D41|disease|gastric cancer|gastric cancer;Gastric cancer;stomach cancer|r||||
+E|D42|disease|colorectal cancer|colorectal cancer;Colorectal cancer|r||||
+E|D43|disease|prostate cancer|prostate cancer|r||||
+E|D44|disease|breast cancer|breast cancer;Breast cancer|r||||
+E|D45|disease|laterally spreading tumor|Laterally spreading tumor|r||||
+E|D46|disease|nonmedullary thyroid cancer|nonmedullary thyroid cancer|r||||
+E|D47|disease|mesothelioma|mesothelioma|r||||
+E|D48|disease|endometrial cancer|endometrial cancer|r||||
+E|D49|disease|esophageal cancer|esophageal cancer|r||||
+E|D50|disease|ovarian (mucinous) cancer|ovarian (mucinous) cancer|r||||
+E|D51|disease|T-cell acute lymphoblastic leukemia|T-cell acute lymphoblastic leukemia|r||||
+E|D52|disease|B-cell acute lymphoblastic leukemia|B-cell acute lymphoblastic leukemia|r||||
+E|D53|disease|ovarian cancer|ovarian cancer|r||||
+E|D54|disease|oral squamous cell carcinoma|oral squamous cell carcinoma|r||||
+E|D55|disease|pancreatic ductal adenocarcinoma|pancreatic ductal adenocarcinoma|r||||
+E|D56|disease|colorectal carcinoma|colorectal carcinoma|r||||
+E|D57|disease|skin cancer|skin cancer|r||||
+E|D58|disease|thyroid cancer|thyroid cancer|r||||
+E|D59|disease|cholangiocarcinoma|cholangiocarcinoma|r||||
+E|D60|disease|laryngeal cancer|laryngeal cancer|r||||
+E|D61|disease|glioblastoma|glioblastoma|r||||
+E|D62|disease|EBV-associated nasopharyngeal cancer|EBV-associated nasopharyngeal cancer|r||||
+E|D63|disease|cervical squamous cell carcinoma|cervical squamous cell carcinoma|r||||
+E|D64|disease|chondrosarcoma|chondrosarcoma|r||||
+E|D65|disease|Ewing sarcoma family of tumors|Ewing sarcoma family of tumors|r||||
+E|D66|disease|bladder cancer|bladder cancer|r||||
+E|D67|disease|gallbladder cancer|gallbladder cancer|r||||
+E|D68|disease|thymic carcinoma|thymic carcinoma|r||||
+E|D69|disease|non-small cell lung carcinoma|non-small cell lung carcinoma;Non-small cell lung carcinoma|r||||
+E|D70|disease|small cell lung carcinoma|small cell lung carcinoma|r||||
+E|D71|disease|colon cancer|colon cancer|r||||
+E|D72|disease|glioma|glioma|r||||
+E|D73|disease|hematologic malignancy|Hematologic malignancy|r||||
+E|D74|disease|leukemia|leukemia|r|||D73|
+E|D75|disease|therapy-related myeloid neoplasms|therapy-related myeloid neoplasms|r|||D73|
+E|D76|disease|therapy-related acute lymphoblastic leukemia|therapy-related acute lymphoblastic leukemia|r|||D73|
+E|D77|disease|atypical chronic myeloid leukemia|atypical chronic myeloid leukemia|r|||D73|
+E|D78|disease|small cell carcinoma of the ovary, hypercalcemic type|Small cell carcinoma of the ovary, hypercalcemic type|r||||
+E|D79|disease|endometrioid adenocarcinoma|endometrioid adenocarcinoma|r||||
+E|D80|disease|rhabdoid tumor|rhabdoid tumor|r||||
+E|D81|disease|thoracic sarcoma|thoracic sarcoma|r||||
+E|D82|disease|Wilm tumor|Wilm tumor|r||||
+E|D83|disease|neuroendocrine carcinoma|neuroendocrine carcinoma|r||||
+E|D84|disease|Burkitt lymphoma|Burkitt lymphoma|r||||
+E|D85|disease|oligodendroglioma|oligodendroglioma|r||||
+E|D86|disease|mantle cell lymphoma|mantle cell lymphoma|r||||
+E|D87|disease|cervical cancer|cervical cancer|r||||
+E|D88|disease|medulloblastoma|medulloblastoma|r||||
+E|D89|disease|cutaneous squamous cell carcinoma|cutaneous squamous cell carcinoma|r||||
+E|D90|disease|osteosarcoma|osteosarcoma|r||||
+E|D91|disease|high grade pelvic serous carcinoma|high grade pelvic serous carcinoma|r||||
+E|D92|disease|acute myelogenous leukemia|acute myelogenous leukemia|r||||
+E|D93|disease|lymphoma|lymphoma|r||||
+E|D94|disease|neuroblastoma|neuroblastoma|r||||
+E|D95|disease|HPV-positive oropharyngeal carcinoma|HPV-positive oropharyngeal carcinoma|r||||
+E|D96|disease|hypopharyngeal squamous cell carcinoma|hypopharyngeal squamous cell carcinoma|r||||
+E|D97|disease|nasopharyngeal carcinoma|nasopharyngeal carcinoma|r||||
+E|D98|disease|laryngeal squamous cell carcinoma|laryngeal squamous cell carcinoma|r||||
+E|D99|disease|myelodysplastic syndrome|myelodysplastic syndrome|r||||
+E|D100|disease|papillary thyroid carcinoma|papillary thyroid carcinoma|r||||
+E|D101|disease|adrenocortical carcinoma|adrenocortical carcinoma|r||||
+E|D102|disease|head and neck squamous cell carcinoma|head and neck squamous cell carcinoma|r||||
+E|D103|disease|hamartoma|hamartoma|r||||
+E|D104|disease|cortical tuber|cortical tuber;cortical tubers|r||||
+E|D105|disease|subependymal giant cell astrocytoma|subependymal giant cell astrocytoma|r||||
+E|S1|symptom|seizures|seizures|r||||
+E|S2|phenotype|developmental delay|developmental delay|r||||
+E|S3|phenotype|hypomelanotic macules|hypomelanotic macules|r||||
+E|S4|phenotype|subependymal nodules|subependymal nodules|r||||
+E|S5|symptom|abdominal pain|abdominal pain|r||||
+E|S6|phenotype|renal cysts|renal cysts|r||||
+X|HMB-45|b0012.s2|antibody/marker, not a single-gene name
+X|pan-cytokeratin|b0012.s2|marker family, not a single gene
+X|PI3K/AKT/mTOR pathway|b0002.s12|pathway, not a single gene
+X|PP2A|b0002.s12|complex/pathway label
+X|GPCR|b0063.s2|receptor family/pathway
+X|common RCCs|b0024.s2|grouping label for CCRCC, PRCC, ChRCC
+X|Tumors|b0066.s1|table column header
+X|rs45517169|b0058.s1|variant ID
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0005.s3+b0090.s1|bg|bgr|aff|ebr
+EV|V3|b0002.s8+b0032.s2+b0092.s1|ts|co|na|do
+EV|V4|b0002.s12+b0063.s3|ts|int|hyp|ho
+EV|V5|b0002.s12+b0063.s2+b0100.s3|ts|int|hyp|ho
+EV|V6|b0002.s10+b0002.s11+b0042.s3+b0042.s6|ts|co|na|do
+EV|V7|b0092.s2|bg|bgr|aff|ebr
+EV|V8|b0092.s4|ts|int|hyp|ho
+EV|V9|b0091.s3|bg|bgr|aff|ebr
+EV|V10|b0089.s3|bg|bgr|aff|ebr
+EV|V11|b0095.s5|bg|bgr|aff|ebr
+EV|V12|b0094.s4|bg|bgr|aff|ebr
+EV|V13|b0094.s11|bg|bgr|aff|ebr
+EV|V14|b0094.s13|bg|bgr|aff|ebr
+EV|V15|b0094.s19|bg|bgr|aff|ebr
+EV|V16|b0094.s22|bg|bgr|aff|ebr
+EV|V17|b0083.s1+b0083.s2+b0083.s3|bg|bgr|aff|ebr
+EV|V18|b0083.s4+b0083.s5|bg|bgr|aff|ebr
+EV|V19|b0093.s2+b0093.s3|bg|bgr|aff|ebr
+EV|V20|b0083.s6+b0093.s5|bg|bgr|aff|ebr
+EV|V21|b0096.s7+b0096.s8+b0096.s9|ts|neg|neg|rr
+EV|V22|b0029.s16+b0002.s8|ts|res|aff|cmp
+EV|V23|b0090.s1+b0090.s4|ts|int|hyp|ho
+EV|V24|b0002.s13+b0087.s3+b0098.s1|ts|res|q|rr,unc
+EV|V25|b0098.s2|ts|int|q|unc
+EV|V26|b0097.s3|ts|res|q|rr,unc
+EV|V30|b0067.s1|unk|co|q|unc
+EV|V31|b0069.s1|unk|co|q|unc
+EV|V32|b0070.s1|unk|co|q|unc
+EV|V33|b0071.s1|unk|co|q|unc
+EV|V34|b0072.s1|unk|co|q|unc
+EV|V35|b0073.s1|unk|co|q|unc
+EV|V36|b0075.s1|unk|co|q|unc
+EV|V37|b0076.s1|unk|co|q|unc
+EV|V38|b0077.s1|unk|co|q|unc
+EV|V39|b0078.s1|unk|co|q|unc
+EV|V40|b0079.s1|unk|co|q|unc
+EV|V41|b0080.s1|unk|co|q|unc
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:c:bg:V2|||TSC1 or TSC2 alterations cause TSC
+P|G2|D2|sup|c|bg|sup:c:bg:V1;sup:c:bg:V2|||TSC1 or TSC2 alterations cause TSC
+P|G2|D1|unc|-|unk|unc:-:ts:V4+V8;unc:-:bg:V7;unc:-:unk:V41|hedged_claim,scope|V3|Germline/somatic TSC2 detected; pathogenic role only putative
+P|G1|D1|unc|-|unk|unc:-:ts:V24;unc:-:ts:V23|hedged_claim,support_basis_unresolved|V25|Downregulation descriptive; mTOR rationale hedged
+P|G42|D1|unc|-|ts|unc:-:ts:V22+V23|hedged_claim|V22|Activation observed; pathogenic role only suggested
+P|G41|D1|neg|-|ts|neg:-:ts:V21|||Case 2 C-terminal APC mutation judged non-pathogenic
+P|G3|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G4|D1|unc|-|ts|unc:-:ts:V6|hedged_claim|V6|Somatic mutation; pathogenic role unstudied
+P|G5|D1|unc|-|ts|unc:-:ts:V6|hedged_claim|V6|Somatic mutation; pathogenic role unstudied
+P|G6|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G7|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6;V26|Somatic mutation; putative pathway only
+P|G8|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G9|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G10|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G11|D1|unc|-|ts|unc:-:ts:V5;unc:-:ts:V24|hedged_claim,support_basis_unresolved|V6;V26|Mutation plus downregulation; putative only
+P|G12|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G13|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G14|D1|unc|-|ts|unc:-:ts:V5|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G15|D1|unc|-|ts|unc:-:ts:V4|hedged_claim|V6|Somatic mutation; putative pathway only
+P|G16|D1|unc|-|ts|unc:-:ts:V24|support_basis_unresolved|V25|Upregulated; comparator and statistics unstated
+P|G17|D1|unc|-|ts|unc:-:ts:V24|support_basis_unresolved|V25|Upregulated; comparator and statistics unstated
+P|G18|D1|unc|-|ts|unc:-:ts:V24|support_basis_unresolved|V25|Downregulated; comparator and statistics unstated
+P|G19|D1|unc|-|ts|unc:-:ts:V24|support_basis_unresolved|V25|Downregulated; comparator and statistics unstated
+P|G20|D1|unc|-|ts|unc:-:ts:V24|support_basis_unresolved|V25|Downregulated; comparator and statistics unstated
+P|G2|D23|sup|a|bg|sup:a:bg:V9|||Second-hit TSC2 mutations in cited cases
+P|G22|D23|sup|a|bg|sup:a:bg:V9|||Somatic mutations reported in cited cases
+P|G23|D23|sup|a|bg|sup:a:bg:V9|||Somatic mutations reported in cited cases
+P|G24|D23|sup|a|bg|sup:a:bg:V9|||Somatic mutations reported in cited cases
+P|G25|D23|sup|a|bg|sup:a:bg:V9|||Somatic mutations reported in cited cases
+P|G21|D23|sup|a|bg|sup:a:bg:V10|||Deficient SDHB expression reported
+P|G39|D23|sup|a|bg|sup:a:bg:V20|||Alteration known in TSC-associated papillary RCC
+P|G40|D23|sup|a|bg|sup:a:bg:V20|||Alteration known in TSC-associated papillary RCC
+P|G2|D17|sup|a|bg|sup:a:bg:V11|||Variant previously reported in this disease
+P|G3|D29|sup|a|bg|sup:a:bg:V12|||Variant previously reported in this disease
+P|G7|D32|sup|a|bg|sup:a:bg:V13|||Variant previously reported in this disease
+P|G7|D33|sup|a|bg|sup:a:bg:V13;unc:-:unk:V33|||Variant previously reported in this disease
+P|G7|D31|sup|a|bg|sup:a:bg:V13|||Variant previously reported in this disease
+P|G8|D34|sup|a|bg|sup:a:bg:V14|||Variant previously reported in this disease
+P|G11|D35|sup|a|bg|sup:a:bg:V15|||Variant previously reported in this disease
+P|G11|D36|sup|a|bg|sup:a:bg:V15|||Variant previously reported in this disease
+P|G11|D31|sup|a|bg|sup:a:bg:V15|||Variant previously reported in this disease
+P|G11|D37|sup|a|bg|sup:a:bg:V15|||Variant previously reported in this disease
+P|G12|D38|sup|a|bg|sup:a:bg:V16|||Variant previously reported in this disease
+P|G12|D39|sup|a|bg|sup:a:bg:V16|||Variant previously reported in this disease
+P|G26|D5|sup|a|bg|sup:a:bg:V17|||Labelled CCRCC-related gene
+P|G27|D6|sup|a|bg|sup:a:bg:V17|||Labelled PRCC-related gene
+P|G12|D6|sup|a|bg|sup:a:bg:V17|||Labelled PRCC-related gene
+P|G28|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G29|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G30|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G31|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G32|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G33|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G34|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G35|D5|sup|a|bg|sup:a:bg:V17|||Labelled CCRCC-related gene
+P|G35|D6|sup|a|bg|sup:a:bg:V17;sup:a:bg:V19|||Labelled PRCC-related gene
+P|G8|D5|sup|a|bg|sup:a:bg:V17;sup:a:bg:V19;unc:-:unk:V34|||Labelled CCRCC-related gene
+P|G8|D6|sup|a|bg|sup:a:bg:V17|||Labelled PRCC-related gene
+P|G36|D5|sup|a|bg|sup:a:bg:V17|||Labelled CCRCC-related gene
+P|G36|D6|sup|a|bg|sup:a:bg:V17|||Labelled PRCC-related gene
+P|G36|D7|sup|a|bg|sup:a:bg:V17|||Labelled ChRCC-related gene
+P|G37|D27|sup|a|bg|sup:a:bg:V17|||Gene shared with unclassified RCC data
+P|G35|D27|sup|a|bg|sup:a:bg:V17|||Gene shared with unclassified RCC data
+P|G8|D27|sup|a|bg|sup:a:bg:V17|||Gene shared with unclassified RCC data
+P|G38|D7|sup|a|bg|sup:a:bg:V18;sup:a:bg:V19|||Labelled ChRCC-related gene, 3.08% frequency
+P|G2|D27|sup|a|bg|sup:a:bg:V18|||Gene shared with unclassified RCC data
+P|G3|D40|unc|-|unk|unc:-:unk:V30|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G3|D41|unc|-|unk|unc:-:unk:V30|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G3|D42|unc|-|unk|unc:-:unk:V30|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G3|D43|unc|-|unk|unc:-:unk:V30|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G3|D44|unc|-|unk|unc:-:unk:V30|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G5|D45|unc|-|unk|unc:-:unk:V31|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G5|D46|unc|-|unk|unc:-:unk:V31|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G6|D30|unc|-|unk|unc:-:unk:V32|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G6|D47|unc|-|unk|unc:-:unk:V32|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G6|D48|unc|-|unk|unc:-:unk:V32|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G6|D49|unc|-|unk|unc:-:unk:V32|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G6|D44|unc|-|unk|unc:-:unk:V32|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G6|D50|unc|-|unk|unc:-:unk:V32|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D44|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D51|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D52|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D53|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D39|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D54|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D55|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D56|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D57|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D30|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D58|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D59|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D3|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D41|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D49|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D60|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D61|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D48|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D62|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D63|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D64|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G7|D65|unc|-|unk|unc:-:unk:V33|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D44|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D66|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D59|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D47|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D67|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D43|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D68|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G8|D41|unc|-|unk|unc:-:unk:V34|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D69|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D70|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D71|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D48|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D41|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D72|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G9|D30|unc|-|unk|unc:-:unk:V35|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G11|D73|unc|-|unk|unc:-:unk:V36|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G11|D74|unc|-|unk|unc:-:unk:V36|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G11|D75|unc|-|unk|unc:-:unk:V36|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G11|D76|unc|-|unk|unc:-:unk:V36|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G11|D77|unc|-|unk|unc:-:unk:V36|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D78|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D69|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D55|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D79|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D42|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D80|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D81|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D82|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D83|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D84|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D85|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D41|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D68|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D5|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D86|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D87|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G12|D88|unc|-|unk|unc:-:unk:V37|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D41|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D44|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D69|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D67|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D89|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D54|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D42|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D90|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D30|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D66|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D53|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D91|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D43|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D33|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D48|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D92|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D93|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D94|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D47|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D95|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D96|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D97|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D98|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D70|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D99|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G13|D72|unc|-|unk|unc:-:unk:V38|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G14|D42|unc|-|unk|unc:-:unk:V39|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G14|D41|unc|-|unk|unc:-:unk:V39|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G14|D39|unc|-|unk|unc:-:unk:V39|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G14|D100|unc|-|unk|unc:-:unk:V39|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G14|D90|unc|-|unk|unc:-:unk:V39|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G14|D101|unc|-|unk|unc:-:unk:V39|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G15|D39|unc|-|unk|unc:-:unk:V40|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G15|D71|unc|-|unk|unc:-:unk:V40|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G15|D33|unc|-|unk|unc:-:unk:V40|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D16|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D19|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D102|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D3|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D103|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D104|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D105|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+P|G2|D21|unc|-|unk|unc:-:unk:V41|support_basis_unresolved||Table 3 Tumors column link unexplained
+F|F1|descriptive|germline TSC2 variants|two TSC-RCC cases|not_applicable|not_applicable|not_applicable|V3|two cases only
+F|F2|descriptive|somatic cancer gene mutations|Case 1 (12 genes), Case 2 (2)|not_applicable|not_applicable|partial|V6|supplementary tables unread
+F|F3|group_comparison|phospho-mTOR staining tumor vs normal|two TSC-RCC cases|unknown|positive|not_reported|V22|qualitative IHC
+F|F4|descriptive|ALK, CRLF2 up; CDH1, MAP3K1, RUNX1, SETBP1, TSC1 down|both TSC-RCCs|unknown|mixed|unread|V24|two-fold change; comparator unstated
+F|F5|descriptive|LOH chr16 including TSC2|both TSC-RCCs|not_applicable|null|unread|V8|no second hit in Case 1
+F|F6|hypothesis|putative pathogenic pathways by gene|Case 1 and Case 2|not_applicable|not_applicable|not_applicable|V4+V5|
+F|F7|descriptive|NOTCH3 up, SETBP1 down mRNA|Case 1|unknown|mixed|unread|V26|
+F|F8|descriptive|APC C-terminal mutation, beta-catenin IHC|Case 2|not_applicable|null|not_reported|V21|data not shown
+C|C1|TSC2 splice variant notation|b0032.s2+b0036.s1|noncritical|unresolved|c.2548+2 in text vs c.2578+2 in table
+C|C2|validation of Case 1 genes|b0042.s8+b0046.s1+b0047.s1+b0052.s1|noncritical|unresolved|text says all validated; table shows NA
+U|Supplementary figures, tables and methods|b0014.s8, b0039.s1, b0083.s1, b0087.s1|not provided in text
+R|Table 3 Tumors column|b0066.s1|Gene-tumor link in column not explained in text|Marked uncertain, support_basis_unresolved, source unclear
+R|compound table entry|b0076.s1|"ampullary and pancreatic ductal adenocarcinoma" lacks a verbatim ampullary name|Linked only pancreatic ductal adenocarcinoma; ampullary not entity

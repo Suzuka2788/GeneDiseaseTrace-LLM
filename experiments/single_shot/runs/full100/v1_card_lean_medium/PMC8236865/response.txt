@@ -1,0 +1,33 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text as given; supplementary tables and figures unread
+E|G1|gene|voltage-dependent anion channel|VDAC;VDACs;Voltage-dependent anion channels;voltage-dependent anion channel;Voltage-dependent anion channel protein|r||non-human||
+E|G2|gene|cation/H(+) antiporter 17|Cation/H(+) antiporter 17;Cation/H (+) antiporter 17;cation/H (+) antiporter 17;CHX|r||non-human||
+E|G3|gene|V-H+-ATPase|V-H+-ATPase;V-H + -ATPase|p|ambiguous_mapping|||
+E|G4|gene|V-type proton ATPase subunit e2|V-type proton ATPase subunit e2|r||non-human||
+E|G5|gene|galactinol synthase|galactinol synthase;Galactinol synthase|r||non-human||
+E|G6|gene|glutamyl-tRNA reductase|glutamyl-tRNA reductase;Glutamyl-tRNA reductase|r||non-human||
+E|G7|gene|MYB44|MYB44|r||non-human||
+E|G8|gene|WRKY25|WRKY25|r||non-human||
+E|G9|gene|calmodulin-like protein|Calmodulin-like protein;calmodulin-like protein;calmodulin-like;CMLS|p|ambiguous_mapping|non-human||
+E|G10|gene|calmodulin-binding protein|Calmodulin-binding protein|r||non-human||
+E|G11|gene|calmodulin|Calmodulin;calmodulin;CaM|p|ambiguous_mapping|||
+E|G12|gene|SOS2|SOS2|p|ambiguous_mapping|non-human||
+E|G13|gene|BrActin|BrActin|r||non-human||
+E|G14|gene|Rubisco|Rubisco|p|ambiguous_mapping|non-human||
+E|G15|gene|Flu|Flu|p|ambiguous_mapping|non-human||
+E|S1|phenotype|salt tolerance|salt tolerance|r||||
+E|S2|phenotype|chlorosis|chlorosis|r||||
+E|S3|phenotype|ion toxicity|ion toxicity|r||||
+E|S4|phenotype|osmotic stress|osmotic stress|r||||
+X|salt injury index|b0017|plant stress score, not a disease
+X|endoplasmic reticulum stress|b0127|cellular stress process, not disease
+X|SOS pathway|b0127|pathway, not single gene
+X|MAPK pathway|b0127|pathway, not single gene
+X|BraA03g010780.3C.gene|b0109|gene identifier
+X|Brassica_rapa_newGene_498|b0113|gene identifier
+F|F1|descriptive|key DEG expression vs genotype and salt|Qinghua45 and Biyuchunhua leaves|significant|negative|partial|EV1|plant salt stress, no disease
+F|F2|descriptive|qRT-PCR of MYB44, WRKY25, Rubisco, galactinol synthase|two cultivars under NaCl|significant|unknown|unread|EV2|figure values unread
+EV|EV1|b0099.s3+b0099.s4+b0112.s1+b0113.s1|ts|res|na|rr,do
+EV|EV2|b0120.s3+b0120.s4+b0121.s1|ts|res|na|rr,do
+U|Supplementary Tables 1-5 and Figures 1-2|b0054.s1;b0049.s5;b0093.s2|not provided in text
+R|no primary target|whole paper|Plant salt-stress paper contains no disease or clinical-event entities|Recorded genes and phenotypes only; no P lines emitted

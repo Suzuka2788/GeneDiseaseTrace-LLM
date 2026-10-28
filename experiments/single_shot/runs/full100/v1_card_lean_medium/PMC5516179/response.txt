@@ -1,0 +1,40 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text body, Table 1, captions; supplements unread
+E|G1|gene|TP53|p53|r||human||
+E|G2|gene|CDKN1A|p21|p|ambiguous_mapping|human||
+E|G3|gene|BAX|Bax|p|ambiguous_mapping|human||
+E|G4|gene|ADE2|ADE2;ade2-1;ade2|r||non-human||
+E|G5|gene|lacZ|lacZ|r||non-human||
+E|G6|gene|URA3|URA3;ura3-1;ura3|r||non-human||
+E|G7|gene|LEU2|LEU2;leu2-3,112|r||non-human||
+E|G8|gene|HTB2|HTB2;Htb2|r||non-human||
+E|G9|gene|MET25|MET25|r||non-human||
+E|G10|gene|Ran|Ran|p|ambiguous_mapping|non-human||
+E|G11|gene|TRP1|trp1-1|r||non-human||
+E|G12|gene|HIS3|his3-11,15|r||non-human||
+E|G13|gene|CAN1|can1-100|r||non-human||
+E|D1|disease|cancer|cancer|r|||||
+E|D2|disease|tumor|tumors;cancerous tumors;tumor|r|||||
+X|p53-RE|b0085|response element, not a gene
+X|DBD|b0022|protein domain abbreviation
+X|DO-1|b0071|antibody clone name
+X|GFP|b0077|reporter tag, not a disease-relevant gene endpoint
+X|mCherry|b0081|fluorescent protein tag
+EV|V1|b0006.s3|bg|bgr|aff|ebr
+EV|V2|b0100.s5+b0100.s6|bg|bgr|aff|ebr
+EV|V3|b0009.s2|bg|bgr|aff|ebr
+EV|V4|b0085.s3|bg|bgr|hyp|ebr,unc
+EV|V5|b0142.s1+b0085.s1|bg|bgr|aff|ebr
+EV|V6|b0087.s9+b0087.s13+b0087.s16|ts|res|na|rr,do
+EV|V7|b0122.s11+b0119.s4|ts|res|na|rr,do
+EV|V8|b0119.s5|ts|res|na|rr,do
+EV|V9|b0126.s10|ts|res|na|rr,cmp
+P|G1|D2|sup|a|bg|sup:a:bg:V1+V2+V3;unc:-:bg:V4||V4|p53 mutated in ~50% tumors; tumor-associated mutations
+P|G1|D1|sup|a|bg|sup:a:bg:V5|||p53 described as tumor suppressor important in cancer
+F|F1|descriptive|p53-E286A transactivation by temperature|yeast reporter strains|unknown|negative|partial|V6|figure data, single mutant
+F|F2|descriptive|p53-P177R DNA binding and protein level|yeast extracts|unknown|negative|partial|V7|student data only
+F|F3|descriptive|p53-R342P protein level|yeast extracts|not_applicable|negative|not_reported|V8|OD mutations, qualitative
+F|F4|group_comparison|p53-G266E nuclear:cytoplasmic GFP ratio vs wt|yeast cells|not_significant|null|available|V9|indistinguishable; no formal test
+C|C1|mut3 label: Y220C vs G266E|b0058.s1+b0126.s10|noncritical|resolved|different years' mutant sets
+C|C2|DNA-binding background: Bgnd vs no DNA|b0076.s1+b0076.s2+b0122.s8|noncritical|unresolved|caption may reflect earlier protocol
+U|Supplemental Materials|b0014.s12+b0107.s5|not provided

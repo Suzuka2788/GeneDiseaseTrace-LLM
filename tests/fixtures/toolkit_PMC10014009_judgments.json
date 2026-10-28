@@ -1,0 +1,72 @@
+{
+  "_note": "Toolkit test fixture only. Deliberately partial; not an answer key and never copied into blind run folders.",
+  "paper_id": "PMC10014009",
+  "model_identifier": "toolkit-test",
+  "exposure": {"statement": "test fixture written by the toolkit author"},
+  "language": "en",
+  "completion": "complete",
+  "input_scope": "Test fixture: parsed blocks only.",
+  "entities": [
+    {"entity_id": "G01", "entity_type": "gene", "canonical_name": "KRIT1", "surface_forms": ["KRIT1", "KRTI1"],
+     "identity_status": "provisional", "identity_issues": ["suspected_typo"], "gene_species": "human",
+     "merge_basis": "KRTI1 in the same three-gene panel list", "reference_sequences_from_text": ["NG_012964.1"]},
+    {"entity_id": "G02", "entity_type": "gene", "canonical_name": "MAP3K3",
+     "surface_forms": ["MAP3K3", {"surface": "MEKK3", "role": "protein_product"}],
+     "identity_status": "resolved", "identity_issues": [], "gene_species": "human"},
+    {"entity_id": "G03", "entity_type": "gene", "canonical_name": "Krit1 (animal model)", "surface_forms": ["Krit1"],
+     "identity_status": "provisional", "identity_issues": ["species_unresolved"], "gene_species": null,
+     "species_scope": "animal model, species not stated"},
+    {"entity_id": "D01", "entity_type": "disease", "canonical_name": "cerebral cavernous malformation",
+     "surface_forms": [{"surface": "cerebral cavernous malformation", "ignore_case": true}, "CCM", "CCMs"],
+     "identity_status": "resolved", "identity_issues": []},
+    {"entity_id": "D02", "entity_type": "disease", "canonical_name": "familial cerebral cavernous malformation",
+     "surface_forms": [{"surface": "familial cerebral cavernous malformation", "ignore_case": true}, "FCCM"],
+     "identity_status": "resolved", "identity_issues": [], "parent_id": "D01", "hierarchy_basis": "b0011 sporadic and familial categories"},
+    {"entity_id": "D03", "entity_type": "disease", "canonical_name": "sporadic CCM", "surface_forms": ["sporadic CCM", "sporadic CCMs"],
+     "identity_status": "resolved", "identity_issues": [], "parent_id": "D01"},
+    {"entity_id": "D04", "entity_type": "ambiguous", "candidate_side": "disease", "canonical_name": "PLE (undefined)",
+     "surface_forms": ["PLE"], "identity_status": "unresolved", "identity_issues": ["undefined_abbreviation"]},
+    {"entity_id": "S01", "entity_type": "symptom", "canonical_name": "headache",
+     "surface_forms": [{"surface": "headache", "ignore_case": true}], "identity_status": "resolved", "identity_issues": []}
+  ],
+  "excluded_candidates": [
+    {"candidate_id": "X01", "surface": "Non-cerebral CM", "block_id": "b0072", "candidate_type": "disease category",
+     "excluded_reason": "table_grouping_label", "reason": "Table 2 column header"}
+  ],
+  "evidence": [
+    {"evidence_id": "E01", "block_id": "b0011", "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+     "source_scope": "背景引用", "assertion_kind": "background_relation_statement", "relation_asserted": "affirmed",
+     "support_basis": ["explicit_background_report"], "supports": "KRIT1 causes FCCM (background)", "conditions": {"citation_absent": true}},
+    {"evidence_id": "E02", "block_id": "b0028", "quote": "Cohort 1 consisted of nine patients with KRIT1 variants",
+     "source_scope": "本研究结果", "assertion_kind": "descriptive_cooccurrence", "relation_asserted": "not_asserted",
+     "support_basis": ["descriptive_only"], "supports": "observation only"},
+    {"evidence_id": "E03", "block_id": "b0098", "quote": "Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients.",
+     "source_scope": "背景引用", "assertion_kind": "background_relation_statement", "relation_asserted": "affirmed",
+     "support_basis": ["explicit_background_report"], "supports": "MAP3K3 association with sporadic CCM (background)"},
+    {"evidence_id": "E04", "block_id": "b0076", "source_scope": "本研究结果", "assertion_kind": "descriptive_cooccurrence",
+     "relation_asserted": "not_asserted", "support_basis": ["descriptive_only"], "supports": "whole table row"},
+    {"evidence_id": "E05", "block_id": "b0094", "quote": "However, the correlation between age and the number of large CCMs was not statistically significant in the PDCD10 group.",
+     "source_scope": "本研究结果", "assertion_kind": "negative_result", "relation_asserted": "negated", "support_basis": ["reported_result"]}
+  ],
+  "pairs": [
+    {"gene_id": "G01", "disease_id": "D02", "status": "supported", "relation_type": "causal", "source_scope": "背景引用",
+     "claims": [{"claim_id": "C1", "status": "supported", "relation_type": "causal", "source_scope": "背景引用", "evidence_ids": ["E01"], "reason": "background causal"}],
+     "observational_context": ["E02"], "reason": "Background causal statement; this study's detection kept as observation."},
+    {"gene_id": "G02", "disease_id": "D03", "status": "supported", "relation_type": "association", "source_scope": "背景引用",
+     "claims": [{"claim_id": "C2", "status": "supported", "relation_type": "association", "source_scope": "背景引用", "evidence_ids": ["E03"], "reason": "background population finding (R4)"}],
+     "reason": "Cited population finding used as disease-relevant fact."},
+    {"gene_id": "G01", "disease_id": "D04", "status": "not_found", "context_checked": ["E04"], "reason": "Same-patient co-occurrence only."},
+    {"gene_id": "G03", "disease_id": "D01", "status": "uncertain", "unresolved_reason": ["other"], "reason": "test of uncertain path",
+     "conditions": {"evidence_species": "non-human", "gene_alteration": "heterozygous loss", "model_type": "CCM animal model"}}
+  ],
+  "study_findings": [
+    {"finding_id": "F1", "finding_type": "correlation", "variables": "age vs large lesion count", "population_or_group": "PDCD10 group",
+     "source_scope": "本研究结果", "evidence_ids": ["E05"], "reported_significance": "not_significant", "effect_direction": "unknown",
+     "statistics_availability": "not_reported", "statistics": null, "limits": "n=2"}
+  ],
+  "data_conflicts": [
+    {"conflict_id": "DC1", "subject": "full-model AUC", "statements": [{"location": "b0007", "value": "0.928"}, {"location": "b0067", "value": "0.982"}],
+     "impact": "noncritical", "resolution": "unresolved", "reason": "abstract vs results"}
+  ],
+  "rule_feedback": [{"rule": "R1", "location": "b0072", "problem": "test entry", "handling": "test"}]
+}

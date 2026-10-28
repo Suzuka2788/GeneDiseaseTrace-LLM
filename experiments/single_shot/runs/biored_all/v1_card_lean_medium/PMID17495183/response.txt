@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|tenomodulin|Tenomodulin;tenomodulin;TNMD|r||human||
+E|D1|disease|obesity|obesity|r|||||
+E|D2|disease|diabetes|diabetes|p|other||||
+E|D3|disease|type 2 diabetes|type 2 diabetes;T2D|r|||D2|
+E|D4|disease|impaired glucose tolerance|impaired glucose tolerance;IGT|r|||||
+E|S1|phenotype|adiposity|adiposity|r|||||
+E|S2|phenotype|overweight|overweight|r|||||
+E|S3|phenotype|2-hour plasma glucose levels|2-hour plasma glucose levels|r|||||
+X|rs5966709|b0002|variant ID
+X|rs4828037|b0002|variant ID
+X|rs11798018|b0002|variant ID
+X|rs2073163|b0002|variant ID
+X|rs1155794|b0002|variant ID
+X|rs2073162|b0002|variant ID
+X|rs1155974|b0002|variant ID
+X|Finnish Diabetes Prevention Study|b0002|study name, not disease
+EV|V1|b0001.s1|ts|res|aff|rr
+EV|V2|b0002.s6+b0002.s10|ts|res|aff|rr
+EV|V3|b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+EV|V4|b0002.s1+b0002.s2|ts|co|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||V2|Title asserts association; adiposity marker results
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||Title asserts association with diabetes risk
+P|G1|D3|sup|a|ts|sup:a:ts:V3|||SNPs associated with IGT-to-T2D conversion in men
+P|G1|D4|nf|-|||||V3+V4|IGT only population and baseline state
+F|F1|association|haploblock 1 SNPs vs adiposity features|DPS women and men, sex-specific|significant|unknown|not_reported|V2|abstract only
+F|F2|association|haploblock 2 SNPs vs 2-hour glucose|DPS men, 3-year follow-up|significant|positive|not_reported|V3|abstract only
+F|F3|association|TNMD SNP genotypes vs T2D conversion|DPS men with IGT|mixed|positive|partial|V3|rs1155974 p=0.054 not significant
+C|C1|rs1155794 vs rs1155974 marker ID|b0002.s7+b0002.s9|noncritical|unresolved|likely typo; gene-level link unaffected

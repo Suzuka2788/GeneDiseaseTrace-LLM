@@ -1,0 +1,456 @@
+﻿location,table,column,row_label,value,gene_scope
+b0032,Table 1,characteristic,"Mean Diagnosis Age, YO","Mean Diagnosis Age, YO",
+b0032,Table 1,All (n=21),"Mean Diagnosis Age, YO",36.8 (SD 18.5),
+b0032,Table 1,KRIT1 (n=9),"Mean Diagnosis Age, YO",43.6 (SD 16.0),
+b0032,Table 1,CCM2 (n=2),"Mean Diagnosis Age, YO",10.0 (SD 8.5),
+b0032,Table 1,PDCD10 (n=2),"Mean Diagnosis Age, YO",21.5 (SD 30.4),
+b0032,Table 1,Mutation detected total (n=13),"Mean Diagnosis Age, YO",35.0 (SD 21.1),
+b0032,Table 1,Mutation not detected (n=8),"Mean Diagnosis Age, YO",39.8 (SD 14.1),
+b0033,Table 1,characteristic,"Mean Last Imaging Age, YO","Mean Last Imaging Age, YO",
+b0033,Table 1,All (n=21),"Mean Last Imaging Age, YO",45.0 (SD 18.5),
+b0033,Table 1,KRIT1 (n=9),"Mean Last Imaging Age, YO",52.9 (SD 13.6),
+b0033,Table 1,CCM2 (n=2),"Mean Last Imaging Age, YO",13.5 (SD 7.8),
+b0033,Table 1,PDCD10 (n=2),"Mean Last Imaging Age, YO",27.5 (SD 37.5),
+b0033,Table 1,Mutation detected total (n=13),"Mean Last Imaging Age, YO",42.9 (SD 22.5),
+b0033,Table 1,Mutation not detected (n=8),"Mean Last Imaging Age, YO",48.4 (SD 9.4),
+b0034,Table 1,characteristic,"Male, %","Male, %",
+b0034,Table 1,All (n=21),"Male, %",38.1 (8),
+b0034,Table 1,KRIT1 (n=9),"Male, %",44.4 (4),
+b0034,Table 1,CCM2 (n=2),"Male, %",100.0 (2),
+b0034,Table 1,PDCD10 (n=2),"Male, %",50.0 (1),
+b0034,Table 1,Mutation detected total (n=13),"Male, %",53.8 (7),
+b0034,Table 1,Mutation not detected (n=8),"Male, %",12.5 (1),
+b0035,Table 1,characteristic,"Symptomatic, %","Symptomatic, %",
+b0035,Table 1,All (n=21),"Symptomatic, %",90.5 (19),
+b0035,Table 1,KRIT1 (n=9),"Symptomatic, %",88.9 (8),
+b0035,Table 1,CCM2 (n=2),"Symptomatic, %",100.0 (2),
+b0035,Table 1,PDCD10 (n=2),"Symptomatic, %",100.0 (2),
+b0035,Table 1,Mutation detected total (n=13),"Symptomatic, %",92.3 (12),
+b0035,Table 1,Mutation not detected (n=8),"Symptomatic, %",87.5(7),
+b0036,Table 1,characteristic,"Headache, %","Headache, %",
+b0036,Table 1,All (n=21),"Headache, %",23.8 (5),
+b0036,Table 1,KRIT1 (n=9),"Headache, %",22.2 (2),
+b0036,Table 1,CCM2 (n=2),"Headache, %",0.0 (0),
+b0036,Table 1,PDCD10 (n=2),"Headache, %",50.0 (1),
+b0036,Table 1,Mutation detected total (n=13),"Headache, %",23.1 (3),
+b0036,Table 1,Mutation not detected (n=8),"Headache, %",25.0 (2),
+b0037,Table 1,characteristic,"Dizziness, %","Dizziness, %",
+b0037,Table 1,All (n=21),"Dizziness, %",9.5 (2),
+b0037,Table 1,KRIT1 (n=9),"Dizziness, %",11.1 (1),
+b0037,Table 1,CCM2 (n=2),"Dizziness, %",50.0 (1),
+b0037,Table 1,PDCD10 (n=2),"Dizziness, %",0.0 (0),
+b0037,Table 1,Mutation detected total (n=13),"Dizziness, %",15.4 (2),
+b0037,Table 1,Mutation not detected (n=8),"Dizziness, %",0.0 (0),
+b0038,Table 1,characteristic,"Weakness, Dysarthria, or Facial palsy, %","Weakness, Dysarthria, or Facial palsy, %",
+b0038,Table 1,All (n=21),"Weakness, Dysarthria, or Facial palsy, %",33.3 (7),
+b0038,Table 1,KRIT1 (n=9),"Weakness, Dysarthria, or Facial palsy, %",11.1 (1),
+b0038,Table 1,CCM2 (n=2),"Weakness, Dysarthria, or Facial palsy, %",50.0 (1),
+b0038,Table 1,PDCD10 (n=2),"Weakness, Dysarthria, or Facial palsy, %",50.0 (1),
+b0038,Table 1,Mutation detected total (n=13),"Weakness, Dysarthria, or Facial palsy, %",23.1 (3),
+b0038,Table 1,Mutation not detected (n=8),"Weakness, Dysarthria, or Facial palsy, %",50.0 (4),
+b0039,Table 1,characteristic,"Diplopia, %","Diplopia, %",
+b0039,Table 1,All (n=21),"Diplopia, %",14.3 (3),
+b0039,Table 1,KRIT1 (n=9),"Diplopia, %",22.2 (2),
+b0039,Table 1,CCM2 (n=2),"Diplopia, %",0.0 (0),
+b0039,Table 1,PDCD10 (n=2),"Diplopia, %",0.0 (0),
+b0039,Table 1,Mutation detected total (n=13),"Diplopia, %",15.4 (2),
+b0039,Table 1,Mutation not detected (n=8),"Diplopia, %",12.5 (1),
+b0040,Table 1,characteristic,"Visual symptoms, %","Visual symptoms, %",
+b0040,Table 1,All (n=21),"Visual symptoms, %",14.3 (3),
+b0040,Table 1,KRIT1 (n=9),"Visual symptoms, %",22.2 (2),
+b0040,Table 1,CCM2 (n=2),"Visual symptoms, %",0.0 (0),
+b0040,Table 1,PDCD10 (n=2),"Visual symptoms, %",0.0 (0),
+b0040,Table 1,Mutation detected total (n=13),"Visual symptoms, %",15.4 (2),
+b0040,Table 1,Mutation not detected (n=8),"Visual symptoms, %",12.5 (1),
+b0041,Table 1,characteristic,"Seizure, %","Seizure, %",
+b0041,Table 1,All (n=21),"Seizure, %",38.1 (8),
+b0041,Table 1,KRIT1 (n=9),"Seizure, %",44.4 (4),
+b0041,Table 1,CCM2 (n=2),"Seizure, %",50.0 (1),
+b0041,Table 1,PDCD10 (n=2),"Seizure, %",50.0 (1),
+b0041,Table 1,Mutation detected total (n=13),"Seizure, %",46.2 (6),
+b0041,Table 1,Mutation not detected (n=8),"Seizure, %",25.0 (2),
+b0042,Table 1,characteristic,"Seizure onset, YO a","Seizure onset, YO a",
+b0042,Table 1,All (n=21),"Seizure onset, YO a",34.5 (SD 19.5),
+b0042,Table 1,KRIT1 (n=9),"Seizure onset, YO a",39.5 (SD 12.7),
+b0042,Table 1,CCM2 (n=2),"Seizure onset, YO a",16.00 (SD n/a),
+b0042,Table 1,PDCD10 (n=2),"Seizure onset, YO a",0.0 (SD n/a),
+b0042,Table 1,Mutation detected total (n=13),"Seizure onset, YO a",29.0 (SD 19.7),
+b0042,Table 1,Mutation not detected (n=8),"Seizure onset, YO a",51.0 (SD 2.8),
+b0043,Table 1,characteristic,"CASH, %","CASH, %",
+b0043,Table 1,All (n=21),"CASH, %",52.4 (11),
+b0043,Table 1,KRIT1 (n=9),"CASH, %",33.3 (3),
+b0043,Table 1,CCM2 (n=2),"CASH, %",100.0 (2),
+b0043,Table 1,PDCD10 (n=2),"CASH, %",50.0 (1),
+b0043,Table 1,Mutation detected total (n=13),"CASH, %",46.2 (6),
+b0043,Table 1,Mutation not detected (n=8),"CASH, %",62.5 (5),
+b0044,Table 1,characteristic,"Mean 1st CASH age, YO a","Mean 1st CASH age, YO a",
+b0044,Table 1,All (n=21),"Mean 1st CASH age, YO a",29.4 (SD 18.8),
+b0044,Table 1,KRIT1 (n=9),"Mean 1st CASH age, YO a",35.3 (SD 15.6),
+b0044,Table 1,CCM2 (n=2),"Mean 1st CASH age, YO a",10.0 (SD 8.5),
+b0044,Table 1,PDCD10 (n=2),"Mean 1st CASH age, YO a",0.0 (SD n/a),
+b0044,Table 1,Mutation detected total (n=13),"Mean 1st CASH age, YO a",21.0 (SD 19.3),
+b0044,Table 1,Mutation not detected (n=8),"Mean 1st CASH age, YO a",39.4 (SD 13.8),
+b0045,Table 1,characteristic,Mean number of CASH a,Mean number of CASH a,
+b0045,Table 1,All (n=21),Mean number of CASH a,1.8 (SD 1.3),
+b0045,Table 1,KRIT1 (n=9),Mean number of CASH a,2.0 (SD 1.7),
+b0045,Table 1,CCM2 (n=2),Mean number of CASH a,1.0 (SD 0.0),
+b0045,Table 1,PDCD10 (n=2),Mean number of CASH a,4.0 (SD n/a),
+b0045,Table 1,Mutation detected total (n=13),Mean number of CASH a,2.0 (SD 1.5),
+b0045,Table 1,Mutation not detected (n=8),Mean number of CASH a,1.6 (SD 0.9),
+b0046,Table 1,characteristic,"Surgery, %","Surgery, %",
+b0046,Table 1,All (n=21),"Surgery, %",33.3 (7),
+b0046,Table 1,KRIT1 (n=9),"Surgery, %",22.2 (2),
+b0046,Table 1,CCM2 (n=2),"Surgery, %",100.0 (2),
+b0046,Table 1,PDCD10 (n=2),"Surgery, %",50.0 (1),
+b0046,Table 1,Mutation detected total (n=13),"Surgery, %",38.5 (5),
+b0046,Table 1,Mutation not detected (n=8),"Surgery, %",25.0 (2),
+b0047,Table 1,characteristic,"Spinal CM, %","Spinal CM, %",
+b0047,Table 1,All (n=21),"Spinal CM, %",9.5 (2),
+b0047,Table 1,KRIT1 (n=9),"Spinal CM, %",11.1 (1),
+b0047,Table 1,CCM2 (n=2),"Spinal CM, %",0.0 (0),
+b0047,Table 1,PDCD10 (n=2),"Spinal CM, %",50.0 (1),
+b0047,Table 1,Mutation detected total (n=13),"Spinal CM, %",15.4 (2),
+b0047,Table 1,Mutation not detected (n=8),"Spinal CM, %",0.0 (0),
+b0048,Table 1,characteristic,"Cutaneous CM, %","Cutaneous CM, %",
+b0048,Table 1,All (n=21),"Cutaneous CM, %",4.8 (1),
+b0048,Table 1,KRIT1 (n=9),"Cutaneous CM, %",0.0 (0),
+b0048,Table 1,CCM2 (n=2),"Cutaneous CM, %",50.0 (1),
+b0048,Table 1,PDCD10 (n=2),"Cutaneous CM, %",0.0 (0),
+b0048,Table 1,Mutation detected total (n=13),"Cutaneous CM, %",7.7 (1),
+b0048,Table 1,Mutation not detected (n=8),"Cutaneous CM, %",0.0 (0),
+b0049,Table 1,characteristic,"FHx of suspicious CCM, %","FHx of suspicious CCM, %",
+b0049,Table 1,All (n=21),"FHx of suspicious CCM, %",42.9 (9),
+b0049,Table 1,KRIT1 (n=9),"FHx of suspicious CCM, %",66.7 (6),
+b0049,Table 1,CCM2 (n=2),"FHx of suspicious CCM, %",50.0 (1),
+b0049,Table 1,PDCD10 (n=2),"FHx of suspicious CCM, %",50.0 (1),
+b0049,Table 1,Mutation detected total (n=13),"FHx of suspicious CCM, %",61.5 (8),
+b0049,Table 1,Mutation not detected (n=8),"FHx of suspicious CCM, %",12.5 (1),
+b0050,Table 1,characteristic,"Tumor, %","Tumor, %",
+b0050,Table 1,All (n=21),"Tumor, %",28.6 (6),
+b0050,Table 1,KRIT1 (n=9),"Tumor, %",44.4 (4),
+b0050,Table 1,CCM2 (n=2),"Tumor, %",0.0 (0),
+b0050,Table 1,PDCD10 (n=2),"Tumor, %",0.0 (0),
+b0050,Table 1,Mutation detected total (n=13),"Tumor, %",30.8 (4),
+b0050,Table 1,Mutation not detected (n=8),"Tumor, %",25.0 (2),
+b0051,Table 1,characteristic,"Multiplicity, %","Multiplicity, %",
+b0051,Table 1,All (n=21),"Multiplicity, %",100.0 (21),
+b0051,Table 1,KRIT1 (n=9),"Multiplicity, %",100.0 (9),
+b0051,Table 1,CCM2 (n=2),"Multiplicity, %",100.0 (2),
+b0051,Table 1,PDCD10 (n=2),"Multiplicity, %",100.0 (2),
+b0051,Table 1,Mutation detected total (n=13),"Multiplicity, %",100.0 (13),
+b0051,Table 1,Mutation not detected (n=8),"Multiplicity, %",100.0 (8),
+b0053,Table 1,characteristic,"Brainstem, %","Brainstem, %",
+b0053,Table 1,All (n=21),"Brainstem, %",61.9 (13),
+b0053,Table 1,KRIT1 (n=9),"Brainstem, %",100.0 (9),
+b0053,Table 1,CCM2 (n=2),"Brainstem, %",0.0 (0),
+b0053,Table 1,PDCD10 (n=2),"Brainstem, %",100.0 (2),
+b0053,Table 1,Mutation detected total (n=13),"Brainstem, %",84.6 (11)*,
+b0053,Table 1,Mutation not detected (n=8),"Brainstem, %",25.0 (2)*,
+b0054,Table 1,characteristic,"Cerebellum, %","Cerebellum, %",
+b0054,Table 1,All (n=21),"Cerebellum, %",81.0 (17),
+b0054,Table 1,KRIT1 (n=9),"Cerebellum, %",88.9 (8),
+b0054,Table 1,CCM2 (n=2),"Cerebellum, %",50.0 (1),
+b0054,Table 1,PDCD10 (n=2),"Cerebellum, %",100.0 (2),
+b0054,Table 1,Mutation detected total (n=13),"Cerebellum, %",84.6 (11),
+b0054,Table 1,Mutation not detected (n=8),"Cerebellum, %",75.0 (6),
+b0055,Table 1,characteristic,"Cortex/Subcortex, %","Cortex/Subcortex, %",
+b0055,Table 1,All (n=21),"Cortex/Subcortex, %",85.7 (18),
+b0055,Table 1,KRIT1 (n=9),"Cortex/Subcortex, %",100.0 (9),
+b0055,Table 1,CCM2 (n=2),"Cortex/Subcortex, %",100.0 (2),
+b0055,Table 1,PDCD10 (n=2),"Cortex/Subcortex, %",50.0 (1),
+b0055,Table 1,Mutation detected total (n=13),"Cortex/Subcortex, %",92.3 (12),
+b0055,Table 1,Mutation not detected (n=8),"Cortex/Subcortex, %",75.0 (6),
+b0056,Table 1,characteristic,"Frontal, %","Frontal, %",
+b0056,Table 1,All (n=21),"Frontal, %",95.2 (20),
+b0056,Table 1,KRIT1 (n=9),"Frontal, %",100.0 (9),
+b0056,Table 1,CCM2 (n=2),"Frontal, %",100.0 (2),
+b0056,Table 1,PDCD10 (n=2),"Frontal, %",100.0 (2),
+b0056,Table 1,Mutation detected total (n=13),"Frontal, %",100.0 (13),
+b0056,Table 1,Mutation not detected (n=8),"Frontal, %",87.5 (7),
+b0057,Table 1,characteristic,"Temporal, %","Temporal, %",
+b0057,Table 1,All (n=21),"Temporal, %",76.2 (16),
+b0057,Table 1,KRIT1 (n=9),"Temporal, %",100.0 (9),
+b0057,Table 1,CCM2 (n=2),"Temporal, %",100.0 (2),
+b0057,Table 1,PDCD10 (n=2),"Temporal, %",100.0 (2),
+b0057,Table 1,Mutation detected total (n=13),"Temporal, %",100.0 (13)**,
+b0057,Table 1,Mutation not detected (n=8),"Temporal, %",37.5 (3)**,
+b0058,Table 1,characteristic,"Lateral temporal, %","Lateral temporal, %",
+b0058,Table 1,All (n=21),"Lateral temporal, %",71.4 (15),
+b0058,Table 1,KRIT1 (n=9),"Lateral temporal, %",88.9 (8),
+b0058,Table 1,CCM2 (n=2),"Lateral temporal, %",100.0 (2),
+b0058,Table 1,PDCD10 (n=2),"Lateral temporal, %",100.0 (2),
+b0058,Table 1,Mutation detected total (n=13),"Lateral temporal, %",92.3 (12)*,
+b0058,Table 1,Mutation not detected (n=8),"Lateral temporal, %",37.5 (3)*,
+b0059,Table 1,characteristic,"Medial temporal, %","Medial temporal, %",
+b0059,Table 1,All (n=21),"Medial temporal, %",52.4 (11),
+b0059,Table 1,KRIT1 (n=9),"Medial temporal, %",88.9 (8),
+b0059,Table 1,CCM2 (n=2),"Medial temporal, %",0.0 (0),
+b0059,Table 1,PDCD10 (n=2),"Medial temporal, %",50.0 (1),
+b0059,Table 1,Mutation detected total (n=13),"Medial temporal, %",69.2 (9),
+b0059,Table 1,Mutation not detected (n=8),"Medial temporal, %",25.0 (2),
+b0060,Table 1,characteristic,"Parietal, %","Parietal, %",
+b0060,Table 1,All (n=21),"Parietal, %",76.2 (16),
+b0060,Table 1,KRIT1 (n=9),"Parietal, %",100.0 (9),
+b0060,Table 1,CCM2 (n=2),"Parietal, %",50.0 (1),
+b0060,Table 1,PDCD10 (n=2),"Parietal, %",100.0 (2),
+b0060,Table 1,Mutation detected total (n=13),"Parietal, %",92.3 (12)*,
+b0060,Table 1,Mutation not detected (n=8),"Parietal, %",50.0 (4)*,
+b0061,Table 1,characteristic,"Occipital, %","Occipital, %",
+b0061,Table 1,All (n=21),"Occipital, %",66.7 (14),
+b0061,Table 1,KRIT1 (n=9),"Occipital, %",88.9 (8),
+b0061,Table 1,CCM2 (n=2),"Occipital, %",0.0 (0),
+b0061,Table 1,PDCD10 (n=2),"Occipital, %",100.0 (2),
+b0061,Table 1,Mutation detected total (n=13),"Occipital, %",76.9 (10),
+b0061,Table 1,Mutation not detected (n=8),"Occipital, %",50.0 (4),
+b0062,Table 1,characteristic,"Basal ganglia, %","Basal ganglia, %",
+b0062,Table 1,All (n=21),"Basal ganglia, %",9.5 (2),
+b0062,Table 1,KRIT1 (n=9),"Basal ganglia, %",11.1 (1),
+b0062,Table 1,CCM2 (n=2),"Basal ganglia, %",0.0 (0),
+b0062,Table 1,PDCD10 (n=2),"Basal ganglia, %",0.0 (0),
+b0062,Table 1,Mutation detected total (n=13),"Basal ganglia, %",7.7 (1),
+b0062,Table 1,Mutation not detected (n=8),"Basal ganglia, %",12.5 (1),
+b0063,Table 1,characteristic,"Thalamus, %","Thalamus, %",
+b0063,Table 1,All (n=21),"Thalamus, %",42.9 (9),
+b0063,Table 1,KRIT1 (n=9),"Thalamus, %",55.6 (5),
+b0063,Table 1,CCM2 (n=2),"Thalamus, %",0.0 (0),
+b0063,Table 1,PDCD10 (n=2),"Thalamus, %",100.0 (2),
+b0063,Table 1,Mutation detected total (n=13),"Thalamus, %",53.8 (7),
+b0063,Table 1,Mutation not detected (n=8),"Thalamus, %",25.0 (2),
+b0074,Table 2,Patient,K1,K1,G01
+b0074,Table 2,Gender,K1,Female,G01
+b0074,Table 2,CCM diagnosis (YO),K1,59,G01
+b0074,Table 2,Last F/U (YO),K1,59,G01
+b0074,Table 2,Clinical manifestation,K1,Nonspecific headache → CCM in Brain MRI,G01
+b0074,Table 2,Non-cerebral CM,K1,None,G01
+b0074,Table 2,First CASH (YO),K1,n/a,G01
+b0074,Table 2,Total CASH events,K1,0,G01
+b0074,Table 2,Surgery,K1,n/a,G01
+b0074,Table 2,Family history,K1,No,G01
+b0074,Table 2,Variant*,K1,"c.22_26del, p.Glu8Cysfs*22",G01
+b0074,Table 2,Novel,K1,Yes,G01
+b0074,Table 2,ACMG guideline classification,K1,1 PS (PVS1_Strong) + 1 PM (PM2) (LP),G01
+b0074,Table 2,Tumor,K1,Breast cancer,G01
+b0075,Table 2,Patient,K2,K2,G01
+b0075,Table 2,Gender,K2,Female,G01
+b0075,Table 2,CCM diagnosis (YO),K2,37,G01
+b0075,Table 2,Last F/U (YO),K2,53,G01
+b0075,Table 2,Clinical manifestation,K2,Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons),G01
+b0075,Table 2,Non-cerebral CM,K2,None,G01
+b0075,Table 2,First CASH (YO),K2,37,G01
+b0075,Table 2,Total CASH events,K2,4,G01
+b0075,Table 2,Surgery,K2,Craniotomy,G01
+b0075,Table 2,Family history,K2,No,G01
+b0075,Table 2,Variant*,K2,"c.535C>T, p.Arg179*",G01
+b0075,Table 2,Novel,K2,No,G01
+b0075,Table 2,ACMG guideline classification,K2,Previously reported,G01
+b0075,Table 2,Tumor,K2,Thyroid cancer,G01
+b0076,Table 2,Patient,K3,K3,G01
+b0076,Table 2,Gender,K3,Male,G01
+b0076,Table 2,CCM diagnosis (YO),K3,37,G01
+b0076,Table 2,Last F/U (YO),K3,52,G01
+b0076,Table 2,Clinical manifestation,K3,"Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE",G01
+b0076,Table 2,Non-cerebral CM,K3,Spinal (neck pain),G01
+b0076,Table 2,First CASH (YO),K3,n/a,G01
+b0076,Table 2,Total CASH events,K3,0,G01
+b0076,Table 2,Surgery,K3,n/a,G01
+b0076,Table 2,Family history,K3,Yes,G01
+b0076,Table 2,Variant*,K3,"c.815dup, p.Arg273Glufs*17,",G01
+b0076,Table 2,Novel,K3,Yes,G01
+b0076,Table 2,ACMG guideline classification,K3,1 PS (PVS1_Strong) + 1 PM (PM2) (LP),G01
+b0076,Table 2,Tumor,K3,Diffuse midline glioma (52YO),G01
+b0077,Table 2,Patient,K4,K4,G01
+b0077,Table 2,Gender,K4,Female,G01
+b0077,Table 2,CCM diagnosis (YO),K4,59,G01
+b0077,Table 2,Last F/U (YO),K4,61,G01
+b0077,Table 2,Clinical manifestation,K4,Left ACA infarction → incidental CCMs,G01
+b0077,Table 2,Non-cerebral CM,K4,None,G01
+b0077,Table 2,First CASH (YO),K4,n/a,G01
+b0077,Table 2,Total CASH events,K4,0,G01
+b0077,Table 2,Surgery,K4,n/a,G01
+b0077,Table 2,Family history,K4,Yes,G01
+b0077,Table 2,Variant*,K4,"c.815dup, p.Arg273Glufs*17",G01
+b0077,Table 2,Novel,K4,Yes,G01
+b0077,Table 2,ACMG guideline classification,K4,Same as above,G01
+b0077,Table 2,Tumor,K4,Adrenal adenoma,G01
+b0078,Table 2,Patient,K5,K5,G01
+b0078,Table 2,Gender,K5,Female,G01
+b0078,Table 2,CCM diagnosis (YO),K5,50,G01
+b0078,Table 2,Last F/U (YO),K5,52,G01
+b0078,Table 2,Clinical manifestation,K5,FBTCS (50YO) ← CASH (motor cortex),G01
+b0078,Table 2,Non-cerebral CM,K5,None,G01
+b0078,Table 2,First CASH (YO),K5,50,G01
+b0078,Table 2,Total CASH events,K5,1,G01
+b0078,Table 2,Surgery,K5,Craniotomy,G01
+b0078,Table 2,Family history,K5,Yes,G01
+b0078,Table 2,Variant*,K5,"c.1094_1098del, p.Gly365Alafs*3",G01
+b0078,Table 2,Novel,K5,Yes,G01
+b0078,Table 2,ACMG guideline classification,K5,1 PS (PVS1_Strong) + 1 PM (PM2) (LP),G01
+b0078,Table 2,Tumor,K5,None,G01
+b0079,Table 2,Patient,K6,K6,G01
+b0079,Table 2,Gender,K6,Female,G01
+b0079,Table 2,CCM diagnosis (YO),K6,36,G01
+b0079,Table 2,Last F/U (YO),K6,50,G01
+b0079,Table 2,Clinical manifestation,K6,Sudden onset binocular diplopia (pons),G01
+b0079,Table 2,Non-cerebral CM,K6,None,G01
+b0079,Table 2,First CASH (YO),K6,n/a,G01
+b0079,Table 2,Total CASH events,K6,0,G01
+b0079,Table 2,Surgery,K6,n/a,G01
+b0079,Table 2,Family history,K6,Yes,G01
+b0079,Table 2,Variant*,K6,"c.1147-2A>G, p.?",G01
+b0079,Table 2,Novel,K6,Yes,G01
+b0079,Table 2,ACMG guideline classification,K6,2 PM (PVS1_Moderate + PM2) + 2 PP (PP1 + PP4) (LP),G01
+b0079,Table 2,Tumor,K6,None,G01
+b0080,Table 2,Patient,K7,K7,G01
+b0080,Table 2,Gender,K7,Male,G01
+b0080,Table 2,CCM diagnosis (YO),K7,19,G01
+b0080,Table 2,Last F/U (YO),K7,20,G01
+b0080,Table 2,Clinical manifestation,K7,Visual disturbance and dizziness ← CASH (occipital cortex),G01
+b0080,Table 2,Non-cerebral CM,K7,None,G01
+b0080,Table 2,First CASH (YO),K7,19,G01
+b0080,Table 2,Total CASH events,K7,1,G01
+b0080,Table 2,Surgery,K7,Not done,G01
+b0080,Table 2,Family history,K7,Yes,G01
+b0080,Table 2,Variant*,K7,"c.1147-2A>G, p.?",G01
+b0080,Table 2,Novel,K7,Yes,G01
+b0080,Table 2,ACMG guideline classification,K7,Same as above,G01
+b0080,Table 2,Tumor,K7,None,G01
+b0081,Table 2,Patient,Mother,Mother,G01
+b0081,Table 2,Gender,Mother,Female,G01
+b0081,Table 2,CCM diagnosis (YO),Mother,47,G01
+b0081,Table 2,Last F/U (YO),Mother,47,G01
+b0081,Table 2,Clinical manifestation,Mother,"Familial gene test, Nonspecific headache",G01
+b0081,Table 2,Non-cerebral CM,Mother,None,G01
+b0081,Table 2,First CASH (YO),Mother,n/a,G01
+b0081,Table 2,Total CASH events,Mother,0,G01
+b0081,Table 2,Surgery,Mother,n/a,G01
+b0081,Table 2,Family history,Mother,Yes,G01
+b0081,Table 2,Variant*,Mother,"c.1147-2A>G, p.?",G01
+b0081,Table 2,Novel,Mother,Yes,G01
+b0081,Table 2,ACMG guideline classification,Mother,Same as above,G01
+b0081,Table 2,Tumor,Mother,None,G01
+b0082,Table 2,Patient,K8,K8,G01
+b0082,Table 2,Gender,K8,Male,G01
+b0082,Table 2,CCM diagnosis (YO),K8,67,G01
+b0082,Table 2,Last F/U (YO),K8,68,G01
+b0082,Table 2,Clinical manifestation,K8,Transient positive visual symptom (29YO) → OLE,G01
+b0082,Table 2,Non-cerebral CM,K8,None,G01
+b0082,Table 2,First CASH (YO),K8,n/a,G01
+b0082,Table 2,Total CASH events,K8,0,G01
+b0082,Table 2,Surgery,K8,n/a,G01
+b0082,Table 2,Family history,K8,Yes,G01
+b0082,Table 2,Variant*,K8,"c.1961_1962del, p.Lys654fs*21",G01
+b0082,Table 2,Novel,K8,No,G01
+b0082,Table 2,ACMG guideline classification,K8,Previously reported,G01
+b0082,Table 2,Tumor,K8,None,G01
+b0083,Table 2,Patient,K9,K9,G01
+b0083,Table 2,Gender,K9,Male,G01
+b0083,Table 2,CCM diagnosis (YO),K9,28,G01
+b0083,Table 2,Last F/U (YO),K9,61,G01
+b0083,Table 2,Clinical manifestation,K9,"FBTCS, 28YO",G01
+b0083,Table 2,Non-cerebral CM,K9,None,G01
+b0083,Table 2,First CASH (YO),K9,n/a,G01
+b0083,Table 2,Total CASH events,K9,0,G01
+b0083,Table 2,Surgery,K9,n/a,G01
+b0083,Table 2,Family history,K9,No,G01
+b0083,Table 2,Variant*,K9,"c.2124dup, p.Ile709Tyrfs*25",G01
+b0083,Table 2,Novel,K9,Yes,G01
+b0083,Table 2,ACMG guideline classification,K9,1 PS (PVS1_Strong) + 1 PM (PM2) (LP),G01
+b0083,Table 2,Tumor,K9,None,G01
+b0085,Table 2,Patient,C1,C1,G02
+b0085,Table 2,Gender,C1,Male,G02
+b0085,Table 2,CCM diagnosis (YO),C1,4,G02
+b0085,Table 2,Last F/U (YO),C1,8,G02
+b0085,Table 2,Clinical manifestation,C1,Central vertigo ← CASH (cerebellum),G02
+b0085,Table 2,Non-cerebral CM,C1,Cutaneous,G02
+b0085,Table 2,First CASH (YO),C1,4,G02
+b0085,Table 2,Total CASH events,C1,1,G02
+b0085,Table 2,Surgery,C1,Craniotomy,G02
+b0085,Table 2,Family history,C1,Yes,G02
+b0085,Table 2,Variant*,C1,"c.55C>T, p.Arg19*",G02
+b0085,Table 2,Novel,C1,No,G02
+b0085,Table 2,ACMG guideline classification,C1,Previously reported,G02
+b0085,Table 2,Tumor,C1,None,G02
+b0086,Table 2,Patient,C2,C2,G02
+b0086,Table 2,Gender,C2,Male,G02
+b0086,Table 2,CCM diagnosis (YO),C2,16,G02
+b0086,Table 2,Last F/U (YO),C2,19,G02
+b0086,Table 2,Clinical manifestation,C2,Emotional seizure followed by drowsy mentality ← CASH (frontal cortex),G02
+b0086,Table 2,Non-cerebral CM,C2,None,G02
+b0086,Table 2,First CASH (YO),C2,16,G02
+b0086,Table 2,Total CASH events,C2,1,G02
+b0086,Table 2,Surgery,C2,Craniotomy,G02
+b0086,Table 2,Family history,C2,No,G02
+b0086,Table 2,Variant*,C2,"c.638T>C, p.Leu213Pro",G02
+b0086,Table 2,Novel,C2,No,G02
+b0086,Table 2,ACMG guideline classification,C2,Previously reported,G02
+b0086,Table 2,Tumor,C2,None,G02
+b0088,Table 2,Patient,P1,P1,G03
+b0088,Table 2,Gender,P1,Female,G03
+b0088,Table 2,CCM diagnosis (YO),P1,0,G03
+b0088,Table 2,Last F/U (YO),P1,1,G03
+b0088,Table 2,Clinical manifestation,P1,Decreased mentality ← CASH (brainstem),G03
+b0088,Table 2,Non-cerebral CM,P1,None,G03
+b0088,Table 2,First CASH (YO),P1,0,G03
+b0088,Table 2,Total CASH events,P1,4,G03
+b0088,Table 2,Surgery,P1,Craniotomy,G03
+b0088,Table 2,Family history,P1,Yes,G03
+b0088,Table 2,Variant*,P1,"c.150+1dup, p.?",G03
+b0088,Table 2,Novel,P1,Yes,G03
+b0088,Table 2,ACMG guideline classification,P1,1 PS (PVS1_Strong) + 2PP (PP1 + PP4) (LP),G03
+b0088,Table 2,Tumor,P1,None,G03
+b0089,Table 2,Patient,Father,Father,G03
+b0089,Table 2,Gender,Father,Male,G03
+b0089,Table 2,CCM diagnosis (YO),Father,34,G03
+b0089,Table 2,Last F/U (YO),Father,34,G03
+b0089,Table 2,Clinical manifestation,Father,Familial gene gest Asymptomatic (but GKS for medulla oblongata lesion),G03
+b0089,Table 2,Non-cerebral CM,Father,None,G03
+b0089,Table 2,First CASH (YO),Father,n/a,G03
+b0089,Table 2,Total CASH events,Father,0,G03
+b0089,Table 2,Surgery,Father,GKS,G03
+b0089,Table 2,Family history,Father,Yes,G03
+b0089,Table 2,Variant*,Father,"c.150+1dup, p.?",G03
+b0089,Table 2,Novel,Father,Yes,G03
+b0089,Table 2,ACMG guideline classification,Father,Same as above,G03
+b0089,Table 2,Tumor,Father,None,G03
+b0090,Table 2,Patient,P2,P2,G03
+b0090,Table 2,Gender,P2,Male,G03
+b0090,Table 2,CCM diagnosis (YO),P2,43,G03
+b0090,Table 2,Last F/U (YO),P2,54,G03
+b0090,Table 2,Clinical manifestation,P2,Nonspecific headache → Brain MRI,G03
+b0090,Table 2,Non-cerebral CM,P2,Spinal (screen),G03
+b0090,Table 2,First CASH (YO),P2,n/a,G03
+b0090,Table 2,Total CASH events,P2,0,G03
+b0090,Table 2,Surgery,P2,n/a,G03
+b0090,Table 2,Family history,P2,Yes,G03
+b0090,Table 2,Variant*,P2,"c.283C > T, p.Arg95*",G03
+b0090,Table 2,Novel,P2,No,G03
+b0090,Table 2,ACMG guideline classification,P2,Previously reported,G03
+b0090,Table 2,Tumor,P2,None,G03
+b0091,Table 2,Patient,1st son,1st son,G03
+b0091,Table 2,Gender,1st son,Male,G03
+b0091,Table 2,CCM diagnosis (YO),1st son,22,G03
+b0091,Table 2,Last F/U (YO),1st son,22,G03
+b0091,Table 2,Clinical manifestation,1st son,"Familial gene test, asymptomatic",G03
+b0091,Table 2,Non-cerebral CM,1st son,None,G03
+b0091,Table 2,First CASH (YO),1st son,n/a,G03
+b0091,Table 2,Total CASH events,1st son,0,G03
+b0091,Table 2,Surgery,1st son,n/a,G03
+b0091,Table 2,Family history,1st son,Yes,G03
+b0091,Table 2,Variant*,1st son,"c.283C > T, p.Arg95*",G03
+b0091,Table 2,Novel,1st son,No,G03
+b0091,Table 2,ACMG guideline classification,1st son,Previously reported,G03
+b0091,Table 2,Tumor,1st son,None,G03
+b0092,Table 2,Patient,2nd son,2nd son,G03
+b0092,Table 2,Gender,2nd son,Male,G03
+b0092,Table 2,CCM diagnosis (YO),2nd son,20,G03
+b0092,Table 2,Last F/U (YO),2nd son,20,G03
+b0092,Table 2,Clinical manifestation,2nd son,"Familial gene test, asymptomatic",G03
+b0092,Table 2,Non-cerebral CM,2nd son,None,G03
+b0092,Table 2,First CASH (YO),2nd son,n/a,G03
+b0092,Table 2,Total CASH events,2nd son,0,G03
+b0092,Table 2,Surgery,2nd son,n/a,G03
+b0092,Table 2,Family history,2nd son,Yes,G03
+b0092,Table 2,Variant*,2nd son,"c.283C > T, p.Arg95*",G03
+b0092,Table 2,Novel,2nd son,No,G03
+b0092,Table 2,ACMG guideline classification,2nd son,Previously reported,G03
+b0092,Table 2,Tumor,2nd son,None,G03

@@ -1,0 +1,102 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text b0001-b0070; supplemental figures and tables not available
+E|G1|gene|Lmnb1|Lmnb1;lamin B1;Lamin B1|r||non-human||
+E|G2|gene|Lmnb2|Lmnb2;lamin B2;Lamin B2|r||non-human||
+E|G3|gene|LMNB1|LMNB1|r||human||
+E|G4|gene|LMNB2|LMNB2|r||human||
+E|G5|gene|LMNA|LMNA;A-type lamins|r||human||
+E|G6|gene|Lmna|Lmna;lamin A/C|r||non-human||
+E|G7|gene|LIS1|LIS1|r||human||
+E|G8|gene|NDE1|NDE1|r||human||
+E|G9|gene|NDEL1|NDEL1|r||human||
+E|G10|gene|SUN1|SUN1|r||non-human||
+E|G11|gene|SUN2|SUN2|r||non-human||
+E|G12|gene|Syne-1|Syne-1;Nesprin 1|r||non-human||
+E|G13|gene|Syne-2|Syne-2;Nesprin 2|r||non-human||
+E|G14|gene|Reelin|Reelin|r||non-human||
+E|G15|gene|cyclin-dependent kinase 5|cyclin-dependent kinase 5|r||||
+E|G16|gene|TBR1|TBR1|r||non-human||
+E|G17|gene|Otx1|Otx1|r||non-human||
+E|G18|gene|Ctip2|Ctip2|r||non-human||
+E|G19|gene|Cux1|Cux1|r||non-human||
+E|G20|gene|Sox2|Sox2|r||non-human||
+E|G21|gene|TBR2|TBR2|r||non-human||
+E|G22|gene|Ki67|Ki67|r||non-human||
+E|G23|gene|NeuN|NeuN|r||non-human||
+E|G24|gene|Lap2β|Lap2β|r||non-human||
+E|G25|gene|caspase 3|caspase 3|r||non-human||
+E|G26|gene|Emx1|Emx1|r||non-human||
+E|D1|disease|neurodevelopmental defects|neurodevelopmental defects;neurodevelopmental abnormalities|r||||
+E|D2|disease|cardiomyopathy|cardiomyopathy|r||||
+E|D3|disease|muscular dystrophy|muscular dystrophy|r||||
+E|D4|disease|lipodystrophy|lipodystrophy|r||||
+E|D5|disease|peripheral neuropathy|peripheral neuropathy|r||||
+E|D6|disease|progeria|progeria|r||||
+E|D7|disease|lissencephaly|lissencephaly|r|||D1|
+E|D8|disease|epilepsy|epilepsy|r|||D11|
+E|D9|disease|schizophrenia|schizophrenia|r|||D11|
+E|D10|disease|autism|autism|r|||D11|
+E|D11|disease|neurological diseases|neurological diseases|r||||
+E|D12|disease|CNS disease|CNS disease|r||||
+E|S1|phenotype|neuronal migration defects|Neuronal migration defects|r||||
+E|S2|phenotype|cortical atrophy|atrophy of the cortex|r||||
+E|S3|phenotype|neuropathology|neuropathology|r||||
+X|L1|b0012|antibody/marker name, identity not resolvable
+X|CS56|b0012|monoclonal antibody, not a gene
+X|lacZ|b0053|reporter construct
+X|βgeo|b0053|gene-trap cassette
+X|Gt(ROSA)26Sor|b0053|strain/locus designation of reporter mice
+EV|V1|b0047.s1+b0043.s1|ts|res|aff|rr,mi
+EV|V2|b0043.s8+b0043.s9|ts|res|aff|rr,mi
+EV|V3|b0026.s2+b0001.s1|ts|res|aff|rr,mi
+EV|V4|b0008.s5+b0043.s6+b0006.s6+b0006.s7|bg|bgr|aff|ebr,mi
+EV|V5|b0003.s6+b0023.s2+b0023.s4|ts|res|aff|rr,mi
+EV|V6|b0007.s5|bg|bgr|aff|ebr
+EV|V7|b0050.s2|bg|bgr|aff|ebr
+EV|V8|b0007.s3|bg|bgr|aff|ebr,mi
+EV|V9|b0007.s4+b0007.s2|bg|neg|neg|ebr
+EV|V10|b0005.s4|bg|bgr|aff|ebr
+EV|V11|b0050.s9|ts|hyp|hyp|ho
+EV|V12|b0047.s4+b0047.s7|ts|int|hyp|unc
+EV|V13|b0008.s4|bg|co|q|none
+EV|V14|b0013.s6|ts|res|aff|rr,cmp
+EV|V15|b0014.s2|ts|res|aff|rr,cmp
+EV|V16|b0014.s4|ts|res|aff|rr,cmp
+EV|V17|b0014.s8|ts|res|aff|rr,cmp
+EV|V18|b0016.s5+b0016.s6|ts|res|aff|rr,cmp
+EV|V19|b0018.s2|ts|res|aff|rr,cmp
+EV|V20|b0021.s3|ts|res|aff|rr,cmp
+EV|V21|b0021.s4|ts|res|aff|rr,cmp
+EV|V22|b0021.s6+b0021.s7|ts|res|aff|rr,cmp
+EV|V23|b0023.s5|ts|res|aff|rr,cmp
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2;sup:c:ts:V3|||mouse knockout and conditional null cause abnormalities
+P|G2|D1|sup|c|both|sup:c:bg:V4;sup:c:ts:V3+V5|||prior and present Lmnb2 knockouts show abnormalities
+P|G5|D2|sup|c|bg|sup:c:bg:V6;sup:a:bg:V7|||LMNA mutations cause cardiomyopathy
+P|G5|D3|sup|c|bg|sup:c:bg:V6;sup:a:bg:V7|||LMNA mutations cause muscular dystrophy
+P|G5|D4|sup|c|bg|sup:c:bg:V6;sup:a:bg:V7|||some LMNA mutations cause lipodystrophy
+P|G5|D5|sup|c|bg|sup:c:bg:V6|||some LMNA mutations cause peripheral neuropathy
+P|G5|D6|sup|c|bg|sup:c:bg:V6;sup:a:bg:V7|||some LMNA mutations cause progeria
+P|G6|D2|sup|c|bg|sup:c:bg:V8|||Lmna-deficient mice succumb to cardiomyopathy
+P|G6|D3|sup|c|bg|sup:c:bg:V8|||Lmna-deficient mice succumb to muscular dystrophy
+P|G5|D1|neg|-|bg|neg:-:bg:V9|||no LMNA mutations linked to neurodevelopmental abnormalities
+P|G7|D1|sup|a|bg|sup:a:bg:V10|||identified via human neurodevelopmental defect studies
+P|G8|D1|sup|a|bg|sup:a:bg:V10|||identified via human neurodevelopmental defect studies
+P|G9|D1|sup|a|bg|sup:a:bg:V10|||identified via human neurodevelopmental defect studies
+P|G3|D11|unc|-|ts|unc:-:ts:V11|hedged_claim||authors suspect future mutation discovery
+P|G4|D11|unc|-|ts|unc:-:ts:V11|hedged_claim||authors suspect future mutation discovery
+P|G6|D1|unc|-|ts|unc:-:ts:V12|hedged_claim||low Lmna proposed as likely mechanism
+P|G1|D12|nf|-|bg||||V13|CNS disease explicitly not investigated
+F|F1|group_comparison|cortical plate/cortex thickness ratio|Lmnb1Δ/Δ vs WT embryos|significant|negative|available|V14|E16.5 n=2, untested
+F|F2|group_comparison|Sox2+ progenitor count E15.5|Lmnb1Δ/Δ vs WT embryos|not_significant|negative|available|V15|n=3 per group
+F|F3|group_comparison|Ki67+Sox2+ proportion E16.5|Lmnb1Δ/Δ vs WT embryos|significant|positive|available|V16|
+F|F4|group_comparison|TBR2+ intermediate progenitors E15.5|Lmnb1Δ/Δ vs WT embryos|significant|negative|available|V17|
+F|F5|group_comparison|nuclear bleb; asymmetric lamin B2|Lmnb1Δ/Δ vs WT cortical neurons|significant|positive|available|V18|
+F|F6|group_comparison|nuclear length|Lmnb2-/- vs WT neurons|significant|positive|partial|V19|data in supplement
+F|F7|group_comparison|cortex length at 4 mo|Emx1-Cre Lmnb1fl/fl vs WT|significant|negative|available|V20|
+F|F8|group_comparison|cortex length|Emx1-Cre Lmnb2fl/fl vs WT|unknown|negative|partial|V21|n=2, no test
+F|F9|group_comparison|brain weight; cortex size|double knockout vs WT/single knockouts|significant|negative|partial|V22|single-KO comparison lacks statistics
+F|F10|group_comparison|neuron and Cux1+ counts|Lmnb2fl/fl vs Lmnb1fl/fl brains|significant|positive|not_reported|V23|
+C|C1|Sox2 progenitor reduction|b0014.s2|noncritical|resolved|"clearly reduced" but p=0.06; recorded not significant
+C|C2|dentate gyrus figure citation|b0027.s3+b0024.s6|noncritical|unresolved|Figure 6C cited for Lmnb1 finding
+U|Supplemental Figures S1-S6, Table S1|b0012.s11; b0018.s2; b0020.s4; b0026.s5; b0027.s1; b0056.s7|not provided
+R|disease definition|D1 in mice|Mouse neurodevelopmental defects are a model phenotype, not a named human disease|Treated as disease family; knockout pairs non-human causal

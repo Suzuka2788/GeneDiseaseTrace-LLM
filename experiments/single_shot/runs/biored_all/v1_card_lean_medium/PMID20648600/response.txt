@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|HBV polymerase|polymerase|r||non-human||
+E|G2|gene|HBV envelope gene|envelope gene|r||non-human||
+E|D1|disease|hepatitis B|hepatitis B|r||||
+E|D2|disease|HIV infection|HIV|p|other|||
+E|S1|phenotype|viremia|viremia|r||||
+E|S2|phenotype|lamivudine resistance|lamivudine resistance|r||||
+E|S3|phenotype|vaccine escape phenotype|vaccine escape phenotype|r||||
+X|hepatitis B virus (HBV)|b0002|pathogen name; disease kept as hepatitis B
+X|co-infection|b0002|combined infection state, not separate disease
+X|basal core promoter (BCP)|b0002|genomic region, not single-gene endpoint
+X|precore region|b0002|genomic region, not single-gene endpoint
+X|rtL180M + rtM204V|b0002|variant IDs
+X|sE164D + sI195M|b0002|variant IDs
+EV|V1|b0002.s10+b0002.s11+b0002.s12|ts|co|na|do
+EV|V2|b0002.s15|ts|int|hyp|ho
+P|G1|D1|nf|-|||||Substitutions detected in HBV patients; no disease attribution
+P|G2|D1|nf|-|||||Envelope changes descriptive; vaccine escape hedged
+F|F1|descriptive|LAM resistance substitutions in polymerase|20 viremic co-infected patients|not_applicable|not_applicable|partial|V1|abstract only
+F|F2|association|prolonged LAM use vs HBV genome changes|co-infected patients|unknown|positive|not_reported|V2|drug-mutation link, not gene-disease
+R|viral genes|b0002.s12|Pathogen genes in human infection; rule addresses animal models only|Treated as non-human gene nodes; no disease link

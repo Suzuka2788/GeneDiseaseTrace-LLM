@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SCN5A|SCN5A;Na(v)1.5|r||human||
+E|D1|disease|long QT syndrome|long QT syndrome;Congenital long QT syndrome;LQTS;congenital LQTS|r||||
+E|D2|disease|LQTS-3|LQTS-3|r|||D1|
+E|D3|disease|tachycardia|tachycardia|r||||
+E|D4|disease|bradycardia|bradycardia|r||||
+E|D5|disease|fetal bradycardia|fetal bradycardia|r|||D4|
+E|D6|disease|ventricular tachycardia|ventricular tachycardia|r|||D3|
+E|D7|disease|2:1 atrioventricular block|2:1 atrioventricular block;atrioventricular block|r||||
+E|D8|disease|arrhythmias|arrhythmias|r||||
+X|tsA201|b0002|cell line
+X|V1763M|b0002|variant identifier
+X|V1764M|b0002|variant identifier
+X|I1762A|b0002|variant identifier
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s5+b0002.s6|ts|res|aff|eda
+EV|V3|b0002.s10|ts|int|hyp|ho
+EV|V4|b0002.s7+b0002.s8+b0002.s9|ts|res|na|rr
+EV|V5|b0002.s2|ts|co|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V3|||Title attributes LQTS to novel SCN5A mutation
+P|G1|D2|sup|a|ts|sup:a:ts:V2|||De novo mutation explicitly labelled LQTS-3
+P|G1|D3|sup|a|ts|sup:a:ts:V1|||Title: mutation manifests with perinatal tachycardia
+P|G1|D4|sup|a|ts|sup:a:ts:V1|||Title: mutation manifests with perinatal bradycardia
+P|G1|D8|unc|-|ts|unc:-:ts:V3|hedged_claim||Conclusion only "suggest contribute" to arrhythmias
+P|G1|D6|nf|-|||||V5|Patient phenotype only; no attribution
+P|G1|D7|nf|-|||||V5|Patient phenotype only; no attribution
+F|F1|mechanism|V1763M channel persistent current, inactivation shift|tsA201 cells expressing mutant|unknown|positive|not_reported|V4|
+F|F2|mechanism|V1764M similar; I1762A no persistent current|tsA201 cells expressing mutants|unknown|mixed|not_reported|V4|
+F|F3|descriptive|V1763M heterozygous, absent in parents/sister|proband family|not_applicable|not_applicable|not_applicable|V2|

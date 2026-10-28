@@ -1,0 +1,17 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|NDUFS2|NDUFS2|r||human||
+E|G2|gene|NDUFS3|NDUFS3|r||human||
+E|G3|gene|NDUFS6|NDUFS6|r||human||
+E|D1|disease|complex I deficiency|complex I-deficient|r||||
+X|NADH:ubiquinone oxidoreductase (complex I)|b0002|multi-subunit enzyme complex, not single gene
+X|iron-sulfur protein (IP)|b0002|complex subfraction, not single gene
+X|flavoprotein (FP)|b0002|complex subfraction, not single gene
+X|hydrophobic protein (HP)|b0002|complex subfraction, not single gene
+EV|V1|b0002.s9|ts|aim|hyp|ho
+EV|V2|b0002.s8|ts|co|na|do
+EV|V3|b0002.s7|ts|res|na|do
+P|G1|D1|nf|-||||V1|candidate for future mutation studies only
+P|G2|D1|nf|-||||V1|candidate for future mutation studies only
+F|F1|descriptive|NDUFS2, NDUFS3 chromosomal mapping|somatic human-rodent cell hybrids|not_applicable|not_applicable|not_applicable|V3|
+F|F2|descriptive|NDUFS6 possible pseudogene, chromosomes 5/6|somatic human-rodent cell hybrids|not_applicable|not_applicable|not_applicable|V2|pseudogene presence hedged

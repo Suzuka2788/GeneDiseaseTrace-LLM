@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FASN|Fatty acid synthase;FASN;fatty acid synthase|r||human||
+E|G2|ambiguous_gene|Akt|Akt|p|ambiguous_mapping|||
+E|G3|ambiguous_gene|extracellular signal-regulated kinases 1/2|extracellular signal-regulated kinases 1/2|p|ambiguous_mapping|||
+E|D1|disease|colon cancer|colon cancer;colon carcinoma|r||||
+E|D2|disease|cancer|cancer|r||||
+X|phosphatidylinositol 3-kinase/Akt|b0002|pathway, not single-gene endpoint
+X|mitogen-activated protein kinases|b0002|gene family/pathway, not single gene
+EV|V1|b0002.s1+b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s16|ts|int|hyp|ho
+EV|V3|b0002.s9+b0002.s10+b0002.s11|ts|res|na|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V2|hedged_claim|V3|FASN important in colon carcinoma development (background)
+F|F1|mechanism|emodin vs FASN protein, activity|HCT116 colon cancer cells|significant|negative|not_reported|V3|cell line only; abstract
+F|F2|descriptive|FASN protein level across cell lines|HCT116 vs SW480, SNU-C2A, SNU-C5|unknown|positive|not_reported|V3|no normal-tissue comparator
+F|F3|hypothesis|emodin effects mediated by FASN inhibition|HCT116 cells|not_applicable|not_applicable|not_applicable|V2|authors' suggestion

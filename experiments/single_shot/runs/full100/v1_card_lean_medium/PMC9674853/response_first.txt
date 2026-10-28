@@ -1,0 +1,86 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full main text and captions; supplementary figures, tables and datasets unread
+E|G1|gene|Elmo2|Elmo2;ELMO2;Elmo 2;mElmo2|r||non-human||
+E|G2|gene|Elmo1|Elmo1;ELMO1;Elmo 1;mElmo1|r||non-human||
+E|G3|gene|Elmo3|Elmo3;mElmo3|r||non-human||
+E|G4|gene|DYSF (human)|DYSF;Dysferlin|r||human||
+E|G5|gene|Dysf (mouse)|Dysf;DYSFERLIN;Dysferlin|r||non-human||
+E|G6|gene|MYMK|MYMK;MYOMAKER|r||human||
+E|G7|gene|MYMX|MYMX;MYOMIXER|r||human||
+E|G8|gene|RAC1|RAC1;Rac1|r|||||
+E|G9|gene|DOCK1|DOCK1;Dock1|r|||||
+E|G10|gene|DOCK2|DOCK2|r|||||
+E|G11|gene|RHOG|RHOG|r||human||
+E|G12|gene|ARL4A|ARL4A;ARL4a|r|||||
+E|G13|gene|MYOFERLIN|MYOFERLIN|r|||||
+E|G14|gene|Dystrophin|Dystrophin;DYSTROPHIN|r|||||
+E|G15|gene|PAK1|PAK1;Pak1|r||non-human||
+E|G16|gene|TGFBR2|TGFBR2;Tgfbr2|r||non-human||
+E|G17|gene|BAI1|BAI1|r|||||
+E|G18|gene|BAI3|BAI3|r|||||
+E|G19|gene|MYOG|MYOG|r||human||
+E|G20|gene|DESMIN|DESMIN|r||non-human||
+E|G21|gene|MYOD|MYOD|r||non-human||
+E|G22|gene|PAX7|PAX7;Pax7|r||non-human||
+E|G23|gene|Myf5|Myf5|r||non-human||
+E|G24|gene|Dchs1|Dchs1|r||non-human||
+E|G25|gene|Lims2|Lims2|r||non-human||
+E|G26|gene|Robo4|Robo4|r||non-human||
+E|G27|gene|Esam|Esam|r||non-human||
+E|G28|gene|Perp|Perp|r||non-human||
+E|G29|gene|Itga2|Itga2|r||non-human||
+E|G30|gene|LacZ|LacZ|r||non-human||
+E|G31|gene|En2|En2;Engrailed2|r||non-human||
+E|G32|gene|B2M|mB2M|r||non-human||
+E|D1|disease|Carey-Fineman-Ziter syndrome|Carey-Fineman-Ziter syndrome|r|||D3|
+E|D2|disease|limb-girdle muscular dystrophy type 2B|limb-girdle muscular dystrophy type 2B;LGMD2B|r|||D8|
+E|D3|disease|myopathy|myopathy;myopathies|r||||
+E|D4|disease|muscular dystrophy|muscular dystrophy;muscular dystrophies|r||||
+E|D5|disease|muscle diseases|muscle diseases|r||||
+E|D6|disease|neuromuscular disorders|neuromuscular disorders|r||||
+E|D7|disease|cardiotoxin-induced muscle injury|toxin injury;CTX-induced injury;cardiotoxin injury;muscle injury|r||||
+E|D8|disease|limb girdle muscular dystrophy|limb girdle muscular dystrophy|r||||
+E|D9|disease|fusion diseases|fusion diseases|r||||
+E|D10|disease|cachexia|cachexia|r||||
+E|D11|clinical_event|respiratory failure|respiratory failure|r||||
+E|S1|phenotype|myoblast fusion defects|myoblast fusion defects|r||||
+E|S2|phenotype|embryonic lethality|embryonic lethality|r||||
+E|S3|phenotype|necrotic myofibers|necrotic myofibers|r||||
+X|ELMO|b0006|gene family label, not single gene
+X|DOCK1/5|b0010|combined gene label, DOCK5 not written separately
+X|MHC|b0010|protein family marker, not single gene
+X|F4/80|b0018|macrophage marker identifier
+X|Elmo2EID|b0014|allele name of G1
+X|Elmo2RBD|b0014|allele name of G1
+X|Elmo2LacZ|b0010|allele name of G1
+X|DOCK2-ELMO1|b0031|complex, not single gene
+EV|V1|b0005.s4|bg|bgr|aff|ebr
+EV|V2|b0025.s3|bg|bgr|aff|ebr
+EV|V3|b0005.s5|bg|bgr|aff|ebr
+EV|V4|b0002.s7+b0025.s7+b0025.s10|bg|bgr|aff|ebr
+EV|V5|b0026.s2+b0026.s7+b0026.s8|ts|res|aff|rr,cmp
+EV|V6|b0026.s3+b0026.s9+b0026.s11+b0034.s2|ts|res|aff|rr,mi,cmp
+EV|V7|b0018.s4+b0018.s5+b0023.s3|ts|res|aff|rr,mi,cmp
+EV|V8|b0029.s4|ts|hyp|hyp|ho
+EV|V9|b0002.s8|ts|int|hyp|ho
+EV|V10|b0025.s1+b0025.s2|bg|bgr|aff|ebr
+P|G6|D1|sup|c|bg|sup:c:bg:V1;sup:c:bg:V2;sup:a:bg:V10||||MYMK mutations result in CFZS
+P|G7|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V10||||MYMX mutations result in CFZS
+P|G4|D2|sup|c|bg|sup:c:bg:V3;sup:c:bg:V2||||LGMD2B results from DYSF mutations
+P|G5|D2|sup|a|both|sup:a:bg:V4;sup:a:ts:V5||||Dysf-null mice model LGMD2B
+P|G5|D4|sup|a|bg|sup:a:bg:V4||||Dysf-null mice show progressive muscular dystrophy
+P|G1|D2|sup|a|ts|sup:a:ts:V6||||Open ELMO2 rescues LGMD2B model features
+P|G1|D7|sup|a|ts|sup:a:ts:V7||||Elmo2EID improves regeneration after CTX injury
+P|G1|D11|unc|-|ts|unc:-:ts:V8|hedged_claim,scope|||Speculated, double mutant only
+P|G2|D11|unc|-|ts|unc:-:ts:V8|hedged_claim,scope|||Speculated, double mutant only
+P|G1|D5|unc|-|ts|unc:-:ts:V9|hedged_claim|||Therapeutic potential stated as possibility
+F|F1|group_comparison|Elmo1/Elmo2 double loss vs WT myofibers|mouse embryos E14.5-E16.5|unknown|negative|unread|EV:b0012.s12+b0012.s13+b0012.s14|n=2-3 embryos
+F|F2|group_comparison|myofiber CSA, nuclei per fiber|Elmo1-/-Elmo2RBD/RBD vs WT mice|significant|negative|partial|EV:b0016.s3+b0016.s5+b0018.s3|joint genotype
+F|F3|group_comparison|myofiber CSA, nuclei per fiber|Elmo2EID/EID vs WT mice|significant|positive|partial|V7|
+F|F4|group_comparison|CSA, central nuclei, necrosis|Dysf-/-Elmo2EID/EID vs Dysf-/- mice|significant|positive|partial|V6|
+F|F5|group_comparison|fatty deposit area|Dysf-/-Elmo2EID/EID vs Dysf-/- mice|unknown|null|partial|EV:b0026.s10|not rescued
+F|F6|descriptive|PAK1, TGFBR2, DYSF expression changed|Elmo2EID vs WT myoblasts|significant|mixed|unread|EV:b0016.s8+b0030.s5|Fig. 2h, dataset unread
+C|C1|MYMX written as MYMK|b0016.s9+b0021.s10|noncritical|resolved|duplicate MYMK means MYMK and MYMX
+U|Supplementary Figs. 1-13, Tables 1-4|Results, Methods|not provided
+U|Supplementary Dataset 1, Source Data|b0016.s7, captions|not provided
+R|gene species|b0005, b0025|DYSF human disease gene vs Dysf mouse model gene|Split into human G4 and mouse G5 by context

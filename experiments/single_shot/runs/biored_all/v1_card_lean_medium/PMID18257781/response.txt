@@ -1,0 +1,25 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PKD1|PKD1|r||human||
+E|G2|gene|PKD2|PKD2|r||human||
+E|G3|gene|PKD2 (mouse)|PKD2|r||non-human||
+E|G4|gene|polycystin 1|polycystins 1;PC1|r||human||
+E|G5|gene|polycystin 2|PC2;polycystin-2|r||human||
+E|D1|disease|autosomal dominant polycystic kidney disease|autosomal dominant polycystic kidney disease;Autosomal dominant polycystic kidney disease;ADPKD|r|||D2|
+E|D2|disease|inherited renal diseases|inherited renal diseases|r|||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3|ts|co|na|do
+EV|V3|b0002.s4|ts|int|hyp|cmp,unc
+EV|V4|b0001.s1|ts|hyp|hyp|ho
+EV|V5|b0002.s10+b0002.s5|ts|co|na|do
+EV|V6|b0002.s6+b0002.s7|ts|res|na|rr
+EV|V7|b0002.s9|ts|res|na|rr
+EV|V8|b0002.s8|ts|res|na|mi
+P|G4|D1|sup|c|bg|sup:c:bg:V1||||Background: ADPKD caused by PC1 mutations
+P|G5|D1|sup|c|bg|sup:c:bg:V1||||Background: ADPKD caused by PC2 mutations
+P|G2|D1|unc|-|ts|unc:-:ts:V3+V4|hedged_claim,scope|V2;V5;V6;V7|Pathogenicity/modifier role hedged; disease unstated
+P|G1|D1|nf|-||||V2;V5|De novo variant detected; no explicit attribution
+F|F1|group_comparison|PKD2 p.F482C presence|280 healthy control chromosomes|not_applicable|null|partial|V3|Single variant; small control screen
+F|F2|group_comparison|PKD2 expression level|proband vs daughter vs healthy subject|unknown|positive|partial|V6|Single patient; no statistics
+F|F3|group_comparison|polycystin-2 channel function|p.F482C carriers vs controls|unknown|negative|unread|V7|Abstract only
+F|F4|mechanism|mutant mouse PKD2 localization|transfected IMCD cells|not_applicable|not_applicable|not_applicable|V8|Cell phenotype only

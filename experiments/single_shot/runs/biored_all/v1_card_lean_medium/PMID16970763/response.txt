@@ -1,0 +1,22 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|NDP|NDP|r||human||
+E|D1|disease|Norrie disease|Norrie disease|r||||
+E|D2|disease|familial exudative vitreoretinopathy|familial exudative vitreoretinopathy;X-linked familial exudative vitreoretinopathy;FEVR|p|ambiguous_mapping|||
+E|D3|disease|Coat's disease|Coat's disease|r||||
+E|D4|disease|retinopathy of prematurity|retinopathy of prematurity;ROP|r||||
+E|D5|disease|regressed ROP|regressed ROP;mild-regressed ROP|r|||D4|
+E|D6|disease|retinal detachment|retinal detachment|r||||
+E|S1|symptom|deafness|deafness|r||||
+E|S2|symptom|mental retardation|mental retardation|r||||
+E|S3|phenotype|low birthweight|low birthweight|r||||
+X|Norrie-FEVR|b0002|combined patient group label, not a single disease
+EV|V1|b0002.s5+b0002.s9|ts|res|aff|rr,eda
+EV|V2|b0002.s6+b0002.s10|ts|res|aff|rr,eda
+EV|V3|b0002.s1|unk|aim|q|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V3|Novel His43Arg linked to Norrie disease phenotype
+P|G1|D2|sup|a|ts|sup:a:ts:V1||V3|Novel Leu103Val linked to FEVR
+P|G1|D5|sup|a|ts|sup:a:ts:V2||V3|14-bp deletion associated with mild-regressed ROP
+P|G1|D4|unc|-||unc:-:ts:V2|scope|V3|Finding limited to regressed ROP subtype
+F|F1|descriptive|NDP 14-bp deletion|unaffected ex-premature girl|not_applicable|not_applicable|not_reported||Heterozygous carrier, no disease
+R|disease hierarchy|b0002.s1|FEVR abbreviation defined for X-linked FEVR; title uses unqualified FEVR.|Merged as one provisional entity with ambiguous_mapping.

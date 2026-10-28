@@ -1,0 +1,55 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, tables and captions; references removed
+E|G1|gene|PTPN11|PTPN11;SHP-2|r||human||
+E|G2|gene|KRAS|KRAS|r||human||
+E|G3|gene|SOS1|SOS1;SOS|p|ambiguous_mapping|human||
+E|G4|gene|RAF1|RAF1|r||human||
+E|G5|gene|BRAF|BRAF|r||human||
+E|G6|gene|SHOC2|SHOC2|r||human||
+E|G7|gene|NRAS|NRAS|r||human||
+E|G8|gene|CBL|CBL|r||human||
+E|G9|gene|NF1|NF1|r||human||
+E|D1|disease|Noonan syndrome|Noonan syndrome;NS|r||||
+E|D2|disease|Noonan syndrome-associated myeloproliferative disorder|NS/MPD|r|||D1|
+E|D3|disease|juvenile myelomonocytic leukemia|juvenile myelomonocytic leukemia;JMML|r||||
+E|D4|disease|myeloproliferative disorder|myeloproliferative disorder;MPD|r||||
+E|D5|disease|acquired aplastic anemia|acquired aplastic anemia|r||||
+E|D6|disease|refractory anemia with blast excess|refractory anemia with blast excess;RAEB|r||||
+E|D7|disease|myelofibrosis with myeloid metaplasia|myelofibrosis with myeloid metaplasia|r||||
+E|D8|disease|non-Hodgkin lymphoma|non-Hodgkin lymphoma|r||||
+E|D9|disease|hypertrophic cardiomyopathy|hypertrophic cardiomiopathy;obstructive hypertrophic cardiomyopathy|p|suspected_typo|||
+E|D10|disease|pulmonary valve stenosis|pulmonary valve stenosis;pulmonic stenosis|p|other|||
+E|D11|disease|congenital heart defects|congenital heart defects|r||||
+E|D12|disease|lymphatic dysplasia|lymphatic dysplasia|r||||
+E|D13|disease|developmental delay/intellectual disability|developmental delay/intellectual disability;DD/ID|r||||
+E|S1|symptom|monocytosis|monocytosis|r||||
+E|S2|symptom|thrombocytopenia|thrombocytopenia|r||||
+E|S3|symptom|cryptorchidism|cryptorchidism|r||||
+X|BCR/ABL|b0004|fusion rearrangement, not single gene
+X|GM-CSF|b0002|cytokine reagent/assay factor, not gene endpoint
+X|CD34|b0002|cell marker
+X|Monosomy 7|b0004|cytogenetic finding
+EV|V1|b0005.s2|bg|bgr|aff|ebr
+EV|V2|b0005.s3|bg|bgr|aff|ebr
+EV|V3|b0005.s4|bg|bgr|aff|ebr
+EV|V4|b0005.s8|bg|bgr|aff|ebr
+EV|V5|b0002.s6|ts|res|aff|rr
+EV|V6|b0036.s2|ts|res|aff|eda
+EV|V7|b0043.s1+b0043.s3|bg|bgr|aff|ebr
+EV|V8|b0043.s2|bg|hyp|hyp|ho
+P|G1|D1|sup|a|both|sup:a:bg:V1+V3;sup:a:ts:V5+V6|||germline PTPN11 mutations in NS
+P|G2|D1|sup|a|bg|sup:a:bg:V1|||germline mutations documented in NS
+P|G3|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V5|identity||SOS1 documented; SOS in cohort
+P|G4|D1|sup|a|bg|sup:a:bg:V1|||germline mutations documented in NS
+P|G5|D1|sup|a|bg|sup:a:bg:V1|||germline mutations documented in NS
+P|G6|D1|sup|a|bg|sup:a:bg:V1|||germline mutations documented in NS
+P|G7|D1|sup|a|bg|sup:a:bg:V1|||germline mutations documented in NS
+P|G8|D1|sup|a|bg|sup:a:bg:V1|||germline mutations documented in NS
+P|G1|D3|sup|a|bg|sup:a:bg:V2+V3+V7|||somatic PTPN11 mutations in JMML
+P|G2|D3|sup|a|bg|sup:a:bg:V2|||somatic mutations in JMML
+P|G7|D3|sup|a|bg|sup:a:bg:V2|||somatic mutations in JMML
+P|G9|D3|sup|a|bg|sup:a:bg:V2|||somatic mutations in JMML
+P|G1|D2|sup|a|bg|sup:a:bg:V4|||PTPN11 spectrum reported in NS/MPD
+P|G1|D8|nf|-||||V7|NS5 mother lymphoma, no attribution
+F|F1|group_comparison|CD34+ apoptotic rate|NS vs controls|significant|negative|available|V5|not gene-stratified
+F|F2|group_comparison|unstimulated CFU-GM growth|controls, NS, NS/MPD, JMML|significant|positive|available||not gene-stratified

@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CYBA|CYBA;cytochrome b245 alpha;p22phox|r||human||
+E|D1|disease|coronary artery disease|coronary artery disease;CAD|r||||
+E|D2|disease|premature coronary artery disease|premature coronary artery disease;premature CAD|r|||D1|
+E|D3|disease|atherosclerosis|atherosclerosis|r||||
+E|D4|disease|obesity|obesity|p|other|||
+X|rs9932581|b0002.s3|variant identifier
+X|NADPH oxidases|b0002.s2|enzyme family, not single gene
+X|Overweight/obesity|b0002.s10|BMI-defined risk factor; mapped to obesity provisionally
+EV|V1|b0001.s1|ts|res|aff|rr,cmp
+EV|V2|b0002.s5+b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s11|ts|res|aff|rr,cmp
+EV|V4|b0002.s8+b0002.s9+b0002.s10|ts|res|na|rr
+EV|V5|b0002.s1+b0002.s2|bg|bgr|na|do
+P|G1|D2|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2||V4|-930G carriers at higher premature CAD risk
+P|G1|D1|sup|a|ts|sup:a:ts:V3;sup:a:ts:V2|||Polymorphism associated with CAD in Poles
+P|G1|D3|nf|-|||||V5|ROS link only; no CYBA relation
+P|G1|D4|nf|-|||||V4|Obesity is interaction factor, not outcome
+F|F1|association|-930G carrier vs CAD|premature CAD cases vs donors|significant|positive|partial|V2|abstract only
+F|F2|other|-930G x BMI≥25, x smoking interaction|premature CAD cases vs donors|unknown|positive|partial|V4|interaction P values not reported
+F|F3|group_comparison|overweight/obesity vs CAD by genotype|G carriers vs AA homozygotes|mixed|positive|partial|V4|significant only in G carriers

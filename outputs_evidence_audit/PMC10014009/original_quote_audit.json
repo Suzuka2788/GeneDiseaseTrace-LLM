@@ -1,0 +1,706 @@
+[
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D01",
+    "location": "b0011",
+    "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D02",
+    "location": "b0003",
+    "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D02",
+    "location": "b0028",
+    "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1).",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D04",
+    "location": "b0070",
+    "quote": "Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D06",
+    "location": "b0094",
+    "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D06",
+    "location": "b0101",
+    "quote": "On the analysis of age-related disease burden, the large lesions (>5 mm) increased in number as the patient's age increased. Because genetic information was scarce in the previous analysis of FCCM, 20 we investigated the change in CCM lesion counts according to CCM genes and age. Although the patients in the Mutation not detected and KRIT1 groups tended to be diagnosed at an older age, the severity of brain imaging worsened faster in the KRIT1 group than in the Mutation not detected group. CCM2 variant patients are usually asymptomatic and have milder symptoms. 9 However, the CCM2 group exhibited an early diagnosis with a CASH event, albeit with a decreased lesion number over time. These confusing findings might result from detection bias, in which many asymptomatic patients with the CCM2 variant did not visit the hospital and were not diagnosed or enrolled. PDCD10 variant patients usually have early onset and severe manifestations. 12 Even if the correlation was not statistically significant, the PDCD10 group trended toward early onset. Additionally, a patient with infancy onset had recurrent CASH with a short interval, resulting in a very poor prognosis.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D11",
+    "location": "b0070",
+    "quote": "We investigated the detailed clinical and genetic information of the gene-confirmed FCCM individuals, including the proband and family members. (Table 2) The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI. Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM. Among the probands with mutations detected, six experienced CASH. Two patients experienced recurrent symptomatic hemorrhage and severe neurological sequelae. In the KRIT1 variant group, two patients (22.2%) had splice-site mutations, and the others had protein-truncating variants. (Table S1) All of the mutations were null. The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation. The PDCD10 group included one patient with a nonsense mutation and one with a splice-site mutation. Interestingly, five novel variants and one novel variant were confirmed in KRIT1 and PDCD10, respectively. Four patients with KRIT1 variants had a history of tumor or a current tumor. One patient (K3) presented with headache and neck pain. Brain and spine MRI demonstrated CCM and spinal CM. At the age of 52 years, a follow-up spine MRI revealed an increased size and prominent heterogeneous enhancement of T2 high signal intensity around the CM in the thoracic spinal cord. The neuroradiologist suggested the possibility of CM with a recent hemorrhage and tumorous condition. The surgical biopsy exhibited diffuse midline glioma, classified as WHO grade IV.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D12",
+    "location": "b0074",
+    "quote": "K1 | Female | 59 | 59 | Nonspecific headache → CCM in Brain MRI | None | n/a | 0 | n/a | No | c.22_26del, p.Glu8Cysfs*22 | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Breast cancer",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D13",
+    "location": "b0075",
+    "quote": "K2 | Female | 37 | 53 | Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons) | None | 37 | 4 | Craniotomy | No | c.535C>T, p.Arg179* | No | Previously reported | Thyroid cancer",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D14",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D15",
+    "location": "b0077",
+    "quote": "K4 | Female | 59 | 61 | Left ACA infarction → incidental CCMs | None | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17 | Yes | Same as above | Adrenal adenoma",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D16",
+    "location": "b0077",
+    "quote": "K4 | Female | 59 | 61 | Left ACA infarction → incidental CCMs | None | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17 | Yes | Same as above | Adrenal adenoma",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D17",
+    "location": "b0082",
+    "quote": "K8 | Male | 67 | 68 | Transient positive visual symptom (29YO) → OLE | None | n/a | 0 | n/a | Yes | c.1961_1962del, p.Lys654fs*21 | No | Previously reported | None",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D20",
+    "location": "b0100",
+    "quote": "Exon 12 is responsible for a particular portion of the KRIT1 protein ankyrin component.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G01",
+    "target_id": "D20",
+    "location": "b0100",
+    "quote": "This component is likely critical for preventing vascular malformation.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D01",
+    "location": "b0011",
+    "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D02",
+    "location": "b0003",
+    "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D02",
+    "location": "b0028",
+    "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1).",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D05",
+    "location": "b0070",
+    "quote": "Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D05",
+    "location": "b0085",
+    "quote": "C1 | Male | 4 | 8 | Central vertigo ← CASH (cerebellum) | Cutaneous | 4 | 1 | Craniotomy | Yes | c.55C>T, p.Arg19* | No | Previously reported | None",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D06",
+    "location": "b0094",
+    "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D06",
+    "location": "b0101",
+    "quote": "On the analysis of age-related disease burden, the large lesions (>5 mm) increased in number as the patient's age increased. Because genetic information was scarce in the previous analysis of FCCM, 20 we investigated the change in CCM lesion counts according to CCM genes and age. Although the patients in the Mutation not detected and KRIT1 groups tended to be diagnosed at an older age, the severity of brain imaging worsened faster in the KRIT1 group than in the Mutation not detected group. CCM2 variant patients are usually asymptomatic and have milder symptoms. 9 However, the CCM2 group exhibited an early diagnosis with a CASH event, albeit with a decreased lesion number over time. These confusing findings might result from detection bias, in which many asymptomatic patients with the CCM2 variant did not visit the hospital and were not diagnosed or enrolled. PDCD10 variant patients usually have early onset and severe manifestations. 12 Even if the correlation was not statistically significant, the PDCD10 group trended toward early onset. Additionally, a patient with infancy onset had recurrent CASH with a short interval, resulting in a very poor prognosis.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G02",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D01",
+    "location": "b0011",
+    "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D02",
+    "location": "b0003",
+    "quote": "Familial cerebral cavernous malformation (FCCM) is an autosomal dominant disease induced by loss-of-function mutations in three CCM genes, KRIT1, CCM2, and PDCD10.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D02",
+    "location": "b0028",
+    "quote": "Cohort 1 consisted of nine patients with KRIT1 variants, two with CCM2 variants, two with PDCD10 variants, and eight with the mutation not detected (Table 1).",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D04",
+    "location": "b0070",
+    "quote": "Two patients (K3 and P2) had spinal CM, and one (C1) had cutaneous CM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D06",
+    "location": "b0094",
+    "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D06",
+    "location": "b0101",
+    "quote": "On the analysis of age-related disease burden, the large lesions (>5 mm) increased in number as the patient's age increased. Because genetic information was scarce in the previous analysis of FCCM, 20 we investigated the change in CCM lesion counts according to CCM genes and age. Although the patients in the Mutation not detected and KRIT1 groups tended to be diagnosed at an older age, the severity of brain imaging worsened faster in the KRIT1 group than in the Mutation not detected group. CCM2 variant patients are usually asymptomatic and have milder symptoms. 9 However, the CCM2 group exhibited an early diagnosis with a CASH event, albeit with a decreased lesion number over time. These confusing findings might result from detection bias, in which many asymptomatic patients with the CCM2 variant did not visit the hospital and were not diagnosed or enrolled. PDCD10 variant patients usually have early onset and severe manifestations. 12 Even if the correlation was not statistically significant, the PDCD10 group trended toward early onset. Additionally, a patient with infancy onset had recurrent CASH with a short interval, resulting in a very poor prognosis.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G03",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G04",
+    "target_id": "D02",
+    "location": "b0098",
+    "quote": "F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G04",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G05",
+    "target_id": "D02",
+    "location": "b0098",
+    "quote": "Therefore, the mutation of these genes could be a novel cause of FCCM.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G05",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G05",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G05",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G06",
+    "target_id": "D01",
+    "location": "b0099",
+    "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G06",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G07",
+    "target_id": "D01",
+    "location": "b0099",
+    "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G07",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G08",
+    "target_id": "D01",
+    "location": "b0099",
+    "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain.",
+    "exact_match": true
+  },
+  {
+    "model": "A",
+    "gene_id": "G08",
+    "target_id": "D18",
+    "location": "b0076",
+    "quote": "K3 | Male | 37 | 52 | Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE | Spinal (neck pain) | n/a | 0 | n/a | Yes | c.815dup, p.Arg273Glufs*17, | Yes | 1 PS (PVS1_Strong) + 1 PM (PM2) (LP) | Diffuse midline glioma (52YO)",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D01",
+    "location": "b0011",
+    "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D01",
+    "location": "b0098",
+    "quote": "In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D02",
+    "location": "b0011",
+    "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D02",
+    "location": "b0028",
+    "quote": "Cohort 1 consisted of nine patients with KRIT1 variants",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D02",
+    "location": "b0070",
+    "quote": "The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D02",
+    "location": "b0104",
+    "quote": "the burden of the KRIT1 group was aggravated faster than that of the Mutation not detected group",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "two somatic mutations in wild-type gene, is required to initiate CCM formation",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D03",
+    "location": "b0026",
+    "quote": "six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D07",
+    "location": "b0021",
+    "quote": "Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D07",
+    "location": "b0094",
+    "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D09",
+    "location": "b0100",
+    "quote": "Exon 12 is responsible for a particular portion of the KRIT1 protein ankyrin component. 19 This component is likely critical for preventing vascular malformation.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G01",
+    "target_id": "D09",
+    "location": "b0011",
+    "quote": "the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D01",
+    "location": "b0011",
+    "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D01",
+    "location": "b0098",
+    "quote": "In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D02",
+    "location": "b0011",
+    "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D02",
+    "location": "b0028",
+    "quote": "two with CCM2 variants",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D02",
+    "location": "b0070",
+    "quote": "The CCM2 group comprised one patient with a nonsense mutation and one with a missense mutation.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "two somatic mutations in wild-type gene, is required to initiate CCM formation",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D03",
+    "location": "b0026",
+    "quote": "six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D07",
+    "location": "b0021",
+    "quote": "Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D07",
+    "location": "b0094",
+    "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G02",
+    "target_id": "D09",
+    "location": "b0011",
+    "quote": "the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D01",
+    "location": "b0011",
+    "quote": "These prior studies demonstrated that the products of the three genes (KRIT1, CCM2, and PDCD10) are associated with CCM form complexes. Loss of function (LOF) of these genes leads to the formation of CCM.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D01",
+    "location": "b0098",
+    "quote": "In the 2-hit model, biallelic LOF in CCM genes, achieved by one somatic mutation in heterozygous germline mutation or two somatic mutations in wild-type gene, is required to initiate CCM formation.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D02",
+    "location": "b0011",
+    "quote": "Familial CCM (FCCM) is an autosomal dominant disorder caused by mutations in three genes, KRIT1, CCM2, and PDCD10.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D02",
+    "location": "b0028",
+    "quote": "two with PDCD10 variants",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D02",
+    "location": "b0070",
+    "quote": "The family members of one patient with a KRIT1 variant (K7), and two patients with PDCD10 variants (P1 and P2), received genetic testing, and four family members with the same variant as the proband were detected. Furthermore, these family members had CCM lesions confirmed by brain MRI.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D02",
+    "location": "b0101",
+    "quote": "PDCD10 variant patients usually have early onset and severe manifestations.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "two somatic mutations in wild-type gene, is required to initiate CCM formation",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D03",
+    "location": "b0026",
+    "quote": "six sporadic CCM patients with a wild-type FCCM gene, a single CCM lesion, and no family history of CCM were excluded",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D07",
+    "location": "b0021",
+    "quote": "Moreover, we determined whether CCM genotype was associated with the earlier occurrence of the first CASH, adjusting for gender and first CCM diagnosis age using Cox proportional hazards models.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D07",
+    "location": "b0094",
+    "quote": "The difference among the CCM mutation genotypes was not statistically significant (Table S3).",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G03",
+    "target_id": "D09",
+    "location": "b0011",
+    "quote": "the explicit mechanisms underlying the vascular-specific manifestation and vascular malformation suppression of the three CCM genes remain unknown",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G04",
+    "target_id": "D01",
+    "location": "b0098",
+    "quote": "F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G04",
+    "target_id": "D02",
+    "location": "b0098",
+    "quote": "F. Gianfrancesco et al. proposed that ZPLD1 mutation is associated with FCCM. 15",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G05",
+    "target_id": "D01",
+    "location": "b0098",
+    "quote": "have been confirmed in sporadic CCM patients",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G05",
+    "target_id": "D02",
+    "location": "b0098",
+    "quote": "Therefore, the mutation of these genes could be a novel cause of FCCM.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G05",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "Moreover, gain-of-function (GOF) mutations in MAP3K3, encoding MEKK3, have been confirmed in sporadic CCM patients. 16",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G05",
+    "target_id": "D03",
+    "location": "b0098",
+    "quote": "LOF in CCM genes and GOF in MAP3K3 are mutually exclusive, and the researchers suggested that CCM complexes suppress the activity of MEKK3.",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G06",
+    "target_id": "D01",
+    "location": "b0099",
+    "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G07",
+    "target_id": "D01",
+    "location": "b0099",
+    "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18",
+    "exact_match": true
+  },
+  {
+    "model": "B",
+    "gene_id": "G08",
+    "target_id": "D01",
+    "location": "b0099",
+    "quote": "Some preclinical studies have demonstrated that the CCM animal model induced by Krit1, Ccm2, or Pdcd10 heterozygous loss in the immediate postnatal period, tended to harbor lesions in the hindbrain. 17 , 18",
+    "exact_match": true
+  }
+]

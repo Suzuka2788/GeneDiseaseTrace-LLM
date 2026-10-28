@@ -1,0 +1,42 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; mouse LPS/D-GalN model study
+E|G1|gene|alanine aminotransferase|alanine aminotransferase;ALT|r||non-human||
+E|G2|gene|aspartate aminotransferase|aspartate aminotransferase;AST|r||non-human||
+E|G3|gene|intercellular adhesion molecule-1|intercellular adhesion molecule-1;ICAM-1|r||non-human||
+E|G4|gene|vascular cell adhesion molecule-1|vascular cell adhesion molecule-1;VCAM-1|r||non-human||
+E|G5|gene|von Willebrand factor|von Willebrand factor;vWF|r||non-human||
+E|G6|gene|superoxide dismutase|superoxide dismutase;SOD|r||non-human||
+E|G7|gene|glutathione S-transferase|glutathione S-transferase;GST|r||non-human||
+E|G8|gene|matrix metalloproteinase-2|matrix metalloproteinase-2;MMP-2|r||non-human||
+E|G9|gene|matrix metalloproteinase-9|9;MMP-9|p|other|non-human||
+E|D1|disease|liver injury|liver injury|r||||
+E|D2|disease|acute liver injury|acute liver injured;acute injury liver;acute injured liver|r|||D1|
+E|D3|disease|liver inflammation|liver inflammation;hepatic inflammation|r||||
+E|D4|disease|LSEC injury|LSEC injury|r||||
+E|S1|phenotype|hepatocyte apoptosis|hepatocyte apoptosis|r||||
+E|S2|phenotype|hepatic lipid peroxidation|hepatic lipid peroxidation|r||||
+X|LPS|b0002.s2|inducing chemical, not gene
+X|D-GalN|b0002.s2|inducing chemical, not gene
+X|malondialdehyde|b0002.s9|lipid peroxidation metabolite, not gene
+EV|V1|b0002.s2+b0002.s10|ts|res|aff|rr,cmp
+EV|V2|b0002.s11|ts|res|aff|rr,cmp
+EV|V3|b0002.s11|ts|int|aff|rr,unc
+EV|V4|b0002.s14|ts|int|aff|rr
+P|G1|D2|sup|a|ts|sup:a:ts:V1|||ALT higher in model vs normal mice
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||AST higher in model vs normal mice
+P|G3|D2|sup|a|ts|sup:a:ts:V2|||ICAM-1 increased in model vs normal
+P|G4|D2|sup|a|ts|sup:a:ts:V2|||VCAM-1 increased in model vs normal
+P|G5|D2|sup|a|ts|sup:a:ts:V2|||vWF increased in model vs normal
+P|G6|D2|sup|a|ts|sup:a:ts:V2|||SOD decreased in model vs normal
+P|G7|D2|sup|a|ts|sup:a:ts:V2|||GST decreased in model vs normal
+P|G8|D2|sup|a|ts|sup:a:ts:V2|||MMP-2 activity increased in model
+P|G9|D2|sup|a|ts|sup:a:ts:V2|||MMP-9 activity increased in model
+P|G3|D4|unc|-||unc:-:ts:V3|support_basis_unresolved||Marker increase interpreted as LSEC injury
+P|G4|D4|unc|-||unc:-:ts:V3|support_basis_unresolved||Marker increase interpreted as LSEC injury
+P|G5|D4|unc|-||unc:-:ts:V3|support_basis_unresolved||Marker increase interpreted as LSEC injury
+F|F1|group_comparison|ALT, AST serum levels|model vs normal mice|unknown|positive|not_reported|V1|abstract only
+F|F2|group_comparison|MMP-2/9, VCAM-1, ICAM-1, vWF, SOD, GST|model vs normal control mice|unknown|mixed|not_reported|V2|abstract only
+F|F3|group_comparison|ALT/AST, MMP-2/9, VCAM-1, ICAM-1|CMCS or phenanthroline vs model|significant|negative|not_reported|b0002.s12|treatment effect, not disease pair
+F|F4|mechanism|MMP-2/9 down-regulation, CMCS protection|LPS/D-GalN injured mice|unknown|negative|not_reported|V4|interpretive
+R|MMP-9 surface form|b0002.s9|MMP-9 written only via "matrix metalloproteinase-2 and 9"/"MMP-2/9"|Used "9" as surface form; marked provisional
+R|Model-vs-control expression|b0002.s11|Card is silent on expression differences in a chemically induced model|Treated as ts association, non-human, not causal

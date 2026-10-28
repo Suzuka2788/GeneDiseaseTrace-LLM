@@ -1,0 +1,33 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|DES|desmin|r|||human||
+E|G2|gene|CRYAB|alpha-B crystallin|r|||human||
+E|G3|gene|SEPN1|selenoprotein N;SEPN1|r|||human||
+E|D1|disease|muscle disorders|muscle disorders|r|||||
+E|D2|disease|desmin-related myopathy|Desmin-related myopathies;Desmin-related myopathy;DRMs;DRM|r|||D1|
+E|D3|disease|desmin-related myopathy with Mallory body-like inclusions|Desmin-related myopathy with Mallory body-like inclusions;MB-DRMs;MB-DRM|r|||D2|
+E|D4|disease|SEPN-related myopathy|SEPN-related myopathy;SEPN-RM|r|||||
+E|D5|disease|rigid spine muscular dystrophy|rigid spine muscular dystrophy|r|||||
+E|D6|disease|multiminicore disease|multiminicore disease|r|||||
+E|D7|disease|early-onset myopathies|early-onset myopathies|r|||||
+E|S1|phenotype|Mallory body-like inclusions|Mallory body-like inclusions|r|||||
+E|S2|phenotype|intrasarcoplasmic aggregates of desmin|intrasarcoplasmic aggregates|r|||||
+X|1p36|b0002|chromosomal locus, not a gene
+X|del 92 nucleotide -19/+73|b0002|variant description, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s4|bg|bgr|aff|ebr
+EV|V3|b0001.s1|ts|res|aff|eda
+EV|V4|b0002.s6|ts|res|aff|cs,rr
+EV|V5|b0002.s3|bg|bgr|na|none
+EV|V6|b0002.s4|bg|co|na|do
+EV|V7|b0002.s7+b0002.s8|ts|int|aff|unc
+P|G1|D2|sup|c|bg|sup:c:bg:V1||V7|Mutations account for one third of DRM cases
+P|G2|D2|sup|c|bg|sup:c:bg:V1|||Mutations account for one third of DRM cases
+P|G3|D4|sup|c|bg|sup:c:bg:V2|||Prior study: SEPN1 responsible for SEPN-RM
+P|G3|D3|sup|c|ts|sup:c:ts:V3;sup:a:ts:V4||V7|Linkage, homozygous deletion; title attributes causation
+P|G3|D5|unc|-||unc:-:bg:V6|scope||Former category of SEPN-RM; no direct link
+P|G3|D6|unc|-||unc:-:bg:V6|scope||Severe form former category of SEPN-RM only
+P|G1|D3|nf|-|||||V5|MB-DRM genetic basis stated unknown
+P|G2|D3|nf|-|||||V5|MB-DRM genetic basis stated unknown
+F|F1|association|SEPN1 locus linkage; homozygous SEPN1 deletion|original German MB-DRM family|unknown|positive|not_reported|V4|abstract only; LOD not given
+R|hierarchy|b0002.s4|SEPN-RM formerly split into RSMD and severe MmD; not parent/child|No parent assigned; SEPN1 pairs with former categories marked uncertain (scope)

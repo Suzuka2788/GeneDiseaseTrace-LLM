@@ -1,0 +1,27 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SELP|SELP;P-selectin|r||human||
+E|G2|gene|IRAK1|IRAK1;interleukin-1 receptor-associated kinase 1|r||human||
+E|G3|gene|TNFRSF6|TNFRSF6;Fas|r||human||
+E|G4|gene|IRF5|IRF5|r||human||
+E|D1|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r||||
+E|D2|disease|childhood-onset systemic lupus erythematosus|childhood-onset systemic lupus erythematosus;childhood-onset SLE|r|||D1|
+X|N673S|b0002.s6|variant ID, not a gene
+X|C203S|b0002.s6|variant ID, not a gene
+X|complex diseases|b0002.s11|generic disease category, no specific entity
+EV|V1|b0002.s5+b0002.s6+b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s10|ts|int|aff|rr
+EV|V3|b0002.s8+b0002.s9|ts|res|hyp|rr,unc
+EV|V4|b0002.s9|bg|bgr|aff|ebr
+EV|V5|b0001.s1+b0002.s5|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||TDT significant association, FDR <0.05
+P|G2|D1|sup|a|ts|sup:a:ts:V1+V2|||TDT significant association, FDR <0.05
+P|G1|D2|sup|a|ts|sup:a:ts:V5+V1|||Association found in childhood-onset SLE trios
+P|G2|D2|sup|a|ts|sup:a:ts:V5+V1|||Association found in childhood-onset SLE trios
+P|G3|D1|sup|a|bg|sup:a:bg:V4;unc:-:ts:V3|hedged_claim||Previous findings of association; own q<0.5 suggestive
+P|G4|D1|sup|a|bg|sup:a:bg:V4;unc:-:ts:V3|hedged_claim||Previous findings of association; own q<0.5 suggestive
+P|G3|D2|unc|-|ts|unc:-:ts:V3|hedged_claim||Only suggestive q<0.5 in this cohort
+P|G4|D2|unc|-|ts|unc:-:ts:V3|hedged_claim||Only suggestive q<0.5 in this cohort
+F|F1|association|SELP N673S transmission vs SLE|251 childhood-onset SLE trios|significant|positive|partial|V1|abstract only; P and FDR given
+F|F2|association|IRAK1 C203S transmission vs SLE|251 childhood-onset SLE trios|significant|positive|partial|V1|abstract only; P and FDR given
+F|F3|association|7 additional SNPs incl. TNFRSF6, IRF5|251 childhood-onset SLE trios|unknown|unknown|not_reported|V3|q<0.5 only, suggestive

@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MEN1|MEN1|r||human||
+E|D1|disease|multiple endocrine neoplasia type 1|multiple endocrine neoplasia-1;Multiple endocrine neoplasia type 1;MEN1|r||||
+E|D2|disease|pituitary adenomas|pituitary adenomas|r||||
+E|D3|disease|primary hyperparathyroidism|primary hyperparathyroidism;PHPT|r||||
+E|D4|disease|prolactinoma|prolactinoma|r||||
+E|D5|disease|pancreatic islet cell tumor|pancreatic islet cell tumor|r||||
+E|S1|symptom|epigastric pain|epigastric pain|r||||
+E|S2|symptom|watery diarrhea|watery diarrhea|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s2+b0002.s7+b0002.s10|ts|res|aff|rr,eda
+EV|V3|b0002.s3+b0002.s8|ts|res|aff|cs
+EV|V4|b0002.s4+b0002.s5+b0002.s6+b0002.s9|ts|co|na|do
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2+V3||V1|Germline mutation background; novel mutations in MEN1 families
+P|G1|D3|unc|-||unc:-:ts:V3|scope||Carriers have PHPT; attribution is to MEN1
+P|G1|D4|nf|-|||||V3+V4|Prolactinoma in carriers is descriptive only
+P|G1|D5|nf|-|||||V4|Tumor history in proband is descriptive only
+F|F1|descriptive|MEN1 heterozygous missense mutations|two MEN1 families|not_applicable|not_applicable|not_applicable|V2+V3+V4|Abstract only; no functional data
+R|surface overlap|b0002.s1|MEN1 is both the disease abbreviation and the gene symbol|Assigned to each entity according to context

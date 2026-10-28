@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|APOE|apolipoprotein E;apoE;ApoE|r||human||
+E|D1|disease|lipoprotein glomerulopathy|Lipoprotein glomerulopathy;lipoprotein glomerulopathy;LPG|r||||
+E|D2|disease|dyslipidemia|dyslipidemia;dyslipidemic|r||||
+E|D3|disease|nephrotic syndrome|nephrotic syndrome|r||||
+E|S1|phenotype|lamellate thrombi in dilated glomerular capillaries|lamellate thrombi|r||||
+X|ApoE Osaka|b0002.s3|variant name, not separate gene
+X|Arg158 Pro|b0001.s1|variant ID
+X|apoE3/2|b0002.s6|apoE phenotype/genotype label, not separate gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s1|bg|bgr|aff|ebr
+EV|V3|b0002.s3+b0002.s9+b0002.s10+b0002.s11|ts|co|na|do
+EV|V4|b0002.s12|ts|hyp|hyp|ho
+EV|V5|b0002.s13|ts|int|pre|unc
+EV|V6|b0002.s6|ts|co|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1;sup:a:bg:V2;unc:-:ts:V4;unc:-:ts:V5|hedged_claim,presupposed_only|V3|Background reports apoE mutations associated with LPG
+P|G1|D2|nf|-|||||V6|Patient co-occurrence only; no attribution
+F|F1|descriptive|apoE Osaka heterozygous mutation, codon 158|single LPG patient|not_applicable|not_applicable|not_applicable|V3|single case, no segregation data
+F|F2|hypothesis|apoE Osaka conformational change, endothelial interaction|single LPG patient|not_applicable|unknown|not_applicable|V4|speculative mechanism
+C|C1|substitution direction Arg158Pro wording|b0001.s1+b0002.s10|noncritical|unresolved|s10 phrasing may imply reverse substitution

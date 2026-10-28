@@ -1,0 +1,45 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full case-series text with tables and captions; references removed
+E|G1|gene|AQP4|aquaporin-4;AQP4|r|||human||
+E|G2|gene|MOG|myelin oligodendrocyte glycoprotein;MOG;Myelin Oligodendrocyte Glycoprotein|r|||human||
+E|G3|gene|MS4A1|CD20|p|other|human||
+E|G4|gene|C3|C3|p|other|human||
+E|G5|gene|C4|C4|p|ambiguous_mapping|human||
+E|G6|gene|ACE|ACE|p|other|human||
+E|G7|gene|APOH|beta-2-glycoprotein|p|other|human||
+E|D1|disease|tumefactive demyelinating lesions|Tumefactive demyelinating lesions;tumefactive demyelinating lesions;TDLs;TDL|r||||
+E|D2|disease|giant demyelinating lesions|Giant demyelinating lesions;giant demyelinating lesions;GDLs;GDL|r|||D1|
+E|D3|disease|multiple sclerosis|MS;multiple sclerosis|r||||
+E|D4|disease|Marburg's acute MS|Marburg's acute MS;Marburg's MS|r|||D3|
+E|D5|disease|Schilder's disease|Schilder's Disease;Schilder's disease|r|||D3|
+E|D6|disease|Balo's concentric sclerosis|Balo's concentric sclerosis;Baló's concentric sclerosis;BCS|r|||D3|
+E|D7|disease|Tumefactive MS|Tumefactive MS|r|||D3|
+E|D8|disease|tumefactive demyelination|Tumefactive demyelination|p|ambiguous_mapping|||
+E|D9|disease|acute disseminated encephalomyelitis|acute disseminated encephalomyelitis;ADEM|r||||
+E|D10|disease|neuromyelitis optica spectrum disorder|neuromyelitis optica spectrum disorder;NMO-SD|r||||
+E|D11|disease|adrenoleukodystrophy|adrenoleukodystrophy|r||||
+E|D12|disease|asthma|asthma|r||||
+E|D13|disease|anxiety|anxiety|r||||
+E|D14|disease|depression|depression|r||||
+E|D15|disease|anti-phospholipid syndrome|anti-phospholipid syndrome|r||||
+E|D16|disease|high grade glioma|Glioma|r||||
+E|D17|disease|neurosarcoidosis|neurosarcoidosis|r||||
+E|D18|disease|lymphoma|lymphoma|r||||
+E|D19|disease|HIV infection|HIV infection|r||||
+E|D20|disease|autoimmune encephalitis|autoimmune encephalitis|r||||
+E|D21|disease|Myelin Oligodendrocyte Glycoprotein Antibody Disease|Myelin Oligodendrocyte Glycoprotein Antibody Disease|r||||
+E|D22|disease|vasculitis|vasculitis|r||||
+E|D23|disease|hemorrhagic demyelination|hemorrhagic demyelination|r||||
+E|D24|disease|hepatitis B and C|hepatitis B and C|p|other|||
+E|D25|disease|syphilis|syphilis|r||||
+E|S1|symptom|hemiplegia|hemiplegia|r||||
+E|S2|phenotype|Balo's phenomenon|Balo's phenomenon|r||||
+X|IGRA|b0030|assay not gene (interferon gamma release assay)
+X|ACSF|b0030|lab panel abbreviation
+X|AIS|b0030|lab panel abbreviation
+X|JC virus DNA|b0030|pathogen test, not gene
+EV|V1|b0033.s3|ts|co|na|do
+EV|V2|b0047.s1|bg|co|na|do
+P|G2|D21|nf|-||||V2|antigen-named disease; no reported gene relation
+P|G1|D10|nf|-||||V1|antibody test negative; no pair link
+F|F1|descriptive|anti-AQP4, anti-MOG antibodies|four GDL patients|not_applicable|null|not_applicable|V1|antibody serology, not gene status

@@ -1,0 +1,93 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text incl. tables, captions, abbreviations; figures and supplements unread
+E|G1|gene|Col1|Col1;Collagen Type I|r||non-human||
+E|G2|gene|Col3|Col3;Collagen Type III|r||non-human||
+E|G3|gene|MMP-2|MMP-2;Mmp2;Matrix Metalloproteinase-2|r||non-human||
+E|G4|gene|MMP-9|MMP-9;Mmp9;Matrix Metalloproteinase-9|r||non-human||
+E|G5|gene|Bax|Bax|r||non-human||
+E|G6|gene|Bcl2|Bcl2;Bcl-2|r||non-human||
+E|G7|gene|Caspase 3|Caspase 3;Caspase-3;caspase-3|r||non-human||
+E|G8|gene|IL-1β|IL-1β;IL1β;Interleukin-1 beta|r||non-human||
+E|G9|gene|TNF-α|TNF-α;TNFα;Tumor Necrosis Factor-alpha|r||non-human||
+E|G10|gene|IL-6|IL-6;IL6;Interleukin-6|r||non-human||
+E|G11|gene|MCP1|MCP1;MCP-1;Monocyte Chemoattractant Protein-1|r||non-human||
+E|G12|gene|CD31|CD31;Cluster of Differentiation 31|r||non-human||
+E|G13|gene|Anp|Anp|r||non-human||
+E|G14|gene|Bnp|Bnp|r||non-human||
+E|G15|gene|β-Mhc|β-Mhc;β-mhc|r||non-human||
+E|G16|gene|Cdk1|Cdk1|r||non-human||
+E|G17|gene|Ttk|Ttk|r||non-human||
+E|G18|gene|Ccnb2|Ccnb2|r||non-human||
+E|G19|gene|Plk1|Plk1|r||non-human||
+E|G20|gene|CDK1|CDK1;Cyclin-Dependent Kinase 1|r||human||
+E|G21|gene|TTK|TTK;Threonine Tyrosine Kinase|r||human||
+E|G22|gene|CCNB2|CCNB2;Cyclin B2|r||human||
+E|G23|gene|PLK1|PLK1;Polo-Like Kinase 1|r||human||
+E|G24|gene|β-ACTIN|β-ACTIN;β-Actin|r||human||
+E|G25|gene|NLRP3|NLRP3|r||||
+E|G26|gene|caspase-1|caspase-1|r||||
+E|G27|gene|VE-Cadherin|VE-Cadherin|r||||
+E|D1|disease|myocardial infarction|myocardial infarction;Myocardial Infarction;MI|r||||
+E|D2|disease|cardiac fibrosis|cardiac fibrosis;myocardial fibrosis|r||||
+E|D3|disease|heart failure|heart failure;central force failure|p|suspected_typo|||
+E|D4|disease|cardiovascular diseases|cardiovascular diseases|r||||
+E|D5|disease|myocardial ischemia-reperfusion injury|myocardial ischemia-reperfusion injury;cardiac ischemia-reperfusion injury|r||||
+E|D6|disease|cerebral ischemia-reperfusion injury|cerebral ischemia-reperfusion injury|r||||
+E|D7|disease|atherosclerosis|atherosclerosis|r||||
+E|D8|disease|neurological diseases|neurological diseases|r||||
+E|D9|disease|reperfusion injury|reperfusion injury|r||||
+E|D10|disease|thrombosis|thrombosis|r||||
+E|S1|phenotype|cardiac dysfunction|cardiac dysfunction|r||||
+E|S2|phenotype|cardiac hypertrophy|cardiac hypertrophy|r||||
+E|S3|symptom|chronic pain|chronic pain|r||||
+X|NF-κB|b0006|protein complex, not single gene
+X|MAPK|b0006|kinase family/pathway
+X|ERK1/2|b0006|gene pair/pathway
+X|PI3K|b0006|pathway/gene family
+X|SOD|b0006|enzyme family
+X|GSH-Px|b0006|enzyme family
+EV|V1|b0075.s3|ts|res|aff|rr,cmp
+EV|V2|b0002.s5+b0076.s4|bg|bgr|aff|ebr
+EV|V3|b0072.s8+b0073.s10|bg|bgr|aff|ebr
+EV|V4|b0075.s6+b0085.s2|ts|res|aff|rr,cmp
+EV|V5|b0075.s7+b0075.s8+b0085.s2|ts|res|aff|rr,cmp
+EV|V6|b0078.s2+b0084.s11|ts|res|aff|rr,cmp
+EV|V7|b0078.s3+b0086.s6|ts|res|aff|rr,cmp
+EV|V8|b0081.s3+b0086.s8|ts|res|na|do
+EV|V9|b0081.s4+b0081.s5|ts|res|na|do
+EV|V10|b0072.s8+b0085.s5|ts|res|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V2|Elevated in MI vs sham mice
+P|G2|D1|sup|a|ts|sup:a:ts:V1||V2|Elevated in MI vs sham mice
+P|G3|D1|sup|a|ts|sup:a:ts:V1||V2|Elevated in MI vs sham mice
+P|G4|D1|sup|a|ts|sup:a:ts:V1||V2|Elevated in MI vs sham mice
+P|G1|D2|sup|a|bg|sup:a:bg:V2||V1|Stated cardiac fibrosis biomarker
+P|G2|D2|sup|a|bg|sup:a:bg:V2||V1|Stated cardiac fibrosis biomarker
+P|G3|D2|sup|a|bg|sup:a:bg:V2||V1|Stated cardiac fibrosis biomarker
+P|G4|D2|sup|a|bg|sup:a:bg:V2||V1|Stated cardiac fibrosis biomarker
+P|G13|D3|sup|a|bg|sup:a:bg:V3||V10|Stated heart failure biomarker
+P|G14|D3|sup|a|bg|sup:a:bg:V3||V10|Stated heart failure biomarker
+P|G15|D3|sup|a|bg|sup:a:bg:V3||V10|Stated heart failure biomarker
+P|G7|D1|sup|a|ts|sup:a:ts:V4|||Caspase 3 activity elevated in MI
+P|G5|D1|unc|-||unc:-:ts:V5|scope||Only Bax/Bcl2 ratio tested, not individually
+P|G6|D1|unc|-||unc:-:ts:V5|scope||Only Bax/Bcl2 ratio tested, not individually
+P|G8|D1|sup|a|ts|sup:a:ts:V6|||Elevated in MI vs sham myocardium
+P|G9|D1|sup|a|ts|sup:a:ts:V6|||Elevated in MI vs sham myocardium
+P|G10|D1|sup|a|ts|sup:a:ts:V6|||Elevated in MI vs sham myocardium
+P|G11|D1|sup|a|ts|sup:a:ts:V6|||Elevated in MI vs sham myocardium
+P|G12|D1|sup|a|ts|sup:a:ts:V7|||CD31 increased in MI hearts
+P|G16|D1|nf|-||||V8|Drug-induced change only, no MI comparison
+P|G17|D1|nf|-||||V8|Drug-induced change only, no MI comparison
+P|G18|D1|nf|-||||V8|Drug-induced change only, no MI comparison
+P|G19|D1|nf|-||||V8|Drug-induced change only, no MI comparison
+F|F1|group_comparison|Col1, Col3, Mmp2, Mmp9 mRNA|MI vs sham mice; GAS-treated MI|significant|positive|partial|V1|Figure values unread
+F|F2|group_comparison|Caspase 3 activity|MI vs sham; GAS-treated MI|significant|positive|partial|V4|
+F|F3|group_comparison|Bax/Bcl2 mRNA ratio|MI vs sham; GAS-treated MI|significant|positive|partial|V5|Composite ratio
+F|F4|group_comparison|IL-1β, TNF-α, IL-6, MCP1 levels|MI vs sham; GAS-treated MI|significant|positive|partial|V6|
+F|F5|group_comparison|CD31 expression|MI vs sham; GAS further increased|significant|positive|partial|V7|
+F|F6|group_comparison|Anp, Bnp, β-Mhc mRNA by GAS|GAS-treated vs untreated MI mice|significant|negative|partial|V10|
+F|F7|group_comparison|Cdk1, Ttk, Ccnb2, Plk1 mRNA by GAS|GAS-treated vs untreated MI mice|significant|positive|partial|V8|
+F|F8|group_comparison|CDK1, TTK, CCNB2, PLK1 mRNA by GAS|CoCl2-treated HAECs|significant|positive|partial|V9|No disease context
+C|C1|Fibrosis direction in MI mice|b0075.s2+b0075.s3+b0075.s10|noncritical|unresolved|Says fibrosis decreased in MI; likely misworded
+U|Multimedia component 1;Multimedia component 2|b0103.s1|Supplementary files not provided
+R|expression in disease model|V1,V4,V6,V7|Disease-model vs sham expression not explicitly covered|Treated as association, non-human, ts
+R|letter case species|b0086.s8;b0089.s2|Uppercase CDK1 etc. used for mouse and human jointly|Assigned by context; mixed sentences not used for pairs

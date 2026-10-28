@@ -1,0 +1,41 @@
+META|Opus 5.5|seen: no
+SCOPE|Full Spanish case report text; references removed
+E|G1|gene|RAG1|RAG1|r||human||
+E|G2|gene|RAG2|RAG2|r||human||
+E|G3|gene|Artemis gene|Artemis|p|other|human||
+E|G4|gene|RPMRP RNA|RPMRP RNA;RPMRP|p|undefined_abbreviation|human||
+E|G5|gene|IL7RA|IL7RA|r||human||
+E|G6|gene|IL-7|IL-7;interleuquina 7|p|other|human||
+E|D1|disease|síndrome de Omenn|síndrome de Omenn;inmunodeficiencia combinada con hipereosinofilia|r|||||
+E|D2|disease|eritrodermias neonatales congénitas|eritrodermias neonatales congénitas;eritrodermia congénita;eritrodermias|r|||||
+E|D3|disease|ictiosis|ictiosis|r|||||
+E|D4|disease|ictiosis laminar|ictiosis laminar|r|||D3|
+E|D5|disease|ictiosis congénita|ictiosis congénita|r|||D3|
+E|D6|disease|inmunodeficiencia combinada grave|inmunodeficiencia combinada grave|r|||||
+E|D7|disease|inmunodeficiencia primaria|inmunodeficiencia primaria|r|||||
+E|D8|disease|dermatitis atópica|dermatitis atópica|r|||||
+E|D9|disease|psoriasis|psoriasis|r|||||
+E|D10|disease|dermatitis seborreica|dermatitis seborreica|r|||||
+E|D11|disease|deficiencia de biotinidasa|deficiencia de biotinidasa|r|||||
+E|D13|clinical_event|choque séptico|choque séptico|r|||||
+E|D14|disease|insuficiencia renal aguda|insuficiencia renal aguda|r|||||
+E|D15|disease|coagulación intravascular diseminada|coagulación intravascular diseminada|r|||||
+E|D16|disease|taquipnea transitoria del recién nacido|taquipnea transitoria del recién nacido|r|||||
+E|D17|disease|hemorragia intraventricular|hemorragia intraventricular|r|||||
+E|D18|clinical_event|falla multiorgánica|falla multiorgánica|r|||||
+E|D19|disease|desórdenes de la cornificación|desórdenes de la cornificación|r|||||
+E|S1|phenotype|polihidramnios|polihidramnios|r|||||
+X|TREC|b0024|assay target, not gene
+X|c.829dupT|b0018|variant ID
+EV|V1|b0010.s3|bg|bgr|aff|ebr
+EV|V2|b0010.s4|bg|bgr|aff|ebr
+EV|V3|b0018.s5+b0019.s1|ts|res|aff|eda
+EV|V4|b0026.s2+b0026.s4|ts|int|q|unc
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V1|background: RAG1 mutations in most cases
+P|G2|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V3+V4|hedged_claim|V3;V4|background supported; case variant heterozygous, unconfirmed
+P|G3|D1|sup|a|bg|sup:a:bg:V2||V2|literature associates Artemis gene mutations
+P|G4|D1|sup|a|bg|sup:a:bg:V2||V2|literature associates RPMRP RNA mutations
+P|G5|D1|sup|a|bg|sup:a:bg:V2||V2|literature associates IL7RA mutations
+F|F1|descriptive|RAG2 c.829dupT heterozygous|case newborn|not_applicable|not_applicable|not_applicable|V3|single allele found
+C|C1|RAG2 diagnosis definitiveness|b0019.s1+b0026.s2|undetermined|unresolved|conclusion vs limitation, non-definitive genetics
+R|verbatim surface|b0009.s2|zinc deficiency only elided as "deficiencia de biotinidasa y de zinc"|omitted entity; no gene evidence affected

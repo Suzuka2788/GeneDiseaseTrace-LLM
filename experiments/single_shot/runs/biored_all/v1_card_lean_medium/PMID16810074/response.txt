@@ -1,0 +1,14 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|endothelin-1|endothelin-1;ET-1|p|species_unresolved|||
+E|D1|disease|hypertension|hypertension|r||||
+E|S1|phenotype|oxidative stress|oxidative stress|r||||
+E|S2|phenotype|arterial dysfunction|arterial dysfunction|r||||
+X|NO synthase|b0002|gene family (pharmacological target), not single-gene endpoint
+X|nitric oxide|b0001|small molecule, not gene
+EV|V1|b0002.s2+b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s8+b0002.s9|ts|res|na|rr,do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||Stated mechanism: augmented ET-1 release in NO-deficient hypertension
+F|F1|group_comparison|ET-1 maximal contraction, LNNA vs control|rat carotid artery and vena cava|mixed|negative|partial|V2|ET-1 used as agonist, not gene status
+F|F2|group_comparison|mean arterial pressure, LNNA vs control|conscious rats|significant|positive|available|V2|drug-induced model, no gene tested
+R|species|b0002.s3|ET-1 background statement is in experimental model, species not stated|ET-1 kept provisional, species empty

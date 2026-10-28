@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PAX9|PAX9|r||human||
+E|G2|gene|MSX1|MSX1|r||human||
+E|D1|disease|oligodontia|oligodontia|r||||
+E|D2|disease|nonsyndromic oligodontia|nonsyndromic oligodontia|r|||D1|
+E|D3|disease|syndromic oligodontia|syndromic oligodontia|r|||D1|
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s4|ts|res|aff|rr,cs
+EV|V3|b0001.s1+b0002.s7|ts|res|aff|eda
+EV|V4|b0002.s3+b0002.s5|ts|neg|neg|rr
+EV|V5|b0002.s6+b0002.s8|ts|int|hyp|mi,ho
+P|G1|D1|sup|c|ts|sup:c:ts:V3;unc:-:ts:V5||V2|Title attributes oligodontia to PAX9 mutation
+P|G1|D2|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||Background link plus segregation in affected family members
+P|G2|D3|sup|a|bg|sup:a:bg:V1|||Background association via respectively mapping
+P|G2|D2|neg|-|ts|neg:a:ts:V4|||No MSX1 mutation in this family
+F|F1|descriptive|PAX9 C139T heterozygous status|affected members of one family|not_applicable|not_applicable|not_reported|V2|single family; segregation details not shown
+F|F2|mechanism|R47W mutant PAX9 DNA binding|in vitro paired domain protein|unknown|negative|not_reported|V5|haploinsufficiency is only suggested

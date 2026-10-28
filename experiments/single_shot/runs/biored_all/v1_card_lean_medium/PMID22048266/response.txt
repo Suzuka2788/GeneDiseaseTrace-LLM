@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or methods
+E|G1|gene|SIM2|SIM2;Single minded 2|r||human||
+E|G2|gene|ETS2|ETS2;V-ets erythroblastosis virus E26 oncogene homolog2|r||human||
+E|D1|disease|Down syndrome|Down syndrome;DS|r||||
+X|Trisomy of the 21{st} chromosome|b0002|karyotype cause of DS, not a separate disease endpoint
+X|rs2073601|b0002|variant ID
+X|rs2073416|b0002|variant ID
+X|rs461155|b0002|variant ID
+EV|V1|b0002.s6|ts|res|aff|rr,cmp
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s5|ts|co|na|do
+EV|V4|b0002.s8|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1;unc:-:ts:V4|||SIM2 C-G haplotype significantly lower in DS
+P|G2|D1|unc|-|ts|unc:-:ts:V3;unc:-:ts:V2|support_basis_unresolved,scope||Heterozygosity without comparator; 4-SNP haplotype gene unclear
+F|F1|association|SIM2 C-G haplotype frequency|DS probands vs controls|significant|negative|partial|V1|abstract only; comparator implied
+F|F2|association|SIM2 C-G haplotype frequency|fathers of DS probands|significant|negative|partial|V1|parents not disease outcome
+F|F3|association|A-C-C-G and A-C-A-G haplotypes|DS subjects|significant|mixed|partial|V2|SNP-to-gene mapping unstated
+F|F4|descriptive|ETS2 rs461155 heterozygosity|DS probands|unknown|unknown|not_reported|V3|no comparator or statistic given
+
+R|four-SNP haplotype spans unspecified genes|b0002.s7|haplotype gene membership not stated in abstract|ETS2 pair uncertain with scope; SIM2 supported via s6 only

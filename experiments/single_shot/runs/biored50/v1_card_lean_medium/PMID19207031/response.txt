@@ -1,0 +1,15 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IGF-1|IGF-1|r||human||
+E|G2|gene|growth hormone|growth hormone;GH|p|ambiguous_mapping|human||
+E|D1|disease|growth hormone deficiency|GH-deficiency;GHD;growth hormone-deficient;GH-deficient|r||||
+X|rs1019731|b0002.s7|variant identifier, not gene
+X|KIMS|b0002.s4|study name, not disease
+EV|V1|b0002.s1|bg|bgr|na|ebr
+EV|V2|b0002.s7|ts|neg|neg|rr,cmp
+EV|V3|b0002.s8+b0002.s9|ts|int|neg|rr
+EV|V4|b0002.s7|ts|res|aff|rr,cmp
+P|G1|D1|nf|-||||V2+V3|Tested GH response within GHD, not disease
+F|F1|association|IGF-1 polymorphisms vs GH-dose, IGF-1, SDS|133 German GHD adults|not_significant|null|partial|V2+V3|adjusted for gender, age, BMI
+F|F2|group_comparison|rs1019731 genotype vs IGF-1-SDS|133 German GHD adults|significant|unknown|partial|V4|abstract only; direction not stated
+F|F3|association|IGF-1 polymorphisms vs serum IGF-1|prior studies|unknown|unknown|not_reported|V1|background; no disease outcome

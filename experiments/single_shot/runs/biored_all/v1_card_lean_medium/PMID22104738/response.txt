@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MLYCD|MLYCD|r||human||
+E|D1|disease|malonic aciduria|malonic aciduria|r||||
+E|S1|symptom|developmental delay|developmental delay|r||||
+E|S2|symptom|short stature|short stature|r||||
+E|S3|phenotype|brain abnormalities|brain abnormalities|r||||
+E|S4|phenotype|massive excretion of malonic acid|massive excretion of malonic acid|r||||
+X|c.920T>G|b0002|variant identifier, not gene
+X|p.Leu307Arg|b0002|variant identifier, not gene
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s1+b0002.s2|ts|res|aff|rr,cs
+EV|V3|b0002.s3+b0002.s4|ts|res|aff|rr,eda
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2+V3|||Compound heterozygous MLYCD mutations genetically diagnose patient's malonic aciduria
+F|F1|descriptive|MLYCD c.920T>G presence|patient, father, 100 healthy controls|not_applicable|not_applicable|not_applicable|V2+V3|single case; abstract only
+F|F2|descriptive|MLYCD exon 1 deletion|patient and mother|not_applicable|not_applicable|not_applicable|V2|single family

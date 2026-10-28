@@ -1,0 +1,165 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full systematic review text, tables, captions; references removed
+E|D1|disease|ventilator induced lung injury|ventilator induced lung injury;ventilator-induced lung injury;ventilation-induced lung injury;ventilation induced lung injury;Ventilator Induced Lung Injury;Ventilation Induced Lung Injury;VILI|r|||||
+E|D2|disease|acute respiratory distress syndrome|acute respiratory distress syndrome;ARDS|r|||||
+E|D3|disease|pulmonary hypertension|pulmonary hypertension|r|||||
+E|D4|disease|cystic fibrosis|cystic fibrosis|r|||||
+E|D5|disease|lung cancer|lung cancer|r|||||
+E|D6|disease|pulmonary edema|pulmonary edema|r|||||
+E|D7|disease|allergic asthma|allergic asthma|r|||D8|
+E|D8|disease|asthma|asthma|r|||||
+E|D9|disease|obstructive sleep apnea syndrome|obstructive sleep apnea syndrome|r|||||
+E|D10|disease|sleep apnea|sleep apnea|r|||||
+E|D11|disease|pulmonary fibrosis|pulmonary fibrosis;Pulmonary fibrosis|r|||||
+E|D12|disease|lung injury|lung injury|p|other||||
+E|D13|disease|acute lung injury|acute lung injury|r|||||
+E|D14|disease|respiratory diseases|respiratory diseases;respiratory disease;respiratory system diseases|r|||||
+E|D15|disease|lung diseases|lung diseases;Lung diseases|r|||||
+E|D16|disease|obstructive lung diseases|obstructive lung diseases|r|||||
+E|D17|disease|heart failure|heart failure|r|||||
+E|D18|disease|COVID-19|coronavirus disease 2019;COVID-19|r|||||
+E|D19|disease|sickle cell anemia|sickle cell anemia|r|||||
+E|D20|disease|airway viral infections|airway viral infections|r|||||
+E|D21|disease|pulmonary arterial hypertension|pulmonary arterial hypertension|r|||||
+E|D22|disease|brain trauma|brain trauma|r|||||
+E|D23|disease|obesity|obesity|r|||||
+E|D24|disease|lung epithelial injury|lung epithelial injury|r|||||
+E|CE1|clinical_event|premature neonatal death|premature neonatal death|r|||||
+E|S1|phenotype|lung inflammation|lung inflammation|r|||||
+E|S2|phenotype|overinflation of lung|overinflation of lung|r|||||
+E|S3|phenotype|airway remodeling|airway remodeling|r|||||
+E|S4|symptom|lung hemorrhage|lung hemorrhage|r|||||
+E|G1|gene|Piezo1|Piezo1;Piezo 1;Fam38A|p|species_unresolved|||
+E|G2|gene|Piezo2|Piezo2;Piezo 2;Fam38B|p|species_unresolved|||
+E|G3|gene|RhoA|RhoA;Rhoa;Ras homolog gene family member A|p|species_unresolved|||
+E|G4|gene|ROCK1|ROCK1;Rock1;Rho associated coiled-coil containing protein kinase 1;Rho-associated coiled-coil containing protein kinase 1|p|species_unresolved|||
+E|G5|ambiguous_gene|ROCK|ROCK|u|ambiguous_mapping|||
+E|G6|ambiguous_gene|calpain|calpain;Calpain|u|ambiguous_mapping|||
+E|G7|gene|VE-cadherin|VE-cadherin;vascular endothelial cadherin|p|species_unresolved|||
+E|G8|gene|Src|Src|p|species_unresolved|||
+E|G9|gene|ADAM10|ADAM10|p|species_unresolved|||
+E|G10|gene|ADAM17|ADAM17|p|species_unresolved|||
+E|G11|gene|amphiregulin|amphiregulin|p|species_unresolved|||
+E|G12|gene|junctional adhesion molecule A|junctional adhesion molecule A|p|species_unresolved|||
+E|G13|gene|TRPV4|TRPV4;TRVP4;transient receptor potential vanilloid 4;TRP vanilloid 4|p|suspected_typo,species_unresolved|||
+E|G14|gene|TRPA1|TRPA1;transient receptor potential channel A1;transient receptor potential ankyrin 1|p|species_unresolved|||
+E|G15|gene|TRPM2|TRPM2;TRMP2;transient receptor potential melastatin 2|p|suspected_typo,species_unresolved|||
+E|G16|gene|SGK1|SGK1;SGK 1;glucocorticoid-regulated kinase 1;serum glucocorticoid-regulated kinase 1;serum and glucocorticoid-inducible kinase 1|p|species_unresolved|||
+E|G17|gene|eNOS|eNOS;Endothelial nitric oxide synthase;endothelial nitric oxide synthase|p|species_unresolved|||
+E|G18|gene|NLRP3|NLRP3;NLPR3;NOD-like receptor family pyrin domain containing 3|p|suspected_typo,species_unresolved|||
+E|G19|gene|Caspase-1|Caspase-1|p|species_unresolved|||
+E|G20|gene|TREK-1|TREK-1;TWIK-Related K+ Channel 1|p|species_unresolved|||
+E|G21|gene|TREK-2|TREK-2|p|species_unresolved|||
+E|G22|gene|TRAAK|TRAAK|p|species_unresolved|||
+E|G23|gene|KCa3.1|KCa3.1;K(Ca) 3.1;calcium-activated potassium channel 3.1|p|species_unresolved|||
+E|G24|gene|FAK|FAK;focal adhesion kinase|p|species_unresolved|||
+E|G25|gene|vinculin|vinculin;Vinculin|p|species_unresolved|||
+E|G26|gene|IL-6|IL-6|p|species_unresolved|||
+E|G27|gene|TNF-α|TNF-α|p|species_unresolved|||
+E|G28|gene|Claudin 18|Claudin 18;claudin 18|p|species_unresolved|non-human||
+E|G29|gene|Egr1|Egr1|p|species_unresolved|||
+E|G30|gene|CFTR|CFTR;cystic fibrosis transmembrane conductance regulator|p|species_unresolved|||
+E|G31|gene|TRPV1|TRPV1|p|species_unresolved|||
+E|G32|gene|TRPV2|TRPV2|p|species_unresolved|||
+E|G33|gene|TRPV3|TRPV3|p|species_unresolved|||
+E|G34|gene|TRPV5|TRPV5|p|species_unresolved|||
+E|G35|gene|MLC2|MLC2;myosin light chain 2|p|species_unresolved|||
+E|G36|ambiguous_gene|PKC|PKC;PKCa;protein kinase C|u|ambiguous_mapping|||
+E|G37|gene|beta-catenin|beta-catenin|p|species_unresolved|||
+E|G38|gene|p120-catenin|p120-catenin|p|species_unresolved|||
+E|G39|ambiguous_gene|TRPVM|TRPVM|u|undefined_abbreviation|||
+E|G40|gene|Na+-K+-ATPase β1 subunit|β1 subunit|p|other,species_unresolved|||
+E|G41|gene|Na+-K+-ATPase α2 subunit|α2 subunit|p|other,species_unresolved|||
+E|G42|gene|Na+-K+-ATPase β3 subunit|β3 subunit|p|other,species_unresolved|||
+X|ENaCs|b0111|gene complex (heterotrimer), not single gene
+X|Na,K-ATPase|b0055|multi-subunit enzyme complex
+X|βAR|b0056|receptor family, not single gene
+X|K2P|b0108|channel family
+X|TREK|b0108|channel subfamily label
+X|Nav1.5-1.9|b0113|gene range, not single gene
+X|TRPC 1-7|b0100|gene family range
+X|integrin αVβ1|b0097|heterodimer complex
+X|MCP-1or|b0108|malformed token, no clean surface form
+X|obesity paradox|b0102|prognostic phenomenon, not disease
+X|volutrauma|b0013|injury mechanism doctrine, not disease
+EV|V1|b0094.s5+b0094.s6+b0094.s7|bg|res|aff|mi,rr
+EV|V2|b0094.s9|bg|res|aff|mi
+EV|V3|b0096.s2+b0096.s6+b0096.s7|bg|res|aff|mi
+EV|V4|b0093.s6|bg|bgr|aff|ebr
+EV|V5|b0097.s5+b0095.s4|bg|res|aff|mi
+EV|V6|b0093.s7|bg|hyp|hyp|ho
+EV|V7|b0098.s1|bg|bgr|aff|ebr
+EV|V8|b0102.s1+b0102.s6|bg|res|aff|rr
+EV|V9|b0104.s2|bg|res|aff|rr
+EV|V10|b0101.s3|bg|bgr|aff|ebr
+EV|V11|b0102.s7|bg|res|aff|rr
+EV|V12|b0102.s8|bg|hyp|hyp|ho
+EV|V13|b0104.s7|bg|bgr|aff|ebr
+EV|V14|b0105.s4+b0101.s4|bg|res|aff|rr
+EV|V15|b0105.s3|bg|bgr|aff|ebr
+EV|V16|b0105.s6|bg|res|aff|rr
+EV|V17|b0108.s9+b0109.s2|bg|int|hyp|ho
+EV|V18|b0108.s6|bg|hyp|hyp|ho
+EV|V19|b0108.s8+b0109.s3|bg|res|aff|mi
+EV|V20|b0108.s7|bg|res|aff|mi
+EV|V21|b0113.s3+b0109.s7|bg|res|aff|mi
+EV|V22|b0104.s3|bg|hyp|hyp|ho
+EV|V23|b0104.s4+b0104.s6|bg|res|aff|mi
+EV|V24|b0112.s7+b0112.s9|bg|res|aff|mi
+EV|V25|b0116.s3+b0116.s4|bg|res|aff|unc
+EV|V26|b0116.s8|bg|res|aff|unc
+EV|V27|b0094.s7+b0095.s2|bg|int|aff|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:c:bg:V2;sup:c:bg:V3|||Knockout/inhibition alters VILI; direction conflicts
+P|G1|D3|sup|a|bg|sup:a:bg:V4|||Background role statement
+P|G1|D5|sup|a|bg|sup:a:bg:V4|||Background role statement
+P|G1|D6|sup|a|bg|sup:a:bg:V4|||Background role statement
+P|G1|D11|sup|c|bg|sup:c:bg:V5|||Stretch-enhanced fibrosis driven by Piezo1
+P|G1|D12|sup|c|bg|sup:c:bg:V2|||Piezo1 pathway induces lung injury
+P|G1|D2|nf|-||||V2|ARDS is only model context
+P|G2|D2|unc|-||unc:-:bg:V6|hedged_claim||"Might be involved"
+P|G2|D7|unc|-||unc:-:bg:V6|hedged_claim||"Might be involved"
+P|G2|D9|unc|-||unc:-:bg:V6|hedged_claim||"Might be involved"
+P|G2|CE1|unc|-||unc:-:bg:V6|hedged_claim||"Might be involved"
+P|G2|D10|sup|a|bg|sup:a:bg:V7|||Impairment associated with sleep apnea
+P|G2|D3|sup|a|bg|sup:a:bg:V7|||Impairment associated with pulmonary hypertension
+P|G2|D1|nf|-||||V7|No robust evidence; not a negative result
+P|G3|D1|unc|-||unc:-:bg:V27|scope||Pathway-level link only
+P|G4|D1|unc|-||unc:-:bg:V27+V9|scope||Pathway-level link only
+P|G35|D1|unc|-||unc:-:bg:V9|scope||Pathway-level link only
+P|G13|D1|sup|c|bg|sup:c:bg:V8;sup:c:bg:V10;sup:c:bg:V9|||TRPV4 calcium entry determines VILI
+P|G13|D23|unc|-||unc:-:bg:V11|scope||Linked to obesity paradox, not obesity
+P|G13|D17|unc|-||unc:-:bg:V25|support_basis_unresolved||Antagonist drug effect on edema
+P|G13|D18|unc|-||unc:-:bg:V25|support_basis_unresolved||Antagonist drug effect on edema
+P|G16|D1|unc|-||unc:-:bg:V12|hedged_claim||"Might be upregulated"
+P|G31|D8|sup|a|bg|sup:a:bg:V13|||Involved in asthma models
+P|G32|D8|sup|a|bg|sup:a:bg:V13|||Involved in asthma models
+P|G34|D8|sup|a|bg|sup:a:bg:V13|||Involved in asthma models
+P|G33|D24|sup|a|bg|sup:a:bg:V13|||Wood smoke epithelial injury attribution
+P|G31|D24|unc|-||unc:-:bg:V13|coreference||Subfamily-to-injury mapping unclear
+P|G32|D24|unc|-||unc:-:bg:V13|coreference||Subfamily-to-injury mapping unclear
+P|G34|D24|unc|-||unc:-:bg:V13|coreference||Subfamily-to-injury mapping unclear
+P|G14|D1|sup|c|bg|sup:c:bg:V14|||TRPA1 activation results in VILI
+P|G14|D14|sup|a|bg|sup:a:bg:V15|||Involved in respiratory diseases
+P|G15|D1|sup|c|bg|sup:c:bg:V16|||TRPM2 activation promoted VILI
+P|G18|D1|unc|-||unc:-:bg:V16|scope||Inflammasome complex, not gene alone
+P|G20|D1|unc|-||unc:-:bg:V17|hedged_claim,scope||Channel-group hedge; cell phenotypes only
+P|G21|D12|unc|-||unc:-:bg:V18|hedged_claim||"Might also be involved"
+P|G22|D12|unc|-||unc:-:bg:V18|hedged_claim||"Might also be involved"
+P|G23|D1|sup|c|bg|sup:c:bg:V19|||Blocker prevents VILI; channel contributes
+P|G23|D2|unc|-||unc:-:bg:V20|support_basis_unresolved||Drug effect in ARDS model, partial
+P|G23|D18|nf|-||||V26|Drug trial outcome, not gene relation
+P|G28|D1|sup|c|bg|sup:c:bg:V21|||Knockout reduced VILI sensitivity
+P|G17|D2|unc|-||unc:-:bg:V22|hedged_claim||"Latent" role only
+P|G17|D1|sup|c|bg|sup:c:bg:V23|||Blocking eNOS phosphorylation alleviates VILI
+P|G40|D1|sup|c|bg|sup:c:bg:V24|||Overexpression alleviates VILI
+P|G41|D1|sup|c|bg|sup:c:bg:V24|||Overexpression alleviates VILI
+P|G30|D4|nf|-|||||Disease only in gene name
+F|F1|mechanism|Piezo1 function vs VILI severity|murine models, human endothelial cells|unknown|mixed|not_reported|V1+V2+V3|Narrative synthesis, no pooling
+F|F2|mechanism|TRPV4 inhibitor vs ruthenium red cytokines|stretched cells|unknown|positive|not_reported|V8|Partial versus near-complete blockade
+F|F3|group_comparison|senicapoc vs oxygenation, neutrophils|porcine two-hit ARDS model|mixed|mixed|not_reported|V20|No statistics given
+F|F4|group_comparison|claudin 18 knockout vs Na-K-ATPase activity|knockout vs wild-type mice|unknown|positive|partial|V21|Fold change only
+C|C1|Piezo1 direction in VILI|b0094.s7+b0096.s6|noncritical|unresolved|Causal in both; injurious versus protective
+C|C2|Piezo1 protective role reference attribution|b0095.s3+b0094.s7|noncritical|unresolved|Ref 44 cited for both directions
+R|species|whole review|Genes studied across rodent, pig and human cells without per-gene species|One node per gene, species_unresolved, no split
+R|source|whole review|Included-study findings restated by a systematic review|Treated as background, per restatement rule
+R|identity|b0112.s7|Genes named only as Na+-K+-ATPase subunits|Provisional gene nodes with issue other

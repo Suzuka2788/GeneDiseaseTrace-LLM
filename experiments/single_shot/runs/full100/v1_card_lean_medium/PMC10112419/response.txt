@@ -1,0 +1,25 @@
+META|Opus 5.5|seen: no
+SCOPE|Full editorial text b0001-b0011; no references or attachments
+E|G1|gene|TAS2R14|TAS2R14|r|||human||
+E|G2|gene|LIMK|LIMK;LIM kinase;LINK|p|suspected_typo|human||
+E|G3|gene|cofilin|cofilin|r||human||
+E|G4|gene|Par3|Par3|r||human||
+E|G5|ambiguous_gene|PLCβ|PLCβ|u|ambiguous_mapping|human||
+E|D1|disease|asthma|asthma;asthmatic|r||||
+E|S1|phenotype|bronchoconstriction|bronchoconstriction|r||||
+X|TAS2Rs|b0003|gene family, not a single-gene endpoint
+X|β-adrenoceptor|b0002|receptor family, not a single gene
+X|β-arrestin1/2|b0005|gene set of two members, no disease link
+X|Gi|b0005|G protein complex, not a single gene
+X|myosin light chain|b0004|protein class, not a single gene
+EV|V1|b0004.s4+b0004.s8+b0004.s11|ts|res|na|rr
+EV|V2|b0004.s10|ts|res|na|rr
+EV|V3|b0006.s2+b0006.s3|ts|res|na|rr
+EV|V4|b0008.s3|ts|aim|q|none
+P|G4|D1|nf|-|||||Asthma effect explicitly untested
+P|G3|D1|nf|-|||||Asthma effect explicitly untested
+P|G1|D1|nf|-|||||Bronchodilation shown in normal tissue only
+F|F1|mechanism|TAS2R14 agonists vs LIMK/cofilin phosphorylation|HASM cells|unknown|negative|not_reported|V1|editorial summary of cited study
+F|F2|mechanism|Par3 knockdown vs cofilin phosphorylation|HASM cells|unknown|negative|not_reported|V2|editorial summary of cited study
+F|F3|mechanism|Par3/cofilin knockdown vs TAS2R14-agonist bronchodilation|HASM cells; lung slices|unknown|negative|not_reported|V3|no disease outcome
+R|typo|b0004.s1|"LINK (LIM kinase)" likely a misspelling of LIMK|Merged into LIMK as provisional suspected_typo

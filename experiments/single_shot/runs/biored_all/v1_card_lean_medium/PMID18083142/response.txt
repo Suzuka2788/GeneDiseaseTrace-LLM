@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or figures.
+E|G1|gene|Dbh|dopamine beta-hydroxylase;Dbh;DBH|r||non-human||
+E|D1|disease|cocaine-induced anxiety|cocaine-induced anxiety;Cocaine-induced anxiety|p|other|||
+E|S1|phenotype|anxiety-like behavior|anxiety-like behavior|r||||
+X|beta-adrenergic receptors|b0002|receptor family, not a single-gene endpoint
+X|alpha(1)|b0002|receptor subtype class without gene identity; not a single gene
+X|alpha(2)|b0002|receptor subtype class without gene identity; not a single gene
+X|norepinephrine|b0002|neurotransmitter, not a gene
+EV|V1|b0002.s3+b0002.s5|ts|res|aff|rr,mi,cmp
+EV|V2|b0002.s6|ts|res|aff|rr,mi
+EV|V3|b0001.s1+b0002.s8|ts|int|aff|rr
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2||V3|Dbh knockout and inhibition abolish cocaine anxiety (mouse)
+F|F1|group_comparison|Dbh genotype; cocaine EPM open-arm exploration|Dbh -/- vs Dbh +/- mice|unknown|negative|unread|V1|abstract only; statistics not shown
+F|F2|group_comparison|Dbh genotype; baseline EPM performance|Dbh -/- vs control mice|not_significant|null|unread|V1|described as normal baseline
+F|F3|mechanism|disulfiram DBH inhibition; cocaine-induced anxiety|Dbh +/- mice|unknown|negative|unread|V2|pharmacological, not genetic
+F|F4|mechanism|adrenergic antagonists; cocaine-induced anxiety|Dbh +/- and C57BL6/J mice|mixed|mixed|unread|V3|receptor classes, not single genes
+R|animal model|b0002.s5|Knockout prevents drug-induced phenotype rather than inducing a disease model|Treated as model-intervention causal evidence, marked non-human

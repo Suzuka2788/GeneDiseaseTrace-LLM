@@ -1,0 +1,10 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|very-long-chain acyl-coenzyme A dehydrogenase|very-long-chain acyl-coenzyme A dehydrogenase;VLCAD|r||human||
+E|D1|disease|VLCAD deficiency|VLCAD deficiency;VLCAD-deficient|r|||||
+E|S1|phenotype|impaired long-chain fatty acid beta-oxidation|long-chain fatty acid beta-oxidation|r|||||
+EV|V1|b0002.s3+b0002.s4+b0002.s5+b0002.s6|ts|res|aff|rr,eda
+EV|V2|b0002.s7+b0002.s8|ts|res|aff|rr,mi
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2|||Deletion explicitly called causing VLCAD deficiency
+F|F1|descriptive|VLCAD cDNA 105-bp deletion|two VLCAD-deficient patients|not_applicable|not_applicable|not_applicable|V1|exon skipping mechanism hedged ("seems")
+F|F2|mechanism|VLCAD expression vs beta-oxidation flux|patient fibroblasts|unknown|positive|not_reported|V2|cell-level rescue only

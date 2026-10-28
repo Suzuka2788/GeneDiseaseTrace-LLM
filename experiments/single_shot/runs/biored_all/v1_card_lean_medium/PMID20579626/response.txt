@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|g1|gene|SP7|SP7;Osterix;OSX|r||human||
+E|g2|gene|Osx (mouse)|OSX|p|species_unresolved,other|non-human||
+E|d1|disease|osteogenesis imperfecta|osteogenesis imperfecta;brittle bone disease|r||||
+E|d2|disease|recessive osteogenesis imperfecta|recessive osteogenesis imperfecta|r|||d1|
+E|d3|disease|osteoporosis|osteoporosis|r||||
+E|s1|symptom|fractures|fractures|r||||
+X|type I collagen|b0002|gene set or protein complex, not a single gene
+EV|V1|b0001.s1+b0002.s2|ts|res|aff|rr,eda
+EV|V2|b0002.s6|ts|int|aff|rr,eda
+EV|V3|b0002.s4|bg|bgr|na|ebr
+P|g1|d2|sup|a|ts|sup:a:ts:V1+V2||V3|Homozygous c.1052delA identified in recessive OI patient
+P|g1|d1|sup|a|ts|sup:a:ts:V2||V1|Authors add SP7/OSX to OI-associated genes
+P|g2|d1|nf|-|||||V3|Mouse bone formation role only; no disease link
+F|F1|descriptive|SP7 c.1052delA homozygous frameshift|one Egyptian child, recessive OI|not_applicable|not_applicable|not_applicable|V1|single case
+R|species|b0002.s4|OSX in mice shares surface form with the human gene|Created separate non-human node using the shared surface form

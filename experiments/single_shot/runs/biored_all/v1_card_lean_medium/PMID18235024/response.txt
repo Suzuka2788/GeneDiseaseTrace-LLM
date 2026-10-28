@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|KCNV2|KCNV2|r||human||
+E|G2|gene|PDE6H|PDE6H;PDE6C|p|suspected_typo|human||
+E|D1|disease|cone dystrophy with supernormal rod response|Cone dystrophy with supernormal rod response;cone dystrophy with supernormal rod response;CDSRR|r|||D2|
+E|D2|disease|retinal disorder|retinal disorder|r||||
+E|S1|symptom|reduced visual acuity|reduced visual acuity|r||||
+E|S2|symptom|color vision defects|color vision defects|r||||
+E|S3|phenotype|foveal atrophy|foveal atrophy|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s7|ts|res|aff|cs
+EV|V4|b0001.s1+b0002.s11|ts|res|aff|rr,eda
+EV|V5|b0002.s5|ts|neg|neg|rr
+EV|V6|b0002.s4|ts|res|na|do
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2+V3+V4|||Background report plus cohort mutations and co-segregation
+P|G2|D1|sup|a|bg|sup:a:bg:V1;neg:-:ts:V5+V6|||Prior report; no mutations found in this cohort
+F|F1|descriptive|KCNV2 mutations; CDSRR|17 patients, 13 families|not_applicable|positive|not_reported|V2|abstract only
+F|F2|association|KCNV2 mutation segregation; CDSRR|available families|not_applicable|positive|not_reported|V3|recessive mode; abstract only
+F|F3|descriptive|PDE6H mutations; CDSRR|17 patients, 13 families|not_applicable|null|not_reported|V5+V6|gene name inconsistent PDE6C/PDE6H
+C|C1|screened gene PDE6C vs PDE6H|b0002.s4+b0002.s5|noncritical|resolved|treated PDE6C as typo of PDE6H

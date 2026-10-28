@@ -1,0 +1,112 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text, captions, tables; figures and supplements unread
+E|G1|gene|Mir26b (mouse)|Mir26b;MicroRNA-26b;microRNA-26b;Mir26b-3p;Mir26b-5p;Mir26b-3P;miRNA-26b|r||non-human||
+E|G2|gene|MIR26B (human)|Mir26b;Mir26b-3p;Mir26b-5p|p|other|human||
+E|G3|gene|Apoe|Apoe|r||non-human||
+E|G4|gene|Cd36|Cd36;CD36;platelet glycoprotein 4|p|species_unresolved|||
+E|G5|gene|Msr1|Msr1;MSR1;macrophage scavenger receptor 1;scavenger receptor a|p|species_unresolved|||
+E|G6|gene|Abca1|Abca1;ATP binding cassette subfamily A member 1|r||non-human||
+E|G7|gene|Acat2|Acat2;acetyl-CoA acetyltransferase 2|r||non-human||
+E|G8|gene|Tgfb|Tgfb;TGF-β;transforming growth factor β|p|species_unresolved|||
+E|G9|gene|Acta2|Acta2;actin alpha 2|r||non-human||
+E|G10|gene|Mmp13|Mmp13;MMP13;matrix metalloproteinase 13|p|species_unresolved|||
+E|G11|gene|TNF (mouse)|TNF|r||non-human||
+E|G12|gene|IL-6 (mouse)|IL-6;interleukin-6|r||non-human||
+E|G13|gene|CCL2 (mouse)|CCL2;CC-chemokine ligand 2|r||non-human||
+E|G14|gene|CXCL1 (mouse)|CXCL1;C-X-C Motif Chemokine Ligand 1|r||non-human||
+E|G15|gene|TNF (human)|TNF|r||human||
+E|G16|gene|IL-6 (human)|IL-6|r||human||
+E|G17|gene|CCL2 (human)|CCL2|r||human||
+E|G18|gene|CXCL1 (human)|CXCL1|r||human||
+E|G19|gene|TAK1|TAK1;TGF-activated kinase-1|r||human||
+E|G20|gene|TAK1-binding protein-3|TAK1-binding protein-3|r||human||
+E|G21|gene|PDGFR-β|PDGFR-β;platelet-derived growth factor receptor-beta|p|species_unresolved|||
+E|G22|gene|PNPLA3|PNPLA3|r||human||
+E|G23|gene|TM6SF2|TM6SF2|r||human||
+E|G24|gene|MBOAT7|MBOAT7|r||human||
+E|G25|gene|SERPINA|SERPINA|p|ambiguous_mapping|human||
+E|G26|gene|HSD17B13|HSD17B13|r||human||
+E|G27|gene|MTARC1|MTARC1|r||human||
+E|G28|gene|Cyclophilin|Cyclophilin|p|ambiguous_mapping|non-human||
+E|G29|gene|U6|U6|p|undefined_abbreviation|non-human||
+E|G30|gene|Mir39 (C. elegans)|Mir39|r||non-human||
+E|G31|gene|Mac-1|Mac-1|r||non-human||
+E|G32|gene|Ly6G|Ly6G;Ly6-G|r||non-human||
+E|G33|gene|CD68|CD68|r||non-human||
+E|G34|gene|CD3|CD3|r||non-human||
+E|G35|gene|β-actin|β-actin|p|species_unresolved|||
+E|D1|disease|metabolic dysfunction-associated steatohepatitis|metabolic dysfunction-associated steatohepatitis;MASH|r|||D2|
+E|D2|disease|metabolic dysfunction-associated steatotic liver disease|Metabolic dysfunction-associated steatotic liver disease;MASLD;non-alcohol fatty liver disease;NAFLD|r|||D4|
+E|D3|disease|metabolic dysfunction-associated steatotic liver|metabolic dysfunction-associated steatotic liver;MASL|r|||D2|
+E|D4|disease|fatty liver disease|Fatty liver disease;fatty liver disease;fatty liver|r||||
+E|D5|disease|liver fibrosis|liver fibrosis;hepatic fibrosis;Hepatic fibrosis;fibrosis|r||||
+E|D6|disease|liver cirrhosis|liver cirrhosis;cirrhosis;Cirrhosis|r||||
+E|D7|disease|cancer|cancer|r||||
+E|D8|disease|liver failure|liver failure|r||||
+E|D9|disease|hepatocellular carcinoma|hepatocellular carcinoma|r||||
+E|D10|disease|cardiovascular illnesses|cardiovascular illnesses|r||||
+E|D11|disease|neurological disorders|neurological disorders|r||||
+E|D12|disease|cardio-metabolic diseases|cardio-metabolic diseases|r||||
+E|D13|disease|metabolic diseases|metabolic diseases|r||||
+E|D14|disease|obesity|obesity|r||||
+E|D15|disease|type 2 diabetes|type 2 diabetes|r||||
+E|D16|disease|liver disease|liver disease;liver diseases|r||||
+E|D17|disease|liver injury|liver injury|r||||
+E|D18|disease|hyperlipidemia|hyperlipidemia|r||||
+E|D19|disease|chronic alcohol use|chronic alcohol use|r||||
+E|S1|phenotype|steatosis|steatosis|r||||
+E|S2|phenotype|hepatic inflammation|hepatic inflammation|r||||
+E|S3|phenotype|insulin resistance|insulin resistance|r||||
+X|NF-κB|b0010|complex, not single gene
+X|JNKs|b0027|kinase family, not single gene
+X|MAPKs|b0027|kinase family, not single gene
+X|ERKs|b0027|kinase family, not single gene
+X|TLR|b0027|pathway family label
+X|VEGF|b0027|pathway label (VEGF signaling)
+X|Lyz2Cre+|b0055|transgenic Cre driver line identifier
+X|fibrosis F0|b0099|fibrosis stage definition, not disease
+EV|V1|b0002.s15+b0006.s1+b0046.s1|ts|res|aff|rr,mi
+EV|V2|b0014.s2+b0024.s3+b0030.s4+b0034.s1|ts|res|aff|mi,cmp
+EV|V3|b0010.s4+b0011.s1|bg|hyp|hyp|ho
+EV|V4|b0024.s3+b0024.s7+b0043.s6|ts|res|aff|mi,cmp
+EV|V5|b0038.s2+b0045.s2|ts|res|aff|cmp
+EV|V6|b0038.s2|ts|int|hyp|unc
+EV|V7|b0041.s3|bg|bgr|aff|ebr
+EV|V8|b0041.s7|bg|bgr|aff|ebr
+EV|V9|b0041.s8|ts|int|hyp|ho
+EV|V10|b0043.s2|bg|bgr|aff|ebr
+EV|V11|b0043.s4+b0043.s5|bg|int|hyp|unc
+EV|V12|b0024.s5|bg|bgr|aff|ebr
+EV|V13|b0099.s6|bg|bgr|aff|ebr
+EV|V14|b0004.s1|bg|bgr|aff|unc
+EV|V15|b0043.s3|ts|int|hyp|ho
+P|G1|D1|sup|c|ts|sup:c:ts:V1+V2;unc:-:bg:V3|||Knockout worsens, mimic rescues MASH in mice
+P|G1|D5|sup|c|ts|sup:c:ts:V4|||Knockout significantly exacerbated hepatic fibrosis
+P|G1|D13|unc|-|bg|unc:-:bg:V14|scope,identity||Vague lay-summary involvement; species unclear
+P|G2|D6|sup|a|ts|sup:a:ts:V5|||Plasma levels elevated in cirrhosis patients
+P|G2|D1|unc|-|ts|unc:-:ts:V6|hedged_claim,scope||Inferred from cirrhosis cohort, hedged
+P|G4|D1|sup|a|bg|sup:a:bg:V7;unc:-:ts:V9|||Background: CD36 key role in MASH
+P|G5|D1|sup|a|bg|sup:a:bg:V7;unc:-:ts:V9|||Background: MSR1 key role in MASH
+P|G4|D2|sup|a|bg|sup:a:bg:V8|||CD36 upregulated in MASLD patient livers
+P|G8|D5|sup|c|bg|sup:c:bg:V10|||Fibrosis mainly caused by TGF-β activation
+P|G9|D5|sup|a|bg|sup:a:bg:V12|||Stated as gene involved in liver fibrosis
+P|G10|D5|unc|-|bg|unc:-:bg:V11;unc:-:ts:V15|hedged_claim||Possibly accelerates fibrogenesis; compensatory speculation
+P|G22|D4|sup|a|bg|sup:a:bg:V13|||Variant known to modulate fatty liver risk
+P|G23|D4|sup|a|bg|sup:a:bg:V13|||Variant known to modulate fatty liver risk
+P|G24|D4|sup|a|bg|sup:a:bg:V13|||Variant known to modulate fatty liver risk
+P|G25|D4|sup|a|bg|sup:a:bg:V13|identity||Variant risk stated; SERPINA member unclear
+P|G26|D4|sup|a|bg|sup:a:bg:V13|||Variant known to modulate fatty liver risk
+P|G27|D4|sup|a|bg|sup:a:bg:V13|||Variant known to modulate fatty liver risk
+F|F1|group_comparison|hepatic cholesterol, triglycerides|Apoe-/-Mir26b-/- vs Apoe-/- mice|significant|positive|partial|V2|n=4-7 per group
+F|F2|group_comparison|Sirius-red fibrosis area|Apoe-/-Mir26b-/- vs Apoe-/- mice|significant|positive|partial|V4|
+F|F3|group_comparison|Mir26b-3p, Mir26b-5p plasma levels|cirrhosis patients vs healthy volunteers|significant|positive|partial|V5|n=8-11, diabetic cohort
+F|F4|group_comparison|Acta2 expression|Mir26b knockout vs control livers|not_significant|positive|partial|V12|trend only
+F|F5|group_comparison|hepatic cholesterol, Oil-red-O area|mLNP vs eLNP Mir26b-/- mice|significant|negative|partial|V2|inflammation, fibrosis unchanged
+C|C1|Figure 8 panel labels for Mir26b|b0037.s3+b0038.s2|noncritical|resolved|Caption F-G vs G-H labelling
+C|C2|plasma versus serum sample type|b0037.s3+b0100.s1|noncritical|unresolved|Does not change direction
+C|C3|Mir26b direction human vs mouse|b0045.s2+b0045.s3|noncritical|unresolved|Authors note contrast, no causality claimed
+U|Figure 6—figure supplement 1|b0030.s2|supplementary figure not provided
+U|Figure 7—figure supplement 1|b0032.s1|supplementary figure not provided
+U|Figure source data files|b0105.s1|raw data files not provided
+R|species split|b0019, b0036, b0082|Cytokines measured in mouse liver and human slices|Created separate mouse and human nodes
+R|background gene nodes|b0041, b0043|Background CD36/MSR1/TGF-β/MMP13 species unstated, results are mouse|Merged with mouse surfaces; species empty, species_unresolved

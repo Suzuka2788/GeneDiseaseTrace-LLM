@@ -1,0 +1,65 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text and captions read; supplementary tables and figures unread
+E|G1|gene|TP53|TP53;p53|r||human||
+E|G2|gene|PTEN|PTEN|r||human||
+E|G3|gene|PIK3CA|PIK3CA|r||human||
+E|G4|gene|NOTCH1|NOTCH1|r||human||
+E|G5|gene|AGTR1|AGTR1|r||human||
+E|G6|gene|RSRC1|RSRC1|p|ambiguous_mapping|human||
+E|G7|gene|RSRC2|RSRC2|p|ambiguous_mapping|human||
+E|G8|gene|NGF|NGF|r||human||
+E|G9|gene|MIR34A|miR-34a;MiR-34a|r||human||
+E|G10|gene|Trp53 (mouse)|Trp53|p|species_unresolved|non-human||
+E|G11|gene|Pik3ca (mouse)|Pik3ca;Pik3caGOF|p|species_unresolved|non-human||
+E|G12|gene|Ngf (mouse)|Ngf|p|species_unresolved|non-human||
+E|G13|gene|MTOR|MTOR|r||human||
+E|G14|gene|EGFR|EGFR|r||human||
+E|G15|gene|TOP1|TOP1|r||human||
+E|G16|gene|TOP2A|TOP2A|r||human||
+E|G17|gene|TOP2B|TOP2B|r||human||
+E|G18|gene|BDNF|BDNF|r||human||
+E|G19|gene|GDNF|GDNF|r||human||
+E|G20|gene|EFNB1|Ephrin B1|p|ambiguous_mapping|human||
+E|G21|gene|CD274|PD-L1|p|ambiguous_mapping|human||
+E|D1|disease|head and neck squamous cell carcinoma|Head and neck squamous cell carcinoma;HNSCC;HNSCCs|r|||D2|
+E|D2|disease|head and neck cancer|head and neck cancer;head and neck cancers|r||||
+E|D3|disease|HPV16-positive oropharyngeal squamous cell carcinoma|HPV16-positive OPSCC;HPV16-associated OPSCC;OPSCC;OPSCCs;HPV16-positive OPSCCs|p|undefined_abbreviation||D1|
+E|D4|disease|oral cancer|oral cancer|r||||
+E|D5|disease|oral squamous cell carcinoma|OSCC|p|undefined_abbreviation||D4|
+E|D6|disease|prostate cancer|prostate|p|other|||
+E|D7|disease|pancreatic cancer|pancreatic|r||||
+E|D8|disease|colon cancer|colon cancer|r||||
+E|D9|disease|melanoma|melanoma|r||||
+E|D10|disease|pancreatic ductal adenocarcinoma|pancreatic ductal adenocarcinomas|r|||D7|
+E|D11|disease|nasopharyngeal carcinoma|nasopharyngeal carcinoma|r||||
+E|D12|disease|4NQO-induced mouse tongue tumors|tongue tumors|p|other|||
+E|D13|disease|cancer|cancer;cancers|r||||
+E|S1|phenotype|perineural invasion|perineural invasion|r||||
+X|CESC, ESCA, LUSC, LUAD, PAAD, PRAD, BRCA|b0010|TCGA cohort codes; no defined disease name
+X|TCGA-HNSC|b0010|dataset label, not a disease entity
+X|GAP43|b0016|IHC antibody marker used only as a tool
+X|SC-related 43-gene set|b0012|gene set; members unread in Table S2
+X|PI3K / MEK|b0037|pathway or protein family, not a single gene
+EV|V1|b0049.s4|bg|bgr|aff|ebr
+EV|V2|b0049.s3|bg|bgr|aff|ebr
+EV|V3|b0049.s8|bg|bgr|aff|ebr
+EV|V4|b0037.s5+b0037.s7+b0037.s8|ts|res|na|do
+EV|V5|b0050.s4|bg|bgr|aff|ebr
+EV|V6|b0006.s5+b0006.s8|bg|bgr|aff|do
+EV|V7|b0043.s2|ts|res|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1+V2|||Background: TP53 most frequently mutated in HNSCC
+P|G9|D11|sup|a|bg|sup:a:bg:V3|||miR-34a reported as EMT/metastasis inhibitor in NPC
+P|G2|D1|nf|-|ts|||V4|Mutation frequency differs by SC score, not disease
+P|G3|D1|nf|-|ts|||V4|Copy gain relates to SC group only
+P|G3|D3|nf|-|bg|||V5|PI3K pathway hubs unspecified; no assignment to genes
+P|G1|D4|nf|-|bg|||V6|Relation is to nerve density, not disease
+P|G10|D12|nf|-|ts|||V7|Trp53 relates to SC score within tumors
+F|F1|association|TP53 mutation frequency vs SC score group|TCGA-HNSC|significant|positive|partial|V4|figure values only
+F|F2|association|NOTCH1 mutation frequency vs SC score group|TCGA-HNSC|significant|positive|partial|V4|
+F|F3|association|AGTR1, RSRC1, PTEN mutation vs SC score group|TCGA-HNSC|significant|negative|partial|V4|
+F|F4|group_comparison|SC score in TP53wt/PTEN-PIK3CAmut vs other groups|TCGA-HNSC|significant|negative|partial|V4|combined PTEN/PIK3CA group
+F|F5|group_comparison|SC score by Trp53/Pik3ca genotype|4NQO mouse tongue tumors|significant|positive|unread|V7|non-human model
+C|K1|RSRC1 versus RSRC2 MutSig gene name|b0037.s7+b0065.s5|undetermined|unresolved|Text and Figure 2D caption disagree
+U|Supplementary Tables S1–S11, Figures S1–S5|b0058.s1; cited throughout Results|not provided
+R|R1|b0010.s3|TCGA cohort codes imply tumor types but are never expanded in the text|Excluded as undefined dataset codes; recorded in X
+R|R13|b0041.s1|Combined PTEN/PIK3CA alteration group cannot be split per gene|Kept as group finding; no per-gene assignment

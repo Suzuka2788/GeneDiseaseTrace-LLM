@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|TMPRSS6|matriptase-2;Matriptase-2;TMPRSS6|r||human||
+E|E2|gene|hepcidin|hepcidin|r||human||
+E|E3|disease|iron-refractory iron deficiency anemia|iron-refractory iron deficiency anemia;IRIDA|r||||
+E|E4|disease|iron deficiency|iron deficiency|r||||
+X|P686fs|b0002|variant ID
+X|2172_2173insCCCC|b0002|variant ID
+X|c.467C>A|b0002|variant ID
+X|c.468C>T|b0002|variant ID
+X|A118D|b0002|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0002.s7|ts|res|aff|rr,eda
+EV|V3|b0002.s5+b0002.s6|ts|res|na|rr
+EV|V4|b0002.s7|ts|int|hyp|ho
+P|E1|E3|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||Background plus novel twin mutations attributed to IRIDA
+P|E2|E3|sup|c|bg|sup:c:bg:V1|||IRIDA attributed to elevated hepcidin levels
+P|E1|E4|nf|-||||V4|Regulatory role during iron deficiency; no disease link
+F|F1|mechanism|TMPRSS6 variants vs hepcidin transcription suppression|in vitro functional assays|unknown|negative|not_reported|V3|abstract only; assay details unread
+F|F2|mechanism|A118D vs matriptase-2 activation|in vitro functional assays|unknown|negative|not_reported|V3|abstract only

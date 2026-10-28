@@ -1,0 +1,69 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text provided; supplementary tables S1-S3 unread
+E|G1|gene|KRIT1|KRIT1;KRTI1|p|suspected_typo|human||
+E|G2|gene|CCM2|CCM2|r||human||
+E|G3|gene|PDCD10|PDCD10|r||human||
+E|G4|gene|ZPLD1|ZPLD1|r||human||
+E|G5|gene|MAP3K3|MAP3K3;MEKK3|r||human||
+E|G6|gene|Krit1|Krit1|p|species_unresolved|||
+E|G7|gene|Ccm2|Ccm2|p|species_unresolved|||
+E|G8|gene|Pdcd10|Pdcd10|p|species_unresolved|||
+E|D1|disease|cerebral cavernous malformation|cerebral cavernous malformation;CCM;CCMs|r||||
+E|D2|disease|familial cerebral cavernous malformation|familial cerebral cavernous malformation;Familial cerebral cavernous malformation;FCCM;Familial CCM;familial CCM|r|||D1|
+E|D3|disease|sporadic CCM|sporadic CCM;sporadic CCMs|r|||D1|
+E|D4|disease|cavernous malformation|cavernous malformation;CM|r||||
+E|D5|disease|spinal cavernous malformation|spinal cavernous malformation;Spinal CM;spinal CM|r|||D4|
+E|D6|disease|cutaneous CM|cutaneous CM;Cutaneous CM|r|||D4|
+E|D7|disease|small vessel disease|small vessel disease|r||||
+E|D8|disease|diffuse axonal injury|diffuse axonal injury|r||||
+E|D9|disease|intracerebral hemorrhage|intracerebral hemorrhages|r||||
+E|D10|disease|developmental venous anomaly|developmental venous anomaly|r||||
+E|D11|disease|breast cancer|Breast cancer|r||||
+E|D12|disease|thyroid cancer|Thyroid cancer|r||||
+E|D13|disease|diffuse midline glioma|diffuse midline glioma;Diffuse midline glioma|r||||
+E|D14|disease|adrenal adenoma|Adrenal adenoma|r||||
+E|D15|disease|ACA infarction|ACA infarction|r||||
+E|D16|disease|occipital lobe epilepsy|occipital lobe epilepsy;OLE|r||||
+E|D17|disease|tumor|tumor;Tumor|r||||
+E|D18|clinical_event|cavernous angioma with symptomatic hemorrhage|cavernous angioma with symptomatic hemorrhage;CASH|r||||
+E|S1|symptom|seizure|seizures|r||||
+E|S2|phenotype|cerebral microbleeds|cerebral microbleeds|r||||
+X|CCM genes|b0007.s4|gene set, not single gene
+X|PLE|b0076.s1|undefined abbreviation, not a disease node
+EV|V1|b0003.s1+b0011.s3|bg|bgr|aff|ebr
+EV|V2|b0011.s6+b0011.s7|bg|bgr|aff|ebr
+EV|V3|b0098.s9|bg|hyp|hyp|ho
+EV|V4|b0098.s12|bg|bgr|aff|ebr
+EV|V5|b0098.s13+b0098.s14|bg|hyp|hyp|ho
+EV|V6|b0099.s3|bg|bgr|aff|ebr,mi
+EV|V7|b0094.s7|ts|neg|na|cmp
+EV|V8|b0076.s1+b0070.s17|ts|co|na|do
+EV|V9|b0007.s5+b0053.s1+b0067.s7|ts|res|aff|rr,cmp
+EV|V10|b0094.s13+b0095.s10|ts|res|aff|rr
+EV|V11|b0094.s14+b0095.s11|ts|neg|na|rr
+EV|V12|b0058.s1+b0060.s1+b0057.s1+b0064.s1|ts|res|aff|cmp
+P|G1|D2|sup|c|bg|sup:c:bg:V1||V7|explicit background: LOF mutations cause FCCM
+P|G2|D2|sup|c|bg|sup:c:bg:V1||V7|explicit background: LOF mutations cause FCCM
+P|G3|D2|sup|c|bg|sup:c:bg:V1||V7|explicit background: LOF mutations cause FCCM
+P|G1|D1|sup|c|bg|sup:c:bg:V2|||each named gene, LOF leads to CCM
+P|G2|D1|sup|c|bg|sup:c:bg:V2|||each named gene, LOF leads to CCM
+P|G3|D1|sup|c|bg|sup:c:bg:V2|||each named gene, LOF leads to CCM
+P|G4|D2|unc|-|bg|unc:-:bg:V3|hedged_claim||cited proposal only
+P|G5|D3|sup|a|bg|sup:a:bg:V4|||GOF mutations confirmed in sporadic CCM patients
+P|G5|D2|unc|-|bg|unc:-:bg:V5|hedged_claim||could be novel cause
+P|G6|D1|sup|c|bg|sup:c:bg:V6|||heterozygous loss induces CCM animal model
+P|G7|D1|sup|c|bg|sup:c:bg:V6|||heterozygous loss induces CCM animal model
+P|G8|D1|sup|c|bg|sup:c:bg:V6|||heterozygous loss induces CCM animal model
+P|G1|D18|nf|-||||V7|pooled genotype test only
+P|G1|D13|nf|-||||V8|co-occurrence in case only
+F|F1|group_comparison|brainstem lesion vs mutation detection|FCCM cohort 1|significant|positive|available|V9|small sample
+F|F2|correlation|age vs large CCM count, KRIT1|KRIT1 group, cohort 2|significant|positive|available|V10|within-disease correlation
+F|F3|correlation|age vs large CCM count, CCM2|CCM2 group|significant|negative|available|V10|n=2 patients
+F|F4|correlation|age vs large CCM count, PDCD10|PDCD10 group|not_significant|null|partial|V11|
+F|F5|association|CCM genotype vs first CASH|FCCM cohort 2|not_significant|null|unread|V7|Table S3 unread
+F|F6|group_comparison|lateral temporal, parietal, temporal lesion vs mutation|Mutation detected vs not|significant|positive|available|V12|
+C|C1|three-marker AUC value|b0007.s5+b0067.s4+b0067.s7|noncritical|unresolved|0.928 vs 0.982
+C|C2|parietal frequency, mutation not detected|b0060.s1+b0067.s2|noncritical|unresolved|50.0% vs 50.4%
+U|Table S1|b0070.s8|supplementary file not provided
+U|Table S2|b0094.s5|supplementary file not provided
+U|Table S3|b0094.s7|supplementary file not provided

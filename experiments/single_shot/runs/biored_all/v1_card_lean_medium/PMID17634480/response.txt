@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CAT|CAT|r||human||
+E|G2|gene|SOD1|SOD1|r||human||
+E|G3|gene|SOD2|SOD2|r||human||
+E|G4|gene|GPX1|GPX1|r||human||
+E|G5|gene|GPX4|GPX4|r||human||
+E|G6|gene|GSR|GSR|r||human||
+E|G7|gene|TXN|TXN|r||human||
+E|G8|gene|TXN2|TXN2|r||human||
+E|G9|gene|TXNRD1|TXNRD1|r||human||
+E|G10|gene|TXNRD2|TXNRD2|r||human||
+E|G11|gene|estrogen receptor|estrogen receptor|p|ambiguous_mapping|human||
+E|D1|disease|breast cancer|breast cancer;breast tumors|r||||
+E|D2|disease|cancer|cancer|r||||
+E|D3|clinical_event|death|death;all-cause mortality|r||||
+X|rs713041|b0002.s4|variant ID, not gene
+X|rs757229|b0002.s4|variant ID, not gene
+EV|V1|b0002.s4+b0002.s6|ts|res|aff|rr,cmp
+EV|V2|b0002.s7|ts|res|aff|rr
+EV|V3|b0002.s9|ts|int|aff|rr
+EV|V4|b0002.s3|ts|co|na|do
+P|G5|D3|sup|a|ts|sup:a:ts:V1+V2|||GPX4 SNPs associated with all-cause mortality
+P|G5|D1|sup|a|ts|sup:a:ts:V1+V3|||GPX4 variation associated with breast cancer prognosis
+P|G1|D1|nf|-||||V4|Tested only; no result reported in abstract
+F|F1|association|GPX4 SNPs vs all-cause mortality|4,470 women with breast cancer|significant|positive|partial|V1+V2|HR CI likely misprinted
+F|F2|descriptive|GPX4 allele-specific expression|lymphocytes, normal breast, breast tumors|unknown|not_applicable|not_reported|V4|Abstract only; b0002.s8
+F|F3|group_comparison|total GPX4 mRNA across genotypes|lymphocytes, breast, breast tumors|not_significant|null|not_reported||Cited b0002.s8
+F|F4|association|nine other oxidative genes vs survival|4,470 women with breast cancer|unknown|unknown|not_reported|V4|Results not stated in abstract
+C|C1|HR 1.27 CI upper bound 11.43|b0002.s6|noncritical|unresolved|Likely typo for 1.43

@@ -1,0 +1,25 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|hOGG1|hOGG1;Human 8-oxoguanine DNA glycosylase 1|r||human||
+E|D1|disease|lung cancer|lung cancer|r||||
+E|D2|disease|small-cell lung cancer|small-cell carcinoma;small-cell lung cancers|p|other||D1|
+E|D3|disease|adenocarcinoma of lung|adenocarcinoma;adenocarcinoma of lung|r|||D1|
+E|D4|disease|squamous-cell lung cancer|squamous- and small-cell lung cancers|p|other||D1|
+X|rs1052133|b0002|variant identifier
+X|Ser326Cys|b0001|variant identifier
+X|8-hydroxyguanine|b0002|DNA lesion, not disease
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s8|ts|int|aff|eda
+EV|V5|b0002.s3|bg|bgr|q|unc
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V5|Cys/Cys significant in case-control
+P|G1|D2|sup|a|ts|sup:a:ts:V2;unc:-:ts:V3|||OR 2.40 significant; meta suggestive
+P|G1|D3|sup|a|ts|sup:a:ts:V3+V4;unc:-:ts:V2|||meta-analysis positive; case-control marginal
+P|G1|D4|unc|-|ts|unc:-:ts:V3|hedged_claim||Only suggestive meta-analysis association
+F|F1|association|Cys/Cys vs Ser carriers; lung cancer|515 cases, 1030 controls|significant|positive|available|V1|
+F|F2|association|Cys/Cys; small-cell carcinoma|case-control histology subgroup|significant|positive|available|V2|
+F|F3|association|Cys/Cys; adenocarcinoma|case-control histology subgroup|not_significant|positive|available|V2|marginal, CI includes 1
+F|F4|association|rs1052133; adenocarcinoma, squamous, small-cell|meta-analysis previous plus present studies|mixed|positive|not_reported|V3|suggestive for squamous, small-cell
+R|merging|D2/D4|small-cell carcinoma vs small-cell lung cancer not strictly defined as synonyms|merged as provisional by lung-histology context
+R|surface form|D4|squamous lung cancer only appears in a coordinated phrase|used the full coordinated phrase as the surface form

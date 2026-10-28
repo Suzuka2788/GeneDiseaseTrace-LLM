@@ -1,0 +1,53 @@
+META|Claude Opus 5.5|seen: no
+SCOPE|Full text, tables and captions; references removed
+E|G1|gene|CFTR|CFTR;cystic fibrosis transmembrane conductance regulator;CTFR|p|suspected_typo|human||
+E|D1|disease|cystic fibrosis|Cystic fibrosis;cystic fibrosis;CF|r||||
+E|D2|disease|CFTR-associated disorders|CFTR-associated disorders;CFTR-associated disease;CFTR-associated diseases|r||||
+E|D3|disease|CF-related diabetes|CF-related diabetes;CFRD|r||||
+E|D4|disease|allergic bronchopulmonary aspergillosis|allergic bronchopulmonary aspergillosis;ABPA|r||||
+E|D5|disease|distal intestinal obstruction syndrome|distal intestinal obstruction syndrome;DIOS|r||||
+E|D6|disease|salt wasting syndrome|salt wasting syndrome;SWS|r||||
+E|D7|disease|Pseudo-Bartter syndrome|Pseudo-Bartter syndrome|r||||
+E|D8|disease|pneumothorax|pneumothorax;Pneumothorax|r||||
+E|D9|disease|liver disease|liver disease;Liver disease|r||||
+E|D10|disease|cirrhosis|cirrhosis|r||||
+E|D11|disease|upper respiratory tract polyposis|upper respiratory tract polyposis;Upper respiratory tract polyposis|r||||
+E|D12|disease|pulmonary hemorrhage|pulmonary hemorrhage|r||||
+E|D13|disease|osteoporosis|osteoporosis;Osteoporosis|r||||
+E|D14|disease|amyloidosis|amyloidosis;Amyloidosis|r||||
+E|D15|disease|malignant tumors|malignant tumors|r||||
+E|D16|disease|malignancy|malignancy|r||||
+E|D17|disease|meconium ileus|meconium ileus;Meconium ileus|r||||
+E|D18|disease|Diabetes|Diabetes|r||||
+E|D19|disease|exercise-induced asthma|exercise-induced asthma|r||||
+E|D20|disease|steatosis|steatosis|r||||
+E|D21|disease|viral hepatitis|viral hepatitis|r||||
+E|D22|disease|chronic Pseudomonas aeruginosa infection|chronic Pseudomonas aeruginosa infection|r||||
+E|CE1|clinical_event|CF exacerbations|CF exacerbations|r||||
+E|S1|phenotype|polyorganic failure|polyorganic failure|r||||
+E|S2|symptom|lung inflammation|lung inflammation|r||||
+E|S3|symptom|Hemoptysis|Hemoptysis|r||||
+E|S4|phenotype|portal hypertension|portal hypertension|r||||
+X|Disease complications in the reporting year|b0114|table_grouping_label
+X|protein kinase C|b0066|gene family, not single gene endpoint
+X|HEK293|b0009|cell line identifier
+EV|V1|b0004.s1|bg|bgr|aff|ebr
+EV|V2|b0031.s3|bg|bgr|aff|ebr
+EV|V3|b0036.s5|bg|bgr|aff|ebr
+EV|V4|b0031.s2|bg|bgr|aff|ebr,eda
+EV|V5|b0046.s1+b0014.s1|ts|res|aff|eda
+EV|V6|b0035.s1+b0036.s1+b0037.s2|ts|neg|neg|cmp
+EV|V7|b0015.s1+b0035.s1|ts|neg|na|cmp
+EV|V8|b0019.s2+b0020.s1+b0037.s1|ts|res|na|cmp
+EV|V9|b0023.s6+b0024.s2+b0025.s1+b0027.s2|ts|res|na|cmp
+EV|V10|b0036.s4|bg|bgr|hyp|unc
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V4;sup:a:ts:V5||V6+V10|CF caused by CFTR mutations stated
+P|G1|D2|sup|c|bg|sup:c:bg:V2+V3;unc:-:bg:V4|hedged_claim||Cis variant alleles cause CFTR-associated diseases
+P|G1|CE1|nf|-|||||V7|Allele-subgroup comparison within CF only
+F|F1|descriptive|[L467F;F508del] allele frequency|810 Russian F508del homozygous CF patients|not_applicable|not_applicable|available|V5|
+F|F2|group_comparison|complex allele vs F508del/F508del clinical course|CF register groups I and II|not_significant|null|available|V7+V6|Variant subgroup, not gene-level test
+F|F3|group_comparison|ICM forskolin response by genotype|3 vs 3 patients, controls|unknown|negative|partial|V8|n=3, no p-values
+F|F4|group_comparison|modulator response in organoids by genotype|3 organoid cultures vs 1 control|unknown|negative|partial|V9|No statistical tests reported
+C|C1|complex allele group size|b0014.s1+b0052.s3|noncritical|unresolved|65 detected vs 50 register patients
+C|C2|ICM significance claim|b0002.s6+b0019.s2|noncritical|unresolved|Significant stated, no statistics given
+R|variant-level negative findings|b0036.s1|Allele null effect on severity vs gene-level CF pair|Kept as context; CFTR-CF stays supported

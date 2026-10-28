@@ -1,0 +1,27 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MLH1|MLH1|r||human||
+E|D1|disease|Hodgkin lymphoma|Hodgkin lymphoma|r||||
+E|D2|disease|second primary cancers|second primary cancers|r||||
+E|D3|disease|cancer|cancer|p|other|||
+E|D4|disease|acute myeloid leukaemia|AML;myeloid leukaemia;acute myeloid leukaemia|p|other|||
+E|D5|disease|therapy related acute myeloid leukaemia|t-AML;therapy related acute myeloid leukaemia|r|||D4|
+E|D6|disease|breast cancer|breast cancer|r||||
+X|DNA mismatch repair (MMR)|b0002|pathway/system, not single gene
+X|rs1800734|b0002|variant ID
+EV|V1|b0002.s2+b0002.s3|bg|bgr|na|ebr
+EV|V2|b0002.s4|ts|hyp|hyp|ho
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s8|ts|res|aff|rr,cmp
+EV|V5|b0002.s9|ts|int|aff|rr
+P|G1|D5|sup|a|ts|sup:a:ts:V3+V4|||Variant raises t-AML risk after methylating chemotherapy
+P|G1|D6|sup|a|ts|sup:a:ts:V3|||Higher carrier frequency after methylating chemotherapy; significance unreported
+P|G1|D3|sup|a|ts|sup:a:ts:V5|||Conclusion: risk allele for post-chemotherapy cancer
+P|G1|D2|nf|-||||V1|Mechanistic background only; no pair link
+P|G1|D1|nf|-||||V3|Hodgkin lymphoma is treatment context only
+P|G1|D4|nf|-||||V4|De novo AML used only as comparator
+F|F1|group_comparison|MLH1 -93 carrier frequency; t-AML|t-AML with vs without methylating exposure|unknown|positive|partial|V3|small n (12 vs 69)
+F|F2|group_comparison|MLH1 -93 carrier frequency; breast cancer|breast cancer with vs without methylating exposure|unknown|positive|partial|V3|small n (15 vs 22)
+F|F3|association|MLH1 -93 variant; t-AML risk|methylating-exposed vs de novo AML, controls|significant|positive|available|V4|OR 5.31; exposed patients only
+F|F4|association|MLH1 -93 variant; t-AML risk|patients without methylating exposure|unknown|null|not_reported|V4|implied by "only"; no statistics
+R|status per pair|b0002.s8|Stratum-limited association; unexposed stratum implied null, not explicitly tested|Kept sup; recorded null stratum as finding F4

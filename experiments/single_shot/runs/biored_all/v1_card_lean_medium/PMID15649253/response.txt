@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|D1|disease|primary central nervous system lymphoma|Primary malignant lymphoma of the brain;primary central nervous system lymphomas;PCNSL;brain lymphomas|r||||
+E|D2|disease|systemic lymphoma|systemic lymphoma|r||||
+E|G1|gene|p14|p14|r||human||
+X|tumors|b0002|generic tumor term, not a specific disease
+EV|V1|b0002.s2+b0002.s3|ts|res|aff|rr,do
+EV|V2|b0002.s6+b0001.s1|ts|res|aff|rr,cmp
+EV|V3|b0002.s4|ts|res|na|do
+EV|V4|b0002.s5|ts|neg|neg|rr
+EV|V5|b0002.s6|bg|bgr|q|ebr,cmp
+EV|V6|b0002.s6|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||V3+V4+V6|Frequent p14 deletion and inactivation in PCNSL
+P|G1|D2|unc|-|bg|unc:-:bg:V5|other|V6|Background reports infrequent, not absent, p14 abnormalities
+F|F1|descriptive|p14 exon 1beta deletion status|10 PCNSL cases|not_applicable|not_applicable|available|V1|small sample; Southern blot only
+F|F2|descriptive|p14 exon 1beta L50R missense mutation|1 PCNSL case, hemizygous deletion|not_applicable|not_applicable|available|V3|
+F|F3|descriptive|p14 5'CpG island methylation|PCNSL without homozygous deletion|not_applicable|null|not_reported|V4|
+F|F4|group_comparison|p14 abnormality frequency|PCNSL vs systemic lymphoma|unknown|positive|not_reported|V2+V5|no formal test; comparator from background
+F|F5|hypothesis|carcinogenesis difference|PCNSL vs systemic lymphoma|not_applicable|unknown|not_applicable|V6|

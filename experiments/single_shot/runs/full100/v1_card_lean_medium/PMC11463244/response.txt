@@ -1,0 +1,95 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full review text incl. tables; supplementary table unread
+E|G1|gene|BCR-ABL1|BCR-ABL1;BCR-ABL;BCR - ABL1|p|other|human||
+E|G2|gene|ABL1|ABL1;ABELSON 1|r||human||
+E|G3|gene|BCR|BCR;Breakpoint Cluster Region|r||human||
+E|G4|gene|OCT1|OCT1;human organic cation transporter 1|r||human||
+E|G5|gene|OCTN2|OCTN2|r||human||
+E|G6|gene|MATE1|MATE1|r||human||
+E|G7|gene|ABCB1|ABCB1;P-glycoprotein;P-gp|r||human||
+E|G8|gene|ABCG2|ABCG2;breast cancer resistance protein;BCRP|r||human||
+E|G9|gene|JAK2|JAK2|r||human||
+E|G10|gene|STAT5|STAT5|r||human||
+E|G11|gene|AKT|AKT|r||human||
+E|G12|gene|BAD|BAD|r||human||
+E|G13|gene|LYN|LYN|r||human||
+E|G14|gene|HCK|HCK|r||human||
+E|G15|gene|EZH2|EZH2|r||human||
+E|G16|gene|BMI1|BMI1|r||human||
+E|G17|gene|CCNG2|CCNG2;cyclin G2|r||human||
+E|G18|gene|H2AX|γ-H2AX|p|other|human||
+E|G19|gene|SIRT1|SIRT1|r||human||
+E|G20|gene|p53|p5349|p|other|human||
+E|G21|gene|PRMT5|PRMT5|r||human||
+E|G22|gene|MTSS1|MTSS1|r||human||
+E|G23|gene|BIM|BIM;BCL2-like protein|r||human||
+E|G24|gene|miR-150|miR-150|r||human||
+E|G25|gene|miR-146a|miR-146a|r||human||
+E|G26|gene|miR-10a|miR-10a|r||human||
+E|G27|gene|miR-17-92 cluster|miR-17-92 cluster;oncomir-1|p|other|human||
+E|G28|gene|Cas9|Cas9;SpCas9;Streptococcus pyogenes Cas9|r||non-human||
+E|D1|disease|chronic myeloid leukaemia|chronic myeloid leukaemia;Chronic myeloid leukaemia;CML|r||||
+E|D2|disease|leukaemia|leukaemia|r||||
+E|D3|disease|cancer|cancer;Cancer;cancers|r||||
+E|D4|disease|CML chronic phase|CML-CP;CP-CML;chronic phase|r|||D1|
+E|D5|disease|CML accelerated phase|CML-AP;accelerated phase|r|||D1|
+E|D6|disease|CML blast phase|CML-BP;blast phase|r|||D1|
+E|D7|disease|Ph-positive acute lymphoblastic leukaemia|ph-positive acute lymphoblastic leukaemia;ALL|r||||
+E|D8|disease|coronary artery disease|coronary artery disease|r||||
+E|D9|disease|pancreatitis|pancreatitis|r||||
+E|D10|disease|obesity|obesity|r||||
+E|D11|disease|haematological diseases|haematological diseases|r||||
+E|D12|disease|genetic disorders|genetic disorders|r||||
+E|D13|disease|monogenic diseases|monogenic diseases|r||||
+E|CE1|clinical_event|treatment-free remission|treatment-free remission;TFR|r||||
+E|CE2|clinical_event|molecular relapse|molecular relapse|r||||
+E|CE3|clinical_event|major molecular response|major molecular response;MMR|r||||
+E|S1|phenotype|TKI resistance|TKI resistance|r||||
+X|Philadelphia chromosome|b0002|chromosome, not gene
+X|PRC1|b0051|protein complex
+X|PRC2|b0051|protein complex
+X|OATPs|b0046|transporter family
+X|PKC|b0048|kinase family
+X|SRC|b0048|kinase family/pathway label
+X|FOXO|b0048|transcription factor family
+X|VEGF|b0062|receptor family
+X|ABL001|b0065|drug code (asciminib)
+X|K562|b0071|cell line
+EV|V1|b0002.s2+b0002.s3+b0002.s4|bg|bgr|aff|ebr,eda
+EV|V2|b0003.s7|bg|bgr|aff|ebr,eda
+EV|V3|b0050.s1+b0068.s1|bg|bgr|aff|ebr
+EV|V4|b0048.s2|bg|bgr|aff|ebr
+EV|V5|b0051.s4|bg|bgr|aff|ebr
+EV|V6|b0051.s5|bg|bgr|aff|ebr
+EV|V7|b0051.s8|bg|bgr|aff|ebr
+EV|V8|b0051.s7|bg|bgr|aff|ebr
+EV|V9|b0052.s6|bg|bgr|aff|ebr,cmp
+EV|V10|b0052.s7+b0052.s8|bg|bgr|aff|ebr
+EV|V11|b0046.s3+b0046.s4|bg|bgr|q|unc
+EV|V12|b0048.s8|bg|bgr|aff|ebr
+EV|V13|b0052.s2|bg|int|hyp|ho
+EV|V14|b0052.s4|bg|bgr|aff|ebr
+EV|V15|b0006.s6|bg|bgr|q|unc
+EV|V16|b0051.s11|bg|res|aff|rr
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V3|||BCR-ABL1 stated as CML driver
+P|G2|D1|sup|c|bg|sup:c:bg:V2|||ABL1 translocation causes CML
+P|G3|D1|sup|c|bg|sup:c:bg:V2|||BCR translocation causes CML
+P|G10|D1|sup|c|bg|sup:c:bg:V4|||STAT5 promotes CML development
+P|G15|D4|sup|a|bg|sup:a:bg:V5|||EZH2 elevated in CP-CML LSCs
+P|G16|D4|sup|r|bg|sup:r:bg:V6|||BMI1 correlates with CP-CML severity
+P|G19|D1|sup|a|bg|sup:a:bg:V7|||SIRT1 upregulated in CML CD34+ cells
+P|G18|D1|sup|a|bg|sup:a:bg:V8|||γ-H2AX dysregulation evident in CML
+P|G24|D1|sup|a|bg|sup:a:bg:V9|||lower at CML diagnosis vs healthy
+P|G25|D1|sup|a|bg|sup:a:bg:V9|||lower at CML diagnosis vs healthy
+P|G26|D1|sup|a|bg|sup:a:bg:V9|||lower at CML diagnosis vs healthy
+P|G27|D1|sup|a|bg|sup:a:bg:V10|||higher in CML CD34+ cells
+P|G4|D1|unc|-|bg|unc:-:bg:V11|scope,conflict||treatment response only; controversial
+P|G13|D1|unc|-|bg|unc:-:bg:V12|scope||linked to TKI resistance, not disease
+P|G14|D1|unc|-|bg|unc:-:bg:V12|scope||linked to TKI resistance, not disease
+P|G22|D1|unc|-|bg|unc:-:bg:V13|hedged_claim||repression likely increases LSC proliferation
+P|G23|D1|unc|-|bg|unc:-:bg:V14|scope||linked to treatment response only
+P|G1|CE1|unc|-|bg|unc:-:bg:V15|scope||transcript monitoring, not direct link
+P|G21|D1|nf|-|||||V16|cell phenotype only
+U|Supplementary Table|b0057.s2|not provided
+R|fusion gene entity|b0002.s3|BCR-ABL1 fusion is not a single gene|kept as provisional gene entity, separate from ABL1/BCR
+R|citation fused to name|b0051.s8|p53 written as p5349 with reference number appended|used verbatim form p5349, provisional identity

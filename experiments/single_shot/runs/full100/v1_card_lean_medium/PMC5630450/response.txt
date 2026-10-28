@@ -1,0 +1,206 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full review text; figure images unread; references removed
+E|D1|disease|B lymphoblastic leukemia/lymphoma|B lymphoblastic leukemia/lymphoma;B-ALL;B lymphoblastic leukemia|r||||
+E|D2|disease|acute lymphoblastic leukemia|acute lymphoblastic leukemia;ALL;lymphoblastic leukemia|r||||
+E|D3|disease|BCR-ABL1-like ALL|BCR-ABL1-like ALL;Ph-like ALL;BCR-ABL1-like B-ALL|r|||D1|
+E|D4|disease|B-ALL with iAMP21|B-ALL with iAMP21;B-ALL with intrachromosomal amplification of chromosome 21|r|||D1|
+E|D5|disease|BCR-ABL1 positive B-ALL|BCR-ABL1 positive B-ALL;BCR-ABL1-positive ALL;BCR-ABL1-positive B-ALL;Philadelphia positive|r|||D1|
+E|D6|disease|Ph negative ALL|Ph negative|r|||D1|
+E|D7|disease|KMT2A/MLL-rearranged B-ALL|KMT2A/MLL-rearranged B-ALL|r|||D1|
+E|D8|disease|Down-syndrome associated B-ALL|Down-syndrome associated B-ALL|r|||D1|
+E|D9|disease|low hypodiploid B-ALL|low hypodiploid B-ALL|r|||D1|
+E|D10|disease|Li-Fraumeni syndrome|Li-Fraumeni syndrome|r||||
+E|D11|disease|hyperdiploid B-ALL|hyperdiploid B-ALL|r|||D1|
+E|D12|disease|high risk B-ALL|high risk B-ALL;high-risk B-ALL|r|||D1|
+E|D13|disease|lymphoid neoplasm|lymphoid neoplasms;lymphoid neoplasm|r||||
+E|CE1|clinical_event|relapse|relapse;relapsed|r||||
+E|CE2|clinical_event|early relapse|early relapse|r|||CE1|
+E|CE3|clinical_event|drug resistance|drug resistance;chemotherapy resistance;chemo-resistance|r||||
+E|S1|symptom|eosinophilia|eosinophilia|r||||
+E|S2|symptom|pancytopenia|pancytopenia|r||||
+E|PH1|phenotype|hypodiploidy|hypodiploidy|r||||
+E|PH2|phenotype|hyperdiploidy|hyperdiploidy|r||||
+E|G1|gene|BCR|BCR|r||human||
+E|G2|gene|ABL1|ABL1;ABL;ABL-1|p|other|human||
+E|G3|gene|ETV6|ETV6;ETV|p|suspected_typo|human||
+E|G4|gene|RUNX1|RUNX1|r||human||
+E|G5|gene|TCF3|TCF3;E2A|r||human||
+E|G6|gene|PBX1|PBX1|r||human||
+E|G7|gene|HLF|HLF|r||human||
+E|G8|gene|IL3|IL3|r||human||
+E|G9|gene|IGH|IGH|r||human||
+E|G10|gene|KMT2A|KMT2A;MLL;KTM2A|p|suspected_typo|human||
+E|G11|gene|AF4|AF4|r||human||
+E|G12|gene|CRLF2|CRLF2;cytokine receptor-like factor 2|r||human||
+E|G13|gene|ID4|ID4;inhibitor of DNA binding 4|r||human||
+E|G14|gene|EPOR|EPOR|r||human||
+E|G15|gene|BCL2|BCL2;BCL-2|r||human||
+E|G16|gene|LHX4|LHX4;LIM domain homeobox 4|r||human||
+E|G17|gene|IKZF1|IKZF1;Ikaros|r||human||
+E|G18|gene|ABL2|ABL2|r||human||
+E|G19|gene|CSF1R|CSF1R;CSFR|p|suspected_typo|human||
+E|G20|gene|PDGFRB|PDGFRB|r||human||
+E|G21|gene|CREBBP|CREBBP;CBP;CREB binding protein|r||human||
+E|G22|gene|PAX5|PAX5|r||human||
+E|G23|gene|EBF1|EBF1|r||human||
+E|G24|gene|LMO2|LMO2|r||human||
+E|G25|gene|TP53|TP53|r||human||
+E|G26|gene|RB1|RB1|r||human||
+E|G27|gene|CDKN2A|CDKN2A|r||human||
+E|G28|gene|CDKN2B|CDKN2B|r||human||
+E|G29|gene|JAK2|JAK2;JAK-2|r||human||
+E|G30|gene|KRAS|KRAS|r||human||
+E|G31|gene|NF1|NF1|r||human||
+E|G32|gene|NRAS|NRAS|r||human||
+E|G33|gene|PTPN11|PTPN11|r||human||
+E|G34|gene|BTLA|BTLA|r||human||
+E|G35|gene|CD200|CD200|r||human||
+E|G36|gene|EZH2|EZH2|r||human||
+E|G37|gene|SETD2|SETD2|r||human||
+E|G38|gene|MLL2|MLL2|r||human||
+E|G39|gene|NSD2|NSD2|r||human||
+E|G40|gene|ERG|ERG|r||human||
+E|G41|gene|NTRK3|NTRK3|r||human||
+E|G42|gene|PTK2B|PTK2B|r||human||
+E|G43|gene|TSLP|TSLP|r||human||
+E|G44|gene|TYK2|TYK2|r||human||
+E|G45|gene|FLT3|FLT3;FLT-3|r||human||
+E|G46|gene|IL7R|IL7R|r||human||
+E|G47|gene|SH2B3|SH2B3|r||human||
+E|G48|gene|VPREB1|VPREB1|r||human||
+E|G49|gene|IL2RB|IL2RB|r||human||
+E|G50|gene|JAK1|JAK1|r||human||
+E|G51|gene|JAK3|JAK3|r||human||
+E|G52|gene|P2RY8|P2RY8|r||human||
+E|G53|gene|BCL-XL|BCL-XL|r||human||
+E|G54|gene|CD20|CD20|r||human||
+E|G55|gene|CD52|CD52|r||human||
+E|G56|gene|CD22|CD22|r||human||
+E|G57|gene|CD19|CD19|r||human||
+E|A1|ambiguous_gene|RPOR|RPOR|u|undefined_abbreviation,suspected_typo|||
+E|A2|ambiguous_gene|JAK|JAK|u|ambiguous_mapping|||
+E|A3|ambiguous_gene|DOLT1|DOLT1|u|undefined_abbreviation,suspected_typo|||
+X|CCAAT/enhancer-binding protein (CEBP) family members|b0020|gene family, not single gene
+X|BCR-ABL1-like ALL|b0055|table_grouping_label
+X|iAMP21|b0025|cytogenetic abnormality, not gene
+EV|V1|b0002.s4+b0020.s1+b0015.s1|bg|bgr|aff|ebr
+EV|V2|b0004.s7|bg|bgr|aff|ebr
+EV|V3|b0019.s1+b0019.s10+b0012.s1|bg|bgr|aff|ebr
+EV|V4|b0013.s1+b0021.s2|bg|bgr|aff|ebr
+EV|V5|b0021.s1|bg|bgr|aff|ebr
+EV|V6|b0020.s19|bg|bgr|aff|ebr
+EV|V7|b0020.s17+b0020.s18|bg|bgr|aff|ebr
+EV|V8|b0020.s9+b0020.s11+b0016.s1|bg|bgr|aff|ebr
+EV|V9|b0020.s1|bg|bgr|aff|ebr
+EV|V10|b0020.s6|bg|hyp|hyp|ho
+EV|V11|b0036.s3+b0036.s10|bg|bgr|aff|ebr
+EV|V12|b0036.s5+b0048.s4|bg|bgr|aff|ebr
+EV|V13|b0036.s9|bg|int|hyp|mi,ho
+EV|V14|b0020.s8+b0036.s10|bg|bgr|aff|ebr
+EV|V15|b0038.s1+b0038.s2|bg|bgr|aff|ebr
+EV|V16|b0038.s5|bg|bgr|aff|ebr
+EV|V17|b0048.s3+b0048.s5+b0050.s1|bg|bgr|aff|ebr
+EV|V18|b0048.s6|bg|bgr|aff|ebr
+EV|V19|b0040.s1+b0040.s2|bg|bgr|aff|ebr
+EV|V20|b0040.s3|bg|hyp|hyp|ho
+EV|V21|b0042.s1+b0042.s2|bg|bgr|aff|ebr
+EV|V22|b0042.s3|bg|bgr|aff|ebr
+EV|V23|b0042.s4|bg|bgr|aff|ebr
+EV|V24|b0044.s1|bg|bgr|aff|ebr
+EV|V25|b0044.s3+b0044.s4|bg|bgr|aff|ebr
+EV|V26|b0046.s1+b0046.s3|bg|bgr|aff|ebr
+EV|V27|b0034.s2+b0034.s3|bg|bgr|aff|ebr
+EV|V28|b0069.s2|bg|bgr|aff|ebr
+EV|V29|b0068.s3+b0030.s2|bg|bgr|aff|ebr
+EV|V30|b0048.s7|bg|bgr|aff|unc
+EV|V31|b0005.s3|bg|bgr|aff|ebr
+EV|V32|b0025.s2+b0026.s2|bg|co|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||BCR-ABL1 fusion poor prognostic in B-ALL
+P|G2|D1|sup|a|bg|sup:a:bg:V1;sup:a:bg:V31|||BCR-ABL1 fusion; prognostic biomarker
+P|G1|D5|sup|a|bg|sup:a:bg:V2|||Subtype defined by BCR-ABL1 status
+P|G2|D5|sup|a|bg|sup:a:bg:V2|||Subtype defined by BCR-ABL1 status
+P|G2|D3|sup|a|bg|sup:a:bg:V17+V29|||ABL1 rearrangements/mutations in BCR-ABL1-like ALL
+P|G1|CE1|unc|-|bg||scope||Relapse or worse prognosis disjunction (V9)
+P|G2|CE3|unc|-|bg||hedged_claim||Mutations thought to drive TKI resistance
+P|G3|D1|sup|a|bg|sup:a:bg:V3|||ETV6-RUNX1 favorable, early leukemogenic event
+P|G4|D1|sup|a|bg|sup:a:bg:V3||V32|ETV6-RUNX1 favorable, early leukemogenic event
+P|G4|D4|nf|-||||V32|RUNX1 used only as FISH probe
+P|G5|D1|sup|a|bg|sup:a:bg:V4;sup:a:bg:V5|||E2A-PBX1 and E2A-HLF recurrent in B-ALL
+P|G6|D1|sup|a|bg|sup:a:bg:V4|||Recurrent t(1;19) in B-ALL
+P|G7|D1|sup|a|bg|sup:a:bg:V5|||E2A-HLF poor prognosis
+P|G8|D1|sup|a|bg|sup:a:bg:V6|||t(5;14) IL3-IGH B-ALL subtype
+P|G9|D1|sup|a|bg|sup:a:bg:V6;sup:a:bg:V7|||IGH rearrangement poor prognosis
+P|G10|D1|sup|a|bg|sup:a:bg:V8|||KMT2A rearrangement poor prognosis
+P|G10|CE1|unc|-|bg||scope||Relapse or worse prognosis disjunction (V9)
+P|G11|D1|sup|a|bg|sup:a:bg:V8|||Most frequent KMT2A partner in B-ALL
+P|G12|D1|sup|a|bg|sup:a:bg:V7;sup:a:bg:V15;sup:a:bg:V28|||IGH partner; 8% pediatric B-ALL
+P|G12|D8|sup|a|bg|sup:a:bg:V15|||>50% Down-syndrome B-ALL
+P|G12|D12|sup|a|bg|sup:a:bg:V16|||Often found in high-risk B-ALL
+P|G12|D3|sup|a|bg|sup:a:bg:V17+V29|||CRLF2 rearrangement in BCR-ABL1-like ALL
+P|G13|D1|sup|a|bg|sup:a:bg:V7|||IGH partner gene in B-ALL
+P|G14|D1|sup|a|bg|sup:a:bg:V7;sup:a:bg:V28|||IGH partner; EPOR aberrations
+P|G14|D3|sup|a|bg|sup:a:bg:V17|||EPOR rearrangements in BCR-ABL1-like ALL
+P|G15|D1|sup|a|bg|sup:a:bg:V7|||IGH partner gene in B-ALL
+P|G16|D1|sup|a|bg|sup:a:bg:V7|||IGH partner gene in B-ALL
+P|G17|D1|sup|a|bg|sup:a:bg:V11;unc:-:bg:V13|hedged_claim||Frequent, adverse indicator; driver role hedged
+P|G17|D5|sup|a|bg|sup:a:bg:V12|||~80% of BCR-ABL1 positive B-ALL
+P|G17|D3|sup|a|bg|sup:a:bg:V12;sup:a:bg:V17|||~70% of BCR-ABL1-like B-ALL
+P|G17|D12|sup|a|bg|sup:a:bg:V12|||Observed in high risk B-ALL
+P|G17|CE1|sup|a|bg|sup:a:bg:V14|||Associated with relapse
+P|G17|CE3|sup|a|bg|sup:a:bg:V14|||Associated with chemotherapy resistance
+P|G18|D3|sup|a|bg|sup:a:bg:V17|||ABL1-like rearrangements in BCR-ABL1-like
+P|G19|D3|sup|a|bg|sup:a:bg:V17|||ABL1-like rearrangements in BCR-ABL1-like
+P|G20|D3|sup|a|bg|sup:a:bg:V17+V29|||ABL1-like rearrangements in BCR-ABL1-like
+P|G18|D1|sup|a|bg|sup:a:bg:V31;sup:a:bg:V18|||Prognostic biomarker; rearranged in B-ALL
+P|G19|D1|sup|a|bg|sup:a:bg:V27;sup:a:bg:V18|||Kinase gene altered in B-ALL
+P|G20|D1|sup|a|bg|sup:a:bg:V27;sup:a:bg:V18|||Kinase gene altered in B-ALL
+P|G21|D1|sup|a|bg|sup:a:bg:V24;sup:a:bg:V31|||Mutated in relapsed pediatric B-ALL
+P|G21|CE1|sup|a|bg|sup:a:bg:V24;sup:a:bg:V25|||Mutations associated with relapse
+P|G21|D11|sup|a|bg|sup:a:bg:V25|||Associated with hyperdiploid B-ALL relapse
+P|G22|D1|sup|a|bg|sup:a:bg:V19;unc:-:bg:V20|hedged_claim||~30% B-ALL; driver role hedged
+P|G22|D3|unc|-|bg||scope||Only set-level gene list (V30)
+P|G23|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G23|D3|unc|-|bg||scope||Only set-level gene list (V30)
+P|G5|D3|unc|-|bg||scope||Only set-level gene list (V30)
+P|G48|D3|unc|-|bg||scope||Only set-level gene list (V30)
+P|G24|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G25|D1|sup|a|bg|sup:a:bg:V21|||Mutations in up to 16% B-ALL
+P|G25|D9|sup|a|bg|sup:a:bg:V22|||Constitutional mutations in half of cases
+P|G25|D10|unc|-|bg||presupposed_only||TP53-LFS link only implied
+P|G25|CE2|sup|a|bg|sup:a:bg:V23|||Independently associated with early relapse
+P|G26|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G27|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G28|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G29|D1|sup|a|bg|sup:a:bg:V27;sup:a:bg:V18;sup:a:bg:V28|||Kinase altered in B-ALL
+P|G29|D3|sup|a|bg|sup:a:bg:V17+V29|||JAK2 rearrangements/mutations in BCR-ABL1-like
+P|G30|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G31|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G32|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G33|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G34|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G35|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G36|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G37|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G38|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G39|D1|sup|a|bg|sup:a:bg:V27|||Listed mutated gene in B-ALL
+P|G40|D1|sup|a|bg|sup:a:bg:V26|||ERG deletion subgroup of pediatric B-ALL
+P|G41|D3|sup|a|bg|sup:a:bg:V17|||Uncommon kinase alteration in BCR-ABL1-like
+P|G42|D3|sup|a|bg|sup:a:bg:V17|||Uncommon kinase alteration in BCR-ABL1-like
+P|G44|D3|sup|a|bg|sup:a:bg:V17|||Uncommon kinase alteration in BCR-ABL1-like
+P|G41|D1|sup|a|bg|sup:a:bg:V18|||Rearranged in profiled B-ALL cases
+P|G42|D1|sup|a|bg|sup:a:bg:V18|||Rearranged in profiled B-ALL cases
+P|G44|D1|sup|a|bg|sup:a:bg:V18|||Rearranged in profiled B-ALL cases
+P|G43|D1|sup|a|bg|sup:a:bg:V18;sup:a:bg:V28|||TSLP rearrangement/aberrations in B-ALL
+P|G45|D1|sup|a|bg|sup:a:bg:V18|||Mutated in profiled B-ALL cases
+P|G46|D1|sup|a|bg|sup:a:bg:V18|||Mutated in profiled B-ALL cases
+P|G46|D3|sup|a|bg|sup:a:bg:V29|||IL7R rearrangement in BCR-ABL1-like cases
+P|G47|D1|sup|a|bg|sup:a:bg:V18|||Mutated in profiled B-ALL cases
+P|G49|D1|sup|a|bg|sup:a:bg:V28|||B-ALL with IL2RB rearrangements
+P|G52|D1|sup|a|bg|sup:a:bg:V15|||P2RY8-CRLF2 fusion in B-ALL
+P|A1|D1|unc|-|bg||identity||Undefined RPOR, possibly EPOR typo
+P|A2|D3|unc|-|bg||identity||JAK family member unspecified
+U|Figure 1|b0018.s1|image not provided
+U|Figure 2|b0032.s1|image not provided
+U|Figure 3|b0049.s1|image not provided
+R|fusion genes|b0002.s4|Fusion gene is two-gene unit; card silent on partner assignment|Assigned to each partner as explicitly named rearranged gene
+R|gene examples list|b0034.s3|Example list of mutated genes; set vs member unclear|Treated as individually named members, support association

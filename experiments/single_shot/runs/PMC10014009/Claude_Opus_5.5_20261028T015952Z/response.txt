@@ -1,0 +1,133 @@
+META|Opus 5.5 (claude-opus-5-5)|I have not seen any prior analysis of this paper or the rule boundary cases; this is a single-pass reading.
+SCOPE|I read the full provided text of PMC10014009 (abstract, body, Tables 1-2 rows and notes, figure captions, supporting-information titles); Tables S1-S3 and the figure images were not available.
+E|G1|gene|KRIT1|KRIT1|r||human|||
+E|G1t|gene|KRTI1|KRTI1|p|suspected_typo|human|||
+E|G2|gene|CCM2|CCM2|r||human|||
+E|G3|gene|PDCD10|PDCD10|r||human|||
+E|G4|gene|ZPLD1|ZPLD1|r||human|||
+E|G5|gene|MAP3K3|MAP3K3;MEKK3|r||human|||
+E|G6|gene|Krit1|Krit1|p|species_unresolved||||
+E|G7|gene|Ccm2|Ccm2|p|species_unresolved||||
+E|G8|gene|Pdcd10|Pdcd10|p|species_unresolved||||
+E|D0|disease|cavernous malformation|cavernous malformation;CM|r|||||
+E|D1|disease|cerebral cavernous malformation|Cerebral cavernous malformation;cerebral cavernous malformation;CCM;CCMs|r|||D0||
+E|D2|disease|familial cerebral cavernous malformation|Familial cerebral cavernous malformation;familial cerebral cavernous malformation;FCCM;Familial CCM;familial CCM|r|||D1||
+E|D3|disease|sporadic cerebral cavernous malformation|sporadic CCM;sporadic CCMs|r|||D1||
+E|D4|disease|spinal cavernous malformation|spinal cavernous malformation;Spinal CM;spinal CM|r|||D0||
+E|D5|disease|cutaneous cavernous malformation|cutaneous CM;Cutaneous CM|r|||D0||
+E|D6|disease|vascular malformation|vascular malformation|r|||||
+E|D7|disease|intracranial vascular malformation|intracranial vascular malformation|r|||D6||
+E|D8|disease|small vessel disease|small vessel disease|r|||||
+E|D9|disease|diffuse axonal injury|diffuse axonal injury|r|||||
+E|D10|disease|intracerebral hemorrhage|intracerebral hemorrhages|r|||||
+E|D11|disease|developmental venous anomaly|developmental venous anomaly|r|||||
+E|D12|disease|tumor|tumors;Tumor;tumor|r|||||
+E|D13|disease|breast cancer|Breast cancer|r|||||
+E|D14|disease|thyroid cancer|Thyroid cancer|r|||||
+E|D15|disease|diffuse midline glioma|Diffuse midline glioma;diffuse midline glioma|r|||||
+E|D16|disease|adrenal adenoma|Adrenal adenoma|r|||||
+E|D17|disease|anterior cerebral artery infarction|ACA infarction|r|||||
+E|D18|disease|occipital lobe epilepsy|OLE;occipital lobe epilepsy|r|||||
+E|D19|ambiguous|PLE|PLE|u|undefined_abbreviation||||disease
+E|D20|disease|CMM|CMM|p|suspected_typo||||
+E|CE1|clinical_event|cavernous angioma with symptomatic hemorrhage|CASH;cavernous angioma with symptomatic hemorrhage;cavernous angiomas with a symptomatic hemorrhage|r|||||
+E|S1|symptom|seizure|Seizure;seizures;seizure|r|||||
+E|S2|symptom|focal impaired awareness seizure|FIAS;focal impaired awareness seizure|r|||||
+E|S3|symptom|focal to bilateral tonic-clonic seizure|FBTCS;focal to bilateral tonic-clonic seizure|r|||||
+E|S4|symptom|headache|Headache;headache|r|||||
+E|S5|symptom|dizziness|Dizziness;dizziness|r|||||
+E|S6|symptom|diplopia|Diplopia;diplopia|r|||||
+E|S7|symptom|weakness|Weakness;weakness|r|||||
+E|S8|symptom|dysarthria|Dysarthria|r|||||
+E|S9|symptom|facial palsy|Facial palsy|r|||||
+E|S10|symptom|visual symptoms|Visual symptoms|r|||||
+E|S11|symptom|neck pain|neck pain|r|||||
+E|S12|symptom|central vertigo|Central vertigo|r|||||
+E|PH1|phenotype|cerebral microbleeds|cerebral microbleeds|r|||||
+X|CCM genes|b0098|gene set, not a single-gene endpoint
+X|FCCM gene|b0007|gene set (panel), not a single-gene endpoint
+X|Non-cerebral CM|b0072|table_grouping_label
+X|ACMG|b0019|guideline/organisation
+X|HGMD|b0019|database
+X|The Genome Aggregation Database|b0019|database
+X|Korean Reference Genome database|b0019|database
+X|FSPLICE|b0019|tool
+X|NNSplice|b0019|tool
+X|NetGene2|b0019|tool
+X|NG_012964.1|b0019|identifier
+X|c.1147-2A>G|b0100|variant ID
+X|Brainstem|b0053|anatomical site
+EV|V1|b0003.s1|bg|bgr|aff|ebr
+EV|V2|b0011.s3|bg|bgr|aff|ebr
+EV|V3|b0011.s6+b0011.s7|bg|bgr|aff|ebr
+EV|V4|b0098.s11|bg|bgr|aff|ebr
+EV|V5|b0026.s4|ts|res|aff|rr,eda
+EV|V6|b0028.s1|ts|res|aff|rr,eda
+EV|V7|b0070.s2+b0070.s3|ts|res|aff|cs
+EV|V8|b0099.s3|bg|bgr|aff|mi,ebr
+EV|V9|b0098.s12|bg|bgr|aff|ebr
+EV|V10|b0098.s14|ts|int|hyp|ho
+EV|V11|b0098.s9|bg|hyp|hyp|ho
+EV|V12|b0100.s12+b0100.s13|ts|int|hyp|ho
+EV|V13|b0011.s8|bg|bgr|pre|unc
+EV|V14|b0094.s7|ts|res|na|rr
+EV|V15|b0070.s12|ts|co|na|do
+EV|V16|b0070.s14+b0070.s15+b0070.s16+b0070.s17|ts|co|na|do
+EV|V17|b0007.s5|ts|res|na|rr,cmp
+EV|V18|b0067.s2|ts|res|na|cmp
+EV|V19|b0067.s6+b0067.s7|ts|res|na|cmp
+EV|V20|b0094.s10|ts|res|na|rr
+EV|V21|b0094.s13+b0094.s14|ts|res|na|rr
+EV|V22|b0066.s1|ts|res|na|cmp
+EV|V23|b0094.s8|ts|res|na|rr
+EV|V24|b0094.s5+b0094.s6|ts|res|na|rr
+EV|V25|b0007.s4|ts|res|na|do
+EV|V26|b0101.s3|ts|int|na|rr
+EV|V27|b0098.s1|ts|res|na|do
+P|G1|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V5+V6+V7||V26|Background states FCCM is caused by KRIT1 LOF mutations; this study reports pathogenic KRIT1 variants in FCCM patients with co-segregation in a family.
+P|G2|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V5+V6|||Background causal attribution plus genetic diagnosis of FCCM patients with pathogenic CCM2 variants in this study.
+P|G3|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:ts:V5+V6+V7|||Background causal attribution plus pathogenic PDCD10 variants with familial co-segregation in this study.
+P|G1|D1|sup|c|bg|sup:c:bg:V3+V4|||Background states that LOF of these genes leads to CCM formation and that biallelic LOF initiates CCM.
+P|G2|D1|sup|c|bg|sup:c:bg:V3+V4|||Same background causal statement covers CCM2 individually.
+P|G3|D1|sup|c|bg|sup:c:bg:V3+V4|||Same background causal statement covers PDCD10 individually.
+P|G6|D1|sup|c|bg|sup:c:bg:V8|||A cited CCM animal model is induced by heterozygous Krit1 loss; non-human gene.
+P|G7|D1|sup|c|bg|sup:c:bg:V8|||A cited CCM animal model is induced by heterozygous Ccm2 loss; non-human gene.
+P|G8|D1|sup|c|bg|sup:c:bg:V8|||A cited CCM animal model is induced by heterozygous Pdcd10 loss; non-human gene.
+P|G5|D3|sup|a|bg|sup:a:bg:V9|||A cited finding reports MAP3K3 GOF mutations in sporadic CCM patients.
+P|G5|D2|unc|-|ts|unc:-:ts:V10|hedged_claim||Authors only speculate that these mutations could be a novel cause of FCCM.
+P|G4|D2|unc|-|bg|unc:-:bg:V11|hedged_claim|V10|The cited authors only proposed a ZPLD1-FCCM association, and the later hedged sentence has an unclear antecedent.
+P|G1|D6|unc|-|ts|unc:-:ts:V12;unc:-:bg:V13|hedged_claim,presupposed_only||The KRIT1 ankyrin component is only likely critical, and vascular malformation suppression is presupposed in an unknown-mechanism sentence.
+P|G2|D6|unc|-|bg|unc:-:bg:V13|presupposed_only||Vascular malformation suppression by the CCM genes appears only as a presupposition.
+P|G3|D6|unc|-|bg|unc:-:bg:V13|presupposed_only||Vascular malformation suppression by the CCM genes appears only as a presupposition.
+P|G5|D1|nf|-||||V9|Relation is reported for sporadic CCM only and does not propagate to the parent CCM.
+P|G1|CE1|nf|-||||V14|Overall genotype test for first CASH, not split to members.
+P|G2|CE1|nf|-||||V14|Overall genotype test for first CASH, not split to members.
+P|G3|CE1|nf|-||||V14|Overall genotype test for first CASH, not split to members.
+P|G1|D12|nf|-||||V15|Tumor history in KRIT1 carriers is co-occurrence only.
+P|G1|D15|nf|-||||V16|Glioma in a KRIT1 carrier (K3) is a single-case comorbidity with no attribution.
+F|F1|descriptive|gene distribution of detected variants|cohort 1 FCCM (n=21)|not_applicable|not_applicable|available|V6+V27|13 of 21 patients had mutations detected; small sample.
+F|F2|group_comparison|brainstem, lateral temporal, parietal lesion frequency vs mutation detection|cohort 1 Mutation detected vs not detected|significant|positive|partial|V18|Pooled gene groups, not gene-specific; p-values only as table asterisks.
+F|F3|association|ROC lesion-location model predicting mutation detection|cohort 1|significant|positive|available|V17+V19|Pooled mutation group; AUC inconsistency (see C1).
+F|F4|correlation|age vs number of large CCMs|cohort 2 (n=25)|significant|positive|available|V20|Within-disease correlation.
+F|F5|correlation|age vs number of large CCMs by group|KRIT1, Mutation not detected, CCM2, PDCD10 groups|mixed|mixed|available|V21+V26|KRIT1 r=0.75 and not-detected r=0.53 positive; CCM2 r=-0.84 negative; PDCD10 not significant; within-disease, no formal between-group slope test reported.
+F|F6|group_comparison|CCM genotype vs first CASH (Cox)|cohort 2|not_significant|null|unread|V14|Statistics are in unread Table S3.
+F|F7|group_comparison|clinical characteristics|Mutation detected vs not detected|not_significant|null|partial|V22|Descriptive imbalances only.
+F|F8|association|younger diagnosis age vs earlier first CASH|cohort 2|unknown|positive|unread|V23|Statistics are in unread Table S3.
+F|F9|descriptive|cumulative incidence of first CASH|cohort 2|not_applicable|not_applicable|unread|V24|Values are in unread Table S2.
+F|F10|descriptive|novel variants|gene-confirmed FCCM probands|not_applicable|not_applicable|not_applicable|V25|Five KRIT1 and one PDCD10 novel variants.
+C|C1|AUC of three-marker model|b0007.s5;b0067.s4;b0067.s6;b0067.s7|noncritical|unresolved|0.928 in three places vs 0.982 in b0067.s7; does not affect direction or significance.
+C|C2|parietal frequency in Mutation not detected group|b0067.s2;b0060.s1|noncritical|unresolved|50.4% in text vs 50.0% in table.
+C|C3|large lesion threshold|b0017.s2;b0101.s1|noncritical|unresolved|At least 5 mm vs more than 5 mm.
+C|C4|lesion count in clinical FCCM|b0014.s2;b0098.s3|noncritical|unresolved|Inclusion requires at least three lesions, but discussion says at least five.
+C|C5|undetected-mutation rate in prior cohorts|b0098.s2|noncritical|unresolved|">5%" is logically inconsistent with the stated contrast; likely meant <5%.
+U|Table S1|b0070.s8|supplementary file not provided
+U|Table S2|b0094.s5|supplementary file not provided
+U|Table S3|b0094.s7|supplementary file not provided
+R|suspected typo|b0005.s1|KRTI1 in the panel list|kept as separate provisional entity; same panel is spelled KRIT1 in b0014.s1 and b0019.s2, but not merged.
+R|suspected typo|b0099.s9|CMM next to CCM in b0099.s8|kept as provisional disease entity, not merged.
+R|undefined abbreviation|b0076.s1|PLE not defined in the abbreviation list|kept as written as ambiguous disease-side entity, no pairs.
+R|merging|b0098.s12|MEKK3 is explicitly encoded by MAP3K3|merged as surface of MAP3K3.
+R|species|b0099.s3|Krit1/Ccm2/Pdcd10 in an animal-model context|separate non-human nodes with species unresolved.
+R|within-disease correlation|b0094.s13|KRIT1 group age-lesion correlation|recorded as finding only, not as pair correlation.
+R|statistics|b0067.s7|mutation-detected group pools three genes|not assigned to individual genes.
+R|hierarchy|b0011.s1|CCM stated as intracranial vascular malformation; FCCM/sporadic as familial/sporadic CCM|parents recorded and relations not propagated.

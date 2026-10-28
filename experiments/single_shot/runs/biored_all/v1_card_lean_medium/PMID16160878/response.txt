@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|urotensin-II|Urotensin-II;urotensin-II;U-II|p|species_unresolved|||
+E|G2|gene|urotensin-II receptor|Urotensin-II (U-II) receptors|p|species_unresolved|||
+E|G3|gene|prolactin|prolactin|p|species_unresolved|||
+E|G4|gene|thyrotropin|thyrotropin|p|species_unresolved|||
+E|D1|disease|hypertension|hypertension|r||||
+E|D2|disease|bradycardia|bradycardia|r||||
+E|D3|disease|psychiatric disorders|psychiatric disorders|r||||
+E|S1|phenotype|anxiogenic-like effects|anxiogenic|r||||
+E|S2|phenotype|depressant-like effects|depressant-like effects|r||||
+X|corticosterone|b0002|hormone metabolite, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s8+b0002.s9|ts|hyp|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||i.c.v. U-II causes hypertension, uncited background
+P|G1|D2|sup|c|bg|sup:c:bg:V1|||i.c.v. U-II causes bradycardia, uncited background
+P|G1|D3|unc|-|ts|unc:-:ts:V2|hedged_claim||Authors suggest U-II may be involved
+F|F1|other|i.c.v. U-II dose vs anxiety/depression tests|mice|significant|positive|not_reported|V2|abstract only; doses 1-10,000 ng
+F|F2|other|U-II dose vs food/water intake, locomotion|mice|significant|positive|not_reported||abstract only; dose-specific effects
+F|F3|other|U-II vs temperature, nociception, corticosterone|mice|not_significant|null|not_reported||abstract only
+R|model intervention|b0002.s2|Peptide injection, not gene alteration, induces disease in animals|Treated as model-intervention causality; species unresolved

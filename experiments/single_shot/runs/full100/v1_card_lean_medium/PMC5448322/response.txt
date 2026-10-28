@@ -1,0 +1,71 @@
+META|Opus 5.5|seen: no
+SCOPE|Full review text given; no figures read; references removed
+E|G1|gene|BRDT|BRDT|r||human||
+E|G2|gene|Brdt (mouse)|Brdt|p|species_unresolved|non-human||
+E|G3|gene|BRD4|BRD4|r||human||
+E|G4|gene|Brd4 (mouse)|Brd4|p|species_unresolved|non-human||
+E|G5|gene|BRD3|BRD3|r||human||
+E|G6|gene|BRD2|BRD2|r||human||
+E|D1|disease|cancer|cancer;cancers;Cancer|r||||
+E|D2|disease|lung cancer|lung cancer;lung cancers;lung tumours;lung tumour|r|||D1|
+E|D3|disease|non-small cell lung cancer|non-small cell lung cancers|r|||D2|
+E|D4|disease|solid tumours|solid tumours;solid cancers|r|||D1|
+E|D5|disease|lymphoma|lymphoma|r||||
+E|D6|disease|acute lymphoblastic leukemia|acute lymphoblastic leukemia;ALL|r||||
+E|D7|disease|melanoma|melanoma|r||||
+E|D8|disease|colon tumours|colon|p|other|||
+E|D9|disease|breast cancer|breast cancer;breast tumours|r||||
+E|D10|disease|kidney tumours|kidney|p|other|||
+E|D11|disease|bladder tumours|bladder|p|other|||
+E|D12|disease|lung adenocarcinoma|adenocarcinoma|r|||D2|
+E|D13|disease|large cell neuroendocrine tumours|large cell neuroendocrine tumours|r|||D2|
+E|D14|disease|squamous cell carcinoma|squamous cell carcinoma|r|||D2|
+E|D15|disease|basaloid tumours|basaloid tumours|r|||D2|
+E|D16|disease|carcinoid tumours|carcinoid tumours|r|||D2|
+E|D17|disease|small cell carcinoma|small cell carcinomas;small cell carcinoma|r|||D2|
+E|S1|phenotype|spermatogenesis arrest|arrest of spermatogenesis|r||||
+X|P-TEFb|b0019|complex, not single gene
+X|BET family|b0002|gene family/set
+X|TPs|b0005|protein family (transition proteins)
+X|Prms|b0005|protein family (protamines)
+X|H4K5acK8ac|b0009|histone modification, not gene
+X|GSE30219|b0023|dataset identifier
+EV|V1|b0002.s4+b0007.s2+b0023.s1|bg|bgr|aff|ebr
+EV|V2|b0007.s3+b0023.s4+b0024.s2+b0024.s5|ts|res|aff|rr
+EV|V3|b0023.s2|bg|neg|neg|ebr
+EV|V4|b0023.s5+b0023.s6|ts|res|aff|rr
+EV|V5|b0023.s6|ts|neg|neg|rr
+EV|V6|b0024.s4+b0007.s3|ts|res|aff|rr
+EV|V7|b0022.s1+b0024.s2+b0024.s4|ts|res|aff|rr
+EV|V8|b0023.s8|ts|res|aff|rr
+EV|V9|b0023.s10|ts|neg|neg|rr
+EV|V10|b0002.s6+b0007.s4+b0027.s1|ts|hyp|hyp|ho
+EV|V11|b0019.s2|bg|bgr|pre|unc
+P|G1|D2|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||Ectopic BRDT expression in lung tumours
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||Activated in 12/47 NSCLC
+P|G1|D12|sup|a|ts|sup:a:ts:V4|||28% express BRDT
+P|G1|D13|sup|a|ts|sup:a:ts:V4|||25% express BRDT
+P|G1|D14|sup|a|ts|sup:a:ts:V4|||20% express BRDT
+P|G1|D15|sup|a|ts|sup:a:ts:V4|||12% express BRDT
+P|G1|D16|neg|-|ts|neg:-:ts:V5|||No carcinoid tumour expressed BRDT
+P|G1|D17|neg|-|ts|neg:-:ts:V5|||No small cell carcinoma expressed BRDT
+P|G1|D9|sup|a|ts|sup:a:ts:V6;neg:-:bg:V3|conflict||5.5% in this series; prior study none
+P|G1|D7|neg|-|bg|neg:-:bg:V3|||No BRDT activation detected (prior study)
+P|G1|D8|neg|-|bg|neg:-:bg:V3|||No BRDT activation detected (prior study)
+P|G1|D10|neg|-|bg|neg:-:bg:V3|||No BRDT activation detected (prior study)
+P|G1|D11|neg|-|bg|neg:-:bg:V3|||No BRDT activation detected (prior study)
+P|G1|D4|sup|a|ts|sup:a:ts:V7|||Ectopic activation in solid tumours
+P|G1|D1|unc|-|ts|unc:-:ts:V10|hedged_claim|V2|Oncogenic role only suggested
+P|G5|D17|sup|a|ts|sup:a:ts:V8|||BRD3 overexpressed in 24%
+P|G5|D16|sup|a|ts|sup:a:ts:V8|||BRD3 overexpressed in 8.7%
+P|G6|D2|neg|-|ts|neg:-:ts:V9|||Overexpression only one patient
+P|G3|D2|neg|-|ts|neg:-:ts:V9|||Overexpression only one patient
+P|G3|D1|unc|-|bg|unc:-:bg:V11|presupposed_only||Role in cancer presupposed only
+F|F1|descriptive|BRDT expression by lung subtype|511 lung tumours, three GEO series|not_applicable|not_applicable|partial|V2+V4+V5|No statistical tests; figure unread
+F|F2|descriptive|BRDT expression across 15 cancers|1888 solid tumours GSE2109|not_applicable|not_applicable|partial|V6+V7|Figure unread
+F|F3|descriptive|BRD2/3/4 overexpression by subtype|same lung series|not_applicable|not_applicable|partial|V8+V9|
+C|C1|BRDT in breast tumours|b0023.s2;b0024.s4|noncritical|unresolved|Prior study none vs 5.5% here
+C|C2|Lung cohort GEO accession|b0023.s3;b0025.s2|noncritical|unresolved|GSE30219 vs GSE30209
+C|C3|Pan-cancer GEO accession|b0024.s1;b0025.s2|noncritical|unresolved|GSE2109 vs GSE21209
+C|C4|BRDT lung frequency|b0023.s4;b0024.s2|noncritical|resolved|20% vs 11%; authors cite subtype mix
+U|Fig.2|b0023.s4|Figure image not provided

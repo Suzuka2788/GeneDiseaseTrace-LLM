@@ -1,0 +1,81 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text b0001-b0119; additional files and movies not read
+E|G1|gene|LanB1|LanB1;Laminin B1|r|||non-human||
+E|G2|gene|Cg25C|Cg25C;Dcg1;col4a1|r|||non-human||
+E|G3|gene|vkg|vkg;viking;Vkg;Col4a2|r|||non-human||
+E|G4|gene|LanB2|LanB2|r|||non-human||
+E|G5|gene|LanA|LanA;Laminin A|r|||non-human||
+E|G6|gene|wb|wb;wing blister;Wb|r|||non-human||
+E|G7|gene|Ndg|Ndg|r|||non-human||
+E|G8|gene|trol|trol;terribly reduced optic lobes|r|||non-human||
+E|G9|gene|Prc|Prc;pericardin;Pericardin;prc|r|||non-human||
+E|G10|gene|loh|loh;lonely heart|r|||non-human||
+E|G11|gene|Dg|Dg;dystroglycan;Dystroglycan|r|||non-human||
+E|G12|gene|Slit|Slit|r|||non-human||
+E|G13|gene|Robo|Robo|p|undefined_abbreviation||non-human||
+E|G14|gene|Mp|Mp;multiplexin|r|||non-human||
+E|G15|gene|DE-cadherin|DE-cadherin|r|||non-human||
+E|G16|gene|Mef2|Mef2|r|||non-human||
+E|G17|gene|tin|tin;Tinman;Tin;tinman|r|||non-human||
+E|G18|gene|Doc|Doc;Dorsocross|r|||non-human||
+E|G19|gene|Svp|Svp;Seven-up|r|||non-human||
+E|G20|gene|Zfh-1|Zfh-1|r|||non-human||
+E|G21|gene|odd|odd-skipped;Odd|r|||non-human||
+E|G22|gene|eve|eve;even-skipped|r|||non-human||
+E|G23|gene|Hand|Hand|r|||non-human||
+E|G24|gene|org-1|org-1;Org-1|r|||non-human||
+E|G25|gene|HLH54F|HLH54F|r|||non-human||
+E|G26|gene|Mhc|Mhc|p|undefined_abbreviation||non-human||
+E|G27|gene|Sdc|Sdc;syndecan|r|||non-human||
+E|G28|gene|scab|scab;αPS3|r|||non-human||
+E|G29|gene|Jon25Bi|Jon25Bi|r|||non-human||
+E|G30|gene|qsm|qsm|p|undefined_abbreviation||non-human||
+E|G31|gene|Sin3A|Sin3A|r|||non-human||
+E|G32|gene|cn|cn|p|undefined_abbreviation||non-human||
+E|G33|gene|emb-9|emb-9|r|||non-human||
+E|G34|gene|let-2|let-2|r|||non-human||
+E|G35|gene|mouse Lamb1|Lamb1|p|ambiguous_mapping||non-human||
+E|G36|gene|mouse Lamb2|Lamb2|p|ambiguous_mapping||non-human||
+E|G37|gene|LAMB2|LAMB2|r|||human||
+E|G38|gene|COL4A1|COL4A1;Col4a1|r|||human||
+E|G39|gene|COL4A2|COL4A2|r|||human||
+E|G40|gene|Col1a|Col1a|p|ambiguous_mapping||non-human||
+E|D1|disease|Pierson syndrome|Pierson syndrome;Pierson Syndrome|r|||||
+E|D2|disease|porencephaly|porencephaly|r|||||
+E|D3|disease|hemorrhagic stroke|hemorrhagic stroke|r|||||
+E|D4|disease|small vessel disease|small vessel disease|r|||||
+E|D5|disease|HANAC Syndrome|Hereditary Angiopathy with Nephropathy, Aneurysms, and Muscle Cramps;HANAC|r|||||
+E|D6|disease|collagen-related diseases|collagen-related diseases|r|||||
+E|D7|disease|vasculature-related diseases|vasculature-related diseases|r|||||
+E|D8|disease|cardiomyopathies|cardiomyopathies|r|||||
+E|S1|phenotype|alary muscle detachment|alary muscle detachment|r|||||
+E|S2|phenotype|broken hearted phenotype|broken hearted|r|||||
+X|tinC*-GFP|b0014|reporter construct, not gene endpoint
+X|Df(2L)Exel7022|b0025|deficiency identifier, not gene
+X|Df(2L)ED12527|b0015|deficiency identifier, not gene
+X|bro|b0075|phenotype name for gene group, not single gene
+X|vascular and cardiac abnormalities|b0078|general phenotype, not specific disease
+EV|V1|b0068.s10|bg|bgr|aff|ebr
+EV|V2|b0081.s1|bg|bgr|aff|ebr
+EV|V3|b0066.s2|bg|bgr|aff|ebr
+EV|V4|b0078.s2+b0084.s3+b0007.s4|ts|int|hyp|ho
+EV|V5|b0071.s2|bg|res|na|do
+P|G37|D1|sup|c|bg|sup:c:bg:V1|||LAMB2 mutations stated as cause of Pierson syndrome
+P|G38|D2|sup|a|bg|sup:a:bg:V2|||COL4A1 mutations found in connection with disease
+P|G38|D3|sup|a|bg|sup:a:bg:V2+V3|||COL4A1 mutations reported with hemorrhagic stroke
+P|G38|D4|sup|a|bg|sup:a:bg:V2|||COL4A1 mutations found in connection with disease
+P|G38|D5|sup|a|bg|sup:a:bg:V2|||COL4A1 mutations found in connection with HANAC
+P|G38|D7|sup|a|bg|sup:a:bg:V3|||Col4a1 mutants in patients with vasculature diseases
+P|G39|D2|sup|a|bg|sup:a:bg:V2|||COL4A2 mutations named individually, lesser frequency
+P|G39|D3|sup|a|bg|sup:a:bg:V2|||COL4A2 mutations named individually, lesser frequency
+P|G39|D4|sup|a|bg|sup:a:bg:V2|||COL4A2 mutations named individually, lesser frequency
+P|G39|D5|sup|a|bg|sup:a:bg:V2|||COL4A2 mutations named individually, lesser frequency
+P|G2|D6|unc|-|ts|unc:-:ts:V4|hedged_claim|||Fly glycine mutations may parallel collagen diseases
+P|G35|D1|nf|-||||V5|Mouse mutation corresponds to Pierson mutation; no disease link
+F|F1|descriptive|Cg25C alleles vs AM detachment fraction|Drosophila embryos, three temperatures|not_applicable|positive|available||Penetrance increases with temperature
+F|F2|other|Cg25C x LanB1 trans-heterozygote viability|Drosophila crosses|unknown|negative|partial||Eclosion ranges only, no test
+F|F3|descriptive|LanB1 LN missense vs cardiac ECM continuity|Drosophila LanB1 LN mutant embryos|not_applicable|negative|not_reported||Qualitative staining
+F|F4|descriptive|Cg25C G552D vs perlecan/Vkg accumulation|Drosophila Cg25C mutant embryos|not_applicable|positive|not_reported||Qualitative imaging
+C|C1|LanB1 allele S0773 vs S0733|b0057.s1+b0057.s5+b0049.s2|noncritical|resolved|Likely typo for S0733; no pair affected
+C|C2|Pierson nonsense vs missense clustering|b0068.s10|noncritical|unresolved|Nonsense likely means missense; pair unaffected
+U|Additional files 1-7 (Figures S1-S3, Movies S1-S4)|b0017.s1;b0044.s3;b0061.s4|not provided; only legends in text

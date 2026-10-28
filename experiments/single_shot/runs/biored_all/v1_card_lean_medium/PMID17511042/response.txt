@@ -1,0 +1,12 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; single case report
+E|D1|disease|delusional parasitosis|delusional parasitosis|r||||
+E|D2|disease|chronic hepatitis C|chronic hepatitis C|r||||
+E|D3|disease|depression|depression|r||||
+E|D4|disease|psychosis|psychosis|r||||
+E|D5|disease|psychogenic parasitosis|psychogenic parasitosis|p|other|||
+X|pegylated interferon alpha-2b|b0001|therapeutic drug, not a gene endpoint
+X|interferon|b0002|drug therapy mention, not a gene endpoint
+X|ribavirin|b0001|chemical drug, not gene or disease
+R|gene vs drug|b0001.s1|Interferon named only as an administered drug; no gene entity.|Excluded as a drug, so no gene-disease pairs were generated.
+R|merging|b0002.s4|Psychogenic parasitosis may co-refer with delusional parasitosis; not a strict synonym.|Kept separate and provisional.

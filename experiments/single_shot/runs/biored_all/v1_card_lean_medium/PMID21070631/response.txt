@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|DBH|Dopamine b-hydroxylase;dopamine b-hydroxylase;DBH|r||human||
+E|G2|gene|IL1A|IL1A|r||human||
+E|G3|gene|IL6|IL6|r||human||
+E|D1|disease|Alzheimer's disease|Alzheimer's disease;AD|r||||
+X|rs1611115|b0002|variant ID of DBH -1021T
+X|rs1800587|b0002|variant ID of IL1A -889T
+EV|V1|b0001.s1+b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0002.s12+b0002.s13|ts|hyp|hyp|ho
+EV|V4|b0002.s3|bg|bgr|aff|ebr
+EV|V5|b0002.s9+b0002.s10|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2;unc:-:ts:V3||V4;V5|-1021T allele associated with AD, OR 1.2
+P|G2|D1|unc|-|ts|unc:-:ts:V5;unc:-:bg:V4|scope|V5|Only joint DBH interaction effect reported
+P|G3|D1|unc|-|bg|unc:-:bg:V4|scope||Only background interaction with DBH reported
+F|F1|association|DBH -1021T carriage vs AD|1757 AD, 6294 controls|significant|positive|available|V1|
+F|F2|association|DBH -1021T vs AD|men <75 years|significant|positive|available|V2|subgroup analysis
+F|F3|association|DBH -1021T x IL1A -889TT synergy|AD cases vs controls|significant|positive|available|V5|interaction, not single-gene effect
+F|F4|hypothesis|-1021T, inflammation misregulation, AD onset|AD|not_applicable|unknown|not_applicable|V3|authors' speculation
+R|gene-gene interaction on disease|b0002.s9|Card covers gene sets, not two-gene epistasis for single pairs|Main-effect gene supported; interaction-only gene uncertain/scope

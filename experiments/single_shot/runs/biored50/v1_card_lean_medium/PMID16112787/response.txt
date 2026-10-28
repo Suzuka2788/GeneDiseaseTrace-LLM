@@ -1,0 +1,22 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; rat model, no full text
+E|G1|gene|superoxide dismutase|superoxide dismutase;SOD|p|species_unresolved|non-human||
+E|G2|gene|catalase|catalase;CAT|p|species_unresolved|non-human||
+E|G3|gene|N-acetyl-beta-d-glucosaminidase|N-acetyl-beta-d-glucosaminidase;NAG|p|ambiguous_mapping,species_unresolved|non-human||
+E|D1|disease|nephrotoxicity|nephrotoxicity|r||||
+E|D2|disease|renal impairment|renal impairment|r||||
+E|D3|disease|renal tubular injury|renal tubular injury|r||||
+E|D4|disease|tubular damage|tubular damage|r||||
+E|D5|disease|kidney damage|kidney damage|r||||
+E|S1|phenotype|necrosis|necrosis|r||||
+E|S2|phenotype|oxidative stress|oxidative stress|r||||
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|bg|bgr|aff|ebr
+EV|V3|b0002.s6|ts|res|aff|rr,cmp
+P|G3|D3|sup|a|bg|sup:a:bg:V2||V1|NAG stated as marker of renal tubular injury
+P|G3|D1|unc|-||unc:-:ts:V1+V3|scope||Drug-induced marker change, not a gene-disease test
+P|G1|D1|unc|-||unc:-:ts:V1+V3|scope||Activity changed by drug; no gene-status comparator
+P|G2|D1|unc|-||unc:-:ts:V1+V3|scope||Activity changed by drug; no gene-status comparator
+F|F1|group_comparison|renal SOD, CAT activity; urinary NAG|rats, VCM vs control|significant|mixed|not_reported|V1|NAG up, SOD and CAT down
+F|F2|group_comparison|SOD, CAT activity; urinary NAG|rats, VCM+erdosteine vs VCM|mixed|mixed|not_reported|V3|CAT change not significant
+R|gene identity|b0002.s5|NAG is a measured enzyme activity; gene mapping unclear|Kept as provisional gene with ambiguous_mapping

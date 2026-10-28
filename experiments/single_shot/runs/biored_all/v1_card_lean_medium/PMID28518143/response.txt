@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, methods or tables
+E|G1|gene|CaSR|calcium sensing receptor;CaSR|p|species_unresolved|||
+E|G2|gene|gp78|gp78|p|species_unresolved|||
+E|G3|gene|Mfn1|Mfn1|p|species_unresolved|||
+E|G4|gene|Mfn2|Mfn2|p|species_unresolved|||
+E|G5|gene|Cx43|Cx43|p|species_unresolved|||
+E|G6|gene|beta-catenin|beta-catenin|p|species_unresolved|||
+E|G7|gene|N-cadherin|N-cadherin|p|species_unresolved|||
+E|G8|gene|Fis1|Fis1|p|species_unresolved|||
+E|G9|gene|Drp1|Drp1|p|species_unresolved|||
+E|D1|disease|Diabetic cardiomyopathy|Diabetic cardiomyopathy;DCM|r||||
+E|D2|disease|diabetes|diabetes|r||||
+E|D3|disease|myocardial energy metabolism disorder|myocardial energy metabolism disorder;energy metabolism disorder|p|other|||
+X|gp78-ubiquitin proteasome pathway|b0001|pathway, not a single-gene endpoint
+X|high glucose|b0002|experimental condition, not a disease
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s10|ts|res|aff|rr,mi
+EV|V3|b0002.s8|ts|int|hyp|ho
+EV|V4|b0002.s7|ts|res|aff|rr,mi
+EV|V5|b0002.s10|ts|hyp|hyp|ho
+EV|V6|b0002.s5+b0002.s6|ts|res|q|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V5|Prior study: CaSR decreased in DCM rats
+P|G1|D3|unc|-|ts|unc:-:ts:V2+V4;unc:-:ts:V3|scope,hedged_claim||HG cell model; mechanism only suggested
+P|G2|D3|unc|-|ts|unc:-:ts:V4;unc:-:ts:V3|scope,hedged_claim||siRNA in HG model; mechanism suggested
+F|F1|group_comparison|HG vs control; CaSR, Mfn1/2, Cx43 expression|HG-treated myocardial cells|significant|negative|not_reported|V6|abstract only; species/cell unstated
+F|F2|group_comparison|HG vs control; gp78, Fis1, Drp1, ubiquitination|HG-treated myocardial cells|unknown|positive|not_reported|V6|abstract only
+F|F3|mechanism|CaSR agonist, gp78-siRNA reverse HG changes|HG-treated myocardial cells|significant|negative|not_reported|V4|abstract only
+F|F4|group_comparison|CaSR expression in DCM rats|DCM rats (previous study)|significant|negative|not_reported|V1|background; non-human
+R|disease typing|b0001.s1|energy metabolism disorder is a disease-like outcome in a cell model|typed disease, provisional; pairs uncertain for scope

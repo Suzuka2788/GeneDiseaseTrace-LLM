@@ -1,0 +1,5 @@
+Repository name: gene-evidence-graph
+Display name: Gene Evidence Graph
+Description: Extract genes, diseases, and paper-grounded evidence into traceable bipartite graphs.
+Generator: built-in image_gen
+Prompt: Use case: logo-brand. Asset type: GitHub repository square avatar for Gene Evidence Graph (repository name gene-evidence-graph), a biomedical paper evidence extraction project. Create one refined minimal white emblem on a pure solid black square background. A striking geometric DNA-like twisted ladder formed from two gently curving white strands, its rungs connecting small solid circular nodes, subtly suggesting a bipartite gene–disease graph. Strong unified silhouette, restrained elegant scientific identity, generous black negative space, centered emblem occupying 65 percent of frame, consistent medium-bold white strokes, legible at small avatar size. Flat crisp vector-like raster graphic. No text, no letters, no border, no gradients, no glow, no shadows, no mockup, no additional objects. Black and white only.

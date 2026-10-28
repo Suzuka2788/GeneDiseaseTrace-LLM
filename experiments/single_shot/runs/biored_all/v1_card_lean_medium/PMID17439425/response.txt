@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat study; no full text
+E|G1|gene|xanthine oxidase|xanthine oxidase;XO|r||non-human||
+E|D1|disease|glucocorticoid-induced hypertension|Glucocorticoid-induced hypertension;GC-HT|r||||
+E|D2|disease|dexamethasone-induced hypertension|dexamethasone-induced hypertension;dex-HT|r||||
+E|D3|disease|adrenocorticotrophic hormone induced hypertension|adrenocorticotrophic hormone induced hypertension|r||||
+E|S1|phenotype|nitric oxide-redox imbalance|nitric oxide-redox imbalance|r||||
+X|adrenocorticotrophic hormone|b0002|hormone named as inducing agent, not gene endpoint
+EV|V1|b0002.s12+b0002.s14|ts|neg|neg|rr,cmp
+EV|V2|b0002.s15|both|int|neg|unc
+P|G1|D2|neg|-|ts|neg:-:ts:V1||V2|XO inhibition did not prevent dex-HT; tested causal
+P|G1|D1|unc|-|both|unc:-:both:V2|hedged_claim|V1|Authors suggest XO not major determinant
+P|G1|D3|unc|-|bg|unc:-:bg:V2|support_basis_unresolved,hedged_claim||Prior allopurinol failure; XO link only inferred
+F|F1|group_comparison|allopurinol vs serum urate|saline and dex-treated rats|significant|negative|partial|V1|
+F|F2|group_comparison|allopurinol vs SBP in dex-HT|dex-treated rats|not_significant|null|not_reported|V1|abstract only; no stats given
+R|tested_relation_type|P G1-D2|Format lacks a field for tested relation type|Noted tested causal in reason text

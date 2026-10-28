@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|haptoglobin|Haptoglobin;haptoglobin;Hp|r||human||
+E|D1|disease|cardiovascular disease|cardiovascular disease|r||||
+E|D2|disease|diabetes mellitus|diabetes mellitus;DM|r||||
+E|D3|disease|stroke|stroke|r||||
+E|D4|disease|myocardial infarction|myocardial infarction;myocardial infarct|r||||
+E|CE1|clinical_event|cardiovascular death|cardiovascular death|r||||
+E|CE2|clinical_event|composite end point|composite end point|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|res|aff|rr
+EV|V4|b0002.s2|ts|hyp|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V4|Hp 2-2 raises CVD risk in DM
+P|G1|CE2|nf|-|||||V2+V3|Gene-by-vitamin E interaction, not genotype-outcome test
+F|F1|group_comparison|vitamin E vs control; composite end point|Hp 2-2 DM individuals|significant|negative|available|V2|fixed-effect meta-analysis of two trials
+F|F2|association|Hp genotype x vitamin E interaction|DM trial participants|significant|unknown|partial|V3|interaction statistic not shown
+F|F3|other|vitamin E; life expectancy|Hp 2-2 DM, Kaiser population|unknown|positive|not_reported|b0002.s9|simulation model estimate

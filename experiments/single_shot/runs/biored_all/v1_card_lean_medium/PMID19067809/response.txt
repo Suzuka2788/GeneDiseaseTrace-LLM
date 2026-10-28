@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text not provided
+E|G1|gene|angiotensin-converting enzyme|angiotensin-converting enzyme;ACE|r||human||
+E|G2|gene|angiotensinogen|angiotensinogen|r||human||
+E|G3|gene|angiotensin II receptor type 1|angiotensin II receptor type 1;ATR1|r||human||
+E|G4|gene|serotonin transporter|serotonin transporter|r||human||
+E|D1|disease|vasovagal syncope|vasovagal syncope|r||||
+E|D2|disease|hypotension|hypotension|r||||
+E|S1|phenotype|minimal systolic blood pressure|minimal systolic blood pressure|r||||
+E|S2|phenotype|heart rate variability|heart rate variability|r||||
+X|renin-angiotensin system|b0001|pathway/system, not single gene
+X|5HTTLPR|b0002|variant identifier
+X|M 235|b0002|variant identifier
+X|A 1166C|b0002|variant identifier
+EV|V1|b0002.s4|ts|res|aff|rr,cmp
+EV|V2|b0002.s4|ts|int|hyp|ho
+EV|V3|b0002.s5|ts|int|hyp|ho
+P|G3|D2|unc|-|ts|unc:-:ts:V2|hedged_claim|V1|"may be associated" with hypotension during HUT
+P|G3|D1|unc|-|ts|unc:-:ts:V3|hedged_claim|V1|Predisposition role only "cannot be excluded"
+F|F1|group_comparison|ATR1 A1166C genotype vs minimal SBP/DBP|vasovagal syncope patients during HUT|significant|negative|available|V1|AA lower BP; abstract only
+F|F2|group_comparison|ATR1 A1166C genotype vs SDNN|vasovagal syncope patients during HUT|significant|positive|available|V1|AA higher SDNN; abstract only
+C|C1|ATR1 variant name A 11666C vs A 1166C|b0002.s3+b0002.s4|noncritical|unresolved|likely typo; same ATR1 polymorphism

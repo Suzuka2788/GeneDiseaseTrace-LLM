@@ -1,0 +1,25 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|D1|disease|Nijmegen breakage syndrome|Nijmegen breakage syndrome|r||||
+E|G1|gene|NBS1|NBS1|r||human||
+E|D2|disease|primary microcephaly|primary microcephaly;simple microcephaly;primary microcephalic|p|other|||
+E|D3|disease|chromosomal instability disorder|chromosomal instability disorder|r||||
+E|D4|disease|lymphoreticular malignancies|lymphoreticular malignancies|r||||
+E|S1|symptom|congenital microcephaly|congenital microcephaly|r||||
+E|S2|symptom|early growth retardation|early growth retardation|r||||
+E|S3|symptom|immunodeficiency|immunodeficiency|r||||
+E|S4|phenotype|borderline mental development|borderline mental development|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s6+b0002.s7|ts|res|aff|rr,eda
+EV|V3|b0002.s10|ts|res|na|do
+EV|V4|b0002.s1|bg|bgr|na|do
+EV|V5|b0002.s11+b0002.s12|ts|int|na|do
+EV|V6|b0002.s13|ts|res|na|do
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||NBS1 founder deletion in all NBS patients; genetic diagnosis
+P|G1|D2|nf|-|||||V2+V3|Mutation found in microcephalic children; attributed to NBS
+P|G1|D4|nf|-|||||V4|Malignancy linked to NBS, not to gene
+F|F1|descriptive|NBS1 founder mutation; NBS diagnosis|67 Czech children with simple microcephaly|not_applicable|not_applicable|partial|V2|No comparator; 3 of 67 (4.5%)
+F|F2|descriptive|NBS incidence in 2.5-year birth window|23 microcephalic children born in that window|not_applicable|not_applicable|partial|V3|Small subgroup; 13%
+F|F3|other|Expected versus detected NBS homozygotes|Czech births over 2.5 years|not_applicable|not_applicable|partial|V5|Calculation only
+F|F4|descriptive|Age at NBS diagnosis before/after DNA testing|Czech NBS patients|not_applicable|negative|partial|V6|7.1 years to under 1 year
+R|D2 merge|b0002.s6;b0002.s12|"Simple" and "primary" microcephaly denote the same cohort, but are not strict synonyms.|Merged as provisional via cohort co-reference; issue code other.

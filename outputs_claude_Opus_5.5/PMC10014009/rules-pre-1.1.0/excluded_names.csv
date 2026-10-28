@@ -1,0 +1,16 @@
+﻿name,kind,reason
+CCM genes / FCCM gene / CCM-associated genes,gene group,"Collective term for KRIT1, CCM2 and PDCD10; not an individual gene."
+CCM complexes,protein complex,Protein complex formed by the products of the three genes; not a gene or disease.
+ankyrin component,protein region,Part of the KRIT1 protein (b0100); mapped to no separate entity.
+"NG_012964.1, NC_000007.14, NG_016295.1, NG_008158.1, NC_000003.12",database identifier,"RefSeq accessions; stored as text-sourced references on G01-G03, not entities."
+"HGMD, gnomAD (Genome Aggregation Database), KRGDB, ACMG",database / guideline,Databases and guideline body; not genes or diseases.
+"FSPLICE, NNSplice, NetGene2",software,In-silico splice prediction tools.
+WHO grade IV,tumour grade,Grading label of the diffuse midline glioma; not a disease.
+brainstem lesions / brainstem / lateral temporal / parietal / cerebellum / cortex/subcortex / frontal / temporal / medial temporal / occipital / basal ganglia / thalamus / pons / medulla oblongata / motor cortex / occipital cortex / frontal cortex / hindbrain / thoracic spinal cord,anatomical location,"Locations of CCM lesions or haemorrhage; recorded as lesion-site attributes, not diseases. The brainstem finding is a pooled 'mutation detected' association and is described in the quality notes."
+Zabramski type IV,lesion classification,Radiological lesion type used as an inclusion rule.
+recent hemorrhage (b0070),ambiguous event,"Radiological suspicion of haemorrhage in a spinal CM; not labelled CASH by the authors, so not mapped."
+hemorrhage (b0011 'development and hemorrhage'),generic event,Unqualified mention of CCM bleeding in background mechanism text; not mapped to CASH.
+symptoms / disease burden,generic term,Non-specific words; not named conditions.
+blooming artifacts,imaging artefact,MRI artefact.
+Symptomatic / asymptomatic,clinical status,"Status, not a named condition."
+autosomal dominant disease/disorder,inheritance descriptor,Describes FCCM inheritance.

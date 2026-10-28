@@ -1,0 +1,55 @@
+{
+  "paper_id": "PMC10014009",
+  "note": "Hand-made crosswalk from each run's entities.csv. null = the run has no primary entity for this concept (see 'absent' for where it went).",
+  "runs": {
+    "GPT-6_Astra": "C:/Users/tongz/blind_PMC10014009_aborted_GPT-6_Astra/outputs_unknown_model_blind/PMC10014009/rules-1.2.0/20261027T224351018600Z_46a7b4ba",
+    "GPT-6.1_sol": "C:/Users/tongz/blind_PMC10014009_GPT-6.1_sol/outputs_unknown_model_blind/PMC10014009/rules-1.2.0/20261027T223038Z-6b593930",
+    "Claude_Opus_5.5": "C:/Users/tongz/blind_PMC10014009_Claude_Opus_5.5/outputs_Claude_Opus_5.5_blind/PMC10014009/rules-1.2.0/20261027T223308Z_41176b9a"
+  },
+  "genes": {
+    "KRIT1": ["g01", "G01", "G01"],
+    "CCM2": ["g02", "G02", "G02"],
+    "PDCD10": ["g03", "G03", "G03"],
+    "ZPLD1": ["g04", "G04", "G04"],
+    "MAP3K3": ["g05", "G05", "G05"],
+    "Krit1 (animal)": ["g06", "G06", "G06"],
+    "Ccm2 (animal)": ["g07", "G07", "G07"],
+    "Pdcd10 (animal)": ["g08", "G08", "G08"]
+  },
+  "targets": {
+    "cerebral cavernous malformation": ["d01", "D01", "D01"],
+    "familial CCM": ["d02", "D02", "D02"],
+    "sporadic CCM": ["d03", "D03", "D03"],
+    "cavernous malformation (generic CM)": ["d04", "D06", null],
+    "spinal CM": ["d05", "D04", "D06"],
+    "cutaneous CM": ["d06", "D05", "D07"],
+    "CASH": ["d07", "D07", "D05"],
+    "small vessel disease": ["d08", "D09", "D16"],
+    "diffuse axonal injury": ["d09", "D10", "D17"],
+    "intracerebral hemorrhage": ["d10", "D11", "D18"],
+    "developmental venous anomaly": ["d11", "D12", "D19"],
+    "tumor (generic)": ["d12", "D08", "D08"],
+    "breast cancer": ["d13", "D13", "D09"],
+    "thyroid cancer": ["d14", "D14", "D10"],
+    "diffuse midline glioma": ["d15", "D15", "D11"],
+    "adrenal adenoma": ["d16", "D16", "D12"],
+    "ACA infarction": ["d17", "D17", "D13"],
+    "occipital lobe epilepsy": ["d18", "D19", "D14"],
+    "PLE (undefined)": ["d19", "D18", "D15"],
+    "vascular malformation (general)": ["d20", null, "D04"],
+    "intracranial vascular malformation": ["d21", null, "D04"],
+    "non-cerebral CM": ["d22", null, null]
+  },
+  "absent": {
+    "GPT-6.1_sol": {
+      "vascular malformation (general)": "excluded_candidates X18 as 'general_category' (cites b0011)",
+      "intracranial vascular malformation": "no primary entity; only the b0011 sentence under X18",
+      "non-cerebral CM": "not recorded"
+    },
+    "Claude_Opus_5.5": {
+      "cavernous malformation (generic CM)": "no entity; generic 'CM' mentions not recorded",
+      "vascular malformation (general)": "merged into D04 'intracranial vascular malformation' (surface 'vascular malformation' x2)",
+      "non-cerebral CM": "not recorded"
+    }
+  }
+}

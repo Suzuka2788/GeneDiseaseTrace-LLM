@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|ERK1/2|ERK1/2;Extracellular signal-regulated kinase;ERK|p|ambiguous_mapping|non-human||
+E|G2|gene|low-density lipoprotein receptor|low-density lipoprotein receptor;LDLr|r||non-human||
+E|D1|disease|hyperlipemia|hyperlipemia|r||||
+E|S1|phenotype|lipid dysregulation|lipid dysregulation|r||||
+E|S2|phenotype|disturbed cholesterol homeostasis|disturbed cholesterol homeostasis|r||||
+X|ERK pathways|b0002|pathway, not a single-gene endpoint
+X|LDL|b0002|lipoprotein lab measure, not gene
+EV|V1|b0002.s4|bg|bgr|na|ebr
+EV|V2|b0002.s10+b0002.s11|ts|res|na|rr,do
+EV|V3|b0002.s12|ts|res|na|rr,do
+EV|V4|b0002.s13|ts|int|hyp|ho
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V3+V4|hedged_claim|V1|ERK link only via hedged crocin mechanism
+P|G2|D1|unc|-|ts|unc:-:ts:V2+V3+V4|hedged_claim|V1|LDLr link only via hedged crocin mechanism
+F|F1|group_comparison|ERK1/2 phosphorylation, LDLr transcript|diazinon vs control rats|unknown|negative|not_reported|V2|significance not stated for gene changes
+F|F2|group_comparison|ERK activation, LDLr transcript, lipids|crocin+diazinon vs diazinon rats|unknown|positive|not_reported|V3|abstract only
+F|F3|mechanism|ERK pathway, LDLr expression, hyperlipemia|diazinon-exposed rats|not_applicable|unknown|not_applicable|V4|hedged conclusion
+R|species|E G1,G2|Species explicit as rat but card offers only non-human code|Marked non-human; species stated as rat in title

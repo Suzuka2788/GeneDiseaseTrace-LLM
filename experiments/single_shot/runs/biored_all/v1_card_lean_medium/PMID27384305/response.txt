@@ -1,0 +1,32 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|11b-HSD1 (background, species unstated)|11b-HSD1;11b-hydroxysteroid dehydrogenase type 1|p|ambiguous_mapping|||
+E|G2|gene|11b-HSD1 (mouse)|11b-HSD1;11b-HSD1KO|r||non-human||
+E|D1|disease|nonalcoholic fatty liver disease|Nonalcoholic fatty liver disease;NAFLD;Nonalcoholic Fatty Liver Disease|r||||
+E|D2|disease|steatosis|steatosis|r|||D1|
+E|D3|disease|nonalcoholic steatohepatitis|nonalcoholic steatohepatitis;NASH|r|||D1|
+E|D4|disease|cirrhosis|cirrhosis|r|||D1|
+E|D5|disease|metabolic syndrome|metabolic syndrome;Metabolic Syndrome|r||||
+E|D6|disease|metabolic disease|metabolic disease|p|other|||
+E|D7|disease|hepatosteatosis|hepatosteatosis|p|other|||
+E|S1|phenotype|hepatic inflammation|hepatic inflammation|r||||
+X|American Lifestyle Induced Obesity Syndrome|b0002|diet name, not a disease
+X|LKO|b0002|mouse line label, not a gene
+EV|V1|b0002.s4|bg|hyp|hyp|ho
+EV|V2|b0001.s1+b0002.s7+b0002.s10|ts|neg|neg|rr,cmp,mi
+EV|V3|b0001.s1|ts|neg|neg|rr,mi
+EV|V4|b0002.s6+b0002.s10|ts|neg|neg|rr,cmp,mi
+EV|V5|b0002.s8+b0002.s9+b0002.s11|ts|int|hyp|rr,ho
+EV|V6|b0002.s7|ts|neg|neg|rr,cmp
+EV|V7|b0002.s10|ts|neg|neg|rr,mi
+P|G1|D1|unc|-|bg|unc:-:bg:V1|hedged_claim||inhibition only suggested as treatment
+P|G2|D1|neg|-|ts|neg:-:ts:V2||V1|KO mice not protected on ALIOS diet
+P|G2|D5|neg|-|ts|neg:-:ts:V3|||KO not protected from metabolic syndrome
+P|G2|D6|neg|-|ts|neg:-:ts:V4|||KO not protected from metabolic disease
+P|G2|D2|neg|-|ts|neg:-:ts:V6|||steatosis similar in KO vs control
+P|G2|D7|neg|-|ts|neg:-:ts:V7|||not protected from hepatosteatosis
+P|G2|D3|unc|-|ts|unc:-:ts:V5|hedged_claim||immune foci only suggestive of NASH transition
+F|F1|group_comparison|body weight, glucose homeostasis|11b-HSD1KO and LKO vs control mice|not_significant|null|not_reported|V4|abstract only
+F|F2|group_comparison|liver triglyceride, NAFLD activity score|11b-HSD1KO, LKO vs control|not_significant|null|not_reported|V6|abstract only
+F|F3|group_comparison|hepatic immune foci|11b-HSD1KO vs LKO and control|significant|positive|not_reported|V5|abstract only
+F|F4|group_comparison|hepatic immune and inflammatory markers|11b-HSD1KO mice|unknown|positive|not_reported|V5|significance not stated

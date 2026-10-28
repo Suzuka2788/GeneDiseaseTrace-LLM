@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CD72|CD72|r||human||
+E|G2|gene|FCGR2B|FCGR2B|r||human||
+E|G3|gene|CD72 (murine)|CD72|p|species_unresolved|non-human||
+E|D1|disease|systemic lupus erythematosus|systemic lupus erythematosus;SLE|r||||
+E|D2|disease|murine SLE|murine SLE|r||||
+E|D3|disease|nephritis|nephritis|p|other|||
+X|CD72(c)|b0002|murine allele name, mapped to G3 not separate gene
+X|*1;*2|b0002|CD72 haplotype labels, not genes
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2+b0002.s10|bg|bgr|aff|ebr
+EV|V3|b0002.s5|ts|neg|neg|cmp
+EV|V4|b0002.s5|ts|res|aff|rr,cmp
+EV|V5|b0002.s8+b0002.s11|ts|res|aff|rr,cmp
+EV|V6|b0002.s7+b0002.s9+b0002.s11|ts|int|hyp|ho
+P|G2|D1|sup|a|bg|sup:a:bg:V1;sup:a:ts:V5|||Prior report; Thr/Thr association conditional on CD72
+P|G1|D1|sup|a|ts|sup:a:ts:V5;neg:-:ts:V3||V6|Epistatic modifier; no main-effect association
+P|G1|D3|sup|a|ts|sup:a:ts:V4|||*1 allele associated with nephritis, Japanese
+P|G3|D2|sup|a|bg|sup:a:bg:V2|||Murine CD72 polymorphism associated with murine SLE
+F|F1|association|CD72 haplotype vs SLE susceptibility|Japanese, Thai, Caucasian cohorts|not_significant|null|not_reported|V3|
+F|F2|association|CD72 *1 allele vs nephritis|Japanese SLE patients|significant|positive|partial|V4|P only
+F|F3|association|FCGR2B Thr/Thr x CD72 *1/*1 vs SLE|Japanese and Thai cohorts|significant|positive|available|V5|joint genotype comparison
+F|F4|group_comparison|CD72 genotype vs AS/common isoform ratio|study individuals|significant|positive|partial|V6|
+F|F5|mechanism|intron 8 repeat/deletion regulate splicing|minigene assays|not_applicable|not_applicable|not_applicable|V6|in vitro
+R|epistasis|b0002.s8|Joint two-gene genotype test, not single-gene comparator|Assigned to both genes as authors attribute interaction explicitly

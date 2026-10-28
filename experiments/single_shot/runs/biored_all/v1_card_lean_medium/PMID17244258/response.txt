@@ -1,0 +1,25 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|D1|disease|cystitis|cystitis|r||||
+E|D2|disease|cyclophosphamide-induced cystitis|cyclophosphamide-induced cystitis|r|||D1|
+E|G1|gene|muscarinic M1 receptor|M(1)|p|ambiguous_mapping,species_unresolved|non-human||
+E|G2|gene|muscarinic M2 receptor|M(2)|p|ambiguous_mapping,species_unresolved|non-human||
+E|G3|gene|muscarinic M3 receptor|M(3)|p|ambiguous_mapping,species_unresolved|non-human||
+E|G4|gene|muscarinic M5 receptor|M(5)|p|ambiguous_mapping,species_unresolved|non-human||
+E|S1|phenotype|impaired detrusor function|detrusor function is impaired|r||||
+X|muscarinic receptors|b0002|receptor family, not single-gene endpoint
+X|beta-adrenoceptor|b0002|receptor family, not single-gene endpoint
+X|purinoceptor|b0002|receptor family, not single-gene endpoint
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6+b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0002.s9|ts|res|aff|rr,cmp
+EV|V4|b0002.s10+b0002.s12|ts|res|aff|rr,cmp
+EV|V5|b0002.s12|ts|int|hyp|ho
+P|G1|D2|nf|-|||||V2|Drug selectivity label only; no gene-level link
+P|G2|D2|nf|-|||||V3+V5|Drug selectivity label only; no gene-level link
+P|G3|D2|nf|-|||||V2|Drug selectivity label only; no gene-level link
+F|F1|group_comparison|muscarinic antagonist potency on EFS contractions|inflamed vs control rat bladder strips|unknown|negative|not_reported|V2|abstract only; pharmacological not genetic
+F|F2|group_comparison|methoctramine effect on tonic responses|inflamed vs control rat bladder strips|unknown|positive|not_reported|V3|abstract only
+F|F3|group_comparison|isoprenaline-induced relaxation|inflamed vs control rat bladder strips|unknown|negative|not_reported|V4|beta-adrenoceptor family, not single gene
+F|F4|hypothesis|prejunctional inhibitory muscarinic receptor effects|cyclophosphamide-induced cystitis rats|not_applicable|positive|not_applicable|V5|hedged interpretation
+R|subtype selectivity labels|b0002.s6|Gene subtypes named only as antagonist selectivity labels, not tested directly|Created gene entities; pairs nf with context evidence

@@ -1,0 +1,9 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|F5|F5|r||human||
+E|D1|disease|inherited coagulation factor V deficiency|inherited coagulation factor V deficiency;inherited factor V (FV) deficiency;inherited coagulation FV deficiency;congenital FV deficiency|r||||
+EV|V1|b0001.s1+b0002.s9|ts|res|aff|rr,eda
+EV|V2|b0002.s2+b0002.s5+b0002.s7+b0002.s8|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||F5 mutations identified and attributed in FV-deficient probands
+F|F1|mechanism|IVS8 -2A>G; F5 mRNA splicing|proband 1|not_applicable|not_applicable|not_applicable|V2|single case cDNA analysis
+F|F2|descriptive|F5 2238-9del AG; G6410T (Gly2079Val)|proband 2, compound heterozygous|not_applicable|not_applicable|not_applicable|V2|single proband

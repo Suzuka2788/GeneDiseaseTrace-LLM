@@ -1,0 +1,38 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|CHRNA1|CHRNA1|r||human||
+E|G2|gene|CHRNB1|CHRNB1|r||human||
+E|G3|gene|CHRND|CHRND|r||human||
+E|G4|gene|RAPSN|RAPSN;rapsyn|r||human||
+E|G5|gene|CHRNG|CHRNG;embryonal acetylcholine receptor g subunit|r||human||
+E|D7|disease|multiple congenital anomaly disorders|multiple congenital anomaly disorders|r||||
+E|D1|disease|multiple pterygium syndromes|Multiple pterygium syndromes;multiple pterygium syndrome;MPS|r|||D7|
+E|D2|disease|lethal multiple pterygium syndrome|lethal MPS|r|||D1|
+E|D3|disease|nonlethal (Escobar) multiple pterygium syndrome|nonlethal MPS;Escobar|r|||D1|
+E|D4|disease|fetal akinesia|fetal akinesia|r||||
+E|D5|disease|lethal fetal akinesia sequence|lethal fetal akinesia sequence|r|||D4|
+E|D6|disease|congenital myasthenia|congenital myasthenia|r||||
+E|S1|phenotype|pterygia|pterygia|r||||
+E|S2|phenotype|arthrogryposis|arthrogryposis|r||||
+E|S3|phenotype|joint contractures|joint contractures|r||||
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s5|ts|neg|neg|rr
+EV|V3|b0002.s5|ts|res|aff|rr
+EV|V4|b0002.s6|bg|bgr|aff|ebr
+EV|V5|b0002.s7|ts|int|hyp|ho
+P|G5|D1|sup|c|bg|sup:c:bg:V1|||CHRNG recessive mutations cause MPS, prior report
+P|G5|D2|sup|c|bg|sup:c:bg:V1|||Prior report: CHRNG causes lethal MPS
+P|G5|D3|sup|c|bg|sup:c:bg:V1|||Prior report: CHRNG causes nonlethal MPS
+P|G5|D4|unc|-|bg|unc:-:bg:V1|presupposed_only||Fetal akinesia link only implied via pterygia inference
+P|G1|D2|neg|-|ts|neg:-:ts:V2|||No mutations in 15 CHRNG-negative lethal MPS cases
+P|G1|D4|neg|-|ts|neg:-:ts:V2|||No mutations in 15 CHRNG-negative fetal akinesia cases
+P|G2|D2|neg|-|ts|neg:-:ts:V2|||No mutations in 15 CHRNG-negative lethal MPS cases
+P|G2|D4|neg|-|ts|neg:-:ts:V2|||No mutations in 15 CHRNG-negative fetal akinesia cases
+P|G3|D2|neg|-|ts|neg:-:ts:V2|||No mutations in 15 CHRNG-negative lethal MPS cases
+P|G3|D4|neg|-|ts|neg:-:ts:V2|||No mutations in 15 CHRNG-negative fetal akinesia cases
+P|G4|D5|sup|a|ts|sup:a:ts:V3;unc:-:ts:V5|hedged_claim||Homozygous frameshift in family with three affected; causality hedged
+P|G4|D4|unc|-|ts|unc:-:ts:V5|hedged_claim|V3|Only a hypothesis that severe loss causes fetal akinesia
+P|G4|D6|sup|a|bg|sup:a:bg:V4;unc:-:ts:V5|hedged_claim||Prior reports of RAPSN mutations in congenital myasthenia
+P|G4|D2|unc|-|ts|unc:-:ts:V3|scope||Family's diagnosis given as fetal akinesia, not lethal MPS
+F|F1|descriptive|CHRNA1, CHRNB1, CHRND, RAPSN mutations|15 CHRNG-negative lethal MPS/fetal akinesia cases|not_applicable|not_applicable|not_reported|V2+V3|only one RAPSN family positive
+F|F2|mechanism|rapsyn loss-of-function severity|RAPSN c.1177-1178delAA functional studies|unknown|unknown|not_reported|V5|functional details not in abstract

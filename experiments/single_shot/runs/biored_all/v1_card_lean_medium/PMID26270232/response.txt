@@ -1,0 +1,50 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CRP|CRP|r||human||
+E|G2|gene|IL-6|IL-6|r||human||
+E|G3|gene|thrombopoietin|thrombopoietin;TPO|r||human||
+E|G4|gene|GCSF|GCSF|r||human||
+E|G5|gene|FGF basic|FGF basic|r||human||
+E|G6|gene|VEGF|VEGF|r||human||
+E|G7|gene|HMGB1|HMGB1|r||human||
+E|G8|gene|CK-18|CK-18;CK18|r||human||
+E|G9|gene|CCL2|CCL2|r||human||
+E|G10|gene|CCL3|CCL3|r||human||
+E|G11|gene|CCL4|CCL4|r||human||
+E|G12|gene|CCL5|CCL5|r||human||
+E|G13|gene|CXCL5|CXCL5|r||human||
+E|G14|gene|IL-8|IL-8|r||human||
+E|G15|gene|alpha-fetoprotein|alpha-fetoprotein;AFP|r||human||
+E|A1|ambiguous_gene|des-gamma-carboxy prothrombin|des-gamma-carboxy prothrombin;DCP|u|ambiguous_mapping|human||
+E|D1|disease|hepatocellular carcinoma|hepatocellular carcinoma;hepatocellular carcinomas;HCC;HCCs|r||||
+E|D2|disease|cirrhosis|cirrhotic|p|other|||
+E|S1|phenotype|inflammation|inflammation|r||||
+X|neopterin|b0002|metabolite marker, not a gene
+X|M30|b0002|CK18 fragment assay; evidence mapped to CK-18
+X|M65|b0002|CK-18 assay label, not separate gene
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0002.s8|ts|res|aff|rr,cmp
+EV|V3|b0002.s1+b0002.s10|ts|int|aff|rr
+EV|V4|b0002.s9|ts|res|aff|rr,cmp
+EV|V5|b0002.s2|bg|bgr|pre|unc
+P|G11|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2;sup:a:ts:V3||| Higher in HCC; independent diagnostic marker
+P|G12|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2;sup:a:ts:V3||| Higher in HCC; independent diagnostic marker
+P|G13|D1|sup|a|ts|sup:a:ts:V1|||Higher serum levels in HCC vs cirrhosis
+P|G3|D1|sup|a|ts|sup:a:ts:V1|||Higher serum TPO in HCC vs cirrhosis
+P|G9|D1|sup|a|ts|sup:a:ts:V1|||Lower serum CCL2 in HCC
+P|G3|D2|sup|a|ts|sup:a:ts:V4|||Lower TPO in cirrhotic vs healthy controls
+P|G8|D2|sup|a|ts|sup:a:ts:V4|||M30 CK18 fragment higher in cirrhosis
+P|G10|D1|unc|-|unk|unc:-:ts:V1|scope||Only generic chemokines named; CCL3 unspecified
+P|G14|D1|unc|-|unk|unc:-:ts:V1|scope||Only generic chemokines named; IL-8 unspecified
+P|G9|D2|unc|-|unk|unc:-:ts:V4|scope||Chemokine group lower; members unspecified
+P|G10|D2|unc|-|unk|unc:-:ts:V4|scope||Chemokine group lower; members unspecified
+P|G11|D2|unc|-|unk|unc:-:ts:V4|scope||Chemokine group lower; members unspecified
+P|G12|D2|unc|-|unk|unc:-:ts:V4|scope||Chemokine group lower; members unspecified
+P|G13|D2|unc|-|unk|unc:-:ts:V4|scope||Chemokine group lower; members unspecified
+P|G14|D2|unc|-|unk|unc:-:ts:V4|scope||Chemokine group lower; members unspecified
+P|G15|D1|unc|-|bg|unc:-:bg:V5|presupposed_only||Tumour marker status presupposed, HCC implicit
+P|A1|D1|unc|-|bg|unc:-:bg:V5|presupposed_only,identity||Tumour marker presupposed; gene identity unclear
+F|F1|group_comparison|serum TPO, CCL4, CCL5, CXCL5, CCL2|cirrhotic with vs without HCC|significant|mixed|partial|V1|P-values only in abstract
+F|F2|association|CCL4, CCL5 multivariate diagnostic markers|cirrhotic LTx candidates|significant|positive|partial|V2|no ORs given
+F|F3|group_comparison|TPO, chemokines, M30 levels|cirrhotic vs healthy controls|significant|mixed|partial|V4|chemokine members unspecified
+R|gene product fragment|b0002.s5|M30 is a CK18 fragment assay, not a gene name|Mapped M30 evidence to CK-18; recorded as X

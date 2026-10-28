@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|Ifnar1|IFNAR1;Ifnar1|r||non-human||
+E|D1|disease|type 1 diabetes|type 1 diabetes|r||||
+E|D2|disease|autoimmune diabetes|autoimmune diabetes;Autoimmune Diabetes|r||||
+E|D3|disease|virus-induced diabetes|Diabetes;diabetes;Virus-Induced Autoimmune Diabetes|r||||
+E|D4|disease|insulitis|insulitis|r||||
+E|D5|disease|viral infection|viral infection|r||||
+X|type I IFN a/b receptor|b0002|receptor complex label, not single-gene endpoint
+X|IFNAR|b0002|complex abbreviation, not single gene
+X|LEW.1WR1|b0002|rat strain designation
+X|Cas9|b0002|genome-editing protein tool
+X|Kilham rat virus|b0002|virus name, not a disease
+EV|V1|b0002.s6+b0002.s7|ts|res|aff|mi,rr
+EV|V2|b0002.s8|ts|res|aff|mi,rr
+EV|V3|b0001.s1+b0002.s9|ts|int|aff|mi
+EV|V4|b0002.s2|bg|hyp|hyp|ho
+EV|V5|b0002.s9|ts|int|hyp|unc
+P|G1|D3|sup|c|ts|sup:c:ts:V1+V2|||Receptor knockout delayed, reduced induced diabetes
+P|G1|D2|sup|c|ts|sup:c:ts:V3|||Title and conclusion attribute causal role
+P|G1|D4|sup|c|ts|sup:c:ts:V1|||Deficiency reduced insulitis intensity after poly I:C
+P|G1|D1|unc|-|||hedged_claim||Candidate susceptibility factor only; speculative
+F|F1|group_comparison|IFNAR1 deficiency vs diabetes onset/frequency|LEW.1WR1 rats, poly I:C|significant|negative|not_reported|V1|No numeric statistics in abstract
+F|F2|group_comparison|IFNAR1 deficiency vs KRV-induced diabetes|LEW.1WR1 rats, virus|unknown|negative|not_reported|V2|Significance not stated
+F|F3|group_comparison|IFNAR1 deficiency vs insulitis intensity|LEW.1WR1 rats, poly I:C|unknown|negative|not_reported|V1|Qualitative wording only
+U|full text, figures, tables|not cited in abstract|Only title and abstract provided

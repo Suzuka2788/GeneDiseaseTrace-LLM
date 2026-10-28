@@ -1,0 +1,13 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text incl. reviewer reports; no disease entities found
+E|G1|gene|Pol ε|Pol ε;Polε;Pole;Pol-epsilon;DNA polymerase epsilon;DNA polymerase ε;polymerase ε;Pol epsilon|p|ambiguous_mapping,suspected_typo|||
+E|G2|gene|Pol α|Pol α;Polα|p|ambiguous_mapping|||
+E|G3|gene|Pol δ|Pol δ;Polδ|p|ambiguous_mapping|||
+E|G4|gene|Pol ζ|Pol ζ;Polζ|p|ambiguous_mapping|||
+E|G5|gene|DPB2|DPB2|p|species_unresolved|||
+E|G6|gene|PolD|PolD;Pol D|p|species_unresolved|non-human||
+E|G7|gene|Pol2p|Pol2p|p|species_unresolved|non-human||
+X|DUF1744|b0019|domain identifier, not gene or disease
+X|PolBI|b0028|archaeal polymerase group, not single gene
+X|PolBII|b0028|archaeal polymerase group, not single gene
+X|DPB2-4|b0016|subunit range label, members not individually named

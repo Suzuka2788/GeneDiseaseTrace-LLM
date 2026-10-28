@@ -1,0 +1,27 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|E1|gene|LKB1 (background, unspecified mammalian)|Liver kinase B1;LKB1|p|species_unresolved||||
+E|E2|gene|mouse Lkb1|liver kinase B1;LKB1|p|species_unresolved|non-human|||
+E|E3|gene|VEGF (mouse model)|vascular endothelial growth factor;Vascular endothelial growth factor;VEGF|p|species_unresolved|non-human|||
+E|E4|gene|VEGF receptor 2|VEGF receptor 2|p|species_unresolved||||
+E|E5|gene|Sp1|specificity protein 1;Sp1|p|species_unresolved||||
+E|E6|gene|VE-cadherin (Cre driver)|vascular endothelial-cadherin|p|species_unresolved|non-human|||
+E|E7|disease|Peutz-Jeghers syndrome|Peutz-Jeghers syndrome|r|||||
+E|E8|disease|tumor (implanted, mouse)|tumor;Tumors|p|other||||
+E|E9|phenotype|vascular permeability|vascular permeability|r|||||
+E|E10|phenotype|angiogenesis|angiogenesis|r|||||
+X|Cre|b0002|bacteriophage recombinase transgene, not an endogenous gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s7|ts|res|aff|rr,mi,cmp
+EV|V3|b0002.s8|ts|res|aff|rr,mi,cmp
+EV|V4|b0002.s12|ts|int|hyp|ho
+EV|V5|b0002.s11|ts|res|na|do
+P|E1|E7|sup|a|bg|sup:a:bg:V1|||identified in PJS as tumor suppressor
+P|E2|E8|sup|c|ts|sup:c:ts:V2;unc:-:ts:V4|||endothelial deletion increased implanted tumor growth
+P|E3|E8|sup|c|ts|sup:c:ts:V3;unc:-:ts:V4|||VEGF neutralization decreased tumor growth
+P|E5|E8|unc|-|ts|unc:-:ts:V4|hedged_claim|V5|only hedged mechanistic conclusion
+P|E4|E8|nf|-|||||V5|only cell proliferation/migration, no tumor data
+F|F1|group_comparison|tumor growth; angiogenesis; permeability|LKB1(endo-/-) vs wild-type mice|unknown|positive|not_reported|V2|abstract only; no statistics
+F|F2|group_comparison|tumor growth; angiogenesis|VEGF antibody vs isotype control|unknown|negative|not_reported|V3|abstract only; no statistics
+F|F3|mechanism|LKB1-Sp1 binding; VEGF promoter binding|endothelial cells|not_applicable|negative|not_reported|V5|
+R|model-intervention causality|b0002.s7|Host-gene deletion modifies implanted tumor growth, not tumor induction|Treated as causal for tumor growth, non-human; noted scope

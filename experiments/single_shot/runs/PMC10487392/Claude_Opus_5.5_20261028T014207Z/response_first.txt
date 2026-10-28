@@ -1,0 +1,71 @@
+META|Claude Opus 5.5 (claude-opus-5-5)|未接触过本文的既往分析结果，也未接触过该规则的边界案例，仅依据本次给出的判定卡与论文文本作答
+SCOPE|已读取给出的全部块 b0001-b0075（正文、表格行、图注）；图像本身、参考文献原文未提供，无法核对
+E|G1|gene|VPS13B|VPS13B;vacuolar protein sorting 13 homolog B|r||human|||
+E|G2|gene|SERPINB1|SERPINB1;SerpinB1|r||human|||
+E|D1|disease|Cohen syndrome|Cohen syndrome|r|||||
+E|D2|disease|retinal dystrophy|retinal dystrophy|r|||||
+E|D3|disease|heart disease|heart disease|r|||||
+E|S1|phenotype|neutropenia|neutropenia|r|||||
+E|S2|phenotype|developmental retardation|developmental retardation;psychomotor retardation;psychomotor developmental delay;Developmental retardation|r|||||
+E|S3|phenotype|microcephaly|microcephaly|r|||||
+E|S4|phenotype|intellectual disabilities|intellectual disabilities;mental deficiency|r|||||
+E|S5|phenotype|hypotonia|hypotonia|r|||||
+E|S6|phenotype|hypermobile joints|hypermobile joints;joint hyperactivity|r|||||
+E|S7|phenotype|micrognathia|micrognathia;Micrognathia|r|||||
+E|S8|phenotype|hypertelorism|hypertelorism;Hypertelorism|r|||||
+E|S9|phenotype|myopia|myopia|r|||||
+E|S10|phenotype|short stature|short stature|r|||||
+E|S11|phenotype|obesity|obesity|r|||||
+E|S12|phenotype|leukopenia|leukopenia|r|||||
+E|S13|phenotype|Cerebellar dysplasia|Cerebellar dysplasia|r|||||
+E|S14|phenotype|speech delay|speech delay|r|||||
+E|S15|phenotype|neutrophil apoptosis|neutrophil apoptosis;excessive apoptosis of neutrophils|r|||||
+X|OMIM No. # 216550|b0003|数据库编号
+X|NM_017890.4|b0005|转录本/变异编号
+X|c.6940+1G > T|b0005|变异编号
+X|c10334_10335del|b0005|变异编号
+X|8q22.2|b0003|染色体位置
+X|ACMG|b0014|指南/机构
+X|gnomAD|b0061|数据库
+X|Gesell Developmental Schedules|b0014|评估工具
+X|Autistic Behavior Checklist (ABC)|b0014|评估量表，非诊断
+X|M-chat|b0019|评估量表，非诊断
+X|Autism assessment|b0043|表头分组标签，无自闭症诊断
+X|autosomal recessive disorder|b0003|遗传方式类别
+X|genetic diseases|b0071|泛化疾病类别
+X|granulocyte colony-stimulating factor|b0069|治疗药物，非基因端点
+X|Golgi complex|b0067|细胞结构
+EV|V1|b0003.s1|bg|bgr|aff|ebr,eda
+EV|V2|b0009.s3|bg|bgr|aff|ebr,eda
+EV|V3|b0003.s3|bg|bgr|aff|ebr
+EV|V4|b0010.s3|bg|bgr|aff|ebr
+EV|V5|b0066.s2|bg|bgr|aff|ebr
+EV|V6|b0066.s2|ts|int|hyp|ho
+EV|V7|b0071.s1|ts|res|aff|eda
+EV|V8|b0007.s2|ts|int|aff|do
+EV|V9|b0014.s6+s7+s8+s9+s10|ts|co|na|do
+EV|V10|b0019.s5+s6|ts|co|na|do
+EV|V11|b0067.s4|bg|bgr|aff|ebr,rr
+EV|V12|b0067.s3|bg|int|hyp|ho
+EV|V13|b0067.s5|ts|int|hyp|ho
+EV|V14|b0068.s7|bg|neg|neg|ebr
+EV|V15|b0068.s1|bg|co|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3+V4+V5;sup:a:ts:V7;unc:-:ts:V6|hedged_claim||背景明确病因陈述；本研究个案归因按病例报告规则记为 association；b0066.s2 中的 could 部分记为 hedged
+P|G2|D1|sup|a|bg|sup:a:bg:V11||V12|背景报告 Cohen syndrome 中性粒细胞内 SERPINB1 显著降低；指向中性粒细胞减少的机制部分为推测，且该目标为表型
+P|G1|D2|nf|-||||V15|视网膜营养不良仅作为 Cohen syndrome 的临床表现出现，关系不沿层级/表现传播
+P|G1|D3|nf|-||||V15|心脏病仅作为 Cohen syndrome 的临床表现出现，不建立关系
+F|F1|descriptive|VPS13B c.6940+1G > T（母源）与 exon 3-19 杂合缺失（父源）|Case 1|not_applicable|not_applicable|not_applicable|V9|个案检出，ACMG 判定为致病，PCR 拷贝数比值约 0.5
+F|F2|descriptive|VPS13B c.6940+1G > T（母源）与 Exon56 c10334_10335del（父源）|Case 2|not_applicable|not_applicable|not_applicable|V10|个案检出，ACMG 判定为致病
+F|F3|mechanism|SERPINB1 表达与中性粒细胞凋亡|Cohen syndrome 中性粒细胞（背景）|significant|negative|not_reported|V11+V12|引用文献结果，统计量不可读；导致中性粒细胞减少为可能原因
+F|F4|mechanism|VPS13B 突变与高尔基体支架蛋白减少导致发育迟缓|无|not_applicable|unknown|not_applicable|V13|作者推测
+F|F5|correlation|疾病严重程度与变异|既往研究 Cohen syndrome 患者|not_significant|null|not_reported|V14|基因型-表型总体关系，不落到单个配对
+F|F6|descriptive|中性粒细胞计数与百分比|Case 1、Case 2|not_applicable|not_applicable|available|V9+V10|与表 1 数值不一致，见 C1
+C|C1|中性粒细胞百分比|b0014.s5;b0019.s4;b0046.s1|noncritical|unresolved|正文为 15.2%/16.5%，表 1 为 25.0/20.5，两者均记录
+C|C2|Case 1 发育商程度|b0014.s4;b0044.s1|noncritical|unresolved|正文为中度迟缓，表 1 为重度迟缓
+C|C3|Case 2 变异图号|b0019.s5;b0048.s1|noncritical|unresolved|正文引用 Figure 4，表 1 引用 Figure 3
+C|C4|c.6940+1G > T 是否既往报道|b0005.s3;b0066.s2;b0053.s1|noncritical|unresolved|摘要称未报道，讨论与表 2 称既往已检出；不影响 VPS13B-Cohen 配对
+C|C5|致病机制表述：纯合 vs 复合杂合|b0003.s1;b0066.s1|noncritical|resolved|背景描述纯合突变，本例为复合杂合，两者不矛盾
+U|Figures 1-5 图像|b0015;b0016;b0017;b0020;b0021|仅提供图注，未提供图像
+R|实体分类|b0067.s3|neutropenia 是作为临床表现/实验室发现出现，还是作为疾病出现|作为 phenotype 处理，不进主矩阵；VPS13B/SERPINB1 与中性粒细胞减少的机制仅记录为研究发现
+R|病例报告归因|b0071.s1|作者称变异 can induce Cohen syndrome|按个案疾病特异性归因记为 association，不自动升级为因果
+R|合并|b0067.s3;b0067.s4|SerpinB1 与 SERPINB1 仅大小写不同，且均指编码中性粒细胞存活关键成分的同一基因|作为明确同指合并为 G2

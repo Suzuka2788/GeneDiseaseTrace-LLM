@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|mPGES-1|mPGES-1;microsomal prostaglandin E synthase-1|p|species_unresolved|non-human||
+E|G2|gene|Cyclooxygenase-2|Cyclooxygenase-2|r|||||
+E|G3|gene|AQP2|AQP2;aquaporin-2|p|species_unresolved|non-human||
+E|G4|gene|NKCC2|NKCC2;Na-K-2Cl cotransporter|p|species_unresolved|non-human||
+E|D1|disease|lithium-induced polyuria|lithium-induced polyuria|r|||||
+E|S1|phenotype|urine concentrating defect|urine concentrating defect|r|||||
+E|S2|phenotype|hyposmotic urine|hyposmotic urine|r|||||
+X|PGE(2)|b0002.s5|metabolite, not a gene
+X|cAMP|b0002.s6|metabolite, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s4+b0002.s6|ts|res|aff|rr,mi,cmp
+EV|V3|b0002.s11|ts|int|aff|rr,mi
+EV|V4|b0002.s7+b0002.s8+b0002.s11|ts|int|hyp|ho
+EV|V5|b0002.s9+b0002.s10+b0002.s11|ts|int|hyp|ho
+EV|V6|b0002.s5|ts|res|aff|rr
+P|G1|D1|sup|c|ts|sup:c:ts:V2+V3;sup:a:ts:V6||| Knockout mice resistant to lithium-induced polyuria
+P|G2|D1|sup|c|bg|sup:c:bg:V1||| Background: COX-2 activity required for polyuria
+P|G3|D1|unc|-||unc:-:ts:V4|hedged_claim||AQP2 role in polyuria only "likely"
+P|G4|D1|unc|-||unc:-:ts:V5|hedged_claim||NKCC2 role in polyuria only "likely"
+F|F1|group_comparison|renal mPGES-1 protein; lithium vs control|mPGES-1 +/+ mice|unknown|positive|not_reported|V6|abstract only
+F|F2|group_comparison|polyuria, urine PGE2/cAMP by genotype|lithium-treated +/+ vs -/- mice|unknown|negative|not_reported|V2|abstract only
+F|F3|group_comparison|AQP2 protein/mRNA; lithium vs control|+/+ and -/- mice|significant|negative|not_reported|V4|mRNA change medulla only
+F|F4|group_comparison|medullary NKCC2 protein; lithium vs control|+/+ and -/- mice|significant|negative|not_reported|V5|cortex unchanged
+R|entity typing|b0001.s1|Drug-induced polyuria is symptom-named but is the analysed condition|Treated lithium-induced polyuria as primary disease endpoint

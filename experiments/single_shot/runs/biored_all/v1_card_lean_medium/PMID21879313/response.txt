@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IL28B|IL28B;interleukin 28B|r||human||
+E|G2|gene|apolipoprotein B-100|apolipoprotein B-100;apoB-100|p|other|human||
+E|D1|disease|chronic hepatitis C|chronic hepatitis C;chronic HCV infection|r||||
+E|D2|disease|chronic HCV G1b infection|chronic HCV G1b infection;chronic hepatitis with HCV genotype 1b infection|r|||D1|
+E|CE1|clinical_event|response to PEG-IFN/RBV therapy|response to pegylated interferon plus ribavirin|r||||
+E|PH1|phenotype|LDL cholesterol|LDL cholesterol|r||||
+X|core region of the HCV|b0002|viral genomic region; not a human gene
+X|rs8099917|b0001|variant identifier
+X|Arg70|b0002|viral amino acid substitution, not a gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s4+b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7+b0002.s8|ts|int|hyp|ho
+P|G1|CE1|sup|a|bg|sup:a:bg:V1||V2|IL28B SNPs reported to affect therapy efficacy
+P|G1|D2|nf|-|||||V2|within-disease apoB-100 association, not disease link
+P|G2|D1|nf|-|||||V3|serum marker speculation only
+F|F1|association|rs8099917 TT vs serum apoB-100|148 chronic HCV G1b patients|significant|positive|partial|V2|abstract P values only
+F|F2|association|rs8099917 TT vs LDL cholesterol|148 chronic HCV G1b patients|significant|positive|partial|V2|abstract P values only
+F|F3|hypothesis|apoB-100 as marker of lipoprotein pathways|chronic HCV infection|not_applicable|not_applicable|not_applicable|V3|
+R|serum protein levels as gene entities|b0002.s3|apoB-100 serum concentration, not gene status|kept as provisional gene entity; outcome variable

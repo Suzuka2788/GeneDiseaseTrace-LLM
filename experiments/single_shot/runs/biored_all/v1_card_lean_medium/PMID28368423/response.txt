@@ -1,0 +1,27 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|MYC|MYC|r||human||
+E|G2|gene|Myc|Myc|p|species_unresolved|non-human||
+E|G3|gene|CD79a|CD79a|p|species_unresolved|non-human||
+E|G4|gene|Btk|Btk;Bruton's tyrosine kinase|p|species_unresolved|non-human||
+E|G5|gene|Plcg2|Plcg2|p|species_unresolved|non-human||
+E|G6|ambiguous_gene|Erk1/2|Erk1/2|u|ambiguous_mapping|non-human||
+E|D1|disease|B-cell non-Hodgkin lymphoma|B-cell non-Hodgkin lymphoma;B-NHL|r||||
+E|S1|phenotype|B-cell transformation|B-cell transformation|r||||
+X|BCR|b0002|B-cell receptor complex, not a single gene
+X|PI3K/Akt|b0002|pathway/gene families, not single-gene endpoints
+X|Eu-myc|b0002|transgenic mouse model name, not gene entity
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|aff|ebr
+EV|V3|b0002.s3|bg|bgr|aff|ebr
+EV|V4|b0002.s11|ts|int|hyp|ho
+EV|V5|b0002.s5+b0002.s6+b0002.s10|ts|res|na|rr,cmp,mi
+EV|V6|b0002.s7+b0002.s8|ts|res|na|rr,cmp
+EV|V7|b0002.s9|ts|res|na|rr,mi
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V2|||driver for B-NHL; overexpression linked to aggressiveness
+P|G2|D1|nf|-|||||V4+V5|precancerous mouse cells; no disease link
+P|G4|D1|nf|-|||||V3|BCR molecules as group only
+F|F1|group_comparison|Myc overexpression vs BCR signaling|Eu-myc vs WT precancerous B cells|unknown|positive|not_reported|V5|abstract only
+F|F2|group_comparison|ibrutinib effect on BCR, PI3K/Akt signaling|Myc-overexpressing B cells|unknown|positive|not_reported|V6|abstract only
+F|F3|mechanism|ibrutinib off-target BCR effects|Btk-null B cells|unknown|unknown|not_reported|V7|abstract only
+R|species/case|b0002.s11|MYC (uppercase) used for mouse study conclusion|kept human MYC separate; case alone not deciding

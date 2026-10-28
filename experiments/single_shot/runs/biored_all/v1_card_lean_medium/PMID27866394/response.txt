@@ -1,0 +1,34 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat WRS model study
+E|G1|gene|SP|SP|p|undefined_abbreviation,species_unresolved|||
+E|G2|gene|NK1r|NK1r|p|undefined_abbreviation,species_unresolved|||
+E|G3|gene|nNOS|nNOS|p|undefined_abbreviation,species_unresolved|||
+E|G4|gene|VIP|VIP|p|undefined_abbreviation,species_unresolved|||
+E|G5|gene|S100b|S100b|p|species_unresolved|||
+E|G6|gene|CGRP|CGRP|p|undefined_abbreviation,species_unresolved|||
+E|G7|gene|CRF1r|CRF1r|p|undefined_abbreviation,species_unresolved|||
+E|G8|gene|CRF2r|CRF2r|p|undefined_abbreviation,species_unresolved|||
+E|G9|gene|Mr2|Mr2|p|undefined_abbreviation,species_unresolved|||
+E|G10|gene|ChAT|ChAT|p|undefined_abbreviation,species_unresolved|||
+E|D1|disease|irritable bowel syndrome|irritable bowel syndrome;IBS|r||||
+E|S1|phenotype|mucosal inflammation|mucosal inflammation|r||||
+X|L- and T-type Ca(2+) channels|b0002|channel families, not single genes
+X|muscarinic and tachykinin receptors|b0002|receptor families, not single genes
+X|wrap restrain stress|b0002|experimental stress procedure, IBS model, not disease
+EV|V1|b0002.s4+b0002.s6+b0002.s7|ts|res|aff|rr
+EV|V2|b0002.s8|ts|res|aff|rr
+EV|V3|b0002.s9|ts|res|aff|rr
+P|G1|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G2|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G3|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G4|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G5|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G6|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G7|D1|unc|-|ts|unc:-:ts:V1|scope||WRS-model expression change only; not IBS link
+P|G8|D1|unc|-|ts|unc:-:ts:V2|scope||WRS-model expression change only; not IBS link
+P|G9|D1|nf|-|||||V3|OB effect per se; no disease link
+P|G10|D1|nf|-|||||V3|OB effect per se; no disease link
+F|F1|group_comparison|SP, NK1r, nNOS, VIP, S100b, CGRP, CRF1r IR|control vs WRS vs OB/WRS rats|unknown|mixed|not_reported|V1|abstract only; direction varies by marker
+F|F2|group_comparison|CRF2r-IR neurons|WRS vs OB/WRS rats|unknown|positive|not_reported|V2|OB does not prevent increase
+F|F3|group_comparison|Mr2 expression, ChAT-IR neurons|OB-treated vs control rats|unknown|mixed|not_reported|V3|Mr2 up, ChAT down
+R|animal model|b0002.s4|Model induces gene changes, not gene alteration inducing disease|Marked uncertain with scope

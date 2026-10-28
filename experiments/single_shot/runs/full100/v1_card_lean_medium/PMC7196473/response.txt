@@ -1,0 +1,116 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text and Tables 1-2; supplementary Tables S1-S2 unread
+E|G1|gene|NF1|NF1|r||human||
+E|G2|gene|SPRED1|SPRED1|r||human||
+E|G3|gene|PTPN11|PTPN11|r||human||
+E|G4|gene|RAF1|RAF1|r||human||
+E|G5|gene|SOS1|SOS1|r||human||
+E|G6|gene|RIT1|RIT1|r||human||
+E|G7|gene|HRAS|HRAS|r||human||
+E|G8|gene|KRAS|KRAS|r||human||
+E|G9|gene|NRAS|NRAS|r||human||
+E|G10|gene|SHOC2|SHOC2|r||human||
+E|G11|gene|BRAF|BRAF|r||human||
+E|G12|gene|MAP2K1|MAP2K1|r||human||
+E|G13|gene|MAP2K2|MAP2K2|r||human||
+E|G14|gene|CBL|CBL|r||human||
+E|G15|gene|RASA2|RASA2|r||human||
+E|G16|gene|PPP1CB|PPP1CB|r||human||
+E|G17|gene|SOS2|SOS2|r||human||
+E|G18|gene|LZTR1|LZTR1|r||human||
+E|D1|disease|RASopathies|RASopathies;RASopathy|r||||
+E|D2|disease|Noonan spectrum disorders|Noonan spectrum disorders;NSD;NSDs;Noonan spectrum disorder;Noonan spectrum|r||||
+E|D3|disease|Noonan syndrome|Noonan syndrome;NS|r||||
+E|D4|disease|CBL syndrome|CBL syndrome|r||||
+E|D5|disease|Noonan syndrome-like disorder with loose anagen hair|Noonan syndrome-like disorder with loose anagen hair|r||||
+E|D6|disease|cardio-facio-cutaneous syndrome|cardio-facio-cutaneous syndrome;CFC|r||||
+E|D7|disease|Costello syndrome|Costello syndrome|r||||
+E|D8|disease|Noonan syndrome with multiple lentigines|Noonan syndrome with multiple lentigines;NSML|r||||
+E|D9|disease|Neurofibromatosis Type 1|Neurofibromatosis Type 1;NF1|r||||
+E|D10|disease|Legius syndrome|Legius syndrome;LS;Legius|r||||
+E|D11|disease|Neurofibromatosis-Noonan syndrome|Neurofibromatosis-Noonan syndrome;NFNS|r||||
+E|D12|disease|Watson syndrome|Watson syndrome;WS|r||||
+E|D13|disease|hypertrophic cardiomyopathy|hypertrophic cardiomyopathy;HCM|r||||
+E|D14|disease|optic gliomas|optic gliomas|r||||
+E|D15|disease|Hypoplastic left heart syndrome|Hypoplastic left heart syndrome;HLHS|r||||
+E|D16|disease|Mitral Valve Prolapse|Mitral Valve Prolapse;MVP|r||||
+E|D17|disease|patent foramen ovale|patent foramen ovale;PFO|r||||
+E|D18|disease|hypothyroidism|hypothyroidism|r||||
+E|D19|disease|AFIB|AFIB|p|undefined_abbreviation|||
+E|D20|disease|ADHD|ADHD|p|undefined_abbreviation|||
+E|D21|disease|Laryngomalacia|Laryngomalacia|r||||
+E|D22|disease|vesicoureteral reflux|vesicoureteral reflux|r||||
+E|D23|disease|Hemangioma|Hemangioma|r||||
+E|D24|disease|encephalopathy|encephalopathy|r||||
+E|S1|phenotype|pulmonary valve stenosis|pulmonary valve stenosis|r||||
+E|S2|phenotype|cafe-au-lait spots|cafe-au-lait spots|r||||
+E|S3|phenotype|neurofibromas|neurofibromas|r||||
+E|S4|phenotype|Lisch nodules|Lisch nodules|r||||
+E|S5|phenotype|intellectual disability|intellectual disability|r||||
+E|S6|phenotype|fetal cardiomegaly|fetal cardiomegaly|r||||
+E|S7|phenotype|Hypospadias|Hypospadias|r||||
+E|S8|phenotype|cryptorchidism|cryptorchidism|r||||
+X|RAS‒MAPK pathway|b0003|pathway, not a single gene
+X|Possible malignancies|b0109|vague unnamed finding, not a specific disease
+EV|V1|b0012.s3|bg|bgr|aff|ebr
+EV|V2|b0014.s2|bg|bgr|aff|ebr
+EV|V3|b0121.s1|bg|bgr|aff|ebr
+EV|V4|b0014.s4|bg|bgr|aff|ebr
+EV|V5|b0007.s3+b0117.s2+b0117.s3+b0118.s2+b0118.s3+b0033.s1+b0076.s1|ts|res|aff|rr
+EV|V6|b0020.s3|bg|bgr|aff|ebr
+EV|V7|b0007.s2+b0115.s1+b0072.s1|ts|res|aff|rr
+EV|V8|b0012.s4|bg|bgr|aff|unc
+EV|V9|b0120.s10|bg|bgr|aff|unc
+EV|V10|b0115.s2+b0118.s2|ts|co|na|do
+EV|V11|b0117.s5+b0042.s1|ts|co|na|do
+EV|V12|b0014.s1|bg|int|hyp|ho
+EV|V13|b0120.s8|ts|int|q|unc
+P|G1|D9|sup|c|bg|sup:c:bg:V1|||LoF germline NF1 variants cause NF1
+P|G2|D10|sup|c|bg|sup:c:bg:V1|||LoF SPRED1 variants cause LS
+P|G1|D11|sup|c|bg|sup:c:bg:V2;sup:a:bg:V3|||NFNS caused by NF1 pathogenic variants
+P|G1|D12|sup|c|bg|sup:c:bg:V2|||WS caused by NF1 variants
+P|G1|D3|sup|a|both|sup:a:bg:V4;sup:a:ts:V5|||NF1 variants in clinically diagnosed NS patients
+P|G1|D8|sup|a|both|sup:a:bg:V4;sup:a:ts:V5|||NF1 variants in clinically diagnosed NSML patients
+P|G1|D2|sup|a|ts|sup:a:ts:V5|||NF1-positive patients had only NSD diagnosis
+P|G1|D1|sup|a|ts|sup:a:ts:V7|||disease-causing NF1 variants in suspected RASopathy
+P|G2|D1|sup|a|ts|sup:a:ts:V7|||disease-causing SPRED1 variant in suspected RASopathy
+P|G2|D2|unc|-||unc:-:bg:V12|hedged_claim||may present NSD features only
+P|G2|D9|nf|-||||V10|SPRED1 variant in clinical NF1, descriptive
+P|G1|D13|nf|-||||V11|single case co-occurrence only
+P|G3|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by PTPN11 variants
+P|G4|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by RAF1 variants
+P|G5|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by SOS1 variants
+P|G6|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by RIT1 variants
+P|G7|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by HRAS variants
+P|G8|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by KRAS variants
+P|G9|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by NRAS variants
+P|G10|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by SHOC2 variants
+P|G11|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by BRAF variants
+P|G12|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by MAP2K1 variants
+P|G13|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by MAP2K2 variants
+P|G14|D2|sup|c|bg|sup:c:bg:V1|||NSD caused by CBL variants
+P|G3|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G4|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G5|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G7|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G8|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G9|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G11|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G12|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G13|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G14|D1|sup|a|bg|sup:a:bg:V6|||described as RASopathy-associated gene
+P|G15|D1|unc|-||unc:-:bg:V8|scope||association with features, not the disease
+P|G16|D1|unc|-||unc:-:bg:V8|scope||association with features, not the disease
+P|G17|D1|unc|-||unc:-:bg:V8|scope||association with features, not the disease
+P|G18|D1|unc|-||unc:-:bg:V8|coreference||disease form unspecified
+P|G3|D9|unc|-||unc:-:bg:V9|scope||PTPN11 patients met NF1 criteria; phenocopy
+F|F1|descriptive|NF1/SPRED1 P/LP variant yield|derivation cohort, n=28|not_applicable|not_applicable|available|V7|6/28 (21%), b0114.s1
+F|F2|descriptive|diagnostic yield with NF1/SPRED1 added|validation cohort, n=505|not_applicable|positive|available|V7|23.5% to 25.7%, b0115.s4
+F|F3|descriptive|NF1/SPRED1 VUS rate|validation cohort, n=505|not_applicable|not_applicable|partial||15/505; details in Table S2
+F|F4|descriptive|NF1 GAP-domain variant proportion|17 positive patients|not_applicable|not_applicable|available|V3|5/17, b0121.s2; no test
+C|C1|SPRED1 variant for Proband 17|b0115.s2+b0073.s1|noncritical|unresolved|c.4232T>C vs c.423+2T>C
+C|C2|proband numbering, text vs Table 2|b0120.s4+b0120.s5+b0120.s7+b0070.s1+b0074.s1|noncritical|unresolved|text IDs offset from table
+C|C3|NF1 variant-type counts|b0115.s3+b0073.s1|noncritical|unresolved|text lists 8 variants; table has 10
+U|Table S1|b0020.s6+b0022.s3|supplementary file not provided
+U|Table S2|b0115.s1+b0122.s2|supplementary file not provided
+R|surface shared by gene and disease|NF1 throughout|same string names gene and disease|two entities; assigned by context, sharing surface NF1

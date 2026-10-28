@@ -1,0 +1,24 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|IGF-1|Insulin-like growth factor-1;IGF-1|r||||
+E|G2|gene|IGF-1R|Insulin-like growth factor 1 receptor;IGF-1 receptor;IGF-1R|p|species_unresolved|||
+E|G3|gene|PI3K|phosphatidylinositol 3-kinase;PI3K|p|ambiguous_mapping,species_unresolved|||
+E|G4|gene|Akt|threonine protein kinase B;Akt|p|ambiguous_mapping,species_unresolved|||
+E|G5|gene|mTOR|mammalian target of rapamycin;mTOR|p|species_unresolved|||
+E|D1|disease|hypoxia|Hypoxia;hypoxia|p|other|||
+E|D2|disease|tissue damage|tissue damage|p|other|||
+E|S1|phenotype|apoptosis|apoptosis|r||||
+E|S2|phenotype|autophagy|autophagy|r||||
+X|R- cells|b0002.s5|cell line label, not gene
+X|R+ cells|b0002.s5|cell line label, not gene
+X|IGF system|b0002.s3|gene set, not single gene
+X|LY294002|b0002.s11|chemical inhibitor, not gene
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s12|ts|int|hyp|ho
+EV|V4|b0002.s3|bg|bgr|q|unc
+P|G1|D2|sup|a|bg|sup:a:bg:V1|||IGF-1 stated to protect tissues from damage
+P|G2|D1|unc|-|ts|unc:-:ts:V2+V3|scope,hedged_claim|V4|Cell-culture hypoxia phenotype only; conclusion hedged
+F|F1|group_comparison|IGF-1R status vs apoptosis, ROS, autophagy|mouse embryonic fibroblasts under hypoxia|unknown|negative|not_reported|V2|abstract only; no statistics
+F|F2|mechanism|IGF-1R and PI3K/Akt/mTOR signaling|R+ and R- cells|unknown|unknown|not_reported|V3|pathway-level; hedged
+R|hypoxia typing|b0002.s1|Hypoxia is an experimental condition, not clearly a disease|Kept as provisional disease; cell data not linked

@@ -1,0 +1,22 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|HNF4A|HNF4alpha;HNF4A;Hepatocyte nuclear factor 4alpha|r|||human||
+E|D1|disease|type 2 diabetes mellitus|type 2 diabetes mellitus;diabetes|r||||
+E|D2|disease|impaired glucose tolerance|impaired glucose tolerance;IGT|r||||
+X|STOP-NIDDM|b0001|trial name, not a disease mention
+X|rs4810424|b0002|variant identifier
+X|rs1884614|b0002|variant identifier
+X|rs2144908|b0002|variant identifier
+X|rs2071197|b0002|variant identifier
+X|rs3818247|b0002|variant identifier
+EV|V1|b0002.s6|ts|res|aff|rr,cmp
+EV|V2|b0002.s8|ts|res|aff|rr
+EV|V3|b0002.s7|ts|neg|neg|rr,cmp
+EV|V4|b0001.s1+b0002.s9|ts|int|aff|rr
+EV|V5|b0002.s2|ts|aim|q|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2+V4;neg:-:ts:V3||V5|Women only; no association in men
+P|G1|D2|nf|-||||V5|IGT is baseline population, not outcome
+F|F1|association|rs4810424 C allele vs conversion to T2DM|women, STOP-NIDDM, adjusted|significant|positive|partial|V1|HR/OR type not stated
+F|F2|association|rs4810424 vs conversion to T2DM|men, STOP-NIDDM|not_significant|null|not_reported|V3|
+F|F3|association|haplotype risk allele count vs conversion|women, STOP-NIDDM|unknown|positive|not_reported|V2|no statistics in abstract
+F|F4|descriptive|LD among three P2 promoter SNPs|study population|not_applicable|not_applicable|partial|V1|

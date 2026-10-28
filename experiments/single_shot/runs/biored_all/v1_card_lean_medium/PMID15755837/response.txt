@@ -1,0 +1,17 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|dihydrofolate reductase|dihydrofolate reductase;Dihydrofolate reductase;DHFR|r||human||
+E|G2|gene|thymidylate synthase|thymidylate synthase|r||human||
+E|D1|clinical_event|preterm delivery|preterm delivery|r||||
+E|D2|disease|low birth weight|low birth weight|r||||
+X|19-base pair deletion allele|b0001|variant description, not a gene entity
+EV|V1|b0002.s7|ts|res|aff|rr,cmp
+EV|V2|b0001.s1|ts|int|aff|eda
+EV|V3|b0002.s9|ts|int|hyp|ho
+EV|V4|b0002.s8|ts|res|aff|rr,cmp
+EV|V5|b0002.s10+b0002.s11|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2;unc:-:ts:V3||V4|Deletion allele carriers had higher preterm risk
+P|G1|D2|unc|-|ts|unc:-:ts:V4+V5|scope,hedged_claim||Only joint gene-folate exposure tested; conclusion hedged
+F|F1|association|DHFR deletion allele vs preterm delivery|324 pregnant women, Camden NJ|significant|positive|available|V1|adjusted OR; covariates not stated
+F|F2|association|deletion allele plus low folate vs preterm|324 pregnant women, Camden NJ|significant|positive|available|V4|joint exposure vs no deletion, high folate
+F|F3|association|deletion allele plus low folate vs LBW|324 pregnant women, Camden NJ|significant|positive|available|V4|joint exposure; wide CI

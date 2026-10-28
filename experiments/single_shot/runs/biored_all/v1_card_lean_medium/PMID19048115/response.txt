@@ -1,0 +1,33 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|NF1|Neurofibromin 1;NF1;Nf1|r||human||
+E|G2|gene|TP53|TP53|r||human||
+E|G3|gene|BRCA1|Brca1|p|other|human||
+E|G4|gene|BRCA2|Brca2|p|other|human||
+E|G5|gene|KRAS|KRAS|r||human||
+E|G6|gene|BRAF|BRAF|r||human||
+E|D1|disease|ovarian serous carcinoma|ovarian serous carcinomas;Ovarian serous carcinoma;OSC;OSCs|r||||
+E|D2|disease|ovarian epithelial malignancy|ovarian epithelial malignancy|r||||
+E|D3|disease|ovarian carcinoma|ovarian carcinoma;ovarian carcinomas|p|ambiguous_mapping|||
+X|MAPK|b0002|kinase family readout marker, not a single gene
+X|Ras|b0002|protein family or pathway, not a single gene
+EV|V1|b0001.s1+b0002.s6|ts|res|aff|rr
+EV|V2|b0002.s3|ts|res|aff|rr,do
+EV|V3|b0002.s2|bg|bgr|aff|ebr
+EV|V4|b0002.s8|ts|res|aff|rr,do
+EV|V5|b0002.s8|ts|int|hyp|ho
+EV|V6|b0002.s4+b0002.s5|ts|res|aff|rr,do
+EV|V7|b0002.s7|ts|res|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||NF1 alterations frequent in primary OSCs
+P|G2|D1|sup|a|both|sup:a:bg:V3;sup:a:ts:V4|||Background implication plus TP53 mutations found in OSCs
+P|G3|D1|sup|a|bg|sup:a:bg:V3|||Brca1 dysfunction implicated in OSC pathogenesis
+P|G4|D1|sup|a|bg|sup:a:bg:V3|||Brca2 dysfunction implicated in OSC pathogenesis
+P|G1|D3|unc|-||unc:a:ts:V6+V5|scope,hedged_claim||Cell-line mutations; cooperation claim only suggested
+P|G2|D3|unc|-||unc:a:ts:V5|hedged_claim||Cooperation in development only suggested
+P|G5|D1|nf|-|||||V7|No KRAS mutations only within NF1-defective subset
+P|G6|D1|nf|-|||||V7|No BRAF mutations only within NF1-defective subset
+F|F1|descriptive|NF1 alterations frequency|41 primary OSCs|not_applicable|not_applicable|partial|V1|9/41; no comparator
+F|F2|descriptive|NF1 homozygous deletion|36 primary OSCs genome screen|not_applicable|not_applicable|partial|V2|2/36
+F|F3|descriptive|Nf1 loss and NF1 mutation|18 ovarian carcinoma cell lines|not_applicable|not_applicable|partial|V6|6/18 loss; 5/6 mutated
+F|F4|association|NF1 mutation vs TP53 mutation|OSCs with NF1 mutation|unknown|positive|not_reported|V4|No formal test reported
+F|F5|association|NF1 defects vs KRAS/BRAF mutation|NF1-defective tumors and cell lines|unknown|negative|not_reported|V7|Mutual exclusivity descriptive only

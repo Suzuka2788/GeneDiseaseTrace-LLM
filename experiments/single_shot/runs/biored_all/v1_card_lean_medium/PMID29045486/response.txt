@@ -1,0 +1,31 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|D1|disease|thiamine deficiency|thiamine deficiency;TD|r|||||
+E|D2|disease|hypoxia/ischemia|hypoxia/ischemia|p|other||||
+E|D3|disease|neurological injury|neurological injury|p|other||||
+E|G1|gene|HIF-1a|Hypoxia Inducible Factor-1a;HIF-1a;hypoxia inducible factor-1a|p|species_unresolved|non-human||
+E|G2|gene|MCP1|MCP1|r||non-human||
+E|G3|gene|BNIP3|BNIP3|r||non-human||
+E|G4|gene|Nix|Nix|r||non-human||
+E|G5|gene|Noxa|Noxa|r||non-human||
+E|S1|phenotype|apoptotic cell death|apoptotic cell death|r||||
+E|S2|phenotype|oxidative stress|oxidative stress|r||||
+E|S3|phenotype|excitotoxicity|excitotoxicity|r||||
+X|YC1|b0002|pharmacological inhibitor, not gene
+X|Annexin V|b0002|staining reagent, not gene endpoint
+EV|V1|b0002.s5|bg|bgr|aff|ebr
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|res|aff|rr
+EV|V4|b0002.s10|ts|res|aff|rr,mi
+EV|V5|b0002.s6|bg|int|pre|unc
+EV|V6|b0002.s11|ts|int|aff|rr
+P|G1|D1|sup|a|both|sup:a:bg:V1;sup:a:ts:V2|||TD induces HIF-1a in astrocytes; background agrees
+P|G2|D1|sup|a|ts|sup:a:ts:V3+V4|||Upregulated during TD, reduced by repletion
+P|G3|D1|sup|a|ts|sup:a:ts:V3+V4|||Upregulated during TD, reduced by repletion
+P|G4|D1|sup|a|ts|sup:a:ts:V3+V4|||Upregulated during TD, reduced by repletion
+P|G5|D1|sup|a|ts|sup:a:ts:V3+V4|||Upregulated during TD, reduced by repletion
+P|G1|D2|unc|-|bg|unc:-:bg:V1|presupposed_only|||Hypoxia/ischemia HIF-1a activation only implied
+P|G1|D3|unc|-|bg|unc:-:bg:V5|presupposed_only|||Role stated unknown; relation only presupposed
+F|F1|group_comparison|HIF-1a expression and activity|TD vs control mouse astrocytes|unknown|positive|not_reported|V2|abstract only
+F|F2|group_comparison|MCP1, BNIP3, Nix, Noxa mRNA/protein|TD mouse astrocytes over time|unknown|positive|not_reported|V3|abstract only
+F|F3|mechanism|HIF-1a inhibition, target genes, apoptosis|TD astrocytes with YC1 or thiamine|unknown|negative|not_reported|V4+V6|cell model only

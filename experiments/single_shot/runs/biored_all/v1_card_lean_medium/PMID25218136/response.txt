@@ -1,0 +1,41 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; rat sepsis model study
+E|D1|disease|sepsis|Sepsis;sepsis|r||||
+E|PH1|phenotype|leucine resistance|Leu resistance|r||||
+E|G1|gene|mTOR|mTOR|r||non-human||
+E|G2|gene|4E-BP1|4E-BP1|r||non-human||
+E|G3|gene|S6K1|S6K1|r||non-human||
+E|G4|gene|CAT1|CAT1|r||non-human||
+E|G5|gene|LAT2|LAT2|r||non-human||
+E|G6|gene|SNAT2|SNAT2|r||non-human||
+E|G7|gene|PAT2|PAT2;proton-assisted amino acid transporter (PAT)-2|r||non-human||
+E|G8|gene|LAMTOR-1|LAMTOR-1|r||non-human||
+E|G9|gene|raptor|raptor|r||non-human||
+E|G10|gene|Rheb|Rheb|r||non-human||
+E|G11|gene|PRAS40|PRAS40|r||non-human||
+E|G12|gene|RagC|RagC|r||non-human||
+X|RagA-D|b0002|gene set range, not single-gene endpoint
+X|mTOR-Ragulator complex|b0002|protein complex, not single gene
+EV|V1|b0002.s2|ts|res|aff|rr,cmp
+EV|V2|b0002.s4|ts|res|aff|rr,cmp
+EV|V3|b0002.s5|ts|res|aff|rr,cmp
+EV|V4|b0002.s6|ts|neg|neg|rr,cmp
+EV|V5|b0002.s7|ts|res|aff|rr,cmp
+EV|V6|b0002.s9|ts|int|hyp|ho
+EV|V7|b0002.s1|ts|aim|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1;neg:-:ts:V4||V6|Reduced mTOR activation in septic rat muscle
+P|G2|D1|sup|a|ts|sup:a:ts:V1|||Decreased 4E-BP1 phosphorylation in sepsis
+P|G3|D1|sup|a|ts|sup:a:ts:V1|||Decreased S6K1 phosphorylation in sepsis
+P|G4|D1|sup|a|ts|sup:a:ts:V2|||CAT1 mRNA up, protein down in sepsis
+P|G5|D1|sup|a|ts|sup:a:ts:V2|||LAT2 mRNA increased; protein unchanged
+P|G6|D1|sup|a|ts|sup:a:ts:V2|||SNAT2 mRNA increased; protein unchanged
+P|G7|D1|sup|a|ts|sup:a:ts:V3|||PAT2 mRNA decreased; protein unchanged
+P|G8|D1|neg|-|ts|neg:-:ts:V4|||No sepsis effect on protein content
+P|G9|D1|neg|-|ts|neg:-:ts:V4||V5+V6|No protein change; basal binding unchanged
+P|G10|D1|neg|-|ts|neg:-:ts:V4|||No sepsis effect on protein content
+P|G11|D1|sup|a|ts|sup:a:ts:V5|||Leu-induced PRAS40-raptor decrease absent in sepsis
+P|G12|D1|sup|a|ts|sup:a:ts:V5||V6|Leu-induced RagC-raptor increase absent in sepsis
+F|F1|group_comparison|transporter mRNA and protein|septic vs control rat muscle|mixed|mixed|not_reported|V2+V3|significance for mRNA not stated
+F|F2|group_comparison|mTOR pathway protein content|septic vs control rat muscle|not_significant|null|not_reported|V4|
+F|F3|hypothesis|transporters vs Leu resistance|septic rats|not_applicable|null|not_applicable|V6+V7|interpretive conclusion
+R|surface form|b0002.s6|LAMTOR-2 written only as elided "-2", no verbatim surface|Omitted LAMTOR-2 entity; LAMTOR-1 kept

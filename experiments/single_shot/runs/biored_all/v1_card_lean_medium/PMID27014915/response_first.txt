@@ -1,0 +1,34 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text
+E|g1|gene|p65|p65|r||human||
+E|g2|gene|p50|p50|r||human||
+E|g3|gene|TNFa|TNFa|r||human||
+E|g4|gene|cIAP1|cIAP1|r||human||
+E|g5|gene|cIAP2|cIAP2|r||human||
+E|g6|gene|RIP1|RIP1|r||human||
+E|g7|gene|RIP3|RIP3|r||human||
+E|g8|gene|IRF3|IRF3|p|species_unresolved|||
+E|g9|gene|IFNb|IFNb|p|species_unresolved|||
+E|g10|gene|CCL2|CCL2|p|species_unresolved|||
+E|g11|gene|CCL5|CCL5|p|species_unresolved|||
+E|g12|gene|perforin|perforin|p|species_unresolved|||
+E|g13|gene|FasL|FasL|p|species_unresolved|||
+E|d1|disease|soft tissue sarcoma|soft tissue sarcoma;STS|r|||d2|
+E|d2|disease|sarcoma|sarcoma|r||||
+E|d3|disease|tumor|tumor|p|other|||
+X|NF-kB|b0001|protein complex, not a single-gene endpoint
+X|caspases|b0002|gene family, not a single-gene endpoint
+X|Th1/Tc1|b0001|T cell subset, not gene or disease
+X|BV6|b0002|drug compound, not a gene
+EV|V1|b0002.s2+b0002.s3+b0002.s4|ts|res|na|rr,do
+EV|V2|b0002.s5|ts|res|na|rr,do
+EV|V3|b0002.s7|ts|res|na|rr,do
+EV|V4|b0002.s8|ts|res|na|rr,do
+P|g3|d1|nf|-|||V1|TNFa induces cell death; this is not a disease link
+P|g4|d1|nf|-|||V2|Drug-induced degradation only; no gene-disease attribution
+P|g5|d1|nf|-|||V2|Drug-induced degradation only; no gene-disease attribution
+P|g8|d2|nf|-|||V3|Radiation-induced upregulation only; no disease comparator
+F|f1|mechanism|radiation; NF-kB binding; TNFa transcription|human STS cells|unknown|positive|not_reported|V1|abstract only
+F|f2|group_comparison|BV6 plus radiation; xenograft suppression|STS xenografts|unknown|positive|not_reported|V2|pharmacological intervention, abstract only
+F|f3|descriptive|radiation; IRF3, IFNb, CCL2, CCL5 expression|syngeneic sarcoma mouse model|unknown|positive|not_reported|V3|abstract only
+F|f4|descriptive|perforin and FasL pathway activation|irradiated tumor tissues|unknown|positive|not_reported|V4|species not stated

@@ -1,0 +1,33 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|Dll4|Delta-like 4;Dll4|p|species_unresolved||
+E|G2|gene|Notch1|Notch1|p|species_unresolved||
+E|G3|gene|CD31|CD31|p|species_unresolved||
+E|G4|gene|VE-Cadherin|VE-Cadherin|p|species_unresolved||
+E|G5|gene|c-kit|c-kit|p|species_unresolved||
+E|G6|gene|CD105|CD105|p|species_unresolved||
+E|G7|gene|VEGFR3|VEGFR3|p|species_unresolved||
+E|G8|gene|SMA|SMA|p|species_unresolved,undefined_abbreviation||
+E|G9|gene|IGFbp2|IGFbp2|p|species_unresolved||
+E|G10|gene|IGFbp3|IGFbp3|p|species_unresolved||
+E|G11|gene|Angpt2|Angpt2|p|species_unresolved||
+E|G12|gene|DHH|DHH|p|species_unresolved||
+E|G13|gene|VEGF-A|VEGF-A|p|species_unresolved||
+E|G14|gene|FGF1|FGF1|p|species_unresolved||
+E|G15|gene|CSF2|CSF2|p|species_unresolved||
+E|G16|gene|Akt|Akt|p|species_unresolved,ambiguous_mapping||
+E|G17|gene|Erk 1/2|Erk 1/2|p|species_unresolved,ambiguous_mapping||
+E|G18|gene|CD11b|CD11b|p|species_unresolved||
+E|G19|gene|B220|B220|p|species_unresolved||
+E|G20|gene|CD3|CD3|p|species_unresolved,ambiguous_mapping||
+E|D1|disease|tumor|tumor;tumors|r|||
+X|Notch pathway family|b0002.s1|gene family or pathway, not single gene
+X|CFU-M|b0002.s8|colony assay readout, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s4|ts|res|na|rr
+EV|V3|b0002.s5|ts|res|na|rr
+EV|V4|b0002.s7+b0002.s8|ts|res|na|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1||V1|Background: Dll4 blockade halts tumor growth
+F|F1|group_comparison|anti-Dll4 vs control; BM vessel marker density|sub-lethally irradiated mice BM|unknown|mixed|not_reported|V2|abstract only
+F|F2|group_comparison|anti-Dll4; angiocrine gene expression|treated mice BM in vivo|unknown|mixed|not_reported|V3|abstract only
+F|F3|group_comparison|anti-Dll4; myeloid/lymphoid content, CFU colonies|treated mice BM; methylcellulose|unknown|mixed|not_reported|V4|Notch1-independent; abstract only

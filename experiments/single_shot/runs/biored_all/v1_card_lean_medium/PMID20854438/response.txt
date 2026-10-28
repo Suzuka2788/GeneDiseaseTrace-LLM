@@ -1,0 +1,24 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SLURP1|SLURP1;SLURP-1;ARS component B;lymphocyte antigen 6/urokinase-type plasminogen activator receptor related protein-1|r||human||
+E|G2|gene|CD3|CD3|p|other|human||
+E|G3|gene|CD28|CD28|p|other|human||
+E|D1|disease|mal de Meleda|mal de Meleda;Mal de Meleda;MDM|r||||
+E|D2|disease|palmoplantar erythrokeratoderma|palmoplantar erythrokeratoderma|r||||
+E|D3|disease|melanoma|melanoma|r||||
+E|D4|disease|viral infection|viral infection|r||||
+E|S1|phenotype|defective T-cell activation|defective T-cell activation|r||||
+X|nicotinic acetylcholine receptor (nAchR)|b0002|receptor complex/family, not single-gene endpoint
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s7|ts|co|na|do
+EV|V3|b0002.s4|unk|res|aff|unc
+EV|V4|b0002.s9+b0002.s10|ts|res|aff|rr,cmp
+EV|V5|b0002.s11|ts|int|hyp|ho
+EV|V6|b0002.s8|ts|res|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1|||Explicit background statement: SLURP1 mutation causes MDM
+P|G1|D3|unc|-|unk|unc:-:unk:V3|support_basis_unresolved,scope||Family melanoma proneness stated; basis and source unclear
+P|G1|D4|unc|-|unk|unc:-:unk:V3|support_basis_unresolved,scope||Viral infection proneness stated; basis and source unclear
+F|F1|group_comparison|SLURP-1 G86R genotype vs T-cell activation|Taiwanese MDM family PBMCs vs wild-type|unknown|negative|not_reported|V4+V6|Abstract only; no statistics
+F|F2|mechanism|recombinant SLURP-1 restores T-cell activation|G86R mutant PBMCs|unknown|positive|not_reported|V4|Abstract only
+F|F3|hypothesis|homozygous G86R and impaired T-cell activation|MDM patients|not_applicable|negative|not_applicable|V5|Hedged conclusion
+C|C1|genotypes stimulated: homozygotes only vs heterozygous too|b0002.s8;b0002.s9|noncritical|unresolved|Methods omit heterozygotes; results include them

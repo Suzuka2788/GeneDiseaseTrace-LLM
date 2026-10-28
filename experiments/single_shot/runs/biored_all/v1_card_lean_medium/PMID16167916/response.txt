@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; full text unavailable
+E|G1|gene|thrombin-activatable fibrinolysis inhibitor|thrombin-activatable fibrinolysis inhibitor;TAFI|r||human||
+E|G2|gene|tissue-type plasminogen activator|tissue-type plasminogen activator;tPA|r||human||
+E|G3|gene|plasminogen activator inhibitor-1|plasminogen activator inhibitor-1;PAI-1|r||human||
+E|D1|disease|osteopenia|osteopenia|r||||
+E|D2|disease|osteoporosis|osteoporosis|r||||
+E|D3|disease|venous thromboembolism|venous thromboembolism|r||||
+E|S1|symptom|amenorrhea|amenorrhea|r||||
+EV|V1|b0002.s10|ts|int|hyp|ho
+EV|V2|b0002.s8|ts|res|na|rr,do
+EV|V3|b0002.s9|ts|res|na|rr
+P|G2|D3|unc|-|ts|unc:-:ts:V1|hedged_claim|V2|Authors suggest tPA may relate to VTE risk
+P|G1|D3|unc|-|ts|unc:-:ts:V1|hedged_claim|V2|Hedged suggestion excluding TAFI; no direct test
+F|F1|group_comparison|TAFI antigen before vs after raloxifene|postmenopausal women with osteopenia/osteoporosis|significant|negative|partial|V2|abstract only; 16% change
+F|F2|group_comparison|tPA antigen before vs after raloxifene|postmenopausal women with osteopenia/osteoporosis|significant|positive|partial|V2|abstract only; 25% change
+F|F3|correlation|baseline TAFI vs amenorrhea duration|postmenopausal women|significant|positive|available|V3|r=0.33
+F|F4|group_comparison|PAI-1 antigen before vs after raloxifene|postmenopausal women with osteopenia/osteoporosis|unknown|unknown|not_reported||PAI-1 result not stated

@@ -1,0 +1,19 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; single patient case study
+E|G1|gene|UL97|UL97|r||non-human||
+E|G2|gene|glycoprotein B|glycoprotein B;gB|r||non-human||
+E|G3|gene|DNA polymerase|DNA polymerase|p|ambiguous_mapping|non-human||
+E|D1|disease|lymphoma|lymphoma|r||||
+E|D2|disease|non-Hodgkin's lymphoma|non-Hodgkin's lymphoma|r|||D1|
+X|cytomegalovirus|b0001|organism name, not a disease entity; no infection term written
+X|CMV|b0002|organism abbreviation; not a disease endpoint
+X|UL10-13|b0002|multi-gene sequence region, not a single-gene endpoint
+EV|V1|b0002.s8|ts|res|na|rr,do
+EV|V2|b0002.s9|ts|res|na|rr,do
+EV|V3|b0002.s3+b0002.s6|ts|co|na|do
+EV|V4|b0002.s11|ts|res|na|rr
+P|G1|D2|nf|-|||||V1+V3|viral drug resistance only; no lymphoma link
+P|G3|D2|nf|-|||||V2+V3|resistance substitutions only; no lymphoma link
+F|F1|mechanism|UL97 changes; ganciclovir resistance|single patient CMV isolates|unknown|positive|not_reported|V1|single patient; drug resistance, not disease
+F|F2|mechanism|DNA polymerase N495K/L501I; drug resistance|single patient CMV isolates|unknown|positive|not_reported|V2|single patient
+F|F3|association|resistance genotype; interstrain (gB) variation|single patient CMV isolates|not_applicable|null|not_reported|V4|descriptive conclusion, single patient

@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ACE|angiotensin I-converting enzyme;ACE|r||human||
+E|D1|disease|gastric cancer|gastric cancer|r||||
+E|S1|phenotype|lymph node metastases|lymph node metastases|r||||
+E|S2|phenotype|distant metastases|distant metastases|r||||
+EV|V1|b0002.s7|ts|neg|neg|cmp
+EV|V2|b0001.s1+b0002.s8+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s11+b0002.s12+b0002.s13|ts|res|aff|do
+EV|V4|b0002.s13|ts|int|aff|rr
+P|G1|D1|sup|r|ts|sup:r:ts:V2+V4;neg:-:ts:V1||V3|Genotype correlates with LN metastases; susceptibility not different
+F|F1|group_comparison|ACE genotype distribution vs case status|113 gastric cancer vs 189 controls|not_significant|null|partial|V1|abstract only
+F|F2|correlation|ACE genotype vs number of LN metastases|gastric cancer patients, II vs DD|significant|positive|partial|V2|abstract only; D allele more metastases
+F|F3|correlation|ACE genotype vs UICC tumor stage|gastric cancer patients, II vs DD|significant|positive|partial|V2|abstract only
+F|F4|association|ACE genotype vs type, location, growth, distant metastases|gastric cancer patients|not_significant|null|not_reported|V2|from b0002.s10
+F|F5|descriptive|ACE immunohistochemical expression|100 gastric cancer specimens|not_applicable|not_applicable|available|V3|

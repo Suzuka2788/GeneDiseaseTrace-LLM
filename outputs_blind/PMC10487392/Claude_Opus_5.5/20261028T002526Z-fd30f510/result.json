@@ -1,0 +1,4183 @@
+{
+  "manifest": {
+    "run_id": "20261028T002526Z-fd30f510",
+    "rule_version": "1.3.0",
+    "rule_hashes": {
+      "SKILL.md": "8469cd2e3cfd2c9672155957181a43b2463ff448cb0d517655d5c333f924062e",
+      "decision-rules.md": "00b8e4fd7b995248d2ac833f4027d992495dc0c7038940ef79a8656d31ae2958",
+      "data-contract.md": "f74cffa0fee82711ba58e759066dcc18cceb3430f8bc6641cc31e08a74ed2d4e"
+    },
+    "paper_id": "PMC10487392",
+    "title": "Deletion as novel variants in VPS13B gene in Cohen syndrome: Case series",
+    "article_type": "case-report",
+    "language": "en",
+    "input_path": "input/PMC10487392.xml",
+    "source_sha256": "6acd0775e893d1ae75ce3e0c4363a149bc6ecece844d28e475c58a3634646f54",
+    "annotation_hash": "fd30f510540b451bbbee08f48129bcff2071c4b83f77315db12b258a77403896",
+    "model_identifier": "claude-opus-5-5",
+    "exposure": {
+      "statement": "No prior exposure. In this session and in any memory available to me I have not seen prior analysis results for PMC10487392, other models' outputs for it, or the skill's boundary-cases.md / model-comparison.md / CHANGELOG.md. No persistent memories were loaded into this session's context (the memory directory was not opened, to respect the working-directory-only rule). Only files inside the working directory were read; no network or database queries were made.",
+      "blind": true
+    },
+    "completion": "complete",
+    "unread_attachments": [
+      {
+        "name": "Figures 1-5 (image files)",
+        "original_link": "linked graphics in XML",
+        "cited_at": [
+          "b0014",
+          "b0015",
+          "b0016",
+          "b0017",
+          "b0019",
+          "b0020",
+          "b0021"
+        ],
+        "reason": "Image pixels not analysed by parser; captions read.",
+        "depends_on_unread": false,
+        "dependency_detail": "Captions state the relevant inheritance results; no pair status depends on image content."
+      }
+    ],
+    "scope_overrides": [],
+    "scope_exclusions": [],
+    "text_normalization": "biomed.jats.normalize: NFKC; hyphen/dash/minus/apostrophe variants unified; whitespace collapsed",
+    "parser": {
+      "entrypoint": "biomed.jats.parse_article",
+      "sha256": "a0eb5fa7b4199c23c2a2d9c95f66b6458f8f8aeeec3c03f9147b430f9bdb5f81"
+    },
+    "toolkit_version": "0.1.0",
+    "toolkit_hashes": {
+      "__init__.py": "b000475e258418b4453f90adde0eda340030b7d422a5409f1a740cf24b3564e1",
+      "blocks.py": "3f545d4d6e095faa67752510a2310503bc99a2cafff252f884157f0a994ac512",
+      "build.py": "5c11008a6e947d19caf3931694336f3edfea998a5d5c187539df2d19602062b9",
+      "common.py": "e35b9dbf280ba543d6dd204aec3d5b0c4d9b2d09839a656570fed794f1fb08b5",
+      "find.py": "00f0de3bfeded6bb6d50a8a11e8631a1c3ce3081924c04b2531c51e05f6344ea",
+      "render.py": "281756fa128852d315d0bfeb71b599108b5803a7896581c30073a1891f967f60",
+      "validate.py": "525e09cd8c254e84dfc602a5ec6b370c24d92f8c7f3d9230c9018f3436855b83"
+    },
+    "counts": {
+      "units": 1,
+      "genes": 2,
+      "targets": 4,
+      "auxiliary_entities": 25,
+      "excluded_candidates": 10,
+      "mentions": 126,
+      "pairs": 8,
+      "edges": 2,
+      "evidence": 23,
+      "study_findings": 4,
+      "data_conflicts": 5
+    },
+    "status_counts": {
+      "supported": 2,
+      "explicit_negative": 0,
+      "uncertain": 0,
+      "not_found": 6
+    },
+    "check_limits": "Toolkit checks structure, quotes, offsets, matrix and graph consistency only; not semantic correctness."
+  },
+  "units": [
+    {
+      "unit_id": "u1",
+      "title": "Deletion as novel variants in VPS13B gene in Cohen syndrome: Case series",
+      "blocks": "all"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "G1",
+      "entity_type": "gene",
+      "canonical_name": "VPS13B",
+      "surface_forms": [
+        "VPS13B",
+        "vacuolar protein sorting 13 homolog B",
+        "13B vacuolar sorting protein gene"
+      ],
+      "extra_mentions": [
+        {
+          "block_id": "b0067",
+          "surface": "Golgi-enhanced scaffold protein",
+          "occurrence": 1,
+          "mention_role": "protein_product",
+          "contextual_referent": "VPS13B",
+          "coreference_path": "b0067: 'VPS13B gene mutation leads to the reduction of coding protein which is a Golgi-enhanced scaffold protein' - the coding protein of VPS13B"
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "gene_species": "human",
+      "host_species": null,
+      "species_scope": "Human patients (two Chinese children) and human disease background; reference sequence NM_017890.4.",
+      "merge_basis": "Full name and abbreviation explicitly expanded in b0003 and b0009 ('vacuolar protein sorting 13 homolog B (VPS13B)'); '13B vacuolar sorting protein gene' is given in apposition to the same name in b0009.",
+      "ambiguity": "",
+      "parent_id": null,
+      "hierarchy_basis": "",
+      "qualifiers": {
+        "chromosome_location_text": [
+          "8q22.2",
+          "8q22",
+          "8q22-8q23"
+        ]
+      },
+      "in_primary_matrix": true,
+      "database_id": null,
+      "reference_sequences_from_text": [
+        "NM_017890.4"
+      ],
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "13B vacuolar sorting protein gene",
+        "Golgi-enhanced scaffold protein",
+        "VPS13B",
+        "vacuolar protein sorting 13 homolog B"
+      ],
+      "location": [
+        "b0001",
+        "b0003",
+        "b0005",
+        "b0007",
+        "b0009",
+        "b0010",
+        "b0011",
+        "b0014",
+        "b0016",
+        "b0017",
+        "b0019",
+        "b0020",
+        "b0021",
+        "b0048",
+        "b0066",
+        "b0067",
+        "b0068",
+        "b0071"
+      ]
+    },
+    {
+      "entity_id": "G2",
+      "entity_type": "gene",
+      "canonical_name": "SERPINB1",
+      "surface_forms": [
+        "SERPINB1",
+        {
+          "surface": "SerpinB1",
+          "role": "protein_product_expression"
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "gene_species": "human",
+      "host_species": null,
+      "species_scope": "Background statement about neutrophils of Cohen syndrome patients (human), b0067 [15][16].",
+      "merge_basis": "'SerpinB1 expression' (b0067, mechanism of VPS13B-related neutropenia) and 'the SERPINB1 gene, which encodes a critical component of neutrophil survival' (b0067) are described with the same function ('critical component of neutrophil survival') in adjacent sentences; same symbol differing only in case.",
+      "ambiguity": "Case variant SerpinB1 vs SERPINB1 is not used to infer species; context (human patients' neutrophils) is.",
+      "parent_id": null,
+      "hierarchy_basis": "",
+      "qualifiers": {},
+      "in_primary_matrix": true,
+      "database_id": null,
+      "reference_sequences_from_text": [],
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "SERPINB1",
+        "SerpinB1"
+      ],
+      "location": [
+        "b0067"
+      ]
+    },
+    {
+      "entity_id": "D1",
+      "entity_type": "disease",
+      "canonical_name": "Cohen syndrome",
+      "surface_forms": [
+        "Cohen syndrome"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "gene_species": null,
+      "host_species": null,
+      "species_scope": "human",
+      "merge_basis": "Single name used throughout; OMIM No. # 216550 given in text (not verified).",
+      "ambiguity": "",
+      "parent_id": "D2",
+      "hierarchy_basis": "b0010: 'Cohen syndrome is a neurodevelopmental disease'",
+      "qualifiers": {
+        "inheritance_text": "rare autosomal recessive (b0003, b0009)",
+        "omim_text": "216550"
+      },
+      "in_primary_matrix": true,
+      "database_id": null,
+      "reference_sequences_from_text": [],
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Cohen syndrome"
+      ],
+      "location": [
+        "b0001",
+        "b0003",
+        "b0007",
+        "b0009",
+        "b0010",
+        "b0011",
+        "b0066",
+        "b0067",
+        "b0068",
+        "b0069",
+        "b0071"
+      ]
+    },
+    {
+      "entity_id": "D2",
+      "entity_type": "disease",
+      "canonical_name": "neurodevelopmental disease",
+      "surface_forms": [
+        "neurodevelopmental disease"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "gene_species": null,
+      "host_species": null,
+      "species_scope": "human",
+      "merge_basis": "",
+      "ambiguity": "Broad disease family used only as the definitional superclass of Cohen syndrome (R1/R7).",
+      "parent_id": null,
+      "hierarchy_basis": "Superclass of Cohen syndrome per b0010.",
+      "qualifiers": {},
+      "in_primary_matrix": true,
+      "database_id": null,
+      "reference_sequences_from_text": [],
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "neurodevelopmental disease"
+      ],
+      "location": [
+        "b0010"
+      ]
+    },
+    {
+      "entity_id": "D3",
+      "entity_type": "disease",
+      "canonical_name": "retinal dystrophy",
+      "surface_forms": [
+        "retinal dystrophy"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "gene_species": null,
+      "host_species": null,
+      "species_scope": "human",
+      "merge_basis": "",
+      "ambiguity": "Named disease term used as a variable clinical manifestation of Cohen syndrome (b0068) and as a monitoring target (b0069); kept in the primary matrix conservatively as an explicitly named disease (R1), not as a separate diagnosis in the two patients.",
+      "parent_id": null,
+      "hierarchy_basis": "",
+      "qualifiers": {},
+      "in_primary_matrix": true,
+      "database_id": null,
+      "reference_sequences_from_text": [],
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "retinal dystrophy"
+      ],
+      "location": [
+        "b0068",
+        "b0069"
+      ]
+    },
+    {
+      "entity_id": "D4",
+      "entity_type": "disease",
+      "canonical_name": "heart disease",
+      "surface_forms": [
+        "heart disease"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "gene_species": null,
+      "host_species": null,
+      "species_scope": "human",
+      "merge_basis": "",
+      "ambiguity": "Broad disease family listed as a variable clinical manifestation of Cohen syndrome (b0068); the patients 'did not present any ... cardiologic abnormality'. Kept in primary matrix conservatively (R1 broad family used as relation object of a manifestation statement).",
+      "parent_id": null,
+      "hierarchy_basis": "",
+      "qualifiers": {},
+      "in_primary_matrix": true,
+      "database_id": null,
+      "reference_sequences_from_text": [],
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "heart disease"
+      ],
+      "location": [
+        "b0068"
+      ]
+    }
+  ],
+  "auxiliary_entities": [
+    {
+      "entity_id": "P1",
+      "entity_type": "phenotype",
+      "canonical_name": "neutropenia",
+      "surface_forms": [
+        "neutropenia"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "ambiguity": "Laboratory/haematological finding and core manifestation of Cohen syndrome in this paper (both cases: low neutrophil percentage). Treated as auxiliary under R1 (laboratory finding / sign). Paper proposes a 'possible mechanism of VPS13B causing neutropenia' (b0067) - recorded in study_findings, not as a primary pair.",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "neutropenia"
+      ],
+      "location": [
+        "b0003",
+        "b0007",
+        "b0010",
+        "b0067",
+        "b0068",
+        "b0069",
+        "b0071"
+      ]
+    },
+    {
+      "entity_id": "P2",
+      "entity_type": "phenotype",
+      "canonical_name": "developmental retardation",
+      "surface_forms": [
+        {
+          "surface": "developmental retardation",
+          "ignore_case": true
+        },
+        "psychomotor retardation",
+        "psychomotor developmental delay"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "merge_basis": "Clinical descriptions of the same presenting sign in the two cases; kept as one auxiliary phenotype for display only.",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Developmental retardation",
+        "developmental retardation",
+        "psychomotor developmental delay",
+        "psychomotor retardation"
+      ],
+      "location": [
+        "b0005",
+        "b0007",
+        "b0014",
+        "b0019",
+        "b0035",
+        "b0039",
+        "b0044",
+        "b0067",
+        "b0069"
+      ]
+    },
+    {
+      "entity_id": "P3",
+      "entity_type": "phenotype",
+      "canonical_name": "microcephaly",
+      "surface_forms": [
+        "microcephaly"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "microcephaly"
+      ],
+      "location": [
+        "b0003",
+        "b0010",
+        "b0014",
+        "b0019"
+      ]
+    },
+    {
+      "entity_id": "P4",
+      "entity_type": "phenotype",
+      "canonical_name": "micrognathia",
+      "surface_forms": [
+        {
+          "surface": "micrognathia",
+          "ignore_case": true
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Micrognathia",
+        "micrognathia"
+      ],
+      "location": [
+        "b0010",
+        "b0014",
+        "b0019",
+        "b0034",
+        "b0038"
+      ]
+    },
+    {
+      "entity_id": "P5",
+      "entity_type": "phenotype",
+      "canonical_name": "intellectual disabilities",
+      "surface_forms": [
+        "intellectual disabilities",
+        "mental deficiency"
+      ],
+      "identity_status": "provisional",
+      "identity_issues": [
+        "other"
+      ],
+      "in_primary_matrix": false,
+      "merge_basis": "Grouped for display only as cognitive-impairment features listed among Cohen syndrome manifestations; no strict synonymy asserted.",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "intellectual disabilities",
+        "mental deficiency"
+      ],
+      "location": [
+        "b0003",
+        "b0010",
+        "b0068"
+      ]
+    },
+    {
+      "entity_id": "P6",
+      "entity_type": "phenotype",
+      "canonical_name": "hypotonia",
+      "surface_forms": [
+        "hypotonia"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "hypotonia"
+      ],
+      "location": [
+        "b0010",
+        "b0068",
+        "b0069"
+      ]
+    },
+    {
+      "entity_id": "P7",
+      "entity_type": "phenotype",
+      "canonical_name": "myopia",
+      "surface_forms": [
+        "myopia"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "ambiguity": "Refractive manifestation listed among Cohen syndrome features; treated as phenotype (cf. 'refractive errors' b0069).",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "myopia"
+      ],
+      "location": [
+        "b0010",
+        "b0068"
+      ]
+    },
+    {
+      "entity_id": "P8",
+      "entity_type": "phenotype",
+      "canonical_name": "joint hypermobility",
+      "surface_forms": [
+        "hypermobile joints",
+        "joint hyperactivity"
+      ],
+      "identity_status": "provisional",
+      "identity_issues": [
+        "other"
+      ],
+      "in_primary_matrix": false,
+      "merge_basis": "'joint hyperactivity' (b0069, b0071) appears to denote the 'hypermobile joints' manifestation (b0003); grouped for display only.",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "hypermobile joints",
+        "joint hyperactivity"
+      ],
+      "location": [
+        "b0003",
+        "b0069",
+        "b0071"
+      ]
+    },
+    {
+      "entity_id": "P9",
+      "entity_type": "phenotype",
+      "canonical_name": "short stature",
+      "surface_forms": [
+        "short stature"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "short stature"
+      ],
+      "location": [
+        "b0010"
+      ]
+    },
+    {
+      "entity_id": "P10",
+      "entity_type": "phenotype",
+      "canonical_name": "musculoskeletal abnormalities",
+      "surface_forms": [
+        "musculoskeletal abnormalities"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "musculoskeletal abnormalities"
+      ],
+      "location": [
+        "b0010"
+      ]
+    },
+    {
+      "entity_id": "P11",
+      "entity_type": "phenotype",
+      "canonical_name": "craniofacial and limb anomalies",
+      "surface_forms": [
+        "craniofacial and limb anomalies"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "craniofacial and limb anomalies"
+      ],
+      "location": [
+        "b0003"
+      ]
+    },
+    {
+      "entity_id": "P12",
+      "entity_type": "phenotype",
+      "canonical_name": "short philtrum",
+      "surface_forms": [
+        "short philtrum"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "short philtrum"
+      ],
+      "location": [
+        "b0010"
+      ]
+    },
+    {
+      "entity_id": "P13",
+      "entity_type": "phenotype",
+      "canonical_name": "hypertelorism",
+      "surface_forms": [
+        {
+          "surface": "hypertelorism",
+          "ignore_case": true
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Hypertelorism",
+        "hypertelorism"
+      ],
+      "location": [
+        "b0014",
+        "b0034"
+      ]
+    },
+    {
+      "entity_id": "P14",
+      "entity_type": "phenotype",
+      "canonical_name": "thick eyebrows",
+      "surface_forms": [
+        {
+          "surface": "thick eyebrows",
+          "ignore_case": true
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Thick eyebrows",
+        "thick eyebrows"
+      ],
+      "location": [
+        "b0014",
+        "b0035"
+      ]
+    },
+    {
+      "entity_id": "P15",
+      "entity_type": "phenotype",
+      "canonical_name": "thick bushy hair",
+      "surface_forms": [
+        {
+          "surface": "thick bushy hair",
+          "ignore_case": true
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Thick bushy hair",
+        "thick bushy hair"
+      ],
+      "location": [
+        "b0014",
+        "b0036"
+      ]
+    },
+    {
+      "entity_id": "P16",
+      "entity_type": "phenotype",
+      "canonical_name": "low hairline",
+      "surface_forms": [
+        {
+          "surface": "low hairline",
+          "ignore_case": true
+        }
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Low hairline",
+        "low hairline"
+      ],
+      "location": [
+        "b0014",
+        "b0037"
+      ]
+    },
+    {
+      "entity_id": "P17",
+      "entity_type": "symptom",
+      "canonical_name": "speech delay",
+      "surface_forms": [
+        "speech delay"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "speech delay"
+      ],
+      "location": [
+        "b0014"
+      ]
+    },
+    {
+      "entity_id": "P18",
+      "entity_type": "phenotype",
+      "canonical_name": "widened brain gap",
+      "surface_forms": [
+        "A widened brain gap"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "ambiguity": "Imaging finding, Case 1 (Table 1).",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "A widened brain gap"
+      ],
+      "location": [
+        "b0041"
+      ]
+    },
+    {
+      "entity_id": "P19",
+      "entity_type": "phenotype",
+      "canonical_name": "cerebellar dysplasia",
+      "surface_forms": [
+        "Cerebellar dysplasia"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "ambiguity": "Imaging finding, Case 2 (Table 1); treated as imaging finding not diagnosis (R1).",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "Cerebellar dysplasia"
+      ],
+      "location": [
+        "b0041"
+      ]
+    },
+    {
+      "entity_id": "P20",
+      "entity_type": "phenotype",
+      "canonical_name": "obesity",
+      "surface_forms": [
+        "obesity"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "ambiguity": "Listed as a clinical-diagnostic manifestation of Cohen syndrome (b0068); feature, not separate diagnosis.",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "obesity"
+      ],
+      "location": [
+        "b0068"
+      ]
+    },
+    {
+      "entity_id": "P21",
+      "entity_type": "phenotype",
+      "canonical_name": "leukopenia",
+      "surface_forms": [
+        "leukopenia"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "leukopenia"
+      ],
+      "location": [
+        "b0068"
+      ]
+    },
+    {
+      "entity_id": "P22",
+      "entity_type": "phenotype",
+      "canonical_name": "facial abnormalities",
+      "surface_forms": [
+        "facial abnormalities"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "facial abnormalities"
+      ],
+      "location": [
+        "b0010"
+      ]
+    },
+    {
+      "entity_id": "P23",
+      "entity_type": "phenotype",
+      "canonical_name": "increased neutrophil apoptosis",
+      "surface_forms": [
+        "increased neutrophil apoptosis",
+        "excessive apoptosis of neutrophils"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "ambiguity": "Cellular phenotype in proposed neutropenia mechanism (b0067).",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "excessive apoptosis of neutrophils",
+        "increased neutrophil apoptosis"
+      ],
+      "location": [
+        "b0067"
+      ]
+    },
+    {
+      "entity_id": "P24",
+      "entity_type": "phenotype",
+      "canonical_name": "refractive errors",
+      "surface_forms": [
+        "refractive errors"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "refractive errors"
+      ],
+      "location": [
+        "b0069"
+      ]
+    },
+    {
+      "entity_id": "P25",
+      "entity_type": "symptom",
+      "canonical_name": "recurring infection",
+      "surface_forms": [
+        "recurring infection"
+      ],
+      "identity_status": "resolved",
+      "identity_issues": [],
+      "in_primary_matrix": false,
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "original_names": [
+        "recurring infection"
+      ],
+      "location": [
+        "b0069"
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "candidate_id": "X1",
+      "surface": "granulocyte colony-stimulating factor",
+      "block_id": "b0069",
+      "context": "granulocyte colony-stimulating factor to improve neutropenia [15]",
+      "candidate_type": "therapeutic_protein",
+      "excluded_reason": "drug_treatment_not_gene_mention",
+      "reason": "Used only as a symptomatic treatment agent; no gene named and no gene-level claim. Not mapped to an encoding gene from external knowledge (R1/R8)."
+    },
+    {
+      "candidate_id": "X2",
+      "surface": "autosomal recessive hereditary disease",
+      "block_id": "b0009",
+      "context": "Cohen syndrome (OMIM No. # 216550) is a rare autosomal recessive hereditary disease [1].",
+      "candidate_type": "inheritance_mode_descriptor",
+      "excluded_reason": "inheritance_mode_not_disease_category",
+      "reason": "'rare autosomal recessive disorder/hereditary disease' (b0003, b0009) describes the inheritance mode of Cohen syndrome rather than naming a disease family; recorded as qualifier of D1. See rule_feedback."
+    },
+    {
+      "candidate_id": "X3",
+      "surface": "genetic diseases",
+      "block_id": "b0071",
+      "context": "great attention should be paid to the possibility of genetic diseases",
+      "candidate_type": "generic_disease_term",
+      "excluded_reason": "generic_non_specific_term",
+      "reason": "Generic clinical-advice phrase, not used as disease category in any relation or analysis."
+    },
+    {
+      "candidate_id": "X4",
+      "surface": "Autistic Behavior Checklist (ABC)",
+      "block_id": "b0014",
+      "context": "The Autistic Behavior Checklist (ABC) score was 61.",
+      "candidate_type": "assessment_instrument",
+      "excluded_reason": "assessment_tool",
+      "reason": "Screening instrument name; no autism diagnosis is stated."
+    },
+    {
+      "candidate_id": "X5",
+      "surface": "modified Checklist for Autism in Toddlers (M-chat)",
+      "block_id": "b0019",
+      "context": "The modified Checklist for Autism in Toddlers (M-chat) score was 28.",
+      "candidate_type": "assessment_instrument",
+      "excluded_reason": "assessment_tool",
+      "reason": "Screening instrument name; no autism diagnosis is stated."
+    },
+    {
+      "candidate_id": "X6",
+      "surface": "ophthalmologic or cardiologic abnormality",
+      "block_id": "b0068",
+      "context": "our patient did not present any ophthalmologic or cardiologic abnormality [17]",
+      "candidate_type": "generic_abnormality_negated",
+      "excluded_reason": "negated_generic_finding",
+      "reason": "Negated generic finding in the patients; not a named disease."
+    },
+    {
+      "candidate_id": "X7",
+      "surface": "NM_017890.4",
+      "block_id": "b0005",
+      "context": "NM_017890.4 Intron38 c.6940+1G > T",
+      "candidate_type": "reference_sequence",
+      "excluded_reason": "reference_sequence_not_entity",
+      "reason": "Recorded under G1.reference_sequences_from_text."
+    },
+    {
+      "candidate_id": "X8",
+      "surface": "ACMG / PVS1 / PM2 / PM3 / PS3",
+      "block_id": "b0052",
+      "context": "Table 2 ACMG evidence codes",
+      "candidate_type": "guideline_codes",
+      "excluded_reason": "guideline_code_not_entity",
+      "reason": "Guideline and evidence codes are not entities."
+    },
+    {
+      "candidate_id": "X9",
+      "surface": "gnomAD",
+      "block_id": "b0061",
+      "context": "has not yet been collected in gnomAD database",
+      "candidate_type": "database",
+      "excluded_reason": "database_not_entity",
+      "reason": "Database name."
+    },
+    {
+      "candidate_id": "X10",
+      "surface": "Golgi complex",
+      "block_id": "b0067",
+      "context": "helps to maintain the structure and function of the Golgi complex",
+      "candidate_type": "cellular_component",
+      "excluded_reason": "cellular_component_not_gene",
+      "reason": "Organelle, not a gene or protein complex of named genes."
+    }
+  ],
+  "gene_sets": [],
+  "mentions": [
+    {
+      "mention_id": "M00001",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0001",
+      "section": "Title",
+      "start": 30,
+      "end": 36,
+      "location": "{\"block_id\": \"b0001\", \"start\": 30, \"end\": 36}",
+      "context": "Deletion as novel variants in VPS13B gene in Cohen syndrome: Case series",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00002",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0001",
+      "section": "Title",
+      "start": 45,
+      "end": 59,
+      "location": "{\"block_id\": \"b0001\", \"start\": 45, \"end\": 59}",
+      "context": "Deletion as novel variants in VPS13B gene in Cohen syndrome: Case series",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00003",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 0,
+      "end": 14,
+      "location": "{\"block_id\": \"b0003\", \"start\": 0, \"end\": 14}",
+      "context": "Cohen syndrome (OMIM No. # 216550) is a rare autosomal recessive disorder caused by homozygous",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00004",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "vacuolar protein sorting 13 homolog B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 111,
+      "end": 148,
+      "location": "{\"block_id\": \"b0003\", \"start\": 111, \"end\": 148}",
+      "context": "50) is a rare autosomal recessive disorder caused by homozygous mutation in the vacuolar protein sorting 13 homolog B (VPS13B) gene on chromosome 8q22.2. Clinical manifestations include hypermobile",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00005",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 150,
+      "end": 156,
+      "location": "{\"block_id\": \"b0003\", \"start\": 150, \"end\": 156}",
+      "context": "der caused by homozygous mutation in the vacuolar protein sorting 13 homolog B (VPS13B) gene on chromosome 8q22.2. Clinical manifestations include hypermobile joints,",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00006",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P8",
+      "surface": "hypermobile joints",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 217,
+      "end": 235,
+      "location": "{\"block_id\": \"b0003\", \"start\": 217, \"end\": 235}",
+      "context": "3 homolog B (VPS13B) gene on chromosome 8q22.2. Clinical manifestations include hypermobile joints, microcephaly, intellectual disabilities, craniofacial and limb anomalies, and ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00007",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P3",
+      "surface": "microcephaly",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 237,
+      "end": 249,
+      "location": "{\"block_id\": \"b0003\", \"start\": 237, \"end\": 249}",
+      "context": " gene on chromosome 8q22.2. Clinical manifestations include hypermobile joints, microcephaly, intellectual disabilities, craniofacial and limb anomalies, and neutropenia. T",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00008",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P5",
+      "surface": "intellectual disabilities",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 251,
+      "end": 276,
+      "location": "{\"block_id\": \"b0003\", \"start\": 251, \"end\": 276}",
+      "context": "osome 8q22.2. Clinical manifestations include hypermobile joints, microcephaly, intellectual disabilities, craniofacial and limb anomalies, and neutropenia. To date, more than 200 mutat",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00009",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P11",
+      "surface": "craniofacial and limb anomalies",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 278,
+      "end": 309,
+      "location": "{\"block_id\": \"b0003\", \"start\": 278, \"end\": 309}",
+      "context": "festations include hypermobile joints, microcephaly, intellectual disabilities, craniofacial and limb anomalies, and neutropenia. To date, more than 200 mutations of VPS13B have been reported",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00010",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 315,
+      "end": 326,
+      "location": "{\"block_id\": \"b0003\", \"start\": 315, \"end\": 326}",
+      "context": ", microcephaly, intellectual disabilities, craniofacial and limb anomalies, and neutropenia. To date, more than 200 mutations of VPS13B have been reported in over 1,000 Co",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00011",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 364,
+      "end": 370,
+      "location": "{\"block_id\": \"b0003\", \"start\": 364, \"end\": 370}",
+      "context": "facial and limb anomalies, and neutropenia. To date, more than 200 mutations of VPS13B have been reported in over 1,000 Cohen syndrome patients. This article reviews ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00012",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 404,
+      "end": 418,
+      "location": "{\"block_id\": \"b0003\", \"start\": 404, \"end\": 418}",
+      "context": "ia. To date, more than 200 mutations of VPS13B have been reported in over 1,000 Cohen syndrome patients. This article reviews the clinical data of two cases of Cohen syndrome",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00013",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0003",
+      "section": "Abstract / Background",
+      "start": 484,
+      "end": 498,
+      "location": "{\"block_id\": \"b0003\", \"start\": 484, \"end\": 498}",
+      "context": "Cohen syndrome patients. This article reviews the clinical data of two cases of Cohen syndrome diagnosed by whole exome sequencing.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00014",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "psychomotor retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0005",
+      "section": "Abstract / Results",
+      "start": 26,
+      "end": 49,
+      "location": "{\"block_id\": \"b0005\", \"start\": 26, \"end\": 49}",
+      "context": "Both children visited for psychomotor retardation. Gene detection showed a mutation in 8q22.2, NM_017890.4 Intron38 c.6940+1G > T",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00015",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0005",
+      "section": "Abstract / Results",
+      "start": 177,
+      "end": 183,
+      "location": "{\"block_id\": \"b0005\", \"start\": 177, \"end\": 183}",
+      "context": "_017890.4 Intron38 c.6940+1G > T and heterozygotic deletion of exon 3-19 of the VPS13B gene (Case 1), and a mutation in 8q22.2, NM_017890.4 Intron38 c.6940+1G > T and",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00016",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0005",
+      "section": "Abstract / Results",
+      "start": 312,
+      "end": 318,
+      "location": "{\"block_id\": \"b0005\", \"start\": 312, \"end\": 318}",
+      "context": "90.4 Intron38 c.6940+1G > T and 8q22, NM_017890.4 Exon56 c10334_10335del in the VPS13B gene (Case 2). The variation was predicted to be pathogenic by related software",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00017",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0007",
+      "section": "Abstract / Conclusion",
+      "start": 0,
+      "end": 14,
+      "location": "{\"block_id\": \"b0007\", \"start\": 0, \"end\": 14}",
+      "context": "Cohen syndrome should be considered in the differential diagnosis of any child with developmen",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00018",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0007",
+      "section": "Abstract / Conclusion",
+      "start": 84,
+      "end": 109,
+      "location": "{\"block_id\": \"b0007\", \"start\": 84, \"end\": 109}",
+      "context": "n syndrome should be considered in the differential diagnosis of any child with developmental retardation and neutropenia. The present study increases the mutation spectrum of the VPS13",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00019",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0007",
+      "section": "Abstract / Conclusion",
+      "start": 114,
+      "end": 125,
+      "location": "{\"block_id\": \"b0007\", \"start\": 114, \"end\": 125}",
+      "context": "d in the differential diagnosis of any child with developmental retardation and neutropenia. The present study increases the mutation spectrum of the VPS13B gene and could",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00020",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0007",
+      "section": "Abstract / Conclusion",
+      "start": 184,
+      "end": 190,
+      "location": "{\"block_id\": \"b0007\", \"start\": 184, \"end\": 190}",
+      "context": "ation and neutropenia. The present study increases the mutation spectrum of the VPS13B gene and could be helpful in genetic diagnosis and genetic counseling in Cohen ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00021",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0007",
+      "section": "Abstract / Conclusion",
+      "start": 264,
+      "end": 278,
+      "location": "{\"block_id\": \"b0007\", \"start\": 264, \"end\": 278}",
+      "context": "VPS13B gene and could be helpful in genetic diagnosis and genetic counseling in Cohen syndrome patients.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00022",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0009",
+      "section": "Body / Introduction",
+      "start": 0,
+      "end": 14,
+      "location": "{\"block_id\": \"b0009\", \"start\": 0, \"end\": 14}",
+      "context": "Cohen syndrome (OMIM No. # 216550) is a rare autosomal recessive hereditary disease [1]. Cohen",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00023",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0009",
+      "section": "Body / Introduction",
+      "start": 89,
+      "end": 103,
+      "location": "{\"block_id\": \"b0009\", \"start\": 89, \"end\": 103}",
+      "context": "drome (OMIM No. # 216550) is a rare autosomal recessive hereditary disease [1]. Cohen syndrome was first described by M. Michael Cohen Jr. in two affected siblings and one is",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00024",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "13B vacuolar sorting protein gene",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0009",
+      "section": "Body / Introduction",
+      "start": 216,
+      "end": 249,
+      "location": "{\"block_id\": \"b0009\", \"start\": 216, \"end\": 249}",
+      "context": "l Cohen Jr. in two affected siblings and one isolated case [2]. Mutation in the 13B vacuolar sorting protein gene, vacuolar protein sorting 13 homolog B (VPS13B) (8q22-8q23) gene, which is the ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00025",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "vacuolar protein sorting 13 homolog B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0009",
+      "section": "Body / Introduction",
+      "start": 251,
+      "end": 288,
+      "location": "{\"block_id\": \"b0009\", \"start\": 251, \"end\": 288}",
+      "context": "s and one isolated case [2]. Mutation in the 13B vacuolar sorting protein gene, vacuolar protein sorting 13 homolog B (VPS13B) (8q22-8q23) gene, which is the only gene responsible for Cohen syndrom",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00026",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0009",
+      "section": "Body / Introduction",
+      "start": 290,
+      "end": 296,
+      "location": "{\"block_id\": \"b0009\", \"start\": 290, \"end\": 296}",
+      "context": "n the 13B vacuolar sorting protein gene, vacuolar protein sorting 13 homolog B (VPS13B) (8q22-8q23) gene, which is the only gene responsible for Cohen syndrome [3-5].",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00027",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0009",
+      "section": "Body / Introduction",
+      "start": 355,
+      "end": 369,
+      "location": "{\"block_id\": \"b0009\", \"start\": 355, \"end\": 369}",
+      "context": " 13 homolog B (VPS13B) (8q22-8q23) gene, which is the only gene responsible for Cohen syndrome [3-5].",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00028",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 0,
+      "end": 14,
+      "location": "{\"block_id\": \"b0010\", \"start\": 0, \"end\": 14}",
+      "context": "Cohen syndrome is a neurodevelopmental disease characterized by intellectual disabilities, sho",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00029",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D2",
+      "surface": "neurodevelopmental disease",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 20,
+      "end": 46,
+      "location": "{\"block_id\": \"b0010\", \"start\": 20, \"end\": 46}",
+      "context": "Cohen syndrome is a neurodevelopmental disease characterized by intellectual disabilities, short stature, hypotonia, microceph",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00030",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P5",
+      "surface": "intellectual disabilities",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 64,
+      "end": 89,
+      "location": "{\"block_id\": \"b0010\", \"start\": 64, \"end\": 89}",
+      "context": "Cohen syndrome is a neurodevelopmental disease characterized by intellectual disabilities, short stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutrop",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00031",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P9",
+      "surface": "short stature",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 91,
+      "end": 104,
+      "location": "{\"block_id\": \"b0010\", \"start\": 91, \"end\": 104}",
+      "context": "ome is a neurodevelopmental disease characterized by intellectual disabilities, short stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, a",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00032",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P6",
+      "surface": "hypotonia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 106,
+      "end": 115,
+      "location": "{\"block_id\": \"b0010\", \"start\": 106, \"end\": 115}",
+      "context": "evelopmental disease characterized by intellectual disabilities, short stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, and facial a",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00033",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P3",
+      "surface": "microcephaly",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 117,
+      "end": 129,
+      "location": "{\"block_id\": \"b0010\", \"start\": 117, \"end\": 129}",
+      "context": "l disease characterized by intellectual disabilities, short stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, and facial abnormalities s",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00034",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P10",
+      "surface": "musculoskeletal abnormalities",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 131,
+      "end": 160,
+      "location": "{\"block_id\": \"b0010\", \"start\": 131, \"end\": 160}",
+      "context": "acterized by intellectual disabilities, short stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, and facial abnormalities such as short philtrum and micro",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00035",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 162,
+      "end": 173,
+      "location": "{\"block_id\": \"b0010\", \"start\": 162, \"end\": 173}",
+      "context": "ilities, short stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, and facial abnormalities such as short philtrum and micrognathia [1,6-",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00036",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P7",
+      "surface": "myopia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 175,
+      "end": 181,
+      "location": "{\"block_id\": \"b0010\", \"start\": 175, \"end\": 181}",
+      "context": "t stature, hypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, and facial abnormalities such as short philtrum and micrognathia [1,6-8]. The ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00037",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P22",
+      "surface": "facial abnormalities",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 187,
+      "end": 207,
+      "location": "{\"block_id\": \"b0010\", \"start\": 187, \"end\": 207}",
+      "context": "ypotonia, microcephaly, musculoskeletal abnormalities, neutropenia, myopia, and facial abnormalities such as short philtrum and micrognathia [1,6-8]. The usual method of testing or",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00038",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P12",
+      "surface": "short philtrum",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 216,
+      "end": 230,
+      "location": "{\"block_id\": \"b0010\", \"start\": 216, \"end\": 230}",
+      "context": "loskeletal abnormalities, neutropenia, myopia, and facial abnormalities such as short philtrum and micrognathia [1,6-8]. The usual method of testing or screening for Cohen sy",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00039",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P4",
+      "surface": "micrognathia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 235,
+      "end": 247,
+      "location": "{\"block_id\": \"b0010\", \"start\": 235, \"end\": 247}",
+      "context": "ities, neutropenia, myopia, and facial abnormalities such as short philtrum and micrognathia [1,6-8]. The usual method of testing or screening for Cohen syndrome is whole e",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00040",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 302,
+      "end": 316,
+      "location": "{\"block_id\": \"b0010\", \"start\": 302, \"end\": 316}",
+      "context": "philtrum and micrognathia [1,6-8]. The usual method of testing or screening for Cohen syndrome is whole exome sequencing [9]. To date, about 200 VPS13B mutations have been re",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00041",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 367,
+      "end": 373,
+      "location": "{\"block_id\": \"b0010\", \"start\": 367, \"end\": 373}",
+      "context": " screening for Cohen syndrome is whole exome sequencing [9]. To date, about 200 VPS13B mutations have been reported in nearly 1,000 cases of Cohen syndrome [10], of w",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00042",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0010",
+      "section": "Body / Introduction",
+      "start": 428,
+      "end": 442,
+      "location": "{\"block_id\": \"b0010\", \"start\": 428, \"end\": 442}",
+      "context": "To date, about 200 VPS13B mutations have been reported in nearly 1,000 cases of Cohen syndrome [10], of which about five cases have been genetically diagnosed in China [10,11",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00043",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0011",
+      "section": "Body / Introduction",
+      "start": 71,
+      "end": 77,
+      "location": "{\"block_id\": \"b0011\", \"start\": 71, \"end\": 77}",
+      "context": "In this study, we report the reviewed two novel pathogenic variants of VPS13B in patients from China and discuss the clinical and genetic variation character",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00044",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0011",
+      "section": "Body / Introduction",
+      "start": 167,
+      "end": 181,
+      "location": "{\"block_id\": \"b0011\", \"start\": 167, \"end\": 181}",
+      "context": "ts from China and discuss the clinical and genetic variation characteristics of Cohen syndrome.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00045",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "psychomotor developmental delay",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 66,
+      "end": 97,
+      "location": "{\"block_id\": \"b0014\", \"start\": 66, \"end\": 97}",
+      "context": "A 2-year-old girl was admitted to the hospital because she showed psychomotor developmental delay. She had a speech delay and typical facial characteristics include microcephaly",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00046",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P17",
+      "surface": "speech delay",
+      "entity_type": "symptom",
+      "mention_role": "symptom",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 109,
+      "end": 121,
+      "location": "{\"block_id\": \"b0014\", \"start\": 109, \"end\": 121}",
+      "context": "d to the hospital because she showed psychomotor developmental delay. She had a speech delay and typical facial characteristics include microcephaly (head circumference 42 ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00047",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P3",
+      "surface": "microcephaly",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 165,
+      "end": 177,
+      "location": "{\"block_id\": \"b0014\", \"start\": 165, \"end\": 177}",
+      "context": "mental delay. She had a speech delay and typical facial characteristics include microcephaly (head circumference 42 cm), hypertelorism, thick eyebrows, thick bushy hair, lo",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00048",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P13",
+      "surface": "hypertelorism",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 206,
+      "end": 219,
+      "location": "{\"block_id\": \"b0014\", \"start\": 206, \"end\": 219}",
+      "context": "typical facial characteristics include microcephaly (head circumference 42 cm), hypertelorism, thick eyebrows, thick bushy hair, low hairline, and micrognathia (Figure 1a). ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00049",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P14",
+      "surface": "thick eyebrows",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 221,
+      "end": 235,
+      "location": "{\"block_id\": \"b0014\", \"start\": 221, \"end\": 235}",
+      "context": "characteristics include microcephaly (head circumference 42 cm), hypertelorism, thick eyebrows, thick bushy hair, low hairline, and micrognathia (Figure 1a). The Autistic Beh",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00050",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P15",
+      "surface": "thick bushy hair",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 237,
+      "end": 253,
+      "location": "{\"block_id\": \"b0014\", \"start\": 237, \"end\": 253}",
+      "context": "include microcephaly (head circumference 42 cm), hypertelorism, thick eyebrows, thick bushy hair, low hairline, and micrognathia (Figure 1a). The Autistic Behavior Checklist (A",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00051",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P16",
+      "surface": "low hairline",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 255,
+      "end": 267,
+      "location": "{\"block_id\": \"b0014\", \"start\": 255, \"end\": 267}",
+      "context": "ly (head circumference 42 cm), hypertelorism, thick eyebrows, thick bushy hair, low hairline, and micrognathia (Figure 1a). The Autistic Behavior Checklist (ABC) score was ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00052",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P4",
+      "surface": "micrognathia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 273,
+      "end": 285,
+      "location": "{\"block_id\": \"b0014\", \"start\": 273, \"end\": 285}",
+      "context": "ence 42 cm), hypertelorism, thick eyebrows, thick bushy hair, low hairline, and micrognathia (Figure 1a). The Autistic Behavior Checklist (ABC) score was 61. Developmental ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00053",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 980,
+      "end": 986,
+      "location": "{\"block_id\": \"b0014\", \"start\": 980, \"end\": 986}",
+      "context": "mpling revealed a mutation in 8q22.2, NM_017890.4 Intron38 c.6940+1G > T in the VPS13B gene (Figure 2). This mutation was graded in relevant mutation interpretation g",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00054",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 1185,
+      "end": 1191,
+      "location": "{\"block_id\": \"b0014\", \"start\": 1185, \"end\": 1191}",
+      "context": "dical Genetics (ACMG) as pathogenic. Heterozygotic deletion of exon 3-19 of the VPS13B gene was also revealed. Semi-quantitative PCR for specific gene deletion result",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00055",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0014",
+      "section": "Body / Case presentation / Case 1",
+      "start": 1314,
+      "end": 1320,
+      "location": "{\"block_id\": \"b0014\", \"start\": 1314, \"end\": 1320}",
+      "context": "PCR for specific gene deletion results: the copy number of case 1 (exon 3-19 of VPS13B gene) and her father was 1, heterozygous deletion. The mother's copy number is ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00056",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0016",
+      "section": "Body / Case presentation / Case 1 / Figure 2",
+      "start": 0,
+      "end": 6,
+      "location": "{\"block_id\": \"b0016\", \"start\": 0, \"end\": 6}",
+      "context": "VPS13B Intron38 c.6940+1G > T heterozygous mutation in case 1, carried by the mother, ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00057",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0017",
+      "section": "Body / Case presentation / Case 1 / Figure 3",
+      "start": 62,
+      "end": 68,
+      "location": "{\"block_id\": \"b0017\", \"start\": 62, \"end\": 68}",
+      "context": "PCR verification: to the control, the ratio of copy number of VPS13B exon 3-19 in case 1 and her father was about 0.5, indicating that VPS13B had he",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00058",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0017",
+      "section": "Body / Case presentation / Case 1 / Figure 3",
+      "start": 135,
+      "end": 141,
+      "location": "{\"block_id\": \"b0017\", \"start\": 135, \"end\": 141}",
+      "context": "ber of VPS13B exon 3-19 in case 1 and her father was about 0.5, indicating that VPS13B had heterozygous deletion. To the control, the ratio of her mother's copy numbe",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00059",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0017",
+      "section": "Body / Case presentation / Case 1 / Figure 3",
+      "start": 226,
+      "end": 232,
+      "location": "{\"block_id\": \"b0017\", \"start\": 226, \"end\": 232}",
+      "context": "heterozygous deletion. To the control, the ratio of her mother's copy number of VPS13B exon 3-19 was about 1, suggesting that her mother's copy number was normal.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00060",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0019",
+      "section": "Body / Case presentation / Case 2",
+      "start": 57,
+      "end": 82,
+      "location": "{\"block_id\": \"b0019\", \"start\": 57, \"end\": 82}",
+      "context": "A 1-year-old boy was admitted to the hospital because of developmental retardation, microcephaly (head circumference 43 cm), and micrognathia (Figure 1b). The mod",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00061",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P3",
+      "surface": "microcephaly",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0019",
+      "section": "Body / Case presentation / Case 2",
+      "start": 84,
+      "end": 96,
+      "location": "{\"block_id\": \"b0019\", \"start\": 84, \"end\": 96}",
+      "context": "year-old boy was admitted to the hospital because of developmental retardation, microcephaly (head circumference 43 cm), and micrognathia (Figure 1b). The modified Checklis",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00062",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P4",
+      "surface": "micrognathia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0019",
+      "section": "Body / Case presentation / Case 2",
+      "start": 129,
+      "end": 141,
+      "location": "{\"block_id\": \"b0019\", \"start\": 129, \"end\": 141}",
+      "context": "ause of developmental retardation, microcephaly (head circumference 43 cm), and micrognathia (Figure 1b). The modified Checklist for Autism in Toddlers (M-chat) score was 2",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00063",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0019",
+      "section": "Body / Case presentation / Case 2",
+      "start": 769,
+      "end": 775,
+      "location": "{\"block_id\": \"b0019\", \"start\": 769, \"end\": 775}",
+      "context": "38 c.6940+1G > T (Figure 4) and 8q22, NM_017890.4 Exon56 c10334_10335del in the VPS13B gene (Figure 5). These two mutations were graded in relevant mutation interpret",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00064",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0020",
+      "section": "Body / Case presentation / Case 2 / Figure 4",
+      "start": 0,
+      "end": 6,
+      "location": "{\"block_id\": \"b0020\", \"start\": 0, \"end\": 6}",
+      "context": "VPS13B Intron38 c.6940+1G > T heterozygous mutation in case 2, carried by the mother, ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00065",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0021",
+      "section": "Body / Case presentation / Case 2 / Figure 5",
+      "start": 0,
+      "end": 6,
+      "location": "{\"block_id\": \"b0021\", \"start\": 0, \"end\": 6}",
+      "context": "VPS13B Exon56 c10334_10335del heterozygous deletion in case 2, carried by the father, ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00066",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P13",
+      "surface": "Hypertelorism",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0034",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 26,
+      "end": 39,
+      "location": "{\"block_id\": \"b0034\", \"start\": 26, \"end\": 39}",
+      "context": "Clinical manifestations | Hypertelorism | Micrognathia",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00067",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P4",
+      "surface": "Micrognathia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0034",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 42,
+      "end": 54,
+      "location": "{\"block_id\": \"b0034\", \"start\": 42, \"end\": 54}",
+      "context": "Clinical manifestations | Hypertelorism | Micrognathia",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00068",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P14",
+      "surface": "Thick eyebrows",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0035",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 2,
+      "end": 16,
+      "location": "{\"block_id\": \"b0035\", \"start\": 2, \"end\": 16}",
+      "context": "| Thick eyebrows | Developmental retardation",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00069",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "Developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0035",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 19,
+      "end": 44,
+      "location": "{\"block_id\": \"b0035\", \"start\": 19, \"end\": 44}",
+      "context": "| Thick eyebrows | Developmental retardation",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00070",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P15",
+      "surface": "Thick bushy hair",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0036",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 2,
+      "end": 18,
+      "location": "{\"block_id\": \"b0036\", \"start\": 2, \"end\": 18}",
+      "context": "| Thick bushy hair |",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00071",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P16",
+      "surface": "Low hairline",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0037",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 2,
+      "end": 14,
+      "location": "{\"block_id\": \"b0037\", \"start\": 2, \"end\": 14}",
+      "context": "| Low hairline |",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00072",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P4",
+      "surface": "Micrognathia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0038",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 2,
+      "end": 14,
+      "location": "{\"block_id\": \"b0038\", \"start\": 2, \"end\": 14}",
+      "context": "| Micrognathia |",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00073",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "Developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0039",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 2,
+      "end": 27,
+      "location": "{\"block_id\": \"b0039\", \"start\": 2, \"end\": 27}",
+      "context": "| Developmental retardation |",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00074",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P18",
+      "surface": "A widened brain gap",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0041",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 41,
+      "end": 60,
+      "location": "{\"block_id\": \"b0041\", \"start\": 41, \"end\": 60}",
+      "context": "Cranial magnetic functional evaluation | A widened brain gap | Cerebellar dysplasia",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00075",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P19",
+      "surface": "Cerebellar dysplasia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0041",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 63,
+      "end": 83,
+      "location": "{\"block_id\": \"b0041\", \"start\": 63, \"end\": 83}",
+      "context": "Cranial magnetic functional evaluation | A widened brain gap | Cerebellar dysplasia",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00076",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0044",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 22,
+      "end": 47,
+      "location": "{\"block_id\": \"b0044\", \"start\": 22, \"end\": 47}",
+      "context": "Gesell scale | Severe developmental retardation in five energy regions | Severe developmental retardation in five energy region",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00077",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0044",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 80,
+      "end": 105,
+      "location": "{\"block_id\": \"b0044\", \"start\": 80, \"end\": 105}",
+      "context": "Gesell scale | Severe developmental retardation in five energy regions | Severe developmental retardation in five energy regions",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00078",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0048",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 91,
+      "end": 97,
+      "location": "{\"block_id\": \"b0048\", \"start\": 91, \"end\": 97}",
+      "context": "hput whole-exome sequencing | 8q22.2, NM_017890.4 Intron38 c.6940+1G > T in the VPS13B gene; p.?. And heterozygotic deletion of exon 3-19 of VPS13B gene | 8q22, NM_01",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00079",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0048",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 152,
+      "end": 158,
+      "location": "{\"block_id\": \"b0048\", \"start\": 152, \"end\": 158}",
+      "context": "6940+1G > T in the VPS13B gene; p.?. And heterozygotic deletion of exon 3-19 of VPS13B gene | 8q22, NM_017890.4 Intron38 c.6940+1G > T (Figure 3) and 8q22, NM_017890.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00080",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0048",
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "start": 270,
+      "end": 276,
+      "location": "{\"block_id\": \"b0048\", \"start\": 270, \"end\": 276}",
+      "context": "38 c.6940+1G > T (Figure 3) and 8q22, NM_017890.4 Exon56 c10334_10335del in the VPS13B gene",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00081",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0066",
+      "section": "Body / Discussion",
+      "start": 60,
+      "end": 66,
+      "location": "{\"block_id\": \"b0066\", \"start\": 60, \"end\": 66}",
+      "context": "We reported two novel compound heterozygous variants in the VPS13B gene inherited from non-inbred parents. Although this variant (cases 1 and 2) 8",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00082",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0066",
+      "section": "Body / Discussion",
+      "start": 193,
+      "end": 199,
+      "location": "{\"block_id\": \"b0066\", \"start\": 193, \"end\": 199}",
+      "context": "gh this variant (cases 1 and 2) 8q22, NM_017890.4 Intron38 c.6940+1G > T in the VPS13B gene had been detected in patients with Cohen syndrome [7], the deletion of exo",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00083",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0066",
+      "section": "Body / Discussion",
+      "start": 240,
+      "end": 254,
+      "location": "{\"block_id\": \"b0066\", \"start\": 240, \"end\": 254}",
+      "context": ".4 Intron38 c.6940+1G > T in the VPS13B gene had been detected in patients with Cohen syndrome [7], the deletion of exon 3-19 and Exon56 c10334_10335del of VPS13B gene could ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00084",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0066",
+      "section": "Body / Discussion",
+      "start": 316,
+      "end": 322,
+      "location": "{\"block_id\": \"b0066\", \"start\": 316, \"end\": 322}",
+      "context": "ith Cohen syndrome [7], the deletion of exon 3-19 and Exon56 c10334_10335del of VPS13B gene could constitute complex heterozygous mutations that cause Cohen syndrome ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00085",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0066",
+      "section": "Body / Discussion",
+      "start": 387,
+      "end": 401,
+      "location": "{\"block_id\": \"b0066\", \"start\": 387, \"end\": 401}",
+      "context": "35del of VPS13B gene could constitute complex heterozygous mutations that cause Cohen syndrome with mutation in Intron38 c.6940+1G > T. The deletion range of these two fragme",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00086",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0066",
+      "section": "Body / Discussion",
+      "start": 616,
+      "end": 630,
+      "location": "{\"block_id\": \"b0066\", \"start\": 616, \"end\": 630}",
+      "context": "a newly discovered variation that extends the spectrum of genes associated with Cohen syndrome.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00087",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 78,
+      "end": 103,
+      "location": "{\"block_id\": \"b0067\", \"start\": 78, \"end\": 103}",
+      "context": "The most significant manifestations of the cases reported in this article are developmental retardation and neutropenia. This result is consistent with the clinical features reported ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00088",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 108,
+      "end": 119,
+      "location": "{\"block_id\": \"b0067\", \"start\": 108, \"end\": 119}",
+      "context": "tations of the cases reported in this article are developmental retardation and neutropenia. This result is consistent with the clinical features reported in other literat",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00089",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 238,
+      "end": 244,
+      "location": "{\"block_id\": \"b0067\", \"start\": 238, \"end\": 244}",
+      "context": "inical features reported in other literature [14,15]. The possible mechanism of VPS13B causing neutropenia is related to increased neutrophil apoptosis and decreased ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00090",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 253,
+      "end": 264,
+      "location": "{\"block_id\": \"b0067\", \"start\": 253, \"end\": 264}",
+      "context": " reported in other literature [14,15]. The possible mechanism of VPS13B causing neutropenia is related to increased neutrophil apoptosis and decreased SerpinB1 expression,",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00091",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P23",
+      "surface": "increased neutrophil apoptosis",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 279,
+      "end": 309,
+      "location": "{\"block_id\": \"b0067\", \"start\": 279, \"end\": 309}",
+      "context": "ure [14,15]. The possible mechanism of VPS13B causing neutropenia is related to increased neutrophil apoptosis and decreased SerpinB1 expression, which is a critical component of neutrophil ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00092",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G2",
+      "surface": "SerpinB1",
+      "entity_type": "gene",
+      "mention_role": "protein_product_expression",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 324,
+      "end": 332,
+      "location": "{\"block_id\": \"b0067\", \"start\": 324, \"end\": 332}",
+      "context": " causing neutropenia is related to increased neutrophil apoptosis and decreased SerpinB1 expression, which is a critical component of neutrophil survival [15]. In addit",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00093",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 420,
+      "end": 434,
+      "location": "{\"block_id\": \"b0067\", \"start\": 420, \"end\": 434}",
+      "context": "ion, which is a critical component of neutrophil survival [15]. In addition, in Cohen syndrome neutrophils, the SERPINB1 gene, which encodes a critical component of neutrophi",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00094",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G2",
+      "surface": "SERPINB1",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 452,
+      "end": 460,
+      "location": "{\"block_id\": \"b0067\", \"start\": 452, \"end\": 460}",
+      "context": "nt of neutrophil survival [15]. In addition, in Cohen syndrome neutrophils, the SERPINB1 gene, which encodes a critical component of neutrophil survival, is significant",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00095",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P23",
+      "surface": "excessive apoptosis of neutrophils",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 563,
+      "end": 597,
+      "location": "{\"block_id\": \"b0067\", \"start\": 563, \"end\": 597}",
+      "context": "critical component of neutrophil survival, is significantly reduced, leading to excessive apoptosis of neutrophils, which is a possible cause of neutropenia [16]. The probable cause of developme",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00096",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 628,
+      "end": 639,
+      "location": "{\"block_id\": \"b0067\", \"start\": 628, \"end\": 639}",
+      "context": "ed, leading to excessive apoptosis of neutrophils, which is a possible cause of neutropenia [16]. The probable cause of developmental retardation is that VPS13B gene mutat",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00097",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 668,
+      "end": 693,
+      "location": "{\"block_id\": \"b0067\", \"start\": 668, \"end\": 693}",
+      "context": "utrophils, which is a possible cause of neutropenia [16]. The probable cause of developmental retardation is that VPS13B gene mutation leads to the reduction of coding protein which is ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00098",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 702,
+      "end": 708,
+      "location": "{\"block_id\": \"b0067\", \"start\": 702, \"end\": 708}",
+      "context": "se of neutropenia [16]. The probable cause of developmental retardation is that VPS13B gene mutation leads to the reduction of coding protein which is a Golgi-enhance",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00099",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "Golgi-enhanced scaffold protein",
+      "entity_type": "gene",
+      "mention_role": "protein_product",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 775,
+      "end": 806,
+      "location": "{\"block_id\": \"b0067\", \"start\": 775, \"end\": 806}",
+      "context": "s that VPS13B gene mutation leads to the reduction of coding protein which is a Golgi-enhanced scaffold protein that helps to maintain the structure and function of the Golgi complex. It has ",
+      "contextual_referent": "VPS13B",
+      "coreference_path": "b0067: 'VPS13B gene mutation leads to the reduction of coding protein which is a Golgi-enhanced scaffold protein' - the coding protein of VPS13B"
+    },
+    {
+      "mention_id": "M00100",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0067",
+      "section": "Body / Discussion",
+      "start": 905,
+      "end": 911,
+      "location": "{\"block_id\": \"b0067\", \"start\": 905, \"end\": 911}",
+      "context": "tain the structure and function of the Golgi complex. It has been reported that VPS13B regulates functional neuronal networks [7].",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00101",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 0,
+      "end": 14,
+      "location": "{\"block_id\": \"b0068\", \"start\": 0, \"end\": 14}",
+      "context": "Cohen syndrome is a clinically heterogeneous disease with extensive and variable clinical mani",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00102",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P7",
+      "surface": "myopia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 114,
+      "end": 120,
+      "location": "{\"block_id\": \"b0068\", \"start\": 114, \"end\": 120}",
+      "context": "erogeneous disease with extensive and variable clinical manifestations, such as myopia, retinal dystrophy, and heart disease [14,15]. Unlike other cases, our patient ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00103",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D3",
+      "surface": "retinal dystrophy",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 122,
+      "end": 139,
+      "location": "{\"block_id\": \"b0068\", \"start\": 122, \"end\": 139}",
+      "context": "us disease with extensive and variable clinical manifestations, such as myopia, retinal dystrophy, and heart disease [14,15]. Unlike other cases, our patient did not present any",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00104",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D4",
+      "surface": "heart disease",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 145,
+      "end": 158,
+      "location": "{\"block_id\": \"b0068\", \"start\": 145, \"end\": 158}",
+      "context": "ve and variable clinical manifestations, such as myopia, retinal dystrophy, and heart disease [14,15]. Unlike other cases, our patient did not present any ophthalmologic or ",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00105",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 408,
+      "end": 422,
+      "location": "{\"block_id\": \"b0068\", \"start\": 408, \"end\": 422}",
+      "context": "s of the disease. And for clinical, there is no unified diagnostic standard for Cohen syndrome. The diagnosis can be determined mainly based on clinical manifestations, inclu",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00106",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P20",
+      "surface": "obesity",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 507,
+      "end": 514,
+      "location": "{\"block_id\": \"b0068\", \"start\": 507, \"end\": 514}",
+      "context": " diagnosis can be determined mainly based on clinical manifestations, including obesity, hypotonia, mental deficiency, and facial, oral, ocular and limb anomalies: leu",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00107",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P6",
+      "surface": "hypotonia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 516,
+      "end": 525,
+      "location": "{\"block_id\": \"b0068\", \"start\": 516, \"end\": 525}",
+      "context": "s can be determined mainly based on clinical manifestations, including obesity, hypotonia, mental deficiency, and facial, oral, ocular and limb anomalies: leukopenia, es",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00108",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P5",
+      "surface": "mental deficiency",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 527,
+      "end": 544,
+      "location": "{\"block_id\": \"b0068\", \"start\": 527, \"end\": 544}",
+      "context": "termined mainly based on clinical manifestations, including obesity, hypotonia, mental deficiency, and facial, oral, ocular and limb anomalies: leukopenia, especially neutropeni",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00109",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P21",
+      "surface": "leukopenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 591,
+      "end": 601,
+      "location": "{\"block_id\": \"b0068\", \"start\": 591, \"end\": 601}",
+      "context": "ity, hypotonia, mental deficiency, and facial, oral, ocular and limb anomalies: leukopenia, especially neutropenia. The pathogenic variation of the VPS13B gene was detect",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00110",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 614,
+      "end": 625,
+      "location": "{\"block_id\": \"b0068\", \"start\": 614, \"end\": 625}",
+      "context": "deficiency, and facial, oral, ocular and limb anomalies: leukopenia, especially neutropenia. The pathogenic variation of the VPS13B gene was detected by molecular genetics",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00111",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 659,
+      "end": 665,
+      "location": "{\"block_id\": \"b0068\", \"start\": 659, \"end\": 665}",
+      "context": " anomalies: leukopenia, especially neutropenia. The pathogenic variation of the VPS13B gene was detected by molecular genetics [1,6,15]. According to previous researc",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00112",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0068",
+      "section": "Body / Discussion",
+      "start": 920,
+      "end": 934,
+      "location": "{\"block_id\": \"b0068\", \"start\": 920, \"end\": 934}",
+      "context": "urther research is needed on the relationship between genotype and phenotype of Cohen syndrome.",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00113",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 14,
+      "end": 28,
+      "location": "{\"block_id\": \"b0069\", \"start\": 14, \"end\": 28}",
+      "context": "Management of Cohen syndrome includes regular monitoring, rehabilitation, and genetic counseling. Ophthalmol",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00114",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P24",
+      "surface": "refractive errors",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 153,
+      "end": 170,
+      "location": "{\"block_id\": \"b0069\", \"start\": 153, \"end\": 170}",
+      "context": " and genetic counseling. Ophthalmology should regularly evaluate visual acuity, refractive errors, and retinal dystrophy. Routine blood tests are performed to assess neutropenia",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00115",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D3",
+      "surface": "retinal dystrophy",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 176,
+      "end": 193,
+      "location": "{\"block_id\": \"b0069\", \"start\": 176, \"end\": 193}",
+      "context": ". Ophthalmology should regularly evaluate visual acuity, refractive errors, and retinal dystrophy. Routine blood tests are performed to assess neutropenia. More frequent monitor",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00116",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 239,
+      "end": 250,
+      "location": "{\"block_id\": \"b0069\", \"start\": 239, \"end\": 250}",
+      "context": "tive errors, and retinal dystrophy. Routine blood tests are performed to assess neutropenia. More frequent monitoring may be required for individuals with low absolute neu",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00117",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P25",
+      "surface": "recurring infection",
+      "entity_type": "symptom",
+      "mention_role": "symptom",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 347,
+      "end": 366,
+      "location": "{\"block_id\": \"b0069\", \"start\": 347, \"end\": 366}",
+      "context": "onitoring may be required for individuals with low absolute neutrophil count or recurring infection. Growth and weight gain also should be monitored. Treatment for patients with C",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00118",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 445,
+      "end": 459,
+      "location": "{\"block_id\": \"b0069\", \"start\": 445, \"end\": 459}",
+      "context": "n. Growth and weight gain also should be monitored. Treatment for patients with Cohen syndrome is symptomatic, including early physical, occupational, and speech therapy to a",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00119",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P2",
+      "surface": "developmental retardation",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 546,
+      "end": 571,
+      "location": "{\"block_id\": \"b0069\", \"start\": 546, \"end\": 571}",
+      "context": "ptomatic, including early physical, occupational, and speech therapy to address developmental retardation, hypotonia, joint hyperactivity, and granulocyte colony-stimulating factor to i",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00120",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P6",
+      "surface": "hypotonia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 573,
+      "end": 582,
+      "location": "{\"block_id\": \"b0069\", \"start\": 573, \"end\": 582}",
+      "context": "hysical, occupational, and speech therapy to address developmental retardation, hypotonia, joint hyperactivity, and granulocyte colony-stimulating factor to improve neut",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00121",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P8",
+      "surface": "joint hyperactivity",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 584,
+      "end": 603,
+      "location": "{\"block_id\": \"b0069\", \"start\": 584, \"end\": 603}",
+      "context": "cupational, and speech therapy to address developmental retardation, hypotonia, joint hyperactivity, and granulocyte colony-stimulating factor to improve neutropenia [15].",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00122",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0069",
+      "section": "Body / Discussion",
+      "start": 658,
+      "end": 669,
+      "location": "{\"block_id\": \"b0069\", \"start\": 658, \"end\": 669}",
+      "context": "onia, joint hyperactivity, and granulocyte colony-stimulating factor to improve neutropenia [15].",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00123",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "G1",
+      "surface": "VPS13B",
+      "entity_type": "gene",
+      "mention_role": "gene",
+      "block_id": "b0071",
+      "section": "Body / Conclusion",
+      "start": 57,
+      "end": 63,
+      "location": "{\"block_id\": \"b0071\", \"start\": 57, \"end\": 63}",
+      "context": "We found two novel compound heterozygous variants in the VPS13B gene that can induce Cohen syndrome. In clinical diagnosis, if the children had",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00124",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "D1",
+      "surface": "Cohen syndrome",
+      "entity_type": "disease",
+      "mention_role": "disease",
+      "block_id": "b0071",
+      "section": "Body / Conclusion",
+      "start": 85,
+      "end": 99,
+      "location": "{\"block_id\": \"b0071\", \"start\": 85, \"end\": 99}",
+      "context": "und two novel compound heterozygous variants in the VPS13B gene that can induce Cohen syndrome. In clinical diagnosis, if the children had special facial features, joint hype",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00125",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P8",
+      "surface": "joint hyperactivity",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0071",
+      "section": "Body / Conclusion",
+      "start": 169,
+      "end": 188,
+      "location": "{\"block_id\": \"b0071\", \"start\": 169, \"end\": 188}",
+      "context": "n syndrome. In clinical diagnosis, if the children had special facial features, joint hyperactivity, neutropenia, and multi-system involvement, great attention should be paid to t",
+      "contextual_referent": "",
+      "coreference_path": ""
+    },
+    {
+      "mention_id": "M00126",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "entity_id": "P1",
+      "surface": "neutropenia",
+      "entity_type": "phenotype",
+      "mention_role": "phenotype",
+      "block_id": "b0071",
+      "section": "Body / Conclusion",
+      "start": 190,
+      "end": 201,
+      "location": "{\"block_id\": \"b0071\", \"start\": 190, \"end\": 201}",
+      "context": "al diagnosis, if the children had special facial features, joint hyperactivity, neutropenia, and multi-system involvement, great attention should be paid to the possibilit",
+      "contextual_referent": "",
+      "coreference_path": ""
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "block_id": "b0003",
+      "quote": "Cohen syndrome (OMIM No. # 216550) is a rare autosomal recessive disorder caused by homozygous mutation in the vacuolar protein sorting 13 homolog B (VPS13B) gene on chromosome 8q22.2.",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_background_report",
+        "explicit_disease_attribution"
+      ],
+      "supports": "Explicit, non-hedged causal attribution of Cohen syndrome to (homozygous) VPS13B mutation stated as established knowledge in the Abstract background.",
+      "conditions": {
+        "citation_absent": true,
+        "variant_class": "homozygous mutation",
+        "section": "Abstract/Background"
+      },
+      "start": 0,
+      "end": 184,
+      "section": "Abstract / Background",
+      "location": "{\"block_id\": \"b0003\", \"start\": 0, \"end\": 184}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E2",
+      "block_id": "b0009",
+      "quote": "Mutation in the 13B vacuolar sorting protein gene, vacuolar protein sorting 13 homolog B (VPS13B) (8q22-8q23) gene, which is the only gene responsible for Cohen syndrome [3-5].",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_background_report",
+        "explicit_disease_attribution"
+      ],
+      "supports": "Cited background statement that VPS13B mutation is the (only) gene responsible for Cohen syndrome. Sentence is grammatically incomplete but the attribution is explicit.",
+      "conditions": {
+        "citations": "[3-5]"
+      },
+      "start": 200,
+      "end": 376,
+      "section": "Body / Introduction",
+      "location": "{\"block_id\": \"b0009\", \"start\": 200, \"end\": 376}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E3",
+      "block_id": "b0010",
+      "quote": "To date, about 200 VPS13B mutations have been reported in nearly 1,000 cases of Cohen syndrome [10], of which about five cases have been genetically diagnosed in China [10,11].",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_background_report"
+      ],
+      "supports": "Cited background population-level report of VPS13B mutations in Cohen syndrome patients, used as disease-relevant fact (mutation spectrum).",
+      "conditions": {
+        "citations": "[10,11]",
+        "population": "nearly 1,000 Cohen syndrome cases (as stated; not verified)"
+      },
+      "start": 348,
+      "end": 524,
+      "section": "Body / Introduction",
+      "location": "{\"block_id\": \"b0010\", \"start\": 348, \"end\": 524}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E4",
+      "block_id": "b0003",
+      "quote": "To date, more than 200 mutations of VPS13B have been reported in over 1,000 Cohen syndrome patients.",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_background_report"
+      ],
+      "supports": "Abstract restatement of E3 (background population report).",
+      "conditions": {
+        "citation_absent": true
+      },
+      "start": 328,
+      "end": 428,
+      "section": "Abstract / Background",
+      "location": "{\"block_id\": \"b0003\", \"start\": 328, \"end\": 428}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E5",
+      "block_id": "b0066",
+      "quote": "Although this variant (cases 1 and 2) 8q22, NM_017890.4 Intron38 c.6940+1G > T in the VPS13B gene had been detected in patients with Cohen syndrome [7], the deletion of exon 3-19 and Exon56 c10334_10335del of VPS13B gene could constitute complex heterozygous mutations that cause Cohen syndrome with mutation in Intron38 c.6940+1G > T.",
+      "source_scope": "两者兼有",
+      "assertion_kind": "interpretation",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_background_report",
+        "explicit_disease_attribution"
+      ],
+      "supports": "Background: c.6940+1G>T previously detected in Cohen syndrome patients [7]. Present cases: authors attribute Cohen syndrome in the two patients to compound heterozygous VPS13B variants ('could constitute ... that cause'); modal 'could' noted.",
+      "conditions": {
+        "variants": [
+          "c.6940+1G>T",
+          "exon 3-19 deletion",
+          "c.10334_10335del"
+        ],
+        "zygosity": "compound heterozygous (trans; parental origin per Figures 2-5 captions)"
+      },
+      "start": 107,
+      "end": 442,
+      "section": "Body / Discussion",
+      "location": "{\"block_id\": \"b0066\", \"start\": 107, \"end\": 442}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E6",
+      "block_id": "b0071",
+      "quote": "We found two novel compound heterozygous variants in the VPS13B gene that can induce Cohen syndrome.",
+      "source_scope": "本研究结果",
+      "assertion_kind": "interpretation",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_disease_attribution"
+      ],
+      "supports": "Case-level disease-specific attribution of the patients' Cohen syndrome to VPS13B compound heterozygous variants (R9: supports association, not automatically causal).",
+      "conditions": {
+        "patients": "2 children, China",
+        "zygosity": "compound heterozygous"
+      },
+      "start": 0,
+      "end": 100,
+      "section": "Body / Conclusion",
+      "location": "{\"block_id\": \"b0071\", \"start\": 0, \"end\": 100}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E7",
+      "block_id": "b0019",
+      "quote": "These two mutations were graded in relevant mutation interpretation guidelines by the ACMG as pathogenic.",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "ACMG 'pathogenic' classification of detected variants in Case 2; label alone does not establish disease relation (R3); kept as observational context.",
+      "conditions": {
+        "case": "Case 2"
+      },
+      "start": 793,
+      "end": 898,
+      "section": "Body / Case presentation / Case 2",
+      "location": "{\"block_id\": \"b0019\", \"start\": 793, \"end\": 898}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E8",
+      "block_id": "b0014",
+      "quote": "This mutation was graded in relevant mutation interpretation guidelines by the American College of Medical Genetics (ACMG) as pathogenic. Heterozygotic deletion of exon 3-19 of the VPS13B gene was also revealed.",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Detection and ACMG classification of VPS13B variants in Case 1; descriptive.",
+      "conditions": {
+        "case": "Case 1"
+      },
+      "start": 1004,
+      "end": 1215,
+      "section": "Body / Case presentation / Case 1",
+      "location": "{\"block_id\": \"b0014\", \"start\": 1004, \"end\": 1215}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E9",
+      "block_id": "b0067",
+      "quote": "In addition, in Cohen syndrome neutrophils, the SERPINB1 gene, which encodes a critical component of neutrophil survival, is significantly reduced, leading to excessive apoptosis of neutrophils, which is a possible cause of neutropenia [16].",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "explicit_background_report",
+        "reported_result"
+      ],
+      "supports": "Cited background report that SERPINB1 (expression) is significantly reduced in neutrophils of Cohen syndrome patients: an explicit disease-specific expression association. The hedge ('possible cause') applies to the neutropenia link, not to the reduction in Cohen syndrome.",
+      "conditions": {
+        "citations": "[16]",
+        "tissue": "neutrophils of Cohen syndrome patients",
+        "gene_state": "reduced expression",
+        "comparator": "not stated in text",
+        "statistics": "'significantly' stated; no statistic given"
+      },
+      "start": 404,
+      "end": 645,
+      "section": "Body / Discussion",
+      "location": "{\"block_id\": \"b0067\", \"start\": 404, \"end\": 645}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E10",
+      "block_id": "b0067",
+      "quote": "The possible mechanism of VPS13B causing neutropenia is related to increased neutrophil apoptosis and decreased SerpinB1 expression, which is a critical component of neutrophil survival [15].",
+      "source_scope": "背景引用",
+      "assertion_kind": "hypothesis",
+      "relation_asserted": "presupposed",
+      "support_basis": [
+        "hypothesis_only"
+      ],
+      "supports": "Proposed mechanism linking VPS13B to neutropenia via SerpinB1 expression; neutropenia is an auxiliary phenotype. Does not state a SERPINB1-Cohen syndrome relation by itself.",
+      "conditions": {
+        "citations": "[15]"
+      },
+      "start": 212,
+      "end": 403,
+      "section": "Body / Discussion",
+      "location": "{\"block_id\": \"b0067\", \"start\": 212, \"end\": 403}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E11",
+      "block_id": "b0068",
+      "quote": "According to previous research reports, there is no clear correlation between severity of the disorder and variant [1,12].",
+      "source_scope": "背景引用",
+      "assertion_kind": "negative_result",
+      "relation_asserted": "negated",
+      "support_basis": [
+        "explicit_background_report"
+      ],
+      "supports": "Background: no clear genotype (variant)-severity correlation in Cohen syndrome. Different question (severity vs variant type) from gene-disease association; does not negate VPS13B-Cohen syndrome.",
+      "conditions": {
+        "endpoint": "disease severity",
+        "variable": "variant",
+        "citations": "[1,12]"
+      },
+      "start": 716,
+      "end": 838,
+      "section": "Body / Discussion",
+      "location": "{\"block_id\": \"b0068\", \"start\": 716, \"end\": 838}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E12",
+      "block_id": "b0068",
+      "quote": "Cohen syndrome is a clinically heterogeneous disease with extensive and variable clinical manifestations, such as myopia, retinal dystrophy, and heart disease [14,15].",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Lists retinal dystrophy and heart disease as manifestations of Cohen syndrome; no gene is named in the sentence and no gene-manifestation link is stated.",
+      "conditions": {
+        "citations": "[14,15]"
+      },
+      "start": 0,
+      "end": 167,
+      "section": "Body / Discussion",
+      "location": "{\"block_id\": \"b0068\", \"start\": 0, \"end\": 167}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E13",
+      "block_id": "b0010",
+      "quote": "Cohen syndrome is a neurodevelopmental disease characterized by intellectual disabilities",
+      "source_scope": "背景引用",
+      "assertion_kind": "background_relation_statement",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Hierarchy basis: Cohen syndrome is a neurodevelopmental disease. No gene stated.",
+      "conditions": {},
+      "start": 0,
+      "end": 89,
+      "section": "Body / Introduction",
+      "location": "{\"block_id\": \"b0010\", \"start\": 0, \"end\": 89}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E14",
+      "block_id": "b0067",
+      "quote": "The probable cause of developmental retardation is that VPS13B gene mutation leads to the reduction of coding protein which is a Golgi-enhanced scaffold protein that helps to maintain the structure and function of the Golgi complex.",
+      "source_scope": "不确定",
+      "assertion_kind": "hypothesis",
+      "relation_asserted": "hypothetical",
+      "support_basis": [
+        "hypothesis_only"
+      ],
+      "supports": "Hedged mechanism for developmental retardation (auxiliary phenotype); no citation.",
+      "conditions": {},
+      "start": 646,
+      "end": 878,
+      "section": "Body / Discussion",
+      "location": "{\"block_id\": \"b0067\", \"start\": 646, \"end\": 878}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E15",
+      "block_id": "b0005",
+      "quote": "The variation was predicted to be pathogenic by related software, and they have not been reported.",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "In-silico pathogenicity prediction and novelty claim (abstract).",
+      "conditions": {},
+      "start": 334,
+      "end": 432,
+      "section": "Abstract / Results",
+      "location": "{\"block_id\": \"b0005\", \"start\": 334, \"end\": 432}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E16",
+      "block_id": "b0014",
+      "quote": "the white blood cell count was 8.74 × 109/L, the neutrophil count was 1.33 × 109/L, and the neutrophil percentage was 15.2%",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Case 1 neutrophil percentage in text (15.2%).",
+      "conditions": {
+        "case": "Case 1"
+      },
+      "start": 645,
+      "end": 768,
+      "section": "Body / Case presentation / Case 1",
+      "location": "{\"block_id\": \"b0014\", \"start\": 645, \"end\": 768}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E17",
+      "block_id": "b0019",
+      "quote": "the white blood cell count was 7.60 × 109/L, the neutrophil count was 1.26 × 109/L, and the percentage of neutrophils was 16.5%",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Case 2 neutrophil percentage in text (16.5%).",
+      "conditions": {
+        "case": "Case 2"
+      },
+      "start": 383,
+      "end": 510,
+      "section": "Body / Case presentation / Case 2",
+      "location": "{\"block_id\": \"b0019\", \"start\": 383, \"end\": 510}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E18",
+      "block_id": "b0046",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Table 1 neutrophil percentages 25.0 (Case 1) and 20.5 (Case 2).",
+      "conditions": {},
+      "quote": "The percentage of neutrophils (%) | 25.0 | 20.5",
+      "start": 0,
+      "end": 47,
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "location": "{\"block_id\": \"b0046\", \"start\": 0, \"end\": 47}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E19",
+      "block_id": "b0014",
+      "quote": "they all showed moderate retardation (40 ≤ DQ ≤ 54)",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Case 1 Gesell DQ: moderate retardation in text.",
+      "conditions": {
+        "case": "Case 1"
+      },
+      "start": 500,
+      "end": 551,
+      "section": "Body / Case presentation / Case 1",
+      "location": "{\"block_id\": \"b0014\", \"start\": 500, \"end\": 551}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E20",
+      "block_id": "b0044",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Table 1 Gesell scale: severe developmental retardation for both cases.",
+      "conditions": {},
+      "quote": "Gesell scale | Severe developmental retardation in five energy regions | Severe developmental retardation in five energy regions",
+      "start": 0,
+      "end": 128,
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "location": "{\"block_id\": \"b0044\", \"start\": 0, \"end\": 128}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E21",
+      "block_id": "b0048",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Table 1 variants; Case 2 cell cites '(Figure 3)' for c.6940+1G>T whereas text b0019 cites Figure 4.",
+      "conditions": {},
+      "quote": "High-throughput whole-exome sequencing | 8q22.2, NM_017890.4 Intron38 c.6940+1G > T in the VPS13B gene; p.?. And heterozygotic deletion of exon 3-19 of VPS13B gene | 8q22, NM_017890.4 Intron38 c.6940+1G > T (Figure 3) and 8q22, NM_017890.4 Exon56 c10334_10335del in the VPS13B gene",
+      "start": 0,
+      "end": 281,
+      "section": "Body / Case presentation / Case 2 / Table 1",
+      "location": "{\"block_id\": \"b0048\", \"start\": 0, \"end\": 281}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E22",
+      "block_id": "b0053",
+      "source_scope": "两者兼有",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "affirmed",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Table 2: c.6940+1G>T observed in trans with other pathogenic variants in several cases (PMIDs) and the current report - i.e., previously reported.",
+      "conditions": {},
+      "quote": "PM3_strong: the variant was observed in trans with other pathogenic variants in several cases (PMID: 33959574, 33025479, 30138938, and in the current report)",
+      "start": 0,
+      "end": 157,
+      "section": "Body / Case presentation / Case 2 / Table 2",
+      "location": "{\"block_id\": \"b0053\", \"start\": 0, \"end\": 157}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    },
+    {
+      "evidence_id": "E23",
+      "block_id": "b0016",
+      "source_scope": "本研究结果",
+      "assertion_kind": "reported_result",
+      "relation_asserted": "not_asserted",
+      "support_basis": [
+        "descriptive_only"
+      ],
+      "supports": "Case 1 c.6940+1G>T maternally inherited; with b0014 paternal exon 3-19 deletion -> trans configuration.",
+      "conditions": {},
+      "quote": "VPS13B Intron38 c.6940+1G > T heterozygous mutation in case 1, carried by the mother, but not detected by the father.",
+      "start": 0,
+      "end": 117,
+      "section": "Body / Case presentation / Case 1 / Figure 2",
+      "location": "{\"block_id\": \"b0016\", \"start\": 0, \"end\": 117}",
+      "paper_id": "PMC10487392",
+      "unit_id": "u1"
+    }
+  ],
+  "pairs": [
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G1-D1",
+      "gene_id": "G1",
+      "gene_name": "VPS13B",
+      "disease_id": "D1",
+      "disease_name": "Cohen syndrome",
+      "status": "supported",
+      "relation_type": "causal",
+      "tested_relation_type": "",
+      "source_scope": "背景引用",
+      "claims": [
+        {
+          "claim_id": "C1",
+          "status": "supported",
+          "relation_type": "causal",
+          "source_scope": "背景引用",
+          "evidence_ids": [
+            "E1",
+            "E2"
+          ],
+          "conditions": {
+            "variant_class": "homozygous (E1) / unspecified mutation (E2)",
+            "citation_absent_for_E1": true
+          },
+          "reason": "Explicit non-hedged background attribution: Cohen syndrome 'caused by homozygous mutation in ... VPS13B' (b0003) and VPS13B 'the only gene responsible for Cohen syndrome [3-5]' (b0009). Meets R3 causal (explicit attribution of disease to gene) and R4 explicit_background_report; not independently verified by this paper."
+        },
+        {
+          "claim_id": "C2",
+          "status": "supported",
+          "relation_type": "association",
+          "source_scope": "背景引用",
+          "evidence_ids": [
+            "E3",
+            "E4",
+            "E5"
+          ],
+          "conditions": {
+            "population": "Cohen syndrome patients in cited studies"
+          },
+          "reason": "Background population variant reports (~200 VPS13B mutations in ~1,000 Cohen syndrome cases; c.6940+1G>T previously detected in Cohen syndrome patients) used by the paper as disease-relevant fact (R4 row 2): association."
+        },
+        {
+          "claim_id": "C3",
+          "status": "supported",
+          "relation_type": "association",
+          "source_scope": "本研究结果",
+          "evidence_ids": [
+            "E5",
+            "E6"
+          ],
+          "conditions": {
+            "patients": "2 unrelated Chinese children",
+            "genotype": "compound heterozygous c.6940+1G>T + exon 3-19 deletion (Case 1); c.6940+1G>T + c.10334_10335del (Case 2)",
+            "inheritance_check": "parental testing per figure captions (trans)"
+          },
+          "reason": "Case-level disease-specific attribution of the patients' Cohen syndrome to VPS13B compound heterozygous variants (b0066, b0071). Per R9 a case attribution supports association, not automatically causal; 'can induce'/'cause' wording not upgraded."
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ],
+      "location": [],
+      "reason": "Supported. Display type causal from background claim C1 (R3 priority; not a reliability ranking). Study's own contribution (C3) is a case attribution supporting association only, so source_scope of the selected causal claim is 背景引用. Background note of no clear variant-severity correlation (E11) concerns a different endpoint and does not conflict.",
+      "conditions": {
+        "evidence_species": "human"
+      },
+      "unresolved_reason": [],
+      "context_checked": [
+        "E11"
+      ],
+      "observational_context": [
+        "E7",
+        "E8",
+        "E15",
+        "E22",
+        "E23"
+      ],
+      "data_conflict_ids": [
+        "DC4"
+      ],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G1-D2",
+      "gene_id": "G1",
+      "gene_name": "VPS13B",
+      "disease_id": "D2",
+      "disease_name": "neurodevelopmental disease",
+      "status": "not_found",
+      "relation_type": "none",
+      "tested_relation_type": "",
+      "source_scope": "不确定",
+      "claims": [],
+      "evidence_ids": [],
+      "location": [],
+      "reason": "'neurodevelopmental disease' appears only as the superclass of Cohen syndrome (b0010). R7: relations are not propagated upward through hierarchy; no direct VPS13B-neurodevelopmental disease statement. 'VPS13B regulates functional neuronal networks [7]' (b0067) is a function statement, not a disease relation.",
+      "conditions": {},
+      "unresolved_reason": [],
+      "context_checked": [
+        "E13",
+        "E14"
+      ],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G1-D3",
+      "gene_id": "G1",
+      "gene_name": "VPS13B",
+      "disease_id": "D3",
+      "disease_name": "retinal dystrophy",
+      "status": "not_found",
+      "relation_type": "none",
+      "tested_relation_type": "",
+      "source_scope": "不确定",
+      "claims": [],
+      "evidence_ids": [],
+      "location": [],
+      "reason": "Retinal dystrophy is listed only as a variable manifestation of Cohen syndrome (b0068) and a monitoring target (b0069); no statement links VPS13B directly to retinal dystrophy and the patients had no ophthalmologic abnormality. Relations to Cohen syndrome are not transferred to its manifestations.",
+      "conditions": {},
+      "unresolved_reason": [],
+      "context_checked": [
+        "E12"
+      ],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G1-D4",
+      "gene_id": "G1",
+      "gene_name": "VPS13B",
+      "disease_id": "D4",
+      "disease_name": "heart disease",
+      "status": "not_found",
+      "relation_type": "none",
+      "tested_relation_type": "",
+      "source_scope": "不确定",
+      "claims": [],
+      "evidence_ids": [],
+      "location": [],
+      "reason": "Heart disease is listed only as a variable manifestation of Cohen syndrome (b0068); no VPS13B-heart disease statement; patients had no cardiologic abnormality. Not transferred from Cohen syndrome.",
+      "conditions": {},
+      "unresolved_reason": [],
+      "context_checked": [
+        "E12"
+      ],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G2-D1",
+      "gene_id": "G2",
+      "gene_name": "SERPINB1",
+      "disease_id": "D1",
+      "disease_name": "Cohen syndrome",
+      "status": "supported",
+      "relation_type": "association",
+      "tested_relation_type": "",
+      "source_scope": "背景引用",
+      "claims": [
+        {
+          "claim_id": "C4",
+          "status": "supported",
+          "relation_type": "association",
+          "source_scope": "背景引用",
+          "evidence_ids": [
+            "E9"
+          ],
+          "conditions": {
+            "gene_state": "significantly reduced SERPINB1 (expression) in neutrophils",
+            "population": "Cohen syndrome patients (cited study [16])",
+            "comparator": "not stated",
+            "statistics": "not given"
+          },
+          "reason": "Explicit, non-hypothetical background report that SERPINB1 is significantly reduced in Cohen syndrome neutrophils; disease-specific expression association. Not causal: downstream expression change; the hedged part is its link to neutropenia."
+        },
+        {
+          "claim_id": "C5",
+          "status": "uncertain",
+          "tested_relation_type": "causal",
+          "source_scope": "背景引用",
+          "evidence_ids": [
+            "E10"
+          ],
+          "conditions": {
+            "endpoint": "neutropenia (auxiliary phenotype)"
+          },
+          "reason": "Proposed mechanism VPS13B -> decreased SerpinB1 -> neutrophil apoptosis -> neutropenia; hypothesis about the neutropenia phenotype, not a SERPINB1-Cohen syndrome causal claim."
+        }
+      ],
+      "evidence_ids": [
+        "E9",
+        "E10"
+      ],
+      "location": [],
+      "reason": "Supported association (背景引用) based on the cited finding of significantly reduced SERPINB1 in Cohen syndrome neutrophils (b0067). No causal attribution of Cohen syndrome to SERPINB1 is made; edge represents an expression-level background association only.",
+      "conditions": {
+        "evidence_species": "human",
+        "gene_alteration": "reduced expression (not a mutation)"
+      },
+      "unresolved_reason": [],
+      "context_checked": [
+        "E10"
+      ],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "reduced expression (not a mutation)",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G2-D2",
+      "gene_id": "G2",
+      "gene_name": "SERPINB1",
+      "disease_id": "D2",
+      "disease_name": "neurodevelopmental disease",
+      "status": "not_found",
+      "relation_type": "none",
+      "tested_relation_type": "",
+      "source_scope": "不确定",
+      "claims": [],
+      "evidence_ids": [],
+      "location": [],
+      "reason": "No SERPINB1 statement about neurodevelopmental disease; hierarchy not propagated (R7).",
+      "conditions": {},
+      "unresolved_reason": [],
+      "context_checked": [
+        "E9"
+      ],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G2-D3",
+      "gene_id": "G2",
+      "gene_name": "SERPINB1",
+      "disease_id": "D3",
+      "disease_name": "retinal dystrophy",
+      "status": "not_found",
+      "relation_type": "none",
+      "tested_relation_type": "",
+      "source_scope": "不确定",
+      "claims": [],
+      "evidence_ids": [],
+      "location": [],
+      "reason": "Full text, tables and captions checked; no statement relating this gene to this target beyond co-occurrence in the paper.",
+      "conditions": {},
+      "unresolved_reason": [],
+      "context_checked": [],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    },
+    {
+      "paper_id": "PMC10487392",
+      "unit_id": "u1",
+      "pair_id": "G2-D4",
+      "gene_id": "G2",
+      "gene_name": "SERPINB1",
+      "disease_id": "D4",
+      "disease_name": "heart disease",
+      "status": "not_found",
+      "relation_type": "none",
+      "tested_relation_type": "",
+      "source_scope": "不确定",
+      "claims": [],
+      "evidence_ids": [],
+      "location": [],
+      "reason": "Full text, tables and captions checked; no statement relating this gene to this target beyond co-occurrence in the paper.",
+      "conditions": {},
+      "unresolved_reason": [],
+      "context_checked": [],
+      "observational_context": [],
+      "data_conflict_ids": [],
+      "evidence_species": "human",
+      "gene_species": "human",
+      "host_species": null,
+      "gene_alteration": "",
+      "model_type": ""
+    }
+  ],
+  "study_findings": [
+    {
+      "finding_id": "F1",
+      "finding_type": "descriptive",
+      "variables": [
+        "VPS13B genotype",
+        "Cohen syndrome diagnosis"
+      ],
+      "population_or_group": "Case 1 (2-year-old girl) and Case 2 (1-year-old boy), China",
+      "source_scope": "本研究结果",
+      "evidence_ids": [
+        "E8",
+        "E7",
+        "E23",
+        "E5"
+      ],
+      "conditions": {
+        "method": "WES; semi-quantitative PCR for exon 3-19 deletion; parental testing"
+      },
+      "limits": "Two cases; no comparison group; figure images unread.",
+      "reported_significance": "not_applicable",
+      "effect_direction": "not_applicable",
+      "statistics_availability": "not_applicable",
+      "statistics": null,
+      "unit_id": "u1",
+      "paper_id": "PMC10487392"
+    },
+    {
+      "finding_id": "F2",
+      "finding_type": "mechanism",
+      "variables": [
+        "SERPINB1 expression",
+        "neutrophil apoptosis",
+        "neutropenia"
+      ],
+      "population_or_group": "Neutrophils of Cohen syndrome patients (cited [15][16])",
+      "source_scope": "背景引用",
+      "evidence_ids": [
+        "E9",
+        "E10"
+      ],
+      "conditions": {},
+      "limits": "Background statement; comparator and statistics not given; neutropenia link described as 'possible'.",
+      "reported_significance": "significant",
+      "effect_direction": "negative",
+      "statistics_availability": "not_reported",
+      "statistics": null,
+      "unit_id": "u1",
+      "paper_id": "PMC10487392"
+    },
+    {
+      "finding_id": "F3",
+      "finding_type": "correlation",
+      "variables": [
+        "VPS13B variant",
+        "severity of Cohen syndrome"
+      ],
+      "population_or_group": "Cohen syndrome patients in previous reports [1,12]",
+      "source_scope": "背景引用",
+      "evidence_ids": [
+        "E11"
+      ],
+      "conditions": {},
+      "limits": "'no clear correlation' - test and statistics not given; not equivalent to proven absence.",
+      "reported_significance": "unknown",
+      "effect_direction": "unknown",
+      "statistics_availability": "not_reported",
+      "statistics": null,
+      "unit_id": "u1",
+      "paper_id": "PMC10487392"
+    },
+    {
+      "finding_id": "F4",
+      "finding_type": "hypothesis",
+      "variables": [
+        "VPS13B mutation",
+        "Golgi scaffold protein reduction",
+        "developmental retardation"
+      ],
+      "population_or_group": "Not specified",
+      "source_scope": "不确定",
+      "evidence_ids": [
+        "E14"
+      ],
+      "conditions": {},
+      "limits": "'probable cause'; no citation or data.",
+      "reported_significance": "not_applicable",
+      "effect_direction": "not_applicable",
+      "statistics_availability": "not_applicable",
+      "statistics": null,
+      "unit_id": "u1",
+      "paper_id": "PMC10487392"
+    }
+  ],
+  "data_conflicts": [
+    {
+      "conflict_id": "DC1",
+      "subject": "Neutrophil percentage in each case",
+      "statements": [
+        {
+          "quote": "the neutrophil percentage was 15.2%",
+          "location": "b0014",
+          "value": "15.2% (Case 1)"
+        },
+        {
+          "quote": "the percentage of neutrophils was 16.5%",
+          "location": "b0019",
+          "value": "16.5% (Case 2)"
+        },
+        {
+          "quote": "The percentage of neutrophils (%) | 25.0 | 20.5",
+          "location": "b0046",
+          "value": "25.0 (Case 1), 20.5 (Case 2)"
+        }
+      ],
+      "same_question_assessment": "Same patients and variable; no time point stated for either; may be different blood tests but text does not say so.",
+      "impact": "noncritical",
+      "affected_claim_ids": [],
+      "affected_pair_ids": [],
+      "resolution": "unresolved",
+      "action": "Both values retained; no pair status depends on the exact value (neutropenia is auxiliary).",
+      "reason": "Numeric discrepancy without effect on identity, direction or gene-disease support."
+    },
+    {
+      "conflict_id": "DC2",
+      "subject": "Case 1 developmental retardation grade",
+      "statements": [
+        {
+          "quote": "they all showed moderate retardation (40 ≤ DQ ≤ 54)",
+          "location": "b0014",
+          "value": "moderate"
+        },
+        {
+          "quote": "Severe developmental retardation in five energy regions",
+          "location": "b0044",
+          "value": "severe (Table 1, Case 1 column)"
+        }
+      ],
+      "same_question_assessment": "Same patient, same Gesell assessment.",
+      "impact": "noncritical",
+      "affected_claim_ids": [],
+      "affected_pair_ids": [],
+      "resolution": "unresolved",
+      "action": "Both retained.",
+      "reason": "Phenotype severity discrepancy; does not affect gene-disease pairs."
+    },
+    {
+      "conflict_id": "DC3",
+      "subject": "Figure reference for Case 2 c.6940+1G>T",
+      "statements": [
+        {
+          "quote": "Intron38 c.6940+1G > T (Figure 4)",
+          "location": "b0019",
+          "value": "Figure 4"
+        },
+        {
+          "quote": "Intron38 c.6940+1G > T (Figure 3)",
+          "location": "b0048",
+          "value": "Figure 3 (Table 1, Case 2)"
+        }
+      ],
+      "same_question_assessment": "Same variant in same patient; Figure 3 caption describes the Case 1 exon 3-19 PCR, Figure 4 caption the Case 2 c.6940+1G>T.",
+      "impact": "noncritical",
+      "affected_claim_ids": [],
+      "affected_pair_ids": [],
+      "resolution": "unresolved",
+      "action": "Recorded; not corrected.",
+      "reason": "Cross-reference inconsistency only."
+    },
+    {
+      "conflict_id": "DC4",
+      "subject": "Novelty of c.6940+1G>T",
+      "statements": [
+        {
+          "quote": "The variation was predicted to be pathogenic by related software, and they have not been reported.",
+          "location": "b0005",
+          "value": "not reported (abstract, apparently all variants)"
+        },
+        {
+          "quote": "had been detected in patients with Cohen syndrome [7]",
+          "location": "b0066",
+          "value": "c.6940+1G>T previously detected"
+        },
+        {
+          "quote": "the variant was observed in trans with other pathogenic variants in several cases (PMID: 33959574, 33025479, 30138938, and in the current report)",
+          "location": "b0053",
+          "value": "previously observed"
+        }
+      ],
+      "same_question_assessment": "Abstract wording ambiguous ('they') - may refer only to the two deletions; Discussion and Table 2 state c.6940+1G>T is previously reported. Also b0066/b0071 call both cases 'novel compound heterozygous variants' while one allele is known.",
+      "impact": "noncritical",
+      "affected_claim_ids": [
+        "C2",
+        "C3"
+      ],
+      "affected_pair_ids": [
+        "G1-D1"
+      ],
+      "resolution": "unresolved",
+      "action": "Retained; G1-D1 support does not depend on variant novelty.",
+      "reason": "Concerns novelty, not the gene-disease relation."
+    },
+    {
+      "conflict_id": "DC5",
+      "subject": "Inheritance/zygosity description in background vs cases",
+      "statements": [
+        {
+          "quote": "caused by homozygous mutation in the vacuolar protein sorting 13 homolog B (VPS13B) gene",
+          "location": "b0003",
+          "value": "homozygous"
+        },
+        {
+          "quote": "We reported two novel compound heterozygous variants in the VPS13B gene inherited from non-inbred parents.",
+          "location": "b0066",
+          "value": "compound heterozygous"
+        }
+      ],
+      "same_question_assessment": "Not the same question: background statement concerns the typical genotype; cases are compound heterozygous. Apparent, not substantive, conflict.",
+      "impact": "noncritical",
+      "affected_claim_ids": [],
+      "affected_pair_ids": [],
+      "resolution": "resolved",
+      "action": "No change; both genotypes recorded as conditions.",
+      "reason": "Different genotype classes under the same autosomal recessive model."
+    }
+  ],
+  "unresolved": [
+    {
+      "item": "Neutrophil percentage values (DC1) and Case 1 DQ severity (DC2)",
+      "kind": "data",
+      "status": "unresolved",
+      "reason": "Text vs Table 1 disagree.",
+      "material_needed": "Author clarification / raw clinical records"
+    },
+    {
+      "item": "Abstract novelty statement vs Discussion/Table 2 (DC4)",
+      "kind": "data",
+      "status": "unresolved",
+      "reason": "Ambiguous referent of 'they' in abstract.",
+      "material_needed": "Author clarification"
+    },
+    {
+      "item": "VPS13B-neutropenia relation",
+      "kind": "scope",
+      "status": "unresolved",
+      "reason": "Neutropenia treated as auxiliary laboratory phenotype under R1, so the paper's 'possible mechanism of VPS13B causing neutropenia' is not a primary pair; kept in study_findings F2.",
+      "material_needed": "Rule clarification on manifestation-type conditions"
+    }
+  ],
+  "input_scope": "A. Read input/PMC10487392.xml (case-report; SHA-256 6acd0775...6f54) via python -m toolkit.blocks: 75 blocks, 12904 characters, all read in full: title, structured abstract (Background/Results/Conclusion), Introduction, Case presentation (Case 1, Case 2), captions of Figures 1-5, Table 1 (clinical manifestations, checks and WES results; all rows incl. section-label rows Anthropometry / Radiological reports / Laboratory investigations / Variant), Table 2 (ACMG pathogenicity evaluation; all rows), ethics/consent statements, Discussion, Conclusion and back matter. Limitations: the 5 linked figure graphics (facial photographs, Sanger traces, PCR copy-number plot) were not available as images; only their captions were read, so no image text/pixel content was analysed. The reference list is not present in the parsed blocks and was not used; bracketed citation numbers in the text are treated as markers of background statements. PMIDs in Table 2 were not looked up. No supplementary files are referenced. Single study unit (two-patient case series), English."
+}

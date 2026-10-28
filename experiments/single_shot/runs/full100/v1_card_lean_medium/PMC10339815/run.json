@@ -1,0 +1,137 @@
+{
+  "paper_id": "PMC10339815",
+  "variant": "v1_card_lean_medium",
+  "model": "Claude_Opus_5.5",
+  "cli_model": "claude-opus-5-5",
+  "effort": "medium",
+  "variant_hashes": {
+    "card.md": "de7857e6a3f667c39d4f914b9688e0db1c3c6862544c68068fd8e60c5607f1da",
+    "format.md": "392cb436fc41c69751174a204919761ca82f1ddd0d57d43c6457b855d6eed989"
+  },
+  "fixed_characters": 11284,
+  "paper_characters": 65166,
+  "calls": [
+    {
+      "seconds": 69.3,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 26677,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 8051,
+        "output_tokens_details": {
+          "thinking_tokens": 4103
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 26677,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 8051,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 26677,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 26677
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.3752248,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 8051,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 26677,
+          "webSearchRequests": 0,
+          "costUSD": 0.3752248,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 4103,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "seconds": 39.7,
+      "exit_code": 0,
+      "usage": {
+        "input_tokens": 2,
+        "cache_creation_input_tokens": 30804,
+        "cache_read_input_tokens": 3904,
+        "output_tokens": 4775,
+        "output_tokens_details": {
+          "thinking_tokens": 848
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 30804,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "global",
+        "iterations": [
+          {
+            "input_tokens": 2,
+            "output_tokens": 4775,
+            "cache_read_input_tokens": 3904,
+            "cache_creation_input_tokens": 30804,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 30804
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard",
+        "fallback_credit": null
+      },
+      "cost_usd": 0.3427208,
+      "turns": 1,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 4775,
+          "cacheReadInputTokens": 3904,
+          "cacheCreationInputTokens": 30804,
+          "webSearchRequests": 0,
+          "costUSD": 0.3427208,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 848,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "stderr": ""
+    }
+  ],
+  "first_response_problems": [
+    "P G3-D1: uncertain needs valid unresolved reasons",
+    "P G5-D1: uncertain needs valid unresolved reasons",
+    "P G8-D1: uncertain needs valid unresolved reasons",
+    "P G22-D1: uncertain needs valid unresolved reasons",
+    "P G24-D1: uncertain needs valid unresolved reasons",
+    "P G23-D1: uncertain needs valid unresolved reasons"
+  ]
+}

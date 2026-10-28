@@ -1,0 +1,26 @@
+META|Opus 5.5|seen: no
+SCOPE|Full case report text, tables and captions; no genes present
+E|D1|disease|carcinosarcoma|Carcinosarcoma;carcinosarcoma;Carcinosarcomas;carcinosarcomas|r|||||
+E|D2|disease|salivary carcinosarcoma|Salivary Carcinosarcomas|r|||D1|
+E|D3|disease|parotid carcinosarcoma|Parotid Carcinosarcoma;parotid carcinosarcoma;carcinosarcoma of parotid|r|||D1|
+E|D4|disease|salivary gland tumor|salivary gland tumor;malignant salivary gland tumors|r||||
+E|D5|disease|malignant neoplasm|malignant neoplasm|r||||
+E|D6|disease|adenocarcinoma|adenocarcinoma|r||||
+E|D7|disease|salivary ductal adenocarcinoma|salivary ductal adenocarcinoma|r|||D6|
+E|D8|disease|chondrosarcoma|chondrosarcoma|r||||
+E|D9|disease|fibrosarcoma|fibrosarcoma|r||||
+E|D10|disease|leiomyosarcoma|leiomyosarcoma|r||||
+E|D11|disease|osteosarcoma|osteosarcoma|r||||
+E|D12|disease|malignant fibrous histiocytoma|malignant fibrous histiocytoma|r||||
+E|D13|disease|pleomorphic adenoma|pleomorphic adenoma|r||||
+E|D14|disease|cancer|cancer|r||||
+E|D15|disease|bone metastases|bone metastases|r||||
+E|CE1|clinical_event|recurrence|recurrence|r||||
+E|CE2|clinical_event|pathologic fracture|pathologic fracture;pathologic fractures|r||||
+E|CE3|clinical_event|metastasis|metastasis|r||||
+E|S1|symptom|facial nerve palsy|facial nerve palsy|r||||
+E|S2|phenotype|vasogenic edema|vasogenic edema|r||||
+E|S3|phenotype|hemorrhagic metastases|hemorrhagic metastases|r||||
+X|pankeratin|b0018|immunostain marker cocktail, not a single gene
+X|epithelial membrane antigen|b0018|immunostain protein marker; no gene named
+R|empty gene matrix|whole paper|No gene entities, so no gene-disease pairs can be formed|Listed entities only; no P records output

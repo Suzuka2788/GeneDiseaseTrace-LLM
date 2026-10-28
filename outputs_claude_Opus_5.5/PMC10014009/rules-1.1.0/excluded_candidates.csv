@@ -1,0 +1,15 @@
+﻿name,kind,reason
+CCM genes / FCCM gene / the three CCM genes / CCM-associated genes,gene set,"R1: gene-set term (defined in b0003 as KRIT1, CCM2, PDCD10); role-tagged gene_set_modifier."
+CCM complexes,protein complex,R1: protein complex.
+ankyrin component,protein region,Part of the KRIT1 protein (b0100).
+"NG_012964.1, NC_000007.14, NG_016295.1, NG_008158.1, NC_000003.12",reference sequence,Stored as reference_sequences_from_text on G01-G03.
+"HGMD, gnomAD, KRGDB, ACMG",database / guideline,Not genes or diseases.
+"FSPLICE, NNSplice, NetGene2",software,Splice prediction tools.
+WHO grade IV,tumour grade,Qualifier of D18.
+brainstem lesions / brainstem / lateral temporal / parietal / cerebellum / cortex/subcortex / frontal / temporal / medial temporal / occipital / basal ganglia / thalamus / pons / medulla oblongata / motor cortex / occipital cortex / frontal cortex / hindbrain / thoracic spinal cord,anatomical location,Lesion sites; the location finding is study finding SF1.
+Zabramski type IV,lesion classification,Radiological lesion type.
+recent hemorrhage (b0070),ambiguous event,"Suspected haemorrhage in a spinal CM, not labelled CASH; not in a diagnosis position."
+hemorrhage (b0011 'development and hemorrhage'),generic event,Unqualified mention in mechanism text.
+symptoms / disease burden / symptomatic / asymptomatic,generic term,Not named conditions.
+autosomal dominant disease/disorder,inheritance descriptor,Describes FCCM.
+blooming artifacts,imaging artefact,MRI artefact.

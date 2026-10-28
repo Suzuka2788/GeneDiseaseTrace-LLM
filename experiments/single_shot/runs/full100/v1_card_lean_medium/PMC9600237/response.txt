@@ -1,0 +1,55 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full case report text, Table 1 rows, figure caption; references removed
+E|G1|gene|RPL3L|RPL3L;ribosomal protein large 3-like;RLP3L|p|suspected_typo|human||
+E|D1|disease|dilated cardiomyopathy|dilated cardiomyopathy;DCM;Dilated cardiomyopathy|r|||D2|
+E|D2|disease|cardiomyopathy|cardiomyopathy|r||||
+E|D3|disease|familial dilated cardiomyopathy|familial dilated cardiomyopathy|r|||D1|
+E|D4|disease|neonatal DCM|neonatal DCM|r|||D1|
+E|D5|disease|neonatal familial DCM|neonatal familial DCM|r|||D3|
+E|D6|disease|childhood cardiomyopathies|childhood cardiomyopathies|r||||
+E|D7|disease|heart failure|heart failure;heart failures|r||||
+E|D8|disease|mitochondrial disorders|mitochondrial disorders|r||||
+E|D9|disease|atrial fibrillation|atrial fibrillation|r||||
+E|D10|disease|catecholaminergic polymorphic ventricular tachycardia|catecholaminergic polymorphic ventricular tachycardia|r||||
+E|D11|disease|heart diseases|heart diseases|r||||
+E|D12|disease|arrhythmias|arrhythmias|r||||
+E|D13|disease|pulmonary hypertension|pulmonary hypertension;PH|r||||
+E|D14|disease|patent foramen ovale|patent foramen ovale;PFO|r||||
+E|D15|disease|mitral regurgitation|mitral regurgitation;MR|r||||
+E|D16|disease|tricuspid regurgitation|tricuspid regurgitation;TR|r||||
+E|D17|disease|right bundle branch block|right bundle branch block;RBBB|r||||
+E|D18|ambiguous_disease|VSD|VSD|u|undefined_abbreviation|||
+E|S1|phenotype|cardiomegaly|cardiomegaly|r||||
+E|S2|phenotype|metabolic acidosis|metabolic acidosis|r||||
+E|S3|symptom|respiratory distress|respiratory distress|r||||
+E|S4|symptom|hypotension|hypotension|r||||
+E|S5|symptom|hepatomegaly|hepatomegaly|r||||
+E|S6|symptom|muscle weakness|muscle weakness|r||||
+X|60S ribosomal subunit|b0004|complex, not single gene
+X|NT brain-type pro-natriuretic peptide|b0005|lab marker, not gene endpoint
+X|mycoplasma pneumonia|b0005|pathogen in infectious workup, not diagnosed disease
+EV|V1|b0004.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s7+b0011.s11|bg|bgr|aff|ebr
+EV|V3|b0002.s1|ts|res|aff|eda,rr
+EV|V4|b0006.s12+b0008.s3|ts|int|aff|eda
+EV|V5|b0002.s8|unk|int|aff|eda
+EV|V6|b0014.s1|bg|bgr|aff|ebr
+EV|V7|b0014.s2|ts|int|hyp|ho
+EV|V8|b0012.s6|unk|bgr|aff|unc
+EV|V9|b0012.s3|bg|bgr|aff|ebr
+EV|V10|b0012.s4|bg|co|na|do
+EV|V11|b0012.s1|unk|int|pre|unc
+EV|V12|b0014.s3|ts|aim|pre|none
+P|G1|D1|sup|a|both|sup:a:bg:V2;sup:a:ts:V3+V4;sup:a:unk:V5||V12|Literature cases plus this case attribution
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||Bi-allelic variants identified with familial DCM
+P|G1|D4|sup|a|bg|sup:a:bg:V6|||Prior RPL3L cases associated with neonatal DCM
+P|G1|D5|unc|-|ts|unc:-:ts:V7|hedged_claim||Only likely pathogenicity stated
+P|G1|D7|sup|a|unk|sup:a:unk:V8||V3+V4|Variant associated with progressive heart failure, source unclear
+P|G1|D9|sup|a|bg|sup:a:bg:V9|||Variants implicated in atrial fibrillation
+P|G1|D10|unc|-|bg|unc:-:bg:V10|support_basis_unresolved||Variant reported in one case, no attribution
+P|G1|D11|unc|-|unk|unc:-:unk:V11|presupposed_only||Role poorly understood presupposes link
+F|F1|descriptive|RPL3L p.A51T/p.V231F compound heterozygosity|proband infant with DCM, trio|not_applicable|not_applicable|not_applicable|V3+V4|single case, no functional data
+F|F2|descriptive|RPL3L bi-allelic genotypes and outcomes|seven literature DCM cases|not_applicable|not_applicable|not_applicable|V2|literature summary only
+C|C1|Table 1 homozygous vs compound heterozygous|b0022.s1+b0011.s11+b0024.s1|noncritical|resolved|rows show two distinct variants per case
+C|C2|four vs five unrelated families|b0002.s7+b0004.s2+b0011.s11|noncritical|unresolved|family count differs, not status-relevant
+C|C3|heterozygous vs compound heterozygous proband|b0011.s4+b0006.s2|noncritical|resolved|two variants, parents each carrier

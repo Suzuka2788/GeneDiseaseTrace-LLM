@@ -1,0 +1,18 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|insulin receptor substrate 2|IRS2;insulin receptor substrate 2|r||human||
+E|D1|disease|obesity|obesity|r||||
+E|D2|disease|diabetes|diabetes|r||||
+E|S1|phenotype|fasting glucose homeostasis|fasting glucose homeostasis|r||||
+E|S2|phenotype|BMI|BMI|r||||
+X|10510452_139|b0002|variant identifier, not a gene
+X|quantitative trait locus on chromosome 13|b0002|genomic locus, not a single gene
+EV|V1|b0001.s1+b0002.s9|ts|res|aff|rr
+EV|V2|b0002.s10+b0002.s11|ts|res|aff|rr
+EV|V3|b0002.s12|ts|neg|neg|rr
+EV|V4|b0002.s13|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2|||Rare IRS2 SNPs associated with obesity-related traits
+P|G1|D2|neg|-|ts|neg:-:ts:V3|||No IRS2 SNP associated with diabetes-related traits
+F|F1|association|rare IRS2 SNPs vs obesity-related traits|934 Hispanic children|significant|unknown|partial|V1|direction not reported in abstract
+F|F2|association|SNP 10510452_139 vs BMI, fat mass, waist|934 Hispanic children|significant|unknown|partial|V2|Bayesian posterior probability, 2-4% variance
+F|F3|association|IRS2 SNPs/indels vs diabetes-related traits|934 Hispanic children|not_significant|null|not_reported|V3|

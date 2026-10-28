@@ -1,0 +1,28 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; review article; no body text
+E|G1|gene|cyclooxygenase|cyclooxygenase|p|ambiguous_mapping|human||
+E|G2|gene|N-terminal pro brain natriuretic peptide|N-terminal pro brain natriuretic peptide;NT-proBNP|r||human||
+E|G3|gene|C-reactive protein|C-reactive protein|r||human||
+E|D1|disease|myocardial infarction|myocardial infarction|r||||
+E|D2|disease|stroke|stroke|r||||
+E|D3|disease|hypertension|hypertension|r||||
+E|D4|disease|heart failure|heart failure|r||||
+E|D5|disease|cardiovascular toxicity|cardiovascular toxicity|r||||
+E|D6|clinical_event|cardiovascular adverse events|cardiovascular adverse events|r||||
+E|S1|phenotype|vascular resistance|vascular resistance|r||||
+E|S2|symptom|fluid retention|fluid retention|r||||
+X|cyclooxygenase inhibitors|b0002|drug class, not gene; the gene is mapped to G1
+X|prostanoid|b0002|metabolite class, not gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|int|aff|ebr
+EV|V3|b0002.s4|bg|bgr|aff|ebr
+EV|V4|b0002.s6|bg|hyp|hyp|ho
+P|G1|D1|unc|-|bg|unc:-:bg:V1|scope||drug-inhibitor risk only, not a gene-level attribution
+P|G1|D2|unc|-|bg|unc:-:bg:V1|scope||drug-inhibitor risk only, not a gene-level attribution
+P|G1|D3|unc|-|bg|unc:-:bg:V1+V2|scope||drug-inhibitor risk only, not a gene-level attribution
+P|G1|D4|unc|-|bg|unc:-:bg:V1|scope||drug-inhibitor risk only, not a gene-level attribution
+P|G1|D6|unc|-|bg|unc:-:bg:V3|scope||dose-dependent drug effect, not gene-level evidence
+P|G2|D5|unc|-|bg|unc:-:bg:V4|hedged_claim||marker "might help" identify risk
+P|G3|D5|unc|-|bg|unc:-:bg:V4|hedged_claim||marker "might help" identify risk
+F|F1|association|COX inhibitor dose/exposure vs CV events|COX inhibitor-treated patients|unknown|positive|not_reported|V3|drug-level, review summary
+R|pharmacological inhibition|b0002.s1|Drug-class inhibition of an enzyme linked to disease; card lacks a drug rule|Marked gene pairs uncertain with reason scope; no relation type assigned

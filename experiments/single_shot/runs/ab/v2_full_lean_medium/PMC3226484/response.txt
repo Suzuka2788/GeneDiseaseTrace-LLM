@@ -1,0 +1,82 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, captions, Table 1 read; supplemental figures/table unread
+E|G1|gene|Lmnb1 (mouse)|Lmnb1;lamin B1|r||non-human||
+E|G2|gene|Lmnb2 (mouse)|Lmnb2;lamin B2|r||non-human||
+E|G3|gene|Lmna (mouse)|Lmna;lamin A/C|r||non-human||
+E|G4|gene|LMNA (human)|LMNA|r||human||
+E|G5|gene|LMNB1 (human)|LMNB1|r||human||
+E|G6|gene|LMNB2 (human)|LMNB2|r||human||
+E|G7|gene|LIS1|LIS1|r||human||
+E|G8|gene|NDE1|NDE1|r||human||
+E|G9|gene|NDEL1|NDEL1|r||human||
+E|G10|gene|SUN1 (mouse)|SUN1|r||non-human||
+E|G11|gene|SUN2 (mouse)|SUN2|r||non-human||
+E|G12|gene|Syne-1/Nesprin 1 (mouse)|Syne-1;Nesprin 1|r||non-human||
+E|G13|gene|Syne-2/Nesprin 2 (mouse)|Syne-2;Nesprin 2|r||non-human||
+E|G14|gene|Reelin|Reelin|p|species_unresolved|||
+E|G15|gene|cyclin-dependent kinase 5|cyclin-dependent kinase 5|p|species_unresolved|||
+E|D1|disease|cardiomyopathy|cardiomyopathy|r|||||
+E|D2|disease|muscular dystrophy|muscular dystrophy|r|||||
+E|D3|disease|lipodystrophy|lipodystrophy|r|||||
+E|D4|disease|peripheral neuropathy|peripheral neuropathy|r|||||
+E|D5|disease|progeria|progeria|r|||||
+E|D6|disease|neurodevelopmental defects|neurodevelopmental defects;neurodevelopmental abnormalities|r|||||
+E|D7|disease|lissencephaly|lissencephaly|r|||D6|
+E|D8|disease|neurological diseases|neurological diseases|r|||||
+E|D9|disease|epilepsy|epilepsy|r|||D8|
+E|D10|disease|schizophrenia|schizophrenia|r|||D8|
+E|D11|disease|autism|autism|r|||D8|
+E|D12|disease|CNS disease|CNS disease|r|||||
+E|S1|phenotype|neuronal migration defects|Neuronal migration defects|r|||||
+E|S2|phenotype|atrophy of the cortex|atrophy of the cortex|r|||||
+E|S3|phenotype|nuclear bleb|nuclear bleb|r|||||
+X|TBR1|b0012|layer marker; antibody tool, not studied gene
+X|Otx1|b0012|layer marker tool
+X|Ctip2|b0012|layer marker tool
+X|Sox2|b0014|progenitor marker tool
+X|Ki67|b0014|mitotic marker tool
+X|TBR2|b0014|intermediate progenitor marker tool
+X|Cux1|b0022|layer marker tool
+X|NeuN|b0010|neuronal marker tool
+X|Lap2β|b0016|nuclear envelope marker tool
+X|Emx1-Cre|b0020|Cre driver transgene tool
+X|lacZ|b0053|reporter gene tool
+X|βgeo|b0053|gene-trap cassette tool
+EV|V1|b0001.s1+b0003.s2+b0043.s1+b0047.s1|ts|res|aff|mi,rr
+EV|V2|b0043.s9|ts|res|aff|mi
+EV|V3|b0026.s2+b0050.s1|ts|res|aff|mi,rr
+EV|V4|b0008.s5|bg|bgr|aff|ebr
+EV|V5|b0007.s3|bg|bgr|aff|ebr,mi
+EV|V6|b0007.s5|bg|bgr|aff|ebr,eda
+EV|V7|b0007.s4|bg|neg|neg|ebr
+EV|V8|b0005.s4|bg|bgr|aff|ebr
+EV|V9|b0050.s9|ts|hyp|hyp|ho
+EV|V10|b0008.s4|bg|co|na|none
+EV|V11|b0050.s2|bg|bgr|aff|ebr
+P|G1|D6|sup|c|ts|sup:c:ts:V1+V2+V3||V10|Mouse knockout models; non-human model evidence
+P|G2|D6|sup|c|ts|sup:c:ts:V3;sup:a:bg:V4|||Mouse knockouts; non-human model evidence
+P|G1|D12|nf|-||||V10|CNS disease named only as uninvestigated possibility
+P|G3|D1|sup|c|bg|sup:c:bg:V5|||Lmna-deficient mice develop cardiomyopathy; mouse
+P|G3|D2|sup|c|bg|sup:c:bg:V5|||Lmna-deficient mice develop muscular dystrophy; mouse
+P|G4|D1|sup|c|bg|sup:c:bg:V6;sup:a:bg:V11|||Human LMNA mutations cause cardiomyopathy
+P|G4|D2|sup|c|bg|sup:c:bg:V6;sup:a:bg:V11|||Human LMNA mutations cause muscular dystrophy
+P|G4|D3|sup|c|bg|sup:c:bg:V6;sup:a:bg:V11|||Some LMNA mutations cause lipodystrophy
+P|G4|D4|sup|c|bg|sup:c:bg:V6|||Some LMNA mutations cause peripheral neuropathy
+P|G4|D5|sup|c|bg|sup:c:bg:V6;sup:a:bg:V11|||Some LMNA mutations cause progeria
+P|G4|D6|neg|-|bg|neg:a:bg:V7|||No LMNA mutation linked to neurodevelopmental abnormalities
+P|G7|D6|sup|a|bg|sup:a:bg:V8|||Identified via human neurodevelopmental defect studies
+P|G8|D6|sup|a|bg|sup:a:bg:V8|||Identified via human neurodevelopmental defect studies
+P|G9|D6|sup|a|bg|sup:a:bg:V8|||Identified via human neurodevelopmental defect studies
+P|G5|D8|unc|-|ts|unc:a:ts:V9|hedged_claim||Authors suspect future mutations; hypothesis only
+P|G6|D8|unc|-|ts|unc:a:ts:V9|hedged_claim||Authors suspect future mutations; hypothesis only
+F|F1|group_comparison|cortical plate/cortex thickness ratio|Lmnb1Δ/Δ vs WT embryos|significant|negative|available|V1|E16.5 not tested; small n
+F|F2|group_comparison|Sox2+ progenitor counts E15.5|Lmnb1Δ/Δ vs WT embryos|not_significant|negative|available|V1|p=0.06, n=3 per group
+F|F3|group_comparison|TBR2+ intermediate progenitors E15.5|Lmnb1Δ/Δ vs WT embryos|significant|negative|available|V1|n=3 per group
+F|F4|group_comparison|neurons with solitary nuclear bleb|Lmnb1Δ/Δ vs WT E16.5 cortex|significant|positive|available|V1|
+F|F5|group_comparison|nuclear length of neurons|Lmnb2-/- vs WT embryonic neurons|significant|positive|partial|V3|values in unread Figure S2A
+F|F6|group_comparison|cortex length at 4 mo|Emx1-Cre Lmnb1fl/fl vs WT|significant|negative|available|V2|n=3 per group
+F|F7|group_comparison|brain weight at 1 mo|Lmnb1/Lmnb2 double knockout vs WT|significant|negative|available|V3|joint knockout; not per-gene
+C|C1|Sox2+ progenitor reduction|b0014.s2|noncritical|unresolved|"Clearly reduced" text yet p=0.06
+U|Supplemental Figures S1-S6|b0012.s11;b0018.s2;b0020.s4;b0024.s2;b0026.s5|Supplementary files not provided
+U|Supplemental Table S1|b0056.s7;b0060.s5|Supplementary files not provided
+R|R2/R3|V1,V3|Mouse knockout phenotype labelled generic neurodevelopmental defects, not a named disease|Treated as broad disease family; edges marked non-human model evidence

@@ -1,0 +1,34 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FGFR-4|FGFR-4;FGF receptor 4|r||human||
+E|G2|gene|MMP-9|MMP-9|r||human||
+E|G3|gene|MMP-12|MMP-12|r||human||
+E|G4|gene|FGF-3|FGF-3|r||human||
+E|G5|gene|FGF-7|FGF-7|r||human||
+E|G6|gene|MMP-1|MMP-1|r||human||
+E|G7|gene|FGF-2|FGF-2|r||human||
+E|G8|gene|Signal-Regulatory Protein a|Signal-Regulatory Protein a;SIRPA|r||human||
+E|G9|gene|Thyroid Transcription Factor-1|Thyroid Transcription Factor-1;TTF-1|r||human||
+E|D1|disease|bronchopulmonary dysplasia|bronchopulmonary dysplasia;Bronchopulmonary dysplasia;BPD|r||||
+E|D2|disease|neonatal respiratory distress syndrome|neonatal respiratory distress syndrome;RDS;neonatal respiratory distress|r||||
+E|D3|disease|chronic lung disease|chronic lung disease|r||||
+X|matrix metalloproteinases (MMPs)|b0002|gene family, not single gene
+X|fibroblast growth factors (FGFs)|b0002|gene family, not single gene
+X|FGFR|b0002|receptor family, not single gene
+X|rs1966265|b0002|variant ID
+X|alveolar diseases of preterm newborns|b0002|generic disease grouping
+X|pulmonary diseases of preterm neonates|b0002|generic disease grouping
+EV|V1|b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s10|ts|int|hyp|ho
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V2|||rs1966265 associated with RDS, P=0.003
+P|G1|D1|sup|a|ts|sup:a:ts:V2||V3|rs1966265 associated with BPD, P=0.023
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||SNP associated with RDS P<0.05
+P|G3|D2|sup|a|ts|sup:a:ts:V1|||SNP associated with RDS P<0.05
+P|G4|D2|sup|a|ts|sup:a:ts:V1|||SNP associated with RDS P<0.05
+P|G5|D2|sup|a|ts|sup:a:ts:V1|||SNP associated with RDS P<0.05
+F|F1|association|FGFR-4 rs1966265 vs RDS|Caucasian premature neonates|significant|unknown|partial|V2|abstract only; no effect size
+F|F2|association|FGFR-4 rs1966265 vs BPD|Caucasian premature neonates|significant|unknown|partial|V2|abstract only; no effect size
+F|F3|association|SNPs in five genes vs RDS|Caucasian premature neonates|significant|unknown|partial|V1|threshold only; no multiple-testing info
+R|disease defined by intervention|b0002.s8|RDS operationally defined as surfactant application within 24h|treated as RDS disease entity, not separate event
+R|unlisted members in abbreviated list|b0002.s7|MMP-2/-16, FGFR-2, FGF-4/-18 lack verbatim surface forms|not created as entities; all pairs nf

@@ -1,0 +1,34 @@
+META|claude-opus-5-5|seen: no
+SCOPE|full text read; supplemental figures unread
+E|g1|gene|RPGR|RPGR;RPGRORF15;wtRPGRORF15;coRPGRORF15;wtRPGR;coRPGR|r||human||
+E|g2|gene|Rpgr|Rpgr;RpgrORF15|r||non-human||
+E|g3|gene|Rpgrip1|Rpgrip1|r||non-human||
+E|g4|gene|GAPDH|GAPDH|r||human||
+E|d1|disease|X-linked retinitis pigmentosa|X-linked retinitis pigmentosa;XLRP|r|||
+E|d2|disease|retinitis pigmentosa|retinitis pigmentosa|r|||
+E|d3|disease|retinal degeneration|retinal degeneration|r|||
+E|s1|symptom|blindness|blindness|r|||
+X|GeneID: 6103|b0013|database identifier
+X|CCDS35229.1|b0018|consensus CDS identifier
+X|ORF15|b0006|gene region, not a gene
+X|NCT03116113|b0036|trial identifier
+EV|V1|b0002.s2+b0002.s10|bg|bgr|aff|ebr
+EV|V2|b0005.s1|bg|bgr|aff|ebr
+EV|V3|b0003.s1|bg|bgr|aff|ebr
+EV|V4|b0030.s1|bg|bgr|aff|ebr
+EV|V5|b0008.s3+b0033.s1|bg|bgr|aff|ebr
+EV|V6|b0026.s4+b0033.s4|ts|res|aff|mi,rr
+EV|V7|b0031.s5+b0031.s8|ts|int|aff|mi
+EV|V8|b0002.s1|bg|bgr|aff|ebr
+EV|V9|b0015.s4+b0015.s8|ts|res|na|rr
+EV|V10|b0024.s3+b0032.s1|ts|neg|na|rr
+EV|V11|b0013.s4+b0013.s7|ts|res|na|rr
+P|g1|d1|sup|c|bg|sup:c:bg:V1+V2+V4;sup:a:bg:V3;sup:a:ts:V6||V7|RPGR mutations cause XLRP; rescue in models
+P|g1|d3|sup|a|bg|sup:a:bg:V3||V7|RPGR mutations cause retinal degeneration
+P|g2|d1|sup|a|both|sup:a:bg:V5;sup:a:ts:V6|||Rpgr-mutant mice are XLRP models, rescued
+P|g1|d2|unc|-|bg||scope|V8|XLRP described as form of RP only
+F|F1|group_comparison|coRPGR vs wtRPGR expression|transfected HEK293T cells|significant|positive|available|V9|western blot and FACS
+F|F2|group_comparison|coRPGR treatment vs untreated ERG|Rpgr-/y, C57BL/6JRd9/Boc mice|significant|positive|partial|V6|supplemental ERG figures unread
+F|F3|group_comparison|coRPGR vs sham/untreated ERG|wild-type C57BL/6J mice|not_significant|null|partial|V10|safety endpoint; figures unread
+F|F4|descriptive|sequence fidelity co vs wt RPGR|cloning experiments|significant|positive|partial|V11|Phred scores in supplement
+U|Figures S1-S10|b0062.s2|supplemental document not provided

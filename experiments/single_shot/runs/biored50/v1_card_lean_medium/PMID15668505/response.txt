@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|BRCA2|BRCA2|r||human||
+E|G2|gene|BRCA1|BRCA1|r||human||
+E|D1|disease|breast cancer|breast cancer|r||||
+E|D2|disease|ovarian cancer|ovarian cancer|r||||
+X|N372H|b0002|variant ID
+X|203G > A|b0002|variant ID
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s6|ts|neg|neg|rr,cmp
+EV|V3|b0002.s7|ts|neg|neg|rr,cmp
+EV|V4|b0002.s7+b0002.s9|ts|res|q|rr,unc
+EV|V5|b0001.s1+b0002.s2+b0002.s6|ts|co|pre|none
+P|G1|D1|sup|a|bg|sup:a:bg:V1;neg:-:ts:V2||V2|Background N372H association; no modifier effect in carriers
+P|G1|D2|sup|a|bg|sup:a:bg:V1;neg:-:ts:V3;unc:-:ts:V4|hedged_claim|V3+V4|Background association; this study N372H null, 203A borderline
+P|G2|D1|unc|-|unk|unc:-:unk:V5|presupposed_only||Carrier penetrance presupposed, never stated
+P|G2|D2|unc|-|unk|unc:-:unk:V5|presupposed_only||Carrier risk presupposed, never stated
+F|F1|association|BRCA2 N372H and 203G>A vs breast cancer|778 BRCA1 mutation carriers|not_significant|null|not_reported|V2|Cox model; statistics not shown
+F|F2|association|BRCA2 N372H vs ovarian cancer|778 BRCA1 mutation carriers|not_significant|null|not_reported|V3|
+F|F3|association|BRCA2 203A allele vs ovarian cancer|778 BRCA1 mutation carriers|mixed|positive|partial|V4|Authors call it borderline; HR 1.43
+F|F4|other|N372H Hardy-Weinberg equilibrium|female BRCA1 carriers|not_significant|null|not_reported|b0002.s8|

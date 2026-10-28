@@ -1,0 +1,38 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|TP53|TP53|r||human||
+E|G2|gene|CNBD1|CNBD1|r||human||
+E|G3|gene|RB1|RB1|r||human||
+E|G4|gene|APC|APC|r||human||
+E|G5|gene|BCOR|BCOR|r||human||
+E|G6|gene|BRAF|BRAF|r||human||
+E|G7|gene|CTNNB1|CTNNB1|r||human||
+E|G8|gene|EGFR|EGFR|r||human||
+E|G9|gene|EP300|EP300|r||human||
+E|G10|gene|ERBB3|ERBB3|r||human||
+E|G11|gene|KDM6A|KDM6A|r||human||
+E|G12|gene|KRAS|KRAS|r||human||
+E|G13|gene|MGA|MGA|r||human||
+E|G14|gene|MLL3|MLL3|r||human||
+E|G15|gene|PTEN|PTEN|r||human||
+E|G16|gene|RASA1|RASA1|r||human||
+E|G17|gene|SMARCB1|SMARCB1|r||human||
+E|G18|gene|SPEN|SPEN|r||human||
+E|G19|gene|TBC1D12|TBC1D12|r||human||
+E|G20|gene|VHL|VHL|r||human||
+E|D1|disease|gastroenteropancreatic neuroendocrine tumors|gastroenteropancreatic neuroendocrine tumors;GEP-NETs;GEP-NET|r||||
+E|D2|disease|neuroendocrine tumor|NET;NETs|p|undefined_abbreviation|||
+E|D3|disease|small intestine NETs|small intestine NETs|r|||D2|
+E|D4|clinical_event|resistance to pazopanib|resistance|p|other|||
+E|S1|phenotype|progression|progression|r||||
+X|cancer-related gene|b0002|disease-like term used as gene category
+EV|V1|b0001.s1+b0002.s7|ts|co|na|do
+EV|V2|b0002.s9|ts|hyp|hyp|ho
+EV|V3|b0002.s4+b0002.s5|ts|co|na|do
+EV|V4|b0002.s6|ts|co|na|do
+P|G6|D1|unc|-|ts|unc:-:ts:V2|hedged_claim|V1|Detected V600E; actionability claim hedged
+P|G6|D4|unc|-|ts|unc:-:ts:V2|hedged_claim|V4|Resistance is stated as likely only
+P|G1|D1|nf|-||||V3+V4|Mutation detected only; no disease attribution
+F|F1|descriptive|BRAF V600E/G593S mutation frequency|independent cohort of 44 GEP-NETs|not_applicable|not_applicable|partial|V1|Sanger sequencing; no comparator
+F|F2|descriptive|recurrent mutated genes|12 GEP-NETs, exome sequencing|not_applicable|not_applicable|partial|V3|
+F|F3|descriptive|TP53/BRAF mutation vs pazopanib response|pazopanib-treated GEP-NET patients|unknown|unknown|not_reported|V4|Small case numbers; no test

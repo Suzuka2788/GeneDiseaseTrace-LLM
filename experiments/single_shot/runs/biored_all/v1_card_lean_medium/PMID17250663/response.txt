@@ -1,0 +1,19 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|TMC1|TMC1|r||human||
+E|D1|disease|DFNA36 hearing loss|DFNA36 hearing loss;DFNA36|p|other|||
+E|D2|disease|autosomal dominant non-syndromic progressive sensorineural hearing loss|progressive sensorineural hearing loss|r||||
+E|S1|symptom|profound deafness|deafness|r||||
+X|DFNA36 locus|b0002.s4|locus name, not disease entity on its own
+X|9q31-q21|b0002.s4|chromosomal region
+X|p.D572H|b0002.s5|variant ID
+X|p.D572N|b0002.s6|variant ID
+EV|V1|b0002.s4|ts|res|aff|cs,rr
+EV|V2|b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s6|bg|bgr|aff|ebr
+EV|V4|b0002.s7|ts|int|hyp|ho
+EV|V5|b0002.s8|both|hyp|pre|ho
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V2|||Family phenotype co-segregates with TMC1 markers and carries a TMC1 missense variant
+P|G1|D1|sup|a|both|sup:a:ts:V1+V2;sup:a:bg:V3;unc:c:bg:V5|presupposed_only|V4|p.D572N is a reported DFNA36 TMC1 mutation; novel variant at same site
+F|F1|hypothesis|TMC1 genotype vs DFNA36 progression|LMG248 vs p.D572N family|unknown|unknown|not_reported|V5|hedged; only two mutations compared
+R|merging|b0002.s4|Family hearing loss and DFNA36 hearing loss not explicitly co-referenced|Kept as separate entities, both linked to TMC1

@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, figures or tables
+E|G1|gene|Mad2|Mad2|p|species_unresolved|||
+E|G2|gene|Kras|Kras(G12D);Kras|p|species_unresolved|||
+E|G3|gene|Her2|Her2|p|species_unresolved|||
+E|D1|disease|breast cancer|Breast Cancer|r||||
+E|D2|disease|tumor|tumor;tumors|p|other|||
+E|D3|disease|malignancies|malignancies|r||||
+E|S1|phenotype|chromosome instability|Chromosome instability|r||||
+EV|V1|b0001.s1+b0002.s3|ts|res|aff|rr,mi
+EV|V2|b0002.s3+b0002.s5+b0002.s6|ts|co|pre|do
+P|G1|D1|sup|c|ts|sup:c:ts:V1|||Mad2 overexpression delays mammary tumor onset in mice
+P|G1|D2|sup|c|ts|sup:c:ts:V1|||Mad2 overexpression delays tumor onset in mouse model
+P|G2|D1|unc|-||unc:-:ts:V2|presupposed_only|V1|Kras-driven tumors implied, not stated explicitly
+P|G2|D2|unc|-||unc:-:ts:V2|presupposed_only|V1|"Kras tumors" presupposes oncogene-driven tumorigenesis
+P|G3|D1|unc|-||unc:-:ts:V2|presupposed_only|V1|Her2-driven tumors implied, not stated explicitly
+P|G3|D2|unc|-||unc:-:ts:V2|presupposed_only|V1|Her2 model tumor induction only implied
+F|F1|group_comparison|Mad2 overexpression; tumor onset|Kras or Her2 mice|unknown|negative|not_reported|V1|abstract only
+F|F2|group_comparison|Mad2; karyotype complexity|Kras tumors|unknown|positive|not_reported|V2|abstract only
+F|F3|group_comparison|Mad2; persistent subclones after oncogene withdrawal|Mad2-positive vs negative tumors|unknown|positive|not_reported|V2|abstract only

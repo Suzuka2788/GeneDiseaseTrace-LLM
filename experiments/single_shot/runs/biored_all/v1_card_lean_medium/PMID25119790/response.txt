@@ -1,0 +1,30 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or statistics
+E|G1|gene|NGAL|neutrophil gelatinase-associated lipocalin;NGAL|r||non-human||
+E|G2|gene|NAG|N-acetyl b-D-glucosaminidase;NAG|p|ambiguous_mapping|non-human||
+E|G3|gene|KIM-1|kidney injury molecule (KIM)-1|r||non-human||
+E|G4|gene|claudin-2|claudin-2|r||non-human||
+E|G5|gene|Nrf2|Nrf2|r||non-human||
+E|G6|ambiguous_gene|aconitase|aconitase|u|ambiguous_mapping|non-human||
+E|D1|disease|nephrotoxicity|nephrotoxicity|r||||
+E|D2|disease|renal injury|renal injury|r||||
+E|D3|disease|nephropathy|nephropathy|r||||
+E|D4|disease|tubular proteinuria|Tubular proteinuria|r||||
+E|S1|phenotype|oxidative stress|oxidative stress|r||||
+E|S2|phenotype|necrosis|necrosis|r||||
+E|S3|phenotype|apoptosis|apoptosis|r||||
+X|complex I|b0002.s8|protein complex, not single gene
+X|LLC-PK1|b0002.s5|cell line identifier
+EV|V1|b0002.s3|ts|res|aff|rr,cmp
+EV|V2|b0002.s4|ts|res|aff|rr
+EV|V3|b0002.s7+b0002.s8|ts|res|aff|rr
+P|G1|D2|sup|a|ts|sup:a:ts:V1||| Urinary NGAL raised in maleate renal injury
+P|G2|D2|sup|a|ts|sup:a:ts:V1|||Urinary NAG raised in maleate renal injury
+P|G3|D2|sup|a|ts|sup:a:ts:V1|||KIM-1 upregulated in maleate renal injury
+P|G4|D2|sup|a|ts|sup:a:ts:V1|||Claudin-2 decreased in maleate renal injury
+P|G5|D2|nf|-||||V2|Nrf2 linked to oxidative stress, not injury
+P|G6|D2|nf|-||||V3|Aconitase activity change in mitochondria only
+F|F1|group_comparison|KIM-1, claudin-2, NGAL, NAG vs maleate|maleate-treated rats vs controls|unknown|mixed|not_reported|V1|abstract only, no statistics
+F|F2|group_comparison|renal Nrf2 levels|maleate-treated rats|unknown|negative|not_reported|V2|abstract only
+F|F3|group_comparison|complex I, aconitase activity|kidney mitochondria, maleate rats|unknown|negative|not_reported|V3|abstract only
+R|animal-model gene species|b0002.s2|Rat context stated; species rule addresses unstated species only|Marked non-human, resolved for named rat markers

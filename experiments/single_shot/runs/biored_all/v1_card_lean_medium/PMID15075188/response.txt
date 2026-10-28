@@ -1,0 +1,39 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; rat PAN nephrotic model
+E|G1|gene|alpha-ENaC|alpha-ENaC|r||non-human||
+E|G2|gene|beta-ENaC|beta-ENaC|r||non-human||
+E|G3|gene|gamma-ENaC|gamma-ENaC|r||non-human||
+E|G4|gene|Na(+)/H(+) exchanger type 3|Na(+)/H(+) exchanger type 3;NHE3|r||non-human||
+E|G5|gene|Na(+)-K(+)-2Cl(-) cotransporter|Na(+)-K(+)-2Cl(-) cotransporter;BSC-1|r||non-human||
+E|G6|gene|thiazide-sensitive Na(+)-Cl(-) cotransporter|thiazide-sensitive Na(+)-Cl(-) cotransporter;TSC|r||non-human||
+E|G7|gene|Na-K-ATPase alpha(1)-subunit|alpha(1)-subunit of the Na-K-ATPase|r||non-human||
+E|D1|disease|nephrotic syndrome|nephrotic syndrome;Nephrotic syndrome|r||||
+E|S1|phenotype|sodium retention|sodium retention|r||||
+E|S2|symptom|edema|edema|r||||
+E|S3|symptom|ascites|ascites|r||||
+E|S4|phenotype|proteinuria|proteinuria|r||||
+E|S5|phenotype|hypoalbuminemia|hypoalbuminemia|r||||
+X|ENaC|b0002|complex/gene set; subunits collected individually
+X|epithelial Na channel|b0002|complex/gene set; subunits collected individually
+X|Na-K-ATPase|b0002|complex; alpha(1) subunit collected separately
+X|puromycin aminonucleoside|b0002|chemical inducer, not gene or disease
+X|PAN|b0002|chemical abbreviation
+EV|V1|b0002.s3|ts|hyp|hyp|ho
+EV|V2|b0002.s4+b0002.s5+b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V4|b0002.s11|ts|int|hyp|ho
+EV|V5|b0002.s4+b0002.s5+b0002.s9|ts|res|aff|rr,cmp
+EV|V6|b0002.s4+b0002.s5+b0002.s10|ts|res|aff|rr,cmp
+EV|V7|b0002.s12|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V2+V3;unc:-:ts:V4|hedged_claim|V1|Increased abundance and apical targeting in PAN model
+P|G2|D1|sup|a|ts|sup:a:ts:V2+V3;unc:-:ts:V4|hedged_claim|V1|Increased abundance and apical targeting in PAN model
+P|G3|D1|sup|a|ts|sup:a:ts:V2+V3;unc:-:ts:V4|hedged_claim|V1|Increased abundance and apical targeting in PAN model
+P|G4|D1|sup|a|ts|sup:a:ts:V5;unc:-:ts:V7|hedged_claim||Decreased abundance in PAN nephrotic rats
+P|G5|D1|sup|a|ts|sup:a:ts:V5;unc:-:ts:V7|hedged_claim||Decreased abundance in PAN nephrotic rats
+P|G6|D1|sup|a|ts|sup:a:ts:V5;unc:-:ts:V7|hedged_claim||Decreased abundance in PAN nephrotic rats
+P|G7|D1|sup|a|ts|sup:a:ts:V6;unc:-:ts:V7|hedged_claim||Decreased in cortex/ISOM, unchanged in IM
+F|F1|group_comparison|alpha/beta/gamma-ENaC abundance, apical targeting|PAN-treated vs vehicle rats|unknown|positive|not_reported|V2+V3|Region-specific; alpha/beta unchanged in cortex
+F|F2|group_comparison|NHE3, BSC-1, TSC abundance|PAN-treated vs vehicle rats|unknown|negative|not_reported|V5|
+F|F3|group_comparison|Na-K-ATPase alpha(1) abundance|PAN-treated vs vehicle rats|unknown|mixed|not_reported|V6|Decreased cortex/ISOM, unchanged IM
+F|F4|hypothesis|ENaC subunits and sodium retention|PAN nephrotic rats|not_applicable|positive|not_applicable|V1+V4|Hedged interpretation only
+R|drug-induced disease model expression change|b0002.s6|Card silent on expression change in chemically induced animal disease model.|Treated diseased-vs-control comparison as association, non-human, ts.

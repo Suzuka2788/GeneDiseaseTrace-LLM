@@ -1,0 +1,39 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|Ag-globin|Ag-globin|p|other|human||
+E|G2|gene|Gg-globin|Gg-globin|p|other|human||
+E|G3|gene|g-globin|g-globin|p|ambiguous_mapping|human||
+E|G4|gene|BCL11A|BCL11A|r||human||
+E|G5|gene|MYB|MYB|r||human||
+E|G6|gene|LYAR|LYAR|r||human||
+E|G7|gene|Ly-1 antibody reactive clone|Ly-1 antibody reactive clone|r||non-human||
+E|G8|gene|beta-globin gene|b(0)39-globin;b(+)IVSI-110-globin|p|other|human||
+E|D1|disease|b-thalassemia|b-thalassemia|r||||
+E|D2|disease|b(0)39 thalassemia|b(0)39 thalassemia|p|other|||
+E|D3|disease|b(0)-thalassemia|b(0)-thalassemia|p|other|||
+E|D4|disease|b(+)-thalassemia|b(+)-thalassemia|p|other|||
+E|S1|phenotype|high fetal hemoglobin|high HbF|r||||
+X|XmnI|b0002.s2|restriction-site polymorphism name, not a gene
+X|rs368698783|b0002.s4|variant identifier
+X|Ag(+25 G->A)|b0002.s5|variant name
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|co|na|do
+EV|V3|b0002.s4|ts|res|na|do
+EV|V4|b0002.s5+b0001.s1|ts|res|aff|rr,cmp
+EV|V5|b0002.s5+b0002.s7|ts|neg|neg|rr,cmp
+EV|V6|b0002.s6+b0002.s8|ts|res|aff|rr
+EV|V7|b0002.s7|ts|hyp|hyp|ho
+P|G1|D2|sup|a|ts|sup:a:ts:V4|||Polymorphism linked with b(0)39 allele, not IVSI-110
+P|G2|D2|sup|a|ts|sup:a:ts:V4|||XmnI polymorphism linked with b(0)39 allele
+P|G1|D4|neg|-|ts|neg:a:ts:V5|||Not linked with b(+)IVSI-110 allele
+P|G2|D4|neg|-|ts|neg:a:ts:V5|||Not linked with b(+)IVSI-110 allele
+P|G1|D3|unc|-|ts|unc:a:ts:V7|hedged_claim||Linkage with b(0) mutations only hypothesised
+P|G2|D3|unc|-|ts|unc:a:ts:V7|hedged_claim||Linkage with b(0) mutations only hypothesised
+P|G3|D1|sup|a|bg|sup:a:bg:V1|||High expression associated with milder disease
+P|G1|D1|nf|-|||||V3+V6|Presence in patients and HbF link only
+P|G4|D1|nf|-|||||V2|HbF-associated polymorphism; stratification aim only
+P|G5|D1|nf|-|||||V2|HbF-associated polymorphism; stratification aim only
+P|G8|D3|unc|-|ts|unc:a:ts:V7|presupposed_only||Mutations named as disease mutations only
+F|F1|association|Ag/Gg polymorphisms vs beta-globin allele|75 b-thalassemia patients|unknown|positive|not_reported|V4+V5|abstract only
+F|F2|association|Ag/Gg polymorphisms vs HbF level|b(0)39/b(0)39 erythroid precursor cells|unknown|positive|not_reported|V6|abstract only; within-disease
+R|disease subtype by allele|b0002.s5|Association is with b(0)39 allele versus b(+)IVSI-110 allele in patients|Treated as subtype association with explicit comparator

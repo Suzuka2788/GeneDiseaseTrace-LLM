@@ -1,0 +1,17 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; single family case report
+E|G1|gene|thyrotropin receptor|thyrotropin receptor;TSHR|r||human||
+E|D1|disease|non-autoimmune hyperthyroidism|non-autoimmune hyperthyroidism;NAH|r||||
+E|D2|disease|hyperthyroidism|hyperthyroidism|r||||
+E|S1|phenotype|ventriculomegaly|ventriculomegaly|r||||
+E|S2|phenotype|shortening of fifth metacarpal bones|shortening of the fifth metacarpal bones|r||||
+E|S3|phenotype|shortening of middle phalanges of fifth fingers|shortening of the middle phalanges of the fifth fingers|r||||
+X|p.M453T|b0001|variant identifier, not a gene
+EV|V1|b0001.s1+b0002.s1|ts|res|aff|eda
+EV|V2|b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s7+b0002.s8+b0002.s9|ts|hyp|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||V3|Authors attribute family NAH to TSHR mutation
+P|G1|D2|nf|-|||||V3|Only general term; no hierarchy propagation
+F|F1|descriptive|TSHR c.1358T>C p.M453T carrier status|Three affected family members|not_applicable|not_applicable|not_applicable|V2|abstract only; mother's status not stated
+F|F2|hypothesis|ventriculomegaly and digit shortening in NAH|TSHR mutation carriers|not_applicable|not_applicable|not_applicable|V3|hedged; n=3
+R|case-report attribution vs causal|b0001.s1|"Due to" is explicit attribution, but the card treats case-report attribution as association.|Assigned association, not causal.

@@ -1,0 +1,66 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SOD1|SOD1|r||human||
+E|G2|gene|SOD2|SOD2|r||human||
+E|G3|gene|CAT|CAT|r||human||
+E|G4|gene|IL-1beta|IL-1beta|r||human||
+E|G5|gene|CCL11|CCL11|r||human||
+E|G6|gene|IL-2Ralpha|IL-2Ralpha|r||human||
+E|G7|gene|CXCL9|CXCL9|r||human||
+E|G8|gene|TRAIL|TRAIL|r||human||
+E|G9|gene|PDGF-BB|PDGF-BB;PDFG-BB|p|suspected_typo|human||
+E|G10|gene|CCL4|CCL4|r||human||
+E|G11|gene|IL-6|IL-6|r||human||
+E|G12|gene|IL-9|IL-9|r||human||
+E|G13|gene|IL-10|IL-10|r||human||
+E|G14|gene|IL-13|IL-13|r||human||
+E|G15|gene|IL-15|IL-15|r||human||
+E|G16|gene|IL-17|IL-17|r||human||
+E|G17|gene|G-CSF|G-CSF|r||human||
+E|G18|gene|VEGF|VEGF|r||human||
+E|G19|gene|IL-7|IL-7|r||human||
+E|G20|gene|IL-8|IL-8|r||human||
+E|G21|gene|CCL5|CCL5|r||human||
+E|G22|gene|HGF|HGF|r||human||
+E|G23|gene|CCL2|CCL2|r||human||
+E|D1|disease|erysipelas|erysipelas;Erysipelas|r||||
+E|D2|disease|group A beta-hemolytic streptococcus infection|group A (beta-hemolytic) streptococcus infection|r||||
+E|D3|disease|bullous erysipelas|bullous|r|||D1|
+E|D4|disease|erythematous erysipelas|erythematous|r|||D1|
+E|CE1|clinical_event|recurrence of erysipelas|recurrence|r|||D1|
+X|SOD1 G7958A|b0002|variant identifier
+X|SOD2 T2734C|b0002|variant identifier
+X|CAT C262T|b0002|variant identifier
+EV|V1|b0002.s4|ts|res|aff|rr,cmp
+EV|V2|b0002.s5|ts|res|aff|rr
+EV|V3|b0002.s7|ts|res|aff|rr
+EV|V4|b0002.s1|bg|bgr|na|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1||| G7958 allele linked to predisposition
+P|G2|D1|sup|a|ts|sup:a:ts:V1|||T2734 allele linked to predisposition
+P|G3|D1|sup|a|ts|sup:a:ts:V1|||C262 allele linked to predisposition
+P|G2|D3|sup|a|ts|sup:a:ts:V2|||T allele linked to bullous erysipelas
+P|G2|D4|sup|a|ts|sup:a:ts:V2|||C allele linked to erythematous erysipelas
+P|G11|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G12|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G13|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G14|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G15|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G16|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G17|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G18|D1|sup|a|ts|sup:a:ts:V3|||Serum level associated with predisposition
+P|G11|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G12|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G13|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G14|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G15|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G16|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G17|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G18|CE1|sup|a|ts|sup:a:ts:V3|||Serum level associated with recurrence
+P|G4|D1|nf|-||||V3|Linked only to symptoms, not to predisposition
+F|F1|association|SOD1/SOD2/CAT alleles vs predisposition|71 patients vs 55 controls|unknown|positive|not_reported|V1|abstract only
+F|F2|association|SOD2 T2734C alleles vs clinical form|erysipelas patients|unknown|mixed|not_reported|V2|abstract only
+F|F3|association|SOD1 G7958A alleles vs infection localization|erysipelas patients|unknown|mixed|not_reported|b0002.s6|localization is not a disease
+F|F4|association|cytokine levels vs predisposition, recurrence|patients vs controls|unknown|unknown|not_reported|V3|direction not stated
+F|F5|association|seven cytokine levels vs symptoms|erysipelas patients|unknown|unknown|not_reported|V3|symptoms unspecified
+F|F6|association|cytokine variation vs SOD2/CAT SNPs|erysipelas patients|unknown|unknown|not_reported|b0002.s8|gene-gene, no disease endpoint
+R|subtype extraction|b0002.s5|Subtype names appear only as coordinated adjectives, not verbatim full names|Used adjective surfaces; subtypes made children of erysipelas

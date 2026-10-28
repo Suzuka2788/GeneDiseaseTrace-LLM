@@ -1,0 +1,84 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full review text b0001-b0052; references removed
+E|G1|gene|NOTCH3|NOTCH 3;NOTCH3;Notch 3;Notch3|r||human||
+E|G2|gene|calnexin|calnexin|r||human||
+E|G3|gene|TIMP-3|tissue inhibitor of metalloproteinases 3;TIMP-3|r||human||
+E|G4|gene|vitronectin|vitronectin;VTN|r||human||
+E|G5|gene|LTBP-1|latent TGF-β binding protein 1;LTBP-1|r||human||
+E|G6|gene|amyloid P|Amyloid P;amyloid P|p|ambiguous_mapping|human||
+E|G7|gene|annexin 2|annexin 2|r||human||
+E|G8|gene|periostin|periostin|r||human||
+E|G9|gene|stem cell factor|stem cell factor;SCF|p|species_unresolved|||
+E|G10|gene|granulocyte colony-stimulating factor|granulocyte colony-stimulating factor;G-CSF|p|species_unresolved|||
+E|G11|gene|caspase-3|caspase-3|p|species_unresolved|||
+E|D1|disease|CADASIL|Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy;Cerebral Autosomal Dominant Arteriopathy With Subcortical Infarcts and Leukoencephalopathy;CADASIL|r|||D2|
+E|D2|disease|cerebral small vessel disease|cerebral small-vessel disease;SVD;small vessel disease;small-vessel disease;cerebral small vessel disease|r||||
+E|D3|disease|sporadic cerebral small vessel disease|sporadic SVD;sporadic cerebral small vessel disease;sporadic small-vessel disease;sporadic cerebral SVD|r|||D2|
+E|D4|disease|NOTCH3 disease|NOTCH3 disease|p|other|||
+E|D5|disease|migraine with aura|migraine with aura|r|||D6|
+E|D6|disease|migraine|migraine|r||||
+E|D7|disease|stroke|strokes;stroke|r||||
+E|D8|disease|ischemic stroke|ischemic strokes;ischemic stroke|r|||D7|
+E|D9|disease|hemorrhagic stroke|hemorrhagic stroke|r|||D7|
+E|D10|disease|transient ischemic attacks|Cerebral transient ischemic attacks|r||||
+E|D11|disease|lacunar infarcts|lacunar infarcts;Subcortical lacunar infarcts;subcortical lacunar infarcts|r||||
+E|D12|disease|mood disorders|mood disorders|r||||
+E|D13|disease|dementia|dementia|r||||
+E|D14|disease|vascular dementia|vascular dementia|r|||D13|
+E|D15|disease|vascular cognitive impairment|vascular cognitive impairment|r||||
+E|D16|disease|depression|depression|r||||
+E|D17|disease|bipolar disorders|bipolar disorders|r||||
+E|D18|disease|panic disorders|panic disorders|r||||
+E|D19|disease|schizophrenia|schizophrenia|r||||
+E|D20|disease|intracerebral hemorrhages|intracerebral hemorrhages|r||||
+E|D21|disease|myocardial infarction|myocardial infarction|r||||
+E|D22|disease|Alzheimer disease|Alzheimer disease;Alzheimer's|r||||
+E|D23|disease|hypertension|hypertension;Hypertension|r||||
+E|D24|disease|hypercholesterolemia|hypercholesterolemia|r||||
+E|D25|disease|hyper-homocysteinemia|Hyper-homocysteinemia|r||||
+E|D26|disease|diabetes|Diabetes|r||||
+E|S1|symptom|cognitive impairment|cognitive impairment|r||||
+E|S2|symptom|seizures|seizures|r||||
+E|S3|symptom|parkinsonism|parkinsonism|r||||
+E|S4|phenotype|white-matter hyperintensities|white-matter hyperintensities|r||||
+E|S5|phenotype|microbleeds|microbleeds|r||||
+X|EGFR|b0018|domain abbreviation (epidermal growth factor-like repeats), not gene
+X|Delta/Jagged|b0024|ligand family, not single gene
+X|amyloid β peptides|b0041|peptide, no gene named
+X|tissue plasminogen activator (tPA)|b0044|drug use, not gene endpoint
+X|HbA1c|b0044|lab marker
+X|5E1|b0041|antibody clone identifier
+EV|V1|b0002.s1+b0004.s3+b0018.s1|bg|bgr|aff|ebr
+EV|V2|b0039.s2+b0052.s3|bg|bgr|aff|ebr
+EV|V3|b0014.s1+b0015.s2+b0027.s7|bg|bgr|aff|ebr
+EV|V4|b0024.s4+b0024.s5|bg|neg|neg|rr,mi
+EV|V5|b0024.s8+b0025.s1|bg|int|hyp|ho
+EV|V6|b0050.s9+b0050.s10|bg|hyp|hyp|ho
+EV|V7|b0021.s8+b0021.s9|bg|hyp|hyp|ho
+EV|V8|b0034.s4|bg|res|aff|do
+EV|V9|b0034.s5|bg|hyp|hyp|ho
+EV|V10|b0034.s5|bg|bgr|aff|ebr
+EV|V11|b0042.s1+b0042.s4|bg|res|aff|mi
+EV|V12|b0028.s8|bg|hyp|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3;neg:-:bg:V4;unc:-:bg:V5||V4+V5|Explicit background causation; loss-of-function negative
+P|G1|D3|unc|-|bg|unc:-:bg:V6|hedged_claim||SNPs linked to WMH only; involvement hinted
+P|G1|D4|unc|-|bg|unc:-:bg:V12|hedged_claim,identity||Speculative spectrum concept
+P|G2|D1|unc|-|bg|unc:-:bg:V7|hedged_claim||Calnexin role stated as possibility
+P|G3|D1|unc|-|bg|unc:-:bg:V8|support_basis_unresolved||GOM component; no disease attribution
+P|G4|D1|unc|-|bg|unc:-:bg:V8|support_basis_unresolved||GOM component; no disease attribution
+P|G5|D1|unc|-|bg|unc:-:bg:V8|support_basis_unresolved||GOM component; no disease attribution
+P|G6|D1|unc|-|bg|unc:-:bg:V8+V9|hedged_claim||May stabilize GOMs
+P|G6|D22|sup|a|bg|sup:a:bg:V10|||Background role in amyloid plaque stabilization
+P|G7|D1|unc|-|bg|unc:-:bg:V8|support_basis_unresolved||GOM component; no disease attribution
+P|G8|D1|unc|-|bg|unc:-:bg:V8|support_basis_unresolved||GOM component; no disease attribution
+P|G9|D1|nf|-|||||V11|Joint SCF+G-CSF intervention; not assignable
+P|G10|D1|nf|-|||||V11|Joint SCF+G-CSF intervention; not assignable
+P|G11|D1|nf|-|||||V11|Hypothesized pathway; no disease link
+F|F1|association|EGFR10-11 vs EGFR2-5 mutations; phenotype|CADASIL patients|unknown|mixed|not_reported|V3|b0024.s7; background only
+F|F2|group_comparison|EGFR1-6 vs EGFR7-34 variants; stroke onset, survival|CADASIL patients|unknown|positive|not_reported||b0027.s10; background only
+F|F3|association|NOTCH3 mutation site; clinical phenotype|CADASIL patients|not_significant|null|not_reported||b0028.s1
+F|F4|association|NOTCH3 SNPs; white-matter hyperintensities|hypertensive Austrian subjects|significant|positive|not_reported|V6|b0050.s10
+F|F5|mechanism|mutant vs wild-type NOTCH3 half-life|cell studies|unknown|positive|partial||b0021.s4
+F|F6|mechanism|5E1 anti-NOTCH3-ECD; deposits, vascular function|transgenic mice|unknown|mixed|not_reported||b0041.s5+b0041.s6
+C|C1|NOTCH3 mutation site vs phenotype|b0027.s10+b0028.s1|noncritical|unresolved|Genotype-phenotype correlation contradicted by other study
+R|species|b0024.s4+b0035.s5|transgenic/CADASIL mice NOTCH3 construct species not stated|kept within human NOTCH3 node; no separate node

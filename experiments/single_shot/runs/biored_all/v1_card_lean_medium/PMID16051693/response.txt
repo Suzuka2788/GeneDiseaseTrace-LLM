@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PEMT (human)|PEMT;Phosphatidylethanolamine N-methyltransferase|r||human||
+E|G2|gene|PEMT (mouse)|PEMT|r||non-human||
+E|D1|disease|nonalcoholic fatty liver disease|nonalcoholic fatty liver disease;NAFLD|r||||
+E|D2|disease|fatty liver|fatty liver;fatty livers|r||||
+X|V175M|b0002.s3|variant identifier, not gene
+X|McArdle-RH7777|b0002.s4|cell line, not gene or disease
+EV|V1|b0002.s2|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s2|bg|hyp|hyp|ho
+EV|V3|b0002.s3+b0002.s5|ts|res|aff|rr,cmp
+EV|V4|b0002.s6|ts|int|hyp|ho
+EV|V5|b0002.s4|ts|res|na|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V3;unc:-:ts:V4|hedged_claim|V2|Met/Met enriched in NAFLD vs controls; causality hedged
+P|G2|D2|sup|c|bg|sup:c:bg:V1|||Knockout mice develop fatty livers
+F|F1|group_comparison|PEMT V175M Met/Met frequency|28 NAFLD vs 59 controls|significant|positive|partial|V3|P value only; small sample
+F|F2|mechanism|V175M effect on PEMT activity|transfected McArdle-RH7777 cells|unknown|negative|not_reported|V5|loss of function; no statistics given
+R|animal model link|b0002.s2|Unclear whether knockout fatty liver counts as disease or tissue phenotype.|Treated fatty liver as disease; linked mouse gene, marked non-human.

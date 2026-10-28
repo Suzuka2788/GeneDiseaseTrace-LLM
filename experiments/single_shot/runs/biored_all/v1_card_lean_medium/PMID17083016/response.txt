@@ -1,0 +1,26 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SP-A2|SP-A2;surfactant protein-A2|r||human||
+E|G2|gene|SP-A1|SP-A1|r||human||
+E|G3|gene|SP-D|SP-D|r||human||
+E|G4|gene|SP-A|SP-A|p|ambiguous_mapping|human||
+E|D1|disease|meningococcal disease|meningococcal disease;Meningococcal disease|r||||
+E|D2|clinical_event|death|death;died|r||||
+X|Neisseria meningitidis|b0002|organism, not gene or disease
+X|1A1|b0002|allele identifier of SP-A2
+X|1A5|b0002|allele identifier of SP-A2
+EV|V1|b0002.s5|ts|res|aff|rr,cmp
+EV|V2|b0002.s6+b0002.s9|ts|res|aff|rr,cmp
+EV|V3|b0002.s7+b0002.s9|ts|res|aff|rr,cmp
+EV|V4|b0002.s8|ts|neg|neg|rr,cmp
+EV|V5|b0002.s1|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1;sup:a:ts:V2;sup:a:ts:V5|||Case-control allele associations with risk
+P|G1|D2|sup|a|ts|sup:a:ts:V3|||Lysine-223 carriage linked to death
+P|G2|D1|neg|-|ts|neg:a:ts:V4|||No association with meningococcal disease
+P|G3|D1|neg|-|ts|neg:a:ts:V4|||No association with meningococcal disease
+P|G4|D1|unc|-|ts|unc:a:ts:V2|scope||SP-A SNP analysis attributed to SP-A2 allele
+F|F1|association|1A1 homozygosity vs meningococcal disease|303 patients vs 222 controls|significant|positive|available|V1|
+F|F2|association|1A5 carriage vs meningococcal disease|303 patients vs 222 controls|significant|negative|available|V1|
+F|F3|association|K223 homozygosity vs meningococcal disease|303 patients vs 222 controls|significant|positive|available|V2|
+F|F4|group_comparison|K223 carriage vs death|died vs survived patients|significant|positive|available|V3|age-adjusted; 18 deaths only
+F|F5|association|SP-A1 and SP-D variation vs disease|patients vs controls|not_significant|null|not_reported|V4|

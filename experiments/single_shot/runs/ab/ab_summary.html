@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A/B test summary</title>
+<style>
+:root{--surface:#fcfcfb;--panel:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--grid:#e1e0d9;--ring:rgba(11,11,11,.10);
+--c0:#2a78d6;--c1:#eb6834;--c2:#1baf7a;--on:#ffffff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--surface:#1a1a19;--panel:#222220;--ink:#f0efec;--ink2:#c3c2b7;--grid:#2c2c2a;--ring:rgba(255,255,255,.10);--c0:#3987e5;--c1:#d95926;--c2:#199e70}}
+:root[data-theme="dark"]{--surface:#1a1a19;--panel:#222220;--ink:#f0efec;--ink2:#c3c2b7;--grid:#2c2c2a;--ring:rgba(255,255,255,.10);--c0:#3987e5;--c1:#d95926;--c2:#199e70}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--ink);font:14px/1.5 "Segoe UI",system-ui,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 16px 56px}
+h1{font-size:24px;margin:0 0 6px}h2{font-size:18px;margin:36px 0 6px}h3{font-size:15px;margin:0 0 8px}
+.sub{color:var(--ink2);margin:0 0 4px;max-width:900px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:16px}
+.tile{background:var(--panel);border:1px solid var(--ring);border-radius:8px;padding:14px 16px}
+.tile .k{color:var(--ink2);font-size:13px}.tile .v{font-size:26px;font-weight:600}.tile .s{color:var(--ink2);font-size:12px}
+.variants{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.vcard{background:var(--panel);border:1px solid var(--ring);border-radius:8px;padding:12px 14px;border-top:4px solid}
+.vcard .name{font-weight:700}.vcard .d{color:var(--ink2);font-size:13px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
+.panel{background:var(--panel);border:1px solid var(--ring);border-radius:8px;padding:14px 16px;overflow-x:auto}
+.row{display:grid;grid-template-columns:110px 1fr 90px;align-items:center;gap:10px;margin:7px 0}
+.row .lab{text-align:right;color:var(--ink2);font-size:13px}
+.track{position:relative;height:22px}
+.bar{height:100%;border-radius:0 4px 4px 0}
+.val{font-size:12px;font-variant-numeric:tabular-nums;color:var(--ink)}
+.note{color:var(--ink2);font-size:13px;margin:6px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--grid);padding:6px 8px;text-align:left;vertical-align:top}
+th{color:var(--ink2);font-weight:600}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.pgroup{display:grid;grid-template-columns:260px 1fr;gap:14px;padding:8px 0;border-bottom:1px solid var(--grid)}
+.pgroup:last-child{border-bottom:0}
+.plab .id{font-weight:600}.plab .t{color:var(--ink2);font-size:12px;line-height:1.3}
+.mini{display:grid;grid-template-columns:24px 1fr 28px;align-items:center;gap:8px;margin:2px 0}
+.mini .tag{font-size:11px;color:var(--ink2)}.mini .b{height:10px;border-radius:0 3px 3px 0;min-width:2px}
+.mini .n{font-size:12px;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:16px;flex-wrap:wrap;color:var(--ink2);font-size:13px;margin:8px 0}
+.sw{display:inline-flex;align-items:center;gap:6px}.dot{width:12px;height:12px;border-radius:3px;display:inline-block}
+.callout{margin:12px 0 0;padding:12px 16px;border-left:4px solid var(--c0);background:var(--panel);border-radius:0 8px 8px 0}
+a{color:var(--c0)}
+#tip{position:fixed;pointer-events:none;background:var(--panel);color:var(--ink);border:1px solid var(--ring);border-radius:6px;padding:8px 10px;font-size:12px;box-shadow:0 4px 16px rgba(0,0,0,.18);display:none;z-index:10}
+</style></head><body><main>
+<h1>A/B test: how to run the extractor</h1>
+<p class="sub">Three variants of the same single-request pipeline (Claude Opus 5.5) on the same frozen benchmark of 12 unseen papers (7 research articles, 2 case reports incl. one in Spanish, 2 reviews, 1 brief report; 463k characters). Each variant's rules and settings are frozen before the run.</p>
+<p class="sub">There is no expert gold standard: the page compares cost, coverage and agreement. Agreement between variants is consistency, not accuracy.</p>
+<div class="variants" id="variants"></div>
+
+<h2>The 12 benchmark papers</h2>
+<p class="note" id="benchNote"></p>
+<div class="panel"><table id="bench"></table></div>
+
+<h2>Result</h2>
+<div class="tiles" id="tiles"></div>
+<div class="callout" id="callout"></div>
+
+<h2>Cost and time per run of 12 papers</h2>
+<p class="note">First request only, so variants are compared like for like (the baseline ran before two parser fixes and needed extra repair requests).</p>
+<div class="grid2"><div class="panel"><h3>Cost (USD)</h3><div id="cost"></div></div><div class="panel"><h3>Model time (minutes)</h3><div id="time"></div></div></div>
+
+<h2>What each variant finds</h2>
+<div class="grid2">
+ <div class="panel"><h3>Supported gene–disease relations</h3><div id="supported"></div></div>
+ <div class="panel"><h3>Genes / diseases also found by PubTator3</h3><div id="shared"></div></div>
+ <div class="panel"><h3>Pairs marked uncertain</h3><div id="uncertain"></div></div>
+ <div class="panel"><h3>Pairs marked explicit_negative</h3><div id="negative"></div></div>
+</div>
+
+<h2>Agreement with the baseline</h2>
+<div class="panel"><table id="agree"></table></div>
+
+<h2>Supported relations per paper</h2>
+<div class="legend" id="legend"></div>
+<div class="panel" id="perpaper"></div>
+<p class="note">For each paper, one bar per variant: the number of gene–disease relations that variant judged <i>supported</i>. All bars share one scale. Hover a bar for its uncertain and explicit-negative counts too.</p>
+
+<h2>Full table</h2>
+<div class="panel"><table id="full"></table></div>
+
+<h2>Per-variant comparison with PubTator3</h2>
+<p class="note" id="links"></p>
+</main><div id="tip"></div>
+<script>
+const D = {"papers": [{"paper_id": "PMC8626062", "article_type": "case-report", "chars": 16051, "stratum": "case report (Spanish, fixed)", "title": "Aproximación diagnóstica ultrasonográfica prenatal al síndrome de Omenn: reporte de caso"}, {"paper_id": "PMC10085737", "article_type": "research-article", "chars": 19738, "stratum": "research, short (<31k chars)", "title": "A bioinformatics approach to characterize a hypothetical protein Q6S8D9_SARS of SARS-CoV"}, {"paper_id": "PMC3776720", "article_type": "research-article", "chars": 28476, "stratum": "research, short (<31k chars)", "title": "Functional evaluation of circulating hematopoietic progenitors in Noonan syndrome"}, {"paper_id": "PMC11202044", "article_type": "research-article", "chars": 47059, "stratum": "research, medium (31k-52k)", "title": "Context-Dependent Regulation of Peripheral Nerve Abundance by the PI3K Pathway in the Tumor Microenvironment of Head and Neck Squamous Cell Carcinoma"}, {"paper_id": "PMC9499621", "article_type": "research-article", "chars": 40911, "stratum": "research, medium (31k-52k)", "title": "Evaluation of the Complex p.[Leu467Phe;Phe508del] CFTR Allele in the Intestinal Organoids Model: Implications for Therapy"}, {"paper_id": "PMC3226484", "article_type": "research-article", "chars": 49254, "stratum": "research, medium (31k-52k)", "title": "Deficiencies in lamin B1 and lamin B2 cause neurodevelopmental defects and distinct nuclear shape abnormalities in neurons"}, {"paper_id": "PMC4068974", "article_type": "research-article", "chars": 85651, "stratum": "research, long (>=52k)", "title": "Distinct functions of the laminin β LN domain and collagen IV during cardiac extracellular matrix formation and stabilization of alary muscle attachments revealed by EMS mutagenesis in Drosophila"}, {"paper_id": "PMC10096224", "article_type": "research-article", "chars": 53466, "stratum": "research, long (>=52k)", "title": "A D-2-hydroxyglutarate dehydrogenase mutant reveals a critical role for ketone body metabolism in Caenorhabditis elegans development"}, {"paper_id": "PMC7437939", "article_type": "case-report", "chars": 25950, "stratum": "case report (English)", "title": "Clinical, genomics and networking analyses of a high-altitude native American Ecuadorian patient with congenital insensitivity to pain with anhidrosis: a case report"}, {"paper_id": "PMC2836178", "article_type": "review-article", "chars": 30820, "stratum": "review", "title": "The Dual Role of Zonula Occludens (ZO) Proteins"}, {"paper_id": "PMC7082755", "article_type": "review-article", "chars": 43144, "stratum": "review", "title": "Pathophysiological Mechanisms and Potential Therapeutic Targets in Cerebral Autosomal Dominant Arteriopathy With Subcortical Infarcts and Leukoencephalopathy (CADASIL)"}, {"paper_id": "PMC3399778", "article_type": "brief-report", "chars": 22229, "stratum": "short other (letter, editorial, discussion, brief report)", "title": "Intermediate Charcot-Marie-Tooth disease due to a novel Trp101Stop myelin protein zero mutation associated with debilitating neuropathic pain"}], "seed": 20261028, "excluded": {"PMC10014009": "used to build the rules and the card (development paper)", "PMC10487392": "used repeatedly while building the single-shot pipeline (development paper)", "PMC6240673": "development reference of the earlier LLM workflow", "PMC10994491": "multi-study conference collection; tested separately"}, "variants": [{"name": "v1_card_lean_medium", "short": "v1", "description": "Decision card · effort medium", "per_paper": [{"paper_id": "PMC8626062", "calls": 1, "first_cost": 0.1611728, "first_seconds": 45.7, "cost": 0.1611728, "seconds": 45.7, "genes": 6, "targets": 28, "supported": 5, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC10085737", "calls": 1, "first_cost": 0.1411888, "first_seconds": 24.9, "cost": 0.1411888, "seconds": 24.9, "genes": 4, "targets": 7, "supported": 0, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC3776720", "calls": 1, "first_cost": 0.32961280000000004, "first_seconds": 84.0, "cost": 0.32961280000000004, "seconds": 84.0, "genes": 10, "targets": 18, "supported": 14, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC11202044", "calls": 1, "first_cost": 0.35214080000000003, "first_seconds": 76.2, "cost": 0.35214080000000003, "seconds": 76.2, "genes": 22, "targets": 18, "supported": 3, "uncertain": 2, "explicit_negative": 0}, {"paper_id": "PMC9499621", "calls": 1, "first_cost": 0.2983568, "first_seconds": 51.6, "cost": 0.2983568, "seconds": 51.6, "genes": 1, "targets": 23, "supported": 2, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC3226484", "calls": 2, "first_cost": 0.4015088, "first_seconds": 82.6, "cost": 0.7285496, "seconds": 115.19999999999999, "genes": 26, "targets": 12, "supported": 12, "uncertain": 3, "explicit_negative": 1}, {"paper_id": "PMC4068974", "calls": 1, "first_cost": 0.4419848, "first_seconds": 48.6, "cost": 0.4419848, "seconds": 48.6, "genes": 40, "targets": 8, "supported": 10, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC10096224", "calls": 2, "first_cost": 0.3459448, "first_seconds": 45.0, "cost": 0.6529496, "seconds": 65.3, "genes": 13, "targets": 6, "supported": 1, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC7437939", "calls": 1, "first_cost": 0.2205528, "first_seconds": 50.2, "cost": 0.2205528, "seconds": 50.2, "genes": 22, "targets": 13, "supported": 1, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC2836178", "calls": 2, "first_cost": 0.3010648, "first_seconds": 76.2, "cost": 0.5549776, "seconds": 116.9, "genes": 53, "targets": 9, "supported": 5, "uncertain": 8, "explicit_negative": 0}, {"paper_id": "PMC7082755", "calls": 1, "first_cost": 0.3140408, "first_seconds": 67.8, "cost": 0.3140408, "seconds": 67.8, "genes": 11, "targets": 26, "supported": 2, "uncertain": 9, "explicit_negative": 0}, {"paper_id": "PMC3399778", "calls": 2, "first_cost": 0.24497680000000002, "first_seconds": 65.0, "cost": 0.41842560000000006, "seconds": 90.4, "genes": 9, "targets": 10, "supported": 9, "uncertain": 3, "explicit_negative": 0}], "vs_pubtator": {"genes_both": 201, "genes_pubtator_only": 47, "genes_ours_only": 41, "diseases_both": 157, "diseases_pubtator_only": 173, "diseases_ours_only": 24, "pubtator_disease_is_our_symptom_or_phenotype": 34, "relations_both": 11, "relations_pubtator_only": 12, "relations_ours_only": 51, "our_uncertain": 28, "our_explicit_negative": 1}, "key": {"our_supported": 64, "pubtator_relations": 23, "evidence_body_only": 52, "background": 56, "this_study": 8, "this_study_shared": 8, "ours_only": 51, "ours_only_background": 51, "ours_only_pt_has_entities": 42, "pt_only": 12, "pt_only_symptom": 3, "spanish_genes": 6, "spanish_relations": 5, "uncertain": 28, "negative": 1, "cost_per_paper": 0.38449606666666664, "seconds_per_paper": 69.73333333333333}}, {"name": "v2_full_lean_medium", "short": "v2", "description": "Full rule text · effort medium", "per_paper": [{"paper_id": "PMC8626062", "calls": 1, "first_cost": 0.28881199999999996, "first_seconds": 50.7, "cost": 0.28881199999999996, "seconds": 50.7, "genes": 5, "targets": 23, "supported": 5, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC10085737", "calls": 1, "first_cost": 0.263036, "first_seconds": 31.0, "cost": 0.263036, "seconds": 31.0, "genes": 2, "targets": 6, "supported": 1, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC3776720", "calls": 1, "first_cost": 0.443428, "first_seconds": 84.7, "cost": 0.443428, "seconds": 84.7, "genes": 9, "targets": 13, "supported": 12, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC11202044", "calls": 1, "first_cost": 0.384828, "first_seconds": 46.0, "cost": 0.384828, "seconds": 46.0, "genes": 21, "targets": 13, "supported": 2, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC9499621", "calls": 1, "first_cost": 0.3795696, "first_seconds": 84.3, "cost": 0.3795696, "seconds": 84.3, "genes": 1, "targets": 20, "supported": 2, "uncertain": 0, "explicit_negative": 10}, {"paper_id": "PMC3226484", "calls": 1, "first_cost": 0.3634816, "first_seconds": 68.6, "cost": 0.3634816, "seconds": 68.6, "genes": 15, "targets": 12, "supported": 12, "uncertain": 2, "explicit_negative": 1}, {"paper_id": "PMC4068974", "calls": 1, "first_cost": 0.4668616, "first_seconds": 68.2, "cost": 0.4668616, "seconds": 68.2, "genes": 22, "targets": 8, "supported": 5, "uncertain": 6, "explicit_negative": 0}, {"paper_id": "PMC10096224", "calls": 2, "first_cost": 0.3644336, "first_seconds": 51.9, "cost": 0.6657832, "seconds": 67.0, "genes": 13, "targets": 6, "supported": 1, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC7437939", "calls": 1, "first_cost": 0.2350536, "first_seconds": 58.6, "cost": 0.2350536, "seconds": 58.6, "genes": 22, "targets": 6, "supported": 1, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC2836178", "calls": 2, "first_cost": 0.29772960000000004, "first_seconds": 72.0, "cost": 0.5329072, "seconds": 106.7, "genes": 53, "targets": 5, "supported": 2, "uncertain": 6, "explicit_negative": 0}, {"paper_id": "PMC7082755", "calls": 1, "first_cost": 0.24982159999999998, "first_seconds": 41.9, "cost": 0.24982159999999998, "seconds": 41.9, "genes": 8, "targets": 9, "supported": 1, "uncertain": 2, "explicit_negative": 0}, {"paper_id": "PMC3399778", "calls": 1, "first_cost": 0.2766136, "first_seconds": 81.3, "cost": 0.2766136, "seconds": 81.3, "genes": 7, "targets": 9, "supported": 10, "uncertain": 2, "explicit_negative": 0}], "vs_pubtator": {"genes_both": 166, "genes_pubtator_only": 82, "genes_ours_only": 33, "diseases_both": 119, "diseases_pubtator_only": 209, "diseases_ours_only": 15, "pubtator_disease_is_our_symptom_or_phenotype": 36, "relations_both": 11, "relations_pubtator_only": 12, "relations_ours_only": 42, "our_uncertain": 20, "our_explicit_negative": 11}, "key": {"our_supported": 54, "pubtator_relations": 23, "evidence_body_only": 45, "background": 47, "this_study": 7, "this_study_shared": 7, "ours_only": 42, "ours_only_background": 42, "ours_only_pt_has_entities": 35, "pt_only": 12, "pt_only_symptom": 3, "spanish_genes": 5, "spanish_relations": 5, "uncertain": 20, "negative": 11, "cost_per_paper": 0.379183, "seconds_per_paper": 65.75}}, {"name": "v3_card_lean_low", "short": "v3", "description": "Decision card · effort low", "per_paper": [{"paper_id": "PMC8626062", "calls": 2, "first_cost": 0.14416400000000001, "first_seconds": 20.9, "cost": 0.2637288, "seconds": 39.0, "genes": 6, "targets": 18, "supported": 5, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC10085737", "calls": 1, "first_cost": 0.155908, "first_seconds": 15.6, "cost": 0.155908, "seconds": 15.6, "genes": 4, "targets": 6, "supported": 0, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC3776720", "calls": 1, "first_cost": 0.230464, "first_seconds": 28.0, "cost": 0.230464, "seconds": 28.0, "genes": 9, "targets": 13, "supported": 13, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC11202044", "calls": 1, "first_cost": 0.268992, "first_seconds": 28.1, "cost": 0.268992, "seconds": 28.1, "genes": 21, "targets": 13, "supported": 2, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC9499621", "calls": 1, "first_cost": 0.2447048, "first_seconds": 26.4, "cost": 0.2447048, "seconds": 26.4, "genes": 1, "targets": 22, "supported": 2, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC3226484", "calls": 1, "first_cost": 0.2736208, "first_seconds": 28.8, "cost": 0.2736208, "seconds": 28.8, "genes": 23, "targets": 12, "supported": 12, "uncertain": 2, "explicit_negative": 1}, {"paper_id": "PMC4068974", "calls": 1, "first_cost": 0.37801680000000004, "first_seconds": 21.5, "cost": 0.37801680000000004, "seconds": 21.5, "genes": 18, "targets": 8, "supported": 9, "uncertain": 1, "explicit_negative": 0}, {"paper_id": "PMC10096224", "calls": 2, "first_cost": 0.2969048, "first_seconds": 22.7, "cost": 0.5869856, "seconds": 36.9, "genes": 13, "targets": 4, "supported": 1, "uncertain": 0, "explicit_negative": 0}, {"paper_id": "PMC7437939", "calls": 1, "first_cost": 0.1659728, "first_seconds": 26.8, "cost": 0.1659728, "seconds": 26.8, "genes": 22, "targets": 10, "supported": 1, "uncertain": 3, "explicit_negative": 0}, {"paper_id": "PMC2836178", "calls": 1, "first_cost": 0.18575280000000002, "first_seconds": 27.1, "cost": 0.18575280000000002, "seconds": 27.1, "genes": 40, "targets": 6, "supported": 3, "uncertain": 4, "explicit_negative": 0}, {"paper_id": "PMC7082755", "calls": 1, "first_cost": 0.2181808, "first_seconds": 29.7, "cost": 0.2181808, "seconds": 29.7, "genes": 11, "targets": 17, "supported": 1, "uncertain": 3, "explicit_negative": 0}, {"paper_id": "PMC3399778", "calls": 1, "first_cost": 0.1507128, "first_seconds": 26.1, "cost": 0.1507128, "seconds": 26.1, "genes": 9, "targets": 10, "supported": 7, "uncertain": 1, "explicit_negative": 0}], "vs_pubtator": {"genes_both": 178, "genes_pubtator_only": 70, "genes_ours_only": 26, "diseases_both": 130, "diseases_pubtator_only": 212, "diseases_ours_only": 16, "pubtator_disease_is_our_symptom_or_phenotype": 22, "relations_both": 10, "relations_pubtator_only": 13, "relations_ours_only": 44, "our_uncertain": 15, "our_explicit_negative": 1}, "key": {"our_supported": 56, "pubtator_relations": 23, "evidence_body_only": 49, "background": 49, "this_study": 7, "this_study_shared": 7, "ours_only": 44, "ours_only_background": 44, "ours_only_pt_has_entities": 36, "pt_only": 13, "pt_only_symptom": 2, "spanish_genes": 6, "spanish_relations": 5, "uncertain": 15, "negative": 1, "cost_per_paper": 0.26025333333333334, "seconds_per_paper": 27.833333333333332}}], "agreement": [{"variant": "v2_full_lean_medium", "supported_both": 49, "supported_base": 64, "supported_other": 54, "jaccard": 0.7101449275362319, "shared_pairs": 1327, "status_agreement": 0.9758010550113037}, {"variant": "v3_card_lean_low", "supported_both": 51, "supported_base": 64, "supported_other": 55, "jaccard": 0.75, "shared_pairs": 1564, "status_agreement": 0.9845498721227621}]};
+const V = D.variants, base = V[0];
+const color = i => `var(--c${i})`;
+const total = (v, k) => v.per_paper.reduce((a, p) => a + p[k], 0);
+function el(tag, attrs={}, text){const n=document.createElement(tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));if(text!==undefined)n.textContent=text;return n}
+const tip=document.getElementById("tip");
+function hover(n,t){n.addEventListener("mouseenter",e=>{tip.textContent=t;tip.style.display="block";mv(e)});n.addEventListener("mousemove",mv);n.addEventListener("mouseleave",()=>tip.style.display="none")}
+function mv(e){let x=e.clientX+14,y=e.clientY+14;if(x+tip.offsetWidth>innerWidth-8)x=e.clientX-tip.offsetWidth-14;tip.style.left=x+"px";tip.style.top=y+"px"}
+
+V.forEach((v,i)=>{const c=el("div",{class:"vcard"});c.style.borderTopColor=color(i);c.append(el("div",{class:"name"},`${v.short}${i===0?" (baseline)":""}`),el("div",{class:"d"},v.description));document.getElementById("variants").append(c)});
+
+document.getElementById("benchNote").textContent =
+ `Drawn by seeded random sampling (seed ${D.seed}) within strata of article type and length, then frozen. ` +
+ `Excluded beforehand: ${Object.keys(D.excluded).join(", ")} (papers used to build or debug the rules, and the multi-study conference collection). Rules are never tuned on these 12 papers' outputs.`;
+const bt=document.getElementById("bench");
+const bh=el("tr");["#","Paper","Type","Stratum","Length (k chars)","Title"].forEach((h,i)=>bh.append(el("th",{class:i===4?"num":""},h)));bt.append(bh);
+D.papers.forEach((p,i)=>{const tr=el("tr");const link=el("a",{href:`https://pmc.ncbi.nlm.nih.gov/articles/${p.paper_id}/`,target:"_blank",rel:"noopener"},p.paper_id);
+  const pc=el("td");pc.append(link);
+  tr.append(el("td",{},String(i+1)),pc,el("td",{},p.article_type.replace("-article","")),el("td",{},p.stratum),el("td",{class:"num"},(p.chars/1000).toFixed(1)),el("td",{},p.title));bt.append(tr)});
+
+const fmt = (x, d=0) => x.toFixed(d);
+const pctChange = (a, b) => `${b >= a ? "+" : "−"}${Math.abs(Math.round(100 * (b - a) / a))}%`;
+const bySub = s => V.find(v => v.short === s);
+const v2 = bySub("v2"), v3 = bySub("v3");
+const tiles = [];
+if (v2) tiles.push(["Condensed card vs full rules", `${total(base,"supported")} vs ${total(v2,"supported")} relations`,
+  `card finds more relations and entities; first-request cost ${pctChange(total(v2,"first_cost"), total(base,"first_cost"))} vs full rules`]);
+if (v3) tiles.push(["Effort medium vs low", `${pctChange(total(base,"first_seconds"), total(v3,"first_seconds"))} time`,
+  `low effort: ${pctChange(total(base,"first_cost"), total(v3,"first_cost"))} cost, but ${pctChange(total(base,"supported"), total(v3,"supported"))} supported relations and ${pctChange(total(base,"uncertain"), total(v3,"uncertain"))} uncertain pairs`]);
+tiles.push(["Chosen setting", base.short, `${base.description}: $${fmt(total(base,"first_cost")/12,2)} and ${Math.round(total(base,"first_seconds")/12)} s per paper`]);
+tiles.forEach(([k,v,s])=>{const t=el("div",{class:"tile"});t.append(el("div",{class:"k"},k),el("div",{class:"v"},v),el("div",{class:"s"},s));document.getElementById("tiles").append(t)});
+document.getElementById("callout").textContent =
+ `The baseline (${base.short}) keeps the most detail at a moderate cost, so it is the setting used from here on. ` +
+ (v2 ? `Replacing the full rule text with the condensed card did not lose coverage. The largest behavioural difference is in explicit negatives (${total(v2,"explicit_negative")} with full rules vs ${total(base,"explicit_negative")} with the card): most come from one paper's comparison of two CFTR variant groups, a case the rules do not settle and that the next rule version should make explicit. ` : "") +
+ (v3 ? `Low effort is the option when speed matters more than completeness.` : "");
+
+function bars(id, key, unit, decimals=0, divisor=1){
+  const box=document.getElementById(id);const vals=V.map(v=>(typeof key==="function"?key(v):total(v,key))/divisor);const max=Math.max(...vals,1e-9);
+  V.forEach((v,i)=>{const row=el("div",{class:"row"});row.append(el("div",{class:"lab"},v.short));const tr=el("div",{class:"track"});const b=el("div",{class:"bar"});
+    b.style.width=(100*vals[i]/max)+"%";b.style.background=color(i);hover(b,`${v.short}: ${unit}${fmt(vals[i],decimals)}`);tr.append(b);
+    row.append(tr,el("div",{class:"val"},unit+fmt(vals[i],decimals)));box.append(row)})}
+bars("cost","first_cost","$",2);
+bars("time","first_seconds","",1,60);
+bars("supported","supported","");
+bars("uncertain","uncertain","");
+bars("negative","explicit_negative","");
+const sh=document.getElementById("shared");
+V.forEach((v,i)=>{const row=el("div",{class:"row"});row.append(el("div",{class:"lab"},v.short));const tr=el("div",{class:"track"});
+  const g=v.vs_pubtator.genes_both,d=v.vs_pubtator.diseases_both,max=Math.max(...V.map(x=>x.vs_pubtator.genes_both+x.vs_pubtator.diseases_both));
+  const b=el("div",{class:"bar"});b.style.width=(100*(g+d)/max)+"%";b.style.background=color(i);hover(b,`${v.short}: ${g} genes, ${d} diseases shared with PubTator3`);tr.append(b);
+  row.append(tr,el("div",{class:"val"},`${g} / ${d}`));sh.append(row)});
+
+const at=document.getElementById("agree");
+const ah=el("tr");["Compared with "+base.short,"Supported in both","Only baseline","Only this variant","Overlap (Jaccard)","Status agreement on shared pairs"].forEach((h,i)=>ah.append(el("th",{class:i?"num":""},h)));at.append(ah);
+D.agreement.forEach(a=>{const tr=el("tr");[bySub(V.find(v=>v.name===a.variant).short).short,a.supported_both,a.supported_base-a.supported_both,a.supported_other-a.supported_both,fmt(a.jaccard,2),(100*a.status_agreement).toFixed(1)+"% of "+a.shared_pairs]
+  .forEach((x,i)=>tr.append(el("td",{class:i?"num":""},String(x))));at.append(tr)});
+
+V.forEach((v,i)=>{const s=el("span",{class:"sw"});const d=el("span",{class:"dot"});d.style.background=color(i);s.append(d,`${v.short} · ${v.description}`);document.getElementById("legend").append(s)});
+const pp=document.getElementById("perpaper");const maxS=Math.max(...V.flatMap(v=>v.per_paper.map(p=>p.supported)),1);
+D.papers.forEach(p=>{const g=el("div",{class:"pgroup"});const lab=el("div",{class:"plab"});
+  lab.append(el("div",{class:"id"},`${p.paper_id} · ${p.article_type.replace("-article","")}`),el("div",{class:"t"},p.title.length>80?p.title.slice(0,78)+"…":p.title));
+  const bars=el("div");
+  V.forEach((v,i)=>{const r=v.per_paper.find(x=>x.paper_id===p.paper_id);const m=el("div",{class:"mini"});const tr=el("div");const b=el("div",{class:"b"});
+    b.style.width=(100*r.supported/maxS)+"%";b.style.background=color(i);tr.append(b);
+    hover(m,`${p.paper_id} · ${v.short}: ${r.supported} supported, ${r.uncertain} uncertain, ${r.explicit_negative} explicit_negative`);
+    m.append(el("div",{class:"tag"},v.short),tr,el("div",{class:"n"},String(r.supported)));bars.append(m)});
+  g.append(lab,bars);pp.append(g)});
+
+const ft=document.getElementById("full");
+const metrics=[["First-request cost (USD)",v=>"$"+fmt(total(v,"first_cost"),2)],["First-request time (min)",v=>fmt(total(v,"first_seconds")/60,1)],
+ ["All requests cost (USD)",v=>"$"+fmt(total(v,"cost"),2)],["Papers passing on first request",v=>v.per_paper.filter(p=>p.calls===1).length+" / 12"],
+ ["Genes",v=>total(v,"genes")],["Disease targets",v=>total(v,"targets")],["Supported relations",v=>total(v,"supported")],
+ ["Uncertain pairs",v=>total(v,"uncertain")],["Explicit-negative pairs",v=>total(v,"explicit_negative")],
+ ["Relations also predicted by PubTator3",v=>v.vs_pubtator.relations_both],["Relations only this variant",v=>v.vs_pubtator.relations_ours_only],
+ ["PubTator3 relations not supported",v=>v.vs_pubtator.relations_pubtator_only],["Relations with evidence outside the abstract",v=>`${v.key.evidence_body_only} / ${v.key.our_supported}`]];
+const fh=el("tr");fh.append(el("th",{},"Metric"));V.forEach(v=>fh.append(el("th",{class:"num"},v.short)));ft.append(fh);
+metrics.forEach(([lab,f])=>{const tr=el("tr");tr.append(el("td",{},lab));V.forEach(v=>tr.append(el("td",{class:"num"},String(f(v)))));ft.append(tr)});
+
+const links=document.getElementById("links");links.append("Detailed head-to-head pages: ");
+V.forEach((v,i)=>{const a=el("a",{href:`${v.name}/vs_pubtator.html`},`${v.short} vs PubTator3`);links.append(a);if(i<V.length-1)links.append(" · ")});
+</script></body></html>

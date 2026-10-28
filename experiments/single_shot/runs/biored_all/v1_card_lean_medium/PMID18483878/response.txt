@@ -1,0 +1,19 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|VIP|vasoactive intestinal polypeptide;Vasoactive intestinal polypeptide;VIP|r||non-human||
+E|G2|gene|IL-1beta|IL-1beta|r||non-human||
+E|G3|gene|CXCL1|CXCL1|r||non-human||
+E|D1|disease|cyclophosphamide-induced cystitis|cystitis;CYP-induced cystitis;bladder inflammation|p|other|||
+E|S1|phenotype|bladder dysfunction|bladder dysfunction|r||||
+X|CYP|b0001|chemical abbreviation for cyclophosphamide, not CYP gene family
+EV|V1|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s8+b0002.s9|ts|res|aff|rr,cmp,mi
+EV|V3|b0002.s10|ts|int|hyp|ho
+EV|V4|b0002.s2|ts|res|aff|rr
+P|G3|D1|sup|a|ts|sup:a:ts:V1||V2|CYP cystitis increased bladder CXCL1 expression
+P|G2|D1|sup|a|ts|sup:a:ts:V1||V2|CYP cystitis increased bladder IL-1beta expression
+P|G1|D1|unc|-|ts|unc:-:ts:V2+V4+V3|scope,hedged_claim||Knockout alters cystitis markers; disease link hedged
+F|F1|group_comparison|CXCL1, IL-1beta expression vs CYP treatment|WT and VIP-/- mouse bladder|significant|positive|partial|V1|abstract only
+F|F2|group_comparison|VIP knockout vs WT, CXCL1/IL-1beta|CYP-treated mice|significant|positive|partial|V2|abstract only; fold changes only
+F|F3|hypothesis|VIP knockout, bladder dysfunction|VIP-/- mice with cystitis|not_applicable|positive|not_applicable|V3|
+R|merging|b0002.s9|bladder inflammation co-referent with CYP cystitis only by context|merged as provisional surface form of D1

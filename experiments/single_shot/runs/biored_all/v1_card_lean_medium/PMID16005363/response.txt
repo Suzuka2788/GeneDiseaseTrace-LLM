@@ -1,0 +1,19 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|WFS1|WFS1|r||human||
+E|D1|disease|Wolfram syndrome|Wolfram syndrome;WFS|r|||
+E|D2|disease|diabetes mellitus|diabetes mellitus|r|||
+E|D3|disease|optic atrophy|optic atrophy|r|||
+E|D4|disease|sensorineural deafness|sensorineural deafness|r|||
+E|D5|disease|diabetes insipidus|diabetes insipidus|r|||
+E|D6|disease|hypopituitarism|hypopituitarism|r|||
+E|S1|phenotype|renal tract abnormalities|renal tract abnormalities|r|||
+E|S2|phenotype|psychiatric syndromes|psychiatric syndromes|r|||
+X|AFF344-345ins|b0001|variant identifier, not a gene
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s7|ts|res|aff|cs,eda
+EV|V4|b0002.s6|ts|co|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2+V3|||Background names WFS1 as responsible gene; co-segregation
+P|G1|D6|nf|-||||V4|Comorbid feature in a mutation carrier; no attribution
+F|F1|association|AFF344-345ins homozygosity vs WFS|Japanese family|not_applicable|positive|not_reported|V3|Single family; two affected members

@@ -1,0 +1,34 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CCND1|CCND1|r||human||
+E|G2|gene|CCND2|CCND2|r||human||
+E|G3|gene|CCND3|CCND3|r||human||
+E|G4|gene|CCNE1|CCNE1|r||human||
+E|G5|gene|CDK2|CDK2;p33|r||human||
+E|G6|gene|CDK4|CDK4|r||human||
+E|G7|gene|CDK6|CDK6|r||human||
+E|G8|gene|CDKN1A|CDKN1A;p21;Cip1|r||human||
+E|G9|gene|CDKN1B|CDKN1B;p27;Kip1|r||human||
+E|G10|gene|CDKN2A|CDKN2A;p16|r||human||
+E|G11|gene|CDKN2B|CDKN2B;p15|r||human||
+E|G12|gene|CDKN2C|CDKN2C;p18|r||human||
+E|G13|gene|CDKN2D|CDKN2D;p19|r||human||
+E|G14|gene|BYSL|BYSL|r||human||
+E|G15|gene|TRFP|TRFP|p|undefined_abbreviation|human||
+E|G16|gene|USP49|USP49|r||human||
+E|G17|gene|C6orf49|C6orf49;C6ofr49|p|suspected_typo|human||
+E|G18|gene|FRS3|FRS3|r||human||
+E|G19|gene|PGC|PGC|p|undefined_abbreviation|human||
+E|D1|disease|breast cancer|breast cancer|r||||
+E|D2|disease|invasive breast cancer|invasive breast cancer|r|||D1|
+E|D3|clinical_event|death|death|r||||
+X|rs2479717|b0002.s6|variant identifier
+X|Studies of Epidemiology and Risk factors in Cancer Heredity|b0002.s3|study name, not disease
+EV|V1|b0002.s6+b0002.s7|ts|res|aff|rr
+EV|V2|b0002.s10|ts|int|hyp|ho
+EV|V3|b0002.s8+b0002.s9|ts|res|aff|rr
+P|G17|D1|sup|r|ts|sup:r:ts:V3||V1|expression associated with breast cancer survival
+P|G3|D1|unc|-|ts|unc:-:ts:V1+V2|hedged_claim,scope||SNP tags LD block; CCND3 link hedged
+P|G3|D3|unc|-|ts|unc:-:ts:V1+V2|hedged_claim,scope||death association SNP-level, gene unassigned
+F|F1|association|rs2479717 rare allele vs death risk|breast cancer patients, SEARCH|significant|positive|available|V1|SNP spans multi-gene LD block
+F|F2|association|C6orf49 expression vs survival|breast tumours, seven datasets|significant|unknown|not_reported|V3|direction of effect not stated

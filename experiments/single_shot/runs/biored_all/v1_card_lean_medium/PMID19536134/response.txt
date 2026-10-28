@@ -1,0 +1,29 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or figures
+E|G1|gene|TAK1|TGFbeta activated kinase 1;TAK1|p|species_unresolved|||
+E|G2|gene|Tak1 (mouse)|Tak1|p|species_unresolved|non-human||
+E|G3|gene|BMPR1 (mouse)|bone morphogenetic protein receptor (BMPR)1|p|species_unresolved,ambiguous_mapping|non-human||
+E|G4|gene|Gdf5 (mouse)|Gdf5|p|species_unresolved|non-human||
+E|G5|gene|Smad1|Smad1|p|species_unresolved|non-human||
+E|G6|gene|Smad5|Smad1/5/8|p|species_unresolved,other|non-human||
+E|G7|gene|Smad8|Smad1/5/8|p|species_unresolved,other|non-human||
+E|G8|gene|p38|p38|p|species_unresolved,ambiguous_mapping|non-human||
+E|G9|gene|Jnk|Jnk|p|species_unresolved,ambiguous_mapping|non-human||
+E|G10|gene|Erk|Erk|p|species_unresolved,ambiguous_mapping|non-human||
+E|G11|gene|collagen 2|collagen 2|p|species_unresolved,ambiguous_mapping|non-human||
+E|D1|disease|chondrodysplasia|chondrodysplasia|r||||
+E|S1|phenotype|runting|runting|r||||
+E|S2|phenotype|elbow dislocation|elbow dislocation|r||||
+E|S3|phenotype|tarsal fusion|tarsal fusion|r||||
+E|S4|phenotype|joint abnormalities|joint abnormalities|r||||
+X|MAPKKK|b0002|gene family, not single gene
+X|BMP|b0002|ligand family/pathway, not single gene
+X|Tak1(col2)|b0002|mouse strain name, refers to G2 deletion
+EV|V1|b0002.s2+b0002.s3|ts|res|aff|mi,rr
+EV|V2|b0002.s3+b0002.s4|ts|int|pre|unc
+EV|V3|b0002.s5+b0002.s6|ts|res|aff|rr
+P|G2|D1|sup|c|ts|sup:c:ts:V1|||Conditional Tak1 deletion produced chondrodysplasia in mice
+P|G3|D1|unc|-||unc:-:unk:V2|presupposed_only,scope||Only phenotype resemblance; no explicit disease report
+P|G4|D1|unc|-||unc:-:unk:V2|presupposed_only,scope||Only phenotype resemblance; no explicit disease report
+F|F1|mechanism|Tak1 loss vs Smad1/5/8, MAPK phosphorylation|Tak1-deficient mouse chondrocytes|unknown|negative|not_reported|V3|abstract only
+R|species split|b0002.s1 vs b0002.s2|Generic TAK1 background vs mouse Tak1 model, same symbol|Separate G1 and G2 nodes; mouse-context mentions assigned to G2

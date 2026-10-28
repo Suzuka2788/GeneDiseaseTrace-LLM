@@ -1,0 +1,23 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|HOMER1|HOMER1|r||human||
+E|D1|disease|Parkinson's disease|Parkinson's disease|r||||
+E|D2|disease|idiopathic Parkinson's disease|idiopathic Parkinson's disease|r|||D1|
+E|D3|clinical_event|dyskinesia|dyskinesia|r||||
+E|D4|clinical_event|visual hallucinations|visual hallucinations|r||||
+E|D5|clinical_event|motor fluctuations|motor fluctuations|r||||
+E|D6|clinical_event|levodopa adverse effects|levodopa adverse effects|p|other|||
+X|rs4704559|b0002|variant identifier
+X|rs10942891|b0002|variant identifier
+X|rs4704560|b0002|variant identifier
+EV|V1|b0002.s2|bg|bgr|q|unc
+EV|V2|b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|int|hyp|ho
+EV|V4|b0001.s1|ts|res|aff|unc
+P|G1|D3|sup|a|ts|sup:a:ts:V2;unc:-:bg:V1|||rs4704559 G allele lowers dyskinesia prevalence
+P|G1|D4|sup|a|ts|sup:a:ts:V2|||rs4704559 G allele lowers hallucination prevalence
+P|G1|D5|unc|-|bg|unc:-:bg:V1|coreference||"which" antecedent may be glutamate transmission
+P|G1|D6|unc|-|ts|unc:-:ts:V3+V4|hedged_claim,scope||Protective role only suggested; umbrella outcome
+F|F1|association|rs4704559 G allele vs dyskinesia|205 idiopathic PD patients|significant|negative|available|V2|
+F|F2|association|rs4704559 G allele vs visual hallucinations|205 idiopathic PD patients|significant|negative|available|V2|
+F|F3|other|rs10942891, rs4704560 vs complications|205 idiopathic PD patients|unknown|unknown|not_reported||abstract reports no result

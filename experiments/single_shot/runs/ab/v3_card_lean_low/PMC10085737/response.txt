@@ -1,0 +1,28 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text, captions and tables; no attachments
+E|G1|gene|Q6S8D9_SARS|Q6S8D9_SARS;Q6S8D9|p|species_unresolved,other|non-human||
+E|G2|gene|angiotensin-converting enzyme 2|angiotensin-converting enzyme 2|r||human||
+E|G3|gene|parathyroid hormone|parathyroid hormone|r||human||
+E|G4|gene|Nucleoporin GLE1|Nucleoporin GLE1|p|species_unresolved|||
+E|D1|disease|severe acute respiratory syndrome|severe acute respiratory syndrome;SARS|r|||||
+E|D2|disease|coronavirus disease 2019|coronavirus disease 2019|r|||||
+E|D3|disease|pneumonia|pneumonia|r|||||
+E|D4|disease|acute breathing misery syndrome|acute breathing misery syndrome|p|other||||
+E|D5|disease|common cold|common cold|r|||||
+E|D6|disease|flu|flu|r|||||
+E|S1|symptom|dyspnea|dyspnea|r|||||
+E|S2|symptom|cough|cough|r|||||
+E|S3|symptom|chest pain|chest pain|r|||||
+E|S4|phenotype|diffuse alveolar damage|diffuse alveolar damage|r|||||
+X|SARS-CoV|b0002|virus name, not disease or gene
+X|SARS-CoV-2|b0004|virus name, not disease or gene
+X|SARS-CoV_ORF9c superfamily|b0028|protein domain family, not single gene
+X|1FVY A|b0033|PDB template identifier
+X|6b4e.1.A|b0033|PDB template identifier
+X|b6e5oD|b0033|structural template identifier
+X|J9TE29|b0022|accession identifier
+EV|V1|b0004.s6|bg|bgr|na|do
+EV|V2|b0002.s7+b0028.s2|ts|int|hyp|ho
+P|G2|D1|nf|-|||||V1|viral entry receptor; no disease attribution
+P|G1|D1|nf|-|||||V2|viral protein structure only; no disease link
+R|species|b0005.s7|Viral protein gene; species codes lack virus option|Marked non-human, provisional

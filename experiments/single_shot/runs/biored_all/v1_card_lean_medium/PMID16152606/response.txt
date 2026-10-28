@@ -1,0 +1,31 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|NBS1|NBS1|r||human||
+E|D1|disease|Nijmegen breakage syndrome|Nijmegen breakage syndrome;NBS|r||||
+E|D2|disease|cancer|cancer|r||||
+E|D3|disease|lymphoma|lymphoma|r||||
+E|D4|disease|leukemia|leukemia|r||||
+E|D5|disease|lymphoid malignancies|sporadic lymphoid malignancies;lymphoid malignancies|r||||
+E|D6|disease|non-Hodgkin lymphoma|non-Hodgkin lymphoma;NHL|r|||D3|
+E|D7|disease|acute lymphoblastic leukemia|acute lymphoblastic leukemia;ALL|r|||D4|
+E|D8|disease|Hodgkin lymphoma|Hodgkin lymphoma;HL|r|||D3|
+E|S1|phenotype|genomic instability|genomic instability|r||||
+X|657del5|b0001|variant ID
+X|643C>T (R215W)|b0002|variant ID
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s2|bg|bgr|pre|unc
+EV|V3|b0002.s3+b0002.s4|bg|bgr|aff|ebr
+EV|V4|b0002.s7+b0002.s8|ts|res|aff|rr,cmp
+EV|V5|b0002.s9|ts|res|aff|rr,cmp
+EV|V6|b0002.s5|ts|res|na|do
+EV|V7|b0002.s10|ts|int|aff|unc
+EV|V8|b0002.s6|ts|res|na|do
+P|G1|D5|sup|a|both|sup:a:bg:V1;sup:a:ts:V4|||V7|Background carrier excess plus elevated OR here
+P|G1|D6|sup|a|both|sup:a:bg:V1;sup:a:ts:V5||||Carrier excess in NHL, bg and this study
+P|G1|D7|sup|a|both|sup:a:bg:V3;sup:a:ts:V5||||R215W bg excess; 657del5 excess here
+P|G1|D1|unc|-|unk|unc:-:bg:V2|presupposed_only|||Founder mutation presupposes NBS link; not stated
+P|G1|D8|nf|-||||V6|Zero HL carriers; no comparative test
+F|F1|group_comparison|657del5 carrier frequency|pediatric lymphoid malignancy vs controls|significant|positive|partial|V4+V5|OR range only; per-group ORs not shown
+F|F2|descriptive|657del5 carriers by diagnosis|ALL, NHL, HL patients|not_applicable|not_applicable|available|V6|
+F|F3|descriptive|R215W carriers|all studied groups|not_applicable|null|available|V8|
+R|non-major risk statement|b0002.s10|"Not a major risk factor" qualifies a significant positive association|Treated as interpretation; association status kept supported

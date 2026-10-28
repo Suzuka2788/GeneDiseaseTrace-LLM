@@ -1,0 +1,26 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|MLPH|MLPH;melanophilin;Melanophilin|r||human||
+E|G2|gene|AR|AR;androgen receptor;Androgen Receptor|r||human||
+E|G3|gene|TMPRSS2|TMPRSS2|r||human||
+E|G4|gene|ERG|ERG|r||human||
+E|D1|disease|prostate cancer|prostate cancer;Prostate Cancer;PCa|r||||
+E|D2|disease|primary prostate tumors|primary prostate tumors|p|other|||
+X|TMPRSS2-ERG gene rearrangement|b0002|fusion/rearrangement marker of cell line, not a single gene
+X|ARBSs|b0002|binding-site abbreviation, not a gene
+X|rs11891426|b0002|variant ID
+EV|V1|b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s5+b0002.s9|ts|int|hyp|ho
+EV|V3|b0002.s7|ts|res|na|rr
+EV|V4|b0002.s3|ts|co|na|do
+EV|V5|b0002.s1+b0002.s3+b0002.s4|ts|res|na|do
+P|G1|D1|sup|r|ts|sup:r:ts:V1;unc:-:ts:V2|hedged_claim||MLPH higher in favorable PCa risk profile
+P|G1|D2|nf|-|||||V3|genotype comparison within tumors, no disease outcome
+P|G2|D1|nf|-|||||V5|AR binding-site SNP enrichment, not AR-PCa link
+P|G3|D1|nf|-|||||V4|cell line descriptor only
+P|G4|D1|nf|-|||||V4|cell line descriptor only
+F|F1|group_comparison|MLPH expression by rs11891426 allele|primary prostate tumors|significant|negative|not_reported|V3|G allele lower
+F|F2|correlation|MLPH expression vs AR protein|primary prostate tumors|significant|unknown|not_reported|V3|
+F|F3|mechanism|rs11891426 T>G vs ARBS reporter activity|AR reporter assay|unknown|negative|not_reported|V2|abstract only
+F|F4|descriptive|PCa risk SNPs located in ARBSs|48 index and 3,917 linked SNPs|unknown|not_applicable|not_reported|V5|enrichment statistics not shown
+F|F5|group_comparison|melanophilin level vs PCa risk profile|PCa patients prostate tissue|unknown|positive|not_reported|V1|significance not stated

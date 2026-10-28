@@ -1,0 +1,38 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|IRF6|IRF6;Interferon regulatory factor 6|r||human||
+E|G2|gene|FGFR1|FGFR1;fibroblast growth factor receptor 1|r||human||
+E|G3|gene|MSX1|MSX1|r||human||
+E|G4|gene|TGFA|TGFA|r||human||
+E|D1|disease|tooth agenesis|tooth agenesis|r||||
+E|D2|disease|premolar agenesis|premolar agenesis|p|other||D1|
+E|D3|disease|craniofacial syndromes|craniofacial syndromes|r||||
+E|D4|disease|isolated orofacial clefts|isolated orofacial clefts|r||||
+E|D5|disease|Van der Woude syndrome|Van der Woude|r||||
+E|D6|disease|popliteal pterygium syndrome|popliteal pterygium syndromes|r||||
+E|D7|disease|oral clefts|oral clefts|r||||
+E|S1|symptom|pits on the lower lips|pits on the lower lips|r||||
+X|rs17015215-V274I|b0002|variant identifier, not a gene
+EV|V1|b0001.s1+b0002.s8|ts|res|aff|rr,cmp
+EV|V2|b0002.s8|bg|bgr|aff|ebr
+EV|V3|b0002.s9|bg|bgr|aff|ebr,eda
+EV|V4|b0002.s2|bg|bgr|aff|ebr
+EV|V5|b0002.s11|ts|res|aff|rr,cmp
+EV|V6|b0001.s1|ts|int|aff|eda
+EV|V7|b0002.s12|ts|res|hyp|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||TDT association of IRF6 variants with tooth agenesis
+P|G1|D4|sup|a|bg|sup:a:bg:V2|||Same IRF6 variants associated with orofacial clefts
+P|G1|D5|sup|c|bg|sup:c:bg:V3|||IRF6 mutations cause Van der Woude
+P|G1|D6|sup|c|bg|sup:c:bg:V3|||IRF6 mutations cause popliteal pterygium syndrome
+P|G1|D3|sup|c|bg|sup:c:bg:V4|||Gene responsible for craniofacial syndromes
+P|G2|D3|sup|c|bg|sup:c:bg:V4|||Gene responsible for craniofacial syndromes
+P|G1|D2|sup|a|ts|sup:a:ts:V5|||IRF6 markers associated with premolar agenesis
+P|G2|D2|sup|a|ts|sup:a:ts:V5|||FGFR1 markers associated with premolar agenesis
+P|G2|D1|sup|a|ts|sup:a:ts:V6+V5|||Title attributes; supported via premolar subgroup result
+P|G3|D1|unc|-||unc:-:ts:V7|scope,hedged_claim||Only gene-gene interaction with IRF6 reported
+P|G4|D1|unc|-||unc:-:ts:V7|scope,hedged_claim||Only gene-gene interaction with IRF6 reported
+P|G1|D7|nf|-|||||V3|Oral clefts are syndrome features, no direct link
+F|F1|association|IRF6 variants vs tooth agenesis|116 trios; 89 cases/50 controls|significant|positive|partial|V1|rs861019 P=0.058 borderline
+F|F2|association|FGFR1, IRF6 markers vs premolar agenesis|tooth agenesis probands|significant|positive|partial|V5|hedged wording "appears"
+F|F3|other|IRF6 x MSX1, IRF6 x TGFA interaction|tooth agenesis families|significant|unknown|partial|V7|interaction direction not stated
+R|hierarchy|b0001.s1|Title links FGFR1 to tooth agenesis; result only in premolar subtype|Accepted title attribution as separate claim; no hierarchy propagation

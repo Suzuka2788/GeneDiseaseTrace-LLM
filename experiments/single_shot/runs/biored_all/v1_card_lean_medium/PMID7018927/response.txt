@@ -1,0 +1,14 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|prolactin|prolactin|p|other|human||
+E|G2|gene|luteinizing hormone|luteinizing hormone;LH|p|other|human||
+E|G3|gene|luteinizing hormone-releasing hormone|luteinizing hormone-releasing hormone;LH-releasing hormone;LH-RH|p|other|human||
+E|D1|disease|hyperprolactinemia|hyperprolactinemia|r||||
+X|haloperidol|b0002.s1|chemical, not gene or disease
+EV|V1|b0002.s1+b0002.s4|ts|res|aff|rr,cmp
+EV|V2|b0002.s2+b0002.s4|ts|res|aff|rr,cmp
+P|G1|D1|unc|-|||scope|V1|Prolactin level defines hyperprolactinemia; no gene-level link
+P|G3|D1|unc|-|||scope|V2|Abolished LH-RH response confounded by haloperidol versus saline
+P|G2|D1|unc|-|||scope|V1+V2|LH response measured under drug, not disease-specific
+F|F1|group_comparison|serum prolactin; LH-RH pituitary response|male haloperidol vs saline infusion|significant|mixed|not_reported|V1+V2|abstract only; drug confounds disease
+R|hormone peptides as genes|b0002.s1|Hormone names are protein levels, not gene status|Kept as provisional gene entities; pairs uncertain

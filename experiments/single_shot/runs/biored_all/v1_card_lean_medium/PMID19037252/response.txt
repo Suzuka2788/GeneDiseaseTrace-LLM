@@ -1,0 +1,15 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PLCE1|phospholipase C epsilon 1;PLCE1;KIAA1516;PLCE;NPHS3|r||human||
+E|D1|disease|diffuse mesangial sclerosis|diffuse mesangial sclerosis;Diffuse mesangial sclerosis|r|||||
+E|D2|disease|nephrotic syndrome|nephrotic syndrome|r|||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0002.s3+b0002.s4+b0002.s5|ts|res|aff|rr,eda
+EV|V3|b0002.s6|ts|res|aff|rr,do
+EV|V4|b0001.s1+b0002.s7|ts|int|aff|rr,eda
+EV|V5|b0002.s7|ts|hyp|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V2+V4|||V3+V5|Background causal; study finds homozygous mutations, incomplete penetrance
+P|G1|D2|unc|-|||unc:-:ts:V2|scope||V2|Mutation attributed to DMS; NS only presentation
+F|F1|descriptive|PLCE1 exon 3 4-bp deletion|three affected consanguineous Pakistani children|not_applicable|not_applicable|not_applicable|V2|single kindred
+F|F2|descriptive|PLCE1 homozygosity, DMS phenotype|asymptomatic father|not_applicable|not_applicable|not_applicable|V3+V4|single individual; nonpenetrance
+F|F3|hypothesis|second-locus compensatory mutations|asymptomatic homozygous father|not_applicable|unknown|not_applicable|V5|speculation only

@@ -1,0 +1,41 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text read; no genes found; tables in PDF unread
+E|D1|disease|diabetes mellitus|Diabetes mellitus;diabetes mellitus;diabetes;Diabetes|r|||||
+E|D2|disease|type 2 diabetes|type 2 diabetes|r|||D1|
+E|D3|disease|type 1 diabetes|type 1 diabetes;Type 1diabetes;type-1 diabetes|p|suspected_typo||D1|
+E|D4|disease|obesity|obesity;Obesity|r||||
+E|D5|disease|thyroid dysfunction|thyroid dysfunction;Thyroid dysfunction;thyroid dysfunctions|r||||
+E|D6|disease|thyroid disorder|thyroid disorders;Thyroid disorder;thyroid disorder|p|other|||
+E|D7|disease|hypothyroidism|hypothyroidism;Hypothyroidism|r||||
+E|D8|disease|hyperthyroidism|hyperthyroidism|r||||
+E|D9|disease|vitamin D deficiency|vitamin D deficiency;hypovitaminosis D;hypo vitaminosis D|r||||
+E|D10|disease|hypertension|hypertension|r||||
+E|D11|disease|cardiovascular disease|cardiovascular disease;cardiovascular diseases|r||||
+E|D12|disease|diabetes ketoacidosis|diabetes ketoacidosis|r||||
+E|D13|disease|metabolic disease|metabolic disease;metabolic diseases;metabolic disorders|r||||
+E|S1|phenotype|insulin resistance|insulin resistance|r||||
+E|S2|phenotype|hypertriglyceridemia|Hypertriglyceridemia|r||||
+E|S3|symptom|hyperglycemia|hyperglycemia|r||||
+E|S4|phenotype|hypocalcemia|hypocalcemia|r||||
+E|S5|phenotype|thyroid autoimmunity|thyroid autoimmunity|r||||
+X|TSH|b0009|hormone lab measure, not gene
+X|T3|b0004|hormone lab measure, not gene
+X|T4|b0004|hormone lab measure, not gene
+X|HbA1c|b0009|lab measure, not gene
+EV|V1|b0017.s1|ts|res|aff|rr,cmp
+EV|V2|b0019.s4|ts|neg|neg|rr,cmp
+EV|V3|b0019.s1+b0019.s2|ts|res|aff|rr,cmp
+EV|V4|b0021.s1+b0021.s2|ts|res|aff|rr,cmp
+EV|V5|b0017.s2+b0023.s23|ts|neg|neg|rr,cmp
+F|F1|group_comparison|thyroid dysfunction vs triglycerides|diabetic patients|significant|positive|available|V1|tables unread
+F|F2|group_comparison|vitamin D deficiency vs thyroid dysfunction|obese patients|not_significant|null|partial|V2|
+F|F3|group_comparison|vitamin D deficiency vs age, HbA1c, SBP|obese patients|significant|negative|available|V3|
+F|F4|group_comparison|vitamin D deficiency vs DBP, HbA1c|thyroid patients|significant|mixed|available|V4|
+F|F5|group_comparison|thyroid dysfunction vs vitamin D, cholesterol|diabetic patients|not_significant|null|partial|V5|tables unread
+C|C1|12.4% vitamin D vs hypothyroidism|b0002.s3+b0015.s6|noncritical|unresolved|same figure attributed differently
+C|C2|non-significant reported with p<0.05|b0021.s2|noncritical|unresolved|likely p>0.05 intended
+U|Table 1|b0015.s6|PDF only
+U|Table 2|b0017.s2|PDF only
+U|Table 3|b0019.s4|PDF only
+U|Table 4|b0021.s2|PDF only
+R|no gene entities|whole paper|No genes mentioned; pair matrix empty|Recorded diseases and findings only; no P lines

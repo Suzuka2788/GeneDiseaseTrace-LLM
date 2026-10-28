@@ -1,0 +1,15 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|E1|gene|GALT|GALT|r||human||
+E|E2|disease|Classic galactosemia|Classic galactosemia|r||||
+E|E3|disease|galactosemia|galactosemia|r||||
+E|E4|disease|ovarian failure|ovarian failure|p|other|||
+E|E5|symptom|neurological deficits|neurological deficits|r||||
+EV|V1|b0002.s3|bg|bgr|aff|ebr
+EV|V2|b0002.s4|bg|bgr|na|do
+EV|V3|b0002.s7|ts|res|na|do
+EV|V4|b0002.s8|ts|int|hyp|ho
+P|E1|E3|sup|c|bg|sup:c:bg:V1|||V2;V3;V4|GALT mutations stated to result in galactosemia
+P|E1|E2|unc|-||unc:-:bg:V1|coreference||V3|Galactosemia in s3 may or may not mean classic form
+F|F1|descriptive|GALT 5.5 kb deletion carrier frequency|760 anonymous Ashkenazi Jewish subjects, Israel|not_applicable|not_applicable|available|V3|anonymous samples; no disease phenotype data
+R|ovarian failure entity type|b0002.s2|Complication term could be read as a disease or a phenotype.|Kept it as a provisional disease; no gene pair, so nf.

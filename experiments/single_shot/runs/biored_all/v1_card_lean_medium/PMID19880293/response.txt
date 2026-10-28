@@ -1,0 +1,31 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FOXP3|FOXP3|r||human||
+E|G2|gene|CD4|CD4|p|other|human||
+E|G3|gene|CD25|CD25|p|other|human||
+E|D1|disease|psoriasis|psoriasis;Psoriasis|r||||
+E|D2|disease|autoimmune diseases|autoimmune diseases;autoimmune disorders|r||||
+E|D3|disease|severe psoriasis|severe psoriasis|r|||D1|
+X|dermatological disorder|b0002|generic category describing psoriasis, not separate entity
+X|-3279 AC|b0002|variant genotype identifier
+X|IVS9+459|b0002|variant identifier
+EV|V1|b0002.s10|ts|res|aff|rr,cmp
+EV|V2|b0002.s11|ts|res|aff|rr,cmp
+EV|V3|b0002.s12|ts|neg|neg|rr,cmp
+EV|V4|b0002.s13|ts|neg|neg|rr,cmp
+EV|V5|b0002.s14|ts|res|aff|rr,cmp
+EV|V6|b0002.s15|ts|res|aff|rr,cmp
+EV|V7|b0002.s4|bg|bgr|aff|ebr
+EV|V8|b0002.s16|ts|int|hyp|ho
+EV|V9|b0002.s2+b0002.s3|bg|co|na|do
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2;neg:-:ts:V3+V4;unc:-:ts:V8|||-3279 and IVS9+459 GG associated; other SNPs null
+P|G1|D3|sup|a|ts|sup:a:ts:V5+V6|||-3279 AC+AA and IVS9+459 GA+GG associated
+P|G1|D2|sup|a|bg|sup:a:bg:V7|||Background: FOXP3 SNPs contribute to autoimmune susceptibility
+P|G2|D2|nf|-||||V9|CD4 is only a T-reg marker
+P|G3|D2|nf|-||||V9|CD25 is only a T-reg marker
+F|F1|association|FOXP3 -3279 AC and AC+AA vs CC|524 cases vs 549 controls|significant|positive|available|V1|abstract only
+F|F2|association|FOXP3 IVS9+459 GG vs AA|524 cases vs 549 controls|significant|positive|available|V2|
+F|F3|association|FOXP3 IVS9+459 GA+GG vs AA|524 cases vs 549 controls|not_significant|null|available|V3|lower CI bound 1.00
+F|F4|association|FOXP3 -6054 and -924 genotypes|524 cases vs 549 controls|not_significant|null|not_reported|V4|
+F|F5|association|FOXP3 -3279 AC+AA, stratified|males; severe psoriasis (PASI>20)|significant|positive|available|V5|
+F|F6|association|FOXP3 IVS9+459 GA+GG|severe psoriasis (PASI>20)|significant|positive|available|V6|

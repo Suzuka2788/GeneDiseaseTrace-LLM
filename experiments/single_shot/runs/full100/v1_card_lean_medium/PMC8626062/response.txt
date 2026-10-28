@@ -1,0 +1,55 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full Spanish case report text; references removed
+E|G1|gene|RAG1|RAG1|r||human||
+E|G2|gene|RAG2|RAG2|r||human||
+E|G3|gene|Artemis|Artemis|p|other|human||
+E|G4|gene|RPMRP|RPMRP|p|undefined_abbreviation|human||
+E|G5|gene|IL7RA|IL7RA|r||human||
+E|G6|gene|IL-7|IL-7;interleuquina 7|p|other|human||
+E|D1|disease|síndrome de Omenn|síndrome de Omenn;inmunodeficiencia combinada con hipereosinofilia|r||||
+E|D2|disease|inmunodeficiencia combinada grave|inmunodeficiencia combinada grave|r||||
+E|D3|disease|eritrodermias neonatales congénitas|eritrodermias neonatales congénitas|r||||
+E|D4|disease|eritrodermia congénita|eritrodermia congénita;eritodermia|p|suspected_typo|||
+E|D5|disease|eritrodermias|eritrodermias;eritrodermia neonatal|r||||
+E|D6|disease|ictiosis|ictiosis;variante de ictiosis;variantes de ictiosis|r||||
+E|D7|disease|ictiosis laminar|ictiosis laminar|r|||D6|
+E|D8|disease|ictiosis congénita|ictiosis congénita|r|||D6|
+E|D9|disease|desórdenes de la cornificación|desórdenes de la cornificación|r||||
+E|D10|disease|desórdenes inflamatorios|desórdenes inflamatorios|r||||
+E|D11|disease|dermatitis atópica|dermatitis atópica|r||||
+E|D12|disease|psoriasis|psoriasis|r||||
+E|D13|disease|dermatitis seborreica|dermatitis seborreica|r||||
+E|D14|disease|trastornos metabólicos|trastornos metabólicos|r||||
+E|D15|disease|deficiencia de biotinidasa|deficiencia de biotinidasa|r||||
+E|D16|disease|deficiencia de zinc|zinc|p|other|||
+E|D17|disease|inmunodeficiencia primaria|inmunodeficiencia primaria|r||||
+E|D18|disease|enteritis|enteritis|r||||
+E|D19|disease|pneumonitis|pneumonitis|r||||
+E|D20|disease|hepatitis|hepatitis|r||||
+E|D21|disease|taquipnea transitoria del recién nacido|taquipnea transitoria del recién nacido|r||||
+E|D22|disease|insuficiencia renal aguda|insuficiencia renal aguda|r||||
+E|D23|disease|coagulación intravascular diseminada|coagulación intravascular diseminada|r||||
+E|D24|disease|hemorragia intraventricular|hemorragia intraventricular|r||||
+E|D25|disease|infección de piel|infección de piel|r||||
+E|CE1|clinical_event|choque séptico|choque séptico|r||||
+E|CE2|clinical_event|falla multiorgánica|falla multiorgánica|r||||
+E|CE3|clinical_event|muerte|muerte|r||||
+E|S1|symptom|alopecia|alopecia|r||||
+E|S2|phenotype|polihidramnios|polihidramnios|r||||
+E|S3|phenotype|trombocitopenia severa|trombocitopenia severa|r||||
+X|c.829dupT|b0018|variant identifier
+X|TREC|b0024|assay target, not gene
+EV|V1|b0010.s3|bg|bgr|aff|ebr
+EV|V2|b0010.s4|bg|bgr|aff|ebr
+EV|V3|b0018.s5+b0019.s1|ts|res|aff|eda
+EV|V4|b0026.s2|ts|int|q|unc
+EV|V5|b0026.s4|ts|aim|hyp|ho
+EV|V6|b0024.s2|ts|hyp|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1||| Background: RAG1 mutations in most Omenn cases
+P|G2|D1|sup|a|bg|sup:a:bg:V1;unc:-:ts:V3+V4|conflict,hedged_claim|V5|Background support; case attribution not genetically confirmed
+P|G3|D1|sup|a|bg|sup:a:bg:V2|||Literature associates Artemis gene mutations with Omenn
+P|G4|D1|sup|a|bg|sup:a:bg:V2|||Literature associates RPMRP RNA gene with Omenn
+P|G5|D1|sup|a|bg|sup:a:bg:V2|||Literature associates IL7RA mutations with Omenn
+P|G6|D17|nf|-|||||V6|IL-7 ELISA proposed screening only
+F|F1|descriptive|RAG2 c.829dupT heterozygous duplication|single neonate case|not_applicable|not_applicable|not_applicable|V3|single heterozygous allele only
+C|C1|RAG2-based Omenn diagnosis certainty|b0019.s1+b0026.s2|status_critical|resolved|this-study claim kept uncertain

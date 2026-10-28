@@ -1,0 +1,24 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ADCY5|ADCY5;adenylate cyclase 5;Adenylate cyclase 5|r||human||
+E|G2|gene|Adcy5|Adcy5|r||non-human||
+E|G3|gene|Sec22a|Sec22a|r||non-human||
+E|D1|disease|type 2 diabetes|type 2 diabetes;Type 2 Diabetes|r||||
+E|S1|phenotype|fasting glucose levels|fasting glucose levels|r||||
+E|S2|phenotype|impaired insulin secretion|impaired insulin secretion|r||||
+X|rs11708067|b0002.s4|variant identifier
+X|H3K27ac|b0002.s5|histone mark, not a gene
+X|832/13|b0002.s5|cell line identifier
+X|MIN6|b0002.s5|cell line identifier
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0001.s1|unk|bgr|aff|ebr,unc
+EV|V3|b0002.s4|ts|res|aff|rr,cmp
+EV|V4|b0002.s5|ts|res|aff|rr,cmp
+EV|V5|b0002.s6|ts|res|aff|mi
+EV|V6|b0002.s7|ts|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1;sup:a:unk:V2;unc:-:ts:V6|hedged_claim|V3+V4|T2D-associated variants located in ADCY5 introns
+P|G2|D1|nf|-|||||V5|rat enhancer deletion; no disease linked
+F|F1|association|T2D risk alleles vs ADCY5 expression|human islets|unknown|negative|not_reported|V3|abstract only
+F|F2|mechanism|rs11708067-A vs G allele enhancer activity|human islets; rodent beta-cells|unknown|negative|not_reported|V4|abstract only
+F|F3|mechanism|enhancer deletion vs Adcy5, Sec22a, insulin secretion|rat 832/13 cells|unknown|negative|partial|V5|Sec22a unchanged
+R|species of rodent gene|b0002.s6|Adcy5 deletion done in rat 832/13 cells; species stated, not resolved by case|Adcy5 recorded as a non-human gene node; Sec22a likewise

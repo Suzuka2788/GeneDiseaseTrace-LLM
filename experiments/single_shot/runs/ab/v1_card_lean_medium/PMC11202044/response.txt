@@ -1,0 +1,95 @@
+META|Opus 5.5|seen: no
+SCOPE|Full text incl. captions; supplementary tables and figures unread
+E|G1|gene|TP53|TP53;p53|r||human||
+E|G2|gene|PTEN|PTEN|r||human||
+E|G3|gene|PIK3CA|PIK3CA|r||human||
+E|G4|gene|NOTCH1|NOTCH1|r||human||
+E|G5|gene|AGTR1|AGTR1|r||human||
+E|G6|gene|RSRC1|RSRC1;RSRC2|p|suspected_typo|human||
+E|G7|gene|GAP43|GAP43|r||human||
+E|G8|gene|NGF|NGF|r||human||
+E|G9|gene|BDNF|BDNF|r||||
+E|G10|gene|GDNF|GDNF|r||||
+E|G11|gene|Ephrin B1|Ephrin B1|r||||
+E|G12|gene|EGFR|EGFR|r||||
+E|G13|gene|TOP1|TOP1|r||||
+E|G14|gene|TOP2A|TOP2A|r||||
+E|G15|gene|TOP2B|TOP2B|r||||
+E|G16|gene|MTOR|MTOR|r||||
+E|G17|gene|PD-L1|PD-L1|r||||
+E|G18|gene|PD-1|PD-1|r||||
+E|G19|gene|miR-34a|miR-34a;MiR-34a|r||human||
+E|G20|gene|Pik3ca|Pik3ca|r||non-human||
+E|G21|gene|Trp53|Trp53|r||non-human||
+E|G22|gene|Ngf|Ngf|r||non-human||
+E|D1|disease|head and neck squamous cell carcinoma|Head and Neck Squamous Cell Carcinoma;Head and neck squamous cell carcinoma;HNSCC;HNSCCs|r||||
+E|D2|disease|head and neck cancer|head and neck cancer;head and neck cancers|r||||
+E|D3|disease|OPSCC|OPSCC;OPSCCs|p|undefined_abbreviation|||
+E|D4|disease|HPV16-positive OPSCC|HPV16-positive OPSCC;HPV16-associated OPSCC;HPV16-positive OPSCCs|p|undefined_abbreviation||D3|
+E|D5|disease|oral cancer|oral cancer|r||||
+E|D6|disease|OSCC|OSCC|p|undefined_abbreviation|||
+E|D7|disease|melanoma|melanoma|r||||
+E|D8|disease|colon cancer|colon cancer|r||||
+E|D9|disease|pancreatic ductal adenocarcinoma|pancreatic ductal adenocarcinomas|r||||
+E|D10|disease|nasopharyngeal carcinoma|nasopharyngeal carcinoma|r||||
+E|D11|disease|CESC|CESC|p|undefined_abbreviation|||
+E|D12|disease|ESCA|ESCA|p|undefined_abbreviation|||
+E|D13|disease|LUSC|LUSC|p|undefined_abbreviation|||
+E|D14|disease|LUAD|LUAD|p|undefined_abbreviation|||
+E|D15|disease|PAAD|PAAD|p|undefined_abbreviation|||
+E|D16|disease|PRAD|PRAD|p|undefined_abbreviation|||
+E|D17|disease|BRCA|BRCA|p|undefined_abbreviation,ambiguous_mapping|||
+E|D18|disease|4NQO-induced tongue tumors|tongue tumors|r||||
+E|S1|phenotype|perineural invasion|perineural invasion|r||||
+E|S2|phenotype|metastasis|metastasis|r||||
+E|S3|symptom|cancer pain|cancer pain|r||||
+X|TCGA-HNSC|b0010|cohort name, not a disease entity
+X|PI3K-AKT-MTOR|b0039|pathway, not single gene
+X|MTORC1|b0039|protein complex
+X|TGF-β|b0039|signaling pathway/family, not single gene
+X|MYC or E2F target genes|b0039|gene sets
+X|MEK|b0046|gene family/pathway, unresolved member
+X|P53 pathway|b0039|pathway gene set
+X|GO_PERIPHERAL_NERVOUS_SYSTEM_MAINTENANCE|b0031|gene set identifier
+X|SC-related 43-gene set|b0031|gene set
+EV|V1|b0049.s3|bg|bgr|aff|ebr
+EV|V2|b0049.s4|bg|bgr|aff|ebr
+EV|V3|b0049.s8|bg|bgr|aff|ebr
+EV|V4|b0050.s4|bg|bgr|aff|ebr
+EV|V5|b0050.s5|ts|int|hyp|ho
+EV|V6|b0051.s3|bg|bgr|aff|ebr
+EV|V7|b0037.s5|ts|res|aff|rr,cmp
+EV|V8|b0006.s5|bg|bgr|aff|ebr,mi
+EV|V9|b0006.s8|bg|res|aff|rr
+EV|V10|b0052.s3|bg|bgr|aff|ebr
+EV|V11|b0037.s7+b0037.s8|ts|res|aff|rr,cmp
+EV|V12|b0043.s2|ts|res|aff|rr,cmp
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:bg:V2||V7|Background: p53 loss promotes HNSCC development
+P|G1|D5|nf|-|||||V8+V9|Links to nerve density, not disease
+P|G19|D10|sup|a|bg|sup:a:bg:V3||||miR-34a inhibits metastasis in NPC
+P|G2|D4|unc|-||unc:-:bg:V4;unc:-:ts:V5|scope,hedged_claim|||PI3K hub alterations stated as group only
+P|G3|D4|unc|-||unc:-:bg:V4;unc:-:ts:V5|scope,hedged_claim|||PI3K hub alterations stated as group only
+P|G17|D6|sup|a|bg|sup:a:bg:V6||||PD-L1 upregulation underlies OSCC aggressiveness
+P|G2|D1|nf|-|||||V11|Within-HNSCC SC-group comparison only
+P|G3|D1|nf|-|||||V11|Within-HNSCC SC-group comparison only
+P|G21|D18|nf|-|||||V12|SC score comparison, not tumor induction
+P|G20|D18|nf|-|||||V12|SC score comparison, not tumor induction
+P|G13|D1|nf|-|||||V10|Drug target only, no gene-disease relation
+P|G14|D1|nf|-|||||V10|Drug target only, no gene-disease relation
+P|G15|D1|nf|-|||||V10|Drug target only, no gene-disease relation
+F|F1|association|TP53 mutation frequency vs SC score|TCGA-HNSC|significant|positive|partial|V7|Within-disease; chi-square p only
+F|F2|association|NOTCH1 mutation frequency vs SC score|TCGA-HNSC|significant|positive|partial||Cited b0037.s6
+F|F3|association|AGTR1, RSRC1, PTEN mutation frequency vs SC|TCGA-HNSC|significant|negative|partial|V11|Within-disease
+F|F4|group_comparison|SC score by TP53/PTEN-PIK3CA groups|TCGA-HNSC|significant|negative|partial||b0041.s2; lowest TP53wt/PTEN-PIK3CAmut
+F|F5|group_comparison|SC score PTEN-PIK3CA status within TP53mut|TCGA-HNSC|not_significant|null|not_reported||b0041.s3
+F|F6|group_comparison|miR-34a expression vs SC group|TCGA-HNSC|significant|negative|partial||b0042.s2
+F|F7|group_comparison|miR-34a by TP53/PTEN-PIK3CA groups|TCGA-HNSC|significant|mixed|not_reported||b0042.s4+b0042.s5
+F|F8|group_comparison|SC score by Trp53/Pik3ca genotype|4NQO mouse tongue tumors|significant|positive|not_reported|V12|Non-human; Trp53mut higher
+F|F9|group_comparison|Ngf expression by Trp53 genotype|4NQO mouse tongue tumors|significant|positive|not_reported||b0043.s3; non-human
+F|F10|group_comparison|SC score TP53 mutant vs wild-type|GSE117973 HNSCC|unknown|positive|not_reported||b0044.s2
+F|F11|group_comparison|NGF expression by mutation subgroups|TCGA-HNSC|unknown|mixed|unread||b0041.s4; figure only
+C|C1|RSRC1 vs RSRC2 gene name|b0037.s7+b0065.s5|noncritical|unresolved|Same MutSig list; treated as one entity
+U|Table S8|b0037.s4|supplement not provided
+U|Figure 4|b0041.s2|figure image not provided
+R|species|b0006.s5|p53 named in mouse oral cancer model without species form|kept under TP53 surface; no disease pair affected
+R|typo|b0037.s7|correct spelling of RSRC1/RSRC2 cannot be determined|canonical RSRC1 by body text; flagged provisional

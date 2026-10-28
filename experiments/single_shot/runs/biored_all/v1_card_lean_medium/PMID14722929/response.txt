@@ -1,0 +1,15 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|GJB2|GJB2|r||human||
+E|D1|disease|non-syndromic autosomal recessive deafness|non-syndromic autosomal recessive deafness;NSARD|r||||
+E|D2|disease|non-syndromic deafness|non-syndromic deafness|r||||
+E|D3|disease|deafness|deafness|r||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s8|ts|int|hyp|ho
+EV|V3|b0001.s1+b0002.s9|ts|res|pre|unc
+EV|V4|b0002.s2+b0002.s3|ts|res|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V1;unc:-:ts:V2|hedged_claim|V2|Background attributes NSARD to GJB2 variants
+P|G1|D3|unc|-|unk|unc:-:ts:V3|presupposed_only||Deafness-associated GJB2 variants only presupposed
+P|G1|D2|nf|-||||V4|Carrier frequency only, no comparator
+F|F1|descriptive|GJB2 coding variant carrier frequency|Kenyan and Sudanese deaf children|not_applicable|not_applicable|available|V4|No control group
+F|F2|hypothesis|GJB2 variants causing NSARD|Kenyan and Sudanese study population|not_applicable|not_applicable|not_applicable|V2|Authors' interpretation, variant-level

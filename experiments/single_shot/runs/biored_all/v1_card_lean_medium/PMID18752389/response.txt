@@ -1,0 +1,16 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|HMG-CoA reductase|3-hydroxy-3-methylglutaryl coenzyme A reductase|r||human||
+E|G2|gene|UDP glucuronosyltransferases|uridine diphosphate glucoronosyltransferases;UGT|p|ambiguous_mapping|human||
+E|D1|disease|hepatic failure|hepatic failure;liver failure|r|||
+E|D2|disease|fulminant hepatic failure|fulminant hepatic failure|r|||D1|
+E|D3|disease|hepatotoxicity|hepatotoxicity|r|||
+E|D4|disease|drug toxicity|drug toxicity|r|||
+E|D5|disease|depression|depression|r|||
+E|S1|phenotype|elevated serum aminotransferase|Serum aminotransferase elevations|r|||
+X|aminotransferase|b0002|enzyme activity lab measure, not a specific gene
+EV|V1|b0002.s10|ts|hyp|hyp|ho
+EV|V2|b0002.s12|ts|hyp|hyp|ho
+P|G2|D3|unc|-|ts|unc:-:ts:V1+V2|hedged_claim,scope|V1+V2|Hedged mechanistic postulate; enzyme family, not single gene
+F|F1|mechanism|ezetimibe UGT inhibition; simvastatin exposure|single case patient|not_applicable|unknown|not_applicable|V1+V2|authors' postulate, not tested
+R|gene set|b0002.s10|UGT is an enzyme family, not a single gene|Kept as one provisional gene node with ambiguous_mapping

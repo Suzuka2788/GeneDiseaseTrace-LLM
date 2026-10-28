@@ -1,0 +1,50 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text and tables; references removed; Fig. 1 not viewable
+E|G1|gene|CLCNKB|CLCNKB;CLC-Kb;ClC-Kb|r|||||
+E|G2|gene|SLC12A1|SLC12A1|r||human||
+E|G3|gene|KCNJ1|KCNJ1gene|r|other|human||
+E|G4|gene|CLCNKA|CLCNKA|r||human||
+E|G5|gene|BSND|BSND|r||human||
+E|G6|gene|MAGED2|MAGED2|r||human||
+E|D1|disease|Bartter syndrome|Bartter syndrome;BS|r||||
+E|D2|disease|Bartter syndrome type 3|Bartter syndrome type 3;BS Type 3;BS type 3|r|||D1|
+E|D3|disease|Bartter syndrome types 1-5|BS type 1-5|r|||D1|
+E|D4|disease|classic Bartter syndrome|classic BS;cBS|r|||D1|
+E|D5|disease|antenatal Bartter syndrome|antenatal BS;aBS|r|||D1|
+E|D6|disease|Gitelman-like syndrome|Gitelman-like syndrome|r||||
+E|D7|disease|Gitelman syndrome|Gitelman syndrome|r||||
+E|D8|disease|chronic kidney disease|Chronic kidney disease|r||||
+E|D9|disease|hypertension|hypertension|r||||
+E|D10|disease|gastrointestinal ulcers|gastrointestinal ulcers|r||||
+E|D11|disease|nephrocalcinosis|nephrocalcinosis;Nephrocalcinosis|r||||
+E|S1|phenotype|growth retardation|growth retardation|r||||
+E|S2|phenotype|hypokalemia|hypokalemia|r||||
+E|S3|phenotype|renal dysfunction|renal dysfunction|r||||
+X|1p36|b0012|chromosomal locus, not a gene
+EV|V1|b0012.s1|bg|bgr|aff|ebr
+EV|V2|b0012.s3|bg|bgr|aff|ebr
+EV|V3|b0007.s1+b0058.s1+b0073.s4|ts|res|aff|rr,eda
+EV|V4|b0080.s3|ts|int|aff|eda
+EV|V5|b0077.s5+b0077.s6|ts|neg|neg|cmp
+EV|V6|b0077.s2|bg|hyp|hyp|ho
+EV|V7|b0076.s4+b0009.s1|ts|co|na|do
+EV|V8|b0012.s8+b0012.s9+b0012.s10|bg|bgr|aff|ebr
+P|G1|D2|sup|c|bg|sup:c:bg:V2;sup:a:ts:V3|||causal background attribution plus genetic diagnosis
+P|G1|D1|sup|c|bg|sup:c:bg:V1;sup:a:ts:V4|||listed among six pathogenic BS genes
+P|G2|D1|sup|c|bg|sup:c:bg:V1|||listed pathogenic gene for BS
+P|G3|D1|sup|c|bg|sup:c:bg:V1|||listed pathogenic gene for BS
+P|G4|D1|sup|c|bg|sup:c:bg:V1|||listed pathogenic gene for BS
+P|G5|D1|sup|c|bg|sup:c:bg:V1|||listed pathogenic gene for BS
+P|G6|D1|sup|c|bg|sup:c:bg:V1|||listed pathogenic gene for BS
+P|G1|D3|unc|-||unc:-:bg:V1|scope||subtypes are linked to genes as a set only
+P|G1|D4|nf|-|||||V7|cBS is the phenotype of D2 only; no propagation
+P|G1|D5|nf|-|||||V6|phenotype mention only
+P|G1|D6|nf|-||||||phenotype mention only
+F|F1|association|mutation type vs phenotype severity|4 BS type 3 patients|not_significant|null|not_reported|V5|n=4; descriptive comparison
+F|F2|hypothesis|severe mutations vs early onset or severity|cited BS type 3 cohorts|unknown|positive|not_reported|V6|hedged background
+F|F3|descriptive|CLCNKB mutation types by country|literature, China ~55% large deletions|not_applicable|not_applicable|partial||Fig. 1 unread
+F|F4|mechanism|CLCNKB mutation to Cl- reabsorption loss|background|not_applicable|not_applicable|not_applicable|V8|
+C|C1|c.226C>T protein change|b0062.s1+b0074.s13|noncritical|unresolved|p.R76X in table vs p.R612X in text
+C|C2|nonsense variant vs splicing effect|b0074.s14+b0074.s15|noncritical|unresolved|nonsense variant described as causing exon skipping
+U|Fig. 1|b0074.s2;b0075|figure image not provided
+R|disease subtype hierarchy|b0012.s1|Gene set is mapped to subtypes 1-5 jointly, with no per-gene mapping|Linked members to the parent BS; subtype set marked uncertain

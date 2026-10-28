@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+cache/
+outputs/
+outputs_llm/
+.Resource/box.html
+.Resource/pubtator_probe.json
+.Resource/plot_packages/
+.Resource/nature-figure.json
+.Resource/local_llm/
+.Input/
+
+# Not redistributed: raw papers, full-text prompts, downloaded datasets (fetch/regenerate them instead)
+.Resource/
+experiments/single_shot/runs/prompts/
+experiments/biored/data/
+experiments/biored/papers/
+*.zip
+*.log
+# Local tool settings
+.claude/
+# The skill is its own git repository (Codex commits to it); skill_snapshot/ holds an exported copy
+skills/
+# Full paper text exported by earlier rounds
+**/source_blocks.json
+**/source_blocks.txt

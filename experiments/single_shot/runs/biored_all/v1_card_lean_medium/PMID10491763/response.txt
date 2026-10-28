@@ -1,0 +1,24 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|hepatocyte nuclear factor-6|Hepatocyte nuclear factor-6;hepatocyte nuclear factor (HNF)-6;HNF-6|r|||human||
+E|G2|gene|MODY1|MODY1|p|undefined_abbreviation,ambiguous_mapping|human||
+E|G3|gene|MODY3|MODY3|p|undefined_abbreviation,ambiguous_mapping|human||
+E|G4|gene|MODY4|MODY4|p|undefined_abbreviation,ambiguous_mapping|human||
+E|G5|gene|insulin|insulin|p|other|human||
+E|D1|disease|type II diabetes|type II diabetes;Type II (non-insulin-dependent) diabetes mellitus;Type II diabetes;Type II diabetes mellitus;Type II diabetic|r||||
+E|D2|disease|maturity-onset diabetes of the young|maturity-onset diabetes of the young;MODY|r||||
+E|S1|phenotype|insulin secretion|insulin secretion|r||||
+X|C-peptide|b0002|lab measurement, not a gene endpoint
+X|Pro75Ala|b0002|variant identifier, not a gene
+EV|V1|b0002.s7+b0002.s9|ts|neg|neg|cmp,rr
+EV|V2|b0002.s4|ts|co|pre|do
+EV|V3|b0002.s1|bg|bgr|na|ebr
+EV|V4|b0002.s8|ts|neg|neg|cmp,rr
+P|G1|D1|neg|-|ts|neg:-:ts:V1||||No allele frequency difference cases vs controls
+P|G1|D2|nf|-|||||V3|Regulates MODY genes; no direct HNF-6 link
+P|G2|D2|unc|-|bg|unc:-:bg:V2|presupposed_only|||MODY gene status presupposed by naming only
+P|G3|D2|unc|-|bg|unc:-:bg:V2|presupposed_only|||MODY gene status presupposed by naming only
+P|G4|D2|unc|-|bg|unc:-:bg:V2|presupposed_only|||MODY gene status presupposed by naming only
+F|F1|association|Pro75Ala allele frequency; type II diabetes|330 T2D vs 238 controls|not_significant|null|partial|V1|no p-value reported
+F|F2|group_comparison|Pro75Ala carriers; insulin/C-peptide responses|glucose tolerant subjects, offspring, young|not_significant|null|not_reported|V4|
+F|F3|descriptive|HNF-6 variant screening|6 MODY probands, 54 T2D patients|not_applicable|not_applicable|not_applicable|V2|two silent, one missense variant

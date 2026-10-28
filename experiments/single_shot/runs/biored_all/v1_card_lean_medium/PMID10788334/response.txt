@@ -1,0 +1,21 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|BRCA1|BRCA1|r||human||
+E|G2|gene|BRCA2|BRCA2|r||human||
+E|D1|disease|breast-ovarian cancer|breast-ovarian cancer;breast-ovarian cancer syndrome|p|other|||
+E|D2|disease|breast cancer|breast cancer;breast cancers|r||||
+E|D3|disease|ovarian cancer|ovarian cancer;ovarian cancers|r||||
+E|D4|disease|cancer|cancer|r||||
+X|5382insC|b0002|variant ID
+X|C61G|b0002|variant ID
+X|4153delA|b0002|variant ID
+EV|V1|b0001.s1+b0002.s8|ts|res|aff|rr
+EV|V2|b0002.s8|ts|res|aff|rr
+EV|V3|b0002.s9|ts|res|aff|rr,do
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||BRCA1 mutations in 67% of breast-ovarian families
+P|G1|D3|sup|a|ts|sup:a:ts:V2|||BRCA1 mutations in all ovarian-only families
+P|G1|D2|sup|a|ts|sup:a:ts:V2|||BRCA1 mutations in 34% breast-only families
+P|G2|D1|sup|a|ts|sup:a:ts:V3|||single BRCA2 mutation family had syndrome
+F|F1|descriptive|BRCA1/BRCA2 mutation frequency|66 Polish breast/ovarian cancer families|not_applicable|not_applicable|partial|V1+V2+V3|no statistical test reported
+F|F2|descriptive|recurrent BRCA1 mutation proportions|35 mutation-positive families|not_applicable|not_applicable|partial||cites b0002.s11+b0002.s12
+R|merging|b0002.s9|"breast-ovarian cancer syndrome" vs "breast-ovarian cancer" not explicitly co-referenced|merged as provisional, other

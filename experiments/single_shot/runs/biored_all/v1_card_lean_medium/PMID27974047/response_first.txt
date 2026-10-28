@@ -1,0 +1,48 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|FGFR1|FGFR1|r||human||
+E|G2|gene|NTRK3|NTRK3|r||human||
+E|G3|gene|KIT|KIT|r||human||
+E|G4|gene|PDGFRA|PDGFRA|r||human||
+E|G5|gene|KRAS|KRAS|r||human||
+E|G6|gene|BRAF|BRAF|r||human||
+E|G7|gene|NF1|NF1|r||human||
+E|G8|gene|ARID1B|ARID1B|r||human||
+E|G9|gene|ATR|ATR|r||human||
+E|G10|gene|LTK|LTK|r||human||
+E|G11|gene|SUFU|SUFU|r||human||
+E|G12|gene|PARK2|PARK2|r||human||
+E|G13|gene|ZNF217|ZNF217|r||human||
+E|G14|gene|HOOK3|HOOK3|r||human||
+E|G15|gene|TACC1|TACC1|r||human||
+E|G16|gene|ETV6|ETV6|r||human||
+E|D1|disease|gastrointestinal stromal tumors|gastrointestinal stromal tumors;GIST|r||||
+E|D2|disease|Wild-Type gastrointestinal stromal tumors|"Wild-Type" gastrointestinal stromal tumors|r||||D1|
+E|S1|phenotype|nodal metastases|nodal metastases|r||||
+X|SDHx|b0002.s1|gene family label, not a single gene
+X|RAS pathway|b0002.s1|pathway, not a single gene
+X|TRK|b0002.s8|gene family target of inhibition, not a single gene
+EV|V1|b0001.s1|ts|int|aff|eda
+EV|V2|b0002.s7|ts|res|aff|rr,cmp
+EV|V3|b0002.s8|ts|res|aff|rr,do
+EV|V4|b0002.s9|ts|res|aff|rr
+EV|V5|b0002.s10|ts|int|aff|eda,rr
+EV|V6|b0002.s1|bg|bgr|pre|unc
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V2+V3+V4+V5|||Recurrent fusions and mutations in wild-type GIST
+P|G2|D2|sup|a|ts|sup:a:ts:V1+V3+V4+V5|||ETV6-NTRK3 fusions attributed in wild-type GIST
+P|G8|D2|sup|a|ts|sup:a:ts:V2|||More commonly mutated in wild-type GIST
+P|G9|D2|sup|a|ts|sup:a:ts:V2|||More commonly mutated in wild-type GIST
+P|G10|D2|sup|a|ts|sup:a:ts:V2|||More commonly mutated in wild-type GIST
+P|G11|D2|sup|a|ts|sup:a:ts:V2|||More commonly mutated in wild-type GIST
+P|G12|D2|sup|a|ts|sup:a:ts:V2|||More commonly mutated in wild-type GIST
+P|G13|D2|sup|a|ts|sup:a:ts:V2|||More commonly mutated in wild-type GIST
+P|G14|D2|nf|-|||||V3|Fusion partner detected only, no attribution
+P|G15|D2|nf|-|||||V3+V4|Fusion partner detected only, no attribution
+P|G16|D2|nf|-|||||V3+V4|Fusion partner detected only, no attribution
+P|G3|D1|unc|-|bg|unc:-:bg:V6|presupposed_only||Mutation in GIST only presupposed by exclusion
+P|G4|D1|unc|-|bg|unc:-:bg:V6|presupposed_only||Mutation in GIST only presupposed by exclusion
+P|G5|D1|unc|-|bg|unc:-:bg:V6|presupposed_only||Mutation in GIST only presupposed by exclusion
+P|G6|D1|unc|-|bg|unc:-:bg:V6|presupposed_only||Mutation in GIST only presupposed by exclusion
+P|G7|D1|unc|-|bg|unc:-:bg:V6|presupposed_only||Mutation in GIST only presupposed by exclusion
+F|F1|group_comparison|mutation frequency of 7 genes|24 wild-type GIST|unknown|positive|not_reported|V2|comparator and test not stated
+F|F2|descriptive|ETV6-NTRK3 fusion and TRK inhibitor response|one wild-type GIST case|not_applicable|not_applicable|not_applicable|V3|single case

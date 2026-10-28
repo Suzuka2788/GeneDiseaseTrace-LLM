@@ -1,0 +1,39 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text, tables or figures
+E|G1|gene|SLURP-1|SLURP-1;rSLURP-1;Ly-6/urokinase plasminogen activator receptor related protein-1|r||human||
+E|G2|gene|MYB|MYB|r||human||
+E|G3|gene|PIK3CA|PIK3CA|r||human||
+E|G4|gene|ETS1|ETS1|r||human||
+E|G5|gene|NRAS|NRAS|r||human||
+E|G6|gene|SRC|SRC|r||human||
+E|G7|gene|AKT1|AKT1|r||human||
+E|G8|gene|KIT|KIT|r||human||
+E|G9|gene|RB1|RB1|r||human||
+E|G10|gene|EGF|EGF|r||human||
+E|G11|gene|HGF|HGF|r||human||
+E|G12|gene|CDKN2A|CDKN2A|r||human||
+E|G13|gene|STAT3|STAT3|r||human||
+E|G14|gene|BCL2|BCL2|r||human||
+E|G15|gene|TNF|TNF|r||human||
+E|G16|gene|BAX|BAX|r||human||
+E|G17|gene|CASP8|CASP8|r||human||
+E|G18|gene|CTNNB1|CTNNB1;beta-catenin|r||human||
+E|G19|gene|CDKN3|CDKN3|r||human||
+E|G20|gene|FOXD3|FOXD3|r||human||
+E|G21|gene|SERPINB5|SERPINB5|r||human||
+E|G22|gene|RUNX3|RUNX3|r||human||
+E|D1|disease|cancer|cancer|p|other|||
+E|S1|phenotype|carcinogenic transformation|carcinogenic transformation|r||||
+E|S2|phenotype|tumorigenesis|tumorigenesis|r||||
+X|NNK|b0002.s1|chemical carcinogen, not a gene
+X|nicotinic acetylcholine receptors|b0002.s1|receptor family, not single gene
+X|BEP2D|b0002.s2|cell line identifier
+X|Het-1A|b0002.s2|cell line identifier
+EV|V1|b0002.s4|ts|co|na|do
+EV|V2|b0002.s3+b0002.s4+b0002.s5+b0002.s6+b0002.s7|ts|res|na|rr
+P|G10|D1|unc|-|unk|unc:-:unk:V1|scope|V2|Generic cancer-related label, no explicit disease link
+P|G11|D1|unc|-|unk|unc:-:unk:V1|scope|V2|Generic cancer-related label, no explicit disease link
+P|G12|D1|unc|-|unk|unc:-:unk:V1|scope|V2|Generic cancer-related label, no explicit disease link
+P|G13|D1|unc|-|unk|unc:-:unk:V1|scope|V2|Generic cancer-related label, no explicit disease link
+F|F1|mechanism|NNK vs gene expression|BEP2D and Het-1A cell lines|unknown|mixed|not_reported|V2|cell-line expression only, no disease
+F|F2|mechanism|rSLURP-1 vs NNK-induced gene changes|BEP2D and Het-1A cell lines|unknown|mixed|not_reported|V2|abstract only, statistics not shown

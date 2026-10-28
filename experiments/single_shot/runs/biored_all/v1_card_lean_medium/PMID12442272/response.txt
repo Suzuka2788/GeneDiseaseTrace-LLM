@@ -1,0 +1,16 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SOD1|SOD1;copper/zinc superoxide dismutase|r|||human||
+E|D1|disease|amyotrophic lateral sclerosis|amyotrophic lateral sclerosis;ALS|r|||D2|
+E|D2|disease|neurodegenerative disease|neurodegenerative disease|r|||||
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s2|bg|bgr|aff|eda
+EV|V3|b0002.s7+b0002.s8+b0002.s9|ts|res|na|rr
+EV|V4|b0002.s5+b0002.s10|ts|hyp|hyp|ho
+EV|V5|b0002.s4|bg|bgr|na|do
+P|G1|D1|sup|c|bg|sup:c:bg:V2;sup:a:bg:V1||V3+V4+V5|Title attributes ALS to D90A-SOD1; mutations in patients
+F|F1|association|D90A haplotype sharing; founder age|D90A homozygotes and heterozygotes|unknown|not_applicable|partial|V3|Abstract only; alpha estimates given
+F|F2|descriptive|shared region around SOD1|recessive D90A kindreds|not_applicable|not_applicable|partial|V3|
+F|F3|hypothesis|cis-acting modifier; ALS susceptibility, progression|D90A heterozygotes, recessive founder|not_applicable|negative|not_applicable|V4|Proposed only, not tested
+F|F4|descriptive|D90A-SOD1 frequency; ALS prevalence|Scandinavia vs elsewhere|unknown|not_applicable|partial|V5|
+R|hierarchy|b0002.s1|ALS defined appositively as neurodegenerative disease; parent link inferred|Set D2 as parent of D1; no relation propagated

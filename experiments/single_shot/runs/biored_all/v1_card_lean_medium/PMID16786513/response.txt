@@ -1,0 +1,20 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|PYGM|PYGM|r||human||
+E|G2|gene|muscle isozyme of glycogen phosphorylase|muscle isozyme of glycogen phosphorylase|p|ambiguous_mapping|human||
+E|D1|disease|McArdle disease|McArdle disease;Glycogen storage disease type V;GSD-V|r||||
+E|D2|disease|autosomal recessive disorder of glycogen metabolism|autosomal recessive disorder of glycogen metabolism|r||||
+E|S1|symptom|exercise intolerance|exercise intolerance|r||||
+E|S2|symptom|cramps|cramps|r||||
+E|S3|symptom|myoglobinuria|myoglobinuria|r||||
+X|p.R50X|b0002|variant identifier, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s4+b0002.s5|ts|res|aff|rr
+EV|V4|b0002.s8|ts|res|aff|rr
+P|G2|D1|sup|c|bg|sup:c:bg:V1||V1|deficiency stated causative of McArdle disease
+P|G1|D1|sup|a|both|sup:a:bg:V2;sup:a:ts:V3||V4|PYGM mutations found in GSD-V patients
+F|F1|association|PYGM genotype vs clinical phenotype|68 Italian GSD-V patients|not_significant|null|not_reported|V4|no statistics shown in abstract
+F|F2|descriptive|p.R50X allele frequency|68 Italian GSD-V patients|not_applicable|not_applicable|partial|V4|
+F|F3|descriptive|PYGM mutation spectrum, 19 novel|68 Italian GSD-V patients|not_applicable|not_applicable|partial|V3|
+R|Merging|b0002.s1|Protein name not explicitly linked to PYGM in text|Kept as separate provisional gene entity, ambiguous_mapping

@@ -1,0 +1,88 @@
+META|Claude Opus 5.5|seen: no
+SCOPE|Full text, tables and captions; supplementary data unread
+E|G1|gene|BAP1|BAP1;BRCA1-associated protein|r||human||
+E|G2|gene|BRCA1|BRCA1|r||human||
+E|G3|gene|ASXL1|ASXL1|r||human||
+E|G4|gene|ASXL2|ASXL1/2|p|other|human||
+E|G5|gene|HCF1|host cell factor 1;HCF1|r||human||
+E|G6|gene|MSH6|MSH6|r||human||
+E|G7|gene|UCH-L5|UCH-L5|r||human||
+E|G8|gene|Vimentin|Vimentin|r||human||
+E|G9|gene|Snail|Snail|r||human||
+E|G10|gene|E-cadherin|E-cadherin|r||human||
+E|G11|gene|EZH2|EZH2|r||||
+E|G12|gene|GAPDH|GAPDH|r||||
+E|D1|disease|BAP1 tumour predisposition syndrome|BAP1 tumour predisposition syndrome;BAP1 tumor predisposition syndrome|r|||D2|
+E|D2|disease|hereditary tumour syndrome|hereditary tumour syndrome|r||||
+E|D3|disease|renal cell carcinoma|renal cell carcinoma|r||||
+E|D4|disease|clear cell renal cell carcinoma|clear cell renal cell carcinoma;ccRCC|r|||D3|
+E|D5|disease|mesothelioma|mesothelioma;Mesothelioma|r||||
+E|D6|disease|peritoneum mesothelioma|Peritoneum mesothelioma|r|||D5|
+E|D7|disease|uveal melanoma|uveal melanoma|r|||D9|
+E|D8|disease|cutaneous melanoma|cutaneous melanoma|r|||D9|
+E|D9|disease|melanoma|Melanoma|r||||
+E|D10|disease|small cell lung cancer|small cell|p|other|||
+E|D11|disease|non-small-cell lung cancer|non-small-cell lung cancers|r||||
+E|D12|disease|lung cancer|Lung cancer|r||||
+E|D13|disease|cholangiocarcinoma|cholangiocarcinoma|r||||
+E|D14|disease|breast cancer|Breast cancer;breast cancer;breast cancers;breast|r||||
+E|D15|disease|kidney cancer|Kidney cancer;kidney cancers;Kidney ca.;kidney|r||||
+E|D16|disease|thyroid cancer|Thyroid cancer|r||||
+E|D17|disease|gastric cancer|Gastric cancer|r||||
+E|D18|disease|liver cancer|Liver cancer|r||||
+E|D19|disease|ovarian cancer|Ovarian cancer|r||||
+E|D20|disease|nose cancer|Nose cancer|r||||
+E|D21|disease|nasopharynx cancer|Nasopharynx cancer|r||||
+E|D22|disease|thymoma|Thymoma;thymoma|r||||
+E|D23|disease|adrenal cortical carcinoma|Adrenal Cortical Carcinoma;adrenal cortical cancer|r||||
+E|D24|disease|cervical cancer|cervical cancer|r||||
+E|D25|disease|osteosarcoma|osteosarcoma|r||||
+E|D26|disease|neuroendocrine tumours|neuroendocrine tumours|r||||
+X|PR-DUB|b0004|complex, not single gene
+X|PRC|b0004|complex, not single gene
+X|H2A|b0029|histone family, not single gene endpoint
+X|H2AK119ub|b0030|histone modification substrate
+X|BAP1-deficient tumours|b0005|tumour status label, not specific disease
+X|rs1060503729|b0042|variant identifier
+X|PDLCL|b0033|cell line abbreviation
+EV|V1|b0037.s1|bg|bgr|aff|ebr
+EV|V2|b0004.s5|bg|bgr|aff|ebr
+EV|V3|b0005.s1|bg|bgr|aff|ebr
+EV|V4|b0025.s3|bg|bgr|aff|ebr
+EV|V5|b0021.s1|bg|bgr|aff|ebr
+EV|V6|b0037.s2|bg|bgr|aff|ebr
+EV|V7|b0021.s5|bg|bgr|aff|rr
+EV|V8|b0009.s3+b0009.s4|ts|co|na|do
+EV|V9|b0021.s2+b0019.s1|ts|res|aff|cmp
+EV|V10|b0025.s5+b0025.s6|ts|res|aff|rr
+EV|V11|b0030.s3+b0030.s4+b0030.s5+b0030.s7|ts|res|aff|rr
+EV|V12|b0034.s4+b0034.s5+b0034.s6|ts|res|aff|rr
+EV|V13|b0028.s15+b0028.s16+b0028.s17|ts|int|hyp|unc
+EV|V14|b0039.s6|ts|int|hyp|ho
+P|G1|D1|sup|a|bg|sup:a:bg:V1||||Germline pathogenic BAP1 mutations associated with syndrome
+P|G1|D3|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3||||Loss-of-function drives tumourigenesis; germline predisposition
+P|G1|D5|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3;sup:a:bg:V4||||Background causal and nuclear-loss association
+P|G1|D7|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3;sup:a:bg:V4||||Background causal and nuclear-loss association
+P|G1|D8|sup|c|bg|sup:c:bg:V3||||Germline variants predispose to cutaneous melanoma
+P|G1|D10|sup|c|bg|sup:c:bg:V2||||LoF BAP1 drives tumourigenesis, listed cancer
+P|G1|D11|sup|c|bg|sup:c:bg:V2||||LoF BAP1 drives tumourigenesis, listed cancer
+P|G1|D13|sup|c|bg|sup:c:bg:V2||V6||LoF BAP1 drives tumourigenesis, listed cancer
+P|G1|D4|sup|a|bg|sup:a:bg:V4||V7||Nuclear localisation loss observed in ccRCC
+P|G1|D14|sup|a|bg|sup:a:bg:V5||V6||BAP1 regulates EMT/metastasis in breast cancer
+P|G1|D15|sup|a|bg|sup:a:bg:V5||V14||BAP1 regulates EMT/metastasis in kidney cancer
+P|G1|D24|sup|a|bg|sup:a:bg:V5||||BAP1 regulates EMT/metastasis in cervical cancer
+P|G1|D25|sup|a|bg|sup:a:bg:V5||||BAP1 regulates EMT/metastasis in osteosarcoma
+P|G1|D26|nf|-||||V6|Linked to syndrome only; no propagation
+P|G9|D4|nf|-||||V7|Cell-level phenotype only
+P|G6|D15|nf|-||||V8|VUS detected, patient unspecified, not evaluated
+F|F1|group_comparison|full-length BAP1, Vimentin, Snail expression|pathogenic carriers vs BAP1 WT LCLs|unknown|negative|not_reported|V9|VUS stated not significantly different
+F|F2|descriptive|BAP1 variant cellular localisation|HK-2 BAP1 KO cells|not_applicable|not_applicable|not_reported|V10|
+F|F3|group_comparison|H2AK119ub deubiquitination by variant|HEK293T expressed BAP1 variants|unknown|negative|partial|V11|band ratios only
+F|F4|descriptive|localisation and deubiquitination, conflicting variants|five ClinVar missense variants|unknown|negative|partial|V12|
+F|F5|mechanism|catalytic triad distance, L97P UCH-L5|MD simulation|not_applicable|positive|partial|V13|homologue simulation, not BAP1
+C|C1|VUS variant c.551 A>G vs A>T|b0021.s2+b0039.s2+b0039.s4+b0039.s6+b0042.s1|noncritical|unresolved|likely typo; no disease pair affected
+C|C2|pathogenic carrier median age 39|b0018.s2+b0012.s1+b0013.s1+b0014.s1|noncritical|unresolved|table ages inconsistent with median
+U|Supplementary Data 1|b0009.s1+b0009.s3|not provided
+U|Supplementary Fig. 1-4|b0028.s11+b0039.s4|not provided
+R|surface form|b0004.s3|ASXL2 only written within "ASXL1/2"|used ASXL1/2 as surface, marked provisional
+R|surface form|b0004.s5|"small cell ... lung cancers" elliptical; no verbatim full name|used "small cell" surface, provisional

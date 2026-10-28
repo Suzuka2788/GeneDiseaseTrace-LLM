@@ -1,0 +1,23 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text b0001-b0181; no genes; references removed
+E|D1|disease|problem gambling|problem gambling;Problem gambling;gambling problems;Gambling problems|r||||
+E|D2|disease|depression|depression|r||||
+E|D3|disease|alcohol and drug problems|alcohol and drug problems|p|other|||
+E|D4|disease|alcohol and drug abuse|alcohol and drug abuse|p|other|||
+E|D5|disease|addiction|addiction|p|other|||
+E|S1|symptom|depressive symptoms|depressive symptoms|r||||
+E|S2|phenotype|binge drinking|binge drinking|r||||
+X|Lie/Bet|b0053|screening instrument, not a disease
+X|ESPAD|b0002|survey project, not gene or disease
+F|F1|association|gaming too much vs problem gambling|DK+FI+SE combined, final model|significant|positive|available|EV1|cross-sectional
+F|F2|association|inhalants vs problem gambling|DK+FI+SE combined, final model|significant|positive|available|EV1|
+F|F3|association|parental monitoring vs problem gambling|DK+FI+SE combined, final model|significant|negative|available|EV1|
+F|F4|association|slots, betting, online vs problem gambling|DK+FI+SE combined, final model|significant|positive|available|EV2|
+F|F5|group_comparison|problem gambling prevalence by country|Denmark, Finland, Sweden|mixed|mixed|partial|EV3|Sweden lowest; DK vs FI ns
+EV|EV1|b0095.s1+b0082.s1+b0086.s1+b0077.s1|ts|res|na|rr,cmp
+EV|EV2|b0095.s2|ts|res|na|rr,cmp
+EV|EV3|b0067.s1+b0067.s2|ts|res|na|rr,cmp
+C|C1|Sweden table duplicates combined bivariate ORs|b0085.s1+b0152.s1+b0089.s1+b0156.s1|noncritical|unresolved|Identical values suggest copy error
+C|C2|Finland inhalant prevalence 87.8 vs 7.8|b0119.s1+b0038.s1|noncritical|unresolved|Likely typo in text
+C|C3|combined covariates said not associated per country|b0169.s1+b0167.s2|noncritical|unresolved|Contradicts country-level results
+R|no gene entities|whole paper|Matrix has no gene endpoints; no pairs possible|Recorded diseases and findings only; no P lines

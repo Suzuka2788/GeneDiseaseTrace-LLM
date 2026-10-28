@@ -1,0 +1,93 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text with captions; Table 1 rows and supplements absent
+E|G1|gene|AR (human)|androgen receptor;AR|r||human||
+E|G2|gene|Ar (mouse)|androgen receptor;AR;Ar|r||non-human||
+E|G3|gene|Ptp1b (mouse)|protein-tyrosine phosphatase 1B;PTP1B;Ptp1b|r||non-human||
+E|G4|gene|Insr (mouse insulin receptor)|insulin receptor;IR|r||non-human||
+E|G5|gene|Stat3|signal transducer and activator of transcription 3;STAT3|r||non-human||
+E|G6|gene|Agrp|agouti-related peptide;Agrp;AgRP|r||non-human||
+E|G7|gene|Npy|neuropeptide Y;Npy|r||non-human||
+E|G8|gene|Pomc|pro-opiomelanocortin;Pomc|r||non-human||
+E|G9|gene|Socs3|suppressor of cytokine signaling 3;Socs3;SOCS3|r||non-human||
+E|G10|gene|Srebp1c|sterol regulatory element-binding protein 1c;Srebp1c|r||non-human||
+E|G11|gene|Scd1|stearoyl-CoA desaturase 1;Scd1|r||non-human||
+E|G12|gene|Fas (fatty acid synthase)|fatty acid synthase;Fas|r||non-human||
+E|G13|ambiguous_gene|acetyl CoA carboxylase|acetyl CoA carboxylase;Acc|u|ambiguous_mapping|non-human||
+E|G14|gene|Pparg|peroxisome proliferator-activated receptor γ;Pparg|r||non-human||
+E|G15|gene|Pck1|phosphoenolpyruvate carboxykinase;Pck1;PEPCK|r||non-human||
+E|G16|ambiguous_gene|glucose-6-phosphatase|glucose-6-phosphatase;G6pase;G6Pase|u|ambiguous_mapping|non-human||
+E|G17|gene|Gapdh|glyceraldehyde-3-phosphate dehydrogenase;Gapdh;GAPDH|r||non-human||
+E|G18|gene|IκBα (human)|IκBα|p|other|human||
+E|G19|gene|IκBα (mouse)|NF-κB inhibitor α;IκBα;mIκBα|r||non-human||
+E|G20|gene|RelA|RelA|p|species_unresolved|||
+E|G21|gene|Irs1|insulin receptor substrate 1;IRS1|r||non-human||
+E|G22|gene|VCAM1|vascular cell adhesion molecule-1|r||human||
+E|G23|gene|synapsin I|synapsin I|p|species_unresolved|||
+E|G24|gene|leptin|leptin|p|species_unresolved|||
+E|G25|ambiguous_gene|AKT|AKT|u|ambiguous_mapping|||
+E|D1|disease|prostate cancer|Prostate cancer;prostate cancer;PCa|r||||
+E|D2|disease|castration-resistant/metastatic prostate cancer|metastatic PCa|r|||D1|
+E|D3|disease|metabolic syndrome|metabolic syndrome|r||||
+E|D4|disease|insulin resistance|insulin resistance|r|other|||
+E|D5|disease|hypothalamic insulin resistance|Hypothalamic insulin resistance;hypothalamic insulin resistance|r|||D4|
+E|D6|disease|hepatic insulin resistance|hepatic insulin resistance|r|||D4|
+E|D7|disease|central insulin resistance|Central insulin resistance|r|||D4|
+E|D8|disease|obesity|obesity|r||||
+E|D9|disease|visceral obesity|visceral obesity;Visceral obesity|r|||D8|
+E|D10|disease|hepatic steatosis|hepatic steatosis|r||||
+E|D11|disease|hepatic macrovesicular steatosis|Hepatic macrovesicular steatosis|r|||D10|
+E|D12|disease|type 2 diabetes|type 2 diabetes|r||||
+E|D13|disease|cardiovascular disease|cardiovascular disease|r||||
+E|D14|disease|hypogonadism|hypogonadism|r||||
+E|D15|disease|late-onset hypogonadism|late-onset hypogonadism|r|||D14|
+E|D16|disease|age-associated hypogonadism|age-associated hypogonadism|r|||D14|
+E|CE1|clinical_event|cardiovascular mortality|cardiovascular mortality|r||||
+E|S1|phenotype|hyperglycemia|hyperglycemia|r||||
+E|S2|phenotype|hyperinsulinemia|hyperinsulinemia|r||||
+E|S3|phenotype|hypertriglyceridemia|hypertriglyceridemia|r||||
+E|S4|phenotype|reactive astrogliosis|reactive astrogliosis|r||||
+E|S5|phenotype|hypothalamic inflammation|hypothalamic inflammation|r||||
+E|S6|phenotype|leptin resistance|leptin resistance|r||||
+X|NF-κB|b0002|protein complex, not a single-gene endpoint
+X|tubulin|b0033|protein family used as loading control
+X|NARKO|b0007|mouse model name, not a gene
+EV|V1|b0002.s2+b0004.s1+b0004.s4|bg|bgr|aff|ebr,mi
+EV|V2|b0002.s6+b0007.s3+b0027.s1+b0027.s2+b0039.s7|ts|res|aff|rr,mi,cmp
+EV|V3|b0028.s1+b0031.s2+b0031.s5|ts|res|aff|rr,mi
+EV|V4|b0002.s8+b0043.s3|ts|int|hyp|ho
+EV|V5|b0024.s3+b0007.s5|ts|res|aff|rr,mi
+EV|V6|b0024.s2+b0025.s1|ts|res|aff|rr,mi,cmp
+EV|V7|b0004.s3|bg|bgr|aff|ebr,mi
+EV|V8|b0024.s6|ts|res|aff|rr,mi
+EV|V9|b0004.s1|bg|bgr|pre|unc
+EV|V10|b0002.s10+b0002.s11+b0045.s4|ts|int|hyp|ho
+EV|V11|b0042.s5|bg|bgr|aff|ebr
+EV|V12|b0003.s2+b0041.s5|bg|co|na|do
+EV|V13|b0031.s8+b0032.s4|ts|int|hyp|ho
+EV|V14|b0006.s2|bg|bgr|aff|ebr,mi
+P|G2|D4|sup|c|both|sup:c:bg:V1;sup:c:ts:V2|||Neuronal/global AR knockout causes insulin resistance
+P|G2|D5|sup|c|ts|sup:c:ts:V3|||NARKO mice show hypothalamic insulin resistance
+P|G2|D6|unc|-|ts|unc:-:ts:V4|hedged_claim,scope||Hepatic IR inferred via chain, not tested
+P|G2|D8|sup|c|ts|sup:c:ts:V5|||NARKO mice develop obesity
+P|G2|D9|sup|c|ts|sup:c:ts:V6|||NARKO mice increased visceral adiposity
+P|G2|D10|sup|c|bg|sup:c:bg:V7|||Hepatic AR deletion causes steatosis (cited)
+P|G2|D11|sup|c|ts|sup:c:ts:V8|||Macrovesicular steatosis in NARKO livers
+P|G1|D3|unc|-|bg|unc:-:bg:V9;unc:-:ts:V10|presupposed_only,hedged_claim||Relation presupposed; human link only hedged
+P|G1|D4|unc|-|ts|unc:-:ts:V10|hedged_claim||Brain AR loss may contribute in men
+P|G1|D9|unc|-|ts|unc:-:ts:V10|hedged_claim||Hedged extrapolation to men on ADT
+P|G1|D2|sup|c|bg|sup:c:bg:V11|||AR activation contributes to CRPC development
+P|G1|D1|nf|-||||V12|AR only a treatment target in PCa
+P|G3|D5|unc|-|ts|unc:-:ts:V13|hedged_claim||PTP1B may contribute; authors' inference
+P|G4|D6|sup|c|bg|sup:c:bg:V14|||Brain IR knockout promotes hepatic insulin resistance
+F|F1|group_comparison|body weight, fat pad mass|NARKO vs WT male mice|significant|positive|partial|V5+V6|
+F|F2|group_comparison|insulin tolerance, pyruvate tolerance glucose|NARKO vs WT, 36 weeks|significant|positive|partial|V2|Table 1 rows unread
+F|F3|group_comparison|hypothalamic Ptp1b, Socs3 mRNA|NARKO vs WT, 20 weeks|significant|positive|partial|V13|
+F|F4|group_comparison|serum testosterone|NARKO vs WT|not_significant|null|unread||figure values not in text
+F|F5|group_comparison|HFD weight gain; food intake|NARKO vs WT after 14-day HFD|mixed|positive|partial||food intake not significant
+F|F6|group_comparison|hepatic lipogenic genes Srebp1c, Scd1, Fas, Acc|NARKO vs WT livers|mixed|positive|partial||Acc not significant
+F|F7|mechanism|AR overexpression vs Ptp1b promoter/mRNA|GT1-7 cells|significant|negative|partial|V13|
+C|C1|Fig 2 panel labels duplicated|b0025.s25+b0025.s28+b0027.s7|noncritical|resolved|Second J corresponds to text Fig 2K
+C|C2|HFD mouse age 8 vs 10 weeks|b0036.s19+b0037.s6|noncritical|unresolved|Age discrepancy does not change direction
+U|Table 1 body|b0024.s3;b0027.s2|rows not provided
+U|Supplementary Data|b0048.s1|supplementary figures not provided
+R|disease vs phenotype|insulin resistance (D4)|central outcome; card unclear whether disease or phenotype|typed as disease, flagged other

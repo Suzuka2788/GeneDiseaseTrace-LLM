@@ -1,0 +1,93 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Full text with tables and captions; supplementary tables S1-S3 unread
+E|G1|gene|KRIT1|KRIT1;KRTI1|p|suspected_typo|human||
+E|G2|gene|CCM2|CCM2|r||human||
+E|G3|gene|PDCD10|PDCD10|r||human||
+E|G4|gene|ZPLD1|ZPLD1|r||human||
+E|G5|gene|MAP3K3|MAP3K3;MEKK3|r||human||
+E|G6|gene|Krit1 (animal model)|Krit1|p|species_unresolved|||
+E|G7|gene|Ccm2 (animal model)|Ccm2|p|species_unresolved|||
+E|G8|gene|Pdcd10 (animal model)|Pdcd10|p|species_unresolved|||
+E|D1|disease|cerebral cavernous malformation|Cerebral cavernous malformation;cerebral cavernous malformation;CCM;CCMs;CMM|p|suspected_typo||D11|
+E|D2|disease|familial cerebral cavernous malformation|Familial cerebral cavernous malformation;familial cerebral cavernous malformation;Familial CCM;familial CCM;FCCM|r|||D1|
+E|D3|disease|sporadic CCM|sporadic CCM;sporadic CCMs|r|||D1|
+E|D4|disease|cavernous malformation|cavernous malformation;CM|r||||
+E|D5|disease|spinal cavernous malformation|spinal cavernous malformation;spinal CM;Spinal CM|r|||D4|
+E|D6|disease|cutaneous CM|cutaneous CM;Cutaneous CM|r|||D4|
+E|D7|clinical_event|cavernous angioma with symptomatic hemorrhage|cavernous angioma with symptomatic hemorrhage;cavernous angiomas with symptomatic hemorrhage;cavernous angiomas with a symptomatic hemorrhage;CASH|r||||
+E|D8|disease|small vessel disease|small vessel disease|r||||
+E|D9|disease|diffuse axonal injury|diffuse axonal injury|r||||
+E|D10|disease|intracerebral hemorrhage|intracerebral hemorrhages|r||||
+E|D11|disease|vascular malformation|vascular malformation|r||||
+E|D12|disease|developmental venous anomaly|developmental venous anomaly|r||||
+E|D13|disease|tumor|Tumor;tumors;tumor|r||||
+E|D14|disease|breast cancer|Breast cancer|r||||
+E|D15|disease|thyroid cancer|Thyroid cancer|r||||
+E|D16|disease|diffuse midline glioma|Diffuse midline glioma;diffuse midline glioma|r||||
+E|D17|disease|adrenal adenoma|Adrenal adenoma|r||||
+E|D18|disease|ACA infarction|Left ACA infarction|r||||
+E|D19|disease|occipital lobe epilepsy|occipital lobe epilepsy;OLE|r||||
+E|A1|ambiguous_disease|PLE|PLE|u|undefined_abbreviation|||
+E|S1|symptom|seizure|seizures|r||||
+E|S2|symptom|headache|headache|r||||
+E|Ph1|phenotype|cerebral microbleeds|cerebral microbleeds|r||||
+X|CCM complexes|b0011|complex, not single gene
+X|FCCM gene panel|b0005|gene set/test panel
+X|Non-cerebral CM|b0072|table_grouping_label
+X|non-Zabramski type IV|b0016|lesion classification, not disease
+X|NG_012964.1/NC_000007.14|b0019|reference sequence identifier
+EV|V1|b0003.s1+b0011.s3|bg|bgr|aff|ebr
+EV|V2|b0011.s6+b0011.s7|bg|bgr|aff|ebr
+EV|V3|b0098.s11|bg|bgr|aff|ebr
+EV|V4|b0026.s4+b0028.s1|ts|res|aff|rr,eda
+EV|V5|b0070.s2+b0070.s3|ts|res|aff|cs
+EV|V6|b0098.s9|bg|hyp|hyp|ho
+EV|V7|b0098.s12|bg|bgr|aff|ebr
+EV|V8|b0098.s13+b0098.s14|ts|hyp|hyp|ho
+EV|V9|b0099.s3|bg|bgr|aff|mi,ebr
+EV|V10|b0011.s8|bg|int|pre|unc
+EV|V11|b0100.s12+b0100.s13|ts|int|hyp|ho
+EV|V12|b0094.s7|ts|res|na|rr
+EV|V13|b0094.s13+b0095.s10+b0007.s6|ts|res|na|rr
+EV|V14|b0007.s5+b0067.s7+b0099.s1|ts|res|na|rr
+EV|V15|b0094.s14+b0095.s11|ts|res|na|rr
+EV|V16|b0070.s12|ts|co|na|do
+EV|V17|b0070.s4|ts|co|na|do
+EV|V18|b0094.s10+b0095.s7|ts|res|na|rr
+EV|V19|b0066.s1|ts|res|na|rr
+EV|V20|b0007.s4+b0070.s11|ts|res|na|do
+P|G1|D2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V4+V5|||Background causal; study genetic diagnosis, co-segregation
+P|G2|D2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V4|||Background causal; study genetic diagnosis
+P|G3|D2|sup|c|bg|sup:c:bg:V1;sup:a:ts:V4+V5|||Background causal; study genetic diagnosis, co-segregation
+P|G1|D1|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3|||LOF of these genes leads to CCM
+P|G2|D1|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3|||LOF of these genes leads to CCM
+P|G3|D1|sup|c|bg|sup:c:bg:V2;sup:c:bg:V3|||LOF of these genes leads to CCM
+P|G1|D11|unc|-|bg|unc:-:bg:V10;unc:-:ts:V11|presupposed_only,hedged_claim||Presupposed suppression; likely critical component
+P|G2|D11|unc|-|bg|unc:-:bg:V10|presupposed_only||Only presupposed in unknown-mechanism sentence
+P|G3|D11|unc|-|bg|unc:-:bg:V10|presupposed_only||Only presupposed in unknown-mechanism sentence
+P|G4|D2|unc|-|bg|unc:-:bg:V6|hedged_claim||Cited authors only proposed association
+P|G5|D3|sup|a|bg|sup:a:bg:V7|||GOF mutations confirmed in sporadic CCM patients
+P|G5|D2|unc|-|ts|unc:-:ts:V8|hedged_claim||Could be novel cause; speculation
+P|G6|D1|sup|c|bg|sup:c:bg:V9|||Heterozygous loss induces CCM animal model
+P|G7|D1|sup|c|bg|sup:c:bg:V9|||Heterozygous loss induces CCM animal model
+P|G8|D1|sup|c|bg|sup:c:bg:V9|||Heterozygous loss induces CCM animal model
+P|G1|D7|nf|-|||||V12|Only overall genotype test, not pair-specific
+P|G2|D7|nf|-|||||V12|Only overall genotype test, not pair-specific
+P|G3|D7|nf|-|||||V12|Only overall genotype test, not pair-specific
+P|G1|D13|nf|-|||||V16|Tumor history descriptive only
+P|G1|D16|nf|-|||||V16|Single-case comorbidity, no attribution
+P|G1|D5|nf|-|||||V17|Comorbidity in case only
+P|G3|D5|nf|-|||||V17|Comorbidity in case only
+F|F1|group_comparison|brainstem lesion vs CCM mutation detection|cohort 1 FCCM, n=21|significant|positive|available|V14|small sample; AUC value conflict
+F|F2|correlation|age vs large CCM count|cohort 2 FCCM, n=25|significant|positive|available|V18|
+F|F3|correlation|age vs large CCM count|KRIT1 and mutation-not-detected groups|significant|positive|available|V13|small groups
+F|F4|correlation|age vs large CCM count|CCM2 group, n=2|significant|negative|available|V13|possible detection bias
+F|F5|correlation|age vs large CCM count|PDCD10 group|not_significant|null|partial|V15|trend toward younger
+F|F6|association|CCM genotype vs first CASH risk|cohort 2 FCCM|not_significant|null|unread|V12|Table S3 unread
+F|F7|group_comparison|clinical characteristics by mutation detection|cohort 1 FCCM|not_significant|null|partial|V19|
+F|F8|descriptive|six novel KRIT1/PDCD10 variants|gene-confirmed FCCM probands|not_applicable|not_applicable|not_applicable|V20|
+C|C1|three-marker model AUC value|b0007.s5+b0067.s4+b0067.s6+b0067.s7|noncritical|unresolved|0.928 vs 0.982; direction unchanged
+C|C2|parietal lesion rate, mutation not detected|b0067.s2+b0060.s1|noncritical|unresolved|50.4% vs table 50.0%
+U|Table S1|b0070.s8|supplementary file not provided
+U|Table S2|b0094.s5|supplementary file not provided
+U|Table S3|b0094.s7|supplementary file not provided

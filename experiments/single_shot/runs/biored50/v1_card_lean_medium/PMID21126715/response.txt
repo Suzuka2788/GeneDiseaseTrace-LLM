@@ -1,0 +1,21 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; single case report
+E|G1|gene|BSCL2|BSCL2|r||human||
+E|D1|disease|congenital generalized lipodystrophy|congenital generalized lipodystrophy;Congenital generalized lipodystrophy;CGL|r||||
+E|D2|disease|CGL2|CGL2|p|undefined_abbreviation||D1|
+E|D3|disease|CGL1|CGL1|p|undefined_abbreviation||D1|
+E|D4|disease|cardiomyopathy|cardiomyopathy|r||||
+E|S1|phenotype|hypertriglyceridemia|hypertriglyceridemia|r||||
+E|S2|phenotype|generalized eruptive xanthomas|generalized eruptive xanthomas|r||||
+E|S3|phenotype|hepatic steatosis|hepatic steatosis|r||||
+E|S4|symptom|Hepatomegaly|Hepatomegaly|r||||
+E|S5|phenotype|intellectual impairment|intellectual impairment|r||||
+X|783insG (Ile262fs mutation)|b0002|variant identifier, not a gene
+EV|V1|b0001.s1|ts|res|aff|eda
+EV|V2|b0002.s9|ts|res|aff|rr,eda
+EV|V3|b0002.s2|bg|bgr|aff|ebr
+EV|V4|b0002.s6|ts|co|na|do
+P|G1|D1|sup|c|ts|sup:a:ts:V1;sup:c:ts:V2|||Case attribution plus genotype review: major causative gene
+P|G1|D2|sup|c|bg|sup:c:bg:V3|||BSCL2 mutations known to result in CGL2
+P|G1|D4|nf|-|||||V3+V4|Cardiomyopathy is CGL2 feature; patient had none
+F|F1|descriptive|BSCL2 genotype in CGL cases|CGL cases Japan, India, China, Taiwan|unknown|positive|not_reported|V2|literature case review, no statistics

@@ -1,0 +1,24 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|HFE|HFE|r||human||
+E|G2|gene|transferrin receptor 2|transferrin receptor 2;transferrin receptor;TfR2|p|ambiguous_mapping|human||
+E|D1|disease|hemochromatosis|hemochromatosis|r|||||
+E|D2|disease|diabetes mellitus|diabetes mellitus|r|||||
+E|D3|disease|cirrhosis|cirrhosis|r|||||
+E|D4|disease|iron overload|iron overload|r|||||
+E|S1|symptom|skin pigmentation|skin pigmentation|r|||||
+EV|V1|b0002.s2+b0002.s13|bg|bgr|aff|ebr,rr
+EV|V2|b0002.s3|bg|int|hyp|ho
+EV|V3|b0002.s8+b0002.s13+b0002.s14|ts|res|aff|rr,eda
+EV|V4|b0002.s1|bg|bgr|pre|unc
+EV|V5|b0002.s6+b0002.s7|ts|neg|neg|rr
+EV|V6|b0002.s10+b0002.s11+b0002.s12|ts|co|na|do
+P|G2|D1|sup|a|both|sup:a:bg:V1;unc:-:bg:V2;sup:a:ts:V3|||Mutations found in patients; authors attribute pathogenesis role
+P|G1|D1|neg|-|ts|neg:-:ts:V5;unc:-:bg:V4|presupposed_only||No HFE mutations in nine Japanese hemochromatosis patients
+P|G2|D2|nf|-|||||V6|Comorbidity in mutation carriers only
+P|G2|D3|nf|-|||||V6|Comorbidity in mutation carriers only
+P|G2|D4|nf|-|||||V6|Phenotype described in carrier; no attribution
+F|F1|descriptive|TfR2 mutation carrier status|Japanese hemochromatosis patients|not_applicable|not_applicable|not_applicable|V1+V3|Small series; 5 of 12 carriers
+F|F2|descriptive|HFE coding/splice variants|Nine hemochromatosis patients|not_applicable|null|not_applicable|V5|Sequencing only; small sample
+C|C1|I238M nucleotide notation truncated|b0002.s9|noncritical|unresolved|714C-> missing alternate base
+R|merging|b0002.s2|"transferrin receptor (TfR2)" omits "2"; could imply TFRC.|Merged with TfR2 via explicit abbreviation and title; marked provisional.

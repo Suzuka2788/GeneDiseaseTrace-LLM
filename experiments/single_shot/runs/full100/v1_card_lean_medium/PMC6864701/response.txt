@@ -1,0 +1,43 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Full text, tables and captions; supplementary files unread
+E|G1|gene|CA-II|CA-II;α-Carbonic Anhydrase II;Human carbonic anhydrase II;α-CA-II|r||human||
+E|G2|gene|CA-I|CA-I|r||human||
+E|G3|gene|CA-III|III|r||human||
+E|G4|gene|CA-VII|VII|r||human||
+E|G5|gene|CA-XIII|XIII|r||human||
+E|G6|gene|CA-IV|CA-IV|r||human||
+E|G7|gene|CA-IX|IX|r||human||
+E|G8|gene|CA-XII|CA-XII;XII|r||human||
+E|G9|gene|CA-XIV|XIV|r||human||
+E|G10|gene|CA-VA|CA-VA|r||human||
+E|G11|gene|CA-VB|VB|r||human||
+E|G12|gene|CA-VI|CA-VI|r||human||
+E|G13|gene|CA-VIII|CA-VIII|r||human||
+E|G14|gene|CA-X|CA-X|r||human||
+E|G15|gene|CA-XI|CA-XI|r||human||
+E|G16|gene|CA-XV|CA-XV|r||non-human||
+E|D1|disease|CA-II deficiency|α-Carbonic Anhydrase II Deficiency;CA-II deficiencies;CA deficiencies|p|other|||
+E|D2|disease|osteopetrosis|osteopetrosis|r||||
+E|D3|disease|renal tubular acidosis|renal tubular acidosis|r||||
+E|D4|disease|glaucoma|glaucoma|r||||
+E|D5|disease|altitude sickness|altitude sickness|r||||
+E|S1|phenotype|cerebral calcification|cerebral calcification|r||||
+X|CARP|b0005|gene set (carbonic anhydrase related proteins), not single gene
+X|α-CA|b0020|enzyme family, not single gene
+X|rs118203931|b0150|variant identifier
+EV|V1|b0008.s3|bg|bgr|aff|ebr
+EV|V2|b0008.s4|bg|bgr|aff|ebr
+EV|V3|b0008.s5+b0008.s6|bg|bgr|aff|ebr
+EV|V4|b0009.s1|bg|bgr|aff|ebr
+EV|V5|b0014.s1+b0091.s4|ts|co|na|do
+EV|V6|b0072.s3+b0126.s2|ts|int|hyp|ho
+P|G1|D1|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3||V5+V6|Background: poor CA-II function causes CA deficiency
+P|G1|D2|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3|||nsSNVs in CA-II cause these diseases
+P|G1|D3|sup|c|bg|sup:c:bg:V1+V2;sup:a:bg:V3|||nsSNVs in CA-II cause these diseases
+P|G1|D4|sup|a|bg|sup:a:bg:V4|||Glaucoma related to CA-II overexpression
+P|G1|D5|sup|a|bg|sup:a:bg:V4|||Altitude sickness related to CA-II overexpression
+F|F1|group_comparison|RMSD conformations WT vs six variants|CA-II MD models apo/BCT/CO2|significant|mixed|partial|b0032.s4+b0033.s6|p-values in unread Table S4
+F|F2|group_comparison|Rg compactness WT vs variants|CA-II MD models apo/BCT/CO2|mixed|mixed|partial|b0043.s2+b0043.s3+b0043.s4|in silico only
+F|F3|mechanism|H107Y hydrogen bonds and Glu117 usage|CA-II H107Y model|not_applicable|negative|not_applicable|b0056.s6+b0070.s3|simulation, no disease outcome
+C|C1|cytosolic CA isoform list XII vs XIII|b0005.s3+b0022.s3|noncritical|unresolved|Likely typo; no relation affected
+U|Supplementary Tables S1-S7, Figures S1-S5|b0129-b0130|not provided

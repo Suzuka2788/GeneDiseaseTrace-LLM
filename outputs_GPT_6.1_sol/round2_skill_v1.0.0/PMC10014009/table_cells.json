@@ -1,0 +1,3642 @@
+[
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "Mean Diagnosis Age, YO",
+    "gene_scope": null
+  },
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "36.8 (SD 18.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "43.6 (SD 16.0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "10.0 (SD 8.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "21.5 (SD 30.4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "35.0 (SD 21.1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0032",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Mean Diagnosis Age, YO",
+    "value": "39.8 (SD 14.1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "Mean Last Imaging Age, YO",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "45.0 (SD 18.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "52.9 (SD 13.6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "13.5 (SD 7.8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "27.5 (SD 37.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "42.9 (SD 22.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0033",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Mean Last Imaging Age, YO",
+    "value": "48.4 (SD 9.4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Male, %",
+    "value": "Male, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Male, %",
+    "value": "38.1 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Male, %",
+    "value": "44.4 (4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Male, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Male, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Male, %",
+    "value": "53.8 (7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0034",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Male, %",
+    "value": "12.5 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Symptomatic, %",
+    "value": "Symptomatic, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Symptomatic, %",
+    "value": "90.5 (19)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Symptomatic, %",
+    "value": "88.9 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Symptomatic, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Symptomatic, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Symptomatic, %",
+    "value": "92.3 (12)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0035",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Symptomatic, %",
+    "value": "87.5(7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Headache, %",
+    "value": "Headache, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Headache, %",
+    "value": "23.8 (5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Headache, %",
+    "value": "22.2 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Headache, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Headache, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Headache, %",
+    "value": "23.1 (3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0036",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Headache, %",
+    "value": "25.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Dizziness, %",
+    "value": "Dizziness, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Dizziness, %",
+    "value": "9.5 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Dizziness, %",
+    "value": "11.1 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Dizziness, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Dizziness, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Dizziness, %",
+    "value": "15.4 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0037",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Dizziness, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "Weakness, Dysarthria, or Facial palsy, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "33.3 (7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "11.1 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "23.1 (3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0038",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Weakness, Dysarthria, or Facial palsy, %",
+    "value": "50.0 (4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Diplopia, %",
+    "value": "Diplopia, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Diplopia, %",
+    "value": "14.3 (3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Diplopia, %",
+    "value": "22.2 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Diplopia, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Diplopia, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Diplopia, %",
+    "value": "15.4 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0039",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Diplopia, %",
+    "value": "12.5 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Visual symptoms, %",
+    "value": "Visual symptoms, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Visual symptoms, %",
+    "value": "14.3 (3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Visual symptoms, %",
+    "value": "22.2 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Visual symptoms, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Visual symptoms, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Visual symptoms, %",
+    "value": "15.4 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0040",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Visual symptoms, %",
+    "value": "12.5 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Seizure, %",
+    "value": "Seizure, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Seizure, %",
+    "value": "38.1 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Seizure, %",
+    "value": "44.4 (4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Seizure, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Seizure, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Seizure, %",
+    "value": "46.2 (6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0041",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Seizure, %",
+    "value": "25.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Seizure onset, YO a",
+    "value": "Seizure onset, YO a",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Seizure onset, YO a",
+    "value": "34.5 (SD 19.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Seizure onset, YO a",
+    "value": "39.5 (SD 12.7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Seizure onset, YO a",
+    "value": "16.00 (SD n/a)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Seizure onset, YO a",
+    "value": "0.0 (SD n/a)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Seizure onset, YO a",
+    "value": "29.0 (SD 19.7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0042",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Seizure onset, YO a",
+    "value": "51.0 (SD 2.8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "CASH, %",
+    "value": "CASH, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "CASH, %",
+    "value": "52.4 (11)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "CASH, %",
+    "value": "33.3 (3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "CASH, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "CASH, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "CASH, %",
+    "value": "46.2 (6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0043",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "CASH, %",
+    "value": "62.5 (5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "Mean 1st CASH age, YO a",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "29.4 (SD 18.8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "35.3 (SD 15.6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "10.0 (SD 8.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "0.0 (SD n/a)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "21.0 (SD 19.3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0044",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Mean 1st CASH age, YO a",
+    "value": "39.4 (SD 13.8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Mean number of CASH a",
+    "value": "Mean number of CASH a",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Mean number of CASH a",
+    "value": "1.8 (SD 1.3)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Mean number of CASH a",
+    "value": "2.0 (SD 1.7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Mean number of CASH a",
+    "value": "1.0 (SD 0.0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Mean number of CASH a",
+    "value": "4.0 (SD n/a)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Mean number of CASH a",
+    "value": "2.0 (SD 1.5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0045",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Mean number of CASH a",
+    "value": "1.6 (SD 0.9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Surgery, %",
+    "value": "Surgery, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Surgery, %",
+    "value": "33.3 (7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Surgery, %",
+    "value": "22.2 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Surgery, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Surgery, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Surgery, %",
+    "value": "38.5 (5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0046",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Surgery, %",
+    "value": "25.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Spinal CM, %",
+    "value": "Spinal CM, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Spinal CM, %",
+    "value": "9.5 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Spinal CM, %",
+    "value": "11.1 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Spinal CM, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Spinal CM, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Spinal CM, %",
+    "value": "15.4 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0047",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Spinal CM, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Cutaneous CM, %",
+    "value": "Cutaneous CM, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Cutaneous CM, %",
+    "value": "4.8 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Cutaneous CM, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Cutaneous CM, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Cutaneous CM, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Cutaneous CM, %",
+    "value": "7.7 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0048",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Cutaneous CM, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "FHx of suspicious CCM, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "42.9 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "66.7 (6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "61.5 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0049",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "FHx of suspicious CCM, %",
+    "value": "12.5 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Tumor, %",
+    "value": "Tumor, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Tumor, %",
+    "value": "28.6 (6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Tumor, %",
+    "value": "44.4 (4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Tumor, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Tumor, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Tumor, %",
+    "value": "30.8 (4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0050",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Tumor, %",
+    "value": "25.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Multiplicity, %",
+    "value": "Multiplicity, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Multiplicity, %",
+    "value": "100.0 (21)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Multiplicity, %",
+    "value": "100.0 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Multiplicity, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Multiplicity, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Multiplicity, %",
+    "value": "100.0 (13)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0051",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Multiplicity, %",
+    "value": "100.0 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Brainstem, %",
+    "value": "Brainstem, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Brainstem, %",
+    "value": "61.9 (13)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Brainstem, %",
+    "value": "100.0 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Brainstem, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Brainstem, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Brainstem, %",
+    "value": "84.6 (11)*",
+    "gene_scope": null
+  },
+  {
+    "location": "b0053",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Brainstem, %",
+    "value": "25.0 (2)*",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Cerebellum, %",
+    "value": "Cerebellum, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Cerebellum, %",
+    "value": "81.0 (17)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Cerebellum, %",
+    "value": "88.9 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Cerebellum, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Cerebellum, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Cerebellum, %",
+    "value": "84.6 (11)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0054",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Cerebellum, %",
+    "value": "75.0 (6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "Cortex/Subcortex, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "85.7 (18)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "100.0 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "92.3 (12)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0055",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Cortex/Subcortex, %",
+    "value": "75.0 (6)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Frontal, %",
+    "value": "Frontal, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Frontal, %",
+    "value": "95.2 (20)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Frontal, %",
+    "value": "100.0 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Frontal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Frontal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Frontal, %",
+    "value": "100.0 (13)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0056",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Frontal, %",
+    "value": "87.5 (7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Temporal, %",
+    "value": "Temporal, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Temporal, %",
+    "value": "76.2 (16)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Temporal, %",
+    "value": "100.0 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Temporal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Temporal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Temporal, %",
+    "value": "100.0 (13)**",
+    "gene_scope": null
+  },
+  {
+    "location": "b0057",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Temporal, %",
+    "value": "37.5 (3)**",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Lateral temporal, %",
+    "value": "Lateral temporal, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Lateral temporal, %",
+    "value": "71.4 (15)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Lateral temporal, %",
+    "value": "88.9 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Lateral temporal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Lateral temporal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Lateral temporal, %",
+    "value": "92.3 (12)*",
+    "gene_scope": null
+  },
+  {
+    "location": "b0058",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Lateral temporal, %",
+    "value": "37.5 (3)*",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Medial temporal, %",
+    "value": "Medial temporal, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Medial temporal, %",
+    "value": "52.4 (11)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Medial temporal, %",
+    "value": "88.9 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Medial temporal, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Medial temporal, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Medial temporal, %",
+    "value": "69.2 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0059",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Medial temporal, %",
+    "value": "25.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Parietal, %",
+    "value": "Parietal, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Parietal, %",
+    "value": "76.2 (16)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Parietal, %",
+    "value": "100.0 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Parietal, %",
+    "value": "50.0 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Parietal, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Parietal, %",
+    "value": "92.3 (12)*",
+    "gene_scope": null
+  },
+  {
+    "location": "b0060",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Parietal, %",
+    "value": "50.0 (4)*",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Occipital, %",
+    "value": "Occipital, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Occipital, %",
+    "value": "66.7 (14)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Occipital, %",
+    "value": "88.9 (8)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Occipital, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Occipital, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Occipital, %",
+    "value": "76.9 (10)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0061",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Occipital, %",
+    "value": "50.0 (4)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Basal ganglia, %",
+    "value": "Basal ganglia, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Basal ganglia, %",
+    "value": "9.5 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Basal ganglia, %",
+    "value": "11.1 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Basal ganglia, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Basal ganglia, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Basal ganglia, %",
+    "value": "7.7 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0062",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Basal ganglia, %",
+    "value": "12.5 (1)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "characteristic",
+    "row_label": "Thalamus, %",
+    "value": "Thalamus, %",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "All (n=21)",
+    "row_label": "Thalamus, %",
+    "value": "42.9 (9)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "KRIT1 (n=9)",
+    "row_label": "Thalamus, %",
+    "value": "55.6 (5)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "CCM2 (n=2)",
+    "row_label": "Thalamus, %",
+    "value": "0.0 (0)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "PDCD10 (n=2)",
+    "row_label": "Thalamus, %",
+    "value": "100.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "Mutation detected total (n=13)",
+    "row_label": "Thalamus, %",
+    "value": "53.8 (7)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0063",
+    "table": "Table 1",
+    "column": "Mutation not detected (n=8)",
+    "row_label": "Thalamus, %",
+    "value": "25.0 (2)",
+    "gene_scope": null
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K1",
+    "value": "K1",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K1",
+    "value": "Female",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K1",
+    "value": "59",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K1",
+    "value": "59",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K1",
+    "value": "Nonspecific headache → CCM in Brain MRI",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K1",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K1",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K1",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K1",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K1",
+    "value": "No",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K1",
+    "value": "c.22_26del, p.Glu8Cysfs*22",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K1",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K1",
+    "value": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0074",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K1",
+    "value": "Breast cancer",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K2",
+    "value": "K2",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K2",
+    "value": "Female",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K2",
+    "value": "37",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K2",
+    "value": "53",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K2",
+    "value": "Nonspecific headache → CCM in Brain MRI Recurrent sudden onset sided weakness with binocular diplopia ← CASH (pons)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K2",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K2",
+    "value": "37",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K2",
+    "value": "4",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K2",
+    "value": "Craniotomy",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K2",
+    "value": "No",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K2",
+    "value": "c.535C>T, p.Arg179*",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K2",
+    "value": "No",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K2",
+    "value": "Previously reported",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0075",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K2",
+    "value": "Thyroid cancer",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K3",
+    "value": "K3",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K3",
+    "value": "Male",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K3",
+    "value": "37",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K3",
+    "value": "52",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K3",
+    "value": "Nonspecific headache → CCM in Brain MRI FIAS and FBTCS, 51YO → PLE",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K3",
+    "value": "Spinal (neck pain)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K3",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K3",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K3",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K3",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K3",
+    "value": "c.815dup, p.Arg273Glufs*17,",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K3",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K3",
+    "value": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0076",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K3",
+    "value": "Diffuse midline glioma (52YO)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K4",
+    "value": "K4",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K4",
+    "value": "Female",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K4",
+    "value": "59",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K4",
+    "value": "61",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K4",
+    "value": "Left ACA infarction → incidental CCMs",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K4",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K4",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K4",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K4",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K4",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K4",
+    "value": "c.815dup, p.Arg273Glufs*17",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K4",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K4",
+    "value": "Same as above",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0077",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K4",
+    "value": "Adrenal adenoma",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K5",
+    "value": "K5",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K5",
+    "value": "Female",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K5",
+    "value": "50",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K5",
+    "value": "52",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K5",
+    "value": "FBTCS (50YO) ← CASH (motor cortex)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K5",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K5",
+    "value": "50",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K5",
+    "value": "1",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K5",
+    "value": "Craniotomy",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K5",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K5",
+    "value": "c.1094_1098del, p.Gly365Alafs*3",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K5",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K5",
+    "value": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0078",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K5",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K6",
+    "value": "K6",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K6",
+    "value": "Female",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K6",
+    "value": "36",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K6",
+    "value": "50",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K6",
+    "value": "Sudden onset binocular diplopia (pons)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K6",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K6",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K6",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K6",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K6",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K6",
+    "value": "c.1147-2A>G, p.?",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K6",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K6",
+    "value": "2 PM (PVS1_Moderate + PM2) + 2 PP (PP1 + PP4) (LP)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0079",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K6",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K7",
+    "value": "K7",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K7",
+    "value": "Male",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K7",
+    "value": "19",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K7",
+    "value": "20",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K7",
+    "value": "Visual disturbance and dizziness ← CASH (occipital cortex)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K7",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K7",
+    "value": "19",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K7",
+    "value": "1",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K7",
+    "value": "Not done",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K7",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K7",
+    "value": "c.1147-2A>G, p.?",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K7",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K7",
+    "value": "Same as above",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0080",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K7",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "Mother",
+    "value": "Mother",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "Mother",
+    "value": "Female",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "Mother",
+    "value": "47",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "Mother",
+    "value": "47",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "Mother",
+    "value": "Familial gene test, Nonspecific headache",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "Mother",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "Mother",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "Mother",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "Mother",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "Mother",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "Mother",
+    "value": "c.1147-2A>G, p.?",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "Mother",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "Mother",
+    "value": "Same as above",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0081",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "Mother",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K8",
+    "value": "K8",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K8",
+    "value": "Male",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K8",
+    "value": "67",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K8",
+    "value": "68",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K8",
+    "value": "Transient positive visual symptom (29YO) → OLE",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K8",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K8",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K8",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K8",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K8",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K8",
+    "value": "c.1961_1962del, p.Lys654fs*21",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K8",
+    "value": "No",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K8",
+    "value": "Previously reported",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0082",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K8",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "K9",
+    "value": "K9",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "K9",
+    "value": "Male",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "K9",
+    "value": "28",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "K9",
+    "value": "61",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "K9",
+    "value": "FBTCS, 28YO",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "K9",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "K9",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "K9",
+    "value": "0",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "K9",
+    "value": "n/a",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "K9",
+    "value": "No",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "K9",
+    "value": "c.2124dup, p.Ile709Tyrfs*25",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "K9",
+    "value": "Yes",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "K9",
+    "value": "1 PS (PVS1_Strong) + 1 PM (PM2) (LP)",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0083",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "K9",
+    "value": "None",
+    "gene_scope": "G01"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "C1",
+    "value": "C1",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "C1",
+    "value": "Male",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "C1",
+    "value": "4",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "C1",
+    "value": "8",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "C1",
+    "value": "Central vertigo ← CASH (cerebellum)",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "C1",
+    "value": "Cutaneous",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "C1",
+    "value": "4",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "C1",
+    "value": "1",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "C1",
+    "value": "Craniotomy",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "C1",
+    "value": "Yes",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "C1",
+    "value": "c.55C>T, p.Arg19*",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "C1",
+    "value": "No",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "C1",
+    "value": "Previously reported",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0085",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "C1",
+    "value": "None",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "C2",
+    "value": "C2",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "C2",
+    "value": "Male",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "C2",
+    "value": "16",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "C2",
+    "value": "19",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "C2",
+    "value": "Emotional seizure followed by drowsy mentality ← CASH (frontal cortex)",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "C2",
+    "value": "None",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "C2",
+    "value": "16",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "C2",
+    "value": "1",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "C2",
+    "value": "Craniotomy",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "C2",
+    "value": "No",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "C2",
+    "value": "c.638T>C, p.Leu213Pro",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "C2",
+    "value": "No",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "C2",
+    "value": "Previously reported",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0086",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "C2",
+    "value": "None",
+    "gene_scope": "G02"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "P1",
+    "value": "P1",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "P1",
+    "value": "Female",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "P1",
+    "value": "0",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "P1",
+    "value": "1",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "P1",
+    "value": "Decreased mentality ← CASH (brainstem)",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "P1",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "P1",
+    "value": "0",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "P1",
+    "value": "4",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "P1",
+    "value": "Craniotomy",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "P1",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "P1",
+    "value": "c.150+1dup, p.?",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "P1",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "P1",
+    "value": "1 PS (PVS1_Strong) + 2PP (PP1 + PP4) (LP)",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0088",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "P1",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "Father",
+    "value": "Father",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "Father",
+    "value": "Male",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "Father",
+    "value": "34",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "Father",
+    "value": "34",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "Father",
+    "value": "Familial gene gest Asymptomatic (but GKS for medulla oblongata lesion)",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "Father",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "Father",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "Father",
+    "value": "0",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "Father",
+    "value": "GKS",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "Father",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "Father",
+    "value": "c.150+1dup, p.?",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "Father",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "Father",
+    "value": "Same as above",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0089",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "Father",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "P2",
+    "value": "P2",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "P2",
+    "value": "Male",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "P2",
+    "value": "43",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "P2",
+    "value": "54",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "P2",
+    "value": "Nonspecific headache → Brain MRI",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "P2",
+    "value": "Spinal (screen)",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "P2",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "P2",
+    "value": "0",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "P2",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "P2",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "P2",
+    "value": "c.283C > T, p.Arg95*",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "P2",
+    "value": "No",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "P2",
+    "value": "Previously reported",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0090",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "P2",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "1st son",
+    "value": "1st son",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "1st son",
+    "value": "Male",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "1st son",
+    "value": "22",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "1st son",
+    "value": "22",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "1st son",
+    "value": "Familial gene test, asymptomatic",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "1st son",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "1st son",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "1st son",
+    "value": "0",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "1st son",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "1st son",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "1st son",
+    "value": "c.283C > T, p.Arg95*",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "1st son",
+    "value": "No",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "1st son",
+    "value": "Previously reported",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0091",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "1st son",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Patient",
+    "row_label": "2nd son",
+    "value": "2nd son",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Gender",
+    "row_label": "2nd son",
+    "value": "Male",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "CCM diagnosis (YO)",
+    "row_label": "2nd son",
+    "value": "20",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Last F/U (YO)",
+    "row_label": "2nd son",
+    "value": "20",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Clinical manifestation",
+    "row_label": "2nd son",
+    "value": "Familial gene test, asymptomatic",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Non-cerebral CM",
+    "row_label": "2nd son",
+    "value": "None",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "First CASH (YO)",
+    "row_label": "2nd son",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Total CASH events",
+    "row_label": "2nd son",
+    "value": "0",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Surgery",
+    "row_label": "2nd son",
+    "value": "n/a",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Family history",
+    "row_label": "2nd son",
+    "value": "Yes",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Variant*",
+    "row_label": "2nd son",
+    "value": "c.283C > T, p.Arg95*",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Novel",
+    "row_label": "2nd son",
+    "value": "No",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "ACMG guideline classification",
+    "row_label": "2nd son",
+    "value": "Previously reported",
+    "gene_scope": "G03"
+  },
+  {
+    "location": "b0092",
+    "table": "Table 2",
+    "column": "Tumor",
+    "row_label": "2nd son",
+    "value": "None",
+    "gene_scope": "G03"
+  }
+]

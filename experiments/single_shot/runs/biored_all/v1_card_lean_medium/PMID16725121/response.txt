@@ -1,0 +1,23 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; mouse study; no full text
+E|G1|gene|norepinephrine transporter|norepinephrine transporter;NET|r||non-human||
+E|D1|disease|lidocaine-induced convulsions|lidocaine-induced convulsions;lidocaine convulsions;lidocaine seizures|p|other|||
+E|D2|disease|cocaine-induced convulsions|cocaine-induced convulsions|r||||
+E|D3|disease|local-anesthetics-induced convulsions|local-anesthetics-induced convulsions|p|other||D1|
+E|D4|disease|seizures|seizures|r||||
+E|S1|phenotype|kindling|kindling|r||||
+EV|V1|b0002.s7|ts|int|hyp|ho
+EV|V2|b0001.s1|ts|int|aff|unc
+EV|V3|b0002.s2|ts|res|na|rr
+EV|V4|b0002.s5+b0002.s6|ts|res|na|rr,cmp
+EV|V5|b0002.s4+b0002.s9|ts|res|na|rr
+EV|V6|b0002.s10|ts|hyp|hyp|ho
+EV|V7|b0002.s1|ts|aim|q|none
+P|G1|D1|unc|-|ts|unc:-:ts:V1|hedged_claim|V3+V4|NET down-regulation only suggested relevant to sensitization
+P|G1|D3|unc|-|ts|unc:-:ts:V2|hedged_claim,scope|V1|Title link hedged in abstract conclusion
+P|G1|D2|nf|-|||||V5+V6|Cocaine NET up-regulation not tied to convulsions
+P|G1|D4|nf|-|||||V7|Aim only
+F|F1|descriptive|NET uptake after chronic desipramine|mouse hippocampus P2 fractions|unknown|negative|not_reported|V3|region-specific; abstract only
+F|F2|descriptive|NET uptake after repeated cocaine|mouse hippocampus|unknown|positive|not_reported|V5|abstract only
+F|F3|group_comparison|desipramine pretreatment vs convulsion incidence|mice given lidocaine or cocaine|unknown|mixed|not_reported|V4|lidocaine up; cocaine down
+R|merging|b0002.s7;b0002.s10|lidocaine convulsions vs lidocaine seizures not strict synonyms|merged by parallel co-reference in same conclusion; provisional

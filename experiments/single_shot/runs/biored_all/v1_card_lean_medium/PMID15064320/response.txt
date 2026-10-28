@@ -1,0 +1,18 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|SRD5A2|SRD5A2;5-alpha-reductase type 2 gene|r||human||
+E|G2|gene|AR|AR;androgen receptor|r||human||
+E|D1|disease|male pseudohermaphrodite|male pseudohermaphrodite;MPH|r||||
+E|D2|disease|5-alpha-reductase enzyme deficiency|5-alpha-reductase enzyme deficiency|p|ambiguous_mapping|||
+E|S1|phenotype|ambiguous genitalia|ambiguous genitalia|r||||
+X|CGA|b0002|codon sequence, not the CGA gene
+X|hCG|b0002|hormone used as stimulation test agent
+EV|V1|b0002.s8|bg|bgr|aff|ebr
+EV|V2|b0002.s5+b0002.s7|ts|co|na|do
+EV|V3|b0002.s9|ts|int|pre|unc
+EV|V4|b0002.s1+b0002.s4|ts|res|na|do
+P|G1|D1|sup|a|bg|sup:a:bg:V1|||V2|R227Q previously described in MPH patients
+P|G1|D2|unc|-|ts|unc:-:ts:V3|presupposed_only,hedged_claim,identity|V2|Deficiency presupposed; enzyme type not specified
+P|G2|D1|nf|-||||V4|AR normal in one MPH patient; descriptive
+F|F1|descriptive|SRD5A2 exon 4 mutations Tdel219, R227Q|one Chinese 46,XY MPH patient|not_applicable|not_applicable|not_applicable|V2|single case
+F|F2|descriptive|AR coding sequence|same MPH patient|not_applicable|null|not_applicable|V4|single case

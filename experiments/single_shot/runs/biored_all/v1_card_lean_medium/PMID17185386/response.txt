@@ -1,0 +1,18 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text, tables or methods
+E|G1|gene|DISC1|DISC1;Disrupted in Schizophrenia 1|r||human||
+E|G2|gene|NDE1|NDE1|r||human||
+E|D1|disease|schizophrenia|schizophrenia|r||||
+E|S1|phenotype|visual working memory|visual working memory|r||||
+X|multifactorial diseases|b0002|generic disease class, not a specific endpoint
+X|16p13|b0002|chromosomal locus, not a gene
+EV|V1|b0002.s1|bg|bgr|aff|ebr
+EV|V2|b0002.s3|bg|bgr|aff|ebr
+EV|V3|b0002.s6|ts|res|aff|rr,cmp
+EV|V4|b0002.s5+b0002.s6|ts|res|na|rr
+EV|V5|b0002.s8|ts|int|aff|unc
+EV|V6|b0001.s1|ts|res|aff|rr
+P|G1|D1|sup|a|bg|sup:a:bg:V1;sup:a:bg:V2||V5|Prior and replicated DISC1-schizophrenia association
+P|G2|D1|sup|a|ts|sup:a:ts:V3+V6||V4|Female-specific tag-haplotype association, significant after correction
+F|F1|association|DISC1-stratified genome-wide linkage, 443 markers|Finnish schizophrenia families|not_significant|positive|partial|V4|LOD>3 lost after multiple test correction
+F|F2|association|NDE1 tag-haplotype vs schizophrenia|Finnish families, females|significant|positive|partial|V3|female-specific; corrected P=0.011

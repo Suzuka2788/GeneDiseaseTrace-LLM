@@ -1,0 +1,42 @@
+{
+  "source_sha256": "fafc0d2128bbaadc1e13b163c86781e531cb976f3dde11b233d7e8d13fa0958e",
+  "A": "outputs_GPT_6.1_sol",
+  "B": "outputs_claude_Opus_5.5",
+  "input_hash_matches_B_manifest": true,
+  "original_A_pair_count": 160,
+  "original_B_pair_count": 312,
+  "revised_genes": 8,
+  "revised_disease_and_candidate_count": 21,
+  "revised_entity_types": {
+    "gene": 8,
+    "disease": 20,
+    "ambiguous": 1,
+    "symptom": 17,
+    "phenotype": 2
+  },
+  "revised_primary_pair_count": 168,
+  "revised_status_counts": {
+    "supported": 10,
+    "uncertain": 16,
+    "not_found": 142
+  },
+  "auxiliary_pair_count": 152,
+  "full_aligned_comparison_count": 320,
+  "compared_main_statuses": {
+    "same_status": 143,
+    "status_difference": 17,
+    "entity_split": 8
+  },
+  "original_quote_checks": {
+    "A": 43,
+    "B": 45
+  },
+  "all_original_quotes_found": true,
+  "revised_mentions": 356,
+  "all_revised_mentions_exact": true,
+  "original_B_mentions": 355,
+  "issues": 45,
+  "study_findings": 7,
+  "primary_cartesian_product_complete": true,
+  "limitations": "这是对原始论文的模型证据复核和程序一致性校验，不是独立人工验证，不提供准确率/召回率。"
+}

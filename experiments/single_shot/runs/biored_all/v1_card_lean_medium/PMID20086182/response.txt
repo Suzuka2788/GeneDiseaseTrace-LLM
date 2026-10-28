@@ -1,0 +1,18 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|CASP8|CASP8;Caspase 8|r||human||
+E|G2|gene|p53|p53|r||human||
+E|D1|disease|squamous cell carcinoma of the head and neck|squamous cell carcinoma of the head and neck;SCCHN|r||||
+E|D2|disease|head and neck cancer|head and neck cancer|r||||
+E|D3|disease|cancer|cancer|r||||
+E|S1|phenotype|apoptosis|apoptosis|r||||
+EV|V1|b0002.s2|bg|bgr|aff|ebr
+EV|V2|b0001.s1+b0002.s3+b0002.s5|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|int|hyp|ho
+EV|V4|b0002.s6|ts|res|aff|rr
+P|G1|D1|sup|a|ts|sup:a:ts:V2;unc:-:ts:V3|||Case-control: del variant inversely associated with SCCHN
+P|G1|D3|sup|a|bg|sup:a:bg:V1|||Variants reportedly important in cancer development
+P|G1|D2|nf|-||||V1|Text states no prior study assessed this
+P|G2|D1|nf|-||||V4|Apoptosis assay only in controls; no disease link
+F|F1|association|CASP8 -652 6N del genotype/haplotype vs SCCHN|non-Hispanic white cases and controls|significant|negative|available|V2|302H results not reported in abstract
+F|F2|correlation|del allele count vs induced apoptosis|170 cancer-free controls|unknown|positive|not_reported|V4|"tended to"; no statistics

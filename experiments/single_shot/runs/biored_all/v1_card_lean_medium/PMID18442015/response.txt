@@ -1,0 +1,10 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no genes identified
+E|D1|disease|gastric hemorrhagic ulcer|gastric hemorrhagic ulcers;gastric hemorrhagic ulcer;hemorrhagic ulcer|r||||
+E|D2|disease|atherosclerosis|atherosclerosis;Atherosclerosis|r||||
+E|D3|disease|gastric hemorrhage|gastric hemorrhage|r||||
+E|D4|disease|gastric ulcer|gastric ulcers|r||||
+E|D5|disease|mucosal ulceration|mucosal ulceration|r||||
+X|low-density lipoprotein|b0002|lipoprotein particle measured as serum parameter, not a gene
+X|LPO|b0002|abbreviation for lipid peroxide, not a gene
+F|F1|correlation|histamine vs gastric hemorrhage and ulcer|atherosclerotic rats|unknown|positive|not_reported|b0002.s10|abstract only; no gene involved

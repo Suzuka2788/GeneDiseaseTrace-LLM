@@ -1,0 +1,20 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text available
+E|G1|gene|aggrecan|aggrecan|r|||human||
+E|G2|gene|chondroitin sulfate proteoglycan 4|chondroitin sulfate proteoglycan 4|r|||human||
+E|G3|gene|tenascin-C|tenascin-C|r|||human||
+E|D1|disease|SEMD aggrecan type|SEMD aggrecan type;recessive skeletal dysplasia;autosomal-recessive skeletal dysplasia|p|undefined_abbreviation||D2|
+E|D2|disease|spondyloepimetaphyseal dysplasia|spondyloepimetaphyseal dysplasia|r||||
+E|S1|symptom|short stature|short stature|r||||
+X|tenascins|b0002|gene family, not single-gene endpoint
+X|c.6799G --> A|b0002|variant identifier
+EV|V1|b0001.s1|ts|res|aff|rr,eda
+EV|V2|b0002.s2+b0002.s3+b0002.s4|ts|res|aff|rr,cs
+EV|V3|b0002.s8|ts|int|aff|eda
+EV|V4|b0002.s3|ts|co|na|do
+EV|V5|b0002.s7|ts|res|na|rr
+P|G1|D1|sup|c|ts|sup:c:ts:V1;sup:a:ts:V2+V3||||Homozygous missense mutation attributed as disease cause
+P|G2|D1|nf|-|||||V4|Candidate gene only; not implicated
+P|G3|D1|nf|-|||||V5|Binding assay only; no disease link
+F|F1|mechanism|p.D2267N vs aggrecan G3-tenascin-C binding|mammalian cell expression, SPR|unknown|unknown|not_reported|V5|abstract only
+R|hierarchy|b0002.s1|Autosomal-recessive SEMD form equals D1 but names parent term|Linked D1 to parent D2; no relation propagated

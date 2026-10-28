@@ -1,0 +1,19 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; three-patient case series
+E|G1|gene|COL1A2|COL1A2;collagen type I alpha 2 chain|r||human||
+E|D1|disease|osteogenesis imperfecta|Osteogenesis imperfecta;OI|r||||
+E|D2|disease|osteogenesis imperfecta type III|Osteogenesis imperfecta type III;OI type III|r|||D1|
+E|D3|disease|intracranial hemorrhage|intracranial hemorrhage;Intracranial hemorrhage;intracranial bleeding|r||||
+E|D4|disease|brachydactyly|brachydactyly|r||||
+E|S1|phenotype|nail hypoplasia|nail hypoplasia|r||||
+E|S2|phenotype|abnormal limb development|abnormal limb development|r||||
+EV|V1|b0002.s4|ts|res|aff|eda,rr
+EV|V2|b0001.s1|ts|res|aff|eda
+EV|V3|b0002.s5|ts|int|hyp|ho
+EV|V4|b0002.s3|ts|co|na|do
+P|G1|D2|sup|a|ts|sup:a:ts:V1+V2|||Authors attribute patients' OI III to exon-49 mutations
+P|G1|D1|sup|a|ts|sup:a:ts:V1|||s4 names OI as caused by COL1A2 mutations
+P|G1|D3|unc|-|ts|unc:-:ts:V2+V3|hedged_claim,scope|V4|Risk only suggested; title links whole phenotype
+P|G1|D4|unc|-|ts|unc:-:ts:V2+V3|hedged_claim,scope|V4|Limb risk suggested; title links whole phenotype
+F|F1|descriptive|COL1A2 exon 49 glycine mutations; OI III features|three OI type III patients|not_applicable|not_applicable|not_applicable|V1+V4|n=3; no comparator
+R|case-report attribution|b0002.s4|"Caused by" stated by case authors; card caps at association|Assigned association, not causal

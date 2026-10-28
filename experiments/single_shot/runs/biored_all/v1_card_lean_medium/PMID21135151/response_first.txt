@@ -1,0 +1,15 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; no full text
+E|G1|gene|CCR5|C-C chemokine receptor type 5;CCR5|r||human||
+E|G2|gene|gp120|gp120|p|species_unresolved,other|non-human||
+E|D1|disease|HIV-1 infection|HIV-1-infected;infection|r||||
+E|D2|disease|AIDS|AIDS|r||||
+E|S1|symptom|AIDS symptoms|AIDS symptoms|r||||
+X|CCR5delta32|b0001|variant ID, not a separate gene
+X|wt/DD32|b0002|variant genotype label
+EV|V1|b0002.s8|ts|res|q|rr,unc
+EV|V2|b0002.s1|bg|bgr|q|unc
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V2|hedged_claim,scope|V2|CCR5 genotype role on progression stated elusive
+F|F1|association|CCR5 genotype vs substitution rate|HIV-1-infected progressors and LTNPs|not_significant|null|not_reported|V1|abstract only; model selection, no statistics
+F|F2|association|substitution rate vs disease progression|HIV-1-infected patients|unknown|positive|not_reported|V1|model selection only, not a gene
+R|viral gene node|b0002.s4|viral protein gp120 is not covered by the species rules|kept as a non-human gene, provisional; no pairs

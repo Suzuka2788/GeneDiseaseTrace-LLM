@@ -1,0 +1,16 @@
+META|claude-opus-5-5|seen: no
+SCOPE|Title and abstract only; single study unit
+E|G1|gene|TGFBI|TGFBI;BIGH3;transforming growth factor-induced gene;TGF-induced protein|r||human||
+E|D2|disease|lattice corneal dystrophy|lattice corneal dystrophy|r||||
+E|D1|disease|lattice corneal dystrophy type I|lattice corneal dystrophy type I;familial lattice corneal dystrophy type I;LCDI;LCD1;LCD type I|r|||D2|
+E|S1|phenotype|anticipation|anticipation|r||||
+X|PstI|b0002.s4|restriction enzyme, not a gene
+X|R124C|b0002.s3|variant identifier
+X|C417T|b0002.s12|variant identifier
+EV|V1|b0002.s12+b0002.s13+b0002.s14|ts|res|aff|rr,cs
+EV|V2|b0002.s6|ts|co|na|do
+EV|V3|b0002.s9+b0002.s16|ts|int|hyp|ho
+P|G1|D1|sup|a|ts|sup:a:ts:V1||V2|R124C cosegregated with LCD type I in family
+P|G1|D2|nf|-|||||V2|Parent term; relation not propagated from child
+F|F1|association|TGFBI R124C carrier status vs LCDI|Chilean family, 6 affected, 3 unaffected|not_applicable|positive|not_applicable|V1|Single family; no statistical test
+F|F2|descriptive|age of onset across generations|affected LCDI family members|not_applicable|negative|not_reported|V3|Anticipation only suggested; small family

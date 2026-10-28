@@ -1,0 +1,26 @@
+META|Opus 5.5 (claude-opus-5-5)|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ADAM10|ADAM10;ADAM-10|r||non-human||
+E|G2|gene|ADAM17|ADAM17;ADAM-17|r||non-human||
+E|G3|gene|MMP-2|MMP-2|r||non-human||
+E|G4|gene|MMP-9|MMP-9|r||non-human||
+E|D1|disease|thoracic aortic aneurysm|thoracic aortic aneurysm;TAA|r||||
+E|D2|disease|arterial injury|arterial injury|p|other|||
+E|S1|phenotype|media degeneration|media degeneration|r||||
+E|S2|phenotype|vascular remodeling|vascular remodeling|r||||
+X|matrix metalloproteinases (MMPs)|b0002|gene family, not single-gene endpoint
+X|a disintegrin and metalloproteinase (ADAM)|b0002|gene family, not single-gene endpoint
+X|TIMPs|b0002|gene family (endogenous inhibitors), not single-gene endpoint
+EV|V1|b0001.s1|ts|res|aff|rr,do
+EV|V2|b0002.s6|ts|res|aff|rr,cmp
+EV|V3|b0002.s7|ts|res|aff|rr,cmp
+EV|V4|b0002.s9|ts|int|aff|rr,unc
+EV|V5|b0002.s5|ts|res|na|do
+P|G1|D1|unc|-|ts|unc:-:ts:V1+V2+V3+V4|scope|V5|Comparison is treated vs saline segments, not TAA
+P|G2|D1|unc|-|ts|unc:-:ts:V1+V2+V3+V4|scope|V5|Comparison is treated vs saline segments, not TAA
+P|G3|D1|unc|-|ts|unc:-:ts:V1+V2+V3+V4|scope|V5|Comparison is treated vs saline segments, not TAA
+P|G4|D1|unc|-|ts|unc:-:ts:V1+V2+V3+V4|scope|V5|Comparison is treated vs saline segments, not TAA
+F|F1|group_comparison|MMP-2, MMP-9, ADAM10, ADAM17 mRNA|CaCl2-treated vs NaCl-treated rat segments|significant|positive|partial|V2|semi-quantitative; only 50% aneurysmal
+F|F2|group_comparison|MMP-2, MMP-9, ADAM10, ADAM17 protein (IHC)|CaCl2-treated intima/media vs NaCl|significant|positive|partial|V3|
+F|F3|group_comparison|TIMP mRNA and tissue levels|three aortic segment groups|not_significant|null|not_reported|V5|gene family; no member detail
+R|statistic outcome|b0002.s6|Expression compared across exposure groups; aneurysm present in only 50% of treated segments|Did not treat it as a gene-vs-TAA test; marked uncertain (scope)

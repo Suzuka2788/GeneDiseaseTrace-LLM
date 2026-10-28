@@ -1,0 +1,18 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; no full text or tables
+E|G1|gene|ADRB1|ADRB1|r||human||
+E|G2|gene|ADRB2|ADRB2|r||human||
+E|G3|gene|ADRB3|ADRB3|r||human||
+E|D1|disease|cardiovascular disorders|cardiovascular|p|other|||
+E|D2|disease|metabolic disorders|metabolic disorders|r||||
+X|beta-AR|b0002|gene family label, not a single-gene endpoint
+X|beta-adrenergic receptors|b0002|receptor family, not a single-gene endpoint
+EV|V1|b0002.s2+b0002.s3|bg|bgr|q|ebr,unc
+P|G1|D1|unc|-|bg|unc:-:bg:V1|conflict,scope||Cited association studies inconsistent, results not specified per gene
+P|G1|D2|unc|-|bg|unc:-:bg:V1|conflict,scope||Cited association studies inconsistent, results not specified per gene
+P|G2|D1|unc|-|bg|unc:-:bg:V1|conflict,scope||Cited association studies inconsistent, results not specified per gene
+P|G2|D2|unc|-|bg|unc:-:bg:V1|conflict,scope||Cited association studies inconsistent, results not specified per gene
+P|G3|D1|unc|-|bg|unc:-:bg:V1|conflict,scope||Cited association studies inconsistent, results not specified per gene
+P|G3|D2|unc|-|bg|unc:-:bg:V1|conflict,scope||Cited association studies inconsistent, results not specified per gene
+F|F1|descriptive|haplotype block structure of ADRB1-3|96 Caucasians, 96 African Americans|not_applicable|not_applicable|not_reported|V1|no disease outcome tested
+R|disease family surface form|b0002.s2|"cardiovascular and metabolic disorders" shares one head noun|split into two disease families; D1 surface written as cardiovascular

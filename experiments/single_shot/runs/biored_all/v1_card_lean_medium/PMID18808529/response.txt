@@ -1,0 +1,29 @@
+META|Opus 5.5|seen: no
+SCOPE|Title and abstract only; rat isoproterenol model
+E|G1|gene|dystrophin|dystrophin|r||non-human||
+E|G2|gene|gamma-sarcoglycan|gamma-sarcoglycan|r||non-human||
+E|G3|gene|beta-dystroglycan|beta-dystroglycan|r||non-human||
+E|G4|gene|beta1-integrin|beta1-integrin|r||non-human||
+E|G5|gene|laminin alpha-2|laminin alpha-2|r||non-human||
+E|G6|gene|actin|actin;sarcomeric actin|p|ambiguous_mapping|non-human||
+E|D1|disease|myocardial injury|myocardial injury|r||||
+E|D2|disease|myocardial damage|myocardial damage|r||||
+E|D3|disease|ischaemic injury|ischaemic injury|r||||
+E|S1|phenotype|coronary hypotension|coronary hypotension|r||||
+E|S2|phenotype|myocytolytic process|myocytolytic process|r||||
+X|dystrophin-glycoprotein complex|b0002.s3|protein complex, not single gene
+X|DGC|b0002.s3|protein complex abbreviation, not single gene
+X|laminin|b0002.s3|gene family, not single gene
+X|integrins|b0002.s3|gene family, not single gene
+EV|V1|b0001.s1|ts|res|aff|rr
+EV|V2|b0002.s5+b0002.s6+b0002.s8|ts|res|aff|rr,mi
+EV|V3|b0002.s9|ts|int|hyp|unc
+EV|V4|b0002.s7|ts|res|na|do
+EV|V5|b0002.s1|bg|co|na|none
+P|G1|D1|sup|a|ts|sup:a:ts:V1+V2||V3|title reports dystrophin loss correlating with injury
+P|G1|D3|unc|-|ts|unc:-:ts:V3|hedged_claim||only interpretive linkage to ischaemic injury
+P|G1|D2|nf|-||||V5|mechanism stated unknown; no dystrophin link
+P|G2|D1|nf|-||||V4|reduction called epiphenomenon; no disease link
+F|F1|descriptive|dystrophin loss; myocardial injury|isoproterenol-treated rat hearts|unknown|positive|not_reported|V1+V2|abstract only; no statistics
+F|F2|descriptive|DGC proteins, integrin expression|isoproterenol-treated rat hearts|unknown|negative|not_reported|V4|secondary to myocytolysis per authors
+R|correlation type|b0001.s1|Title claims correlation but no readable statistic|Typed as association, not correlation
