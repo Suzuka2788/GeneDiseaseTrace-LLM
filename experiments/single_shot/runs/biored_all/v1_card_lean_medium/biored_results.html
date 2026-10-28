@@ -117,7 +117,7 @@ const tip = document.getElementById("tip");
 function hover(el, text){el.addEventListener("mouseenter",e=>{tip.textContent=text;tip.style.display="block";move(e)});el.addEventListener("mousemove",move);el.addEventListener("mouseleave",()=>tip.style.display="none")}
 function move(e){let x=e.clientX+14,y=e.clientY+14;if(x+tip.offsetWidth>innerWidth-8)x=e.clientX-tip.offsetWidth-14;if(y+tip.offsetHeight>innerHeight-8)y=e.clientY-tip.offsetHeight-14;tip.style.left=x+"px";tip.style.top=y+"px"}
 function el(tag, attrs={}, text){const n=document.createElement(tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));if(text!==undefined)n.textContent=text;return n}
-const f2 = x => x.toFixed(2), pct = (a,b) => Math.round(100*a/Math.max(1,b)) + "%";
+const f2 = x => (Math.round((x + Number.EPSILON) * 100) / 100).toFixed(2), pct = (a,b) => Math.round(100*a/Math.max(1,b)) + "%";
 const sum = k => D.papers.reduce((a,p)=>a+p[k],0);
 const SCALE = 0.9; // bars use 90% of the track so value labels fit
 const cost = sum("cost"), secs = sum("seconds");
