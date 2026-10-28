@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GeneDiseaseTrace-LLM</title>
-<meta name="description" content="Evidence-grounded gene–disease relation extraction from full-text biomedical literature, with traceable citations and cost-efficient LLM workflows.">
+<meta name="description" content="LLM extraction of gene–disease relations from full papers, with source sentences, evaluation results and measured costs.">
 <style>
 :root{--surface:#fcfcfb;--panel:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--grid:#e1e0d9;--ring:rgba(11,11,11,.10);
 --c1:#2a78d6;--c2:#eb6834;--c3:#1baf7a;--good:#0f7a52;--on:#ffffff;--bar:rgba(252,252,251,.88)}
@@ -79,10 +79,10 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
 <main id="top">
 <header class="hero">
  <h1>GeneDiseaseTrace-LLM</h1>
- <p class="tag">[[Evidence-grounded gene–disease relation extraction from full-text biomedical literature, with sentence-level provenance and cost-efficient LLM workflows.||基于证据的生物医学全文文献基因–疾病关系抽取：具备原文句级溯源与高性价比 LLM 工作流。]]</p>
+ <p class="tag">[[Extracting gene–disease relations from full papers with an LLM. Each reported relation includes the source sentences used as evidence.||用 LLM 从论文全文中抽取基因–疾病关系，并为每条关系保留作为证据的原文句子。]]</p>
  <div class="by">[[Task presentation · Zeqian Tong · October 28, 2026||任务汇报 · Zeqian Tong · 2026 年 10 月 28 日]]</div>
  <div class="tiles">
-  <div class="tile"><div class="k">[[Supported relations||Supported 关系]]</div><div class="v">972</div><div class="s">[[each anchored to its source sentence; PubTator3: 198||每条均锚定原文证据句；PubTator3 为 198 条]]</div></div>
+  <div class="tile"><div class="k">[[Supported relations||Supported 关系]]</div><div class="v">972</div><div class="s">[[with source sentences; PubTator3 reports 198||附原文证据句；PubTator3 报告 198 条]]</div></div>
   <div class="tile"><div class="k">[[Precision on BioRED||BioRED 精确率]]</div><div class="v">0.89</div><div class="s">[[pair detection on 419 relation-positive abstracts; recall 0.43||419 篇关系阳性摘要上的实体对检测；召回率 0.43]]</div></div>
   <div class="tile"><div class="k">[[Cost per paper||单篇成本]]</div><div class="v">$0.44</div><div class="s">[[78 s, including repairs; 100-paper average||耗时 78 秒，含修复请求；100 篇平均]]</div></div>
  </div>
@@ -90,65 +90,65 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
 
 <section id="task">
  <h2>[[The task||任务定义]]</h2>
- <p class="kicker">[[Process a set of 100 full-text biomedical papers (PMC, JATS XML).||处理 100 篇生物医学全文文献（PMC，JATS XML）。]]</p>
+ <p class="kicker">[[The task covers 100 biomedical papers in PMC JATS XML format.||任务包含 100 篇生物医学论文，输入为 PMC JATS XML 全文。]]</p>
  <div class="grid2">
   <div class="panel"><h3>[[Task 1 · Gene and disease extraction||任务 1 · 基因与疾病实体抽取]]</h3><p>[[Extract all gene and disease mentions from each paper and output the identified entity lists, if any.||抽取每篇论文中提及的所有基因与疾病名称，并输出识别出的实体列表（如有）。]]</p></div>
   <div class="panel"><h3>[[Task 2 · Gene–disease relationship analysis||任务 2 · 基因–疾病关系分析]]</h3><p>[[For paper <i>i</i> with N<sub>i</sub> genes and M<sub>i</sub> diseases, evaluate all N<sub>i</sub> × M<sub>i</sub> candidate pairs. Link a pair if the paper provides evidence of an association, correlation, or causal relationship, yielding a gene–disease bipartite graph per paper.||对含 N<sub>i</sub> 个基因与 M<sub>i</sub> 个疾病的第 <i>i</i> 篇论文，评估全部 N<sub>i</sub> × M<sub>i</sub> 个候选配对；若原文提供关联、相关或因果关系的证据则建立连边，最终构建每篇论文的基因–疾病二部图。]]</p></div>
  </div>
- <p class="note">[[Our extensions: every link is paired with its supporting sentence(s) and annotated as a novel study finding or background knowledge, while weak evidence is flagged <i>uncertain</i> rather than linked.||我们的扩展：每条连边均附有原文支撑句，并标注为本研究新发现或背景知识；弱证据配对标记为 <i>uncertain</i> 而不建立连边。]]</p>
+ <p class="note">[[We also record whether a relation is a finding of the paper or background knowledge. Pairs with weak evidence are marked uncertain and kept separate from the supported links.||在原任务之外，我们还标注关系来自本文发现还是背景知识。证据不足的配对记为 uncertain，与 supported 连边分开。]]</p>
 </section>
 
 <section id="workflow">
- <h2>[[Experiment workflow design||实验流程设计]]</h2>
- <p class="kicker">[[Baseline: PubTator3. Models evaluated in blind tests: Claude Opus 5.5, GPT-6.1 Sol, and GPT-6 Astra.||对比基线：PubTator3。盲测评估模型：Claude Opus 5.5、GPT-6.1 Sol 与 GPT-6 Astra。]]</p>
+ <h2>[[How the rules were developed||规则是怎样确定的]]</h2>
+ <p class="kicker">[[We used PubTator3 as a baseline. Early blind tests included Claude Opus 5.5, GPT-6.1 Sol and GPT-6 Astra.||对比基线为 PubTator3。早期盲测使用了 Claude Opus 5.5、GPT-6.1 Sol 和 GPT-6 Astra。]]</p>
  <div class="flow">
-  <div class="step"><span class="n">1</span><b>[[Rules as a skill||将规则写成 skill]]</b><p>[[Codify the extraction workflow and decision criteria in a standardized skill.md.||在标准化 skill.md 中明确定义抽取流程与判定准则。]]</p></div>
-  <div class="step"><span class="n">2</span><b>[[Develop on pilot papers||在试点论文上开发]]</b><p>[[Develop rules on pilot papers, then freeze the evaluation sets before configuration comparison.||在试点论文上开发规则，再冻结评估集用于配置比较。]]</p></div>
-  <div class="step"><span class="n">3</span><b>[[Blind test||独立盲测]]</b><p>[[Evaluate the paper in fresh, unprimed sessions using only the written rules.||在无先验上下文的全新会话中，仅依据书面规则独立重测。]]</p></div>
-  <div class="step"><span class="n">4</span><b>[[Format verification||格式校验]]</b><p>[[A contract validator verifies every quote, character offset, and table.||格式校验器自动核验每条引文、字符偏移量与输出表格。]]</p></div>
-  <div class="step"><span class="n">5</span><b>[[Result table||结果对比表]]</b><p>[[Compare models and rule versions at the pair level.||在实体对粒度上横向对比不同模型与规则版本。]]</p></div>
+  <div class="step"><span class="n">1</span><b>[[Write the rules||编写规则]]</b><p>[[Write the extraction steps and decision rules in skill.md.||在 skill.md 中写明抽取步骤和判定规则。]]</p></div>
+  <div class="step"><span class="n">2</span><b>[[Try pilot papers||试跑论文]]</b><p>[[Refine the rules on pilot papers, then fix the evaluation sets before comparing configurations.||用试点论文修改规则，在比较配置前固定评估集。]]</p></div>
+  <div class="step"><span class="n">3</span><b>[[Blind test||独立盲测]]</b><p>[[Run the papers in fresh sessions using only the written rules.||在新会话中运行论文，只提供书面规则。]]</p></div>
+  <div class="step"><span class="n">4</span><b>[[Format verification||格式校验]]</b><p>[[Check quotes, character offsets and output tables with local code.||用本地代码检查引文、字符偏移和输出表格。]]</p></div>
+  <div class="step"><span class="n">5</span><b>[[Result table||结果对比表]]</b><p>[[Compare model outputs and rule versions for each gene–disease pair.||逐对比较模型输出和规则版本。]]</p></div>
  </div>
- <div class="loop">[[↺ Feedback loop: disagreements are codified as new rules or boundary cases for the next iteration.||↺ 迭代闭环：将分歧案例提炼为补充规则或边界案例，驱动下一轮迭代。]]</div>
+ <div class="loop">[[Use disagreements to revise the rules or add boundary cases for the next round.||将分歧补入规则或边界案例，留待下一轮测试。]]</div>
 </section>
 
 <section id="method">
- <h2>[[Method development||方法构建与演进]]</h2>
+ <h2>[[From full rules to a decision card||从完整规则到判定卡]]</h2>
  <div class="panel"><ul>
-  <li>[[Reviewed existing systems and selected <b>PubTator3</b> as the comparison baseline.||调研现有系统，选定 <b>PubTator3</b> 作为对比基线。]]</li>
-  <li>[[Developed extraction rules across <b>5 pilot papers</b> (iterating from Skill 1.0 to 1.3) and curated <b>35 boundary cases</b> to validate rule consistency.||基于 <b>5 篇试点论文</b>制定抽取规则（由 Skill 1.0 迭代至 1.3），并构建 <b>35 个边界案例</b>以验证规则一致性。]]</li>
-  <li>[[Distilled the full rule specification into a compact <b>decision card</b> to reduce token overhead and interaction turns, preserving fidelity to the full rules (<b>110/112</b> boundary-case decisions agree, stable across 3 runs).||将完整规则精炼为紧凑的<b>判定卡（decision card）</b>以缩减 token 开销与交互轮次，并验证其与完整规则高度一致（<b>110/112</b> 个边界案例判定吻合，且跨 3 次运行保持稳定）。]]</li>
-  <li>[[Evaluated prompt and reasoning variants via a controlled <b>A/B test</b> on a frozen set of 12 papers.||在固定的 12 篇测试集上通过受控 <b>A/B 测试</b>评估不同规则与推理配置。]]</li>
-  <li>[[Deployed the selected configuration across <b>all 100 papers</b> and benchmarked zero-shot accuracy on the expert-annotated <b>BioRED</b> corpus.||将最终配置部署于<b>全部 100 篇论文</b>，并在专家标注的 <b>BioRED</b> 基准语料库上评估准确率。]]</li>
+  <li>[[We reviewed existing systems and chose PubTator3 for comparison.||调研现有系统后，我们选择 PubTator3 做对比。]]</li>
+  <li>[[We developed the rules on 5 pilot papers, from Skill 1.0 to 1.3, and collected 35 boundary cases to check consistency.||规则在 5 篇试点论文上从 Skill 1.0 修改到 1.3，另整理了 35 个边界案例检查判定是否一致。]]</li>
+  <li>[[We shortened the rules into a decision card to reduce input tokens and interaction turns. It agreed with the full rules on 110/112 boundary-case decisions, with the same result across 3 runs.||为减少输入 token 和交互轮次，我们把完整规则压缩成判定卡。在边界案例测试中，110/112 个判定与完整规则相同，3 次运行结果一致。]]</li>
+  <li>[[We compared the rule and reasoning configurations on a fixed set of 12 papers.||随后在固定的 12 篇论文上比较规则和推理配置。]]</li>
+  <li>[[We used the selected V1 configuration for all 100 papers, then evaluated it on BioRED without BioRED-specific training or prompt tuning.||选定 V1 后，运行全部 100 篇论文，再用 BioRED 评估；没有针对 BioRED 做训练或提示词调优。]]</li>
  </ul></div>
 </section>
 
 <section id="cost">
- <h2>[[Cost-effective optimization||成本与效率优化]]</h2>
- <p class="kicker">[[Model: Claude Opus 5.5. Costs reflect CLI-reported list prices, including repair requests.||模型：Claude Opus 5.5。成本按 CLI 报告的官方标价统计，已含修正请求。]]</p>
+ <h2>[[Cost and runtime||成本与耗时]]</h2>
+ <p class="kicker">[[These runs used Claude Opus 5.5. Costs are the CLI-reported list prices and include repair requests.||以下运行使用 Claude Opus 5.5，成本按 CLI 报告的官方标价统计，包含修复请求。]]</p>
  <div class="panel bars" id="costbars"></div>
- <p class="note">[[Each row reflects its indicated paper set; the 100-paper average includes full-length articles and all repair requests.||各行数据均基于对应标注的论文集测算；100 篇均值已涵盖长篇文献及所有修正请求。]]</p>
+ <p class="note">[[The paper sets differ between rows. The 100-paper average includes long papers and all repair requests.||各行使用的论文集不同。100 篇均值包含长论文和全部修复请求。]]</p>
  <div class="grid2" style="margin-top:16px">
-  <div class="panel"><h3>[[Key optimizations||核心优化措施]]</h3><ul>
-   <li>[[Tracked model behavior across 5 baseline papers before and after each optimization.||在 5 篇基准论文上持续追踪每次优化前后的模型行为一致性。]]</li>
-   <li>[[Offloaded text-span lookup and character-offset calculation to a deterministic local toolkit.||构建确定性本地工具包，接管文本跨度定位与字符偏移量计算。]]</li>
-   <li>[[One initial extraction request, with at most one validation-triggered repair, replaces multi-turn agent interaction.||以一次初始抽取请求加至多一次校验触发的修复，替代多轮 agent 交互。]]</li>
-   <li>[[Compressed the skill rules (input <b>20k → 9k tokens</b>) and served them as a cached system prompt.||精简 skill 规则（输入由 <b>20k 降至 9k tokens</b>），并作为缓存系统提示词复用。]]</li>
+  <div class="panel"><h3>[[Reducing model calls||减少模型调用]]</h3><ul>
+   <li>[[We checked model behavior on 5 baseline papers before and after each change.||每次修改前后，都在 5 篇基准论文上检查模型行为。]]</li>
+   <li>[[Local code locates text spans and calculates character offsets.||文本定位和字符偏移计算交给本地代码。]]</li>
+   <li>[[Each paper gets one initial request and, if validation fails, at most one repair request.||每篇论文先请求一次；校验失败时，至多再请求一次修复。]]</li>
+   <li>[[The shorter rules reduced input from 20k to 9k tokens and are reused as a cached system prompt.||压缩规则后，输入从 20k 降到 9k tokens，并通过缓存系统提示词复用。]]</li>
   </ul></div>
-  <div class="panel"><h3>[[Output token reduction||输出端精简]]</h3><ul>
-   <li>[[Restricted the output schema to essential fields: entities, evidence, and pairs.||输出结构仅保留核心字段：实体、证据与候选配对。]]</li>
-   <li>[[The model cites <b>sentence numbers</b> rather than verbatim quotes; a post-processing script reconstructs exact quotes and offsets from the source text.||模型仅输出<b>句子编号</b>而非复制原文；后处理脚本自动回填原文引文并计算精确字符偏移。]]</li>
-   <li>[[Segmented extra-long documents (e.g., conference proceedings) into manageable chunks.||对超长文献（如会议论文集）进行分块处理。]]</li>
+  <div class="panel"><h3>[[Shorter model responses||缩短模型输出]]</h3><ul>
+   <li>[[The response contains entities, evidence references and gene–disease pairs.||模型返回实体、证据引用和基因–疾病配对。]]</li>
+   <li>[[The model returns sentence numbers. Local code then retrieves the original quotes and their character offsets.||模型只返回句子编号，本地代码再取出原文并计算字符偏移。]]</li>
+   <li>[[Very long documents, such as conference proceedings, are split into chunks.||会议论文集等超长文献分块处理。]]</li>
   </ul></div>
  </div>
 </section>
 
 <section id="pipeline">
- <h2>[[How one request replaces multi-turn interaction||单次请求如何替代多轮交互]]</h2>
+ <h2>[[Extraction steps||抽取步骤]]</h2>
  <div class="flow">
-  <div class="step"><span class="n">1</span><b>[[Script packs the input||脚本组装输入]]</b><p>[[Packages the rules, numbered paragraphs and sentences, and output schema into one prompt.||将判定规则、编号段落与句子以及输出格式组装为单条提示词。]]</p></div>
-  <div class="step"><span class="n">2</span><b>[[Model answers once||模型单次作答]]</b><p>[[Generates a concise structured judgment without tool calls, file reads, or shell commands.||直接生成紧凑的结构化判定，无需调用工具、读取文件或执行命令。]]</p></div>
-  <div class="step"><span class="n">3</span><b>[[Script does the rest||确定性后处理]]</b><p>[[The toolkit resolves entity mentions, computes offsets, populates the gene × disease matrix, and validates the output schema.||工具包自动解析实体跨度、计算偏移量、补全基因 × 疾病矩阵并执行格式校验。]]</p></div>
-  <div class="step"><span class="n">4</span><b>[[One repair, only on error||按需单次修正]]</b><p>[[If validation detects errors (e.g., a mismatched citation), the error report is returned to the model once for targeted correction.||若校验发现异常（如引文不匹配），仅将错误报告发回模型执行一次定向修正。]]</p></div>
+  <div class="step"><span class="n">1</span><b>[[Prepare the prompt||准备输入]]</b><p>[[Put the rules, numbered paragraphs and sentences, and response schema in one prompt.||将规则、编号后的段落和句子、输出格式放入同一条提示词。]]</p></div>
+  <div class="step"><span class="n">2</span><b>[[Run the model||模型抽取]]</b><p>[[Return structured judgments without tool calls, file reads or shell commands.||模型直接返回结构化判定，不调用工具、读文件或执行命令。]]</p></div>
+  <div class="step"><span class="n">3</span><b>[[Recover source spans||回填原文]]</b><p>[[Locate mentions, calculate offsets, fill the gene × disease matrix and check the output format.||本地代码定位实体提及、计算偏移、补全基因 × 疾病矩阵，并检查格式。]]</p></div>
+  <div class="step"><span class="n">4</span><b>[[Repair if needed||按需修复]]</b><p>[[Send validation errors, such as a mismatched citation, back to the model for one repair attempt.||如有引文不匹配等校验错误，将错误发回模型，尝试修复一次。]]</p></div>
  </div>
 </section>
 
@@ -165,16 +165,16 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
   <tr><td>[[Uncertain / negative pairs||Uncertain / negative 配对]]</td><td class="num">28 / 1</td><td class="num">20 / 11</td><td class="num">15 / 1</td></tr>
   <tr><td>[[Pair-status agreement with V1||与 V1 的配对状态一致率]]</td><td class="num">—</td><td class="num">0.976</td><td class="num">0.985</td></tr>
  </table></div>
- <div class="callout"><b>[[Takeaways||核心结论]]</b><ul>
-  <li>[[<b>Observed pair-status agreement was 97.6%.</b> V1 reduced first-request cost by 11%; including repairs, total cost was similar ($4.61 vs $4.55). Agreement does not establish equal accuracy. Most of V2's 11 negative labels arose from variant comparisons in one paper; those disagreements need adjudication.||<b>观测到的配对状态一致率为 97.6%。</b>V1 的首次请求成本降低 11%；含修复的总成本相近（$4.61 vs $4.55）。一致率不等于准确性相同。V2 的 11 个 negative 标签主要来自单篇论文的变异比较，相关分歧仍需裁决。]]</li>
-  <li>[[<b>Low thinking reduced total time by about 60% and total cost by 32%</b> relative to V1, including repairs, with 98.5% pair-status agreement. It produced fewer supported labels (56 vs 64) and uncertain labels (15 vs 28); these counts do not measure recall without a gold standard.||<b>相对 V1，低推理强度使含修复的总耗时降低约 60%、总成本降低约 32%</b>，配对状态一致率为 98.5%。其 supported 标签较少（56 vs 64），uncertain 标签也较少（15 vs 28）；缺少金标准时，这些计数不能作为召回率。]]</li>
-  <li>[[<b>V1 was selected as the working configuration</b> for the 100-paper run. It produced the most supported labels in this comparison; the accuracy of the additional labels requires independent review.||<b>选用 V1 作为 100 篇运行的工作配置。</b>它在此次比较中产生最多的 supported 标签；新增标签的准确性仍需独立复核。]]</li>
+ <div class="callout"><b>[[What changed||配置之间的差别]]</b><ul>
+  <li>[[V1 and V2 agreed on 97.6% of pair statuses. The card reduced first-request cost by 11%, but total cost after repairs was similar ($4.61 vs $4.55). Most of V2’s 11 negative labels came from variant comparisons in one paper; those cases still need manual review.||V1 和 V2 的配对状态一致率为 97.6%。判定卡使首次请求成本降低 11%，加上修复后总成本相近（$4.61 vs $4.55）。V2 的 11 个 negative 标签主要来自一篇论文中的变异比较，这些案例还需要人工复核。]]</li>
+  <li>[[Compared with V1, low reasoning effort used about 60% less time and 32% less money, including repairs. Status agreement was 98.5%; supported labels fell from 64 to 56, and uncertain labels from 28 to 15.||与 V1 相比，低推理强度的总耗时减少约 60%，总成本减少约 32%，均包含修复。状态一致率为 98.5%；supported 标签从 64 个降至 56 个，uncertain 从 28 个降至 15 个。]]</li>
+  <li>[[We used V1 for the 100-paper run. It returned the most supported labels in this comparison. Without expert labels for these papers, status agreement and output counts cannot tell us which configuration is more accurate or has higher recall.||我们选用 V1 运行 100 篇论文，因为它在这次比较中返回的 supported 标签最多。这批论文还没有专家金标准，状态一致率和输出数量不足以判断哪种配置更准确、召回更高。]]</li>
  </ul></div>
 </section>
 
 <section id="pubtator">
  <h2>[[Comparison with PubTator3 (same 12 papers)||与 PubTator3 的对比（同一组 12 篇论文）]]</h2>
- <p class="kicker">[[We compared our full-text outputs with PubTator3's precomputed annotations for the same papers, aligning entity mentions to the local text. PubTator3 provides full-text entity annotations, while its relations are primarily abstract-derived. Neither output is treated as ground truth; this comparison measures output coverage, not relative accuracy.||我们将全文抽取结果与同篇论文的 PubTator3 预计算标注比较，并将实体提及对齐到本地文本。PubTator3 提供全文实体标注，关系则主要来自摘要。双方输出均不作为真值；此比较衡量输出覆盖差异，而非相对准确率。]]</p>
+ <p class="kicker">[[We compared our full-text outputs with PubTator3 annotations retrieved by PMID for the same 12 papers, aligning entity mentions to the local text. PubTator3 annotates entities in full text, but its relations mainly come from abstracts. This comparison describes the two output sets; neither is a gold standard.||我们按 PMID 获取同一组 12 篇论文的 PubTator3 预计算标注，将实体提及对齐到本地文本，再与全文抽取结果比较。PubTator3 的实体标注覆盖全文，关系主要来自摘要。这里比较两个系统的输出，双方都不作为金标准。]]</p>
  <div class="tiles">
   <div class="tile"><div class="k">[[Relations reported||检出关系数]]</div><div class="v">64 vs 23</div><div class="s">[[ours vs PubTator3; 11 found by both||本方法 vs PubTator3；双方共同检出 11 条]]</div></div>
   <div class="tile"><div class="k">[[Beyond the abstract||摘要以外证据占比]]</div><div class="v">81%</div><div class="s">[[of our relations rely on body text, tables, or captions||我们的关系依据正文、表格或图注]]</div></div>
@@ -182,15 +182,15 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
  </div>
  <div class="grid2">
   <div class="panel"><h3>[[Strengths||优势]]</h3><ul class="pros">
-   <li>[[Reports 2.8 times as many relation pairs (64 vs 23), each with a source sentence. This is an output-count comparison, not an accuracy or recall gain.||报告的关系对数量为基线的 2.8 倍（64 vs 23），每条附有原文句子；该数字表示输出数量差异，不代表准确率或召回率提升。]]</li>
+   <li>[[Our output contains 2.8 times as many relation pairs (64 vs 23), each with source sentences. These counts alone do not measure accuracy or recall.||本方法报告的关系对数量为基线的 2.8 倍（64 vs 23），每条附原文句子。仅凭这些数量，无法判断准确率或召回率。]]</li>
    <li>[[81% draw on full-text sections beyond the abstract: body text, tables, and captions.||81% 的关系证据来自摘要以外的全文内容：正文、表格与图注。]]</li>
-   <li>[[Assigns study-finding or background labels and flags uncertain evidence (28 pairs). The source-label agreement on matched BioRED relations is 75% (526/703).||提供本文发现或背景知识标签，并标记不确定证据（28 对）。在匹配的 BioRED 关系上，来源标签一致率为 75%（526/703）。]]</li>
+   <li>[[Relations are labeled as study findings or background knowledge; 28 pairs are marked uncertain. On matched BioRED relations, source-label agreement is 75% (526/703).||关系附有本文发现或背景知识标签，另有 28 对标为 uncertain。在匹配的 BioRED 关系上，来源标签一致率为 75%（526/703）。]]</li>
    <li>[[Distinguishes clinical symptoms from formal disease entities.||将临床症状与正式的疾病实体区分开。]]</li>
-   <li>[[Extracts relations from a Spanish-language paper in which PubTator3 detected no genes.||成功处理一篇西班牙语文献（PubTator3 在该文中未检出任何基因）。]]</li>
+   <li>[[The method returned relations from a Spanish paper for which PubTator3 returned no genes.||在一篇西班牙语论文中，本方法抽取到了关系，PubTator3 未返回基因。]]</li>
   </ul></div>
   <div class="panel"><h3>[[Limitations||局限性]]</h3><ul class="cons">
-   <li>[[Costs about $0.38 and 70 s per paper on these 12 papers, including repairs ($0.30 for the first request only). PubTator3 offers free access to precomputed results.||在这 12 篇论文上，含修复平均每篇约 $0.38、70 秒（仅首次请求为 $0.30）；PubTator3 可免费查询预计算结果。]]</li>
-   <li>[[Does not include 12 pairs reported by PubTator3: 3 are classified as symptoms under our policy, 4 receive non-supported judgments, and 5 involve an uncaptured entity mention. These disagreements have not been independently adjudicated.||未包含 PubTator3 报告的 12 对关系：3 对涉及按本规则归为症状的实体，4 对未被判为 supported，5 对涉及未捕获的实体提及；这些分歧尚未经独立裁决。]]</li>
+   <li>[[For these 12 papers, the mean was $0.38 and 70 s per paper including repairs ($0.30 for the first request). PubTator3 annotations are free to query.||这 12 篇论文平均每篇花费 $0.38、耗时 70 秒，包含修复；仅首次请求为 $0.30。PubTator3 的预计算标注可免费查询。]]</li>
+   <li>[[Our supported set excludes 12 pairs reported by PubTator3: 3 involve entities our rules classify as symptoms, 4 received non-supported labels, and 5 involve an entity we did not capture. The disagreements await independent review.||我们的 supported 集合未包含 PubTator3 报告的 12 对：3 对涉及本规则归为症状的实体，4 对未判为 supported，5 对涉及未捕获的实体。这些分歧尚未经过独立复核。]]</li>
    <li>[[Does not normalize entities to database identifiers (NCBI Gene / MeSH).||暂未将实体标准化映射至数据库标识符（NCBI Gene / MeSH）。]]</li>
   </ul></div>
  </div>
@@ -205,20 +205,20 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
   <div class="tile"><div class="k">[[vs PubTator3||对比 PubTator3]]</div><div class="v">972 vs 198</div><div class="s">[[90% of our relations rely on full text beyond the abstract||90% 的关系源自摘要以外的全文内容]]</div></div>
  </div>
  <div class="grid2">
-  <div class="panel"><h3>[[Issue resolved: format-induced repairs||已解决：格式偏差触发的修正请求]]</h3><p>[[Minor formatting deviations initially triggered token-consuming repair calls; we hardened the parser to tolerate benign syntax variations (resolved).||早期的细微格式偏差会触发额外的修正请求并消耗 token；现已增强解析器的容错能力以兼容常见语法变体（已解决）。]]</p></div>
-  <div class="panel"><h3>[[Analysis of the 25 papers with no supported relations||25 篇无 supported 关系文献的归因分析]]</h3>
-   <p>[[The pipeline returned no supported relations for 25 papers. The output review suggests the following categories; independent full-text adjudication is still needed before calling them true negatives.||系统在 25 篇论文中未返回 supported 关系。输出复核得到以下分类；在将其称为真阴性前，仍需独立的全文裁决。]]</p>
+  <div class="panel"><h3>[[Parser changes||解析器修改]]</h3><p>[[The parser now accepts common harmless syntax variations that previously triggered extra repair calls.||解析器现在兼容一些不影响含义的常见语法变化，减少由此触发的额外修复。]]</p></div>
+  <div class="panel"><h3>[[Papers with no supported output||未返回 supported 关系的论文]]</h3>
+   <p>[[The pipeline returned no supported relations for 25 papers. We grouped them by their captured entities; confirming them as true negatives will require independent full-text review.||有 25 篇论文未返回 supported 关系。按捕获的实体可分为以下几类，是否属于真阴性还需要独立阅读全文确认。]]</p>
    <ul><li>[[8 have no gene entities captured by the pipeline (e.g., dialysis timing, adolescent gambling, nanoparticle chemistry).||8 篇未捕获基因实体（如透析时机选择、青少年博彩行为、纳米颗粒化学）。]]</li>
    <li>[[8 have genes but no disease entities captured under our policy (e.g., fly chromatin, worm oocytes, plant transcriptomes).||8 篇捕获基因但未捕获本规则范围内的疾病实体（如果蝇染色质、线虫卵母细胞、植物转录组研究）。]]</li>
    <li>[[9 have both entity types but no pair labeled supported (e.g., assay markers or speculative discussion).||9 篇捕获两类实体，但没有配对被标记为 supported（如实验标志物或推测性讨论）。]]</li></ul>
-   <p>[[PubTator3 reported one relation across these same 25 papers. Agreement between systems does not by itself establish the absence of a relation.||PubTator3 在同一批 25 篇中报告 1 条关系。两个系统的一致未检出本身不能证明关系不存在。]]</p></div>
+   <p>[[PubTator3 reported one relation across these 25 papers. A relation missed by both systems would remain undetected in this comparison.||PubTator3 在这 25 篇中报告了 1 条关系。这种比较仍会遗漏两个系统都未检出的关系。]]</p></div>
  </div>
 </section>
 
 <section id="biored">
- <h2>[[Zero-shot evaluation on the BioRED benchmark||BioRED 基准语料库上的零样本评估]]</h2>
- <p class="kicker">[[BioRED contains 600 abstracts. We evaluated the 419 abstracts with at least one gold gene–disease relation (1,633 relations), applying the frozen V1 pipeline without task-specific training or prompt tuning on BioRED. Cost was $0.056 per abstract. The remaining 181 abstracts were not evaluated.||BioRED 共含 600 篇摘要。我们评估其中至少有一条金标准基因–疾病关系的 419 篇（共 1,633 条关系），使用冻结 V1 流程，未针对 BioRED 做任务训练或提示词调优。平均成本 $0.056/篇；其余 181 篇未评估。]]</p>
- <p class="note">[[Scoring unit: a gene–disease concept pair per abstract, aligned through overlapping mention spans. Relation-type agreement is not required. The reported scores are conditional on this relation-positive subset and are not the official full-task BioRED scores. Automated quote/offset checks verify provenance and structure, not semantic support.||评分单位为每篇摘要中的基因–疾病概念对，通过提及跨度重叠对齐，不要求关系类型一致。分数仅适用于该关系阳性子集，并非 BioRED 官方全任务分数。自动引文与偏移校验验证来源和结构，不验证语义支持。]]</p>
+ <h2>[[Evaluation on BioRED||BioRED 评估]]</h2>
+ <p class="kicker">[[BioRED has 600 abstracts. We used the 419 with at least one gold gene–disease relation (1,633 relations in total). We ran the frozen V1 configuration without BioRED-specific training or prompt tuning, at $0.056 per abstract. The other 181 abstracts were excluded.||BioRED 共 600 篇摘要。我们使用其中至少有一条金标准基因–疾病关系的 419 篇，共 1,633 条关系。运行时使用冻结的 V1 配置，未针对 BioRED 训练或调整提示词，平均成本为 $0.056/篇。其余 181 篇未纳入评估。]]</p>
+ <p class="note">[[We scored gene–disease pairs within each abstract by matching overlapping mention spans, without requiring the relation type to agree. These are scores for the relation-positive subset, not official full-task BioRED scores. Quote and offset checks confirm the cited source spans; semantic support still needs review.||我们按摘要内的基因–疾病对评分，通过提及跨度重叠匹配，不要求关系类型相同。这些分数适用于关系阳性子集，不是 BioRED 官方全任务分数。引文和偏移检查能确认引用位置，句子是否支持关系仍需复核。]]</p>
  <div class="grid2">
   <div class="panel scroll"><table>
    <tr><th></th><th class="num">[[Precision||精确率]]</th><th class="num">[[Recall||召回率]]</th><th class="num">F1</th></tr>
@@ -226,17 +226,17 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
    <tr><td>[[Supported + uncertain||宽口径（supported + uncertain）]]</td><td class="num">0.81</td><td class="num">0.58</td><td class="num">0.68</td></tr>
   </table></div>
   <div class="panel"><ul>
-   <li>[[<b>Scores by original split:</b> F1 is 0.58 / 0.61 / 0.54 on Train / Dev / Test. Their 95% confidence intervals overlap; this does not prove equivalence across splits.||<b>按原始划分报告：</b>Train / Dev / Test 的 F1 为 0.58 / 0.61 / 0.54。95% 置信区间相互重叠，但这不证明各子集表现等价。]]</li>
-   <li>[[<b>Same 50-abstract comparison:</b> precision was 0.84 vs 0.83, recall 0.41 vs 0.65, and F1 0.55 vs 0.73 (ours vs PubTator3). Similar precision estimates do not establish statistical equivalence. PubTator3 uses BioRED in training; its exact deployed training split was not verified.||<b>同一批 50 篇摘要对比：</b>本方法 vs PubTator3 的精确率为 0.84 vs 0.83，召回率为 0.41 vs 0.65，F1 为 0.55 vs 0.73。相近的精确率估计不代表统计等价。PubTator3 训练使用 BioRED，但未核实当前部署模型的具体训练划分。]]</li>
-   <li>[[<b>Missed-relation breakdown:</b> of 930 missed gold relations, 547 (59%) had both entities captured but received a non-supported label: 295 <i>not_found</i>, 240 <i>uncertain</i>, and 12 <i>explicit_negative</i>. Another 131 involved symptom/phenotype classification, 159 an uncaptured disease, and 93 an uncaptured gene. Independent adjudication is needed to separate policy differences from extraction errors.||<b>漏检分类：</b>930 条漏检金标准关系中，547 条（59%）已捕获两侧实体但未判为 supported：295 条 <i>not_found</i>、240 条 <i>uncertain</i>、12 条 <i>explicit_negative</i>。另有 131 条涉及症状/表型分类、159 条未捕获疾病、93 条未捕获基因。仍需独立裁决以区分规则范围差异与抽取错误。]]</li>
-   <li>[[<b>Source-label agreement:</b> 526 of 703 matched gold relations (75%) agree with BioRED's Novel/background labels; “both” is mapped to Novel. This is conditional on matched relations, not an end-to-end novelty score.||<b>来源标签一致率：</b>匹配的 703 条金标准关系中，526 条（75%）与 BioRED 的 Novel/背景标签一致；“两者兼有”映射为 Novel。该统计仅针对匹配关系，不是端到端新颖性判别分数。]]</li>
+   <li>[[Train / Dev / Test F1 scores were 0.58 / 0.61 / 0.54. The 95% confidence intervals overlap, so we have not established equivalent performance across splits.||Train / Dev / Test 的 F1 分别为 0.58 / 0.61 / 0.54，95% 置信区间重叠，目前还不能认定各子集表现等价。]]</li>
+   <li>[[On the same 50 abstracts, our precision was 0.84 vs PubTator3’s 0.83, recall 0.41 vs 0.65, and F1 0.55 vs 0.73. The precision estimates are close; equivalence was not established. PubTator3 uses BioRED in training, although we did not verify the deployed models’ exact training split.||在同一批 50 篇摘要上，本方法与 PubTator3 的精确率为 0.84 vs 0.83，召回率为 0.41 vs 0.65，F1 为 0.55 vs 0.73。精确率估计相近，但尚未证明等价。PubTator3 训练使用了 BioRED，我们未核实部署模型的具体训练划分。]]</li>
+   <li>[[Of 930 missed gold relations, 547 (59%) had both entities captured: 295 were labeled not_found, 240 uncertain and 12 explicit_negative. Another 131 involved symptom/phenotype classification, 159 an uncaptured disease and 93 an uncaptured gene. Manual review is needed to distinguish rule differences from extraction errors.||930 条漏检金标准关系中，547 条（59%）已捕获两侧实体：295 条标为 not_found，240 条 uncertain，12 条 explicit_negative。另有 131 条涉及症状/表型分类，159 条未捕获疾病，93 条未捕获基因。规则差异和抽取错误各占多少，还需要人工复核。]]</li>
+   <li>[[Source labels agreed with BioRED on 526/703 matched relations (75%), with "both" mapped to Novel. This measures agreement among matched relations, not end-to-end novelty detection.||在匹配的 703 条关系中，526 条来源标签与 BioRED 一致（75%）；“两者兼有”映射为 Novel。这衡量的是匹配关系上的一致性，不是端到端的新颖性识别表现。]]</li>
   </ul></div>
  </div>
 </section>
 
 <section id="graphs">
  <h2>[[Gene–disease bipartite graphs||基因–疾病二部图]]</h2>
- <p class="kicker">[[Final task deliverable: one bipartite graph per paper, with genes on one side, diseases on the other, and an edge wherever the text supports a relation. Every edge retains its supporting sentence and provenance label.||任务最终产出：为每篇论文构建一张基因–疾病二部图，一侧为基因节点，另一侧为疾病节点，在有原文证据支撑的配对间建立连边；每条连边均附带原文证据句与来源分类标签。]]</p>
+ <p class="kicker">[[Each paper has a bipartite graph with genes on one side and diseases on the other. Edges represent supported relations and retain the source sentences and study-finding/background labels.||每篇论文对应一张二部图，两侧分别为基因和疾病。连边表示 supported 关系，保留原文句子及本文发现/背景知识标签。]]</p>
  <div class="links">
   <a href="graphs/index.html">[[100 full-text papers||100 篇全文论文]]<span>[[972 supported links, with optional toggles for uncertain and negative pairs||包含 972 条 supported 连边，可按需切换显示 uncertain 与 negative 配对]]</span></a>
   <a href="graphs/merged.html">[[All 100 papers in one graph||100 篇文献全局合并网络]]<span>[[Every supported link aggregated into one network, with edge thickness proportional to supporting paper count||将全部 supported 连边聚合为一张全局网络，连边粗细反映支持该关系的论文数量]]</span></a>
@@ -245,22 +245,22 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
 </section>
 
 <section id="next">
- <h2>[[Future directions||后续研究计划]]</h2>
- <p>[[Priorities: independent full-text adjudication, targeted ablations of rules/evidence/repairs, and evaluation including relation-negative abstracts with one-to-one matching and relation-type scoring.||优先开展全文独立裁决、规则/证据要求/修复请求的针对性消融，并纳入关系阴性摘要，采用一对一匹配和关系类型评分。]]</p>
+ <h2>[[Next experiments||接下来做什么]]</h2>
+ <p>[[First, review full-text relations and missed pairs independently. Then test how much the rules, evidence requirements and repair requests each contribute. Broader evaluation should include relation-negative abstracts, one-to-one matching and relation-type scoring.||先独立复核全文关系和漏检配对，再分别测试规则、证据要求和修复请求的作用。后续评估还需要纳入关系阴性摘要，采用一对一匹配，并对关系类型评分。]]</p>
  <div class="grid2">
-  <div class="panel"><h3>[[Cross-model benchmarking||跨模型横向评估]]</h3><p>[[Evaluate GPT-6.1 Sol, GPT-6 Astra, and additional models on the same benchmark to assess cross-model generalizability and cost–accuracy trade-offs.||在同一基准上评估 GPT-6.1 Sol、GPT-6 Astra 及更多模型，系统考察方法跨模型泛化能力与成本–精度权衡。]]</p></div>
-  <div class="panel"><h3>[[Cost-efficient two-stage cascade||低成本两阶段级联架构]]</h3><p>[[Evaluate a local open-weight model for initial extraction and selective commercial-model verification.||评估用本地开放权重模型初步抽取，并选择性调用商业模型复核的方案。]]</p></div>
+  <div class="panel"><h3>[[Compare models||比较不同模型]]</h3><p>[[Run GPT-6.1 Sol, GPT-6 Astra and other models on the same benchmark to compare accuracy and cost.||在同一基准上运行 GPT-6.1 Sol、GPT-6 Astra 和其他模型，比较准确性和成本。]]</p></div>
+  <div class="panel"><h3>[[Try a local model||尝试本地模型]]</h3><p>[[Test a local open-weight model for initial extraction, with a commercial model checking selected results.||测试用本地开放权重模型初步抽取，再由商业模型复核部分结果的方案。]]</p></div>
  </div>
 </section>
 
 <section id="pages">
- <h2>[[Interactive result pages||交互式结果页面]]</h2>
+ <h2>[[Detailed results||详细结果]]</h2>
  <p class="note" data-l="zh">注：以下交互结果页内容为英文（二部图页面支持中英切换）。</p>
  <div class="links">
   <a href="results/ab/ab_summary.html">[[A/B test summary||A/B 测试汇总]]<span>[[V1 vs V2 vs V3 on the 12 frozen papers||12 篇冻结测试集上的 V1、V2、V3 详细对比]]</span></a>
   <a href="results/ab/v1_card_lean_medium/vs_pubtator.html">[[12 papers vs PubTator3||12 篇与 PubTator3 对比]]<span>[[Pair-by-pair comparison of relation disagreements, with supporting quotes||逐对展示关系判定分歧及原文证据句]]</span></a>
   <a href="results/full100/vs_pubtator.html">[[100 papers vs PubTator3||100 篇与 PubTator3 对比]]<span>[[Full-corpus comparison (about 1 MB; may take a moment to load)||全量语料对比详情（约 1 MB，加载需片刻）]]</span></a>
-  <a href="results/biored/biored_results.html">[[BioRED accuracy||BioRED 准确率详情]]<span>[[419 abstracts by dataset split, plus head-to-head comparison with PubTator3||419 篇摘要的分集统计及与 PubTator3 的同台对比]]</span></a>
+  <a href="results/biored/biored_results.html">[[BioRED results||BioRED 评估详情]]<span>[[419 abstracts by split, plus the 50-abstract PubTator3 comparison||419 篇摘要的分集统计，以及 50 篇摘要上的 PubTator3 对比]]</span></a>
   <a href="graphs/index.html">[[Bipartite graphs||交互式二部图]]<span>[[One gene–disease graph per paper across the 100 papers and BioRED||涵盖 100 篇全文与 BioRED 语料的逐篇基因–疾病二部图]]</span></a>
  </div>
 </section>

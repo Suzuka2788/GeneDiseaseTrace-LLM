@@ -49,13 +49,13 @@ select{font:inherit;padding:3px 6px;background:var(--panel);color:var(--ink);bor
 #tip{position:fixed;pointer-events:none;background:var(--panel);color:var(--ink);border:1px solid var(--ring);border-radius:6px;padding:8px 10px;font-size:12px;box-shadow:0 4px 16px rgba(0,0,0,.18);display:none;z-index:10;max-width:320px}
 @media (max-width:640px){.lead{font-size:17px}.reason{grid-template-columns:1fr 40px}.reason .b{grid-column:1/-1}}
 </style></head><body><main>
-<h1>Accuracy on BioRED: gene–disease relations</h1>
+<h1>BioRED gene–disease extraction results</h1>
 <p class="lead" id="lead"></p>
 <p class="sub" id="setup"></p>
 <div class="tiles" id="tiles"></div>
 
 <h2>Results by BioRED's original splits</h2>
-<p class="sub">The pipeline was not trained or prompt-tuned on BioRED. Results are reported separately for its original Train / Dev / Test splits. Overlapping confidence intervals do not establish equivalence, and foundation-model pretraining exposure was not assessed.</p>
+<p class="sub">We used BioRED's original Train / Dev / Test splits, without training or prompt tuning on them. We have not checked whether the foundation model saw BioRED during pretraining. The confidence intervals overlap; equivalence across splits remains untested.</p>
 <div class="panel" id="splits"></div>
 <p class="note">Strict setting; whiskers are bootstrap 95% intervals. Dev and Test have about 70 abstracts each, so their intervals are wider.</p>
 
@@ -66,7 +66,7 @@ select{font:inherit;padding:3px 6px;background:var(--panel);color:var(--ink);bor
 <p class="note">Metric rows share a 0–1 scale; count rows are scaled to their larger value. For our method, recall and F1 are shown strict and with pairs we flagged uncertain counted as predictions.</p>
 <div class="cols" style="margin-top:16px">
  <div class="panel"><h3 id="vennHead"></h3><div class="bar" id="vennBar"></div><div class="legend" id="vennKeys"></div><p class="note" id="vennNote"></p></div>
- <div class="panel"><h3 id="ptOnlyHead"></h3><div id="ptOnly"></div><p class="note">Most of the gap is pairs our method read and deliberately left at <i>uncertain</i> or <i>not_found</i>, plus symptoms and broad terms ("tumor", "infection") that BioRED and PubTator3 count as diseases and our rules do not.</p></div>
+ <div class="panel"><h3 id="ptOnlyHead"></h3><div id="ptOnly"></div><p class="note">The categories include non-supported judgments and differences in which entities count as diseases, such as symptoms and broad terms ("tumor", "infection"). Each disagreement still needs review.</p></div>
 </div>
 <div class="takeaway" id="h2hTake"></div>
 
@@ -76,13 +76,13 @@ select{font:inherit;padding:3px 6px;background:var(--panel);color:var(--ink);bor
 <p class="note">Whiskers: bootstrap 95% intervals (2,000 resamples of abstracts). <b>Strict</b>: every gold relation counts, only <i>supported</i> pairs are predictions. <b>Scope-adjusted</b>: gold relations whose "disease" our rules record as a symptom/phenotype are set aside. <b>Supported + uncertain</b>: pairs we flagged uncertain also count as predictions.</p>
 <div class="takeaway" id="takeaway"></div>
 
-<h2>What happened to every relation</h2>
+<h2>Matched, missed and additional relations</h2>
 <div class="cols">
  <div class="panel"><h3 id="goldHead"></h3><div class="bar" id="goldBar"></div><div class="legend" id="goldKeys"></div></div>
  <div class="panel"><h3 id="oursHead"></h3><div class="bar" id="oursBar"></div><div class="legend" id="oursKeys"></div></div>
 </div>
 
-<h2>Why gold relations were missed, and why we reported extra ones</h2>
+<h2>Missed and additional relations by category</h2>
 <div class="legend" id="famLegend"></div>
 <div class="cols">
  <div class="panel"><h3 id="fnHead"></h3><div id="fn"></div></div>
@@ -96,7 +96,7 @@ select{font:inherit;padding:3px 6px;background:var(--panel);color:var(--ink);bor
 </div>
 
 <h2>Selected examples</h2>
-<p class="note">Hand-picked to illustrate each kind of outcome; every row is in the full table below.</p>
+<p class="note">These examples were selected by hand to show different outcomes. They are not a random sample.</p>
 <div class="cols" id="examples"></div>
 
 <h2>How to read these numbers</h2>
@@ -186,8 +186,8 @@ OPS.forEach(([,lab,c])=>{const s=el("span",{class:"sw"});const d=el("span",{clas
 const axis=document.getElementById("axis");[0,.25,.5,.75,1].forEach(t=>{const s=el("span",{},t.toFixed(2));s.style.left=(100*SCALE*t)+"%";axis.append(s)});
 
 document.getElementById("takeaway").textContent =
- `Of ${C.fn} missed gold relations, ${Object.entries(R.fn_reasons).filter(([k])=>D.family[k]==="non-supported decision").reduce((a,[,n])=>a+n,0)} have both entities captured but a non-supported label, including not_found, uncertain and explicit_negative. This categorizes outputs, not the correctness of the rejection. ` +
- `Counting uncertain as positive moves recall from ${f2(R.strict.recall)} to ${f2(R.supported_or_uncertain.recall)} and precision from ${f2(R.strict.precision)} to ${f2(R.supported_or_uncertain.precision)}. Independent adjudication is needed to separate policy differences from extraction errors.`;
+ `Our method captured both entities for ${Object.entries(R.fn_reasons).filter(([k])=>D.family[k]==="non-supported decision").reduce((a,[,n])=>a+n,0)} of the ${C.fn} missed gold relations, then labeled the pair not_found, uncertain or explicit_negative. Manual review is needed to check those judgments. ` +
+ `Including uncertain pairs raises recall from ${f2(R.strict.recall)} to ${f2(R.supported_or_uncertain.recall)}, while precision falls from ${f2(R.strict.precision)} to ${f2(R.supported_or_uncertain.precision)}.`;
 
 // Outcome bars
 function bar(id, keysId, parts){const b=document.getElementById(id),k=document.getElementById(keysId);const tot=parts.reduce((a,p)=>a+p[1],0);
@@ -212,9 +212,9 @@ document.getElementById("ptOnlyHead").textContent=`The ${P.pt_only} relations on
     r.append(el("div",{},k.replace("our pair: ","read the pair, judged ")),w,el("div",{class:"n"},String(n)));box.append(r)})})();
 const deliberate = Object.entries(P.pt_only_our_reason).filter(([k])=>k.startsWith("our pair")).reduce((a,[,n])=>a+n,0);
 document.getElementById("h2hTake").textContent =
- `On this 50-abstract sample, precision estimates are ${f2(R50.strict.precision)} vs ${f2(PR.precision)}; PubTator3 has higher recall (${f2(PR.recall)} vs ${f2(R50.strict.recall)}) and F1 (${f2(PR.f1)} vs ${f2(R50.strict.f1)}). These results do not establish equal precision. ` +
- `${deliberate} of the ${P.pt_only} relations found only by PubTator3 received non-supported judgments from our pipeline. Their correctness requires separate review. ` +
- `Additional outputs include source labels (${pct(nov.agree, nov.compared)} agreement conditional on matched relations across ${D.papers.length} abstracts), quoted source sentences and uncertain states. Our method found ${P.ours_only} gold relations absent from the PubTator3 predictions.`;
+ `On these 50 abstracts, precision was ${f2(R50.strict.precision)} for our method and ${f2(PR.precision)} for PubTator3. PubTator3 had higher recall (${f2(PR.recall)} vs ${f2(R50.strict.recall)}) and F1 (${f2(PR.f1)} vs ${f2(R50.strict.f1)}); the similar precision estimates have not been tested for equivalence. ` +
+ `Our pipeline gave non-supported labels to ${deliberate} of the ${P.pt_only} relations reported only by PubTator3. Those judgments await review. ` +
+ `Our output also has source sentences, uncertain states and source labels (${pct(nov.agree, nov.compared)} agreement among matched relations across ${D.papers.length} abstracts). It includes ${P.ours_only} gold relations absent from PubTator3's predictions.`;
 
 // Reasons
 const FAMC = {"non-supported decision":"--c1","entity missing or excluded":"--mid","relation not annotated in gold":"--light","our error: endpoint taken as disease":"--c2"};

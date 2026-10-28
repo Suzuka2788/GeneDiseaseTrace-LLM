@@ -41,9 +41,9 @@ th{color:var(--ink2);font-weight:600}td.num,th.num{text-align:right;font-variant
 a{color:var(--c0)}
 #tip{position:fixed;pointer-events:none;background:var(--panel);color:var(--ink);border:1px solid var(--ring);border-radius:6px;padding:8px 10px;font-size:12px;box-shadow:0 4px 16px rgba(0,0,0,.18);display:none;z-index:10}
 </style></head><body><main>
-<h1>A/B test: how to run the extractor</h1>
-<p class="sub">Three variants of the same single-request pipeline (Claude Opus 5.5) on the same frozen benchmark of 12 unseen papers (7 research articles, 2 case reports incl. one in Spanish, 2 reviews, 1 brief report; 463k characters). Each variant's rules and settings are frozen before the run.</p>
-<p class="sub">There is no expert gold standard: the page compares cost, coverage and agreement. Agreement between variants is consistency, not accuracy.</p>
+<h1>Comparing three extraction configurations</h1>
+<p class="sub">We ran three configurations of the Claude Opus 5.5 pipeline on the same 12 papers: 7 research articles, 2 case reports (one in Spanish), 2 reviews and 1 brief report, totaling 463k characters. The papers were unseen by the pipeline, and each configuration's rules and settings were fixed before its run.</p>
+<p class="sub">These papers have no expert gold standard. We compare cost, output coverage and status agreement; accuracy still needs manual evaluation.</p>
 <div class="variants" id="variants"></div>
 
 <h2>The 12 benchmark papers</h2>
@@ -113,9 +113,9 @@ if (v3) tiles.push(["Effort medium vs low", `${pctChange(total(base,"seconds"), 
 tiles.push(["Working setting", base.short, `${base.description}: $${fmt(total(base,"cost")/12,2)} and ${Math.round(total(base,"seconds")/12)} s per paper, including repairs`]);
 tiles.forEach(([k,v,s])=>{const t=el("div",{class:"tile"});t.append(el("div",{class:"k"},k),el("div",{class:"v"},v),el("div",{class:"s"},s));document.getElementById("tiles").append(t)});
 document.getElementById("callout").textContent =
- `The baseline (${base.short}) was selected as the working configuration. More supported labels and high status agreement do not establish greater accuracy or equivalent quality. ` +
- (v2 ? `The largest label difference is in explicit negatives (${total(v2,"explicit_negative")} with full rules vs ${total(base,"explicit_negative")} with the card), mostly from one paper's CFTR variant comparisons. Those disagreements require independent adjudication. ` : "") +
- (v3 ? `Low effort used less time and cost, but labeled fewer pairs supported or uncertain. Completeness requires a gold standard.` : "");
+ `We used ${base.short} for the subsequent runs. It returned more supported labels, although we have not established which configuration is more accurate. ` +
+ (v2 ? `The largest difference was in explicit negatives (${total(v2,"explicit_negative")} with full rules vs ${total(base,"explicit_negative")} with the card), mainly from CFTR variant comparisons in one paper. These cases need manual review. ` : "") +
+ (v3 ? `Low effort cost less and ran faster, with fewer supported and uncertain labels.` : "");
 
 function bars(id, key, unit, decimals=0, divisor=1){
   const box=document.getElementById(id);const vals=V.map(v=>(typeof key==="function"?key(v):total(v,key))/divisor);const max=Math.max(...vals,1e-9);

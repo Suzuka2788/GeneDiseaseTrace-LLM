@@ -74,17 +74,17 @@ ul{margin:4px 0 0;padding-left:18px}li{margin:2px 0}
 <div class="panel" id="scorecard"></div>
 <p class="note">Each row is scaled to its own larger value.</p>
 
-<h2>How much of the other system's output each one covers</h2>
+<h2>Relation overlap</h2>
 <div class="panel" id="coverage"></div>
 <p class="note">Relations matched through aligned entities. Every segment is a disjoint count; the two bars use different totals.</p>
 <div class="takeaway" id="takeaway"></div>
 
-<h2>What each system gives you</h2>
+<h2>Output fields and cost</h2>
 <div class="panel"><table id="capabilities"></table></div>
-<div class="fair"><b>Where PubTator3 is ahead.</b> <span id="fair"></span></div>
+<div class="fair"><b>PubTator3.</b> <span id="fair"></span></div>
 
 <h2>Selected examples</h2>
-<p class="note">Hand-picked to illustrate each kind of difference; the full list is further down.</p>
+<p class="note">These examples were selected by hand to show different disagreements. They are not a random sample.</p>
 <div class="cols" id="examples"></div>
 
 <h2>Overlap by level</h2>
@@ -130,15 +130,14 @@ const pct = (a, b) => Math.round(100 * a / Math.max(1, b)) + "%";
 const n = x => Number(x).toLocaleString("en-US");
 const ratio = (K.our_supported / Math.max(1, K.pubtator_relations)).toFixed(1);
 const lead = document.getElementById("lead");
-lead.append("Our method reports ", el("b",{},`${ratio}× more gene–disease relations`), ` than PubTator3 (${n(K.our_supported)} vs ${n(K.pubtator_relations)}), and `,
-  el("b",{},"every one comes with the sentence that supports it"), ` — ${pct(K.evidence_body_only, K.our_supported)} of them from body text, tables or captions rather than the abstract.`);
+lead.append(`Our method reports ${n(K.our_supported)} gene–disease relations, compared with ${n(K.pubtator_relations)} from PubTator3 (${ratio} times as many). Each includes source sentences; ${pct(K.evidence_body_only, K.our_supported)} cite only body text, tables or captions.`);
 
 const tiles = [
  ["Relations reported", `${ratio}×`, `${n(K.our_supported)} by our method vs ${n(K.pubtator_relations)} by PubTator3`],
  ["Relations with quoted evidence", `${n(K.our_supported)} vs 0`, "each of ours cites the sentence(s) it rests on; PubTator gives a score only"],
  ["Evidence beyond the abstract", pct(K.evidence_body_only, K.our_supported), `${n(K.evidence_body_only)} of our ${n(K.our_supported)} relations rest only on body text, tables or captions`],
  K.this_study_shared < K.this_study
-  ? ["Papers' own findings PubTator misses", `${n(K.this_study - K.this_study_shared)} of ${n(K.this_study)}`, "relations our method attributes to the study itself that PubTator3 does not predict"]
+  ? ["Study-finding labels absent from PubTator3", `${n(K.this_study - K.this_study_shared)} of ${n(K.this_study)}`, "relations our method labels as study findings that PubTator3 does not predict"]
   : ["Agreement on the papers' own findings", `${n(K.this_study_shared)} of ${n(K.this_study)}`, "relations our method attributes to the study itself are also predicted by PubTator3"],
 ];
 if (K.spanish_genes) tiles.push(["Non-English paper", `${K.spanish_genes} vs 0 genes`, `Spanish full text: PubTator3 found no genes; we found ${K.spanish_genes} genes and ${K.spanish_relations} relations`]);
@@ -168,24 +167,24 @@ function coverage(head, total, parts){const box=el("div",{class:"cov"});const h=
     if(100*v/total>6)s.textContent=n(v);hover(s,`${label}: ${n(v)} (${pct(v,total)})`);bar.append(s);
     const k=el("span");const d=el("span",{class:"dot"});d.style.background=`var(${c})`;k.append(d,`${label} — ${n(v)}`);keys.append(k)});
   box.append(bar,keys);document.getElementById("coverage").append(box)}
-coverage(`Of PubTator3's <b>${n(K.pubtator_relations)}</b> relations, our method also supports <b>${n(K.pt_matched)} (${pct(K.pt_matched,K.pubtator_relations)})</b> and gives an explicit verdict on most of the rest`,
+coverage(`Our method supports <b>${n(K.pt_matched)} (${pct(K.pt_matched,K.pubtator_relations)})</b> of PubTator3's <b>${n(K.pubtator_relations)}</b> relations`,
   K.pubtator_relations,
   [[K.pt_matched,"--both","also supported by our method",true],
    [K.pt_only_judged,"--mid","we read the pair and judged it not supported (not_found / uncertain / negative)"],
    [K.pt_only_symptom,"--light","its 'disease' is a symptom/phenotype in our rules"],
    [K.pt_only_missing_entity,"--pt","we did not record one of the entities"]]);
-coverage(`Of our <b>${n(K.our_supported)}</b> relations, PubTator3 predicts only <b>${n(K.ours_matched)} (${pct(K.ours_matched,K.our_supported)})</b> — most of the rest it had both entities for`,
+coverage(`PubTator3 predicts <b>${n(K.ours_matched)} (${pct(K.ours_matched,K.our_supported)})</b> of our <b>${n(K.our_supported)}</b> relations`,
   K.our_supported,
   [[K.ours_matched,"--both","also predicted by PubTator3",true],
    [K.ours_only_pt_has_entities,"--mid","PubTator3 tagged both entities but predicted no relation"],
    [K.ours_only_missing_entity,"--ours","PubTator3 missed the gene or the disease"]]);
 
 document.getElementById("takeaway").textContent =
- `Reading: the relations only our method reports are not exotic — in ${n(K.ours_only_pt_has_entities)} of ${n(K.ours_only)} cases PubTator3 had already tagged both the gene and the disease and still drew no link. ` +
+ `For ${n(K.ours_only_pt_has_entities)} of the ${n(K.ours_only)} pairs reported only by our method, PubTator3 tagged both entities but predicted no relation. ` +
  (K.ours_only_background === K.ours_only
-   ? "All of them are established knowledge the paper restates, labelled background rather than new findings. "
-   : `${n(K.ours_only_background)} of them are established knowledge the paper restates (labelled background) and ${n(K.ours_only - K.ours_only_background)} are the paper's own results. `) +
- `Of PubTator3's ${n(K.pt_only)} relations we do not support, ${n(K.pt_only_judged + K.pt_only_symptom)} are deliberate decisions (pair read and not supported, or a symptom rather than a disease), and only ${n(K.pt_only_missing_entity)} trace to an entity we missed. ` +
+   ? "Our method labels all of these relations as background knowledge. "
+   : `Our method labels ${n(K.ours_only_background)} as background knowledge and ${n(K.ours_only - K.ours_only_background)} as the paper's own results. `) +
+ `Of the ${n(K.pt_only)} pairs reported only by PubTator3, ${n(K.pt_only_judged + K.pt_only_symptom)} received non-supported or symptom labels from our method; ${n(K.pt_only_missing_entity)} involve an entity it did not capture. These categories still need manual review. ` +
  `Cost: about $${K.cost_per_paper.toFixed(2)} and ${Math.round(K.seconds_per_paper)} s per paper.`;
 
 const caps = [
@@ -203,8 +202,8 @@ caps.forEach(([a,win,b,c])=>{const tr=el("tr");const ours=el("td",{class:"yes"})
   ours.append(el("span",{class:win?"check":"cross"},win?"✓":"–"),b);theirs.append(el("span",{class:win?"cross":"check"},win?"✗":"✓"),c);
   tr.append(el("td",{class:"no"},a),ours,theirs);ct.append(tr)});
 document.getElementById("fair").textContent =
- `It is precomputed and free to query, needs no model calls, and tags more disease mentions: ${n(K.diseases_pt_only)} disease entities appear only in PubTator3 — many are symptoms, general terms or abbreviation mis-normalisations, but some are real conditions we did not list. ` +
- `Its ${n(K.pt_only)} relations that we do not support are all listed in the table below for review.`;
+ `The annotations are precomputed and free to query. PubTator3 reports ${n(K.diseases_pt_only)} disease entities absent from our output, including symptoms, general terms, apparent abbreviation errors and conditions our method did not capture. ` +
+ `The disagreement table includes all ${n(K.pt_only)} relations reported only by PubTator3.`;
 
 const exBox = document.getElementById("examples");
 D.examples.forEach(r=>{const card=el("div",{class:"ex"});const tag=el("span",{class:"tag"},CAT[r.category].label);tag.style.background=col(r.category);
