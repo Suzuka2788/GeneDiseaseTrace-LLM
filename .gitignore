@@ -26,3 +26,6 @@ skills/
 # Full paper text exported by earlier rounds
 **/source_blocks.json
 **/source_blocks.txt
+
+# Public showcase site: its own git repository (GeneDiseaseTrace-LLM-site), built by scripts/build_site.py
+site/

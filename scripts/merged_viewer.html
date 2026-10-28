@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merged Gene–Disease Graph</title>
+<style>
+:root{--surface:#fcfcfb;--panel:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--grid:#e1e0d9;--ring:rgba(11,11,11,.10);
+--gene:#2a78d6;--dis:#eb6834;--link:#8f8d84;--hi:#0b0b0b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--surface:#1a1a19;--panel:#222220;--ink:#f0efec;--ink2:#c3c2b7;--grid:#2c2c2a;--ring:rgba(255,255,255,.10);--gene:#3987e5;--dis:#d95926;--link:#8a887f;--hi:#f0efec}}
+:root[data-theme="dark"]{--surface:#1a1a19;--panel:#222220;--ink:#f0efec;--ink2:#c3c2b7;--grid:#2c2c2a;--ring:rgba(255,255,255,.10);--gene:#3987e5;--dis:#d95926;--link:#8a887f;--hi:#f0efec}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--ink);font:14px/1.5 "Segoe UI",system-ui,-apple-system,sans-serif}
+main{max-width:1240px;margin:0 auto;padding:24px 16px 56px}
+a{color:var(--gene)}
+h1{font-size:26px;margin:6px 0 4px}.sub{color:var(--ink2);margin:0 0 12px;max-width:940px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0}
+.tile{background:var(--panel);border:1px solid var(--ring);border-radius:10px;padding:10px 14px}
+.tile .k{color:var(--ink2);font-size:12px}.tile .v{font-size:24px;font-weight:600;font-variant-numeric:tabular-nums}
+.controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:10px 0;color:var(--ink2);font-size:13px}
+input[type=search],select,button{font:inherit;padding:5px 8px;background:var(--panel);color:var(--ink);border:1px solid var(--ring);border-radius:6px}
+input[type=search]{min-width:260px}button{cursor:pointer}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink2);margin:4px 0 8px;align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.layout{display:grid;grid-template-columns:1fr 320px;gap:12px}
+@media (max-width:900px){.layout{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--ring);border-radius:10px;padding:12px 14px}
+#canvasBox{padding:0;overflow:hidden;position:relative;height:720px}
+#canvasBox svg{width:100%;height:100%;display:block;cursor:grab}
+.hint{position:absolute;left:10px;bottom:8px;font-size:12px;color:var(--ink2);pointer-events:none}
+.link{stroke:var(--link);stroke-opacity:.45;fill:none}
+.link.on{stroke:var(--hi);stroke-opacity:.9}
+.dim{opacity:.08}
+.node{cursor:pointer;stroke:var(--panel);stroke-width:1.5}
+.lab{font:11px "Segoe UI",system-ui,sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--surface);stroke-width:3px;pointer-events:none}
+#detail h3{margin:0 0 4px;font-size:16px}#detail .m{color:var(--ink2);font-size:12px;margin-bottom:6px}
+#detail ul{margin:4px 0;padding-left:18px}#detail li{margin:3px 0;font-size:13px}
+#detail .q{color:var(--ink2);font-size:12px;display:block}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--grid);padding:5px 8px;text-align:left;vertical-align:top}
+th{color:var(--ink2);font-weight:600}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-top:12px}
+details summary{cursor:pointer;color:var(--ink2);margin:6px 0}
+.note{color:var(--ink2);font-size:13px}
+html.zh [data-l="en"],html:not(.zh) [data-l="zh"]{display:none!important}
+.topbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.topbar a.go{display:inline-flex;align-items:center;gap:6px;text-decoration:none;padding:5px 12px;border:1px solid var(--ring);border-radius:999px;background:var(--panel)}
+.topbar a.go:hover{border-color:var(--gene)}
+.topbar .spacer{flex:1}
+#langBtn{border-radius:999px;font-size:13px;padding:5px 12px}
+#tip{position:fixed;pointer-events:none;background:var(--panel);color:var(--ink);border:1px solid var(--ring);border-radius:6px;padding:7px 10px;font-size:12px;box-shadow:0 4px 16px rgba(0,0,0,.18);display:none;z-index:10;max-width:320px}
+</style></head><body><main>
+<div class="topbar"><a class="go" href="../index.html">← GeneDiseaseTrace-LLM</a><a class="go" href="index.html"><span data-l="en">Per-paper graphs</span><span data-l="zh">逐篇二部图</span> →</a><span class="spacer"></span><button id="langBtn" type="button" aria-label="Switch language / 切换语言">中文</button></div>
+<h1><span data-l="en">All 100 papers in one gene–disease graph</span><span data-l="zh">100 篇论文合并为一张基因–疾病图</span></h1>
+<p class="sub"><span data-l="en">Every supported gene–disease link across the 100 papers, aggregated into one network. <b>Thicker lines indicate support from more papers</b>, while larger nodes appear in supported links across more papers. Genes and diseases are merged across papers by normalized surface form (case, hyphens, and apostrophes unified) rather than database ID, so lexical variants such as "Parkinson disease" and "Parkinson's disease" remain separate nodes.</span><span data-l="zh">将 100 篇论文中全部 supported 的基因–疾病关系聚合为一张全局网络。<b>支持某条连边的论文越多，连边越粗</b>；节点越大，代表其在越多篇论文的 supported 关系中出现。基因与疾病按规范化名称跨文献合并（统一大小写、连字符与撇号），暂未映射至数据库 ID，因此 "Parkinson disease" 与 "Parkinson's disease" 等同义表面写法仍保留为独立节点。</span></p>
+<div class="tiles" id="tiles"></div>
+<div class="controls">
+ <input type="search" id="q" list="names" placeholder="" aria-label="Find a gene or disease"><datalist id="names"></datalist>
+ <label><span data-l="en">Show entities in at least</span><span data-l="zh">仅显示出现在至少</span> <select id="min"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select> <span data-l="en">paper(s)</span><span data-l="zh">篇论文中的实体</span></label>
+ <button id="reset"><span data-l="en">Reset view</span><span data-l="zh">重置视图</span></button>
+</div>
+<div class="legend" id="legend"></div>
+<div class="layout">
+ <div class="panel" id="canvasBox"><div class="hint"><span data-l="en">Scroll to zoom · drag to pan · click a node or line for details</span><span data-l="zh">滚轮缩放 · 拖动平移 · 点击节点或连边查看详情</span></div></div>
+ <div class="panel" id="detail"></div>
+</div>
+<div class="cols">
+ <div class="panel"><b><span data-l="en">Links supported by more than one paper</span><span data-l="zh">由多篇论文共同支持的连边</span></b><table id="multi"></table></div>
+ <div class="panel"><b><span data-l="en">Most connected entities</span><span data-l="zh">连接度最高的枢纽实体</span></b><table id="hubs"></table></div>
+</div>
+<div class="panel" style="margin-top:12px"><details><summary><span data-l="en">All links as a table</span><span data-l="zh">全部连边汇总表</span></summary><div id="allBox"></div></details></div>
+</main><div id="tip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const ZH = {
+  "Links": "连边总数", "Genes": "基因节点", "Diseases": "疾病节点", "Links in 2+ papers": "多篇论文支持的连边", "Papers": "论文数",
+  "Gene": "基因", "Disease": "疾病", "gene": "基因", "disease": "疾病", "1 paper": "1 篇论文", "2 papers": "2 篇论文",
+  "node size: papers mentioning it in a link (1 → 5)": "节点大小：在多少篇论文的受支持关系中出现（1 → 5）",
+  "Click a gene, a disease, or a line to see the papers behind it.": "点击任一基因、疾病节点或连边，查看支撑该关系的文献详情。",
+  "Find a gene or disease": "搜索基因或疾病名称", "Link": "基因–疾病连边", "Paper IDs": "论文编号", "Entity": "实体名称", "Kind": "类别",
+  "Linked diseases": "关联疾病", "Linked genes": "关联基因", "written as": "原文表面写法",
+};
+let LANG = "en";
+try { LANG = new URLSearchParams(location.search).get("lang") || localStorage.getItem("gdt-lang") || "en"; } catch (e) {}
+if (LANG !== "zh") LANG = "en";
+document.documentElement.classList.toggle("zh", LANG === "zh"); document.documentElement.lang = LANG === "zh" ? "zh-CN" : "en";
+const T = s => (LANG === "zh" && ZH[s]) || s;
+const papersText = n => LANG === "zh" ? `${n} 篇论文` : `${n} paper${n > 1 ? "s" : ""}`;
+const linksText = n => LANG === "zh" ? `${n} 条连边` : `${n} link${n > 1 ? "s" : ""}`;
+const langBtn = document.getElementById("langBtn");
+langBtn.textContent = LANG === "zh" ? "English" : "中文";
+// The layout is deterministic, so switching language simply reloads the page in the other language.
+langBtn.addEventListener("click", () => { const next = LANG === "zh" ? "en" : "zh"; try { localStorage.setItem("gdt-lang", next); } catch (e) {}
+  const u = new URL(location.href); u.searchParams.set("lang", next); location.href = u.toString(); });
+document.getElementById("q").placeholder = T("Find a gene or disease");
+const emptyDetail = () => `<p class="note">${T("Click a gene, a disease, or a line to see the papers behind it.")}</p>`;
+document.getElementById("detail").innerHTML = emptyDetail();
+const tip = document.getElementById("tip");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const el = (tag, attrs = {}, text) => { const n = document.createElement(tag); Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v)); if (text !== undefined) n.textContent = text; return n; };
+function showTip(e, html) { tip.innerHTML = html; tip.style.display = "block"; moveTip(e); }
+function moveTip(e) { let x = e.clientX + 14, y = e.clientY + 14; if (x + tip.offsetWidth > innerWidth - 8) x = e.clientX - tip.offsetWidth - 14; if (y + tip.offsetHeight > innerHeight - 8) y = e.clientY - tip.offsetHeight - 14; tip.style.left = x + "px"; tip.style.top = y + "px"; }
+const hideTip = () => tip.style.display = "none";
+const paperLink = id => `index.html#${id}`;
+
+fetch("merged100.json").then(r => r.json()).then(D => {
+  const byId = Object.fromEntries(D.nodes.map(n => [n.id, n]));
+  const w = e => e.papers.length;
+  const radius = n => 3 + 2.6 * Math.sqrt(n.papers.length);
+  const stroke = e => 1.2 + 2.6 * (w(e) - 1);
+  const deg = {}; D.edges.forEach(e => { deg[e.g] = (deg[e.g] || 0) + 1; deg[e.d] = (deg[e.d] || 0) + 1; });
+
+  // Tiles and legend
+  const multi = D.edges.filter(e => w(e) > 1).sort((a, b) => w(b) - w(a));
+  [["Links", D.edges.length], ["Genes", D.nodes.filter(n => n.side === "g").length], ["Diseases", D.nodes.filter(n => n.side === "d").length],
+   ["Links in 2+ papers", multi.length], ["Papers", Object.keys(D.titles).length]].forEach(([k, v]) => {
+    const t = el("div", {class: "tile"}); t.append(el("div", {class: "k"}, T(k)), el("div", {class: "v"}, String(v))); document.getElementById("tiles").append(t); });
+  const lg = document.getElementById("legend");
+  lg.innerHTML = `<span><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--gene)"/></svg>${T("Gene")}</span>
+   <span><svg width="14" height="14"><rect x="2" y="2" width="10" height="10" fill="var(--dis)"/></svg>${T("Disease")}</span>
+   <span><svg width="30" height="10"><line x1="1" y1="5" x2="29" y2="5" stroke="var(--link)" stroke-width="1.2"/></svg>${T("1 paper")}</span>
+   <span><svg width="30" height="10"><line x1="1" y1="5" x2="29" y2="5" stroke="var(--link)" stroke-width="3.8"/></svg>${T("2 papers")}</span>
+   <span><svg width="44" height="22"><circle cx="8" cy="11" r="5.6" fill="none" stroke="var(--ink2)"/><circle cx="30" cy="11" r="8.8" fill="none" stroke="var(--ink2)"/></svg>${T("node size: papers mentioning it in a link (1 → 5)")}</span>`;
+
+  // Simulation (run up front so the picture does not jiggle)
+  const nodes = D.nodes.map(n => ({...n})), links = D.edges.map(e => ({...e, source: e.g, target: e.d}));
+  const box = document.getElementById("canvasBox"), W = box.clientWidth, H = box.clientHeight;
+  const sim = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(28).strength(0.6))
+    .force("charge", d3.forceManyBody().strength(-26).distanceMax(220))
+    .force("collide", d3.forceCollide(d => radius(d) + 1.5))
+    .force("x", d3.forceX(0).strength(0.035)).force("y", d3.forceY(0).strength(0.035)).stop();
+  for (let i = 0; i < 320; i++) sim.tick();
+
+  const svg = d3.select(box).append("svg").attr("viewBox", [-W / 2, -H / 2, W, H]).attr("role", "img")
+    .attr("aria-label", `Merged graph: ${D.edges.length} links between ${nodes.length} genes and diseases`);
+  const root = svg.append("g");
+  const zoom = d3.zoom().scaleExtent([0.2, 8]).on("zoom", ev => { root.attr("transform", ev.transform); labels.attr("display", d => showLabel(d, ev.transform.k) ? null : "none"); });
+  svg.call(zoom);
+  const fit = () => { const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y); const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+    const k = 0.92 * Math.min(W / (x1 - x0 + 40), H / (y1 - y0 + 40)); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2)); };
+
+  const linkSel = root.append("g").selectAll("line").data(links).join("line").attr("class", "link")
+    .attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+    .attr("stroke-width", stroke);
+  // wide invisible hit targets for lines
+  root.append("g").selectAll("line").data(links).join("line").attr("stroke", "transparent").attr("stroke-width", 8).style("cursor", "pointer")
+    .attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y)
+    .on("mouseenter", (ev, d) => showTip(ev, `<b>${esc(d.source.name)} → ${esc(d.target.name)}</b>${papersText(w(d))}`))
+    .on("mousemove", moveTip).on("mouseleave", hideTip).on("click", (ev, d) => { ev.stopPropagation(); selectEdge(d); });
+  const nodeSel = root.append("g").selectAll("path").data(nodes).join("path").attr("class", "node")
+    .attr("d", d => d.side === "g" ? d3.symbol(d3.symbolCircle, Math.PI * radius(d) ** 2)() : d3.symbol(d3.symbolSquare, (1.8 * radius(d)) ** 2)())
+    .attr("transform", d => `translate(${d.x},${d.y})`).attr("fill", d => d.side === "g" ? "var(--gene)" : "var(--dis)")
+    .attr("tabindex", 0).attr("role", "button").attr("aria-label", d => `${d.name}, ${d.side === "g" ? "gene" : "disease"}, ${d.papers.length} papers`)
+    .on("mouseenter", (ev, d) => showTip(ev, `<b>${esc(d.name)}</b>${T(d.side === "g" ? "Gene" : "Disease")} · ${papersText(d.papers.length)} · ${linksText(deg[d.id])}`))
+    .on("mousemove", moveTip).on("mouseleave", hideTip).on("click", (ev, d) => { ev.stopPropagation(); selectNode(d, false); })
+    .on("keydown", (ev, d) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); selectNode(d, true); } });
+  let focus = null;
+  const showLabel = (d, k) => (focus && (d.id === focus || neighbours(focus).has(d.id))) || d.papers.length >= 3 || (k > 2.2 && d.papers.length >= 2) || k > 4;
+  const labels = root.append("g").selectAll("text").data(nodes).join("text").attr("class", "lab")
+    .attr("x", d => d.x + radius(d) + 3).attr("y", d => d.y + 4).text(d => d.name.length > 32 ? d.name.slice(0, 31) + "…" : d.name)
+    .attr("display", d => showLabel(d, 1) ? null : "none");
+  const neighbours = id => new Set(links.filter(l => l.source.id === id || l.target.id === id).flatMap(l => [l.source.id, l.target.id]));
+
+  function highlight(ids, edgeTest) {
+    nodeSel.classed("dim", d => ids && !ids.has(d.id)); labels.classed("dim", d => ids && !ids.has(d.id));
+    linkSel.classed("dim", d => ids && !edgeTest(d)).classed("on", d => !!ids && edgeTest(d));
+    const k = d3.zoomTransform(svg.node()).k; labels.attr("display", d => showLabel(d, k) ? null : "none");
+  }
+  function clear() { focus = null; highlight(null); document.getElementById("detail").innerHTML = emptyDetail(); }
+  svg.on("click", clear);
+
+  function selectNode(d, zoomTo) {
+    focus = d.id; const nb = neighbours(d.id); highlight(nb.add(d.id), l => l.source.id === d.id || l.target.id === d.id);
+    const box = document.getElementById("detail"); box.innerHTML = "";
+    box.append(el("h3", {}, d.name), el("div", {class: "m"}, `${T(d.side === "g" ? "Gene" : "Disease")} · ${LANG === "zh" ? "出现在 " + papersText(d.papers.length) + "的 supported 连边中" : "in supported links in " + papersText(d.papers.length)}${d.aka.length > 1 ? " · " + T("written as") + ": " + d.aka.join(", ") : ""}`));
+    const mine = links.filter(l => l.source.id === d.id || l.target.id === d.id).sort((a, b) => w(b) - w(a));
+    box.append(el("b", {}, `${T(d.side === "g" ? "Linked diseases" : "Linked genes")} (${mine.length})`));
+    const ul = el("ul"); mine.forEach(l => { const other = l.source.id === d.id ? l.target : l.source; const li = el("li");
+      const a = el("a", {href: "#"}, other.name); a.addEventListener("click", ev => { ev.preventDefault(); selectEdge(l); });
+      li.append(a, ` · ${papersText(w(l))}`); ul.append(li); }); box.append(ul);
+    box.append(el("b", {}, T("Papers"))); const pl = el("ul");
+    d.papers.forEach(p => { const li = el("li"); li.append(el("a", {href: paperLink(p)}, p), " · " + (D.titles[p] || "").slice(0, 90)); pl.append(li); }); box.append(pl);
+    if (zoomTo) svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity.scale(2.4).translate(-d.x, -d.y));
+  }
+  function selectEdge(l) {
+    focus = null; highlight(new Set([l.source.id, l.target.id]), x => x === l);
+    const box = document.getElementById("detail"); box.innerHTML = "";
+    box.append(el("h3", {}, `${l.source.name} → ${l.target.name}`), el("div", {class: "m"}, LANG === "zh" ? `${papersText(w(l))}支持` : `Supported in ${papersText(w(l))}`));
+    const ul = el("ul"); l.papers.forEach(p => { const li = el("li"); li.append(el("a", {href: paperLink(p.paper)}, p.paper), ` · ${p.src}${p.rel && p.rel !== "none" ? ", " + p.rel : ""}`);
+      if (p.quote) li.append(el("span", {class: "q"}, "“" + p.quote + "”")); ul.append(li); }); box.append(ul);
+  }
+
+  // Search and filter
+  const dl = document.getElementById("names"); D.nodes.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach(n => dl.append(el("option", {value: n.name})));
+  document.getElementById("q").addEventListener("change", ev => { const v = ev.target.value.trim().toLowerCase();
+    const hit = nodes.find(n => n.name.toLowerCase() === v) || nodes.find(n => n.name.toLowerCase().includes(v)); if (hit) selectNode(hit, true); });
+  document.getElementById("min").addEventListener("change", ev => { const m = +ev.target.value;
+    const keep = new Set(nodes.filter(n => n.papers.length >= m).map(n => n.id));
+    nodeSel.attr("display", d => keep.has(d.id) ? null : "none"); labels.attr("display", d => keep.has(d.id) && showLabel(d, d3.zoomTransform(svg.node()).k) ? null : "none");
+    linkSel.attr("display", d => keep.has(d.source.id) && keep.has(d.target.id) ? null : "none"); });
+  document.getElementById("reset").addEventListener("click", () => { clear(); document.getElementById("min").value = "1"; document.getElementById("min").dispatchEvent(new Event("change")); fit(); });
+  fit();
+
+  // Tables (also the accessible view of the graph)
+  const linkRow = (t, l) => { const tr = el("tr"); const a = el("a", {href: "#"}, `${byId[l.g].name} → ${byId[l.d].name}`);
+    a.addEventListener("click", ev => { ev.preventDefault(); selectEdge(links.find(x => x.g === l.g && x.d === l.d)); window.scrollTo({top: box.offsetTop - 10, behavior: "smooth"}); });
+    const td = el("td"); td.append(a); tr.append(td, el("td", {class: "num"}, String(w(l))), el("td", {}, l.papers.map(p => p.paper).join(", "))); t.append(tr); };
+  const mt = document.getElementById("multi"); mt.innerHTML = `<tr><th>${T("Link")}</th><th class="num">${T("Papers")}</th><th>${T("Paper IDs")}</th></tr>`; multi.forEach(l => linkRow(mt, l));
+  const ht = document.getElementById("hubs"); ht.innerHTML = `<tr><th>${T("Entity")}</th><th>${T("Kind")}</th><th class="num">${T("Papers")}</th><th class="num">${T("Links")}</th></tr>`;
+  D.nodes.slice().sort((a, b) => b.papers.length - a.papers.length || deg[b.id] - deg[a.id]).slice(0, 15).forEach(n => { const tr = el("tr");
+    const a = el("a", {href: "#"}, n.name); a.addEventListener("click", ev => { ev.preventDefault(); selectNode(nodes.find(x => x.id === n.id), true); window.scrollTo({top: box.offsetTop - 10, behavior: "smooth"}); });
+    const td = el("td"); td.append(a); tr.append(td, el("td", {}, T(n.side === "g" ? "gene" : "disease")), el("td", {class: "num"}, String(n.papers.length)), el("td", {class: "num"}, String(deg[n.id]))); ht.append(tr); });
+  const at = el("table"); at.innerHTML = `<tr><th>${T("Link")}</th><th class="num">${T("Papers")}</th><th>${T("Paper IDs")}</th></tr>`;
+  D.edges.slice().sort((a, b) => w(b) - w(a) || byId[a.g].name.localeCompare(byId[b.g].name)).forEach(l => linkRow(at, l)); document.getElementById("allBox").append(at);
+}).catch(err => { document.getElementById("canvasBox").textContent = "Could not load the graph (" + err + "). Open this page through a web server."; });
+</script>
+</body></html>
