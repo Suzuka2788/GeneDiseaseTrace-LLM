@@ -82,7 +82,6 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
  <p class="tag">[[Evidence-grounded gene–disease relation extraction from full-text biomedical literature, with sentence-level provenance and cost-efficient LLM workflows.||基于证据的生物医学全文文献基因–疾病关系抽取：具备原文句级溯源与高性价比 LLM 工作流。]]</p>
  <div class="by">[[Task presentation · Zeqian Tong · October 28, 2026||任务汇报 · Zeqian Tong · 2026 年 10 月 28 日]]</div>
  <div class="tiles">
-  <div class="tile"><div class="k">[[Papers processed||处理论文]]</div><div class="v">100 / 100</div><div class="s">[[full-text PMC articles, all passing validation||PMC 全文论文，全部通过格式校验]]</div></div>
   <div class="tile"><div class="k">[[Supported relations||Supported 关系]]</div><div class="v">972</div><div class="s">[[each anchored to its source sentence; PubTator3: 198||每条均锚定原文证据句；PubTator3 为 198 条]]</div></div>
   <div class="tile"><div class="k">[[Precision on BioRED||BioRED 精确率]]</div><div class="v">0.89</div><div class="s">[[419 expert-annotated abstracts, zero-shot||419 篇专家标注摘要，零样本评估]]</div></div>
   <div class="tile"><div class="k">[[Cost per paper||单篇成本]]</div><div class="v">$0.44</div><div class="s">[[78 s; reduced from $1.26 in agent mode||耗时 78 秒；较 agent 模式的 $1.26 大幅下降]]</div></div>
@@ -226,7 +225,7 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
   <div class="panel"><ul>
    <li>[[<b>Consistent across Train / Dev / Test splits:</b> F1 is 0.58 / 0.61 / 0.54, with overlapping 95% confidence intervals.||<b>在 Train / Dev / Test 子集上表现稳健：</b>F1 分别为 0.58 / 0.61 / 0.54，且 95% 置信区间相互重叠。]]</li>
    <li>[[<b>Matches PubTator3 precision</b> on 50 test abstracts (0.84 vs 0.83), even though PubTator3 is trained on BioRED. PubTator3's recall is higher (0.65 vs 0.41).||<b>精确率与 PubTator3 持平</b>：在 50 篇测试摘要上达到 0.84 vs 0.83（尽管 PubTator3 在 BioRED 上训练）；PubTator3 的召回率更高（0.65 vs 0.41）。]]</li>
-   <li>[[<b>Recall gap analysis:</b> 59% of the missed relations were explicitly evaluated by our pipeline and classified as <i>not_found</i> or <i>uncertain</i> under stricter evidence thresholds; the remainder mostly involve clinical symptoms or broad terms (e.g., "tumor", "infection") that BioRED annotates as diseases.||<b>召回率差异归因：</b>59% 的未召回关系实际上已被系统评估，但因更严格的证据标准而被审慎归类为 <i>not_found</i> 或 <i>uncertain</i>；其余未召回项主要源于 BioRED 将临床症状或宽泛表型（如 "tumor"、"infection"）标注为疾病实体。]]</li>
+   <li>[[<b>Recall gap analysis:</b> 59% of the missed relations were explicitly evaluated by our pipeline and classified as <i>not_found</i> or <i>uncertain</i> under stricter evidence thresholds; the remainder mostly involve clinical symptoms or broad terms (e.g., "tumor", "infection") that BioRED annotates as diseases.||<b>召回率差异归因：</b>59% 的未召回关系实际上已被系统评估，但因更严格的证据标准而被审慎归类为 <i>not_found</i> 或 <i>uncertain</i>；其余未召回项主要源于 BioRED 将临床症状或宽泛术语（如 "tumor"、"infection"）标注为疾病实体。]]</li>
   </ul></div>
  </div>
 </section>
