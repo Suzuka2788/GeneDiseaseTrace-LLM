@@ -50,7 +50,7 @@ html.zh [data-l="en"],html:not(.zh) [data-l="zh"]{display:none!important}
 </style></head><body><main>
 <div class="topbar"><a class="go" href="../index.html">← GeneDiseaseTrace-LLM</a><a class="go" href="index.html"><span data-l="en">Per-paper graphs</span><span data-l="zh">逐篇二部图</span> →</a><span class="spacer"></span><button id="langBtn" type="button" aria-label="Switch language / 切换语言">中文</button></div>
 <h1><span data-l="en">All 100 papers in one gene–disease graph</span><span data-l="zh">100 篇论文合并为一张基因–疾病图</span></h1>
-<p class="sub"><span data-l="en">Every supported gene–disease link across the 100 papers, aggregated into one network. <b>Thicker lines indicate support from more papers</b>, while larger nodes appear in supported links across more papers. Genes and diseases are merged across papers by normalized surface form (case, hyphens, and apostrophes unified) rather than database ID, so lexical variants such as "Parkinson disease" and "Parkinson's disease" remain separate nodes.</span><span data-l="zh">将 100 篇论文中全部 supported 的基因–疾病关系聚合为一张全局网络。<b>支持某条连边的论文越多，连边越粗</b>；节点越大，代表其在越多篇论文的 supported 关系中出现。基因与疾病按规范化名称跨文献合并（统一大小写、连字符与撇号），暂未映射至数据库 ID，因此 "Parkinson disease" 与 "Parkinson's disease" 等同义表面写法仍保留为独立节点。</span></p>
+<p class="sub"><span data-l="en">Every supported gene–disease link across the 100 papers, aggregated into one network. <b>Thicker lines indicate support from more papers</b>, while larger nodes appear in supported links across more papers. Genes and diseases are merged across papers by normalized surface form (case, hyphens, and apostrophes unified) rather than database ID, so lexical variants such as "Parkinson disease" and "Parkinson's disease" remain separate nodes.</span><span data-l="zh">将 100 篇论文中全部 supported 的基因–疾病关系聚合为一张全局网络。<b>支持某条连边的论文越多，连边越粗</b>；节点越大，代表其在越多篇论文的 supported 关系中出现。基因与疾病按规范化名称跨文献合并（统一大小写、连字符与撇号），暂未映射至数据库 ID，因此 "Parkinson disease" 与 "Parkinson's disease" 等同义写法仍保留为独立节点。</span></p>
 <div class="tiles" id="tiles"></div>
 <div class="controls">
  <input type="search" id="q" list="names" placeholder="" aria-label="Find a gene or disease"><datalist id="names"></datalist>
@@ -76,7 +76,7 @@ const ZH = {
   "node size: papers mentioning it in a link (1 → 5)": "节点大小：在多少篇论文的受支持关系中出现（1 → 5）",
   "Click a gene, a disease, or a line to see the papers behind it.": "点击任一基因、疾病节点或连边，查看支撑该关系的文献详情。",
   "Find a gene or disease": "搜索基因或疾病名称", "Link": "基因–疾病连边", "Paper IDs": "论文编号", "Entity": "实体名称", "Kind": "类别",
-  "Linked diseases": "关联疾病", "Linked genes": "关联基因", "written as": "原文表面写法",
+  "Linked diseases": "关联疾病", "Linked genes": "关联基因", "written as": "原文写法",
 };
 let LANG = "en";
 try { LANG = new URLSearchParams(location.search).get("lang") || localStorage.getItem("gdt-lang") || "en"; } catch (e) {}

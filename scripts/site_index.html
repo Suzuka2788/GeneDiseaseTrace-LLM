@@ -102,20 +102,20 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
  <h2>[[Experiment workflow design||实验流程设计]]</h2>
  <p class="kicker">[[Baseline: PubTator3. Models evaluated in blind tests: Claude Opus 5.5, GPT-6.1 Sol, and GPT-6 Astra.||对比基线：PubTator3。盲测评估模型：Claude Opus 5.5、GPT-6.1 Sol 与 GPT-6 Astra。]]</p>
  <div class="flow">
-  <div class="step"><span class="n">1</span><b>[[Rules as a skill||规则模块化为 skill]]</b><p>[[Codify the extraction workflow and decision criteria in a standardized skill.md.||在标准化 skill.md 中明确定义抽取流程与判定准则。]]</p></div>
+  <div class="step"><span class="n">1</span><b>[[Rules as a skill||将规则写成 skill]]</b><p>[[Codify the extraction workflow and decision criteria in a standardized skill.md.||在标准化 skill.md 中明确定义抽取流程与判定准则。]]</p></div>
   <div class="step"><span class="n">2</span><b>[[Tune on one paper||单篇论文调优]]</b><p>[[Refine the workflow on 1 paper; hold out 5–10 papers for formal evaluation.||在 1 篇论文上调优流程，预留 5–10 篇用于正式对比评估。]]</p></div>
   <div class="step"><span class="n">3</span><b>[[Blind test||独立盲测]]</b><p>[[Evaluate the paper in fresh, unprimed sessions using only the written rules.||在无先验上下文的全新会话中，仅依据书面规则独立重测。]]</p></div>
-  <div class="step"><span class="n">4</span><b>[[Format verification||契约格式校验]]</b><p>[[A contract validator verifies every quote, character offset, and table.||契约校验器自动核验每条引文、字符偏移量与输出表格。]]</p></div>
-  <div class="step"><span class="n">5</span><b>[[Result table||成对结果比对]]</b><p>[[Compare models and rule versions at the pair level.||在实体对粒度上横向对比不同模型与规则版本。]]</p></div>
+  <div class="step"><span class="n">4</span><b>[[Format verification||格式校验]]</b><p>[[A contract validator verifies every quote, character offset, and table.||格式校验器自动核验每条引文、字符偏移量与输出表格。]]</p></div>
+  <div class="step"><span class="n">5</span><b>[[Result table||结果对比表]]</b><p>[[Compare models and rule versions at the pair level.||在实体对粒度上横向对比不同模型与规则版本。]]</p></div>
  </div>
- <div class="loop">[[↺ Feedback loop: disagreements are codified as new rules or boundary cases for the next iteration.||↺ 迭代闭环：将分歧案例提炼为补充规则或边界测试集，驱动下一轮迭代。]]</div>
+ <div class="loop">[[↺ Feedback loop: disagreements are codified as new rules or boundary cases for the next iteration.||↺ 迭代闭环：将分歧案例提炼为补充规则或边界案例，驱动下一轮迭代。]]</div>
 </section>
 
 <section id="method">
  <h2>[[Method development||方法构建与演进]]</h2>
  <div class="panel"><ul>
   <li>[[Reviewed existing systems and selected <b>PubTator3</b> as the comparison baseline.||调研现有系统，选定 <b>PubTator3</b> 作为对比基线。]]</li>
-  <li>[[Developed extraction rules across <b>5 pilot papers</b> (iterating from Skill 1.0 to 1.3) and curated <b>35 boundary cases</b> to validate rule consistency.||基于 <b>5 篇先导论文</b>制定抽取规则（由 Skill 1.0 迭代至 1.3），并构建 <b>35 个边界案例</b>以验证规则一致性。]]</li>
+  <li>[[Developed extraction rules across <b>5 pilot papers</b> (iterating from Skill 1.0 to 1.3) and curated <b>35 boundary cases</b> to validate rule consistency.||基于 <b>5 篇试点论文</b>制定抽取规则（由 Skill 1.0 迭代至 1.3），并构建 <b>35 个边界案例</b>以验证规则一致性。]]</li>
   <li>[[Distilled the full rule specification into a compact <b>decision card</b> to reduce token overhead and interaction turns, preserving fidelity to the full rules (<b>110/112</b> boundary-case decisions agree, stable across 3 runs).||将完整规则精炼为紧凑的<b>判定卡（decision card）</b>以缩减 token 开销与交互轮次，并验证其与完整规则高度一致（<b>110/112</b> 个边界案例判定吻合，且跨 3 次运行保持稳定）。]]</li>
   <li>[[Evaluated prompt and reasoning variants via a controlled <b>A/B test</b> on a frozen set of 12 papers.||在固定的 12 篇测试集上通过受控 <b>A/B 测试</b>评估不同规则与推理配置。]]</li>
   <li>[[Deployed the selected configuration across <b>all 100 papers</b> and benchmarked zero-shot accuracy on the expert-annotated <b>BioRED</b> corpus.||将最终配置部署于<b>全部 100 篇论文</b>，并在专家标注的 <b>BioRED</b> 基准语料库上评估准确率。]]</li>
@@ -154,7 +154,7 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
 
 <section id="ab">
  <h2>[[A/B test: rule compression and thinking intensity||A/B 测试：规则压缩与推理强度]]</h2>
- <p class="kicker">[[12 papers frozen prior to testing: 7 research articles (2 short, 3 medium, 2 long), 2 case reports (one in Spanish), 2 reviews, and 1 brief report. Evaluated with the same model at one request per paper.||测试前冻结的 12 篇代表性文献：7 篇研究论文（2 短、3 中、2 长）、2 篇病例报告（含 1 篇西班牙语文献）、2 篇综述与 1 篇简报；均采用同一模型以单次请求完成评估。]]</p>
+ <p class="kicker">[[12 papers frozen prior to testing: 7 research articles (2 short, 3 medium, 2 long), 2 case reports (one in Spanish), 2 reviews, and 1 brief report. Evaluated with the same model at one request per paper.||测试前冻结的 12 篇论文：7 篇研究论文（2 短、3 中、2 长）、2 篇病例报告（含 1 篇西班牙语文献）、2 篇综述与 1 篇简报；均采用同一模型以单次请求完成评估。]]</p>
  <div class="panel scroll"><table>
   <tr><th></th><th class="num">[[V1 · card, medium||V1 · 判定卡，中等推理]]</th><th class="num">[[V2 · full rules, medium||V2 · 完整规则，中等推理]]</th><th class="num">[[V3 · card, low||V3 · 判定卡，低推理]]</th></tr>
   <tr><td>[[Cost, 12 papers||总成本（12 篇）]]</td><td class="num">$3.55</td><td class="num">$4.01</td><td class="num"><b>$2.71</b></td></tr>
@@ -175,7 +175,7 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
  <p class="kicker">[[Both systems processed identical parsed full text with entities aligned by character offset; neither is treated as ground truth.||两套系统均基于相同的解析全文运行，并按字符偏移量对齐实体；双方均不预设为真值标准。]]</p>
  <div class="tiles">
   <div class="tile"><div class="k">[[Relations reported||检出关系数]]</div><div class="v">64 vs 23</div><div class="s">[[ours vs PubTator3; 11 found by both||本方法 vs PubTator3；双方共同检出 11 条]]</div></div>
-  <div class="tile"><div class="k">[[Beyond the abstract||摘要以外证据占比]]</div><div class="v">81%</div><div class="s">[[of our relations rely on body text, tables, or captions||的关系源自正文、表格或图注]]</div></div>
+  <div class="tile"><div class="k">[[Beyond the abstract||摘要以外证据占比]]</div><div class="v">81%</div><div class="s">[[of our relations rely on body text, tables, or captions||我们的关系依据正文、表格或图注]]</div></div>
   <div class="tile"><div class="k">[[With quoted evidence||附原文证据句]]</div><div class="v">64 vs 0</div><div class="s">[[PubTator3 outputs a prediction score only||PubTator3 仅输出预测分值]]</div></div>
  </div>
  <div class="grid2">
@@ -183,7 +183,7 @@ footer{border-top:1px solid var(--grid);margin-top:40px;padding:20px 0;color:var
    <li>[[Extracts 2.8× more relations, each anchored to its supporting sentence.||检出关系数量为基线的 2.8 倍，且每条均锚定原文支撑句。]]</li>
    <li>[[81% draw on full-text sections beyond the abstract: body text, tables, and captions.||81% 的关系证据来自摘要以外的全文内容：正文、表格与图注。]]</li>
    <li>[[Distinguishes novel study findings from background knowledge and flags weak evidence as uncertain (28 pairs).||严格区分本研究新发现与背景文献引用，并将弱证据配对标记为 uncertain（28 对）。]]</li>
-   <li>[[Distinguishes clinical symptoms from formal disease entities.||将临床症状表型与疾病实体严格区分。]]</li>
+   <li>[[Distinguishes clinical symptoms from formal disease entities.||将临床症状与正式的疾病实体区分开。]]</li>
    <li>[[Extracts relations from a Spanish-language paper in which PubTator3 detected no genes.||成功处理一篇西班牙语文献（PubTator3 在该文中未检出任何基因）。]]</li>
   </ul></div>
   <div class="panel"><h3>[[Limitations||局限性]]</h3><ul class="cons">
