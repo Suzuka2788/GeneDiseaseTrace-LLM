@@ -25,10 +25,10 @@ EXAMPLES = [
 ]
 # Miss / extra reasons grouped into what they mean for the comparison.
 FAMILY = {
-    "our pair: not_found": "stricter evidence bar", "our pair: uncertain": "stricter evidence bar",
-    "our pair: explicit_negative": "stricter evidence bar",
-    "disease not recorded by us": "annotation scope", "disease recorded by us as symptom/phenotype": "annotation scope",
-    "gene not recorded by us": "annotation scope",
+    "our pair: not_found": "non-supported decision", "our pair: uncertain": "non-supported decision",
+    "our pair: explicit_negative": "non-supported decision",
+    "disease not recorded by us": "entity missing or excluded", "disease recorded by us as symptom/phenotype": "entity missing or excluded",
+    "gene not recorded by us": "entity missing or excluded",
     "gold has both concepts but no relation": "relation not annotated in gold",
     "disease not a gold disease concept": "our error: endpoint taken as disease",
 }
@@ -152,13 +152,13 @@ select{font:inherit;padding:3px 6px;background:var(--panel);color:var(--ink);bor
 <p class="sub" id="setup"></p>
 <div class="tiles" id="tiles"></div>
 
-<h2>Consistent across BioRED's splits</h2>
-<p class="sub">BioRED ships as Train / Dev / Test. Our method was never trained or tuned on any of them, so all three are unseen data for it — and its scores agree across them.</p>
+<h2>Results by BioRED's original splits</h2>
+<p class="sub">The pipeline was not trained or prompt-tuned on BioRED. Results are reported separately for its original Train / Dev / Test splits. Overlapping confidence intervals do not establish equivalence, and foundation-model pretraining exposure was not assessed.</p>
 <div class="panel" id="splits"></div>
 <p class="note">Strict setting; whiskers are bootstrap 95% intervals. Dev and Test have about 70 abstracts each, so their intervals are wider.</p>
 
 <h2>Head to head with PubTator3 (50-abstract test sample)</h2>
-<p class="sub">PubTator3's public abstract annotations for the frozen 50-abstract test sample, aligned to the same text and scored by the same script and rules as our method. PubTator3 is NCBI's production system; its entity and relation models are trained on BioRED annotations (Train/Dev), so it is compared only on test abstracts. Our method's numbers in this section are for the same 50 abstracts.</p>
+<p class="sub">PubTator3's public abstract annotations for the frozen 50-abstract relation-positive test sample, aligned to the same text and scored by the same script and rules. PubTator3 uses BioRED in training; the exact training split of the deployed models was not verified. Both systems' numbers in this section are for these same 50 abstracts.</p>
 <div class="legend"><span class="sw"><span class="dot" style="background:var(--c3)"></span>Our method</span><span class="sw"><span class="dot" style="background:var(--c2)"></span>PubTator3</span></div>
 <div class="panel" id="h2h"></div>
 <p class="note">Metric rows share a 0–1 scale; count rows are scaled to their larger value. For our method, recall and F1 are shown strict and with pairs we flagged uncertain counted as predictions.</p>
@@ -224,15 +224,14 @@ const nov = R.novelty;
 const P = D.pubtator, PR = P.result.strict, PC = P.result.counts;
 const O = D.ours50, R50 = O, C50 = O.counts, nov50 = O.novelty;
 const SPL = R.by_split, splitF1 = Object.values(SPL).map(v=>v.strict.f1);
-document.getElementById("lead").append(`Across all ${D.papers.length} BioRED abstracts with a gene–disease relation, `, el("b",{},`${pct(C.tp_ours, C.our_supported)} of the relations our method reports are confirmed by the expert annotation`),
-  ` (precision ${f2(R.strict.precision)}, 95% CI ${R.strict.ci95.precision.map(f2).join("–")}), with no training on BioRED and the same scores on every split. `,
-  `On the test sample it is `, el("b",{},"as precise as NCBI's PubTator3"), ` (${f2(R50.strict.precision)} vs ${f2(PR.precision)}), which is trained on BioRED.`);
+document.getElementById("lead").append(`On the ${D.papers.length} relation-positive BioRED abstracts, `, el("b",{},`pair-detection precision is ${f2(R.strict.precision)} and recall is ${f2(R.strict.recall)}`),
+  ` (precision 95% CI ${R.strict.ci95.precision.map(f2).join("–")}). On the separate 50-abstract comparison, precision estimates are ${f2(R50.strict.precision)} vs ${f2(PR.precision)} (ours vs PubTator3); similar estimates do not establish equivalence.`);
 document.getElementById("setup").textContent = `BioRED (Luo et al. 2022): ${D.sample.abstracts} expert-annotated PubMed abstracts; every one with at least one gene–disease relation is included — ${D.papers.length} abstracts (` +
   Object.entries(SPL).map(([k,v])=>`${k} ${v.papers}`).join(", ") + `), ${C.tp_gold + C.fn} gold relations, no sampling. ` +
-  `Our method: Claude Opus 5.5, one request per abstract, frozen variant ${D.variant} — the same decision card as the 100-paper run, never tuned on BioRED. Entities matched by text position; relation type not required.`;
+  `Our method: Claude Opus 5.5, one initial request with validation-triggered repair, frozen variant ${D.variant}, the same decision card as the 100-paper run without BioRED-specific prompt tuning. Entities are matched by overlapping mention spans; relation-type agreement is not required. The other ${D.sample.abstracts-D.papers.length} abstracts were not evaluated, so these are subset pair-detection scores, not official full-task BioRED scores. Quote/offset validation checks provenance, not semantic entailment.`;
 
 [["Precision", f2(R.strict.precision), `${C.tp_ours} of our ${C.our_supported} supported pairs are in the gold set · 95% CI ${R.strict.ci95.precision.map(f2).join("–")}`],
- ["Stable across splits", `F1 ${f2(Math.min(...splitF1))}–${f2(Math.max(...splitF1))}`, Object.entries(SPL).map(([k,v])=>`${k} ${f2(v.strict.f1)}`).join(" · ") + " (strict)"],
+ ["Scores by original split", `F1 ${f2(Math.min(...splitF1))}–${f2(Math.max(...splitF1))}`, Object.entries(SPL).map(([k,v])=>`${k} ${f2(v.strict.f1)}`).join(" · ") + " (strict)"],
  ["Recall", `${f2(R.strict.recall)} → ${f2(R.supported_or_uncertain.recall)}`, `strict, then counting our uncertain pairs as predictions (precision ${f2(R.strict.precision)} → ${f2(R.supported_or_uncertain.precision)})`],
  ["F1", `${f2(R.strict.f1)} – ${f2(R.supported_or_uncertain.f1)}`, "strict to supported + uncertain"],
  ["Novelty agreement", pct(nov.agree, nov.compared), `${nov.agree} of ${nov.compared} matched relations: this study vs background agrees with BioRED`],
@@ -285,8 +284,8 @@ OPS.forEach(([,lab,c])=>{const s=el("span",{class:"sw"});const d=el("span",{clas
 const axis=document.getElementById("axis");[0,.25,.5,.75,1].forEach(t=>{const s=el("span",{},t.toFixed(2));s.style.left=(100*SCALE*t)+"%";axis.append(s)});
 
 document.getElementById("takeaway").textContent =
- `Reading: precision is high in every view (${f2(R.strict.precision)} strict). Recall is where the systems differ by design — over half of the missed relations (${Object.entries(R.fn_reasons).filter(([k])=>D.family[k]==="stricter evidence bar").reduce((a,[,n])=>a+n,0)} of ${C.fn}) are pairs our method read and deliberately did not mark supported. ` +
- `Counting the pairs we flagged uncertain lifts recall from ${f2(R.strict.recall)} to ${f2(R.supported_or_uncertain.recall)} while precision moves from ${f2(R.strict.precision)} to ${f2(R.supported_or_uncertain.precision)}: BioRED annotates hedged statements ("may", "suggest") as relations, while our rules keep them as a separate, explicit state.`;
+ `Of ${C.fn} missed gold relations, ${Object.entries(R.fn_reasons).filter(([k])=>D.family[k]==="non-supported decision").reduce((a,[,n])=>a+n,0)} have both entities captured but a non-supported label, including not_found, uncertain and explicit_negative. This categorizes outputs, not the correctness of the rejection. ` +
+ `Counting uncertain as positive moves recall from ${f2(R.strict.recall)} to ${f2(R.supported_or_uncertain.recall)} and precision from ${f2(R.strict.precision)} to ${f2(R.supported_or_uncertain.precision)}. Independent adjudication is needed to separate policy differences from extraction errors.`;
 
 // Outcome bars
 function bar(id, keysId, parts){const b=document.getElementById(id),k=document.getElementById(keysId);const tot=parts.reduce((a,p)=>a+p[1],0);
@@ -294,7 +293,7 @@ function bar(id, keysId, parts){const b=document.getElementById(id),k=document.g
     const kk=el("span",{class:"sw"});const d=el("span",{class:"dot"});d.style.background=`var(${c})`;kk.append(d,`${lab} — ${n}`);k.append(kk)})}
 document.getElementById("goldHead").textContent=`BioRED's ${C.tp_gold + C.fn} gold relations`;
 const fam = R.fn_reasons, by = f => Object.entries(fam).filter(([k])=>D.family[k]===f).reduce((a,[,n])=>a+n,0);
-bar("goldBar","goldKeys",[["found by our method",C.tp_gold,"--c3"],["we read the pair, not supported",by("stricter evidence bar"),"--mid",true],["entity outside our annotation scope",by("annotation scope"),"--light",true]]);
+bar("goldBar","goldKeys",[["found by our method",C.tp_gold,"--c3"],["both entities captured, non-supported label",by("non-supported decision"),"--mid",true],["entity missing or excluded",by("entity missing or excluded"),"--light",true]]);
 document.getElementById("oursHead").textContent=`Our ${C.our_supported} supported pairs`;
 bar("oursBar","oursKeys",[["in the gold set",C.tp_ours,"--c3"],["gold has both entities, no relation annotated",R.fp_reasons["gold has both concepts but no relation"]||0,"--mid",true],["our error",C.our_supported-C.tp_ours-(R.fp_reasons["gold has both concepts but no relation"]||0),"--c2"]]);
 
@@ -311,12 +310,12 @@ document.getElementById("ptOnlyHead").textContent=`The ${P.pt_only} relations on
     r.append(el("div",{},k.replace("our pair: ","read the pair, judged ")),w,el("div",{class:"n"},String(n)));box.append(r)})})();
 const deliberate = Object.entries(P.pt_only_our_reason).filter(([k])=>k.startsWith("our pair")).reduce((a,[,n])=>a+n,0);
 document.getElementById("h2hTake").textContent =
- `Reading: on the test sample the two systems are equally precise (${f2(R50.strict.precision)} vs ${f2(PR.precision)}); PubTator3 has the higher recall (${f2(PR.recall)} vs ${f2(R50.strict.recall)}, or ${f2(R50.supported_or_uncertain.recall)} counting our uncertain calls). ` +
- `That gap is expected on PubTator3's home ground: it is trained to reproduce these annotations, and ${deliberate} of the ${P.pt_only} relations only it found are pairs our method read and deliberately did not mark supported. ` +
- `What our method adds at the same precision, with no training data and a card built for full-text papers: a this-study/background label (${pct(nov.agree, nov.compared)} agreement with BioRED over all ${D.papers.length} abstracts), a quoted sentence for every relation, an explicit uncertain state, and ${P.ours_only} gold relations PubTator3 missed.`;
+ `On this 50-abstract sample, precision estimates are ${f2(R50.strict.precision)} vs ${f2(PR.precision)}; PubTator3 has higher recall (${f2(PR.recall)} vs ${f2(R50.strict.recall)}) and F1 (${f2(PR.f1)} vs ${f2(R50.strict.f1)}). These results do not establish equal precision. ` +
+ `${deliberate} of the ${P.pt_only} relations found only by PubTator3 received non-supported judgments from our pipeline. Their correctness requires separate review. ` +
+ `Additional outputs include source labels (${pct(nov.agree, nov.compared)} agreement conditional on matched relations across ${D.papers.length} abstracts), quoted source sentences and uncertain states. Our method found ${P.ours_only} gold relations absent from the PubTator3 predictions.`;
 
 // Reasons
-const FAMC = {"stricter evidence bar":"--c1","annotation scope":"--mid","relation not annotated in gold":"--light","our error: endpoint taken as disease":"--c2"};
+const FAMC = {"non-supported decision":"--c1","entity missing or excluded":"--mid","relation not annotated in gold":"--light","our error: endpoint taken as disease":"--c2"};
 Object.entries(FAMC).forEach(([f,c])=>{const s=el("span",{class:"sw"});const d=el("span",{class:"dot"});d.style.background=`var(${c})`;s.append(d,f);document.getElementById("famLegend").append(s)});
 function reasons(id, obj){const box=document.getElementById(id);const max=Math.max(...Object.values(obj));
   Object.entries(obj).sort((a,b)=>b[1]-a[1]).forEach(([k,n])=>{const r=el("div",{class:"reason"});const b=el("div",{class:"b"});b.style.width=(100*n/max)+"%";b.style.background=`var(${FAMC[D.family[k]]||"--mid"})`;

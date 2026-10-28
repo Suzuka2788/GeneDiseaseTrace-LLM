@@ -127,8 +127,8 @@ a{color:var(--c0)}
 <div class="callout" id="callout"></div>
 
 <h2>Cost and time per run of 12 papers</h2>
-<p class="note">First request only, so variants are compared like for like (the baseline ran before two parser fixes and needed extra repair requests).</p>
-<div class="grid2"><div class="panel"><h3>Cost (USD)</h3><div id="cost"></div></div><div class="panel"><h3>Model time (minutes)</h3><div id="time"></div></div></div>
+<p class="note">Bars show totals including repairs; the detailed table also reports first-request costs. V1 ran before two parser fixes and needed extra repairs, so totals include that implementation difference.</p>
+<div class="grid2"><div class="panel"><h3>Total cost including repairs (USD)</h3><div id="cost"></div></div><div class="panel"><h3>Total model time including repairs (minutes)</h3><div id="time"></div></div></div>
 
 <h2>What each variant finds</h2>
 <div class="grid2">
@@ -179,23 +179,23 @@ const bySub = s => V.find(v => v.short === s);
 const v2 = bySub("v2"), v3 = bySub("v3");
 const tiles = [];
 if (v2) tiles.push(["Condensed card vs full rules", `${total(base,"supported")} vs ${total(v2,"supported")} relations`,
-  `card finds more relations and entities; first-request cost ${pctChange(total(v2,"first_cost"), total(base,"first_cost"))} vs full rules`]);
-if (v3) tiles.push(["Effort medium vs low", `${pctChange(total(base,"first_seconds"), total(v3,"first_seconds"))} time`,
-  `low effort: ${pctChange(total(base,"first_cost"), total(v3,"first_cost"))} cost, but ${pctChange(total(base,"supported"), total(v3,"supported"))} supported relations and ${pctChange(total(base,"uncertain"), total(v3,"uncertain"))} uncertain pairs`]);
-tiles.push(["Chosen setting", base.short, `${base.description}: $${fmt(total(base,"first_cost")/12,2)} and ${Math.round(total(base,"first_seconds")/12)} s per paper`]);
+  `first-request cost ${pctChange(total(v2,"first_cost"), total(base,"first_cost"))}; total cost including repairs ${pctChange(total(v2,"cost"), total(base,"cost"))} vs full rules`]);
+if (v3) tiles.push(["Effort medium vs low", `${pctChange(total(base,"seconds"), total(v3,"seconds"))} total time`,
+  `including repairs: ${pctChange(total(base,"cost"), total(v3,"cost"))} cost, ${pctChange(total(base,"supported"), total(v3,"supported"))} supported labels and ${pctChange(total(base,"uncertain"), total(v3,"uncertain"))} uncertain labels`]);
+tiles.push(["Working setting", base.short, `${base.description}: $${fmt(total(base,"cost")/12,2)} and ${Math.round(total(base,"seconds")/12)} s per paper, including repairs`]);
 tiles.forEach(([k,v,s])=>{const t=el("div",{class:"tile"});t.append(el("div",{class:"k"},k),el("div",{class:"v"},v),el("div",{class:"s"},s));document.getElementById("tiles").append(t)});
 document.getElementById("callout").textContent =
- `The baseline (${base.short}) keeps the most detail at a moderate cost, so it is the setting used from here on. ` +
- (v2 ? `Replacing the full rule text with the condensed card did not lose coverage. The largest behavioural difference is in explicit negatives (${total(v2,"explicit_negative")} with full rules vs ${total(base,"explicit_negative")} with the card): most come from one paper's comparison of two CFTR variant groups, a case the rules do not settle and that the next rule version should make explicit. ` : "") +
- (v3 ? `Low effort is the option when speed matters more than completeness.` : "");
+ `The baseline (${base.short}) was selected as the working configuration. More supported labels and high status agreement do not establish greater accuracy or equivalent quality. ` +
+ (v2 ? `The largest label difference is in explicit negatives (${total(v2,"explicit_negative")} with full rules vs ${total(base,"explicit_negative")} with the card), mostly from one paper's CFTR variant comparisons. Those disagreements require independent adjudication. ` : "") +
+ (v3 ? `Low effort used less time and cost, but labeled fewer pairs supported or uncertain. Completeness requires a gold standard.` : "");
 
 function bars(id, key, unit, decimals=0, divisor=1){
   const box=document.getElementById(id);const vals=V.map(v=>(typeof key==="function"?key(v):total(v,key))/divisor);const max=Math.max(...vals,1e-9);
   V.forEach((v,i)=>{const row=el("div",{class:"row"});row.append(el("div",{class:"lab"},v.short));const tr=el("div",{class:"track"});const b=el("div",{class:"bar"});
     b.style.width=(100*vals[i]/max)+"%";b.style.background=color(i);hover(b,`${v.short}: ${unit}${fmt(vals[i],decimals)}`);tr.append(b);
     row.append(tr,el("div",{class:"val"},unit+fmt(vals[i],decimals)));box.append(row)})}
-bars("cost","first_cost","$",2);
-bars("time","first_seconds","",1,60);
+bars("cost","cost","$",2);
+bars("time","seconds","",1,60);
 bars("supported","supported","");
 bars("uncertain","uncertain","");
 bars("negative","explicit_negative","");

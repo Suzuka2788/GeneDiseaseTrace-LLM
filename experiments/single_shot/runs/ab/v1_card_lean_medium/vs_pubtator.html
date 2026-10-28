@@ -66,7 +66,7 @@ ul{margin:4px 0 0;padding-left:18px}li{margin:2px 0}
 </style></head><body><main>
 <h1>Gene–disease extraction: our method vs PubTator3</h1>
 <p class="lead" id="lead"></p>
-<p class="sub">Same 12 benchmark papers, same parsed text. Our method: Claude Opus 5.5, one request per paper with the decision card (variant <b>v1_card_lean_medium</b>). PubTator3: precomputed annotations and relation predictions aligned to the same text blocks. Neither system is used as the answer key: the page counts what each system delivers and where they differ, not accuracy.</p>
+<p class="sub">Same 12 benchmark papers. Our method reads the parsed full text with the decision card (variant <b>v1_card_lean_medium</b>), using one initial request and at most one repair. PubTator3 results are precomputed annotations fetched by PMID and aligned locally; its relations are primarily abstract-derived. Neither system is used as the answer key. Output counts and disagreements do not establish relative accuracy or recall.</p>
 <div class="tiles" id="tiles"></div>
 
 <h2>Head to head</h2>
