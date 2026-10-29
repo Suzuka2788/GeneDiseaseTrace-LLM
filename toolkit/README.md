@@ -62,7 +62,7 @@ python -m toolkit.build judgments.json           # 生成 outputs/<paper>/rules-
 
 工具只检查结构、引文和一致性，不判断语义是否正确。名称有没有漏、关系判得对不对、规则怎么适用，仍然由你按 skill 判断。
 
-## 单次请求模式（scripts/oneshot.py）
+## 单次请求模式（archive/scripts/oneshot.py）
 
 不让模型使用工具，而是由程序把规则、输出格式和原文打包成一个请求（`python -m toolkit.pack [--rules full|card]` 生成 `work/request.md`），模型一次返回精简 JSON（格式写在 `toolkit/pack.py` 的 OUTPUT_FORMAT 里），`python -m toolkit.expand` 把它展开成 `judgments.json`，再由 `toolkit.build` 检查和生成全部文件。检查不通过时，问题清单会发回给模型修正，最多两次。
 

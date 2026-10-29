@@ -54,7 +54,7 @@ def main():
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     from matplotlib.patches import FancyBboxPatch, Rectangle
-    config = read_json(ROOT / "config.json")
+    config = read_json(ROOT / "baseline" / "config.json")
     output = ROOT / config["output_dir"]
     destination = output / "figures"
     destination.mkdir(exist_ok=True)

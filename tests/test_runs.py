@@ -9,9 +9,9 @@ from unittest.mock import patch
 from biomed.io import read_json, write_json
 from biomed.pipeline import prepare, run
 from biomed.results import load_results
-from scripts.plot_integrated_network import pool, write_tables, write_html
-from scripts.plot_total_summary import summary_data
-from scripts.audit_outputs import audit_outputs
+from baseline.plot_integrated_network import pool, write_tables, write_html
+from baseline.plot_total_summary import summary_data
+from baseline.audit_outputs import audit_outputs
 from test_pipeline import JATS, source_document
 
 

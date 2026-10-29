@@ -7,8 +7,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from biomed.io import read_json, write_json
-from scripts.plot_integrated_network import pool
-from scripts.plot_total_summary import summary_data
+from baseline.plot_integrated_network import pool
+from baseline.plot_total_summary import summary_data
 
 
 def audit_figures(output):
@@ -60,7 +60,7 @@ def audit_figures(output):
 
 
 def main():
-    config = read_json(ROOT / "config.json")
+    config = read_json(ROOT / "baseline" / "config.json")
     output = ROOT / config["output_dir"]
     report = audit_figures(output)
     write_json(output / "figures_integrity.json", report)

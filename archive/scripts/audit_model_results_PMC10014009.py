@@ -10,11 +10,11 @@ import xml.etree.ElementTree as ET
 
 from biomed.jats import parse_article
 
-ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'outputs_evidence_audit'/'PMC10014009'
+ROOT=Path(__file__).resolve().parents[2]
+OUT=ROOT / 'archive' / 'outputs_evidence_audit'/'PMC10014009'
 OUT.mkdir(parents=True,exist_ok=True)
-A_DIR=ROOT/'outputs_GPT_6.1_sol'/'PMC10014009'
-B_DIR=ROOT/'outputs_claude_Opus_5.5'/'PMC10014009'
+A_DIR=ROOT / 'archive' / 'outputs_GPT_6.1_sol'/'PMC10014009'
+B_DIR=ROOT / 'archive' / 'outputs_claude_Opus_5.5'/'PMC10014009'
 def read(path):return json.loads(path.read_text(encoding='utf-8-sig'))
 def dump(name,obj): (OUT/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf-8')
 def csvout(name,rows,fields=None):

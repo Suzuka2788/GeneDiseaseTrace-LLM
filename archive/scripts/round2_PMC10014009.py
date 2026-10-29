@@ -15,9 +15,9 @@ from biomed.io import write_csv, write_json
 from biomed.jats import element_text, parse_article
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 RUN='round2_skill_v1.0.0'
-OUT=ROOT/'outputs_GPT_6.1_sol'/RUN/'PMC10014009'
+OUT=ROOT / 'archive' / 'outputs_GPT_6.1_sol'/RUN/'PMC10014009'
 SOURCE=ROOT/'.Input/100papers/PMC10014009.xml'
 SKILL=ROOT/'skills/biomed-gene-disease-evidence'
 

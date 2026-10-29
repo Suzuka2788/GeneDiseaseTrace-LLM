@@ -1,6 +1,6 @@
 """Build the deliverables for a hand-curated paper annotation in manual/ (skill rules 1.1.0).
 
-Usage: python scripts/build_manual_analysis.py PMC10014009
+Usage: python archive/scripts/build_manual_analysis.py PMC10014009
 Writes outputs_<model>/<paper_id>/rules-<version>/ and refuses to overwrite an existing run.
 Every quote, mention offset, matrix and graph is checked; any failure stops the build.
 """
@@ -15,7 +15,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from biomed.io import digest, read_json, write_csv, write_json
 
@@ -305,7 +305,7 @@ document.querySelectorAll('#pairs tbody tr').forEach(function(r){{r.style.displa
 
 
 def main(paper_id):
-    spec = importlib.import_module(f"manual.{paper_id.lower()}")
+    spec = importlib.import_module(f"archive.manual.{paper_id.lower()}")
     out = ROOT / spec.OUTPUT_ROOT / paper_id / f"rules-{spec.RULE_VERSION}"
     if out.exists() and any(out.iterdir()):
         raise SystemExit(f"{out} already exists; rule outputs are not overwritten. Bump RULE_VERSION or move it.")

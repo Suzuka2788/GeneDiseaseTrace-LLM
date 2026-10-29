@@ -8,7 +8,7 @@ file otherwise. Patterns are matched longest-first so nested names go to the mos
 PAPER_ID = "PMC10014009"
 RULE_VERSION = "1.1.0"
 MODEL = "claude-opus-5-5"
-OUTPUT_ROOT = "outputs_claude_Opus_5.5"
+OUTPUT_ROOT = "archive/outputs_claude_Opus_5.5"
 ORDER_BASIS = "outputs/inventory.csv order (first row); also first by file-name order"
 
 HUMAN = "Homo sapiens (patient germline testing)"

@@ -1,6 +1,6 @@
 """Line up several runs' pair judgments through a hand-made entity crosswalk.
 
-Usage: python scripts/compare_blind_runs.py outputs_blind_comparison/PMC10014009/entity_alignment.json
+Usage: python archive/scripts/compare_blind_runs.py archive/outputs_blind_comparison/PMC10014009/entity_alignment.json
 Writes aligned_pairs.csv next to the crosswalk: one row per aligned gene x target, one status column per run,
 plus whether the runs agree. A run without an entity for that concept shows 'absent'.
 """

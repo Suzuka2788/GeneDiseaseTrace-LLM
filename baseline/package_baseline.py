@@ -10,7 +10,7 @@ from biomed import __version__
 
 def main():
     target = ROOT / f"NJITLab_baseline_v{__version__}.zip"
-    files = [ROOT / name for name in ("README.md", "config.json", "run.ps1", ".gitignore", "requirements-figures.txt")]
+    files = [ROOT / name for name in ("README.md", ".gitignore", "baseline/config.json", "baseline/run.ps1", "baseline/requirements-figures.txt")]
     for folder in ("biomed", "scripts", "tests", ".Input", "cache", "outputs"):
         files.extend(path for path in (ROOT / folder).rglob("*")
                      if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc")

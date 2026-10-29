@@ -1,13 +1,13 @@
 """Manage blind run folders: set them up, see their state, hand out prompts and collect results.
 
 Usage:
-  python scripts/blind_runs.py status                     # table of every run folder and its state
-  python scripts/blind_runs.py next                       # first folder not started: prints path, copies prompt to clipboard
-  python scripts/blind_runs.py prompt PMC10487392_GPT-6_Astra   # copy that folder's prompt to the clipboard
-  python scripts/blind_runs.py smoke --model GPT-6_Astra    # tiny test run in a throwaway copy (login, permissions, Python)
-  python scripts/blind_runs.py launch --model GPT-6_Astra --papers PMC10487392 PMC9111839 PMC8626062 PMC10014009
-  python scripts/blind_runs.py collect                    # copy finished runs into outputs_blind/ and re-validate them
-  python scripts/blind_runs.py setup --papers PMC1 PMC2 --models GPT-6_Astra Claude_Opus_5.5
+  python archive/scripts/blind_runs.py status                     # table of every run folder and its state
+  python archive/scripts/blind_runs.py next                       # first folder not started: prints path, copies prompt to clipboard
+  python archive/scripts/blind_runs.py prompt PMC10487392_GPT-6_Astra   # copy that folder's prompt to the clipboard
+  python archive/scripts/blind_runs.py smoke --model GPT-6_Astra    # tiny test run in a throwaway copy (login, permissions, Python)
+  python archive/scripts/blind_runs.py launch --model GPT-6_Astra --papers PMC10487392 PMC9111839 PMC8626062 PMC10014009
+  python archive/scripts/blind_runs.py collect                    # copy finished runs into archive/outputs_blind/ and re-validate them
+  python archive/scripts/blind_runs.py setup --papers PMC1 PMC2 --models GPT-6_Astra Claude_Opus_5.5
 
 Each folder is C:\\Users\\tongz\\blind_runs\\<paper>_<model>\\ and contains only input/, biomed/, skill/
 (rules without boundary cases), toolkit/ and PROMPT.md. Only `launch` starts a model (non-interactive CLI).
@@ -24,13 +24,13 @@ from datetime import datetime, timezone
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from toolkit.validate import validate
 
 BLIND_ROOT = Path.home() / "blind_runs"
 SKILL_SOURCE = Path.home() / ".codex" / "skills" / "biomed-gene-disease-evidence"
-COLLECTED = ROOT / "outputs_blind"
+COLLECTED = ROOT / "archive" / "outputs_blind"
 LOG_ROOT = BLIND_ROOT / "_launch_logs"
 PYTHON = Path.home() / ".cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
 HIDDEN_FROM_RUNS = ("references/boundary-cases.json", "references/boundary-cases.md",

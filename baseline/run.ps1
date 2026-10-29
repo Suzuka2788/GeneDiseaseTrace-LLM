@@ -5,10 +5,11 @@ param(
     [switch]$Offline
 )
 $ErrorActionPreference = 'Stop'
-Set-Location -LiteralPath $PSScriptRoot
+$RepoRoot = Split-Path -Parent $PSScriptRoot
+Set-Location -LiteralPath $RepoRoot
 $env:PYTHONIOENCODING = 'utf-8'
 $pythonCommand = Get-Command python -ErrorAction SilentlyContinue
-$venvPython = Join-Path $PSScriptRoot '.venv\Scripts\python.exe'
+$venvPython = Join-Path $RepoRoot '.venv\Scripts\python.exe'
 if (Test-Path -LiteralPath $venvPython) {
     $pythonExecutable = $venvPython
 } elseif ($pythonCommand) {
@@ -22,9 +23,9 @@ if (Test-Path -LiteralPath $venvPython) {
 if ($Command -eq 'test') {
     & $pythonExecutable -m unittest discover -s tests -v
 } elseif ($Command -eq 'audit') {
-    & $pythonExecutable scripts/audit_outputs.py
+    & $pythonExecutable baseline/audit_outputs.py
 } elseif ($Command -eq 'figures') {
-    foreach ($script in @('scripts/plot_total_summary.py', 'scripts/plot_integrated_network.py', 'scripts/audit_figures.py')) {
+    foreach ($script in @('baseline/plot_total_summary.py', 'baseline/plot_integrated_network.py', 'baseline/audit_figures.py')) {
         & $pythonExecutable $script
         if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
     }

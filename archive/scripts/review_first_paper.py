@@ -10,8 +10,8 @@ import xml.etree.ElementTree as ET
 
 from biomed.jats import parse_article
 
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'outputs_GPT_6.1_sol' / 'PMC10014009'
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / 'archive' / 'outputs_GPT_6.1_sol' / 'PMC10014009'
 OUT.mkdir(parents=True, exist_ok=True)
 article = parse_article(ROOT / '.Input/100papers/PMC10014009.xml')
 blocks = {b['block_id']: b for b in article['blocks']}

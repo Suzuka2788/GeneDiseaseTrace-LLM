@@ -1,6 +1,6 @@
 """Render a self-contained HTML page comparing several blind runs of one paper.
 
-Usage: python scripts/render_blind_comparison.py outputs_blind_comparison/PMC10014009
+Usage: python archive/scripts/render_blind_comparison.py archive/outputs_blind_comparison/PMC10014009
 Reads entity_alignment.json, aligned_pairs.csv and validation_<run>.json from that folder
 (produced by compare_blind_runs.py and validate_contract.py) and writes comparison.html there.
 """

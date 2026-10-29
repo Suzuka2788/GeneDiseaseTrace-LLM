@@ -1,7 +1,7 @@
 """Check a run's output folder against the biomed-gene-disease-evidence data contract.
 
 Usage (from a run folder):   python -m toolkit.validate OUTPUT_DIR input/PAPER.xml
-Usage (from the project):    python scripts/validate_contract.py OUTPUT_DIR XML [--label NAME] [--report PATH]
+Usage (from the project):    python -m toolkit.validate OUTPUT_DIR XML [--label NAME] [--report PATH]
 
 The same checks run on every model's output, independent of any checks the model wrote itself.
 Only structure and quotes are checked; passing says nothing about whether a judgment is right.

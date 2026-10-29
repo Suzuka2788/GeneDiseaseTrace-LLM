@@ -1,9 +1,9 @@
 """Run the skill's frozen boundary cases against a model, with either the full rules or the compressed rules card.
 
 Usage:
-  python scripts/rule_cases.py --model Claude_Opus_5.5 --rules full
-  python scripts/rule_cases.py --model Claude_Opus_5.5 --rules card
-  python scripts/rule_cases.py --compare outputs_rule_tests/A.json outputs_rule_tests/B.json
+  python archive/scripts/rule_cases.py --model Claude_Opus_5.5 --rules full
+  python archive/scripts/rule_cases.py --model Claude_Opus_5.5 --rules card
+  python archive/scripts/rule_cases.py --compare archive/outputs_rule_tests/A.json archive/outputs_rule_tests/B.json
 
 All cases go into one request. The model sees each case's text, context, question and the names of the fields
 to answer, never the expected values or rationale. Each answered field is scored against the frozen expectation.
@@ -19,10 +19,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from oneshot import call_claude, call_codex, extract_json
 from blind_runs import LAUNCH
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 SKILL = Path.home() / ".codex" / "skills" / "biomed-gene-disease-evidence"
 RULE_FILES = ("SKILL.md", "references/decision-rules.md", "references/data-contract.md")
-OUT = ROOT / "outputs_rule_tests"
+OUT = ROOT / "archive" / "outputs_rule_tests"
 
 
 def rules_text(kind):

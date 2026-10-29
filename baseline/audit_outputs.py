@@ -127,7 +127,7 @@ def audit_outputs(output):
 
 
 def main():
-    config = read_json(ROOT / "config.json")
+    config = read_json(ROOT / "baseline" / "config.json")
     output = ROOT / config["output_dir"]
     report = audit_outputs(output)
     write_json(output / "delivery_audit.json", report)

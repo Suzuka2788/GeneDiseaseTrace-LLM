@@ -149,7 +149,7 @@ def run(config, articles, *, limit=None, offline=False, fetch_only=False, paper=
 def main():
     parser = argparse.ArgumentParser(description="Evidence-linked XML literature mining baseline")
     parser.add_argument("command", choices=["prepare", "run", "fetch"])
-    parser.add_argument("--config", default="config.json")
+    parser.add_argument("--config", default="baseline/config.json")
     parser.add_argument("--limit", type=int)
     parser.add_argument("--paper")
     parser.add_argument("--offline", action="store_true")

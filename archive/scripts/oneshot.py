@@ -1,8 +1,8 @@
 """Run papers in single-response mode: one tool-free model call per paper, then the toolkit does the rest.
 
 Usage:
-  python scripts/oneshot.py --model Claude_Opus_5.5 --papers PMC10487392
-  python scripts/oneshot.py --model GPT-6_Astra --papers PMC10487392 PMC9111839 --parallel 2
+  python archive/scripts/oneshot.py --model Claude_Opus_5.5 --papers PMC10487392
+  python archive/scripts/oneshot.py --model GPT-6_Astra --papers PMC10487392 PMC9111839 --parallel 2
 
 Per paper: toolkit.pack builds one request (rules + output format + parsed paper); the model answers with one
 JSON object and has no tools; toolkit.expand + toolkit.build --check verify it; problems are sent back for up to

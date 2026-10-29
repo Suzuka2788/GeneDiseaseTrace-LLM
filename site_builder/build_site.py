@@ -1,6 +1,6 @@
 """Build the public static showcase site (GitHub Pages) from the task presentation and the result pages.
 
-Usage: python scripts/build_site.py
+Usage: python site_builder/build_site.py
 Writes site/ (its own git repository, published as the public repo GeneDiseaseTrace-LLM-site):
   index.html                                   presentation content (from site_index.html, English/Chinese), figures from the run records
   results/ab/ab_summary.html                   A/B test page (links to the three vs_pubtator pages beside it)

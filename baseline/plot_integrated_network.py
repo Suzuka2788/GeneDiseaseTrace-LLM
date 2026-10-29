@@ -233,7 +233,7 @@ DATA.nodes.forEach(n=>['node_','label_'].forEach(p=>{const a=$(p+n.gid);if(a){a.
 
 
 def main():
-    config = read_json(ROOT / "config.json")
+    config = read_json(ROOT / "baseline" / "config.json")
     output = ROOT / config["output_dir"]
     destination = output / "integrated"
     destination.mkdir(parents=True, exist_ok=True)
