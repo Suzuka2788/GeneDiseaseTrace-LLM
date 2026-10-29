@@ -1,3 +1,5 @@
+<p align="right"><b>English</b> | <a href="README.zh-CN.md">简体中文</a></p>
+
 # GeneDiseaseTrace-LLM
 
 Evidence-traceable extraction of gene–disease relations from full-text biomedical papers with an LLM.
