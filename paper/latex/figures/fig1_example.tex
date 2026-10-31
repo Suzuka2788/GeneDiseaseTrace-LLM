@@ -1,0 +1,73 @@
+% Figure 1. Worked example: PMC10014009 (Kim et al., 2023; CC BY-NC-ND 4.0, short quotes).
+% Sentences: runs/full100/v1_card_lean_medium/PMC10014009/outputs/evidence.csv
+% Lines and statuses: .../PMC10014009/response.txt and outputs/pairs.csv
+\newcommand{\fG}[1]{{\setlength{\fboxsep}{0.8pt}\colorbox{genefill}{\strut\textcolor{geneline!80!black}{#1}}}}
+\newcommand{\fD}[1]{{\setlength{\fboxsep}{0.8pt}\colorbox{disfill}{\strut\textcolor{disline!85!black}{#1}}}}
+\newcommand{\fS}[1]{\leavevmode{\ttfamily\tiny\color{muted}#1}}
+\newcommand{\fst}[2]{\leavevmode{\setlength{\fboxsep}{1.2pt}\colorbox{#1}{\textcolor{white}{\sffamily\tiny\bfseries #2}}}}
+\begin{tikzpicture}[font=\sffamily\scriptsize, text=ink]
+% ---------------- Panel A: source text
+\node[panel, text width=8.4cm, minimum height=5.05cm, align=left, anchor=north west] (A) at (0,0) {%
+  {\sffamily\bfseries\small A\enspace Source text with sentence IDs}\\[4pt]
+  \fS{b0011.s3}\enspace \fD{Familial CCM (FCCM)} is an autosomal dominant disorder caused by mutations in three genes, \fG{KRIT1}, \fG{CCM2}, and \fG{PDCD10}.\\[3pt]
+  \fS{b0028.s1}\enspace Cohort 1 consisted of nine patients with \fG{KRIT1} variants, two with \fG{CCM2} variants, two with \fG{PDCD10} variants, \dots\\[3pt]
+  \fS{b0098.s9}\enspace F. Gianfrancesco et al.\ proposed that \fG{ZPLD1} mutation is associated with \fD{FCCM}.\\[3pt]
+  \fS{b0098.s12}\enspace Moreover, gain-of-function (GOF) mutations in \fG{MAP3K3}, encoding \fG{MEKK3}, have been confirmed in \fD{sporadic CCM} patients.\\[3pt]
+  \fS{b0070.s12}\enspace Four patients with \fG{KRIT1} variants had a history of \fD{tumor} or a current \fD{tumor}.};
+% ---------------- Panel B: model output
+\node[panel, text width=6.6cm, minimum height=5.05cm, align=left, anchor=north west] (B) at ($(A.north east)+(0.3,0)$) {%
+  {\sffamily\bfseries\small B\enspace Model output: sentence IDs, no copied text}\\[4pt]
+  {\ttfamily\tiny\color{ink}%
+  E|G5|gene|MAP3K3|MAP3K3;MEKK3|r||human||\\
+  E|D3|disease|sporadic CCM|sporadic CCM;sporadic CCMs|r|||D1|\\
+  EV|V7|b0098.s12|bg|bgr|aff|ebr\\
+  P|G5|D3|sup|a|bg|sup:a:bg:V7|||GOF mutations ...\\
+  P|G4|D2|unc|-|bg|unc:-:bg:V6|hedged\_claim||Cited ...\\
+  P|G1|D13|nf|-|||||V16|Tumor history descriptive only}\\[6pt]
+  {\color{muted}\tiny The validator checks that every surface form occurs verbatim and every sentence ID exists. The expander then turns the lines into quotes, character offsets and the full $8\times20$ pair matrix (160 pairs).}};
+% ---------------- Panel C: expanded pair table (spans both columns)
+\path (A.south west) ++(0,-0.3) coordinate (Cnw);
+\path (B.east) coordinate (Bx);
+\node[panel, text width=15.72cm, align=left, anchor=north west] (C) at (Cnw) {%
+  {\sffamily\bfseries\small C\enspace Expanded pair records (5 of 160 shown)}\\[3pt]
+  \renewcommand{\arraystretch}{1.3}%
+  \begin{tabular}{@{}p{2.6cm}p{2.6cm}p{2.8cm}p{2.6cm}p{3.3cm}@{}}
+  \textbf{Gene -- disease} & \textbf{Status} & \textbf{Source} & \textbf{Evidence} & \textbf{Reason (model)}\\\hline
+  \fG{KRIT1} -- \fD{FCCM} & \fst{stsup}{SUPPORTED} causal & background; this study (association) & \fS{b0011.s3, b0028.s1, b0070.s2-s3} & background causal; genetic diagnosis, co-segregation\\
+  \fG{MAP3K3} -- \fD{sporadic CCM} & \fst{stsup}{SUPPORTED} association & background & \fS{b0098.s12} & GOF mutations confirmed in patients\\
+  \fG{ZPLD1} -- \fD{FCCM} & \fst{stunc}{UNCERTAIN} hedged\_claim & background & \fS{b0098.s9} & cited authors only proposed it\\
+  \fG{MAP3K3} -- \fD{FCCM} & \fst{stunc}{UNCERTAIN} hedged\_claim & this study & \fS{b0098.s13-s14} & ``could be a novel cause''\\
+  \fG{KRIT1} -- \fD{tumor} & \fst{stnf}{NOT FOUND} & -- & \fS{b0070.s12} (context) & co-occurrence in case history only\\
+  \end{tabular}};
+% ---------------- Panel D: per-paper bipartite graph (human genes; 3 animal-model genes omitted)
+\begin{scope}[shift={($(C.south west)+(0,-0.3)$)},
+  gnode/.style={gene, minimum width=1.6cm, font=\sffamily\scriptsize},
+  dnode/.style={dis, minimum width=2.3cm, font=\sffamily\scriptsize},
+  sup/.style={draw=stsup, line width=1pt},
+  unc/.style={draw=stunc, line width=0.9pt, densely dashed}]
+\node[anchor=north west, font=\sffamily\bfseries\small] (Dt) at (0.15,-0.1) {D\enspace Gene--disease graph for this paper};
+\foreach \g/\x in {KRIT1/3.0, CCM2/5.6, PDCD10/8.2, MAP3K3/10.8, ZPLD1/13.4}
+  \node[gnode] (g-\g) at (\x,-1.1) {\g};
+\node[dnode] (d-VM) at (1.5,-2.9) {vascular malformation};
+\node[dnode] (d-CCM) at (4.9,-2.9) {cerebral cavernous malf.};
+\node[dnode] (d-FCCM) at (8.2,-2.9) {familial CCM};
+\node[dnode] (d-SCCM) at (11.3,-2.9) {sporadic CCM};
+\node[dnode, fill=white, draw=stnf, text=stnf] (d-TUM) at (14.4,-2.9) {tumor};
+\foreach \g in {KRIT1, CCM2, PDCD10} {
+  \draw[unc] (g-\g.south) -- (d-VM.north);
+  \draw[sup] (g-\g.south) -- (d-CCM.north);
+  \draw[sup] (g-\g.south) -- (d-FCCM.north);
+}
+\draw[unc] (g-MAP3K3.south) -- (d-FCCM.north);
+\draw[sup] (g-MAP3K3.south) -- (d-SCCM.north);
+\draw[unc] (g-ZPLD1.south) -- (d-FCCM.north);
+\node[anchor=north west, font=\sffamily\tiny, text=muted, align=left] (Dleg) at (0.15,-3.4)
+  {\textcolor{stsup}{\rule[1.5pt]{12pt}{1pt}}\,supported\qquad
+   \textcolor{stunc}{\rule[1.5pt]{3pt}{0.9pt}\,\rule[1.5pt]{3pt}{0.9pt}\,\rule[1.5pt]{3pt}{0.9pt}}\,uncertain (hedged\_claim or presupposed\_only)\qquad
+   grey node: mentioned, no relation (not\_found)\\
+   Not shown: 3 animal-model genes (\textit{Krit1}, \textit{Ccm2}, \textit{Pdcd10}), each supported for CCM.};
+\end{scope}
+\begin{scope}[on background layer]
+  \node[panel, fit={(Dt) (Dleg) (d-TUM) ($(C.south east)+(0,-0.3)$)}] {};
+\end{scope}
+\end{tikzpicture}

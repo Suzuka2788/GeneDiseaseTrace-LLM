@@ -1,0 +1,49 @@
+% Figure 2. The single-request pipeline. Blue = the one LLM call; grey = deterministic code.
+% Counts: experiments/single_shot/README.md (100-paper run); word counts of the frozen V1 card/format.
+% Stage boxes hold top-aligned minipages of equal height so their headings line up.
+\newcommand{\stagebox}[2]{\begin{minipage}[t][3.05cm][t]{#1}\raggedright #2\end{minipage}}
+\begin{tikzpicture}[
+  font=\sffamily\scriptsize, text=ink,
+  stage/.style={draw=rule, fill=panel, rounded corners=3pt, align=left, inner sep=5pt, anchor=north west},
+  llm/.style={stage, draw=ours, fill=genefill, line width=0.8pt},
+  io/.style={draw=rule, fill=white, rounded corners=2pt, text width=2.2cm, align=left, inner sep=4pt},
+]
+% Steps (top-aligned, equal height)
+\node[stage] (pack) at (3.3,0) {\stagebox{2.6cm}{%
+  {\sffamily\bfseries 1\enspace Packing}\par\smallskip
+  Split into blocks and sentences with stable IDs; drop references.\par\smallskip
+  {\ttfamily\tiny\color{muted} b0098.s12}\par\smallskip
+  Card + format $\rightarrow$ cached system prompt.}};
+\node[llm] (gen) at ($(pack.north east)+(0.6,0)$) {\stagebox{3.0cm}{%
+  {\sffamily\bfseries\color{ours} 2\enspace One LLM request}\par\smallskip
+  Claude Opus 5.5, medium effort, no tools. Returns compact lines that cite sentence IDs only:\par\smallskip
+  {\ttfamily\tiny\color{muted} E|G5|gene|MAP3K3|...\\EV|V7|b0098.s12|bg|...\\P|G5|D3|sup|a|bg|...}}};
+\node[stage] (exp) at ($(gen.north east)+(0.6,0)$) {\stagebox{2.6cm}{%
+  {\sffamily\bfseries 3\enspace Expansion}\par\smallskip
+  Locate every surface form verbatim; resolve sentence IDs to quotes and offsets.\par\smallskip
+  Build the full gene $\times$ disease matrix; unlisted pairs $\rightarrow$ {\ttfamily not\_found}.}};
+\node[stage] (val) at ($(exp.north east)+(0.6,0)$) {\stagebox{2.6cm}{%
+  {\sffamily\bfseries 4\enspace Validation}\par\smallskip
+  Surface forms occur in the text; sentence IDs exist; endpoints are primary entities; reason codes are legal.}};
+% Inputs and output, centred on the step row
+\path (pack.west) ++(-0.7,0) coordinate (inmid);
+\node[io, anchor=south east] (paper) at ($(inmid)+(0,0.12)$) {\textbf{Paper}\\full text (PMC XML) or abstract};
+\node[io, anchor=north east] (card) at ($(inmid)+(0,-0.12)$) {\textbf{Frozen decision card}\\1,044 words, plus output format (594 words)};
+\node[io, anchor=west, text width=2.1cm] (out) at ($(val.east)+(0.7,0)$) {\textbf{Traceable output}\\entities and mentions\\evidence quotes\\4-status pair matrix\\bipartite graph};
+% Arrows
+\draw[flow] (paper.east) -- ++(0.3,0) |- ([yshift=3pt]pack.west);
+\draw[flow] (card.east) -- ++(0.3,0) |- ([yshift=-3pt]pack.west);
+\draw[flow] (pack) -- (gen);
+\draw[flow] (gen) -- (exp);
+\draw[flow] (exp) -- (val);
+\draw[flow, draw=stsup] (val) -- node[above, font=\sffamily\tiny, text=stsup] {pass} (out);
+% Repair loop below the row
+\draw[flow, draw=stneg, densely dashed] (val.south) -- ++(0,-0.45) -| (gen.south);
+\node[font=\sffamily\tiny, text=stneg, anchor=north] at ($(gen.south)!0.5!(val.south)+(0,-0.5)$)
+  {fail $\rightarrow$ one repair request with the error list (31 of 100 papers; all format errors)};
+% Legend and totals
+\node[anchor=north west, font=\sffamily\tiny, text=muted] at ($(card.south west)+(0,-0.9)$)
+  {\textcolor{ours}{\rule{6pt}{6pt}}\,LLM call\quad \textcolor{rule!80!black}{\rule{6pt}{6pt}}\,deterministic code};
+\node[anchor=north east, font=\sffamily\tiny, text=muted, align=right] at ($(out.east |- card.south)+(0,-0.9)$)
+  {100-paper corpus: 69 pass on the first request, 100 after one repair;\\mean 78\,s and USD 0.44 per paper};
+\end{tikzpicture}

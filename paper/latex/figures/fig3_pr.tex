@@ -1,0 +1,112 @@
+% Figure 3. Precision-recall operating points with 95% bootstrap CIs.
+% Values from experiments/single_shot/runs/*/*/{biored,euadr,renet2}_eval.json
+% (Test hedged/scope point: experiments/single_shot/README.md, optimization round 1; no CI computed).
+\newcommand{\isoFone}{%
+  \foreach \F in {0.3,0.4,0.5,0.6,0.7,0.8} {
+    \addplot[draw=rule, line width=0.5pt, dashed, domain=\F/2+0.02:0.95, samples=60, forget plot] {\F*x/(2*x-\F)};
+  }
+}
+\newcommand{\isoLabels}{%
+  % F1 contour labels, placed on each curve at recall 0.905
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.905,0.717) {F1=.8};
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.905,0.571) {.7};
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.905,0.449) {.6};
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.905,0.345) {.5};
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.905,0.257) {.4};
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.905,0.180) {.3};
+}
+\newcommand{\isoLabelsZoom}{%
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.83,0.772) {F1=.8};
+  \node[font=\sffamily\tiny, text=muted, anchor=south west, inner sep=1pt] at (axis cs:0.83,0.605) {.7};
+}
+\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=2 by 2, horizontal sep=1.3cm, vertical sep=1.45cm},
+  gdt,
+  width=0.47\linewidth, height=0.40\linewidth,
+  xmin=0.1, xmax=0.95, ymin=0.1, ymax=1.0,
+  xtick={0.2,0.4,0.6,0.8}, ytick={0.2,0.4,0.6,0.8,1.0},
+  xlabel={Recall}, ylabel={Precision},
+  clip mode=individual,
+  error bars/error bar style={line width=0.5pt},
+  error bars/error mark options={rotate=90, mark size=1.2pt, line width=0.5pt},
+  legend style={font=\sffamily\tiny, draw=rule, fill=white, fill opacity=0.9, text opacity=1, row sep=-1pt, inner sep=2pt},
+  legend cell align=left,
+]
+% ---------------- A: BioRED, all 419 and held-out Test 73
+\nextgroupplot[title={A. BioRED: all 419 and held-out Test 73}, xmin=0.25, xmax=0.88, ymin=0.5, ymax=1.0, xtick={0.3,0.4,0.5,0.6,0.7,0.8}, ytick={0.5,0.6,0.7,0.8,0.9,1.0}, legend style={at={(0.02,0.03)}, anchor=south west}]
+\isoFone
+\addplot[ours, line width=0.9pt, mark=*, mark size=1.8pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {
+    (0.430,0.894) += (0.048,0.037) -= (0.044,0.039)
+    (0.577,0.814) += (0.051,0.037) -= (0.051,0.037)
+  };
+\addlegendentry{All 419: strict $\rightarrow$ +\,uncertain}
+\addplot[ours!55, line width=0.9pt, dashed, mark=square*, mark size=1.7pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {
+    (0.397,0.853) += (0.105,0.114) -= (0.096,0.128)
+    (0.498,0.846) += (0,0) -= (0,0)
+    (0.536,0.833) += (0.108,0.078) -= (0.102,0.086)
+  };
+\addlegendentry{Test: strict $\rightarrow$ hedged/scope $\rightarrow$ +\,uncertain}
+\addplot[only marks, mark=o, mark size=2pt, draw=ours, line width=0.8pt] coordinates {(0.468,0.894)};
+\addlegendentry{All 419, scope-adjusted}
+\node[font=\sffamily\tiny, text=ours!60!black, anchor=north east, inner sep=2pt] at (axis cs:0.495,0.835) {Test F1 .627};
+\node[font=\sffamily\tiny, text=ours!60!black, anchor=west, inner sep=2pt] at (axis cs:0.262,0.79) {Test F1 .542};
+\isoLabelsZoom
+% ---------------- B: BioRED 50-abstract Test sample
+\nextgroupplot[title={B. BioRED Test sample (50)}, xmin=0.25, xmax=0.88, ymin=0.5, ymax=1.0, xtick={0.3,0.4,0.5,0.6,0.7,0.8}, ytick={0.5,0.6,0.7,0.8,0.9,1.0}, legend style={at={(0.02,0.03)}, anchor=south west}]
+\isoFone
+\addplot[ours, line width=0.9pt, mark=*, mark size=1.8pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {
+    (0.412,0.835) += (0.117,0.132) -= (0.113,0.136)
+    (0.542,0.833) += (0.129,0.096) -= (0.111,0.098)
+  };
+\addlegendentry{Ours (Claude Opus 5.5)}
+\addplot[gpt, line width=0.9pt, mark=diamond*, mark size=2.2pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {
+    (0.412,0.853) += (0.083,0.138) -= (0.087,0.135)
+    (0.496,0.853) += (0.097,0.119) -= (0.090,0.123)
+  };
+\addlegendentry{Ours with GPT-6.1 Sol}
+\addplot[only marks, pubtator, mark=triangle*, mark size=2.4pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {(0.647,0.827) += (0.157,0.075) -= (0.152,0.095)};
+\addlegendentry{PubTator3 (trained on BioRED)}
+\isoLabelsZoom
+% ---------------- C: EU-ADR, positive associations
+\nextgroupplot[title={C. EU-ADR (100 abstracts, PA)}, legend pos=north east]
+\isoFone
+\addplot[ours, line width=0.9pt, mark=*, mark size=1.8pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {
+    (0.549,0.469) += (0.095,0.131) -= (0.102,0.119)
+    (0.680,0.414) += (0.086,0.097) -= (0.095,0.090)
+  };
+\addlegendentry{Ours: strict $\rightarrow$ +\,uncertain}
+\addplot[only marks, pubtator, mark=triangle*, mark size=2.4pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {(0.754,0.408) += (0.101,0.090) -= (0.107,0.082)};
+\addlegendentry{PubTator3}
+\isoLabels
+% ---------------- D: RENET2 full text
+\nextgroupplot[title={D. RENET2 full text (40 articles)}, legend pos=north east]
+\isoFone
+\addplot[ours, line width=0.9pt, mark=*, mark size=1.8pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {
+    (0.370,0.318) += (0.082,0.152) -= (0.078,0.112)
+    (0.464,0.312) += (0.094,0.140) -= (0.084,0.106)
+  };
+\addlegendentry{Ours: strict $\rightarrow$ +\,uncertain}
+\addplot[only marks, pubtator, mark=triangle*, mark size=2.4pt,
+  error bars/.cd, x dir=both, x explicit, y dir=both, y explicit]
+  coordinates {(0.254,0.623) += (0.130,0.127) -= (0.099,0.112)};
+\addlegendentry{PubTator3 (abstract only)}
+\isoLabels
+\end{groupplot}
+\end{tikzpicture}

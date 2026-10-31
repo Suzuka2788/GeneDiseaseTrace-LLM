@@ -1,0 +1,53 @@
+% Figure 4. Where BioRED recall is lost (A) and which uncertain pairs are worth counting (B).
+% A: 930 missed gold relations, all 419 abstracts (experiments/biored/README.md).
+% B: share of uncertain pairs that are gold relations by reason code, Train+Dev
+%    (experiments/single_shot/README.md, optimization round 1).
+\begin{tikzpicture}
+\begin{axis}[
+  gdt, name=A, clip=false,
+  title={A. The 930 missed BioRED relations},
+  xbar, bar width=7pt, bar shift=0pt,
+  width=0.40\linewidth, height=0.40\linewidth,
+  xmin=0, xmax=345, xtick={0,100,200,300}, xlabel={Gold relations missed},
+  y dir=reverse,
+  symbolic y coords={nf,unc,neg,sym,dis,gen},
+  ytick={nf,unc,neg,sym,dis,gen},
+  yticklabels={judged not\_found, judged uncertain, judged explicit\_neg., disease kept as symptom, disease not recorded, gene not recorded},
+  yticklabel style={font=\sffamily\tiny, align=right},
+  ymajorgrids=false,
+  nodes near coords, nodes near coords style={font=\sffamily\tiny, text=ink},
+  enlarge y limits=0.12,
+]
+\addplot[fill=ours, draw=none] coordinates {(295,nf) (240,unc) (12,neg)};
+\addplot[fill=stnf!70, draw=none] coordinates {(131,sym) (159,dis) (93,gen)};
+\draw[decorate, decoration={brace, amplitude=3pt}, draw=ours, line width=0.6pt]
+  ([yshift=5pt]axis cs:362,nf) -- ([yshift=-5pt]axis cs:362,neg)
+  node[midway, right=4pt, font=\sffamily\tiny, text=ours, align=left] {read and judged\\547 (59\%)};
+\draw[decorate, decoration={brace, amplitude=3pt}, draw=stnf, line width=0.6pt]
+  ([yshift=5pt]axis cs:362,sym) -- ([yshift=-5pt]axis cs:362,gen)
+  node[midway, right=4pt, font=\sffamily\tiny, text=muted, align=left] {entity scope\\383 (41\%)};
+\end{axis}
+\begin{axis}[
+  gdt, at={(A.east)}, anchor=west, xshift=3.9cm,
+  title={B. Uncertain pairs that are gold relations},
+  ybar, bar width=13pt, bar shift=0pt,
+  width=0.50\linewidth, height=0.40\linewidth,
+  ymin=0, ymax=100, ylabel={\% gold relations (Train+Dev)},
+  symbolic x coords={hed,hs,sco,pre,ide},
+  xtick={hed,hs,sco,pre,ide},
+  xticklabels={hedged\\only, hedged\\+\,scope, scope\\only, presup-\\posed, identity},
+  xticklabel style={font=\sffamily\tiny, align=center},
+  xmajorgrids=false,
+  nodes near coords={\pgfmathprintnumber{\pgfplotspointmeta}\%},
+  nodes near coords style={font=\sffamily\tiny, text=ink},
+  enlarge x limits=0.13,
+]
+\addplot[fill=ours, draw=none] coordinates {(hed,82) (hs,75) (sco,62)};
+\addplot[fill=stnf!70, draw=none] coordinates {(pre,38) (ide,6)};
+\draw[densely dashed, draw=stsup, line width=0.7pt] (rel axis cs:0,0.894) -- (rel axis cs:1,0.894)
+  node[pos=1, anchor=south east, font=\sffamily\tiny, text=stsup, inner sep=1.5pt] {supported pairs (all 419): 89\%};
+\end{axis}
+\node[font=\sffamily\tiny, anchor=north] at ($(current bounding box.south)+(0,-0.05cm)$)
+  {\textcolor{ours}{\rule{6pt}{6pt}}\,\textcolor{ink}{A: read and judged; B: counted at the hedged/scope operating point}\qquad
+   \textcolor{stnf!70}{\rule{6pt}{6pt}}\,\textcolor{muted}{A: entity scope; B: left out}};
+\end{tikzpicture}

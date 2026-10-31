@@ -1,0 +1,54 @@
+% Shared palette and TikZ/pgfplots settings for all figures (loaded by main.tex
+% and graphical_abstract.tex). Colours are colour-blind safe (Okabe-Ito based).
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc,shapes.misc,decorations.pathreplacing}
+
+% Systems
+\definecolor{ours}{HTML}{0B5CAD}      % our method (Claude Opus 5.5)
+\definecolor{gpt}{HTML}{009E73}       % our method with GPT-6.1 Sol
+\definecolor{pubtator}{HTML}{D55E00}  % PubTator3
+% Entities
+\definecolor{genefill}{HTML}{DCEBFA}
+\definecolor{geneline}{HTML}{0B5CAD}
+\definecolor{disfill}{HTML}{FBE3D6}
+\definecolor{disline}{HTML}{C2410C}
+% Statuses
+\definecolor{stsup}{HTML}{1B7F4B}
+\definecolor{stunc}{HTML}{C98A00}
+\definecolor{stneg}{HTML}{B4233C}
+\definecolor{stnf}{HTML}{8A8F98}
+% Neutrals
+\definecolor{ink}{HTML}{1F2933}
+\definecolor{muted}{HTML}{6B7280}
+\definecolor{rule}{HTML}{D1D5DB}
+\definecolor{panel}{HTML}{F5F7FA}
+
+\tikzset{
+  panel/.style={draw=rule, fill=panel, rounded corners=3pt, inner sep=6pt},
+  paneltitle/.style={font=\sffamily\bfseries\small, text=ink, anchor=north west},
+  gene/.style={fill=genefill, draw=geneline, rounded corners=1.5pt, inner sep=1.6pt, font=\sffamily\scriptsize},
+  dis/.style={fill=disfill, draw=disline, rounded corners=1.5pt, inner sep=1.6pt, font=\sffamily\scriptsize},
+  badge/.style={rounded corners=2pt, inner sep=1.8pt, font=\sffamily\tiny\bfseries, text=white},
+  flow/.style={-{Stealth[length=2.2mm]}, line width=0.9pt, draw=ink},
+}
+% Inline highlights inside text nodes
+\newcommand{\hlgene}[1]{\tikz[baseline=(g.base)]\node[fill=genefill, inner sep=0.6pt, rounded corners=1pt] (g) {\strut #1};}
+\newcommand{\hldis}[1]{\tikz[baseline=(d.base)]\node[fill=disfill, inner sep=0.6pt, rounded corners=1pt] (d) {\strut #1};}
+\newcommand{\sid}[1]{{\ttfamily\color{muted}\tiny[#1]}}
+\newcommand{\badge}[2]{\tikz[baseline=(b.base)]\node[badge, fill=#1] (b) {#2};}
+
+\pgfplotsset{
+  gdt/.style={
+    font=\sffamily\scriptsize,
+    tick label style={font=\sffamily\tiny},
+    label style={font=\sffamily\scriptsize},
+    title style={font=\sffamily\bfseries\scriptsize, align=center},
+    axis line style={draw=muted},
+    tick style={draw=muted},
+    major grid style={draw=rule!70, line width=0.3pt},
+    grid=major,
+  },
+}
