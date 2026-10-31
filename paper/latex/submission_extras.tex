@@ -1,0 +1,39 @@
+%% Items JBI collects separately from the manuscript at submission:
+%% Highlights (3-5 bullets, at most 85 characters each) and the Statement of significance.
+%% Build: latexmk -pdf submission_extras.tex
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs,tabularx}
+\usepackage{xcolor}
+\definecolor{stneg}{HTML}{B4233C}
+\newcommand{\todo}[1]{\textcolor{stneg}{[TODO: #1]}}
+\pagestyle{empty}
+
+\begin{document}
+
+\section*{Highlights}
+\begin{itemize}
+\item One LLM request per paper yields gene--disease pairs with checkable evidence.
+\item Four statuses separate supported, hedged, negative and absent relations.
+\item Precision 0.894 on 419 BioRED abstracts; few contradictions of negative labels.
+\item Re-querying missed pairs added no relations: the gap is an evidence standard.
+\item A reason-code operating point raised held-out F1 from 0.542 to 0.627.
+\end{itemize}
+
+\section*{Statement of significance}
+\todo{check the required form in the JBI guide for authors}
+
+\medskip
+\noindent
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{3.4cm}X@{}}
+\toprule
+Problem & Curators need gene--disease relations with evidence, status and source. Extraction tools return only positive pairs, mostly from abstracts.\\
+What is already known & Supervised extractors reach high F1 on in-domain benchmarks such as BioRED. Zero-shot LLMs have been reported to lag in recall and consistency.\\
+What this paper adds & A frozen decision card that gives an LLM high precision, checkable evidence and four-way statuses on three benchmarks and on full text. Evidence that much of the measured gap reflects differing annotation standards. An operating point that recovers recall on held-out data.\\
+\bottomrule
+\end{tabularx}
+
+\end{document}
